@@ -1,16 +1,23 @@
 <script lang="ts">
   // src/components/WordListView.svelte
+  // Lists vocabulary words ranked by frequency.
+  // For Syn/Ant pages: sorts by asStem or asOption (overall).
+  // For OWS/Idioms/Homonyms/Spelling pages: filters to words that appeared in
+  // that specific question type, then sorts by appearance count in that type.
+
   import WordCard from './WordCard.svelte';
-  import type { WordEntry } from '../lib/vocab-data';
+  import type { WordEntry, QTypeExtended } from '../lib/vocab-data';
 
   let {
     words = [],
     view = 'stems',
+    qtypeFilter = null,
     loading = false,
     onSelectWord = () => {},
   }: {
     words?: WordEntry[];
-    view?: 'stems' | 'options';
+    view: 'stems' | 'options';
+    qtypeFilter?: QTypeExtended | null;
     loading?: boolean;
     onSelectWord?: (w: WordEntry) => void;
   } = $props();
@@ -25,16 +32,17 @@
 
   const PAGE_SIZE = 60;
 
-  // All exam names
   const allExams = $derived(
-    Array.from(
-      new Set(
-        words.flatMap((w) => [...w.stemExams, ...w.optionExams])
-      )
-    ).sort()
+    Array.from(new Set(words.flatMap((w) => [...w.stemExams, ...w.optionExams]))).sort()
   );
 
-  // Filtered + sorted words
+  function countInQtype(w: WordEntry, qt: QTypeExtended): { asStem: number; asOption: number } {
+    return {
+      asStem: w.qtypesAsStem[qt] ?? 0,
+      asOption: w.qtypesAsOption[qt] ?? 0,
+    };
+  }
+
   const filtered = $derived.by(() => {
     const q = query.trim().toLowerCase();
     let result = words.filter((w) => {
@@ -46,16 +54,40 @@
       if (w.asOption < minOption) return false;
       return true;
     });
-    if (view === 'stems') result = result.filter((w) => w.asStem > 0);
-    else if (view === 'options') result = result.filter((w) => w.asOption > 0);
+
+    if (qtypeFilter) {
+      result = result.filter((w) => {
+        const c = countInQtype(w, qtypeFilter);
+        return c.asStem > 0 || c.asOption > 0;
+      });
+    } else {
+      if (view === 'stems') result = result.filter((w) => w.asStem > 0);
+      else if (view === 'options') result = result.filter((w) => w.asOption > 0);
+    }
 
     const sorted = [...result];
     if (sort === 'frequency') {
-      sorted.sort((a, b) => {
-        const primary = view === 'stems' ? b.asStem - a.asStem : b.asOption - a.asOption;
-        if (primary !== 0) return primary;
-        return (b.total - a.total) || a.word.localeCompare(b.word);
-      });
+      if (qtypeFilter) {
+        const qt = qtypeFilter;
+        sorted.sort((a, b) => {
+          const ac = countInQtype(a, qt);
+          const bc = countInQtype(b, qt);
+          if (qt === 'synonym' || qt === 'antonym') {
+            const primary = bc.asStem - ac.asStem;
+            if (primary !== 0) return primary;
+            const sec = bc.asOption - ac.asOption;
+            if (sec !== 0) return sec;
+            return a.word.localeCompare(b.word);
+          }
+          const primary = bc.asOption - ac.asOption;
+          if (primary !== 0) return primary;
+          return a.word.localeCompare(b.word);
+        });
+      } else if (view === 'stems') {
+        sorted.sort((a, b) => b.asStem - a.asStem || (b.total - a.total) || a.word.localeCompare(b.word));
+      } else {
+        sorted.sort((a, b) => b.asOption - a.asOption || (b.total - a.total) || a.word.localeCompare(b.word));
+      }
     } else {
       sorted.sort((a, b) => a.word.localeCompare(b.word));
     }
@@ -66,7 +98,6 @@
   const currentPage = $derived(Math.min(page, totalPages));
   const pageItems = $derived(filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE));
 
-  // Reset page when query changes
   function handleQuery(v: string) {
     query = v;
     page = 1;
@@ -90,7 +121,7 @@
           type="search"
           value={query}
           on:input={(e) => handleQuery((e.target as HTMLInputElement).value)}
-          placeholder={`Search ${view === 'stems' ? 'question stem' : 'option choice'} words...`}
+          placeholder="Search words..."
           class="w-full pl-9 pr-3 py-2 text-sm bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400/40"
         />
       </div>
@@ -176,7 +207,7 @@
   <!-- Word grid -->
   {#if loading}
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
-      {#each Array(12) as _, i}
+      {#each Array(12) as _}
         <div class="h-32 rounded-lg bg-zinc-100 dark:bg-zinc-800 animate-pulse"></div>
       {/each}
     </div>
@@ -191,6 +222,7 @@
           word={w}
           rank={(currentPage - 1) * PAGE_SIZE + i + 1}
           {view}
+          {qtypeFilter}
           onSelect={onSelectWord}
         />
       {/each}

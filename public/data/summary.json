@@ -25,29 +25,29 @@
     "SSC MTS 2024",
     "SSC MTS 2026"
   ],
-  "totalQuestions": 4475,
+  "totalQuestions": 4892,
   "byType": {
-    "idiom": 887,
-    "one-word": 755,
-    "antonym": 1043,
-    "synonym": 890,
-    "spelling": 866,
+    "idiom": 976,
+    "one-word": 896,
+    "antonym": 1124,
+    "synonym": 947,
+    "spelling": 915,
     "homonym": 34
   },
-  "totalSynonymAntonym": 1933,
-  "totalOneWord": 755,
-  "totalIdioms": 887,
+  "totalSynonymAntonym": 2071,
+  "totalOneWord": 896,
+  "totalIdioms": 976,
   "totalHomonyms": 34,
-  "totalSpelling": 866,
-  "totalUniqueWords": 6359,
+  "totalSpelling": 915,
+  "totalUniqueWords": 11230,
   "questionsPerFile": [
     {
       "exam": "SSC CGL Tier1 2019",
-      "questions": 176
+      "questions": 190
     },
     {
       "exam": "SSC CGL Tier1 2020",
-      "questions": 139
+      "questions": 146
     },
     {
       "exam": "SSC CGL Tier1 2021",
@@ -55,23 +55,23 @@
     },
     {
       "exam": "SSC CGL Tier1 2022",
-      "questions": 351
+      "questions": 353
     },
     {
       "exam": "SSC CGL Tier1 2023",
-      "questions": 130
+      "questions": 133
     },
     {
       "exam": "SSC CGL Tier1 2024",
-      "questions": 378
+      "questions": 387
     },
     {
       "exam": "SSC CGL Tier1 2025",
-      "questions": 152
+      "questions": 225
     },
     {
       "exam": "SSC CGL Tier2 All Years",
-      "questions": 262
+      "questions": 272
     },
     {
       "exam": "SSC CHSL 2021",
@@ -79,59 +79,59 @@
     },
     {
       "exam": "SSC CHSL 2022",
-      "questions": 67
+      "questions": 97
     },
     {
       "exam": "SSC CHSL 2023",
-      "questions": 199
+      "questions": 209
     },
     {
       "exam": "SSC CHSL 2024",
-      "questions": 331
+      "questions": 340
     },
     {
       "exam": "SSC CPO 2020",
-      "questions": 139
+      "questions": 150
     },
     {
       "exam": "SSC CPO 2021",
-      "questions": 55
+      "questions": 58
     },
     {
       "exam": "SSC CPO 2022",
-      "questions": 257
+      "questions": 266
     },
     {
       "exam": "SSC CPO 2023",
-      "questions": 259
+      "questions": 267
     },
     {
       "exam": "SSC CPO 2024",
-      "questions": 250
+      "questions": 254
     },
     {
       "exam": "SSC CPO 2025",
-      "questions": 61
+      "questions": 88
     },
     {
       "exam": "SSC MTS 2019",
-      "questions": 76
+      "questions": 95
     },
     {
       "exam": "SSC MTS 2022",
-      "questions": 203
+      "questions": 342
     },
     {
       "exam": "SSC MTS 2023",
-      "questions": 286
+      "questions": 284
     },
     {
       "exam": "SSC MTS 2024",
-      "questions": 557
+      "questions": 584
     },
     {
       "exam": "SSC MTS 2026",
-      "questions": 29
+      "questions": 34
     }
   ]
 }

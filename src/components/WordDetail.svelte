@@ -128,7 +128,7 @@
       </div>
     </div>
     {#if allExams.length > 0}
-      <div class="p-5 pt-4">
+      <div class="p-5 pt-4 space-y-3">
         <div class="flex flex-wrap gap-1.5">
           {#each allExams as exam}
             {@const isStem = word.stemExams.includes(exam)}
@@ -143,6 +143,26 @@
             >
               {exam}{isStem && isOption ? ' (S+O)' : isStem ? ' (S)' : ' (O)'}
             </span>
+          {/each}
+        </div>
+        <!-- Per-question-type breakdown -->
+        <div class="flex flex-wrap gap-2 pt-2 border-t border-zinc-200 dark:border-zinc-700">
+          <span class="text-[11px] font-medium text-zinc-500 self-center mr-1">Question types:</span>
+          {#each [
+            { key: 'synonym', label: 'Syn', color: 'bg-sky-100 text-sky-900 border-sky-300 dark:bg-sky-950/40 dark:text-sky-200 dark:border-sky-800' },
+            { key: 'antonym', label: 'Ant', color: 'bg-rose-100 text-rose-900 border-rose-300 dark:bg-rose-950/40 dark:text-rose-200 dark:border-rose-800' },
+            { key: 'one-word', label: 'OWS', color: 'bg-violet-100 text-violet-900 border-violet-300 dark:bg-violet-950/40 dark:text-violet-200 dark:border-violet-800' },
+            { key: 'idiom', label: 'Idiom', color: 'bg-orange-100 text-orange-900 border-orange-300 dark:bg-orange-950/40 dark:text-orange-200 dark:border-orange-800' },
+            { key: 'homonym', label: 'Hom', color: 'bg-pink-100 text-pink-900 border-pink-300 dark:bg-pink-950/40 dark:text-pink-200 dark:border-pink-800' },
+            { key: 'spelling', label: 'Spell', color: 'bg-teal-100 text-teal-900 border-teal-300 dark:bg-teal-950/40 dark:text-teal-200 dark:border-teal-800' },
+          ] as qt}
+            {@const stemCount = word.qtypesAsStem[qt.key] ?? 0}
+            {@const optCount = word.qtypesAsOption[qt.key] ?? 0}
+            {#if stemCount > 0 || optCount > 0}
+              <span class="text-[10px] font-medium border rounded-md px-2 py-0.5 {qt.color}" title={`${qt.label}: ${stemCount} as stem, ${optCount} as option`}>
+                {qt.label}: {stemCount}S+{optCount}O
+              </span>
+            {/if}
           {/each}
         </div>
       </div>

@@ -21,12 +21,12 @@
 
   // Module cards config
   const modules = [
-    { id: 'stems', title: 'Module 1 — Main Question Stems', desc: 'Words that appeared as the main question word in synonym/antonym questions. Sorted most-repeated → least.', count: summary.totalSynonymAntonym, top: topStems[0]?.asStem ?? 0, accent: 'amber', icon: 'stems' },
+    { id: 'stems', title: 'Module 1 — Main Question Stems', desc: 'Words that appeared as the main question word in synonym/antonym questions. Sorted most-repeated → least.', count: summary.totalUniqueWords, top: topStems[0]?.asStem ?? 0, accent: 'amber', icon: 'stems' },
     { id: 'options', title: 'Module 2 — Option Choices', desc: 'Words that appeared strictly as one of the four option choices. Sorted most-repeated → least.', count: summary.totalUniqueWords, top: topOptions[0]?.asOption ?? 0, accent: 'emerald', icon: 'options' },
-    { id: 'ows', title: 'Module 3 — One-Word Substitution', desc: 'All one-word substitution questions with description phrases and 4 options each.', count: summary.totalOneWord, top: 0, accent: 'violet', icon: 'ows' },
-    { id: 'idioms', title: 'Module 4 — Idioms & Phrases', desc: 'Idiom meanings, idiom fill-in-the-blank, and substitute-with-idiom question types.', count: summary.totalIdioms, top: 0, accent: 'orange', icon: 'idiom' },
-    { id: 'homonyms', title: 'Module 5 — Homonyms & Homophones', desc: 'Fill-in-the-blank questions testing homophone pairs (e.g. aide/aid/add).', count: summary.totalHomonyms, top: 0, accent: 'pink', icon: 'homonym' },
-    { id: 'spelling', title: 'Module 6 — Spelling', desc: 'Correctly spelt / incorrectly spelt / spelling-error questions from SSC papers.', count: summary.totalSpelling, top: 0, accent: 'sky', icon: 'spelling' },
+    { id: 'ows', title: 'Module 3 — One-Word Substitution', desc: 'Words that appeared as options in one-word substitution questions. Sorted by frequency in OWS questions.', count: summary.totalOneWord, top: 0, accent: 'violet', icon: 'ows' },
+    { id: 'idioms', title: 'Module 4 — Idioms & Phrases', desc: 'Vocabulary words that appeared as options in idiom and phrase questions. Sorted by frequency.', count: summary.totalIdioms, top: 0, accent: 'orange', icon: 'idiom' },
+    { id: 'homonyms', title: 'Module 5 — Homonyms & Homophones', desc: 'Words that appeared as options in homonym/homophone fill-in-the-blank questions.', count: summary.totalHomonyms, top: 0, accent: 'pink', icon: 'homonym' },
+    { id: 'spelling', title: 'Module 6 — Spelling', desc: 'Words that appeared as options in correctly/incorrectly spelt questions. Sorted by frequency.', count: summary.totalSpelling, top: 0, accent: 'sky', icon: 'spelling' },
   ] as const;
 
   const accentMap: Record<string, { bg: string; text: string; border: string }> = {

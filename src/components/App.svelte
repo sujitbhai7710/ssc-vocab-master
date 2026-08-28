@@ -3,14 +3,11 @@
   import Dashboard from './Dashboard.svelte';
   import WordListView from './WordListView.svelte';
   import WordDetail from './WordDetail.svelte';
-  import QuestionListView from './QuestionListView.svelte';
   import {
     loadSummary,
     loadWords,
-    loadQuestions,
     type WordEntry,
     type SummaryStats,
-    type QuestionEntry,
   } from '../lib/vocab-data';
 
   type View = 'home' | 'stems' | 'options' | 'ows' | 'idioms' | 'homonyms' | 'spelling' | 'word';
@@ -19,9 +16,7 @@
   let selectedWord: WordEntry | null = $state(null);
   let summary: SummaryStats | null = $state(null);
   let words: WordEntry[] = $state([]);
-  let allQuestions: QuestionEntry[] = $state([]);
   let loadingWords = $state(true);
-  let loadingQuestions = $state(false);
 
   // Load summary + words on mount (browser only)
   if (typeof window !== 'undefined') {
@@ -37,20 +32,6 @@
     })();
   }
 
-  // Lazy-load questions when navigating to a question-type view
-  async function ensureQuestionsLoaded() {
-    if (allQuestions.length > 0 || loadingQuestions) return;
-    loadingQuestions = true;
-    try {
-      const { questions } = await loadQuestions();
-      allQuestions = questions;
-    } catch (err) {
-      console.error('Failed to load questions:', err);
-    } finally {
-      loadingQuestions = false;
-    }
-  }
-
   function selectWord(w: WordEntry) {
     selectedWord = w;
     view = 'word';
@@ -60,9 +41,6 @@
   function navigate(v: 'stems' | 'options' | 'ows' | 'idioms' | 'homonyms' | 'spelling') {
     view = v;
     if (typeof window !== 'undefined') window.scrollTo({ top: 0, behavior: 'smooth' });
-    if (['ows', 'idioms', 'homonyms', 'spelling'].includes(v)) {
-      ensureQuestionsLoaded();
-    }
   }
 
   function backToList() {
@@ -74,12 +52,6 @@
   const topWords = $derived([...words].sort((a, b) => b.total - a.total).slice(0, 10));
   const topStems = $derived([...words].filter((w) => w.asStem > 0).sort((a, b) => b.asStem - a.asStem).slice(0, 10));
   const topOptions = $derived([...words].filter((w) => w.asOption > 0).sort((a, b) => b.asOption - a.asOption).slice(0, 10));
-
-  // Filtered questions per type
-  const owsQuestions = $derived(allQuestions.filter((q) => q.qtype === 'one-word'));
-  const idiomQuestions = $derived(allQuestions.filter((q) => q.qtype === 'idiom'));
-  const homonymQuestions = $derived(allQuestions.filter((q) => q.qtype === 'homonym'));
-  const spellingQuestions = $derived(allQuestions.filter((q) => q.qtype === 'spelling'));
 
   const navItems = [
     { id: 'home', label: 'Home', icon: 'home' },
@@ -187,52 +159,52 @@
         <div>
           <h2 class="text-xl font-bold tracking-tight flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-violet-600"><path d="M4 7V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3"/><path d="M9 22h6"/><path d="M12 18v4"/><path d="M4 7a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"/></svg>
-            Module 3 — One-Word Substitution
+            Module 3 — One-Word Substitution (Vocabulary)
           </h2>
           <p class="text-sm text-zinc-500 mt-1 leading-relaxed">
-            All {summary?.totalOneWord ?? 755} one-word substitution questions from 5 years of SSC papers. Each shows the description phrase and 4 options with the best-guess correct answer highlighted.
+            Words that appeared as options in {summary?.totalOneWord ?? 755} one-word substitution questions across SSC exams. Sorted from most repeated to least repeated.
           </p>
         </div>
-        <QuestionListView questions={owsQuestions} qtype="one-word" loading={loadingQuestions} />
+        <WordListView {words} view="options" qtypeFilter="one-word" loading={loadingWords} onSelectWord={selectWord} />
       </section>
     {:else if view === 'idioms'}
       <section class="space-y-4">
         <div>
           <h2 class="text-xl font-bold tracking-tight flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-600"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-            Module 4 — Idioms & Phrases
+            Module 4 — Idioms & Phrases (Vocabulary)
           </h2>
           <p class="text-sm text-zinc-500 mt-1 leading-relaxed">
-            All {summary?.totalIdioms ?? 887} idiom and phrase questions from 5 years of SSC papers — including "meaning of the idiom", "fill in the blank with idiom", and "substitute with idiom".
+            Vocabulary words that appeared as options in {summary?.totalIdioms ?? 887} idiom and phrase questions across SSC exams. Sorted from most repeated to least repeated.
           </p>
         </div>
-        <QuestionListView questions={idiomQuestions} qtype="idiom" loading={loadingQuestions} />
+        <WordListView {words} view="options" qtypeFilter="idiom" loading={loadingWords} onSelectWord={selectWord} />
       </section>
     {:else if view === 'homonyms'}
       <section class="space-y-4">
         <div>
           <h2 class="text-xl font-bold tracking-tight flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-pink-600"><path d="M12 22V12"/><path d="M2 12h20"/><circle cx="12" cy="6" r="4"/></svg>
-            Module 5 — Homonyms & Homophones
+            Module 5 — Homonyms & Homophones (Vocabulary)
           </h2>
           <p class="text-sm text-zinc-500 mt-1 leading-relaxed">
-            All {summary?.totalHomonyms ?? 34} homonym/homophone "fill in the blank" questions from 5 years of SSC papers.
+            Words that appeared as options in {summary?.totalHomonyms ?? 34} homonym/homophone fill-in-the-blank questions. Sorted from most repeated to least repeated.
           </p>
         </div>
-        <QuestionListView questions={homonymQuestions} qtype="homonym" loading={loadingQuestions} />
+        <WordListView {words} view="options" qtypeFilter="homonym" loading={loadingWords} onSelectWord={selectWord} />
       </section>
     {:else if view === 'spelling'}
       <section class="space-y-4">
         <div>
           <h2 class="text-xl font-bold tracking-tight flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-sky-600"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="m9 11 2 2 4-4"/></svg>
-            Module 6 — Spelling
+            Module 6 — Spelling (Vocabulary)
           </h2>
           <p class="text-sm text-zinc-500 mt-1 leading-relaxed">
-            All {summary?.totalSpelling ?? 866} spelling questions from 5 years of SSC papers — "correctly spelt word", "incorrectly spelt word", and "spelling error" types.
+            Words that appeared as options in {summary?.totalSpelling ?? 866} spelling questions (correctly spelt / misspelt / spelling error). Sorted from most repeated to least repeated.
           </p>
         </div>
-        <QuestionListView questions={spellingQuestions} qtype="spelling" loading={loadingQuestions} />
+        <WordListView {words} view="options" qtypeFilter="spelling" loading={loadingWords} onSelectWord={selectWord} />
       </section>
     {:else if view === 'word' && selectedWord}
       <WordDetail word={selectedWord} onBack={backToList} />

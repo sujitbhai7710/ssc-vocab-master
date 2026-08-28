@@ -1,0 +1,23 @@
+---
+// src/pages/voice/[slug].astro
+import Layout from '../../layouts/Layout.astro';
+import TopicRulesView from '../../components/TopicRulesView.svelte';
+import { readFileSync } from 'node:fs';
+
+export function getStaticPaths() {
+  const sections = JSON.parse(readFileSync('public/data/grammar/voice_rules.json', 'utf-8'));
+  const slug = (s) => `${s.no}-${s.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`;
+  return sections.map((s) => ({ params: { slug: slug(s) }, props: { section: s } }));
+}
+
+const { section } = Astro.props;
+const allSections = JSON.parse(readFileSync('public/data/grammar/voice_rules.json', 'utf-8'));
+const qArr = JSON.parse(readFileSync('public/data/grammar/voice_questions.json', 'utf-8'));
+const questions = {};
+for (const x of qArr) questions[x.id] = x;
+---
+<Layout title={`Voice · ${section.title} | SSC Vocab Master`} activeNav="voice">
+  <section>
+    <TopicRulesView client:load section={section} kind="voice" allSections={allSections} questions={questions} />
+  </section>
+</Layout>

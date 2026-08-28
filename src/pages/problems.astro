@@ -1,0 +1,10 @@
+---
+// src/pages/problems.astro
+import Layout from '../layouts/Layout.astro';
+import ProblemsView from '../components/ProblemsView.svelte';
+---
+<Layout title="Problematic Items | SSC Vocab Master" activeNav="problems">
+  <section>
+    <ProblemsView client:load />
+  </section>
+</Layout>

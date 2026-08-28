@@ -1,0 +1,12 @@
+---
+// src/pages/voice.astro
+import Layout from '../layouts/Layout.astro';
+import TopicLanding from '../components/TopicLanding.svelte';
+import ProgressTracker from '../components/ProgressTracker.svelte';
+---
+<Layout title="Voice (Active–Passive) Rules & PYQs | SSC Vocab Master" activeNav="voice">
+  <section class="space-y-4">
+    <ProgressTracker client:idle pageType="voice" total={10} />
+    <TopicLanding client:load kind="voice" />
+  </section>
+</Layout>

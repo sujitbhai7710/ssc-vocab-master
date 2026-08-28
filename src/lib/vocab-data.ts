@@ -144,6 +144,34 @@ export async function loadQuestions(): Promise<{
   return { questions, wordQuestions };
 }
 
+// FAST path: load only one word's questions (per-letter file, ~100-300KB cached).
+// Replaces the old loadQuestions() 2.9MB fetch on every word expansion.
+const wqLetterCache: Record<string, Record<string, { asStem: QuestionEntry[]; asOption: QuestionEntry[] }>> = {};
+export async function loadWordQuestions(wordLower: string): Promise<{ asStem: QuestionEntry[]; asOption: QuestionEntry[] }> {
+  const letter = (wordLower[0] || '_').toLowerCase();
+  if (!wqLetterCache[letter]) {
+    try {
+      const res = await fetch(`/data/wq/${letter}.json`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      wqLetterCache[letter] = (await res.json()) as Record<string, { asStem: QuestionEntry[]; asOption: QuestionEntry[] }>;
+    } catch (err) {
+      console.error(`Failed to load wq/${letter}.json:`, err);
+      wqLetterCache[letter] = {};
+    }
+  }
+  return wqLetterCache[letter][wordLower] || { asStem: [], asOption: [] };
+}
+
+// FAST path for dashboard: top words only (~7KB vs 2.2MB words.json).
+let topWordsCache: { topStems: WordEntry[]; topOptions: WordEntry[] } | null = null;
+export async function loadTopWords(): Promise<{ topStems: WordEntry[]; topOptions: WordEntry[] }> {
+  if (topWordsCache) return topWordsCache;
+  const res = await fetch('/data/top_words.json');
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  topWordsCache = (await res.json()) as { topStems: WordEntry[]; topOptions: WordEntry[] };
+  return topWordsCache;
+}
+
 export async function loadEnrichedForWord(wordLower: string): Promise<EnrichedEntry | null> {
   const letter = wordLower[0] || '_';
   if (!enrichedCache[letter]) {
@@ -185,13 +213,83 @@ export function buildExampleSentence(word: string, pos?: string): string {
   return `The committee chose to ${word.toLowerCase()} its strategy to fit the new regulations.`;
 }
 
-// Pronounce a word using the Web Speech API
-export function pronounceWord(word: string): void {
+// Pronunciation: best free source = dictionaryapi.dev (real human recordings + IPA),
+// with Web Speech API as instant fallback. Caches results per word.
+interface PronResult {
+  audio?: string;   // audio URL
+  ipa?: string;     // phonetic transcription
+  source: 'dictionary' | 'speech' | 'none';
+}
+const _pronCache: Record<string, PronResult> = {};
+
+export async function fetchPronunciation(word: string): Promise<PronResult> {
+  const w = word.trim();
+  if (!w) return { source: 'none' };
+  const key = w.toLowerCase();
+  if (_pronCache[key]) return _pronCache[key];
+  // Try dictionaryapi.dev (free, no key) — returns real audio + IPA.
+  try {
+    const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(key)}`);
+    if (res.ok) {
+      const data = await res.json();
+      const entry = Array.isArray(data) ? data[0] : null;
+      if (entry) {
+        const phonetics = entry.phonetics || [];
+        // pick the first phonetic that has audio; fall back to first with text
+        let withAudio = phonetics.find((p: any) => p.audio);
+        let ipa = (withAudio?.text) || phonetics.find((p: any) => p.text)?.text || entry.phonetic;
+        if (withAudio?.audio) {
+          const result: PronResult = { audio: withAudio.audio, ipa, source: 'dictionary' };
+          _pronCache[key] = result;
+          return result;
+        }
+        if (ipa) {
+          const result: PronResult = { ipa, source: 'speech' };
+          _pronCache[key] = result;
+          // still cache and use speech
+          return result;
+        }
+      }
+    }
+  } catch {
+    /* network — fall through to speech */
+  }
+  const result: PronResult = { source: 'speech' };
+  _pronCache[key] = result;
+  return result;
+}
+
+// Play pronunciation audio (async). Prefers dictionary audio; falls back to Web Speech.
+export async function pronounceWord(word: string): Promise<PronResult> {
+  const result = await fetchPronunciation(word);
+  if (typeof window === 'undefined') return result;
+  if (result.audio) {
+    try {
+      const audio = new Audio(result.audio);
+      audio.play().catch(() => {
+        // autoplay block or fetch fail → fallback to speech
+        _speakFallback(word);
+      });
+      return result;
+    } catch {
+      _speakFallback(word);
+    }
+  } else {
+    _speakFallback(word);
+  }
+  return result;
+}
+
+function _speakFallback(word: string): void {
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
-  // Cancel any ongoing speech
   window.speechSynthesis.cancel();
-  const utterance = new SpeechSynthesisUtterance(word);
-  utterance.rate = 0.9;
-  utterance.lang = 'en-US';
-  window.speechSynthesis.speak(utterance);
+  const u = new SpeechSynthesisUtterance(word);
+  u.rate = 0.9;
+  u.lang = 'en-US';
+  window.speechSynthesis.speak(u);
+}
+
+// Back-compat: synchronous variant (no audio fetch, just Web Speech).
+export function pronounceWordSync(word: string): void {
+  _speakFallback(word);
 }

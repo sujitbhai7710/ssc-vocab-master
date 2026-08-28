@@ -1,0 +1,23 @@
+---
+// src/pages/grammar-rules.astro
+import Layout from '../layouts/Layout.astro';
+import GrammarRulesView from '../components/GrammarRulesView.svelte';
+import ProgressTracker from '../components/ProgressTracker.svelte';
+---
+<Layout title="Grammar Rules — 167 Merged Rules from 3 Sources | SSC Vocab Master" activeNav="grammar-rules">
+  <section class="space-y-4">
+    <div>
+      <h2 class="text-xl font-bold tracking-tight flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-600"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/><path d="M8 11h8"/><path d="M8 7h6"/></svg>
+        Grammar Rules
+      </h2>
+      <p class="text-sm text-zinc-500 mt-1 leading-relaxed max-w-3xl">
+        167 merged error-spotting rules — synthesised from Rani Ma'am's 60 Rules, Rahul Gupta's Top 100
+        Error-Spotting Rules, and Aman's 100 Grammar Rules. Duplicates removed, concepts rewritten for
+        clarity. Each rule expands to show examples + practice MCQs (Rani Ma'am → Error PDF → PYQs).
+      </p>
+    </div>
+    <ProgressTracker client:idle pageType="grammar-rules" total={167} />
+    <GrammarRulesView client:load />
+  </section>
+</Layout>

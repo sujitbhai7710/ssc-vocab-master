@@ -1,0 +1,10 @@
+---
+// src/pages/admin.astro
+import Layout from '../layouts/Layout.astro';
+import AdminDashboard from '../components/AdminDashboard.svelte';
+---
+<Layout title="Admin Dashboard | SSC Vocab Master" activeNav="admin">
+  <section>
+    <AdminDashboard client:load />
+  </section>
+</Layout>

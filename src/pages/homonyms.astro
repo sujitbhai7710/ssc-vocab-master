@@ -2,11 +2,14 @@
 // src/pages/homonyms.astro
 import Layout from '../layouts/Layout.astro';
 import WordAccordion from '../components/WordAccordion.svelte';
+import ProgressTracker from '../components/ProgressTracker.svelte';
 
 let initialWords = [];
+let homCount = 0;
 try {
   const fs = await import('node:fs');
   initialWords = JSON.parse(fs.readFileSync('public/data/words.json', 'utf-8'));
+  homCount = initialWords.filter((w: any) => (w.qtypesAsStem?.homonym || 0) > 0).length;
 } catch (e) {}
 ---
 <Layout title="Module 5 — Homonyms & Homophones | SSC Vocab Master" activeNav="homonyms">
@@ -20,6 +23,7 @@ try {
         Words that appeared as the correct answer in homonym/homophone fill-in-the-blank questions. Click any card to expand.
       </p>
     </div>
+    <ProgressTracker client:idle pageType="homonyms" total={homCount} />
     <WordAccordion client:load view="stems" qtypeFilter="homonym" words={initialWords} />
   </section>
 </Layout>

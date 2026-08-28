@@ -2,11 +2,14 @@
 // src/pages/ows.astro
 import Layout from '../layouts/Layout.astro';
 import WordAccordion from '../components/WordAccordion.svelte';
+import ProgressTracker from '../components/ProgressTracker.svelte';
 
 let initialWords = [];
+let owsCount = 0;
 try {
   const fs = await import('node:fs');
   initialWords = JSON.parse(fs.readFileSync('public/data/words.json', 'utf-8'));
+  owsCount = initialWords.filter((w: any) => (w.qtypesAsStem?.['one-word'] || 0) > 0).length;
 } catch (e) {}
 ---
 <Layout title="Module 3 — One-Word Substitution | SSC Vocab Master" activeNav="ows">
@@ -20,6 +23,7 @@ try {
         Words that appeared as the correct answer in one-word substitution questions. Click any card to expand.
       </p>
     </div>
+    <ProgressTracker client:idle pageType="ows" total={owsCount} />
     <WordAccordion client:load view="stems" qtypeFilter="one-word" words={initialWords} />
   </section>
 </Layout>

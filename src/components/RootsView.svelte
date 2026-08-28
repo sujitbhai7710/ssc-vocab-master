@@ -1,6 +1,7 @@
 <script lang="ts">
   // src/components/RootsView.svelte
   import { loadRoots, type RootFamily } from '../lib/vocab-data';
+  import ProblematicButton from './ProblematicButton.svelte';
 
   let roots = $state<RootFamily[]>([]);
   let loading = $state(true);
@@ -123,6 +124,7 @@
                   {/if}
                 </p>
               </div>
+              <ProblematicButton itemType="root" itemKey={fam.root} subType={fam.rm} label="Mark root" />
               <div class="text-right">
                 <div class="text-2xl font-bold tabular-nums text-rose-700 dark:text-rose-300">{fam.words.length}</div>
                 <div class="text-[10px] text-zinc-500">words in family</div>

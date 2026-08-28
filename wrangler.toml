@@ -1,3 +1,8 @@
-name = "ssc-vocab-master"
+name = "sscpyqs"
 compatibility_date = "2024-12-01"
 pages_build_output_dir = "./dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ssc-vocab-db"
+database_id = "9e974122-587f-41bc-93b1-fe95b8b1e022"

@@ -2,13 +2,16 @@
 // src/pages/stems.astro
 import Layout from '../layouts/Layout.astro';
 import WordAccordion from '../components/WordAccordion.svelte';
+import ProgressTracker from '../components/ProgressTracker.svelte';
 import { loadWords } from '../lib/vocab-data';
 
 // Pre-render the words list at build time so the page hydrates fast
 let initialWords = [];
+let stemCount = 0;
 try {
   const fs = await import('node:fs');
   initialWords = JSON.parse(fs.readFileSync('public/data/words.json', 'utf-8'));
+  stemCount = initialWords.filter((w: any) => w.asStem > 0).length;
 } catch (e) {}
 ---
 <Layout title="Module 1 — Main Question Stems | SSC Vocab Master" activeNav="stems">
@@ -22,6 +25,7 @@ try {
         Words that appeared as the main question word in synonym/antonym questions across SSC exams. Click any card to expand — see definition, Bengali meaning, root, mnemonic, and practice MCQs inline.
       </p>
     </div>
+    <ProgressTracker client:idle pageType="stems" total={stemCount} />
     <WordAccordion client:load view="stems" words={initialWords} />
   </section>
 </Layout>

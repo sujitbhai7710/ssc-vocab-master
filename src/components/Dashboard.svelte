@@ -1,42 +1,29 @@
 <script lang="ts">
   // src/components/Dashboard.svelte
   import FrequencyBadge from './FrequencyBadge.svelte';
-  import { loadSummary, loadWords, type WordEntry, type SummaryStats } from '../lib/vocab-data';
+  import { loadSummary, loadTopWords, type WordEntry, type SummaryStats } from '../lib/vocab-data';
 
   let summary = $state<SummaryStats | null>(null);
-  let words = $state<WordEntry[]>([]);
+  let topStems = $state<WordEntry[]>([]);
+  let topOptions = $state<WordEntry[]>([]);
   let loading = $state(true);
 
   if (typeof window !== 'undefined') {
     (async () => {
       try {
-        summary = await loadSummary();
-        words = await loadWords();
+        const [s, tw] = await Promise.all([loadSummary(), loadTopWords()]);
+        summary = s;
+        topStems = tw.topStems;
+        topOptions = tw.topOptions;
       } catch (err) {
-        console.error('Failed to load summary/words:', err);
+        console.error('Failed to load summary/top words:', err);
       } finally {
         loading = false;
       }
     })();
   }
 
-  // Compute top words
-  const topWords = $derived([...words].sort((a, b) => b.total - a.total).slice(0, 10));
-  const topStems = $derived([...words].filter((w) => w.asStem > 0).sort((a, b) => b.asStem - a.asStem).slice(0, 10));
-  // For Module 2 (Options): only syn/ant option words (per user request)
-  const topOptions = $derived(
-    [...words]
-      .filter((w) => {
-        const saOpt = (w.qtypesAsOption['synonym'] ?? 0) + (w.qtypesAsOption['antonym'] ?? 0);
-        return saOpt > 0;
-      })
-      .sort((a, b) => {
-        const aSA = (a.qtypesAsOption['synonym'] ?? 0) + (a.qtypesAsOption['antonym'] ?? 0);
-        const bSA = (b.qtypesAsOption['synonym'] ?? 0) + (b.qtypesAsOption['antonym'] ?? 0);
-        return bSA - aSA;
-      })
-      .slice(0, 10)
-  );
+  const topWords = $derived(topStems);
 
   // Navigate to a section page
   function navigate(href: string) {
@@ -55,6 +42,9 @@
     { href: '/homonyms', title: 'Module 5 — Homonyms & Homophones', desc: 'Correct homonym words from fill-in-the-blank questions (e.g. add, aid, aide).', count: summary?.totalHomonyms ?? 0, top: 0, accent: 'pink', icon: 'homonym' },
     { href: '/spelling', title: 'Module 6 — Spelling', desc: 'Correctly-spelt words from spelling questions. Sorted by frequency.', count: summary?.totalSpelling ?? 0, top: 0, accent: 'sky', icon: 'spelling' },
     { href: '/roots', title: 'Module 7 — Root Words', desc: 'All 1,603 Latin/Greek root families with their word lists, Bengali meanings, and tricks to remember.', count: summary?.totalRoots ?? 0, top: 0, accent: 'rose', icon: 'roots' },
+    { href: '/grammar-rules', title: 'Grammar Rules — 167 Merged Rules', desc: 'Error-spotting rules merged from Rani Ma\'am (60), Rahul Gupta (100) & Aman (100). Duplicates removed, concepts rewritten. Each rule has practice MCQs.', count: 167, top: 0, accent: 'amber', icon: 'grammar' },
+    { href: '/narration', title: 'Narration (Direct–Indirect)', desc: '10 comprehensive rule sections for Direct↔Indirect Speech, with all 232 SSC PYQs answered & explained, mapped to each rule.', count: 232, top: 0, accent: 'sky', icon: 'narration' },
+    { href: '/voice', title: 'Voice (Active–Passive)', desc: '10 comprehensive rule sections for Active↔Passive Voice across all tenses, with all 329 SSC PYQs answered & explained.', count: 329, top: 0, accent: 'teal', icon: 'voice' },
   ] as const);
 
   const accentMap: Record<string, { bg: string; text: string; border: string }> = {
@@ -65,6 +55,7 @@
     pink: { bg: 'bg-pink-100 dark:bg-pink-950/40', text: 'text-pink-700 dark:text-pink-300', border: 'hover:border-pink-400/40' },
     sky: { bg: 'bg-sky-100 dark:bg-sky-950/40', text: 'text-sky-700 dark:text-sky-300', border: 'hover:border-sky-400/40' },
     rose: { bg: 'bg-rose-100 dark:bg-rose-950/40', text: 'text-rose-700 dark:text-rose-300', border: 'hover:border-rose-400/40' },
+    teal: { bg: 'bg-teal-100 dark:bg-teal-950/40', text: 'text-teal-700 dark:text-teal-300', border: 'hover:border-teal-400/40' },
   };
 </script>
 
@@ -146,11 +137,17 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="m9 11 2 2 4-4"/></svg>
               {:else if mod.icon === 'roots'}
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/><circle cx="12" cy="12" r="9"/></svg>
+              {:else if mod.icon === 'grammar'}
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/><path d="M8 11h8"/><path d="M8 7h6"/></svg>
+              {:else if mod.icon === 'narration'}
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              {:else if mod.icon === 'voice'}
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
               {/if}
             </div>
             <div class="text-right">
               <div class="text-2xl font-bold tabular-nums {accentMap[mod.accent].text}">{mod.count.toLocaleString()}</div>
-              <div class="text-[10px] text-zinc-500">{mod.href === '/roots' ? 'families' : mod.href === '/stems' || mod.href === '/options' ? 'questions' : 'questions'}</div>
+              <div class="text-[10px] text-zinc-500">{mod.href === '/roots' ? 'families' : mod.href === '/grammar-rules' ? 'rules' : mod.href === '/narration' || mod.href === '/voice' ? 'PYQs' : 'questions'}</div>
             </div>
           </div>
           <h3 class="text-base font-semibold mt-2">{mod.title}</h3>

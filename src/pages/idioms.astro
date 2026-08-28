@@ -2,11 +2,14 @@
 // src/pages/idioms.astro
 import Layout from '../layouts/Layout.astro';
 import WordAccordion from '../components/WordAccordion.svelte';
+import ProgressTracker from '../components/ProgressTracker.svelte';
 
 let initialWords = [];
+let idiomCount = 0;
 try {
   const fs = await import('node:fs');
   initialWords = JSON.parse(fs.readFileSync('public/data/words.json', 'utf-8'));
+  idiomCount = initialWords.filter((w: any) => (w.qtypesAsStem?.idiom || 0) > 0).length;
 } catch (e) {}
 ---
 <Layout title="Module 4 — Idioms & Phrases | SSC Vocab Master" activeNav="idioms">
@@ -20,6 +23,7 @@ try {
         Idiom phrases that appeared as question stems (e.g. "By and by", "tip of the iceberg"). Click any card to expand.
       </p>
     </div>
+    <ProgressTracker client:idle pageType="idioms" total={idiomCount} />
     <WordAccordion client:load view="stems" qtypeFilter="idiom" words={initialWords} />
   </section>
 </Layout>

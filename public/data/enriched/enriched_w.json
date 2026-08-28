@@ -1,1 +1,2922 @@
-{"watchful": {"word": "Watchful", "wordLower": "watchful", "definition": "alert and closely observing", "pos": "adj", "bn": "সতর্ক", "ex": "A watchful guard stood at the gate.", "mnemonic": "watchful – watch karke full alert", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Alert", "status": "added"}, {"word": "Insomniac", "status": "added"}, {"word": "Sleepless", "status": "added"}], "ssAntonyms": [{"word": "Unalert", "status": "added"}]}, "weakness": {"word": "Weakness", "wordLower": "weakness", "definition": "lack of strength; a fault or fondness", "pos": "noun", "bn": "দুর্বলতা", "ex": "Sweets are his biggest weakness.", "mnemonic": "weakness – weak-ness, kamzori ka gun", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Failing", "status": "added"}, {"word": "Helplessness", "status": "added"}, {"word": "Impuissance", "status": "added"}], "ssAntonyms": [{"word": "Strength", "status": "correct"}]}, "wisdom": {"word": "Wisdom", "wordLower": "wisdom", "definition": "quality of having good judgement", "pos": "noun", "bn": "প্রজ্ঞা", "ex": "With age comes wisdom.", "mnemonic": "wisdom – wise banda jinke paas gyaan", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Insight", "status": "correct"}, {"word": "Isn", "status": "correct"}, {"word": "Sapience", "status": "added"}, {"word": "Wiseness", "status": "added"}], "ssAntonyms": [{"word": "Stupidity", "status": "correct"}, {"word": "Folly", "status": "added"}]}, "warm": {"word": "Warm", "wordLower": "warm", "definition": "having moderate heat; friendly", "pos": "adj", "bn": "উষ্ণ", "ex": "She gave me a warm welcome.", "mnemonic": "warm – garam pani se haath 'warm' ho gaya", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Cordial", "status": "correct"}, {"word": "Warm up", "status": "added"}], "ssAntonyms": [{"word": "Cool", "status": "correct"}]}, "wise": {"word": "Wise", "wordLower": "wise", "definition": "having good judgment and knowledge", "pos": "adj", "bn": "জ্ঞানী", "ex": "A wise leader listens before deciding.", "mnemonic": "wise – 'wise' banda samajhdaar hota hai", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Isaac mayer wise", "status": "added"}, {"word": "Stephen samuel wise", "status": "added"}], "ssAntonyms": [{"word": "Ludicrous", "status": "correct"}]}, "weak": {"word": "Weak", "wordLower": "weak", "definition": "lacking strength or power", "pos": "adj", "bn": "দুর্বল", "ex": "He felt weak after the illness.", "mnemonic": "weak – 'we-ak' body me akkad nahi, kamzor", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Feeble", "status": "correct"}, {"word": "Light", "status": "added"}, {"word": "Unaccented", "status": "added"}, {"word": "Washy", "status": "added"}, {"word": "Watery", "status": "added"}], "ssAntonyms": [{"word": "Mighty", "status": "correct"}, {"word": "Strong", "status": "added"}]}, "weary": {"word": "Weary", "wordLower": "weary", "definition": "very tired; exhausted", "pos": "adj", "bn": "ক্লান্ত", "ex": "The weary travellers rested by the road.", "mnemonic": "weary – 'we-ary' saara din chalke thak gaye", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Exhausted", "status": "correct"}, {"word": "Aweary", "status": "added"}, {"word": "Fag", "status": "added"}, {"word": "Fag out", "status": "added"}, {"word": "Fatigue", "status": "added"}, {"word": "Jade", "status": "added"}, {"word": "Outwear", "status": "added"}, {"word": "Pall", "status": "added"}, {"word": "Tire", "status": "added"}, {"word": "Tire out", "status": "added"}, {"word": "Wear", "status": "added"}], "ssAntonyms": [{"word": "Refresh", "status": "added"}]}, "wary": {"word": "Wary", "wordLower": "wary", "definition": "cautious; on guard against danger", "pos": "adj", "bn": "সতর্ক", "ex": "Be wary of strangers offering deals.", "mnemonic": "wary – 'wa-ry' worry karke thoda cautious raho", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Leery", "status": "added"}, {"word": "Mistrustful", "status": "added"}, {"word": "Suspicious", "status": "added"}, {"word": "Untrusting", "status": "added"}], "ssAntonyms": [{"word": "Unwary", "status": "added"}]}, "woe": {"word": "Woe", "wordLower": "woe", "definition": "great sorrow or distress", "pos": "noun", "bn": "দুঃখ", "ex": "She poured out her tale of woe.", "mnemonic": "woe – 'oh woe!' bolke dukh jatana", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Unhappiness", "status": "correct"}, {"word": "Suffering", "status": "added"}, {"word": "Woefulness", "status": "added"}], "ssAntonyms": [{"word": "Glee", "status": "correct"}]}, "weird": {"word": "Weird", "wordLower": "weird", "definition": "strange; uncanny; unusual", "pos": "adj", "bn": "অদ্ভুত", "ex": "That noise sounds really weird.", "mnemonic": "weird – 'we' pehle 'i' baad, ajeeb spelling ajeeb word", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Bizarre", "status": "correct"}, {"word": "Eldritch", "status": "added"}, {"word": "Uncanny", "status": "added"}, {"word": "Unearthly", "status": "added"}, {"word": "Wyrd", "status": "added"}], "ssAntonyms": []}, "wide": {"word": "Wide", "wordLower": "wide", "definition": "large extent from side to side", "pos": "adj", "bn": "চওড়া", "ex": "The river is very wide here.", "mnemonic": "wide – width zyada, chaudi sadak", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Across-the-board", "status": "added"}, {"word": "All-embracing", "status": "added"}, {"word": "All-encompassing", "status": "added"}, {"word": "All-inclusive", "status": "added"}, {"word": "Blanket", "status": "added"}, {"word": "Broad", "status": "added"}, {"word": "Encompassing", "status": "added"}, {"word": "Extensive", "status": "added"}, {"word": "Panoptic", "status": "added"}, {"word": "Wide-eyed", "status": "added"}], "ssAntonyms": [{"word": "Narrow", "status": "added"}]}, "widespread": {"word": "Widespread", "wordLower": "widespread", "definition": "found or spread over large area", "pos": "adj", "bn": "ব্যাপক", "ex": "The disease caused widespread panic.", "mnemonic": "widespread – wide + spread, door tak faila", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Sexual", "status": "correct"}, {"word": "Far-flung", "status": "added"}], "ssAntonyms": [{"word": "Limited", "status": "correct"}]}, "who": {"word": "Who", "wordLower": "who", "definition": "asks or specifies which person", "pos": "pronoun", "bn": "কে", "ex": "Who left the door open?", "mnemonic": "who – 'kaun' poochhne wala shabd", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "World health organization", "status": "added"}], "ssAntonyms": [{"word": "Gentle", "status": "correct"}]}, "withered": {"word": "Withered", "wordLower": "withered", "definition": "dried up; shrivelled; faded", "pos": "adj", "bn": "শুকিয়ে যাওয়া", "ex": "The withered flowers drooped in the vase.", "mnemonic": "withered – with paani gaya, phool sukh gaya", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Fade", "status": "added"}, {"word": "Shrink", "status": "added"}, {"word": "Shrivel", "status": "added"}, {"word": "Shrivel up", "status": "added"}, {"word": "Shriveled", "status": "added"}, {"word": "Shrivelled", "status": "added"}, {"word": "Shrunken", "status": "added"}, {"word": "Wither", "status": "added"}, {"word": "Wizen", "status": "added"}, {"word": "Wizened", "status": "added"}], "ssAntonyms": []}, "weakened": {"word": "Weakened", "wordLower": "weakened", "definition": "made or became less strong", "pos": "verb", "bn": "দুর্বল করা", "ex": "The illness weakened him considerably.", "mnemonic": "weakened – weak ho gaya, taakat kam ho gayi", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Counteract", "status": "added"}, {"word": "Countermine", "status": "added"}, {"word": "Sabotage", "status": "added"}, {"word": "Subvert", "status": "added"}, {"word": "Undermine", "status": "added"}, {"word": "Weaken", "status": "added"}], "ssAntonyms": [{"word": "Consolidated", "status": "correct"}, {"word": "Strengthen", "status": "added"}]}, "welcomed": {"word": "Welcomed", "wordLower": "welcomed", "definition": "greeted someone warmly on arrival", "pos": "verb", "bn": "স্বাগত জানানো", "ex": "They welcomed us with warm smiles.", "mnemonic": "welcomed – 'well come' bolke mehmaan ka swagat kiya", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Receive", "status": "added"}, {"word": "Welcome", "status": "added"}], "ssAntonyms": [{"word": "Say farewell", "status": "added"}]}, "wrathful": {"word": "Wrathful", "wordLower": "wrathful", "definition": "full of intense anger; furious", "pos": "adj", "bn": "ক্রোধপূর্ণ", "ex": "The wrathful king ordered the rebels to be punished.", "mnemonic": "wrathful – God of War 'Wrath' hamesha gusse mein full", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Furious", "status": "correct"}, {"word": "Wroth", "status": "added"}, {"word": "Wrothful", "status": "added"}], "ssAntonyms": []}, "worthy": {"word": "Worthy", "wordLower": "worthy", "definition": "deserving respect, attention or effort", "pos": "adj", "bn": "যোগ্য", "ex": "She is a worthy winner of the prize.", "mnemonic": "worthy – 'worth' rakhta hai, izzat ke laayak", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Desirable", "status": "added"}, {"word": "Suitable", "status": "added"}], "ssAntonyms": [{"word": "Unworthy", "status": "added"}]}, "wavering": {"word": "Wavering", "wordLower": "wavering", "definition": "hesitating; unsteady in decision", "pos": "adj", "bn": "দ্বিধাগ্রস্ত", "ex": "His wavering confidence worried the team.", "mnemonic": "wavering – wave ki tarah idhar-udhar dolna", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Fluctuating", "status": "correct"}, {"word": "Fluctuation", "status": "added"}, {"word": "Hesitate", "status": "added"}, {"word": "Hesitation", "status": "added"}, {"word": "Vacillation", "status": "added"}, {"word": "Waffle", "status": "added"}, {"word": "Waver", "status": "added"}], "ssAntonyms": [{"word": "Resolute", "status": "correct"}]}, "worry": {"word": "Worry", "wordLower": "worry", "definition": "feel anxious or troubled", "pos": "verb", "bn": "চিন্তা করা", "ex": "Don't worry about the exam.", "mnemonic": "worry – 'wo-rry' hurry me pareshan ho gaya", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Concern", "status": "added"}, {"word": "Headache", "status": "added"}, {"word": "Trouble", "status": "added"}, {"word": "Vexation", "status": "added"}], "ssAntonyms": []}, "wild": {"word": "Wild", "wordLower": "wild", "definition": "living naturally; uncontrolled, untamed", "pos": "adj", "bn": "বন্য", "ex": "Wild animals roam the forest.", "mnemonic": "wild – jungle mein bina control ke rehne wala", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Natural state", "status": "added"}, {"word": "State of nature", "status": "added"}, {"word": "Wilderness", "status": "added"}], "ssAntonyms": [{"word": "Tame", "status": "added"}]}, "whole": {"word": "Whole", "wordLower": "whole", "definition": "entire; complete; full amount", "pos": "adj", "bn": "সম্পূর্ণ", "ex": "He ate the whole cake by himself.", "mnemonic": "whole – pura ka pura, poora hole bhar do", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Unit", "status": "added"}], "ssAntonyms": [{"word": "Part", "status": "correct"}, {"word": "Partial", "status": "correct"}, {"word": "Fractional", "status": "added"}]}, "worsen": {"word": "Worsen", "wordLower": "worsen", "definition": "make or become worse", "pos": "verb", "bn": "অবনতি হওয়া", "ex": "The weather may worsen tonight.", "mnemonic": "worsen – 'worse' hote jaana, halat bigadna", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Aggravate", "status": "added"}, {"word": "Decline", "status": "added"}, {"word": "Exacerbate", "status": "added"}, {"word": "Exasperate", "status": "added"}], "ssAntonyms": [{"word": "Better", "status": "added"}]}, "watch": {"word": "Watch", "wordLower": "watch", "definition": "look at attentively; observe", "pos": "verb", "bn": "দেখা", "ex": "I like to watch the sunset.", "mnemonic": "watch – dhyan se dekho, TV watch karo", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Ticker", "status": "added"}, {"word": "Vigil", "status": "added"}], "ssAntonyms": []}, "weeping": {"word": "Weeping", "wordLower": "weeping", "definition": "crying, shedding tears", "pos": "verb", "bn": "কান্না", "ex": "The child was weeping over the broken toy.", "mnemonic": "weeping – 'wee-ping' aankhon se paani tapak raha", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Cry", "status": "added"}, {"word": "Crying", "status": "added"}, {"word": "Dolorous", "status": "added"}, {"word": "Dolourous", "status": "added"}, {"word": "Lachrymose", "status": "added"}, {"word": "Tearful", "status": "added"}, {"word": "Tears", "status": "added"}, {"word": "Weep", "status": "added"}], "ssAntonyms": [{"word": "Laugh", "status": "added"}]}, "wicked": {"word": "Wicked", "wordLower": "wicked", "definition": "evil, morally wrong or mischievous", "pos": "adj", "bn": "দুষ্ট", "ex": "The wicked witch cursed the village.", "mnemonic": "wicked – 'wick' jaisi burai jalti rahe, dusht insaan", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Severe", "status": "added"}, {"word": "Sinful", "status": "added"}, {"word": "Terrible", "status": "added"}, {"word": "Unholy", "status": "added"}], "ssAntonyms": [{"word": "Admirable", "status": "correct"}, {"word": "Virtuous", "status": "added"}]}, "waterfall": {"word": "Waterfall", "wordLower": "waterfall", "definition": "water falling from a height", "pos": "noun", "bn": "জলপ্রপাত", "ex": "We hiked to see the beautiful waterfall.", "mnemonic": "water + fall – paani neeche girta hua", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Cascade", "status": "correct"}, {"word": "Falls", "status": "added"}], "ssAntonyms": []}, "wash": {"word": "Wash", "wordLower": "wash", "definition": "clean with water", "pos": "verb", "bn": "ধোয়া", "ex": "Please wash your hands before eating.", "mnemonic": "wash – paani se kapde ya haath saaf karna", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Dry wash", "status": "added"}, {"word": "Lavation", "status": "added"}, {"word": "Washing", "status": "added"}], "ssAntonyms": []}, "wealthy": {"word": "Wealthy", "wordLower": "wealthy", "definition": "having much money or valuable property", "pos": "adj", "bn": "ধনী", "ex": "The wealthy merchant donated to charity.", "mnemonic": "wealthy – wealth wala, paise se bhara", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "-", "status": "correct"}, {"word": "Affluent", "status": "added"}, {"word": "Flush", "status": "added"}, {"word": "Loaded", "status": "added"}, {"word": "Moneyed", "status": "added"}], "ssAntonyms": []}, "warmth": {"word": "Warmth", "wordLower": "warmth", "definition": "quality of being warm; friendliness", "pos": "noun", "bn": "উষ্ণতা", "ex": "The fire gave us warmth on the cold night.", "mnemonic": "warm + th – warm hone ki feeling, garmi aur pyaar", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Heat", "status": "added"}, {"word": "Warmheartedness", "status": "added"}, {"word": "Warmness", "status": "added"}], "ssAntonyms": []}, "worship": {"word": "Worship", "wordLower": "worship", "definition": "show reverence and adoration for deity", "pos": "verb", "bn": "উপাসনা করা", "ex": "They gather to worship every Sunday.", "mnemonic": "worship – warship pe chadhke bhagwan ki puja", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Adoration", "status": "added"}, {"word": "Hero-worship", "status": "added"}, {"word": "Idolise", "status": "added"}, {"word": "Idolize", "status": "added"}, {"word": "Revere", "status": "added"}], "ssAntonyms": []}, "wither": {"word": "Wither", "wordLower": "wither", "definition": "to dry up, shrivel, or fade", "pos": "verb", "bn": "শুকিয়ে যাওয়া", "ex": "The flowers wither without water.", "mnemonic": "wither – 'weather' se phool sukh gaya, murjhaa gaya", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Fade", "status": "added"}, {"word": "Shrink", "status": "added"}, {"word": "Shrivel", "status": "added"}, {"word": "Shrivel up", "status": "added"}], "ssAntonyms": []}, "worldly": {"word": "Worldly", "wordLower": "worldly", "definition": "concerned with material life; experienced, sophisticated", "pos": "adj", "bn": "পার্থিব", "ex": "He gave up worldly pleasures.", "mnemonic": "worldly – duniyaadaari wala, sansaarik cheezon mein", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Blase", "status": "added"}, {"word": "Secular", "status": "added"}, {"word": "Temporal", "status": "added"}], "ssAntonyms": [{"word": "Unworldly", "status": "added"}]}, "wonder": {"word": "Wonder", "wordLower": "wonder", "definition": "feel curiosity or amazement", "pos": "verb", "bn": "বিস্ময়", "ex": "I wonder what happened to him.", "mnemonic": "wonder – 'won-der' dekhkar mann sochne laga", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Astonishment", "status": "correct"}, {"word": "Admiration", "status": "added"}, {"word": "Curiosity", "status": "added"}, {"word": "Marvel", "status": "added"}, {"word": "Wonderment", "status": "added"}], "ssAntonyms": []}, "whimsical": {"word": "Whimsical", "wordLower": "whimsical", "definition": "playfully quaint; unpredictable; fanciful", "pos": "adj", "bn": "খেয়ালি", "ex": "She has a whimsical sense of humour.", "mnemonic": "whimsical – whim (sanki mood) pe kaam karne wala", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Funny", "status": "correct"}, {"word": "Capricious", "status": "added"}, {"word": "Impulsive", "status": "added"}], "ssAntonyms": [{"word": "Practical", "status": "correct"}]}, "wanting": {"word": "Wanting", "wordLower": "wanting", "definition": "lacking or deficient in something", "pos": "adj", "bn": "অভাবগ্রস্ত, ঘাটতি", "ex": "The plan was found wanting in detail.", "mnemonic": "wanting – want (kami) hona, kisi cheez ki kami", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Desire", "status": "added"}, {"word": "Need", "status": "added"}, {"word": "Require", "status": "added"}, {"word": "Want", "status": "added"}], "ssAntonyms": [{"word": "Adequate", "status": "correct"}]}, "worried": {"word": "Worried", "wordLower": "worried", "definition": "anxious; troubled about problems", "pos": "adj", "bn": "চিন্তিত", "ex": "She looked worried about the exam.", "mnemonic": "worried – worry se pareshaan, tension mein", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Care", "status": "added"}, {"word": "Vex", "status": "added"}, {"word": "Worry", "status": "added"}], "ssAntonyms": [{"word": "Unconcerned", "status": "correct"}, {"word": "Reassure", "status": "added"}]}, "withdraw": {"word": "Withdraw", "wordLower": "withdraw", "definition": "remove or take back; retreat", "pos": "verb", "bn": "প্রত্যাহার করা", "ex": "I need to withdraw money from the ATM.", "mnemonic": "with + draw – bank se paisa nikalna ya peeche hatna", "root": "TRA", "rootMeaning": "draw / pull", "rootBn": "টানা", "rootFamily": [{"w": "withdraw", "wLower": "withdraw", "pos": "verb", "mean": "remove or take back; retreat", "bn": "প্রত্যাহার করা", "mn": "with + draw – bank se paisa nikalna ya peeche hatna", "n": 3}], "ssSynonyms": [{"word": "Combine retreat", "status": "correct"}, {"word": "Disengage", "status": "added"}, {"word": "Draw back", "status": "added"}, {"word": "Move back", "status": "added"}, {"word": "Pull away", "status": "added"}, {"word": "Pull back", "status": "added"}, {"word": "Recede", "status": "added"}, {"word": "Retire", "status": "added"}, {"word": "Retreat", "status": "added"}], "ssAntonyms": [{"word": "Proceed", "status": "correct"}, {"word": "Advance", "status": "added"}, {"word": "Engage", "status": "added"}]}, "work": {"word": "Work", "wordLower": "work", "definition": "activity involving effort; a job", "pos": "noun", "bn": "কাজ", "ex": "She finished her work early today.", "mnemonic": "work – roz ka kaam, kaam hi work", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Employment", "status": "added"}, {"word": "Piece of work", "status": "added"}], "ssAntonyms": [{"word": "Leisure", "status": "correct"}]}, "worse": {"word": "Worse", "wordLower": "worse", "definition": "more bad; of lower quality", "pos": "adj", "bn": "আরও খারাপ", "ex": "His condition got worse overnight.", "mnemonic": "worse – bad se bhi zyada bura", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Worsened", "status": "added"}], "ssAntonyms": [{"word": "Better", "status": "added"}]}, "witty": {"word": "Witty", "wordLower": "witty", "definition": "clever and quick with humour", "pos": "adj", "bn": "রসিক", "ex": "His witty jokes made everyone laugh.", "mnemonic": "witty – dimaag tez, mazedaar baatein", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": [{"word": "Serious", "status": "correct"}]}, "wonderful": {"word": "Wonderful", "wordLower": "wonderful", "definition": "extremely good; marvellous", "pos": "adj", "bn": "চমৎকার", "ex": "We had a wonderful time at the party.", "mnemonic": "wonder + ful – wow wala, bahut badhiya", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Amazing", "status": "correct"}, {"word": "Fantastic", "status": "added"}, {"word": "Grand", "status": "added"}, {"word": "Howling", "status": "added"}, {"word": "Marvellous", "status": "added"}, {"word": "Marvelous", "status": "added"}, {"word": "Rattling", "status": "added"}, {"word": "Terrific", "status": "added"}, {"word": "Tremendous", "status": "added"}, {"word": "Wondrous", "status": "added"}], "ssAntonyms": []}, "working": {"word": "Working", "wordLower": "working", "definition": "functioning; engaged in work", "pos": "adj", "bn": "কর্মরত", "ex": "The working printer is in the office.", "mnemonic": "work + ing – kaam kar raha, chaalu", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Do work", "status": "added"}, {"word": "Work", "status": "added"}, {"word": "Workings", "status": "added"}], "ssAntonyms": [{"word": "Idle", "status": "added"}]}, "wrath": {"word": "Wrath", "wordLower": "wrath", "definition": "extreme anger; intense rage", "pos": "noun", "bn": "ক্রোধ", "ex": "He feared the king's wrath after breaking the law.", "mnemonic": "wrath – war jaisa raath, gusse mein bhara hua", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Anger", "status": "added"}, {"word": "Ira", "status": "added"}, {"word": "Ire", "status": "added"}], "ssAntonyms": []}, "wasteful": {"word": "Wasteful", "wordLower": "wasteful", "definition": "using more than needed; extravagant", "pos": "adj", "bn": "অপচয়ী", "ex": "Leaving lights on is wasteful of energy.", "mnemonic": "wasteful – waste full, sab kuch barbaad karne wala", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Prodigal", "status": "correct"}, {"word": "Uneconomical", "status": "added"}], "ssAntonyms": [{"word": "Thrifty", "status": "added"}]}, "warn": {"word": "Warn", "wordLower": "warn", "definition": "inform someone of possible danger or problem", "pos": "verb", "bn": "সতর্ক করা", "ex": "I must warn you about the slippery road.", "mnemonic": "warn – war se pehle sabko warn karo, khatra hai", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Admonish", "status": "added"}, {"word": "Discourage", "status": "added"}, {"word": "Monish", "status": "added"}], "ssAntonyms": []}, "wrench": {"word": "Wrench", "wordLower": "wrench", "definition": "twist or pull violently; a tool", "pos": "verb", "bn": "মোচড়ানো", "ex": "She wrenched the door open in a panic.", "mnemonic": "wrench – ranch pe wrench se bolt zor se ghumaya", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Wrest", "status": "correct"}, {"word": "Pull", "status": "added"}, {"word": "Spanner", "status": "added"}, {"word": "Twist", "status": "added"}], "ssAntonyms": []}, "wrest": {"word": "Wrest", "wordLower": "wrest", "definition": "forcibly pull or take away from someone", "pos": "verb", "bn": "ছিনিয়ে নেওয়া", "ex": "She managed to wrest the gun from the attacker.", "mnemonic": "wrest – wrestler zabardasti belt cheen kar le gaya", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Wrench", "status": "correct"}], "ssAntonyms": []}, "worst": {"word": "Worst", "wordLower": "worst", "definition": "most bad; lowest in quality", "pos": "adj", "bn": "সবচেয়ে খারাপ", "ex": "That was the worst movie I've seen.", "mnemonic": "worst – bad ka top level, sabse bura", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": [{"word": "Best", "status": "added"}]}, "warrant": {"word": "Warrant", "wordLower": "warrant", "definition": "official document authorizing an action", "pos": "noun", "bn": "পরোয়ানা", "ex": "Police obtained a warrant to search the house.", "mnemonic": "warrant – police ka arrest ka official parwana", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Permit here", "status": "correct"}, {"word": "Countenance", "status": "added"}, {"word": "Endorsement", "status": "added"}, {"word": "Imprimatur", "status": "added"}, {"word": "Indorsement", "status": "added"}, {"word": "Sanction", "status": "added"}, {"word": "Stock warrant", "status": "added"}, {"word": "Stock-purchase warrant", "status": "added"}], "ssAntonyms": []}, "with": {"word": "With", "wordLower": "with", "definition": "accompanied by; using; in relation to", "pos": "phrase", "bn": "সাথে", "ex": "She went to the market with her mother.", "mnemonic": "with – 'saath' me rehna, koi native word hai", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": [{"word": "Lethargic", "status": "correct"}]}, "workaholic": {"word": "Workaholic", "wordLower": "workaholic", "definition": "person addicted to working", "pos": "noun", "bn": "কর্মাসক্ত", "ex": "My boss is a total workaholic.", "mnemonic": "workaholic – 'work' ka alcoholic, kaam ka aadi", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "worrisome": {"word": "Worrisome", "wordLower": "worrisome", "definition": "causing anxiety or concern", "pos": "adj", "bn": "উদ্বেগজনক", "ex": "The test results were worrisome.", "mnemonic": "worrisome – worry karne wala, chinta dene wala", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Distressful", "status": "added"}, {"word": "Distressing", "status": "added"}, {"word": "Disturbing", "status": "added"}, {"word": "Perturbing", "status": "added"}, {"word": "Troubling", "status": "added"}, {"word": "Unreassuring", "status": "added"}, {"word": "Worrying", "status": "added"}], "ssAntonyms": [{"word": "Reassuring", "status": "added"}]}, "wobbly": {"word": "Wobbly", "wordLower": "wobbly", "definition": "unsteady, shaky, moving side to side", "pos": "adj", "bn": "টলমলে", "ex": "The chair felt wobbly and unsafe.", "mnemonic": "wobbly – table hilti dulti, wobble karti hai", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Rickety", "status": "added"}, {"word": "Shaky", "status": "added"}, {"word": "Wonky", "status": "added"}], "ssAntonyms": []}, "wily": {"word": "Wily", "wordLower": "wily", "definition": "cunning, crafty, sly", "pos": "adj", "bn": "ধূর্ত", "ex": "The wily fox escaped the trap.", "mnemonic": "wily – 'why-lie', chaal chalne wala chatur aadmi", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Crafty", "status": "added"}, {"word": "Cunning", "status": "added"}, {"word": "Dodgy", "status": "added"}, {"word": "Foxy", "status": "added"}, {"word": "Guileful", "status": "added"}, {"word": "Knavish", "status": "added"}, {"word": "Slick", "status": "added"}, {"word": "Sly", "status": "added"}, {"word": "Tricksy", "status": "added"}, {"word": "Tricky", "status": "added"}], "ssAntonyms": [{"word": "Honest", "status": "correct"}]}, "wealth": {"word": "Wealth", "wordLower": "wealth", "definition": "abundance of money or valuable possessions", "pos": "noun", "bn": "ধনসম্পদ", "ex": "He accumulated great wealth over the years.", "mnemonic": "wealth – well hone ka matlab dhan-daulat", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Riches", "status": "added"}, {"word": "Wealthiness", "status": "added"}], "ssAntonyms": [{"word": "Poverty", "status": "added"}]}, "will": {"word": "Will", "wordLower": "will", "definition": "expressing future action or determination", "pos": "verb", "bn": "হবে / ইচ্ছা", "ex": "She will arrive tomorrow morning.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Testament", "status": "added"}, {"word": "Volition", "status": "added"}], "ssAntonyms": []}, "weirdly": {"word": "Weirdly", "wordLower": "weirdly", "definition": "in a strange, unusual manner", "pos": "adv", "bn": "অদ্ভুতভাবে", "ex": "He was behaving weirdly all evening.", "mnemonic": "weirdly – 'weird' banda ajeeb tareeke se hasa", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "wilful": {"word": "Wilful", "wordLower": "wilful", "definition": "stubbornly self-willed; deliberate", "pos": "adj", "bn": "একগুঁয়ে", "ex": "His wilful disobedience angered the teacher.", "mnemonic": "wilful – apni 'will' pe adjy, zidhdi banda", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Froward", "status": "added"}, {"word": "Headstrong", "status": "added"}, {"word": "Self-willed", "status": "added"}, {"word": "Willful", "status": "added"}], "ssAntonyms": []}, "willing": {"word": "Willing", "wordLower": "willing", "definition": "ready and glad to do something", "pos": "adj", "bn": "ইচ্ছুক", "ex": "He is willing to help us anytime.", "mnemonic": "willing – dil se kaam karne ko taiyaar", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Volition", "status": "added"}, {"word": "Will", "status": "added"}], "ssAntonyms": []}, "wordy": {"word": "Wordy", "wordLower": "wordy", "definition": "using too many words; verbose", "pos": "adj", "bn": "বাক্যবহুল", "ex": "His essay was too wordy and unclear.", "mnemonic": "wordy – zyada words use karna, faltu lamba", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Long-winded", "status": "added"}, {"word": "Tedious", "status": "added"}, {"word": "Verbose", "status": "added"}, {"word": "Windy", "status": "added"}], "ssAntonyms": []}, "waver": {"word": "Waver", "wordLower": "waver", "definition": "be indecisive; hesitate; fluctuate", "pos": "verb", "bn": "দ্বিধা করা", "ex": "She did not waver in her decision.", "mnemonic": "waver – wave ki tarah idhar-udhar dolna, faisla na kar pana", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Falter", "status": "added"}, {"word": "Faltering", "status": "added"}, {"word": "Flicker", "status": "added"}, {"word": "Flutter", "status": "added"}, {"word": "Hesitation", "status": "added"}], "ssAntonyms": []}, "wait": {"word": "Wait", "wordLower": "wait", "definition": "stay until something happens", "pos": "verb", "bn": "অপেক্ষা করা", "ex": "Please wait here for a moment.", "mnemonic": "wait – ruk kar intezaar karna", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Delay", "status": "added"}, {"word": "Hold", "status": "added"}, {"word": "Postponement", "status": "added"}, {"word": "Time lag", "status": "added"}, {"word": "Waiting", "status": "added"}], "ssAntonyms": []}, "waste": {"word": "Waste", "wordLower": "waste", "definition": "use carelessly; discarded material", "pos": "noun", "bn": "অপচয়", "ex": "Don't waste your time on this.", "mnemonic": "waste – bekaar cheez ko waste bin mein daalo", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Dissipation", "status": "added"}, {"word": "Thriftlessness", "status": "added"}, {"word": "Waste material", "status": "added"}, {"word": "Waste matter", "status": "added"}, {"word": "Waste product", "status": "added"}, {"word": "Wastefulness", "status": "added"}], "ssAntonyms": []}, "waive": {"word": "Waive", "wordLower": "waive", "definition": "give up a right or claim", "pos": "verb", "bn": "পরিত্যাগ করা", "ex": "They agreed to waive the entry fee.", "mnemonic": "waive – wave karke rights chhod diya, bye-bye", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Dispense with", "status": "added"}, {"word": "Forego", "status": "added"}, {"word": "Foreswear", "status": "added"}, {"word": "Forfeit", "status": "added"}, {"word": "Forgo", "status": "added"}, {"word": "Give up", "status": "added"}, {"word": "Relinquish", "status": "added"}, {"word": "Throw overboard", "status": "added"}], "ssAntonyms": [{"word": "Claim", "status": "added"}]}, "withstand": {"word": "Withstand", "wordLower": "withstand", "definition": "resist or endure successfully", "pos": "verb", "bn": "সহ্য করা", "ex": "The bridge can withstand strong earthquakes.", "mnemonic": "withstand – 'with stand', dat ke khada rehna", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Defy", "status": "added"}, {"word": "Hold", "status": "added"}, {"word": "Hold out", "status": "added"}, {"word": "Hold up", "status": "added"}, {"word": "Resist", "status": "added"}, {"word": "Stand firm", "status": "added"}], "ssAntonyms": [{"word": "Surrender", "status": "correct"}]}, "wake": {"word": "Wake", "wordLower": "wake", "definition": "to stop sleeping; become alert", "pos": "verb", "bn": "জাগা", "ex": "I wake up at six every morning.", "mnemonic": "wake – subah alarm baja, neend se utho", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Aftermath", "status": "added"}, {"word": "Backwash", "status": "added"}, {"word": "Wake island", "status": "added"}], "ssAntonyms": [{"word": "Doze", "status": "correct"}]}, "weaken": {"word": "Weaken", "wordLower": "weaken", "definition": "make or become less strong", "pos": "verb", "bn": "দুর্বল করা", "ex": "Illness can weaken the body over time.", "mnemonic": "weak + en – kamzor banana", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Diminish", "status": "correct"}, {"word": "Counteract", "status": "added"}, {"word": "Countermine", "status": "added"}, {"word": "Sabotage", "status": "added"}, {"word": "Subvert", "status": "added"}, {"word": "Undermine", "status": "added"}], "ssAntonyms": [{"word": "Strengthen", "status": "added"}]}, "wrecked": {"word": "Wrecked", "wordLower": "wrecked", "definition": "destroyed, ruined, or badly damaged", "pos": "adj", "bn": "বিধ্বস্ত", "ex": "The storm left the ship wrecked on the rocks.", "mnemonic": "wrecked – rake se rok diya, gaadi puri barbaad ho gayi", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Bust up", "status": "added"}, {"word": "Wrack", "status": "added"}, {"word": "Wreck", "status": "added"}], "ssAntonyms": []}, "wine": {"word": "Wine", "wordLower": "wine", "definition": "alcoholic drink made from grapes", "pos": "noun", "bn": "মদ, সুরা", "ex": "They served red wine at dinner.", "mnemonic": "wine – angoor se bani sharab", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Delicate", "status": "correct"}, {"word": "Vino", "status": "added"}, {"word": "Wine-colored", "status": "added"}, {"word": "Wine-coloured", "status": "added"}], "ssAntonyms": []}, "which": {"word": "Which", "wordLower": "which", "definition": "asking or specifying one from a set", "pos": "pron", "bn": "কোনটি, যেটি", "ex": "Which book do you want to read?", "mnemonic": "which – konsa wala, choice puchhna", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Fleeting", "status": "correct"}, {"word": "Thoughtful", "status": "correct"}], "ssAntonyms": []}, "wobble": {"word": "Wobble", "wordLower": "wobble", "definition": "move unsteadily from side to side", "pos": "verb", "bn": "টলমল করা", "ex": "The old table began to wobble.", "mnemonic": "wobble – 'wo bal' bina table hilta dolta rahe", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Careen", "status": "added"}, {"word": "Coggle", "status": "added"}, {"word": "Shift", "status": "added"}, {"word": "Tilt", "status": "added"}], "ssAntonyms": []}, "whim": {"word": "Whim", "wordLower": "whim", "definition": "sudden fanciful desire or idea", "pos": "noun", "bn": "খেয়াল", "ex": "She bought it on a whim.", "mnemonic": "whim – 'wo hi mann' achanak jo dil kare", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Fancy", "status": "correct"}, {"word": "Caprice", "status": "added"}, {"word": "Impulse", "status": "added"}, {"word": "Notion", "status": "added"}, {"word": "Whimsey", "status": "added"}, {"word": "Whimsy", "status": "added"}], "ssAntonyms": []}, "worthwhile": {"word": "Worthwhile", "wordLower": "worthwhile", "definition": "worth the time or effort spent", "pos": "adj", "bn": "সার্থক", "ex": "The trip was a worthwhile experience.", "mnemonic": "worth + while – jitna time laga utna faayda", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": [{"word": "Hollow", "status": "correct"}]}, "wrestle": {"word": "Wrestle", "wordLower": "wrestle", "definition": "grapple or struggle with someone or something", "pos": "verb", "bn": "কুস্তি করা, লড়াই করা", "ex": "He had to wrestle with the heavy suitcase.", "mnemonic": "wrestle – WWE mein pehelwan aapas mein bhidte hain", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Grapple", "status": "added"}, {"word": "Grappling", "status": "added"}, {"word": "Hand-to-hand struggle", "status": "added"}, {"word": "Wrestling", "status": "added"}], "ssAntonyms": []}, "wage": {"word": "Wage", "wordLower": "wage", "definition": "payment for work; also to carry on", "pos": "noun", "bn": "মজুরি", "ex": "Workers demanded a higher daily wage.", "mnemonic": "wage – mazdoor ki weekly majoori", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Earnings", "status": "added"}, {"word": "Engage", "status": "added"}, {"word": "Pay", "status": "added"}, {"word": "Remuneration", "status": "added"}, {"word": "Salary", "status": "added"}], "ssAntonyms": []}, "walk the tight rope": {"word": "Walk the tight rope", "wordLower": "walk the tight rope", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "walk on air": {"word": "Walk on air", "wordLower": "walk on air", "definition": "to feel extremely happy and excited", "pos": "", "bn": "আনন্দে ডগমগ — খুব খুশি হয়ে উড়ে বেড়ানো", "ex": "After winning the match, Sita was walking on air.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "went terribly wrong": {"word": "Went terribly wrong", "wordLower": "went terribly wrong", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "weal and woe": {"word": "Weal and woe", "wordLower": "weal and woe", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "writing on the wall": {"word": "Writing on the wall", "wordLower": "writing on the wall", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "won his laurels": {"word": "Won his laurels", "wordLower": "won his laurels", "definition": "became famous for great achievement", "pos": "", "bn": "খ্যাতি অর্জন করেছে", "ex": "Dhoni won his laurels in world cricket.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "with documented proof and exact details": {"word": "With documented proof and exact details", "wordLower": "with documented proof and exact details", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "with great intensity": {"word": "With great intensity", "wordLower": "with great intensity", "definition": "doing something with very strong force", "pos": "", "bn": "খুব জোরে বা তীব্রভাবে", "ex": "Amit studied for exam with great intensity.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "work in consultation": {"word": "Work in consultation", "wordLower": "work in consultation", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "without haste": {"word": "Without haste", "wordLower": "without haste", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "whistled in the dark": {"word": "Whistled in the dark", "wordLower": "whistled in the dark", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "walk a tightrope": {"word": "Walk a tightrope", "wordLower": "walk a tightrope", "definition": "to be in a difficult balanced situation", "pos": "", "bn": "ফাঁদে পা — খুব কঠিন ভারসাম্যপূর্ণ অবস্থায় থাকা", "ex": "Rohit is walking a tightrope between studies and cricket.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "where the difficulty lies": {"word": "Where the difficulty lies", "wordLower": "where the difficulty lies", "definition": "the main problem or trouble spot", "pos": "", "bn": "কোথায় সমস্যা আছে", "ex": "The teacher asked where the difficulty lies in the sum.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "wild goose chase": {"word": "Wild goose chase", "wordLower": "wild goose chase", "definition": "a useless search for something", "pos": "", "bn": "বৃথা খোঁজা, ব্যর্থ অনুসন্ধান", "ex": "Going to find that bookshop was a wild goose chase.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "working hard": {"word": "Working hard", "wordLower": "working hard", "definition": "putting in lots of effort", "pos": "", "bn": "অনেক পরিশ্রম করা", "ex": "Priya is working hard for her maths test.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "what a coincidence": {"word": "What a coincidence", "wordLower": "what a coincidence", "definition": "surprise when two things happen together", "pos": "", "bn": "কী আশ্চর্য মিল! কাকতালীয়!", "ex": "What a coincidence! Rahul met his friend at the market.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "when pigs fly": {"word": "When pigs fly", "wordLower": "when pigs fly", "definition": "something that will never happen", "pos": "", "bn": "কখনো হবে না, অসম্ভব", "ex": "Rahul will top the exam when pigs fly.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "wolf in sheep's clothing": {"word": "Wolf in sheep's clothing", "wordLower": "wolf in sheep's clothing", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "wet behind the ears": {"word": "Wet behind the ears", "wordLower": "wet behind the ears", "definition": "young and without experience", "pos": "", "bn": "অনভিজ্ঞ, নতুন, কাঁচা", "ex": "Don't ask Rohan, he is wet behind the ears.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "whole nine yards": {"word": "Whole nine yards", "wordLower": "whole nine yards", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "would rather not go through": {"word": "Would rather not go through", "wordLower": "would rather not go through", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "wreath": {"word": "Wreath", "wordLower": "wreath", "definition": "ring of flowers or leaves for decoration or honour", "pos": "noun", "bn": "মালা", "ex": "They laid a wreath at the soldier's grave.", "mnemonic": "wreath – flowers ko twist karke ring banayi", "root": "WRETH", "rootMeaning": "twist / bend", "rootBn": "পাক দেওয়া", "rootFamily": [{"w": "wreath", "wLower": "wreath", "pos": "noun", "mean": "ring of flowers or leaves for decoration or honour", "bn": "মালা", "mn": "wreath – flowers ko twist karke ring banayi", "n": 2}], "ssSynonyms": [{"word": "Chaplet", "status": "added"}, {"word": "Coronal", "status": "added"}, {"word": "Garland", "status": "added"}, {"word": "Lei", "status": "added"}], "ssAntonyms": []}, "wardrobe": {"word": "Wardrobe", "wordLower": "wardrobe", "definition": "cupboard for storing clothes; one's clothing collection", "pos": "noun", "bn": "পোশাকের আলমারি", "ex": "She hung her coat in the wardrobe.", "mnemonic": "wardrobe – war (guard) + robe, jahan robe/kapde guard hote hain", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Closet", "status": "added"}, {"word": "Press", "status": "added"}], "ssAntonyms": []}, "workshop": {"word": "Workshop", "wordLower": "workshop", "definition": "place for making things; practical training session", "pos": "noun", "bn": "কর্মশালা", "ex": "He attended a pottery workshop.", "mnemonic": "workshop – 'work' ka shop, kaam sikhne ki jagah", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Shop", "status": "added"}], "ssAntonyms": []}, "wreaths": {"word": "Wreaths", "wordLower": "wreaths", "definition": "ring-shaped arrangements of flowers or leaves", "pos": "noun", "bn": "ফুলের মালা", "ex": "They laid wreaths at the memorial.", "mnemonic": "wreaths – Christmas ke door pe latakne wale flower rings", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Chaplet", "status": "added"}, {"word": "Coronal", "status": "added"}, {"word": "Garland", "status": "added"}, {"word": "Lei", "status": "added"}, {"word": "Wreath", "status": "added"}], "ssAntonyms": []}, "wigwam": {"word": "Wigwam", "wordLower": "wigwam", "definition": "domed Native American dwelling or tent", "pos": "noun", "bn": "আদিবাসী তাঁবু", "ex": "The tribe lived in a warm wigwam.", "mnemonic": "wigwam – 'wig' pehne aadmi ke tambu jaisa ghar", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "wondrous": {"word": "Wondrous", "wordLower": "wondrous", "definition": "inspiring wonder; marvellous", "pos": "adj", "bn": "বিস্ময়কর", "ex": "The canyon was a wondrous sight.", "mnemonic": "wondrous – wonder se bhara, dekhkar 'wah' nikle", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Fantastic", "status": "added"}, {"word": "Grand", "status": "added"}, {"word": "Howling", "status": "added"}, {"word": "Marvellous", "status": "added"}, {"word": "Marvellously", "status": "added"}, {"word": "Marvelous", "status": "added"}, {"word": "Marvelously", "status": "added"}, {"word": "Rattling", "status": "added"}, {"word": "Superbly", "status": "added"}, {"word": "Terrific", "status": "added"}], "ssAntonyms": []}, "wander": {"word": "Wander", "wordLower": "wander", "definition": "walk about aimlessly", "pos": "verb", "bn": "ঘুরে বেড়ানো", "ex": "They wandered through the old town.", "mnemonic": "wander – bina maksad idhar-udhar ghumna", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Betray", "status": "added"}, {"word": "Cast", "status": "added"}, {"word": "Cheat", "status": "added"}, {"word": "Cheat on", "status": "added"}, {"word": "Cuckold", "status": "added"}, {"word": "Drift", "status": "added"}, {"word": "Ramble", "status": "added"}, {"word": "Range", "status": "added"}, {"word": "Roam", "status": "added"}, {"word": "Roll", "status": "added"}], "ssAntonyms": []}, "win": {"word": "Win", "wordLower": "win", "definition": "be victorious; achieve success", "pos": "verb", "bn": "জেতা", "ex": "Our team hopes to win the match.", "mnemonic": "win – match jeetna, winner banna", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Profits", "status": "added"}, {"word": "Winnings", "status": "added"}], "ssAntonyms": [{"word": "Lose", "status": "added"}, {"word": "Losings", "status": "added"}]}, "winnow": {"word": "Winnow", "wordLower": "winnow", "definition": "separate grain from chaff; sift out", "pos": "verb", "bn": "ঝাড়াই করা", "ex": "Farmers winnow the wheat after harvest.", "mnemonic": "winnow – 'win now' ache anaj ko chaff se alag karo", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Fan", "status": "added"}, {"word": "Sifting", "status": "added"}, {"word": "Winnowing", "status": "added"}], "ssAntonyms": []}, "willow": {"word": "Willow", "wordLower": "willow", "definition": "tree with slender flexible branches", "pos": "noun", "bn": "উইলো গাছ", "ex": "A willow drooped over the river bank.", "mnemonic": "willow – 'will low' jhukti hui shaakhon wala ped", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Willow tree", "status": "added"}], "ssAntonyms": []}, "whisk": {"word": "Whisk", "wordLower": "whisk", "definition": "beat or move quickly", "pos": "verb", "bn": "ফেটানো", "ex": "Whisk the eggs until fluffy.", "mnemonic": "whisk – whisker se ande 'whisk' karke phento", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Whisk broom", "status": "added"}], "ssAntonyms": []}, "whip": {"word": "Whip", "wordLower": "whip", "definition": "lash used for striking; to beat", "pos": "noun", "bn": "চাবুক", "ex": "He cracked the whip to move the horses.", "mnemonic": "whip – 'w' silent, chabuk se whip-whip", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Party whip", "status": "added"}], "ssAntonyms": []}, "wreathe": {"word": "Wreathe", "wordLower": "wreathe", "definition": "to encircle, twist, or surround with something", "pos": "verb", "bn": "বেষ্টন করা", "ex": "Mist began to wreathe the mountain peaks at dawn.", "mnemonic": "wreathe – flower wreath se neck ko ghera daala", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Wind", "status": "added"}], "ssAntonyms": []}, "watchman": {"word": "Watchman", "wordLower": "watchman", "definition": "man who guards a building or area", "pos": "noun", "bn": "পাহারাদার", "ex": "The watchman patrols the gate at night.", "mnemonic": "watchman – raat me 'watch' karta hua chowkidar", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Security guard", "status": "added"}, {"word": "Watcher", "status": "added"}], "ssAntonyms": []}, "warehouse": {"word": "Warehouse", "wordLower": "warehouse", "definition": "large building for storing goods", "pos": "noun", "bn": "গুদাম", "ex": "The goods are stored in the warehouse.", "mnemonic": "warehouse – ware (maal) rakhne ka bada house", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Storage warehouse", "status": "added"}], "ssAntonyms": []}, "worker": {"word": "Worker", "wordLower": "worker", "definition": "a person who works, especially for wages", "pos": "noun", "bn": "শ্রমিক / কর্মী", "ex": "Every worker deserves a fair wage.", "mnemonic": "worker – 'work' karne wala insaan worker hai", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Prole", "status": "added"}, {"word": "Proletarian", "status": "added"}], "ssAntonyms": [{"word": "Nonworker", "status": "added"}]}, "woodwinds": {"word": "Woodwinds", "wordLower": "woodwinds", "definition": "wind instruments like flute, clarinet, oboe", "pos": "noun", "bn": "কাঠের বাদ্যযন্ত্র", "ex": "The woodwinds opened the symphony.", "mnemonic": "woodwinds – 'wood + wind' lakdi ke fook wale baaje", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Wood", "status": "added"}, {"word": "Woodwind", "status": "added"}, {"word": "Woodwind instrument", "status": "added"}], "ssAntonyms": []}, "watt": {"word": "Watt", "wordLower": "watt", "definition": "unit of electrical power", "pos": "noun", "bn": "বিদ্যুৎ শক্তির একক", "ex": "This bulb uses sixty watts of power.", "mnemonic": "watt – 'what' power? bulb ki watt batati hai", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "James watt", "status": "added"}, {"word": "W", "status": "added"}], "ssAntonyms": []}, "wholesome": {"word": "Wholesome", "wordLower": "wholesome", "definition": "good for health or moral well-being", "pos": "adj", "bn": "স্বাস্থ্যকর / নির্মল", "ex": "They enjoyed a wholesome home-cooked meal.", "mnemonic": "wholesome – 'whole' body ko healthy rakhe wahi wholesome", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": [{"word": "Unwholesome", "status": "added"}]}, "widower": {"word": "Widower", "wordLower": "widower", "definition": "man whose wife has died", "pos": "noun", "bn": "বিপত্নীক", "ex": "The widower raised his children alone.", "mnemonic": "widow + er – jiski patni guzar gayi, aadmi", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Widowman", "status": "added"}], "ssAntonyms": []}, "widow": {"word": "Widow", "wordLower": "widow", "definition": "woman whose husband has died", "pos": "noun", "bn": "বিধবা", "ex": "The widow raised her children alone.", "mnemonic": "widow – 'wi-dow' jiska pati window se guzar gaya", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Widow woman", "status": "added"}], "ssAntonyms": []}, "withdrawl": {"word": "Withdrawl", "wordLower": "withdrawl", "definition": "taking money out from bank account", "pos": "", "bn": "টাকা তোলা", "ex": "Ramesh did a withdrawl of five thousand rupees.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "wave the participation": {"word": "Wave the participation", "wordLower": "wave the participation", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "with incadescent lights": {"word": "With incadescent lights", "wordLower": "with incadescent lights", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "wolrd": {"word": "Wolrd", "wordLower": "wolrd", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "whether": {"word": "Whether", "wordLower": "whether", "definition": "expressing doubt or choice between alternatives", "pos": "conjunction", "bn": "কিনা", "ex": "I don't know whether to go or stay.", "mnemonic": "whether – weather nahi, 'kya karu ya nahi' wala doubt", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "weggle": {"word": "Weggle", "wordLower": "weggle", "definition": "to move slightly from side to side", "pos": "", "bn": "একটু একটু করে নড়াচড়া করা", "ex": "The puppy wiggled its tail when it saw its owner.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "whorle": {"word": "Whorle", "wordLower": "whorle", "definition": "wrong spelling of whorl, a circular pattern", "pos": "", "bn": "ঘূর্ণি, বৃত্তাকার নকশা (ভুল বানান)", "ex": "The correct spelling is whorl, not whorle.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "witharing": {"word": "Witharing", "wordLower": "witharing", "definition": "drying up and dying (plant)", "pos": "", "bn": "শুকিয়ে যাওয়া", "ex": "The flowers are witharing without water.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "writting": {"word": "Writting", "wordLower": "writting", "definition": "spelling mistake of 'writing'", "pos": "", "bn": "লেখা (বানান ভুল)", "ex": "'Writting' is wrong; the correct word is 'writing'.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "weather": {"word": "Weather", "wordLower": "weather", "definition": "state of atmosphere; rain, sun, temperature", "pos": "noun", "bn": "আবহাওয়া", "ex": "The weather is sunny today.", "mnemonic": "weather – mausam garam ya thanda", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Atmospheric condition", "status": "added"}, {"word": "Brave", "status": "added"}, {"word": "Brave out", "status": "added"}, {"word": "Conditions", "status": "added"}, {"word": "Endure", "status": "added"}, {"word": "Weather condition", "status": "added"}], "ssAntonyms": []}, "weired": {"word": "Weired", "wordLower": "weired", "definition": "spelled wrong form of 'weird', means strange", "pos": "", "bn": "'weird' এর ভুল বানান, মানে অদ্ভুত", "ex": "That haunted house story was really weired to hear.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "write": {"word": "Write", "wordLower": "write", "definition": "make letters or words on surface", "pos": "verb", "bn": "লেখা", "ex": "Please write your name here.", "mnemonic": "write – pen le kar right side se likho", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Compose", "status": "added"}, {"word": "Indite", "status": "added"}, {"word": "Pen", "status": "added"}, {"word": "Publish", "status": "added"}], "ssAntonyms": []}}
+{
+ "watchful": {
+  "word": "Watchful",
+  "wordLower": "watchful",
+  "definition": "alert and closely observing",
+  "pos": "adj",
+  "bn": "সতর্ক",
+  "ex": "A watchful guard stood at the gate.",
+  "mnemonic": "watchful – watch karke full alert",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Alert",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "weakness": {
+  "word": "Weakness",
+  "wordLower": "weakness",
+  "definition": "lack of strength; a fault or fondness",
+  "pos": "noun",
+  "bn": "দুর্বলতা",
+  "ex": "Sweets are his biggest weakness.",
+  "mnemonic": "weakness – weak-ness, kamzori ka gun",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Failing",
+    "status": "added"
+   },
+   {
+    "word": "Helplessness",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Strength",
+    "status": "correct"
+   }
+  ]
+ },
+ "wisdom": {
+  "word": "Wisdom",
+  "wordLower": "wisdom",
+  "definition": "quality of having good judgement",
+  "pos": "noun",
+  "bn": "প্রজ্ঞা",
+  "ex": "With age comes wisdom.",
+  "mnemonic": "wisdom – wise banda jinke paas gyaan",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Insight",
+    "status": "correct"
+   },
+   {
+    "word": "Isn",
+    "status": "correct"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Stupidity",
+    "status": "correct"
+   },
+   {
+    "word": "Folly",
+    "status": "added"
+   }
+  ]
+ },
+ "warm": {
+  "word": "Warm",
+  "wordLower": "warm",
+  "definition": "having moderate heat; friendly",
+  "pos": "adj",
+  "bn": "উষ্ণ",
+  "ex": "She gave me a warm welcome.",
+  "mnemonic": "warm – garam pani se haath 'warm' ho gaya",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Cordial",
+    "status": "correct"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Cool",
+    "status": "correct"
+   }
+  ]
+ },
+ "wise": {
+  "word": "Wise",
+  "wordLower": "wise",
+  "definition": "having good judgment and knowledge",
+  "pos": "adj",
+  "bn": "জ্ঞানী",
+  "ex": "A wise leader listens before deciding.",
+  "mnemonic": "wise – 'wise' banda samajhdaar hota hai",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Ludicrous",
+    "status": "correct"
+   }
+  ]
+ },
+ "weak": {
+  "word": "Weak",
+  "wordLower": "weak",
+  "definition": "lacking strength or power",
+  "pos": "adj",
+  "bn": "দুর্বল",
+  "ex": "He felt weak after the illness.",
+  "mnemonic": "weak – 'we-ak' body me akkad nahi, kamzor",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Feeble",
+    "status": "correct"
+   },
+   {
+    "word": "Watery",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Mighty",
+    "status": "correct"
+   },
+   {
+    "word": "Strong",
+    "status": "added"
+   }
+  ]
+ },
+ "weary": {
+  "word": "Weary",
+  "wordLower": "weary",
+  "definition": "very tired; exhausted",
+  "pos": "adj",
+  "bn": "ক্লান্ত",
+  "ex": "The weary travellers rested by the road.",
+  "mnemonic": "weary – 'we-ary' saara din chalke thak gaye",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Exhausted",
+    "status": "correct"
+   },
+   {
+    "word": "Fatigue",
+    "status": "added"
+   },
+   {
+    "word": "Tire",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Refresh",
+    "status": "added"
+   }
+  ]
+ },
+ "wary": {
+  "word": "Wary",
+  "wordLower": "wary",
+  "definition": "cautious; on guard against danger",
+  "pos": "adj",
+  "bn": "সতর্ক",
+  "ex": "Be wary of strangers offering deals.",
+  "mnemonic": "wary – 'wa-ry' worry karke thoda cautious raho",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Mistrustful",
+    "status": "added"
+   },
+   {
+    "word": "Suspicious",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Unwary",
+    "status": "added"
+   }
+  ]
+ },
+ "woe": {
+  "word": "Woe",
+  "wordLower": "woe",
+  "definition": "great sorrow or distress",
+  "pos": "noun",
+  "bn": "দুঃখ",
+  "ex": "She poured out her tale of woe.",
+  "mnemonic": "woe – 'oh woe!' bolke dukh jatana",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Unhappiness",
+    "status": "correct"
+   },
+   {
+    "word": "Suffering",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Glee",
+    "status": "correct"
+   }
+  ]
+ },
+ "weird": {
+  "word": "Weird",
+  "wordLower": "weird",
+  "definition": "strange; uncanny; unusual",
+  "pos": "adj",
+  "bn": "অদ্ভুত",
+  "ex": "That noise sounds really weird.",
+  "mnemonic": "weird – 'we' pehle 'i' baad, ajeeb spelling ajeeb word",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Bizarre",
+    "status": "correct"
+   },
+   {
+    "word": "Uncanny",
+    "status": "added"
+   },
+   {
+    "word": "Unearthly",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wide": {
+  "word": "Wide",
+  "wordLower": "wide",
+  "definition": "large extent from side to side",
+  "pos": "adj",
+  "bn": "চওড়া",
+  "ex": "The river is very wide here.",
+  "mnemonic": "wide – width zyada, chaudi sadak",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Broad",
+    "status": "added"
+   },
+   {
+    "word": "Extensive",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Narrow",
+    "status": "added"
+   }
+  ]
+ },
+ "widespread": {
+  "word": "Widespread",
+  "wordLower": "widespread",
+  "definition": "found or spread over large area",
+  "pos": "adj",
+  "bn": "ব্যাপক",
+  "ex": "The disease caused widespread panic.",
+  "mnemonic": "widespread – wide + spread, door tak faila",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Sexual",
+    "status": "correct"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Limited",
+    "status": "correct"
+   }
+  ]
+ },
+ "who": {
+  "word": "Who",
+  "wordLower": "who",
+  "definition": "asks or specifies which person",
+  "pos": "pronoun",
+  "bn": "কে",
+  "ex": "Who left the door open?",
+  "mnemonic": "who – 'kaun' poochhne wala shabd",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Gentle",
+    "status": "correct"
+   }
+  ]
+ },
+ "withered": {
+  "word": "Withered",
+  "wordLower": "withered",
+  "definition": "dried up; shrivelled; faded",
+  "pos": "adj",
+  "bn": "শুকিয়ে যাওয়া",
+  "ex": "The withered flowers drooped in the vase.",
+  "mnemonic": "withered – with paani gaya, phool sukh gaya",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Shrivel",
+    "status": "added"
+   },
+   {
+    "word": "Shriveled",
+    "status": "added"
+   },
+   {
+    "word": "Shrivelled",
+    "status": "added"
+   },
+   {
+    "word": "Shrunken",
+    "status": "added"
+   },
+   {
+    "word": "Wizened",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "weakened": {
+  "word": "Weakened",
+  "wordLower": "weakened",
+  "definition": "made or became less strong",
+  "pos": "verb",
+  "bn": "দুর্বল করা",
+  "ex": "The illness weakened him considerably.",
+  "mnemonic": "weakened – weak ho gaya, taakat kam ho gayi",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Undermine",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Consolidated",
+    "status": "correct"
+   },
+   {
+    "word": "Strengthen",
+    "status": "added"
+   }
+  ]
+ },
+ "welcomed": {
+  "word": "Welcomed",
+  "wordLower": "welcomed",
+  "definition": "greeted someone warmly on arrival",
+  "pos": "verb",
+  "bn": "স্বাগত জানানো",
+  "ex": "They welcomed us with warm smiles.",
+  "mnemonic": "welcomed – 'well come' bolke mehmaan ka swagat kiya",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Receive",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wrathful": {
+  "word": "Wrathful",
+  "wordLower": "wrathful",
+  "definition": "full of intense anger; furious",
+  "pos": "adj",
+  "bn": "ক্রোধপূর্ণ",
+  "ex": "The wrathful king ordered the rebels to be punished.",
+  "mnemonic": "wrathful – God of War 'Wrath' hamesha gusse mein full",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Furious",
+    "status": "correct"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "worthy": {
+  "word": "Worthy",
+  "wordLower": "worthy",
+  "definition": "deserving respect, attention or effort",
+  "pos": "adj",
+  "bn": "যোগ্য",
+  "ex": "She is a worthy winner of the prize.",
+  "mnemonic": "worthy – 'worth' rakhta hai, izzat ke laayak",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Unworthy",
+    "status": "added"
+   }
+  ]
+ },
+ "wavering": {
+  "word": "Wavering",
+  "wordLower": "wavering",
+  "definition": "hesitating; unsteady in decision",
+  "pos": "adj",
+  "bn": "দ্বিধাগ্রস্ত",
+  "ex": "His wavering confidence worried the team.",
+  "mnemonic": "wavering – wave ki tarah idhar-udhar dolna",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Fluctuating",
+    "status": "correct"
+   },
+   {
+    "word": "Fluctuation",
+    "status": "added"
+   },
+   {
+    "word": "Hesitation",
+    "status": "added"
+   },
+   {
+    "word": "Vacillation",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Resolute",
+    "status": "correct"
+   }
+  ]
+ },
+ "worry": {
+  "word": "Worry",
+  "wordLower": "worry",
+  "definition": "feel anxious or troubled",
+  "pos": "verb",
+  "bn": "চিন্তা করা",
+  "ex": "Don't worry about the exam.",
+  "mnemonic": "worry – 'wo-rry' hurry me pareshan ho gaya",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Concern",
+    "status": "added"
+   },
+   {
+    "word": "Trouble",
+    "status": "added"
+   },
+   {
+    "word": "Vexation",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wild": {
+  "word": "Wild",
+  "wordLower": "wild",
+  "definition": "living naturally; uncontrolled, untamed",
+  "pos": "adj",
+  "bn": "বন্য",
+  "ex": "Wild animals roam the forest.",
+  "mnemonic": "wild – jungle mein bina control ke rehne wala",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Tame",
+    "status": "added"
+   }
+  ]
+ },
+ "whole": {
+  "word": "Whole",
+  "wordLower": "whole",
+  "definition": "entire; complete; full amount",
+  "pos": "adj",
+  "bn": "সম্পূর্ণ",
+  "ex": "He ate the whole cake by himself.",
+  "mnemonic": "whole – pura ka pura, poora hole bhar do",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Part",
+    "status": "correct"
+   },
+   {
+    "word": "Partial",
+    "status": "correct"
+   },
+   {
+    "word": "Fractional",
+    "status": "added"
+   }
+  ]
+ },
+ "worsen": {
+  "word": "Worsen",
+  "wordLower": "worsen",
+  "definition": "make or become worse",
+  "pos": "verb",
+  "bn": "অবনতি হওয়া",
+  "ex": "The weather may worsen tonight.",
+  "mnemonic": "worsen – 'worse' hote jaana, halat bigadna",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Aggravate",
+    "status": "added"
+   },
+   {
+    "word": "Decline",
+    "status": "added"
+   },
+   {
+    "word": "Exacerbate",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Better",
+    "status": "added"
+   }
+  ]
+ },
+ "watch": {
+  "word": "Watch",
+  "wordLower": "watch",
+  "definition": "look at attentively; observe",
+  "pos": "verb",
+  "bn": "দেখা",
+  "ex": "I like to watch the sunset.",
+  "mnemonic": "watch – dhyan se dekho, TV watch karo",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Vigil",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "weeping": {
+  "word": "Weeping",
+  "wordLower": "weeping",
+  "definition": "crying, shedding tears",
+  "pos": "verb",
+  "bn": "কান্না",
+  "ex": "The child was weeping over the broken toy.",
+  "mnemonic": "weeping – 'wee-ping' aankhon se paani tapak raha",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Cry",
+    "status": "added"
+   },
+   {
+    "word": "Crying",
+    "status": "added"
+   },
+   {
+    "word": "Lachrymose",
+    "status": "added"
+   },
+   {
+    "word": "Tearful",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Laugh",
+    "status": "added"
+   }
+  ]
+ },
+ "wicked": {
+  "word": "Wicked",
+  "wordLower": "wicked",
+  "definition": "evil, morally wrong or mischievous",
+  "pos": "adj",
+  "bn": "দুষ্ট",
+  "ex": "The wicked witch cursed the village.",
+  "mnemonic": "wicked – 'wick' jaisi burai jalti rahe, dusht insaan",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Sinful",
+    "status": "added"
+   },
+   {
+    "word": "Unholy",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Admirable",
+    "status": "correct"
+   },
+   {
+    "word": "Virtuous",
+    "status": "added"
+   }
+  ]
+ },
+ "waterfall": {
+  "word": "Waterfall",
+  "wordLower": "waterfall",
+  "definition": "water falling from a height",
+  "pos": "noun",
+  "bn": "জলপ্রপাত",
+  "ex": "We hiked to see the beautiful waterfall.",
+  "mnemonic": "water + fall – paani neeche girta hua",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Cascade",
+    "status": "correct"
+   },
+   {
+    "word": "Falls",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wash": {
+  "word": "Wash",
+  "wordLower": "wash",
+  "definition": "clean with water",
+  "pos": "verb",
+  "bn": "ধোয়া",
+  "ex": "Please wash your hands before eating.",
+  "mnemonic": "wash – paani se kapde ya haath saaf karna",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Washing",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wealthy": {
+  "word": "Wealthy",
+  "wordLower": "wealthy",
+  "definition": "having much money or valuable property",
+  "pos": "adj",
+  "bn": "ধনী",
+  "ex": "The wealthy merchant donated to charity.",
+  "mnemonic": "wealthy – wealth wala, paise se bhara",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "-",
+    "status": "correct"
+   },
+   {
+    "word": "Affluent",
+    "status": "added"
+   },
+   {
+    "word": "Moneyed",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "warmth": {
+  "word": "Warmth",
+  "wordLower": "warmth",
+  "definition": "quality of being warm; friendliness",
+  "pos": "noun",
+  "bn": "উষ্ণতা",
+  "ex": "The fire gave us warmth on the cold night.",
+  "mnemonic": "warm + th – warm hone ki feeling, garmi aur pyaar",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Heat",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "worship": {
+  "word": "Worship",
+  "wordLower": "worship",
+  "definition": "show reverence and adoration for deity",
+  "pos": "verb",
+  "bn": "উপাসনা করা",
+  "ex": "They gather to worship every Sunday.",
+  "mnemonic": "worship – warship pe chadhke bhagwan ki puja",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Adoration",
+    "status": "added"
+   },
+   {
+    "word": "Idolise",
+    "status": "added"
+   },
+   {
+    "word": "Idolize",
+    "status": "added"
+   },
+   {
+    "word": "Revere",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wither": {
+  "word": "Wither",
+  "wordLower": "wither",
+  "definition": "to dry up, shrivel, or fade",
+  "pos": "verb",
+  "bn": "শুকিয়ে যাওয়া",
+  "ex": "The flowers wither without water.",
+  "mnemonic": "wither – 'weather' se phool sukh gaya, murjhaa gaya",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Fade",
+    "status": "added"
+   },
+   {
+    "word": "Shrink",
+    "status": "added"
+   },
+   {
+    "word": "Shrivel",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "worldly": {
+  "word": "Worldly",
+  "wordLower": "worldly",
+  "definition": "concerned with material life; experienced, sophisticated",
+  "pos": "adj",
+  "bn": "পার্থিব",
+  "ex": "He gave up worldly pleasures.",
+  "mnemonic": "worldly – duniyaadaari wala, sansaarik cheezon mein",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Secular",
+    "status": "added"
+   },
+   {
+    "word": "Temporal",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Unworldly",
+    "status": "added"
+   }
+  ]
+ },
+ "wonder": {
+  "word": "Wonder",
+  "wordLower": "wonder",
+  "definition": "feel curiosity or amazement",
+  "pos": "verb",
+  "bn": "বিস্ময়",
+  "ex": "I wonder what happened to him.",
+  "mnemonic": "wonder – 'won-der' dekhkar mann sochne laga",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Astonishment",
+    "status": "correct"
+   },
+   {
+    "word": "Admiration",
+    "status": "added"
+   },
+   {
+    "word": "Curiosity",
+    "status": "added"
+   },
+   {
+    "word": "Marvel",
+    "status": "added"
+   },
+   {
+    "word": "Wonderment",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "whimsical": {
+  "word": "Whimsical",
+  "wordLower": "whimsical",
+  "definition": "playfully quaint; unpredictable; fanciful",
+  "pos": "adj",
+  "bn": "খেয়ালি",
+  "ex": "She has a whimsical sense of humour.",
+  "mnemonic": "whimsical – whim (sanki mood) pe kaam karne wala",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Funny",
+    "status": "correct"
+   },
+   {
+    "word": "Capricious",
+    "status": "added"
+   },
+   {
+    "word": "Impulsive",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Practical",
+    "status": "correct"
+   }
+  ]
+ },
+ "wanting": {
+  "word": "Wanting",
+  "wordLower": "wanting",
+  "definition": "lacking or deficient in something",
+  "pos": "adj",
+  "bn": "অভাবগ্রস্ত, ঘাটতি",
+  "ex": "The plan was found wanting in detail.",
+  "mnemonic": "wanting – want (kami) hona, kisi cheez ki kami",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Desire",
+    "status": "added"
+   },
+   {
+    "word": "Need",
+    "status": "added"
+   },
+   {
+    "word": "Require",
+    "status": "added"
+   },
+   {
+    "word": "Want",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Adequate",
+    "status": "correct"
+   }
+  ]
+ },
+ "worried": {
+  "word": "Worried",
+  "wordLower": "worried",
+  "definition": "anxious; troubled about problems",
+  "pos": "adj",
+  "bn": "চিন্তিত",
+  "ex": "She looked worried about the exam.",
+  "mnemonic": "worried – worry se pareshaan, tension mein",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Worry",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Unconcerned",
+    "status": "correct"
+   },
+   {
+    "word": "Reassure",
+    "status": "added"
+   }
+  ]
+ },
+ "withdraw": {
+  "word": "Withdraw",
+  "wordLower": "withdraw",
+  "definition": "remove or take back; retreat",
+  "pos": "verb",
+  "bn": "প্রত্যাহার করা",
+  "ex": "I need to withdraw money from the ATM.",
+  "mnemonic": "with + draw – bank se paisa nikalna ya peeche hatna",
+  "root": "TRA",
+  "rootMeaning": "draw / pull",
+  "rootBn": "টানা",
+  "rootFamily": [
+   {
+    "w": "withdraw",
+    "wLower": "withdraw",
+    "pos": "verb",
+    "mean": "remove or take back; retreat",
+    "bn": "প্রত্যাহার করা",
+    "mn": "with + draw – bank se paisa nikalna ya peeche hatna",
+    "n": 3
+   }
+  ],
+  "ssSynonyms": [
+   {
+    "word": "Combine retreat",
+    "status": "correct"
+   },
+   {
+    "word": "Disengage",
+    "status": "added"
+   },
+   {
+    "word": "Recede",
+    "status": "added"
+   },
+   {
+    "word": "Retire",
+    "status": "added"
+   },
+   {
+    "word": "Retreat",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Proceed",
+    "status": "correct"
+   },
+   {
+    "word": "Advance",
+    "status": "added"
+   },
+   {
+    "word": "Engage",
+    "status": "added"
+   }
+  ]
+ },
+ "work": {
+  "word": "Work",
+  "wordLower": "work",
+  "definition": "activity involving effort; a job",
+  "pos": "noun",
+  "bn": "কাজ",
+  "ex": "She finished her work early today.",
+  "mnemonic": "work – roz ka kaam, kaam hi work",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Employment",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Leisure",
+    "status": "correct"
+   }
+  ]
+ },
+ "worse": {
+  "word": "Worse",
+  "wordLower": "worse",
+  "definition": "more bad; of lower quality",
+  "pos": "adj",
+  "bn": "আরও খারাপ",
+  "ex": "His condition got worse overnight.",
+  "mnemonic": "worse – bad se bhi zyada bura",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Better",
+    "status": "added"
+   }
+  ]
+ },
+ "witty": {
+  "word": "Witty",
+  "wordLower": "witty",
+  "definition": "clever and quick with humour",
+  "pos": "adj",
+  "bn": "রসিক",
+  "ex": "His witty jokes made everyone laugh.",
+  "mnemonic": "witty – dimaag tez, mazedaar baatein",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Serious",
+    "status": "correct"
+   }
+  ]
+ },
+ "wonderful": {
+  "word": "Wonderful",
+  "wordLower": "wonderful",
+  "definition": "extremely good; marvellous",
+  "pos": "adj",
+  "bn": "চমৎকার",
+  "ex": "We had a wonderful time at the party.",
+  "mnemonic": "wonder + ful – wow wala, bahut badhiya",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Amazing",
+    "status": "correct"
+   },
+   {
+    "word": "Fantastic",
+    "status": "added"
+   },
+   {
+    "word": "Grand",
+    "status": "added"
+   },
+   {
+    "word": "Marvellous",
+    "status": "added"
+   },
+   {
+    "word": "Marvelous",
+    "status": "added"
+   },
+   {
+    "word": "Terrific",
+    "status": "added"
+   },
+   {
+    "word": "Tremendous",
+    "status": "added"
+   },
+   {
+    "word": "Wondrous",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "working": {
+  "word": "Working",
+  "wordLower": "working",
+  "definition": "functioning; engaged in work",
+  "pos": "adj",
+  "bn": "কর্মরত",
+  "ex": "The working printer is in the office.",
+  "mnemonic": "work + ing – kaam kar raha, chaalu",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Work",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Idle",
+    "status": "added"
+   }
+  ]
+ },
+ "wrath": {
+  "word": "Wrath",
+  "wordLower": "wrath",
+  "definition": "extreme anger; intense rage",
+  "pos": "noun",
+  "bn": "ক্রোধ",
+  "ex": "He feared the king's wrath after breaking the law.",
+  "mnemonic": "wrath – war jaisa raath, gusse mein bhara hua",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Anger",
+    "status": "added"
+   },
+   {
+    "word": "Ire",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wasteful": {
+  "word": "Wasteful",
+  "wordLower": "wasteful",
+  "definition": "using more than needed; extravagant",
+  "pos": "adj",
+  "bn": "অপচয়ী",
+  "ex": "Leaving lights on is wasteful of energy.",
+  "mnemonic": "wasteful – waste full, sab kuch barbaad karne wala",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Prodigal",
+    "status": "correct"
+   },
+   {
+    "word": "Uneconomical",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Thrifty",
+    "status": "added"
+   }
+  ]
+ },
+ "warn": {
+  "word": "Warn",
+  "wordLower": "warn",
+  "definition": "inform someone of possible danger or problem",
+  "pos": "verb",
+  "bn": "সতর্ক করা",
+  "ex": "I must warn you about the slippery road.",
+  "mnemonic": "warn – war se pehle sabko warn karo, khatra hai",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Admonish",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wrench": {
+  "word": "Wrench",
+  "wordLower": "wrench",
+  "definition": "twist or pull violently; a tool",
+  "pos": "verb",
+  "bn": "মোচড়ানো",
+  "ex": "She wrenched the door open in a panic.",
+  "mnemonic": "wrench – ranch pe wrench se bolt zor se ghumaya",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Wrest",
+    "status": "correct"
+   },
+   {
+    "word": "Pull",
+    "status": "added"
+   },
+   {
+    "word": "Spanner",
+    "status": "added"
+   },
+   {
+    "word": "Twist",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wrest": {
+  "word": "Wrest",
+  "wordLower": "wrest",
+  "definition": "forcibly pull or take away from someone",
+  "pos": "verb",
+  "bn": "ছিনিয়ে নেওয়া",
+  "ex": "She managed to wrest the gun from the attacker.",
+  "mnemonic": "wrest – wrestler zabardasti belt cheen kar le gaya",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Wrench",
+    "status": "correct"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "worst": {
+  "word": "Worst",
+  "wordLower": "worst",
+  "definition": "most bad; lowest in quality",
+  "pos": "adj",
+  "bn": "সবচেয়ে খারাপ",
+  "ex": "That was the worst movie I've seen.",
+  "mnemonic": "worst – bad ka top level, sabse bura",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Best",
+    "status": "added"
+   }
+  ]
+ },
+ "warrant": {
+  "word": "Warrant",
+  "wordLower": "warrant",
+  "definition": "official document authorizing an action",
+  "pos": "noun",
+  "bn": "পরোয়ানা",
+  "ex": "Police obtained a warrant to search the house.",
+  "mnemonic": "warrant – police ka arrest ka official parwana",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Permit here",
+    "status": "correct"
+   },
+   {
+    "word": "Endorsement",
+    "status": "added"
+   },
+   {
+    "word": "Sanction",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "with": {
+  "word": "With",
+  "wordLower": "with",
+  "definition": "accompanied by; using; in relation to",
+  "pos": "phrase",
+  "bn": "সাথে",
+  "ex": "She went to the market with her mother.",
+  "mnemonic": "with – 'saath' me rehna, koi native word hai",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Lethargic",
+    "status": "correct"
+   }
+  ]
+ },
+ "workaholic": {
+  "word": "Workaholic",
+  "wordLower": "workaholic",
+  "definition": "person addicted to working",
+  "pos": "noun",
+  "bn": "কর্মাসক্ত",
+  "ex": "My boss is a total workaholic.",
+  "mnemonic": "workaholic – 'work' ka alcoholic, kaam ka aadi",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "worrisome": {
+  "word": "Worrisome",
+  "wordLower": "worrisome",
+  "definition": "causing anxiety or concern",
+  "pos": "adj",
+  "bn": "উদ্বেগজনক",
+  "ex": "The test results were worrisome.",
+  "mnemonic": "worrisome – worry karne wala, chinta dene wala",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Distressing",
+    "status": "added"
+   },
+   {
+    "word": "Disturbing",
+    "status": "added"
+   },
+   {
+    "word": "Troubling",
+    "status": "added"
+   },
+   {
+    "word": "Worrying",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Reassuring",
+    "status": "added"
+   }
+  ]
+ },
+ "wobbly": {
+  "word": "Wobbly",
+  "wordLower": "wobbly",
+  "definition": "unsteady, shaky, moving side to side",
+  "pos": "adj",
+  "bn": "টলমলে",
+  "ex": "The chair felt wobbly and unsafe.",
+  "mnemonic": "wobbly – table hilti dulti, wobble karti hai",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Rickety",
+    "status": "added"
+   },
+   {
+    "word": "Shaky",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wily": {
+  "word": "Wily",
+  "wordLower": "wily",
+  "definition": "cunning, crafty, sly",
+  "pos": "adj",
+  "bn": "ধূর্ত",
+  "ex": "The wily fox escaped the trap.",
+  "mnemonic": "wily – 'why-lie', chaal chalne wala chatur aadmi",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Crafty",
+    "status": "added"
+   },
+   {
+    "word": "Cunning",
+    "status": "added"
+   },
+   {
+    "word": "Sly",
+    "status": "added"
+   },
+   {
+    "word": "Tricky",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Honest",
+    "status": "correct"
+   }
+  ]
+ },
+ "wealth": {
+  "word": "Wealth",
+  "wordLower": "wealth",
+  "definition": "abundance of money or valuable possessions",
+  "pos": "noun",
+  "bn": "ধনসম্পদ",
+  "ex": "He accumulated great wealth over the years.",
+  "mnemonic": "wealth – well hone ka matlab dhan-daulat",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Riches",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Poverty",
+    "status": "added"
+   }
+  ]
+ },
+ "will": {
+  "word": "Will",
+  "wordLower": "will",
+  "definition": "expressing future action or determination",
+  "pos": "verb",
+  "bn": "হবে / ইচ্ছা",
+  "ex": "She will arrive tomorrow morning.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Testament",
+    "status": "added"
+   },
+   {
+    "word": "Volition",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "weirdly": {
+  "word": "Weirdly",
+  "wordLower": "weirdly",
+  "definition": "in a strange, unusual manner",
+  "pos": "adv",
+  "bn": "অদ্ভুতভাবে",
+  "ex": "He was behaving weirdly all evening.",
+  "mnemonic": "weirdly – 'weird' banda ajeeb tareeke se hasa",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "wilful": {
+  "word": "Wilful",
+  "wordLower": "wilful",
+  "definition": "stubbornly self-willed; deliberate",
+  "pos": "adj",
+  "bn": "একগুঁয়ে",
+  "ex": "His wilful disobedience angered the teacher.",
+  "mnemonic": "wilful – apni 'will' pe adjy, zidhdi banda",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Headstrong",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "willing": {
+  "word": "Willing",
+  "wordLower": "willing",
+  "definition": "ready and glad to do something",
+  "pos": "adj",
+  "bn": "ইচ্ছুক",
+  "ex": "He is willing to help us anytime.",
+  "mnemonic": "willing – dil se kaam karne ko taiyaar",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "wordy": {
+  "word": "Wordy",
+  "wordLower": "wordy",
+  "definition": "using too many words; verbose",
+  "pos": "adj",
+  "bn": "বাক্যবহুল",
+  "ex": "His essay was too wordy and unclear.",
+  "mnemonic": "wordy – zyada words use karna, faltu lamba",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Verbose",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "waver": {
+  "word": "Waver",
+  "wordLower": "waver",
+  "definition": "be indecisive; hesitate; fluctuate",
+  "pos": "verb",
+  "bn": "দ্বিধা করা",
+  "ex": "She did not waver in her decision.",
+  "mnemonic": "waver – wave ki tarah idhar-udhar dolna, faisla na kar pana",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Falter",
+    "status": "added"
+   },
+   {
+    "word": "Flicker",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wait": {
+  "word": "Wait",
+  "wordLower": "wait",
+  "definition": "stay until something happens",
+  "pos": "verb",
+  "bn": "অপেক্ষা করা",
+  "ex": "Please wait here for a moment.",
+  "mnemonic": "wait – ruk kar intezaar karna",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Delay",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "waste": {
+  "word": "Waste",
+  "wordLower": "waste",
+  "definition": "use carelessly; discarded material",
+  "pos": "noun",
+  "bn": "অপচয়",
+  "ex": "Don't waste your time on this.",
+  "mnemonic": "waste – bekaar cheez ko waste bin mein daalo",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Dissipation",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "waive": {
+  "word": "Waive",
+  "wordLower": "waive",
+  "definition": "give up a right or claim",
+  "pos": "verb",
+  "bn": "পরিত্যাগ করা",
+  "ex": "They agreed to waive the entry fee.",
+  "mnemonic": "waive – wave karke rights chhod diya, bye-bye",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Forego",
+    "status": "added"
+   },
+   {
+    "word": "Forfeit",
+    "status": "added"
+   },
+   {
+    "word": "Forgo",
+    "status": "added"
+   },
+   {
+    "word": "Relinquish",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Claim",
+    "status": "added"
+   }
+  ]
+ },
+ "withstand": {
+  "word": "Withstand",
+  "wordLower": "withstand",
+  "definition": "resist or endure successfully",
+  "pos": "verb",
+  "bn": "সহ্য করা",
+  "ex": "The bridge can withstand strong earthquakes.",
+  "mnemonic": "withstand – 'with stand', dat ke khada rehna",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Defy",
+    "status": "added"
+   },
+   {
+    "word": "Resist",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Surrender",
+    "status": "correct"
+   }
+  ]
+ },
+ "wake": {
+  "word": "Wake",
+  "wordLower": "wake",
+  "definition": "to stop sleeping; become alert",
+  "pos": "verb",
+  "bn": "জাগা",
+  "ex": "I wake up at six every morning.",
+  "mnemonic": "wake – subah alarm baja, neend se utho",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Aftermath",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Doze",
+    "status": "correct"
+   }
+  ]
+ },
+ "weaken": {
+  "word": "Weaken",
+  "wordLower": "weaken",
+  "definition": "make or become less strong",
+  "pos": "verb",
+  "bn": "দুর্বল করা",
+  "ex": "Illness can weaken the body over time.",
+  "mnemonic": "weak + en – kamzor banana",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Diminish",
+    "status": "correct"
+   },
+   {
+    "word": "Subvert",
+    "status": "added"
+   },
+   {
+    "word": "Undermine",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Strengthen",
+    "status": "added"
+   }
+  ]
+ },
+ "wrecked": {
+  "word": "Wrecked",
+  "wordLower": "wrecked",
+  "definition": "destroyed, ruined, or badly damaged",
+  "pos": "adj",
+  "bn": "বিধ্বস্ত",
+  "ex": "The storm left the ship wrecked on the rocks.",
+  "mnemonic": "wrecked – rake se rok diya, gaadi puri barbaad ho gayi",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "wine": {
+  "word": "Wine",
+  "wordLower": "wine",
+  "definition": "alcoholic drink made from grapes",
+  "pos": "noun",
+  "bn": "মদ, সুরা",
+  "ex": "They served red wine at dinner.",
+  "mnemonic": "wine – angoor se bani sharab",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Delicate",
+    "status": "correct"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "which": {
+  "word": "Which",
+  "wordLower": "which",
+  "definition": "asking or specifying one from a set",
+  "pos": "pron",
+  "bn": "কোনটি, যেটি",
+  "ex": "Which book do you want to read?",
+  "mnemonic": "which – konsa wala, choice puchhna",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Fleeting",
+    "status": "correct"
+   },
+   {
+    "word": "Thoughtful",
+    "status": "correct"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wobble": {
+  "word": "Wobble",
+  "wordLower": "wobble",
+  "definition": "move unsteadily from side to side",
+  "pos": "verb",
+  "bn": "টলমল করা",
+  "ex": "The old table began to wobble.",
+  "mnemonic": "wobble – 'wo bal' bina table hilta dolta rahe",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "whim": {
+  "word": "Whim",
+  "wordLower": "whim",
+  "definition": "sudden fanciful desire or idea",
+  "pos": "noun",
+  "bn": "খেয়াল",
+  "ex": "She bought it on a whim.",
+  "mnemonic": "whim – 'wo hi mann' achanak jo dil kare",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Fancy",
+    "status": "correct"
+   },
+   {
+    "word": "Caprice",
+    "status": "added"
+   },
+   {
+    "word": "Impulse",
+    "status": "added"
+   },
+   {
+    "word": "Notion",
+    "status": "added"
+   },
+   {
+    "word": "Whimsy",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "worthwhile": {
+  "word": "Worthwhile",
+  "wordLower": "worthwhile",
+  "definition": "worth the time or effort spent",
+  "pos": "adj",
+  "bn": "সার্থক",
+  "ex": "The trip was a worthwhile experience.",
+  "mnemonic": "worth + while – jitna time laga utna faayda",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Hollow",
+    "status": "correct"
+   }
+  ]
+ },
+ "wrestle": {
+  "word": "Wrestle",
+  "wordLower": "wrestle",
+  "definition": "grapple or struggle with someone or something",
+  "pos": "verb",
+  "bn": "কুস্তি করা, লড়াই করা",
+  "ex": "He had to wrestle with the heavy suitcase.",
+  "mnemonic": "wrestle – WWE mein pehelwan aapas mein bhidte hain",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Grapple",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wage": {
+  "word": "Wage",
+  "wordLower": "wage",
+  "definition": "payment for work; also to carry on",
+  "pos": "noun",
+  "bn": "মজুরি",
+  "ex": "Workers demanded a higher daily wage.",
+  "mnemonic": "wage – mazdoor ki weekly majoori",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Earnings",
+    "status": "added"
+   },
+   {
+    "word": "Pay",
+    "status": "added"
+   },
+   {
+    "word": "Remuneration",
+    "status": "added"
+   },
+   {
+    "word": "Salary",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "walk the tight rope": {
+  "word": "Walk the tight rope",
+  "wordLower": "walk the tight rope",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "walk on air": {
+  "word": "Walk on air",
+  "wordLower": "walk on air",
+  "definition": "to feel extremely happy and excited",
+  "pos": "",
+  "bn": "আনন্দে ডগমগ — খুব খুশি হয়ে উড়ে বেড়ানো",
+  "ex": "After winning the match, Sita was walking on air.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "went terribly wrong": {
+  "word": "Went terribly wrong",
+  "wordLower": "went terribly wrong",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "weal and woe": {
+  "word": "Weal and woe",
+  "wordLower": "weal and woe",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "writing on the wall": {
+  "word": "Writing on the wall",
+  "wordLower": "writing on the wall",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "won his laurels": {
+  "word": "Won his laurels",
+  "wordLower": "won his laurels",
+  "definition": "became famous for great achievement",
+  "pos": "",
+  "bn": "খ্যাতি অর্জন করেছে",
+  "ex": "Dhoni won his laurels in world cricket.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "with documented proof and exact details": {
+  "word": "With documented proof and exact details",
+  "wordLower": "with documented proof and exact details",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "with great intensity": {
+  "word": "With great intensity",
+  "wordLower": "with great intensity",
+  "definition": "doing something with very strong force",
+  "pos": "",
+  "bn": "খুব জোরে বা তীব্রভাবে",
+  "ex": "Amit studied for exam with great intensity.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "work in consultation": {
+  "word": "Work in consultation",
+  "wordLower": "work in consultation",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "without haste": {
+  "word": "Without haste",
+  "wordLower": "without haste",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "whistled in the dark": {
+  "word": "Whistled in the dark",
+  "wordLower": "whistled in the dark",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "walk a tightrope": {
+  "word": "Walk a tightrope",
+  "wordLower": "walk a tightrope",
+  "definition": "to be in a difficult balanced situation",
+  "pos": "",
+  "bn": "ফাঁদে পা — খুব কঠিন ভারসাম্যপূর্ণ অবস্থায় থাকা",
+  "ex": "Rohit is walking a tightrope between studies and cricket.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "where the difficulty lies": {
+  "word": "Where the difficulty lies",
+  "wordLower": "where the difficulty lies",
+  "definition": "the main problem or trouble spot",
+  "pos": "",
+  "bn": "কোথায় সমস্যা আছে",
+  "ex": "The teacher asked where the difficulty lies in the sum.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "wild goose chase": {
+  "word": "Wild goose chase",
+  "wordLower": "wild goose chase",
+  "definition": "a useless search for something",
+  "pos": "",
+  "bn": "বৃথা খোঁজা, ব্যর্থ অনুসন্ধান",
+  "ex": "Going to find that bookshop was a wild goose chase.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "working hard": {
+  "word": "Working hard",
+  "wordLower": "working hard",
+  "definition": "putting in lots of effort",
+  "pos": "",
+  "bn": "অনেক পরিশ্রম করা",
+  "ex": "Priya is working hard for her maths test.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "what a coincidence": {
+  "word": "What a coincidence",
+  "wordLower": "what a coincidence",
+  "definition": "surprise when two things happen together",
+  "pos": "",
+  "bn": "কী আশ্চর্য মিল! কাকতালীয়!",
+  "ex": "What a coincidence! Rahul met his friend at the market.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "when pigs fly": {
+  "word": "When pigs fly",
+  "wordLower": "when pigs fly",
+  "definition": "something that will never happen",
+  "pos": "",
+  "bn": "কখনো হবে না, অসম্ভব",
+  "ex": "Rahul will top the exam when pigs fly.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "wolf in sheep's clothing": {
+  "word": "Wolf in sheep's clothing",
+  "wordLower": "wolf in sheep's clothing",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "wet behind the ears": {
+  "word": "Wet behind the ears",
+  "wordLower": "wet behind the ears",
+  "definition": "young and without experience",
+  "pos": "",
+  "bn": "অনভিজ্ঞ, নতুন, কাঁচা",
+  "ex": "Don't ask Rohan, he is wet behind the ears.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "whole nine yards": {
+  "word": "Whole nine yards",
+  "wordLower": "whole nine yards",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "would rather not go through": {
+  "word": "Would rather not go through",
+  "wordLower": "would rather not go through",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "wreath": {
+  "word": "Wreath",
+  "wordLower": "wreath",
+  "definition": "ring of flowers or leaves for decoration or honour",
+  "pos": "noun",
+  "bn": "মালা",
+  "ex": "They laid a wreath at the soldier's grave.",
+  "mnemonic": "wreath – flowers ko twist karke ring banayi",
+  "root": "WRETH",
+  "rootMeaning": "twist / bend",
+  "rootBn": "পাক দেওয়া",
+  "rootFamily": [
+   {
+    "w": "wreath",
+    "wLower": "wreath",
+    "pos": "noun",
+    "mean": "ring of flowers or leaves for decoration or honour",
+    "bn": "মালা",
+    "mn": "wreath – flowers ko twist karke ring banayi",
+    "n": 2
+   }
+  ],
+  "ssSynonyms": [
+   {
+    "word": "Garland",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wardrobe": {
+  "word": "Wardrobe",
+  "wordLower": "wardrobe",
+  "definition": "cupboard for storing clothes; one's clothing collection",
+  "pos": "noun",
+  "bn": "পোশাকের আলমারি",
+  "ex": "She hung her coat in the wardrobe.",
+  "mnemonic": "wardrobe – war (guard) + robe, jahan robe/kapde guard hote hain",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Closet",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "workshop": {
+  "word": "Workshop",
+  "wordLower": "workshop",
+  "definition": "place for making things; practical training session",
+  "pos": "noun",
+  "bn": "কর্মশালা",
+  "ex": "He attended a pottery workshop.",
+  "mnemonic": "workshop – 'work' ka shop, kaam sikhne ki jagah",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "wreaths": {
+  "word": "Wreaths",
+  "wordLower": "wreaths",
+  "definition": "ring-shaped arrangements of flowers or leaves",
+  "pos": "noun",
+  "bn": "ফুলের মালা",
+  "ex": "They laid wreaths at the memorial.",
+  "mnemonic": "wreaths – Christmas ke door pe latakne wale flower rings",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Garland",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wigwam": {
+  "word": "Wigwam",
+  "wordLower": "wigwam",
+  "definition": "domed Native American dwelling or tent",
+  "pos": "noun",
+  "bn": "আদিবাসী তাঁবু",
+  "ex": "The tribe lived in a warm wigwam.",
+  "mnemonic": "wigwam – 'wig' pehne aadmi ke tambu jaisa ghar",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "wondrous": {
+  "word": "Wondrous",
+  "wordLower": "wondrous",
+  "definition": "inspiring wonder; marvellous",
+  "pos": "adj",
+  "bn": "বিস্ময়কর",
+  "ex": "The canyon was a wondrous sight.",
+  "mnemonic": "wondrous – wonder se bhara, dekhkar 'wah' nikle",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Fantastic",
+    "status": "added"
+   },
+   {
+    "word": "Marvellous",
+    "status": "added"
+   },
+   {
+    "word": "Marvelous",
+    "status": "added"
+   },
+   {
+    "word": "Terrific",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "wander": {
+  "word": "Wander",
+  "wordLower": "wander",
+  "definition": "walk about aimlessly",
+  "pos": "verb",
+  "bn": "ঘুরে বেড়ানো",
+  "ex": "They wandered through the old town.",
+  "mnemonic": "wander – bina maksad idhar-udhar ghumna",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Drift",
+    "status": "added"
+   },
+   {
+    "word": "Ramble",
+    "status": "added"
+   },
+   {
+    "word": "Roam",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "win": {
+  "word": "Win",
+  "wordLower": "win",
+  "definition": "be victorious; achieve success",
+  "pos": "verb",
+  "bn": "জেতা",
+  "ex": "Our team hopes to win the match.",
+  "mnemonic": "win – match jeetna, winner banna",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Lose",
+    "status": "added"
+   }
+  ]
+ },
+ "winnow": {
+  "word": "Winnow",
+  "wordLower": "winnow",
+  "definition": "separate grain from chaff; sift out",
+  "pos": "verb",
+  "bn": "ঝাড়াই করা",
+  "ex": "Farmers winnow the wheat after harvest.",
+  "mnemonic": "winnow – 'win now' ache anaj ko chaff se alag karo",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "willow": {
+  "word": "Willow",
+  "wordLower": "willow",
+  "definition": "tree with slender flexible branches",
+  "pos": "noun",
+  "bn": "উইলো গাছ",
+  "ex": "A willow drooped over the river bank.",
+  "mnemonic": "willow – 'will low' jhukti hui shaakhon wala ped",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "whisk": {
+  "word": "Whisk",
+  "wordLower": "whisk",
+  "definition": "beat or move quickly",
+  "pos": "verb",
+  "bn": "ফেটানো",
+  "ex": "Whisk the eggs until fluffy.",
+  "mnemonic": "whisk – whisker se ande 'whisk' karke phento",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "whip": {
+  "word": "Whip",
+  "wordLower": "whip",
+  "definition": "lash used for striking; to beat",
+  "pos": "noun",
+  "bn": "চাবুক",
+  "ex": "He cracked the whip to move the horses.",
+  "mnemonic": "whip – 'w' silent, chabuk se whip-whip",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "wreathe": {
+  "word": "Wreathe",
+  "wordLower": "wreathe",
+  "definition": "to encircle, twist, or surround with something",
+  "pos": "verb",
+  "bn": "বেষ্টন করা",
+  "ex": "Mist began to wreathe the mountain peaks at dawn.",
+  "mnemonic": "wreathe – flower wreath se neck ko ghera daala",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Wind",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "watchman": {
+  "word": "Watchman",
+  "wordLower": "watchman",
+  "definition": "man who guards a building or area",
+  "pos": "noun",
+  "bn": "পাহারাদার",
+  "ex": "The watchman patrols the gate at night.",
+  "mnemonic": "watchman – raat me 'watch' karta hua chowkidar",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "warehouse": {
+  "word": "Warehouse",
+  "wordLower": "warehouse",
+  "definition": "large building for storing goods",
+  "pos": "noun",
+  "bn": "গুদাম",
+  "ex": "The goods are stored in the warehouse.",
+  "mnemonic": "warehouse – ware (maal) rakhne ka bada house",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "worker": {
+  "word": "Worker",
+  "wordLower": "worker",
+  "definition": "a person who works, especially for wages",
+  "pos": "noun",
+  "bn": "শ্রমিক / কর্মী",
+  "ex": "Every worker deserves a fair wage.",
+  "mnemonic": "worker – 'work' karne wala insaan worker hai",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "woodwinds": {
+  "word": "Woodwinds",
+  "wordLower": "woodwinds",
+  "definition": "wind instruments like flute, clarinet, oboe",
+  "pos": "noun",
+  "bn": "কাঠের বাদ্যযন্ত্র",
+  "ex": "The woodwinds opened the symphony.",
+  "mnemonic": "woodwinds – 'wood + wind' lakdi ke fook wale baaje",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "watt": {
+  "word": "Watt",
+  "wordLower": "watt",
+  "definition": "unit of electrical power",
+  "pos": "noun",
+  "bn": "বিদ্যুৎ শক্তির একক",
+  "ex": "This bulb uses sixty watts of power.",
+  "mnemonic": "watt – 'what' power? bulb ki watt batati hai",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "wholesome": {
+  "word": "Wholesome",
+  "wordLower": "wholesome",
+  "definition": "good for health or moral well-being",
+  "pos": "adj",
+  "bn": "স্বাস্থ্যকর / নির্মল",
+  "ex": "They enjoyed a wholesome home-cooked meal.",
+  "mnemonic": "wholesome – 'whole' body ko healthy rakhe wahi wholesome",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Unwholesome",
+    "status": "added"
+   }
+  ]
+ },
+ "widower": {
+  "word": "Widower",
+  "wordLower": "widower",
+  "definition": "man whose wife has died",
+  "pos": "noun",
+  "bn": "বিপত্নীক",
+  "ex": "The widower raised his children alone.",
+  "mnemonic": "widow + er – jiski patni guzar gayi, aadmi",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "widow": {
+  "word": "Widow",
+  "wordLower": "widow",
+  "definition": "woman whose husband has died",
+  "pos": "noun",
+  "bn": "বিধবা",
+  "ex": "The widow raised her children alone.",
+  "mnemonic": "widow – 'wi-dow' jiska pati window se guzar gaya",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "withdrawl": {
+  "word": "Withdrawl",
+  "wordLower": "withdrawl",
+  "definition": "taking money out from bank account",
+  "pos": "",
+  "bn": "টাকা তোলা",
+  "ex": "Ramesh did a withdrawl of five thousand rupees.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "wave the participation": {
+  "word": "Wave the participation",
+  "wordLower": "wave the participation",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "with incadescent lights": {
+  "word": "With incadescent lights",
+  "wordLower": "with incadescent lights",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "wolrd": {
+  "word": "Wolrd",
+  "wordLower": "wolrd",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "whether": {
+  "word": "Whether",
+  "wordLower": "whether",
+  "definition": "expressing doubt or choice between alternatives",
+  "pos": "conjunction",
+  "bn": "কিনা",
+  "ex": "I don't know whether to go or stay.",
+  "mnemonic": "whether – weather nahi, 'kya karu ya nahi' wala doubt",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "weggle": {
+  "word": "Weggle",
+  "wordLower": "weggle",
+  "definition": "to move slightly from side to side",
+  "pos": "",
+  "bn": "একটু একটু করে নড়াচড়া করা",
+  "ex": "The puppy wiggled its tail when it saw its owner.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "whorle": {
+  "word": "Whorle",
+  "wordLower": "whorle",
+  "definition": "wrong spelling of whorl, a circular pattern",
+  "pos": "",
+  "bn": "ঘূর্ণি, বৃত্তাকার নকশা (ভুল বানান)",
+  "ex": "The correct spelling is whorl, not whorle.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "witharing": {
+  "word": "Witharing",
+  "wordLower": "witharing",
+  "definition": "drying up and dying (plant)",
+  "pos": "",
+  "bn": "শুকিয়ে যাওয়া",
+  "ex": "The flowers are witharing without water.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "writting": {
+  "word": "Writting",
+  "wordLower": "writting",
+  "definition": "spelling mistake of 'writing'",
+  "pos": "",
+  "bn": "লেখা (বানান ভুল)",
+  "ex": "'Writting' is wrong; the correct word is 'writing'.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "weather": {
+  "word": "Weather",
+  "wordLower": "weather",
+  "definition": "state of atmosphere; rain, sun, temperature",
+  "pos": "noun",
+  "bn": "আবহাওয়া",
+  "ex": "The weather is sunny today.",
+  "mnemonic": "weather – mausam garam ya thanda",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Brave",
+    "status": "added"
+   },
+   {
+    "word": "Endure",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "weired": {
+  "word": "Weired",
+  "wordLower": "weired",
+  "definition": "spelled wrong form of 'weird', means strange",
+  "pos": "",
+  "bn": "'weird' এর ভুল বানান, মানে অদ্ভুত",
+  "ex": "That haunted house story was really weired to hear.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "write": {
+  "word": "Write",
+  "wordLower": "write",
+  "definition": "make letters or words on surface",
+  "pos": "verb",
+  "bn": "লেখা",
+  "ex": "Please write your name here.",
+  "mnemonic": "write – pen le kar right side se likho",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Compose",
+    "status": "added"
+   },
+   {
+    "word": "Pen",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ }
+}

@@ -1,0 +1,700 @@
+[
+ {
+  "id": "voi-1",
+  "no": 1,
+  "title": "Basic Active-Passive Structure & Rules",
+  "concept": "Voice shows whether the subject of a sentence performs the action (Active) or receives it (Passive). Active voice follows Subject + Verb + Object, while Passive voice follows Object + be-verb + V3 (past participle) + by + Subject. Only transitive verbs (verbs that take an object) can be changed into the passive, because the passive needs an object to promote to the subject position. Passive voice is preferred in SSC exam sentences when the doer is unknown, unimportant, obvious, or when the emphasis is on the action itself.",
+  "rules": [
+   "Identify the three parts of the active sentence: Subject (S), Verb (V) and Object (O). To convert to passive, interchange the positions of subject and object: the object of the active sentence becomes the subject of the passive sentence, and the active subject moves after 'by'. Example: He (S) writes (V) a letter (O) → A letter is written by him.",
+   "Only transitive verbs can be made passive. Intransitive verbs (sleep, go, come, die, laugh, rise, arrive, happen, appear, sit, fall) have no object, so they have NO passive form. 'He slept' cannot be made passive. Verbs like 'have' (possess), 'resemble', 'lack', 'consist of', 'become', 'suit', 'befall' take an object but are still not used in the passive.",
+   "The main verb in the passive is always in its third form (V3 / past participle), and the tense of the original sentence is carried by the be-verb (is/am/are/was/were/be/been/being) which must agree with the NEW subject in number and person. Formula: Object + correct form of 'be' + V3 + by + agent. Note: 'was/were' with V3 for simple past, 'is/am/are being' for present continuous, 'has/have been' for present perfect.",
+   "Pronouns change from subjective case to objective case when they move after 'by' — I→me, we→us, he→him, she→her, they→them, who→whom; 'you' and 'it' remain unchanged. The active object in objective case becomes subjective when it moves to subject position — me→I, him→he, her→she, them→they, us→we.",
+   "The 'by + agent' phrase is often dropped when the doer is indefinite, unknown, or unimportant — e.g., with subjects like people, somebody, someone, anyone, one, they, we, everybody. 'People speak English all over the world' → 'English is spoken all over the world' (by people is omitted). Also, prepositions other than 'by' are used with certain past participles: known TO, filled WITH, pleased WITH/AT, surprised AT, contained IN, comprised OF."
+  ],
+  "examples": [
+   {
+    "active": "Rama helps the poor.",
+    "passive": "The poor are helped by Rama.",
+    "note": "Simple Present: object 'the poor' (plural sense) becomes subject, so be-verb is 'are' + V3 'helped'; 'Rama' takes 'by'."
+   },
+   {
+    "active": "The teacher punished the naughty boys.",
+    "passive": "The naughty boys were punished by the teacher.",
+    "note": "Simple Past: plural new subject takes 'were' + V3. Notice the tense stays past — only the be-verb carries it."
+   },
+   {
+    "active": "Someone has stolen my bicycle.",
+    "passive": "My bicycle has been stolen.",
+    "note": "Present Perfect: has/have + been + V3. 'By someone' is dropped because the agent is unknown/indefinite."
+   },
+   {
+    "active": "They are building a new bridge over the river.",
+    "passive": "A new bridge is being built over the river.",
+    "note": "Present Continuous: is/am/are + being + V3. 'By them' is omitted as the doer is unimportant."
+   }
+  ],
+  "questionIds": [
+   "voice_66",
+   "voice_147",
+   "voice_169",
+   "voice_180"
+  ]
+ },
+ {
+  "id": "voi-2",
+  "no": 2,
+  "title": "Tense-wise Passive Forms (Part 1)",
+  "concept": "The passive voice is built on a fixed skeleton: subject + correct form of 'be' + V3 (past participle) + by + agent. The tense of the active sentence is never changed in the passive; it is carried entirely by the auxiliary 'be', while the main verb is frozen as V3. Mastering the four present/past forms of 'be' (is/am/are, is/am/are being, has/have been, was/were) solves the majority of SSC voice questions. The number and person of the new subject (the old object) decide which form of 'be' is used.",
+  "rules": [
+   "Simple Present Passive = is/am/are + V3. The active object becomes the passive subject, the active subject moves after 'by' in objective case (I>me, he>him, she>her, we>us, they>them, who>whom). 'Does/do' of the active negative or interrogative disappears completely: 'She does not write letters' > 'Letters are not written by her'; 'Do they play cricket?' > 'Is cricket played by them?' Choice of is/am/are depends on the NEW subject, not the old one: 'They know me' > 'I am known to them.'",
+   "Present Continuous Passive = is/am/are + being + V3. 'Being' is compulsory; omitting it (Ram is beaten now = wrong tense sense) changes the tense to simple present. Example: 'The gardener is watering the plants' > 'The plants are being watered by the gardener.' Note that stative/intransitive continuous verbs (is going, is sleeping, is coming) have NO passive at all, since they take no object.",
+   "Present Perfect Passive = has/have been + V3. 'Has been' for third-person singular or uncountable new subjects, 'have been' for plural, I, we, you. Never write 'has being/have being'. Example: 'The police have arrested the thief' > 'The thief has been arrested by the police.' In negatives, 'not' sits after has/have: 'has not been repaired'.",
+   "Simple Past Passive = was/were + V3. 'Was' with singular/I/he/she/it, 'were' with plural/we/you/they. The auxiliaries 'did/didn't' of the active vanish: 'He did not break the glass' > 'The glass was not broken by him'; 'Did she sing a song?' > 'Was a song sung by her?' Beware the common SSC trap of using V2 instead of V3 (was wrote / was sang are wrong; was written / was sung are correct).",
+   "Preposition change with feeling/knowledge verbs: after passives of know, obey, please, annoy, surprise, astonish, contain, comprise, throng, 'to/with/at/in' replaces 'by' — 'I know him' > 'He is known to me'; 'The news surprised us' > 'We were surprised at the news'. Also, when the active subject is vague (people, someone, they, everybody, one), it is normally dropped in the passive: 'Someone has stolen my bike' > 'My bike has been stolen.'"
+  ],
+  "examples": [
+   {
+    "active": "The teacher explains the rules clearly.",
+    "passive": "The rules are explained clearly by the teacher.",
+    "note": "Simple Present: is/am/are + V3. New subject 'rules' is plural, so 'are'; the adverb 'clearly' stays with the verb and 'by + agent' goes last."
+   },
+   {
+    "active": "The workers are repairing the broken bridge.",
+    "passive": "The broken bridge is being repaired by the workers.",
+    "note": "Present Continuous: is/am/are + being + V3. 'Being' must be retained; dropping it would wrongly convert the sentence to simple present."
+   },
+   {
+    "active": "They have completed the project on time.",
+    "passive": "The project has been completed on time.",
+    "note": "Present Perfect: has/have been + V3. Singular new subject 'project' takes 'has been'; the vague agent 'they' is omitted, as is standard in SSC answer keys."
+   },
+   {
+    "active": "Did the manager sign these documents yesterday?",
+    "passive": "Were these documents signed by the manager yesterday?",
+    "note": "Simple Past interrogative: 'did' disappears, was/were moves to the front, and the main verb becomes V3 ('signed', not 'sign'); plural subject 'documents' takes 'were'."
+   }
+  ],
+  "questionIds": [
+   "voice_42",
+   "voice_43",
+   "voice_44",
+   "voice_45",
+   "voice_46",
+   "voice_50",
+   "voice_52",
+   "voice_56",
+   "voice_57",
+   "voice_60",
+   "voice_102",
+   "voice_107",
+   "voice_108",
+   "voice_109",
+   "voice_113",
+   "voice_114",
+   "voice_116",
+   "voice_1",
+   "voice_2",
+   "voice_7",
+   "voice_10",
+   "voice_11",
+   "voice_12",
+   "voice_13",
+   "voice_16",
+   "voice_17",
+   "voice_19",
+   "voice_18",
+   "voice_20",
+   "voice_61",
+   "voice_62",
+   "voice_63",
+   "voice_67",
+   "voice_72",
+   "voice_75",
+   "voice_77",
+   "voice_81",
+   "voice_84",
+   "voice_87",
+   "voice_88",
+   "voice_92",
+   "voice_95",
+   "voice_96",
+   "voice_98",
+   "voice_99",
+   "voice_21",
+   "voice_24",
+   "voice_31",
+   "voice_35",
+   "voice_40",
+   "voice_184",
+   "voice_186",
+   "voice_187",
+   "voice_192",
+   "voice_195",
+   "voice_199",
+   "voice_121",
+   "voice_122",
+   "voice_125",
+   "voice_128",
+   "voice_130",
+   "voice_131",
+   "voice_135",
+   "voice_136",
+   "voice_137",
+   "voice_138",
+   "voice_139",
+   "voice_140",
+   "voice_201",
+   "voice_203",
+   "voice_204",
+   "voice_207",
+   "voice_208",
+   "voice_209",
+   "voice_210",
+   "voice_211",
+   "voice_214",
+   "voice_216",
+   "voice_219",
+   "voice_142",
+   "voice_157",
+   "voice_226",
+   "voice_232",
+   "voice_233",
+   "voice_234",
+   "voice_235",
+   "voice_236",
+   "voice_237",
+   "voice_239",
+   "voice_240",
+   "voice_173",
+   "voice_179",
+   "voice_241",
+   "voice_245",
+   "voice_247",
+   "voice_250",
+   "voice_251",
+   "voice_259",
+   "voice_260",
+   "voice_261",
+   "voice_262",
+   "voice_267",
+   "voice_269",
+   "voice_270",
+   "voice_271",
+   "voice_276",
+   "voice_277",
+   "voice_278",
+   "voice_280",
+   "voice_283",
+   "voice_284",
+   "voice_286",
+   "voice_288",
+   "voice_289",
+   "voice_290",
+   "voice_291",
+   "voice_292",
+   "voice_297",
+   "voice_322",
+   "voice_326",
+   "voice_314",
+   "voice_320"
+  ]
+ },
+ {
+  "id": "voi-3",
+  "no": 3,
+  "title": "Tense-wise Passive Forms (Part 2)",
+  "concept": "Every passive structure follows one master formula: Object + correct form of 'be' + V3 (past participle) + by + Subject. In Part 2 the auxiliary changes to 'was/were being' (past continuous), 'had been' (past perfect), 'will/shall be' (simple future), 'will have been' (future perfect) and 'be' after every modal (can/may/must/should/ought to + be + V3). Remember that only the helping verb shows tense — the main verb is frozen in its third form. Two continuous tenses (future continuous and all three perfect-continuous tenses) have no natural passive in SSC exams, so their options are traps.",
+  "rules": [
+   "PAST CONTINUOUS (was/were + V-ing) → was/were being + V3. Choose 'was' for singular/I and 'were' for plural/you. Active: The mechanic was repairing the cars → Passive: The cars were being repaired by the mechanic. Never write 'was being repair' or 'were repairing' — 'being' must be followed by V3.",
+   "PAST PERFECT (had + V3) → had been + V3, for every subject (no had/hads). Active: Someone had stolen my bike → Passive: My bike had been stolen. Keep the sequence intact: in sentences with 'before/after/when', the earlier action stays in had been + V3 while the later one becomes was/were + V3, e.g. 'The letter had been posted before he was informed.'",
+   "SIMPLE FUTURE (will/shall + V1) → will/shall be + V3. Modern SSC keys accept 'will' for all persons. Active: The Principal will announce the results → Passive: The results will be announced by the Principal. FUTURE PERFECT (will have + V3) → will have been + V3: They will have completed the bridge by March → The bridge will have been completed by March. Note: FUTURE CONTINUOUS ('will be doing') and PERFECT CONTINUOUS ('has/had/will have been doing') have NO passive form — reject options like 'will be being done' or 'had been being done'.",
+   "MODALS (can, could, may, might, must, shall, should, will, would, need, dare) → modal + be + V3; the modal itself never changes. Active: You must obey the rules → Passive: The rules must be obeyed (by you). Semi-modals expand as: has/have/had to + V1 → has/have/had to be + V3; ought to → ought to be + V3; used to → used to be + V3; is/am/are/was/were going to → is/was going to be + V3; would like to → would like to be + V3. Perfect modals become modal + have been + V3: She should have written it → It should have been written by her.",
+   "AGENT-DROP AND 'BY' RULES: omit the agent when it is vague or general (somebody, people, one, they, everybody) — 'People had abandoned the village' → 'The village had been abandoned.' Retain 'by' for a definite doer. Prepositions other than 'by' are used with certain verbs: known TO, pleased/annoyed WITH, filled/covered/surprised WITH or IN, contained IN, tired OF. Also convert pronouns to the objective case in the agent (I→me, we→us, he→him, she→her, they→them, who→whom) and to the nominative case in the new subject (me→I, him→he, them→they)."
+  ],
+  "examples": [
+   {
+    "active": "The workers were loading the trucks when the inspector arrived.",
+    "passive": "The trucks were being loaded by the workers when the inspector arrived.",
+    "note": "Past continuous → were being + V3. The subordinate clause ('when the inspector arrived') has an intransitive verb, so it stays unchanged — only transitive verbs can be made passive."
+   },
+   {
+    "active": "Someone had already informed the police before we reached the spot.",
+    "passive": "The police had already been informed before we reached the spot.",
+    "note": "Past perfect → had been + V3. The indefinite agent 'someone' is dropped, and the adverb 'already' keeps its place between 'had' and 'been'."
+   },
+   {
+    "active": "The committee will announce the winners tomorrow, and by then the judges will have verified all the entries.",
+    "passive": "The winners will be announced by the committee tomorrow, and by then all the entries will have been verified by the judges.",
+    "note": "Simple future → will be + V3; future perfect → will have been + V3. Note the double 'by' — the first is the time marker 'by then', the second introduces the agent."
+   },
+   {
+    "active": "You must submit the form today; you should have completed it last week.",
+    "passive": "The form must be submitted (by you) today; it should have been completed (by you) last week.",
+    "note": "Modal + be + V3 for present/future reference, and modal + have been + V3 for perfect modals. The modal never inflects, and 'by you' is usually omitted in instructions."
+   }
+  ],
+  "questionIds": [
+   "voice_51",
+   "voice_53",
+   "voice_54",
+   "voice_59",
+   "voice_101",
+   "voice_110",
+   "voice_111",
+   "voice_117",
+   "voice_120",
+   "voice_6",
+   "voice_14",
+   "voice_65",
+   "voice_69",
+   "voice_71",
+   "voice_73",
+   "voice_76",
+   "voice_79",
+   "voice_80",
+   "voice_82",
+   "voice_85",
+   "voice_86",
+   "voice_89",
+   "voice_90",
+   "voice_91",
+   "voice_93",
+   "voice_97",
+   "voice_100",
+   "voice_22",
+   "voice_23",
+   "voice_25",
+   "voice_26",
+   "voice_28",
+   "voice_30",
+   "voice_37",
+   "voice_38",
+   "voice_185",
+   "voice_191",
+   "voice_193",
+   "voice_196",
+   "voice_197",
+   "voice_123",
+   "voice_133",
+   "voice_134",
+   "voice_202",
+   "voice_206",
+   "voice_224",
+   "voice_227",
+   "voice_162",
+   "voice_170",
+   "voice_174",
+   "voice_175",
+   "voice_242",
+   "voice_252",
+   "voice_253",
+   "voice_256",
+   "voice_268",
+   "voice_275",
+   "voice_282",
+   "voice_321",
+   "voice_323",
+   "voice_301",
+   "voice_309",
+   "voice_310",
+   "voice_313",
+   "voice_317",
+   "voice_318",
+   "voice_319"
+  ]
+ },
+ {
+  "id": "voi-4",
+  "no": 4,
+  "title": "Interrogative Sentences (Passive)",
+  "concept": "An interrogative sentence must remain interrogative after the change of voice, so the passive version also ends with a question mark. The safest method is to first convert the question into a statement, change that statement into the passive, and then restore the question word order. Yes/no questions keep the auxiliary before the subject, while WH-questions keep the WH-word at the very front (except 'Who', which becomes 'By whom').",
+  "rules": [
+   "Step method (foolproof): (a) Turn the question into an assertive sentence, (b) change it into the passive as a statement, (c) shift the first auxiliary of the passive in front of the new subject, (d) put back the question mark. Active: Did he write the letter? → Statement: He wrote the letter → Passive statement: The letter was written by him → Question: Was the letter written by him?",
+   "Yes/No questions beginning with Do/Does/Did: the helping verb Do/Does/Did disappears in the passive and is replaced by the correct form of 'be' (is/am/are for do–does, was/were for did) placed before the new subject. Do/Does + V1 → is/am/are + V3; Did + V1 → was/were + V3. Example: Does she teach English? → Is English taught by her?",
+   "Yes/No questions beginning with is/am/are/was/were/has/have/had/will/shall/can/may/must: keep the same auxiliary (adding 'be'/'been' as required) and place it before the object-turned-subject. Patterns: Is/Are + V-ing → Is/Are + being + V3; Has/Have/Had + V3 → Has/Have/Had + been + V3; Will/Shall/Can/May/Must + V1 → Will/Can/May/Must + be + V3 (Shall→Will for 2nd/3rd person). Example: Have they finished the work? → Has the work been finished by them?",
+   "WH-questions with What/When/Where/Why/How/Which: the WH-word stays at the beginning of the sentence and the auxiliary follows it — WH-word + auxiliary + new subject + V3 + by + agent. Example: Why did you break the glass? → Why was the glass broken by you? Note that 'What' as the object becomes the subject in the passive: What did he do? → What was done by him?",
+   "Special agent words: 'Who' (subject) changes to 'By whom' at the start of the passive; 'Whom' (object) changes to 'Who' and becomes the subject. Example: Who wrote this novel? → By whom was this novel written? / Whom did you call? → Who was called by you? Also, questions with no object (intransitive verbs such as 'Why are you laughing?') cannot be changed into the passive."
+  ],
+  "examples": [
+   {
+    "active": "Did the police arrest the thief?",
+    "passive": "Was the thief arrested by the police?",
+    "note": "Yes/No question: 'Did' is dropped and replaced by 'was' (singular object 'the thief') placed before the new subject; V1 'arrest' → V3 'arrested'."
+   },
+   {
+    "active": "Who has broken the window?",
+    "passive": "By whom has the window been broken?",
+    "note": "'Who' (subject) → 'By whom' at the front; present perfect Has + V3 → Has + been + V3, with the auxiliary still preceding the new subject."
+   },
+   {
+    "active": "Why are they demolishing the old building?",
+    "passive": "Why is the old building being demolished by them?",
+    "note": "WH-word 'Why' stays first; present continuous 'are + demolishing' → 'is + being + demolished' as the new subject 'the old building' is singular."
+   },
+   {
+    "active": "When will you submit the assignment?",
+    "passive": "When will the assignment be submitted by you?",
+    "note": "Modal 'will' is retained after the WH-word and followed by 'be + V3'; the modal itself never changes form."
+   }
+  ],
+  "questionIds": [
+   "voice_41",
+   "voice_48",
+   "voice_49",
+   "voice_104",
+   "voice_112",
+   "voice_115",
+   "voice_119",
+   "voice_64",
+   "voice_68",
+   "voice_70",
+   "voice_74",
+   "voice_33",
+   "voice_181",
+   "voice_198",
+   "voice_126",
+   "voice_129",
+   "voice_132",
+   "voice_218",
+   "voice_141",
+   "voice_146",
+   "voice_225",
+   "voice_230",
+   "voice_231",
+   "voice_243",
+   "voice_249",
+   "voice_254",
+   "voice_255",
+   "voice_257",
+   "voice_264",
+   "voice_265",
+   "voice_266",
+   "voice_273",
+   "voice_293",
+   "voice_299",
+   "voice_300",
+   "voice_324",
+   "voice_329",
+   "voice_302",
+   "voice_304",
+   "voice_305",
+   "voice_306",
+   "voice_312",
+   "voice_316"
+  ]
+ },
+ {
+  "id": "voi-5",
+  "no": 5,
+  "title": "Imperative Sentences (Passive)",
+  "concept": "Imperative sentences express a command, order, request, advice, warning or suggestion and have no visible subject (the subject 'you' is understood). Because there is no ordinary subject to shift, they are turned into the passive by one of two devices: 'Let + object + be + V3' for commands, or 'You are requested/advised/ordered/warned + to + V1' when the tone is a request, advice or formal order. SSC papers usually test the 'Let' pattern with transitive verbs and the 'You are requested to...' pattern with polite sentences beginning with Please/Kindly.",
+  "rules": [
+   "Rule 1 - Basic command (transitive verb): Object of the active sentence becomes the subject of the passive, and the structure is 'Let + object + be + V3 (past participle) + (by agent)'. The agent 'by you' is almost always dropped because it is understood. Active: Post the letter. Passive: Let the letter be posted. Never write 'Let the letter be post' or 'Let the letter is posted' - after 'be' only the third form (V3) is allowed, and 'be' never changes to is/am/are/was.",
+   "Rule 2 - Negative command: For sentences starting with Do not / Don't / Never, the passive is 'Let not + object + be + V3' or, equally correct and more common in modern usage, 'Let + object + not be + V3'. Active: Do not break the rules. Passive: Let not the rules be broken. / Let the rules not be broken. An alternative accepted form is 'Object + should not be + V3' (The rules should not be broken).",
+   "Rule 3 - Request, advice, warning, suggestion: When the sentence begins with Please / Kindly, or clearly conveys a request, advice, order or warning, use 'You are requested / advised / ordered / instructed / warned / forbidden + to + V1 + object'. Active: Please help the poor. Passive: You are requested to help the poor. Note that here the object stays in its place and the sentence starts with 'You are', because the doer addressed is 'you'. Some references also allow 'Let the poor be helped', but the 'You are requested to...' form is preferred whenever Please/Kindly is present.",
+   "Rule 4 - Intransitive verbs / no object: If the imperative verb has no object (Get out, Sit down, Come here, Stand up), the 'Let' pattern is impossible, so use 'You are ordered / advised / commanded / requested + to + V1'. Active: Get out of the room. Passive: You are ordered to get out of the room. Similarly, Active: Sit down. Passive: You are advised to sit down.",
+   "Rule 5 - Sentences already beginning with 'Let' (permission or proposal): Keep 'Let' and convert the inner clause. 'Let + subject + V1 + object' becomes 'Let + object + be + V3 + by + subject'. Active: Let him finish the work. Passive: Let the work be finished by him. For first-person proposals, Active: Let us plant more trees. Passive: Let more trees be planted by us. Where the sense is 'allow', 'Let the boy go' can also become 'The boy should be allowed to go' or 'Let the boy be allowed to go'."
+  ],
+  "examples": [
+   {
+    "active": "Open the window.",
+    "passive": "Let the window be opened.",
+    "note": "Plain command with a transitive verb - object 'the window' moves after 'Let', then 'be + V3'. Agent 'by you' is omitted."
+   },
+   {
+    "active": "Do not disturb the patient.",
+    "passive": "Let not the patient be disturbed.",
+    "note": "Negative command: 'Do not' is dropped and 'not' is placed right after 'Let'. 'Let the patient not be disturbed' and 'The patient should not be disturbed' are also acceptable."
+   },
+   {
+    "active": "Please submit the form before Monday.",
+    "passive": "You are requested to submit the form before Monday.",
+    "note": "'Please' signals a request, so the 'You are requested to + V1' pattern is used; the object keeps its original position and no 'Let' is needed."
+   },
+   {
+    "active": "Let the servant clean the room.",
+    "passive": "Let the room be cleaned by the servant.",
+    "note": "Sentence already begins with 'Let' and has its own subject 'the servant', so 'Let' is retained, the object becomes the subject of the passive, and the doer takes 'by'."
+   }
+  ],
+  "questionIds": [
+   "voice_8",
+   "voice_9",
+   "voice_29",
+   "voice_36",
+   "voice_212",
+   "voice_213",
+   "voice_215",
+   "voice_145",
+   "voice_221",
+   "voice_228",
+   "voice_229",
+   "voice_272",
+   "voice_274",
+   "voice_325",
+   "voice_327",
+   "voice_303"
+  ]
+ },
+ {
+  "id": "voi-6",
+  "no": 6,
+  "title": "Sentences with Two Objects (Ditransitive)",
+  "concept": "Ditransitive verbs (give, offer, teach, tell, send, show, lend, pay, promise, buy, award, ask, deny, allow) take two objects: an indirect object (IO, usually a person) and a direct object (DO, usually a thing). Because there are two objects, such an active sentence can normally be turned into two different passives - one with the IO as subject and one with the DO as subject. Whichever object is not made the subject stays after the verb and is called the retained object. In SSC exams the IO-as-subject pattern is the preferred/most natural answer unless the question or the verb forces otherwise.",
+  "rules": [
+   "Identify the two objects first: IO answers 'to whom / for whom' (person) and DO answers 'what' (thing). In the active order 'V + IO + DO' (He gave me a pen), 'me' is IO and 'a pen' is DO. If a preposition already appears (He gave a pen to me), the noun after to/for is the IO.",
+   "Pattern 1 (preferred, person-passive): make the IO the subject; the DO is simply retained after the verb with NO preposition. Active: They offered him a job -> Passive: He was offered a job. This is the natural, most commonly tested pattern for give, offer, teach, tell, send, show, pay, lend, promise, award, grant, deny, allow, ask, refuse.",
+   "Pattern 2 (thing-passive): make the DO the subject; then the IO must take a preposition - 'to' with give, offer, teach, tell, send, show, lend, pay, promise, hand, write; 'for' with buy, make, get, find, build, cook, choose, leave, order, spare. Active: They offered him a job -> Passive: A job was offered to him. Never write 'A job was offered him' in modern usage.",
+   "Verbs of saying/explaining - explain, describe, say, suggest, propose, announce, introduce, dictate, mention, point out, recommend - do NOT allow the person as passive subject. Only the DO can become subject and the person always takes 'to': He explained the rule to us -> The rule was explained to us (never 'We were explained the rule'). Conversely, some verbs are almost always person-passive in exams: allow, deny, refuse, award, ask, teach, tell, pay.",
+   "Mechanics stay the same as normal voice change: keep the tense by using the correct form of 'be' + V3, change the pronoun to subject case when it becomes subject (me->I, him->he, us->we, them->they) and to object case after the preposition, and place the agent with 'by' only when it is meaningful; drop it if the doer is vague (they, people, someone, nobody)."
+  ],
+  "examples": [
+   {
+    "active": "The principal gave the toppers gold medals.",
+    "passive": "The toppers were given gold medals (by the principal). / Gold medals were given to the toppers (by the principal).",
+    "note": "Both passives are correct. IO-first version needs no preposition; DO-first version needs 'to'. The first is the preferred SSC answer."
+   },
+   {
+    "active": "My uncle bought me a new bicycle.",
+    "passive": "I was bought a new bicycle by my uncle. / A new bicycle was bought for me by my uncle.",
+    "note": "Pronoun 'me' becomes 'I' when it is made the subject. With buy/make/get/find, the retained person takes 'for', not 'to'."
+   },
+   {
+    "active": "The teacher explained the difficult sum to the students.",
+    "passive": "The difficult sum was explained to the students by the teacher.",
+    "note": "'Explain' cannot take a person as passive subject, so 'The students were explained the sum' is wrong - a very common SSC trap."
+   },
+   {
+    "active": "They have not allowed the visitors any concession.",
+    "passive": "The visitors have not been allowed any concession.",
+    "note": "Present perfect keeps 'have been + V3'; the agent 'they' (vague doer) is dropped, and 'allow' naturally takes the person as subject with 'any concession' retained."
+   }
+  ],
+  "questionIds": [
+   "voice_47",
+   "voice_103",
+   "voice_105",
+   "voice_106",
+   "voice_118",
+   "voice_5",
+   "voice_83",
+   "voice_94",
+   "voice_238",
+   "voice_164",
+   "voice_178",
+   "voice_258",
+   "voice_295",
+   "voice_296"
+  ]
+ },
+ {
+  "id": "voi-7",
+  "no": 7,
+  "title": "Sentences without Object & No-Passive Cases",
+  "concept": "Passive voice is possible only when the active sentence has an object to promote to the subject position. Therefore purely intransitive verbs, linking (copular) verbs and stative/relational transitive verbs normally have NO passive form. SSC papers exploit this by offering a 'passive' option for such sentences — the correct answer is usually 'No change / No passive possible', or a paraphrase using 'You are ordered/requested...' or 'is + adjective + to + V1'. Learn the exception routes (prepositional verbs, cognate objects, quasi-passive) because they are the traps that decide the question.",
+  "rules": [
+   "Rule 1 — Intransitive verbs have no passive: verbs like go, come, sleep, die, laugh, arrive, fall, sit, rise, happen, occur, appear, disappear, live, run (= move), weep, smile take no object, so there is nothing to make the subject of a passive verb. 'He slept for two hours', 'The old man died yesterday', 'Accidents happen daily' — all remain unchanged in the passive. Never write 'was slept', 'was died', 'was happened'; note also that verbs like happen, occur, appear, arrive, disappear, rise, lie(=recline), fall are never used in the passive even by mistake.",
+   "Rule 2 — Linking / copular verbs have a complement, not an object: be (am/is/are/was/were), become, seem, appear, look, feel, taste, smell, sound, remain, prove, turn, grow, get (= become) are followed by a subject complement (adjective or noun that renames the subject). 'She is a doctor', 'The soup tastes salty', 'He became angry' cannot be passivised because 'a doctor / salty / angry' describes the same subject and cannot be shifted. When the exam insists on a transformation, use the quasi-passive pattern: 'Honey tastes sweet' → 'Honey is sweet when it is tasted / Honey is sweet to taste'; 'The book reads well' → 'The book is good when it is read'; 'Rice sells cheap' → 'Rice is cheap when it is sold'.",
+   "Rule 3 — Stative / relational transitive verbs take an object but still have no passive: have/has (= possess), own, possess, lack, resemble, suit, befit, become (= suit), contain, comprise, consist of, cost, weigh (= have weight), measure, hold (= have capacity), mean, equal, fit, wish, want (in the sense of lack). 'He has a big house', 'She resembles her mother', 'The jug holds two litres', 'This shirt suits you', 'The book costs fifty rupees' — no passive. Test: if the verb expresses a state/relation rather than an action done TO something, the passive is blocked. (But when 'have' means an action — 'He had his hair cut' — a causative passive is possible.)",
+   "Rule 4 — Intransitive imperatives and exclamations are converted by paraphrase, not by a true passive: for an intransitive command use 'You are ordered / advised / requested / told + to + V1'. 'Go there at once' → 'You are ordered to go there at once'; 'Sit down' → 'You are requested to sit down'; 'Wait here' → 'You are advised to wait here'. Negative: 'Do not laugh' → 'You are advised not to laugh'. 'Let us' with an intransitive verb becomes 'Let it be + V3' only if an object exists; otherwise use 'It is proposed/suggested that we should...': 'Let us go now' → 'It is proposed that we should go now'. Exclamatory sentences ('How beautiful the scene is!') and sentences with 'there is/are' have no passive.",
+   "Rule 5 — Learn the three escape routes where a seemingly objectless verb DOES take a passive: (a) Prepositional (phrasal) verbs — an intransitive verb + preposition acts as one transitive unit, so the object of the preposition becomes the subject and the preposition is retained: 'They laughed at me' → 'I was laughed at (by them)'; 'Somebody knocked at the door' → 'The door was knocked at'; 'People look up to him' → 'He is looked up to'. (b) Cognate object — an intransitive verb followed by a noun of its own meaning becomes transitive: 'He fought a good fight' → 'A good fight was fought by him'; 'She sang a sweet song' → 'A sweet song was sung by her'; 'He ran a race' → 'A race was run by him'. (c) Impersonal passive with introductory 'It' for verbs of saying/thinking taking a that-clause: 'People say that he is honest' → 'It is said that he is honest'."
+  ],
+  "examples": [
+   {
+    "active": "The old man died in his sleep.",
+    "passive": "No passive possible (verb 'died' is intransitive).",
+    "note": "'Die' takes no object, so there is nothing to move to subject position. Forms like 'was died' are always wrong — a common SSC distractor."
+   },
+   {
+    "active": "This mango tastes sweet.",
+    "passive": "This mango is sweet when it is tasted. / This mango is sweet to taste.",
+    "note": "Quasi-passive: 'taste' here is a linking verb with the complement 'sweet', so only a paraphrase is possible, never 'is tasted sweet'."
+   },
+   {
+    "active": "She has two brothers. / This coat suits you.",
+    "passive": "No passive possible.",
+    "note": "Stative verbs of possession, resemblance, measure and fitness (have, own, possess, resemble, cost, weigh, hold, suit, contain, lack) block the passive even though a noun follows them."
+   },
+   {
+    "active": "The children laughed at the beggar. Please wait outside.",
+    "passive": "The beggar was laughed at by the children. You are requested to wait outside.",
+    "note": "Two escape routes in one: 'laugh at' is a prepositional verb (keep 'at' after the verb), while the intransitive imperative 'wait' is rendered as 'You are requested to + V1'."
+   }
+  ],
+  "questionIds": []
+ },
+ {
+  "id": "voi-8",
+  "no": 8,
+  "title": "Impersonal Passive ('It is said/believed')",
+  "concept": "When the active subject is a vague, indefinite group (people, everyone, they, one, we all, somebody), the doer carries no information and is simply dropped in the passive. Such sentences with a reporting verb + that-clause have two accepted passive forms: the impersonal passive, which begins with the introductory 'It' (It is said that...), and the personal passive, which lifts the subject of the that-clause to the front and follows it with an infinitive (He is said to...). SSC papers test the tense-mapping between the that-clause verb and the infinitive, so both patterns must be learnt as a pair.",
+  "rules": [
+   "Applicable verbs (reporting/thinking verbs): say, tell, believe, think, know, report, consider, suppose, understand, expect, presume, allege, claim, rumour, feel, hope, estimate, acknowledge. Pattern A (Impersonal): It + is/am/are/was/were + V3 (past participle) + that + complete clause. The indefinite agent (people/they/everyone/one) is omitted entirely; never write 'by people'.",
+   "Tense of the reporting verb decides the auxiliary: People say -> It is said that...; People said/People had said -> It was said that...; People will say -> It will be said that...; People have said -> It has been said that... In Pattern A the verb inside the that-clause normally stays exactly as it was in the active (including modals: 'It is said that he can swim').",
+   "Pattern B (Personal passive with infinitive): move the subject of the that-clause to the front, then + is/was + V3 + TO + verb. Tense mapping: (i) that-clause verb in the SAME time as the reporting verb -> to + V1 ('is honest' -> to be honest); (ii) that-clause verb EARLIER (V2 / had + V3 / present perfect) -> to have + V3 ('stole/had stolen' -> to have stolen); (iii) continuous -> to be + V-ing, and past continuous/perfect continuous -> to have been + V-ing; (iv) future 'will' -> to be likely to / is expected to + V1.",
+   "Never mix the two patterns: 'He is said that he is honest' is WRONG; write either 'It is said that he is honest' or 'He is said to be honest'. Also, the introductory 'It' can never be dropped ('Is said that...' is wrong), and no 'that' follows the infinitive form. If the that-clause begins with 'there', the personal passive keeps it: 'There is believed to be...'",
+   "Restricted verbs: announce, mention, suggest, propose, recommend, demand, explain, point out, decide, agree take ONLY the impersonal 'It' form, not the infinitive form. With suggest/propose/recommend/demand/insist, the structure is: It + is/was + V3 + that + subject + should + V1 ('It was suggested that the meeting should be postponed'). Note the passive of 'say' + object is 'He was told', not 'He was said'."
+  ],
+  "examples": [
+   {
+    "active": "People say that he is a great scholar.",
+    "passive": "It is said that he is a great scholar. / He is said to be a great scholar.",
+    "note": "Both forms are correct. The that-clause verb 'is' is of the same time as 'say', so the infinitive is the simple 'to be'; the indefinite agent 'people' is dropped."
+   },
+   {
+    "active": "Everybody knows that she stole the jewels.",
+    "passive": "It is known that she stole the jewels. / She is known to have stolen the jewels.",
+    "note": "The that-clause action ('stole', V2) happened EARLIER than the reporting verb ('knows'), so the infinitive becomes 'to have + V3' = to have stolen."
+   },
+   {
+    "active": "They reported that the minister had resigned.",
+    "passive": "It was reported that the minister had resigned. / The minister was reported to have resigned.",
+    "note": "Past reporting verb -> 'was reported'. Both past perfect ('had resigned') and simple past collapse into 'to have + V3' in the personal passive."
+   },
+   {
+    "active": "People believe that there is a hidden treasure under the fort.",
+    "passive": "It is believed that there is a hidden treasure under the fort. / There is believed to be a hidden treasure under the fort.",
+    "note": "When the that-clause opens with introductory 'there', 'there' itself becomes the subject of the personal passive: There + is believed + to be."
+   }
+  ],
+  "questionIds": [
+   "voice_183",
+   "voice_188",
+   "voice_189",
+   "voice_190",
+   "voice_148",
+   "voice_150",
+   "voice_151",
+   "voice_152",
+   "voice_153",
+   "voice_154",
+   "voice_156",
+   "voice_158",
+   "voice_159",
+   "voice_160",
+   "voice_161",
+   "voice_163",
+   "voice_165",
+   "voice_166",
+   "voice_168",
+   "voice_171",
+   "voice_172",
+   "voice_176",
+   "voice_244",
+   "voice_307",
+   "voice_308",
+   "voice_311"
+  ]
+ },
+ {
+  "id": "voi-9",
+  "no": 9,
+  "title": "Quasi-Passive / Middle Voice",
+  "concept": "Quasi-passive (also called middle voice) sentences look active in form but carry a passive sense: the grammatical subject is not the doer but the thing being acted upon, yet no auxiliary 'be' + past participle appears. Typical patterns are an intransitive-looking verb followed by an adverb or an adjective/complement, as in 'The book sells well' or 'The food tastes good'. Such verbs (sell, read, wash, cook, open, taste, smell, feel, look, weigh, measure) are called ergative or middle verbs. SSC questions test whether you can identify these as already carrying passive meaning, so they must NOT be converted with 'is/are + V3' and must not be mistaken for errors.",
+  "rules": [
+   "Rule 1 — Identify the middle verb: A small set of verbs can be used both transitively (with an object) and intransitively with passive sense: sell, read, cook, wash, open, close, shut, tear, break, move, start, stop, drive, print, ride, fill, plus perception verbs taste, smell, feel, look, sound, appear. When such a verb has NO object and its subject is the thing acted upon, the sentence is quasi-passive: 'The gate opened' (= was opened), 'The shop closes at 8'.",
+   "Rule 2 — The adverb/complement test: Quasi-passive sentences are almost always completed by an adverb of manner (well, easily, smoothly, quickly, badly) or an adjective complement (good, sweet, soft, rough). 'The cloth washes easily', 'The pen writes smoothly', 'The rose smells sweet'. Remove the adverb/adjective and the sentence sounds incomplete — that incompleteness is the signal of middle voice.",
+   "Rule 3 — Passive-meaning transformation (only when asked): Since the form is already active-looking, the true passive is made with a modal of possibility, not simple 'is + V3'. 'The book sells well' → 'The book can be sold easily / It is easy to sell the book.' 'This bicycle rides smoothly' → 'This bicycle can be ridden smoothly.' Writing 'The book is sold well' is wrong in meaning because it states a fact of sale, not the quality of saleability.",
+   "Rule 4 — Perception/link verbs take an ADJECTIVE, never an adverb: With taste, smell, feel, look, sound, seem, appear used in the middle sense, the complement describes the subject, so use the adjective form: 'The food tastes good' (NOT 'tastes well'), 'The flower smells sweet' (NOT 'sweetly'), 'The silk feels soft' (NOT 'softly'). These verbs also have no passive with 'be + V3': 'The food is tasted good' is incorrect. Exception: when they are true action verbs with a real doer, an object and a normal passive are possible — 'The cook tasted the soup' → 'The soup was tasted by the cook.'",
+   "Rule 5 — Stative/measure verbs cannot be passivised at all: Verbs of measurement, possession and state — weigh, cost, measure, hold, contain, resemble, lack, suit, fit, have, become (in the sense of suit) — look active and take an object-like phrase but admit no passive: 'The bag weighs five kilos', 'The book costs ₹200', 'The hall holds 500 people', 'The dress suits you'. Never write 'Five kilos are weighed by the bag'. In error-spotting and voice-change questions, mark such sentences as 'no passive possible / already carries passive sense'."
+  ],
+  "examples": [
+   {
+    "active": "The book sells well.",
+    "passive": "The book can be sold easily. / It is easy to sell the book.",
+    "note": "Quasi-passive: 'book' is the thing sold, not the seller. The adverb 'well' signals middle voice, so the passive needs 'can be + V3' or an 'It is easy to...' structure — not 'is sold well'."
+   },
+   {
+    "active": "The food tastes good.",
+    "passive": "The food is found to be good when tasted. (No standard be + V3 passive)",
+    "note": "'Taste' here is a link verb, so it takes the adjective 'good', not 'well', and has no direct passive. Compare the action use: 'The chef tasted the food' → 'The food was tasted by the chef.'"
+   },
+   {
+    "active": "This cloth washes easily and dries quickly.",
+    "passive": "This cloth can be washed easily and dried quickly.",
+    "note": "Ergative verbs wash/dry with no object; the subject is the receiver of the action. Transformation uses the modal 'can be' to keep the sense of capability."
+   },
+   {
+    "active": "The parcel weighs two kilograms.",
+    "passive": "No passive possible (stative verb of measurement).",
+    "note": "Weigh, cost, contain, hold, resemble, suit, lack are stative; 'Two kilograms are weighed by the parcel' is wrong. In SSC voice questions choose the option that keeps the active form or states that no passive exists."
+   }
+  ],
+  "questionIds": [
+   "voice_34",
+   "voice_223",
+   "voice_281"
+  ]
+ },
+ {
+  "id": "voi-10",
+  "no": 10,
+  "title": "Special & Exception Cases",
+  "concept": "Beyond the basic subject-object swap, SSC papers test the odd corners of voice: prepositional and phrasal verbs that must carry their preposition into the passive, imperatives beginning with 'Let', wh-questions that end in a preposition, and verbs that simply have no passive form. These items are pure rule-recall, so the examiner usually plants one option that looks natural but silently drops a preposition, adds 'to' after 'let', or makes a person the subject of a verb like 'explain'. Master the fixed patterns below and these become the fastest marks in the Error/Voice set.",
+  "rules": [
+   "PREPOSITION RETENTION: A prepositional or phrasal verb (laugh at, look after, deal with, run over, carry out, take care of, put off, break into, look into, send for, do away with, take to task) is a single unit — the preposition/particle travels with the verb into the passive and is NEVER dropped. Structure: Object + be + V3 + preposition + by + agent. 'They laughed at the beggar' → 'The beggar was laughed at by them.' Two prepositions standing together ('...was broken into by thieves', '...was looked after by her') is perfectly correct and is the commonest SSC distractor. If the verb takes a preposition + gerund, keep it: 'They objected to my going' → 'My going was objected to by them.'",
+   "LET-TYPE IMPERATIVES: For 'Let + object + V1', the passive is 'Let + object + be + V3'. 'Let him do the work' → 'Let the work be done by him'; 'Let the door be closed'; 'Let not the letter be posted' (negative). When 'let' means permit/allow with a personal subject, the passive uses 'be allowed/permitted to', never 'be let to': 'He let me go' → 'I was allowed to go.' 'Let us + V1' has two accepted passives — 'Let the room be cleaned by us' or 'Let the room be cleaned.' Other imperatives follow the same spirit: 'Post the letter' → 'Let the letter be posted' / 'You are ordered to post the letter'; 'Please help me' → 'You are requested to help me.'",
+   "QUESTIONS: (a) Wh-word as SUBJECT — 'who' becomes 'by whom' and moves to the front: 'Who broke the window?' → 'By whom was the window broken?' 'What caused the delay?' → 'By what was the delay caused?' (b) Wh-word as OBJECT — it becomes the passive subject: 'Whom did you call?' → 'Who was called by you?' 'Which book did he buy?' → 'Which book was bought by him?' (c) Questions ending in a preposition keep it: 'Whom are you looking at?' → 'Who is being looked at by you?' 'What are you laughing at?' → 'What is being laughed at by you?' (d) Yes/No questions begin with the auxiliary: 'Did he beat the dog?' → 'Was the dog beaten by him?' Always retain the question mark and the interrogative word order.",
+   "VERBS THAT REFUSE A PERSONAL SUBJECT: With explain, describe, suggest, propose, announce, say, mention, introduce, recommend, dictate, declare, entrust (to), the indirect (personal) object cannot become the passive subject — it stays after 'to'. 'The teacher explained the lesson to us' → 'The lesson was explained to us' (✗ 'We were explained the lesson'). Contrast this with give, tell, offer, pay, teach, show, lend, ask, promise, allow, which take two objects and permit two passives: 'He gave me a pen' → 'I was given a pen (by him)' / 'A pen was given to me (by him)' — the personal-object version is the preferred SSC answer.",
+   "NO-PASSIVE ZONE (SSC traps): (i) Intransitive verbs (sleep, die, arrive, laugh, happen, rise) have no passive. (ii) Stative/relational verbs have no passive even though they look transitive: have (possess), resemble, lack, want (=lack), suit, become (=suit), befit, cost, weigh, contain, consist of, belong to, hold (capacity), fit. 'She resembles her mother' and 'The bottle contains milk' cannot be turned. (iii) Avoid the DOUBLE PASSIVE: write 'An attempt was made to carry out the order' or 'They tried to carry out the order', not 'The order was tried to be carried out.' (iv) Quasi-passives are already passive in sense but active in form — 'The mango tastes sweet', 'The house is being built' (not 'is building'), 'Rice sells cheap.' (v) Reflexive verbs turn with 'himself/herself' intact only in sense, not form: 'He hurt himself' has no true passive."
+  ],
+  "examples": [
+   {
+    "active": "The nurse looked after the injured soldiers.",
+    "passive": "The injured soldiers were looked after by the nurse.",
+    "note": "Phrasal verb 'look after' keeps its particle; 'after by' together is correct. Options like 'were looked by the nurse' are the planted error."
+   },
+   {
+    "active": "Let him not insult the old man.",
+    "passive": "Let the old man not be insulted by him.",
+    "note": "'Let' pattern = Let + object + be + V3; in the negative, 'not' sits before 'be'. 'Let not the old man be insulted' is also accepted."
+   },
+   {
+    "active": "Whom are you waiting for?",
+    "passive": "Who is being waited for by you?",
+    "note": "Object wh-word 'whom' → subject 'who'; the trailing preposition 'for' is retained, and interrogative word order plus '?' is preserved."
+   },
+   {
+    "active": "The principal explained the new rules to the students.",
+    "passive": "The new rules were explained to the students by the principal.",
+    "note": "'Explain' cannot take a personal subject in the passive — 'The students were explained the new rules' is wrong, the classic SSC trap."
+   }
+  ],
+  "questionIds": [
+   "voice_55",
+   "voice_58",
+   "voice_3",
+   "voice_4",
+   "voice_15",
+   "voice_78",
+   "voice_27",
+   "voice_32",
+   "voice_39",
+   "voice_182",
+   "voice_194",
+   "voice_200",
+   "voice_124",
+   "voice_127",
+   "voice_205",
+   "voice_217",
+   "voice_220",
+   "voice_143",
+   "voice_144",
+   "voice_149",
+   "voice_155",
+   "voice_222",
+   "voice_167",
+   "voice_177",
+   "voice_246",
+   "voice_248",
+   "voice_263",
+   "voice_279",
+   "voice_285",
+   "voice_287",
+   "voice_294",
+   "voice_298",
+   "voice_328",
+   "voice_315"
+  ]
+ }
+]

@@ -2,11 +2,14 @@
 // src/pages/options.astro
 import Layout from '../layouts/Layout.astro';
 import WordAccordion from '../components/WordAccordion.svelte';
+import ProgressTracker from '../components/ProgressTracker.svelte';
 
 let initialWords = [];
+let optCount = 0;
 try {
   const fs = await import('node:fs');
   initialWords = JSON.parse(fs.readFileSync('public/data/words.json', 'utf-8'));
+  optCount = initialWords.filter((w: any) => (w.qtypesAsOption?.synonym || 0) + (w.qtypesAsOption?.antonym || 0) > 0).length;
 } catch (e) {}
 ---
 <Layout title="Module 2 — Syn/Ant Option Choices | SSC Vocab Master" activeNav="options">
@@ -20,6 +23,7 @@ try {
         Words that appeared as option choices in synonym/antonym questions only. Click any card to expand.
       </p>
     </div>
+    <ProgressTracker client:idle pageType="options" total={optCount} />
     <WordAccordion client:load view="options" restrictToSynAnt={true} words={initialWords} />
   </section>
 </Layout>

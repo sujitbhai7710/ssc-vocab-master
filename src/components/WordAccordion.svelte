@@ -8,7 +8,6 @@
   import type { WordEntry, QType, EnrichedEntry, QuestionEntry, WordQuestions } from '../lib/vocab-data';
   import {
     loadEnrichedForWord,
-    loadQuestions,
     buildExampleSentence,
     pronounceWord,
   } from '../lib/vocab-data';
@@ -220,6 +219,15 @@
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.72a.99.99 0 0 1-.703.286H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.71a.99.99 0 0 1 .703.286l3.484 3.516A.705.705 0 0 0 11 19.298z"/><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 5.636a9 9 0 0 1 0 12.728"/></svg>
             </span>
+            <a
+              href={`/word/${w.wordLower}`}
+              onclick={(e) => e.stopPropagation()}
+              class="shrink-0 h-6 px-2 rounded-full flex items-center gap-1 bg-zinc-100 dark:bg-zinc-800 hover:bg-sky-100 dark:hover:bg-sky-900 text-zinc-600 dark:text-zinc-300 hover:text-sky-700 dark:hover:text-sky-300 transition-colors text-[10px] font-medium"
+              title="Open {w.word} detail page"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+              Page
+            </a>
             <span class="shrink-0 text-[11px] text-zinc-500 tabular-nums">
               {#if restrictToSynAnt}
                 ✍ {w.asStem} ◆ {counts.asOption}

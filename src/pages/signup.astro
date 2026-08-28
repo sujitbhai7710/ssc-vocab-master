@@ -1,0 +1,10 @@
+---
+// src/pages/signup.astro
+import Layout from '../layouts/Layout.astro';
+import AuthForm from '../components/AuthForm.svelte';
+---
+<Layout title="Sign up | SSC Vocab Master" activeNav="signup" publicPage={true}>
+  <section class="py-8">
+    <AuthForm client:load mode="signup" />
+  </section>
+</Layout>

@@ -4,14 +4,18 @@ export interface Props {
   title?: string;
   description?: string;
   activeNav?: string;
+  publicPage?: boolean;
 }
 const {
-  title = 'SSC Vocab Master — Synonyms & Antonyms from 5 Years of SSC Papers',
+  title = 'SSC PYQs — Synonyms, Antonyms, Grammar Rules, Narration & Voice from 5 Years of SSC Papers',
   description = 'A feature-rich vocabulary platform covering every synonym, antonym, one-word substitution, idiom, homonym, and spelling question from 5 years of SSC exams (2019-2026).',
   activeNav = 'home',
+  publicPage = false,
 } = Astro.props;
 import '../styles/global.css';
-import { loadSummary } from '../lib/vocab-data';
+import AuthBar from '../components/AuthBar.svelte';
+const pathname = Astro.url.pathname;
+const isPublic = publicPage || pathname === '/' || pathname === '/login' || pathname === '/signup';
 const summary = typeof window !== 'undefined' ? null : null; // server-side placeholder
 ---
 <!doctype html>
@@ -23,14 +27,31 @@ const summary = typeof window !== 'undefined' ? null : null; // server-side plac
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="keywords" content="SSC vocabulary, SSC synonyms, SSC antonyms, SSC CGL, SSC CHSL, SSC CPO, SSC MTS, vocabulary builder, English vocabulary, idioms, spelling, one-word substitution, homonyms, root words" />
-    <meta name="author" content="SSC Vocab Master" />
-    <meta property="og:title" content="SSC Vocab Master" />
+    <meta name="author" content="SSC PYQs" />
+    <meta property="og:title" content="SSC PYQs" />
     <meta property="og:description" content="5 years of SSC synonyms & antonyms, frequency-ranked" />
     <meta property="og:type" content="website" />
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+Bengali:wght@400;500;600&display=swap" rel="stylesheet" />
+    {isPublic ? null : (
+      <script is:inline define:vars={{ pathname }}>
+        // Route gate: if not logged in, redirect to /login before paint.
+        // Session cookie is httpOnly so we probe /api/auth/me.
+        (async function () {
+          try {
+            const r = await fetch('/api/auth/me', { credentials: 'include' });
+            const d = r.ok ? await r.json() : { user: null };
+            if (!d.user) {
+              window.location.replace('/login?next=' + encodeURIComponent(pathname || '/'));
+            }
+          } catch (e) {
+            // network error — let the page AuthGate handle it
+          }
+        })();
+      </script>
+    )}
   </head>
   <body class="min-h-full bg-gradient-to-b from-zinc-50 via-white to-white dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950 text-zinc-900 dark:text-zinc-100 antialiased">
     <div class="min-h-screen flex flex-col">
@@ -42,7 +63,7 @@ const summary = typeof window !== 'undefined' ? null : null; // server-side plac
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/><path d="M8 11h8"/><path d="M8 7h6"/></svg>
             </div>
             <div class="min-w-0 text-left">
-              <h1 class="text-base font-bold tracking-tight leading-tight truncate">SSC Vocab Master</h1>
+              <h1 class="text-base font-bold tracking-tight leading-tight truncate">SSC PYQs</h1>
               <p class="text-[10px] text-zinc-500 leading-none truncate">5 years of SSC papers · vocabulary trainer</p>
             </div>
           </a>
@@ -80,7 +101,24 @@ const summary = typeof window !== 'undefined' ? null : null; // server-side plac
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/><circle cx="12" cy="12" r="9"/></svg>
               <span class="hidden sm:inline">Roots</span>
             </a>
+            <a href="/grammar-rules" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'grammar-rules' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/><path d="M8 11h8"/><path d="M8 7h6"/></svg>
+              <span class="hidden sm:inline">Grammar Rules</span>
+            </a>
+            <a href="/narration" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'narration' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              <span class="hidden sm:inline">Narration</span>
+            </a>
+            <a href="/voice" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'voice' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
+              <span class="hidden sm:inline">Voice</span>
+            </a>
+            <a href="/problems" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'problems' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+              <span class="hidden sm:inline">Problems</span>
+            </a>
           </nav>
+          <AuthBar client:idle />
         </div>
       </header>
 
@@ -93,7 +131,7 @@ const summary = typeof window !== 'undefined' ? null : null; // server-side plac
       <footer class="mt-auto border-t border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900/30">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 text-xs text-zinc-500 text-center">
           <p>
-            SSC Vocab Master · Vocabulary questions from 23 SSC exam papers (2019-2026) · Built for aspirants preparing for CGL, CHSL, CPO, MTS, Selection Posts.
+            SSC PYQs · Vocabulary & grammar questions from 23 SSC exam papers (2019-2026) · Built for aspirants preparing for CGL, CHSL, CPO, MTS, Selection Posts.
           </p>
           <p class="mt-1 text-[10px]">
             Word data sourced from Satwik's SSC Question Bank · Real correct answers + Bengali meanings + mnemonics + root word families.

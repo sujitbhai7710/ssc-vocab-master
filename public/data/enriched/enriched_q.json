@@ -1,1 +1,1168 @@
-{"quality": {"word": "Quality", "wordLower": "quality", "definition": "standard or degree of excellence of something", "pos": "noun", "bn": "গুণমান", "ex": "The quality of this fabric is excellent.", "mnemonic": "quality – 'kis quality ka maal hai?' matlab kaisa achha hai", "root": "QUAL", "rootMeaning": "of what kind", "rootBn": "কী রকম", "rootFamily": [{"w": "qualified", "wLower": "qualified", "pos": "adj", "mean": "having necessary skills or qualifications", "bn": "যোগ্য", "mn": "qualified – quality wala banda, job ke liye fit", "n": 1}, {"w": "qualify", "wLower": "qualify", "pos": "verb", "mean": "meet required standard; become eligible", "bn": "যোগ্য হওয়া", "mn": "qualify – quality dikhao tabhi eligible bano", "n": 1}, {"w": "qualities", "wLower": "qualities", "pos": "noun", "mean": "characteristics or attributes of something", "bn": "গুণাবলী", "mn": "qualities – kaunsi quali (kaisi) hai, uske gun.", "n": 1}, {"w": "quality", "wLower": "quality", "pos": "noun", "mean": "standard or degree of excellence of something", "bn": "গুণমান", "mn": "quality – 'kis quality ka maal hai?' matlab kaisa achha hai", "n": 1}], "ssSynonyms": [{"word": "Attribute", "status": "correct"}, {"word": "Caliber", "status": "added"}, {"word": "Calibre", "status": "added"}, {"word": "Character", "status": "added"}, {"word": "Lineament", "status": "added"}], "ssAntonyms": []}, "quiescent": {"word": "Quiescent", "wordLower": "quiescent", "definition": "inactive, dormant, at rest", "pos": "adj", "bn": "নিষ্ক্রিয়", "ex": "The volcano remained quiescent for centuries.", "mnemonic": "quiescent – 'quiet-scent', shaant aur nishkriya pada hua", "root": "QUIE", "rootMeaning": "quiet / rest", "rootBn": "শান্ত / বিশ্রাম", "rootFamily": [{"w": "quiescent", "wLower": "quiescent", "pos": "adj", "mean": "inactive, dormant, at rest", "bn": "নিষ্ক্রিয়", "mn": "quiescent – 'quiet-scent', shaant aur nishkriya pada hua", "n": 3}, {"w": "acquiesce", "wLower": "acquiesce", "pos": "verb", "mean": "to accept or agree without protest", "bn": "নীরবে সম্মতি দেওয়া", "mn": "acquiesce – chup rehke quiet ho ke maan gaya", "n": 2}], "ssSynonyms": [], "ssAntonyms": [{"word": "Active", "status": "correct"}]}, "quick": {"word": "Quick", "wordLower": "quick", "definition": "moving or done fast", "pos": "adj", "bn": "দ্রুত", "ex": "He gave a quick reply.", "mnemonic": "quick – jaldi kar, quick banao", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Fast", "status": "correct"}, {"word": "Prompt", "status": "correct"}, {"word": "Agile", "status": "correct"}, {"word": "Flying", "status": "added"}, {"word": "Speedy", "status": "added"}], "ssAntonyms": []}, "quell": {"word": "Quell", "wordLower": "quell", "definition": "suppress or put an end to", "pos": "verb", "bn": "দমন করা", "ex": "Troops were sent to quell the riot.", "mnemonic": "quell – 'kill' jaisa lagta hai, police ne danga kill/dabaa diya", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Suppress", "status": "correct"}, {"word": "Appease", "status": "added"}, {"word": "Quench", "status": "added"}, {"word": "Squelch", "status": "added"}, {"word": "Stay", "status": "added"}], "ssAntonyms": []}, "query": {"word": "Query", "wordLower": "query", "definition": "a question or doubt", "pos": "noun", "bn": "প্রশ্ন", "ex": "I sent a query to the support team.", "mnemonic": "query – computer mein search ka sawaal, quer=poochna", "root": "QUER", "rootMeaning": "ask / seek", "rootBn": "খোঁজা / জিজ্ঞাসা", "rootFamily": [{"w": "conquer", "wLower": "conquer", "pos": "verb", "mean": "to defeat or overcome by force", "bn": "জয় করা", "mn": "conquer – jung karke kingdom ko jeet lena", "n": 1}, {"w": "query", "wLower": "query", "pos": "noun", "mean": "a question or doubt", "bn": "প্রশ্ন", "mn": "query – computer mein search ka sawaal, quer=poochna", "n": 1}, {"w": "questionable", "wLower": "questionable", "pos": "adj", "mean": "doubtful; of uncertain honesty or value", "bn": "সন্দেহজনক", "mn": "questionable – jiske upar question uthe, doubtful cheez", "n": 1}], "ssSynonyms": [{"word": "Enquiry", "status": "added"}, {"word": "Inquiry", "status": "added"}, {"word": "Interrogation", "status": "added"}, {"word": "Question", "status": "added"}], "ssAntonyms": [{"word": "Answer", "status": "added"}]}, "quandary": {"word": "Quandary", "wordLower": "quandary", "definition": "state of confusion or dilemma", "pos": "noun", "bn": "উভয়সংকট", "ex": "She was in a quandary about which job to accept.", "mnemonic": "quandary – kaun sa raasta? confusion mein phasa banda", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Predicament", "status": "correct"}, {"word": "Dilemma", "status": "correct"}, {"word": "Plight", "status": "added"}], "ssAntonyms": []}, "quit": {"word": "Quit", "wordLower": "quit", "definition": "to leave or stop doing something", "pos": "verb", "bn": "ত্যাগ করা", "ex": "She decided to quit her job.", "mnemonic": "quit – job chhod do, free ho jao", "root": "QUIT", "rootMeaning": "free / release", "rootBn": "মুক্ত করা", "rootFamily": [{"w": "acquit", "wLower": "acquit", "pos": "verb", "mean": "free from a criminal charge by verdict", "bn": "খালাস দেওয়া", "mn": "acquit – court ne quit kar diya, bari kar diya", "n": 3}, {"w": "acquittal", "wLower": "acquittal", "pos": "noun", "mean": "a judgment that a person is not guilty", "bn": "খালাস", "mn": "acquittal – court ne quit kiya, bari kar diya", "n": 3}, {"w": "quit", "wLower": "quit", "pos": "verb", "mean": "to leave or stop doing something", "bn": "ত্যাগ করা", "mn": "quit – job chhod do, free ho jao", "n": 2}, {"w": "acquitted", "wLower": "acquitted", "pos": "verb", "mean": "declared not guilty of a charge", "bn": "খালাস", "mn": "acquitted – court se 'quit' hokar bari ho gaya", "n": 1}], "ssSynonyms": [{"word": "Cease", "status": "added"}, {"word": "Depart", "status": "added"}, {"word": "Discontinue", "status": "added"}, {"word": "Give up", "status": "added"}, {"word": "Lay off", "status": "added"}, {"word": "Leave office", "status": "added"}, {"word": "Resign", "status": "added"}, {"word": "Step down", "status": "added"}, {"word": "Stop", "status": "added"}, {"word": "Take leave", "status": "added"}], "ssAntonyms": [{"word": "Continue", "status": "added"}, {"word": "Stay", "status": "added"}, {"word": "Take office", "status": "added"}]}, "qualified": {"word": "Qualified", "wordLower": "qualified", "definition": "having necessary skills or qualifications", "pos": "adj", "bn": "যোগ্য", "ex": "She is highly qualified for this teaching post.", "mnemonic": "qualified – quality wala banda, job ke liye fit", "root": "QUAL", "rootMeaning": "of what kind", "rootBn": "কী ধরনের", "rootFamily": [{"w": "qualified", "wLower": "qualified", "pos": "adj", "mean": "having necessary skills or qualifications", "bn": "যোগ্য", "mn": "qualified – quality wala banda, job ke liye fit", "n": 1}, {"w": "qualify", "wLower": "qualify", "pos": "verb", "mean": "meet required standard; become eligible", "bn": "যোগ্য হওয়া", "mn": "qualify – quality dikhao tabhi eligible bano", "n": 1}, {"w": "qualities", "wLower": "qualities", "pos": "noun", "mean": "characteristics or attributes of something", "bn": "গুণাবলী", "mn": "qualities – kaunsi quali (kaisi) hai, uske gun.", "n": 1}, {"w": "quality", "wLower": "quality", "pos": "noun", "mean": "standard or degree of excellence of something", "bn": "গুণমান", "mn": "quality – 'kis quality ka maal hai?' matlab kaisa achha hai", "n": 1}], "ssSynonyms": [{"word": "Competent", "status": "correct"}, {"word": "Measure up", "status": "added"}, {"word": "Qualify", "status": "added"}, {"word": "Restrict", "status": "added"}], "ssAntonyms": [{"word": "Disqualify", "status": "added"}]}, "queer": {"word": "Queer", "wordLower": "queer", "definition": "strange, odd or peculiar", "pos": "adj", "bn": "অদ্ভুত", "ex": "He had a queer feeling about the house.", "mnemonic": "queer – 'kya yaar' itna ajeeb behaviour", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Baffle", "status": "added"}, {"word": "Bilk", "status": "added"}, {"word": "Cross", "status": "added"}, {"word": "Endanger", "status": "added"}, {"word": "Expose", "status": "added"}, {"word": "Fag", "status": "added"}, {"word": "Faggot", "status": "added"}, {"word": "Fagot", "status": "added"}, {"word": "Fairy", "status": "added"}, {"word": "Foil", "status": "added"}], "ssAntonyms": [{"word": "Ordinary", "status": "correct"}]}, "quiet": {"word": "Quiet", "wordLower": "quiet", "definition": "making little or no noise", "pos": "adj", "bn": "শান্ত", "ex": "Please keep the room quiet.", "mnemonic": "quiet – kya-yet? chup raho, koi awaaz nahi", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Lull", "status": "added"}, {"word": "Silence", "status": "added"}, {"word": "Tranquility", "status": "added"}, {"word": "Tranquillity", "status": "added"}], "ssAntonyms": [{"word": "Boisterous", "status": "correct"}, {"word": "Sound", "status": "added"}]}, "questions": {"word": "Questions", "wordLower": "questions", "definition": "sentences asking for information; matters to resolve", "pos": "noun", "bn": "প্রশ্নসমূহ", "ex": "The teacher answered all the students' questions.", "mnemonic": "questions – quest (khoj) me answer dhundo, sawal", "root": "QUEST", "rootMeaning": "seek / ask", "rootBn": "খোঁজা / জিজ্ঞাসা", "rootFamily": [{"w": "questions", "wLower": "questions", "pos": "noun", "mean": "sentences asking for information; matters to resolve", "bn": "প্রশ্নসমূহ", "mn": "questions – quest (khoj) me answer dhundo, sawal", "n": 1}, {"w": "requested", "wLower": "requested", "pos": "verb", "mean": "asked for politely", "bn": "অনুরোধ করা", "mn": "request – re + quest, dobara maangna", "n": 1}], "ssSynonyms": [{"word": "Enquiry", "status": "added"}, {"word": "Head", "status": "added"}, {"word": "Inquiry", "status": "added"}, {"word": "Interrogation", "status": "added"}, {"word": "Interrogative", "status": "added"}, {"word": "Interrogative sentence", "status": "added"}, {"word": "Query", "status": "added"}, {"word": "Question", "status": "added"}], "ssAntonyms": [{"word": "Resolve", "status": "correct"}, {"word": "Answer", "status": "added"}]}, "queen": {"word": "Queen", "wordLower": "queen", "definition": "female monarch or king's wife", "pos": "noun", "bn": "রানি", "ex": "The queen addressed the nation on television.", "mnemonic": "queen – rani, raja ki patni ya shaasak", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Fading", "status": "correct"}, {"word": "Female monarch", "status": "added"}, {"word": "Queen regnant", "status": "added"}], "ssAntonyms": [{"word": "King", "status": "added"}, {"word": "Male monarch", "status": "added"}]}, "quenched": {"word": "Quenched", "wordLower": "quenched", "definition": "satisfied thirst; extinguished", "pos": "verb", "bn": "নিবারিত", "ex": "She quenched her thirst with cold water.", "mnemonic": "quenched – thanda paani se pyaas bujh gayi", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Allay", "status": "added"}, {"word": "Assuage", "status": "added"}, {"word": "Blow out", "status": "added"}, {"word": "Extinguish", "status": "added"}, {"word": "Quench", "status": "added"}, {"word": "Slake", "status": "added"}, {"word": "Snuff out", "status": "added"}], "ssAntonyms": [{"word": "Ignite", "status": "added"}]}, "quaint": {"word": "Quaint", "wordLower": "quaint", "definition": "attractively old-fashioned or unusual", "pos": "adj", "bn": "অদ্ভুত সুন্দর", "ex": "They stayed in a quaint little cottage by the sea.", "mnemonic": "quaint – purane zamane ka pyaara sa gaon, cute aur alag", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Old-time", "status": "added"}, {"word": "Olde worlde", "status": "added"}], "ssAntonyms": [{"word": "Ordinary", "status": "correct"}]}, "question": {"word": "Question", "wordLower": "question", "definition": "a sentence asking for information", "pos": "noun", "bn": "প্রশ্ন", "ex": "She asked a difficult question.", "mnemonic": "question – teacher poochta hai sawaal", "root": "QUAER", "rootMeaning": "to ask / seek", "rootBn": "খোঁজা / জিজ্ঞাসা", "rootFamily": [{"w": "questionnaire", "wLower": "questionnaire", "pos": "noun", "mean": "set of printed questions for survey", "bn": "প্রশ্নমালা", "mn": "questionnaire – question ka naala, ek ke baad ek sawaal", "n": 5}, {"w": "question", "wLower": "question", "pos": "noun", "mean": "a sentence asking for information", "bn": "প্রশ্ন", "mn": "question – teacher poochta hai sawaal", "n": 4}, {"w": "request", "wLower": "request", "pos": "noun", "mean": "act of asking for something politely", "bn": "অনুরোধ", "mn": "request – re+quest, dobara khoj mein maang karna", "n": 1}, {"w": "unquestionable", "wLower": "unquestionable", "pos": "adj", "mean": "beyond doubt; certainly true", "bn": "প্রশ্নাতীত", "mn": "un-question-able – jispe koi question nahi kar sakta, pakka sach", "n": 1}], "ssSynonyms": [{"word": "Enquiry", "status": "added"}, {"word": "Head", "status": "added"}, {"word": "Inquiry", "status": "added"}, {"word": "Interrogation", "status": "added"}, {"word": "Interrogative", "status": "added"}, {"word": "Interrogative sentence", "status": "added"}, {"word": "Query", "status": "added"}], "ssAntonyms": [{"word": "Answer", "status": "added"}]}, "quicken": {"word": "Quicken", "wordLower": "quicken", "definition": "make or become faster", "pos": "verb", "bn": "দ্রুততর করা", "ex": "She quickened her pace to catch the bus.", "mnemonic": "quicken – quick + en, speed badhana", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Accelerate", "status": "added"}, {"word": "Invigorate", "status": "added"}, {"word": "Speed", "status": "added"}, {"word": "Speed up", "status": "added"}, {"word": "Whet", "status": "added"}], "ssAntonyms": [{"word": "Linger", "status": "correct"}, {"word": "Decelerate", "status": "added"}]}, "quicken the pulse": {"word": "Quicken the pulse", "wordLower": "quicken the pulse", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "quite perplexed": {"word": "Quite perplexed", "wordLower": "quite perplexed", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "queer fish": {"word": "Queer fish", "wordLower": "queer fish", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "queer pitch": {"word": "Queer pitch", "wordLower": "queer pitch", "definition": "a strange or unfair situation to deal with", "pos": "", "bn": "অদ্ভুত বা অন্যায় পরিস্থিতি", "ex": "The new rules made a queer pitch for the cricket team.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "queer somebody's pitch": {"word": "Queer somebody's pitch", "wordLower": "queer somebody's pitch", "definition": "to spoil someone's plan or chance", "pos": "", "bn": "কারো পরিকল্পনা নষ্ট করা", "ex": "Rahul's idea queered Priya's pitch for the school competition.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "quaking in his boots": {"word": "Quaking in his boots", "wordLower": "quaking in his boots", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "quay": {"word": "Quay", "wordLower": "quay", "definition": "a landing place for ships; wharf", "pos": "noun", "bn": "জাহাজঘাট", "ex": "The boat was tied up at the quay.", "mnemonic": "quay – 'key' bola jaata, jahaaz ke ghat pe khada", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "quiver": {"word": "Quiver", "wordLower": "quiver", "definition": "to shake with a slight rapid motion", "pos": "verb", "bn": "কম্পিত হওয়া", "ex": "Her lips began to quiver with emotion.", "mnemonic": "quiver – 'kaap-var' thand se kaanpna", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Chill", "status": "added"}, {"word": "Frisson", "status": "added"}, {"word": "Palpitation", "status": "added"}, {"word": "Quivering", "status": "added"}, {"word": "Shakiness", "status": "added"}, {"word": "Shaking", "status": "added"}, {"word": "Shiver", "status": "added"}, {"word": "Shudder", "status": "added"}, {"word": "Thrill", "status": "added"}, {"word": "Tingle", "status": "added"}], "ssAntonyms": []}, "quake": {"word": "Quake", "wordLower": "quake", "definition": "to shake or tremble, often from fear", "pos": "verb", "bn": "কাঁপা", "ex": "The ground began to quake during the earthquake.", "mnemonic": "quake – earthquake mein zameen kaanpti hai", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [{"word": "Earthquake", "status": "added"}, {"word": "Palpitate", "status": "added"}, {"word": "Quiver", "status": "added"}, {"word": "Seism", "status": "added"}, {"word": "Temblor", "status": "added"}, {"word": "Tremor", "status": "added"}], "ssAntonyms": []}, "quorum": {"word": "Quorum", "wordLower": "quorum", "definition": "minimum members needed for valid meeting", "pos": "noun", "bn": "কোরাম", "ex": "The meeting was cancelled for lack of a quorum.", "mnemonic": "quorum – meeting valid hone ka minimum count", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "quadrangle": {"word": "Quadrangle", "wordLower": "quadrangle", "definition": "four-sided courtyard enclosed by buildings; a quadrilateral", "pos": "noun", "bn": "চতুর্ভুজ প্রাঙ্গণ", "ex": "Students gathered in the college quadrangle after class.", "mnemonic": "quadrangle – quad (chaar) angle wala aangan, college ka square courtyard", "root": "QUADR", "rootMeaning": "four", "rootBn": "চার", "rootFamily": [{"w": "quadrangle", "wLower": "quadrangle", "pos": "noun", "mean": "four-sided courtyard enclosed by buildings; a quadrilateral", "bn": "চতুর্ভুজ প্রাঙ্গণ", "mn": "quadrangle – quad (chaar) angle wala aangan, college ka square courtyard", "n": 1}, {"w": "quadruped", "wLower": "quadruped", "pos": "noun", "mean": "animal with four feet", "bn": "চতুষ্পদ প্রাণী", "mn": "quad bike ke chaar pahiye, quadruped ke chaar pair", "n": 1}], "ssSynonyms": [{"word": "Quad", "status": "added"}, {"word": "Quadrilateral", "status": "added"}, {"word": "Tetragon", "status": "added"}], "ssAntonyms": []}, "quadruped": {"word": "Quadruped", "wordLower": "quadruped", "definition": "animal with four feet", "pos": "noun", "bn": "চতুষ্পদ প্রাণী", "ex": "A horse is a quadruped.", "mnemonic": "quad bike ke chaar pahiye, quadruped ke chaar pair", "root": "QUADR", "rootMeaning": "four", "rootBn": "চার", "rootFamily": [{"w": "quadrangle", "wLower": "quadrangle", "pos": "noun", "mean": "four-sided courtyard enclosed by buildings; a quadrilateral", "bn": "চতুর্ভুজ প্রাঙ্গণ", "mn": "quadrangle – quad (chaar) angle wala aangan, college ka square courtyard", "n": 1}, {"w": "quadruped", "wLower": "quadruped", "pos": "noun", "mean": "animal with four feet", "bn": "চতুষ্পদ প্রাণী", "mn": "quad bike ke chaar pahiye, quadruped ke chaar pair", "n": 1}], "ssSynonyms": [{"word": "Four-footed", "status": "added"}, {"word": "Quadrupedal", "status": "added"}], "ssAntonyms": [{"word": "Biped", "status": "added"}, {"word": "Bipedal", "status": "added"}]}, "quinton": {"word": "Quinton", "wordLower": "quinton", "definition": "a boy's name, also an old string instrument", "pos": "", "bn": "একটি ছেলের নাম বা পুরোনো বাদ্যযন্ত্র", "ex": "Quinton scored the highest marks in the class test.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "quintessential": {"word": "Quintessential", "wordLower": "quintessential", "definition": "most perfect example of a quality", "pos": "adj", "bn": "আদর্শ নমুনা", "ex": "He is the quintessential English gentleman.", "mnemonic": "quintessential – fifth essence, sabse perfect example", "root": "QUINT", "rootMeaning": "five / fifth", "rootBn": "পাঁচ", "rootFamily": [{"w": "quintessential", "wLower": "quintessential", "pos": "adj", "mean": "most perfect example of a quality", "bn": "আদর্শ নমুনা", "mn": "quintessential – fifth essence, sabse perfect example", "n": 2}], "ssSynonyms": [], "ssAntonyms": []}, "quarter": {"word": "Quarter", "wordLower": "quarter", "definition": "one of four equal parts", "pos": "noun", "bn": "এক-চতুর্থাংশ", "ex": "He ate a quarter of the pizza.", "mnemonic": "quarter – char hisse mein se ek quarter", "root": "QUART", "rootMeaning": "four", "rootBn": "চার", "rootFamily": [{"w": "quarter", "wLower": "quarter", "pos": "noun", "mean": "one of four equal parts", "bn": "এক-চতুর্থাংশ", "mn": "quarter – char hisse mein se ek quarter", "n": 1}, {"w": "square", "wLower": "square", "pos": "noun", "mean": "shape with four equal sides", "bn": "বর্গক্ষেত্র", "mn": "square – char (quart) barabar side wala shape", "n": 1}], "ssSynonyms": [{"word": "Fourth", "status": "added"}, {"word": "Fourth part", "status": "added"}, {"word": "One-fourth", "status": "added"}, {"word": "One-quarter", "status": "added"}, {"word": "Quartern", "status": "added"}, {"word": "Twenty-five percent", "status": "added"}], "ssAntonyms": []}, "quotient": {"word": "Quotient", "wordLower": "quotient", "definition": "result of dividing one number by another", "pos": "noun", "bn": "ভাগফল", "ex": "Divide sixty by five to get the quotient.", "mnemonic": "quotient – 'quotation' nahi, bhaag ka answer, IQ ka Q", "root": "QUOT", "rootMeaning": "how many / how great", "rootBn": "কতগুলো", "rootFamily": [{"w": "misquote", "wLower": "misquote", "pos": "verb", "mean": "to quote someone inaccurately", "bn": "ভুলভাবে উদ্ধৃত করা", "mn": "misquote – galat QUOTE, kisi ki baat galat bolna", "n": 1}, {"w": "quotient", "wLower": "quotient", "pos": "noun", "mean": "result of dividing one number by another", "bn": "ভাগফল", "mn": "quotient – 'quotation' nahi, bhaag ka answer, IQ ka Q", "n": 1}], "ssSynonyms": [], "ssAntonyms": []}, "questionaire": {"word": "Questionaire", "wordLower": "questionaire", "definition": "wrong spelling of questionnaire (a form with questions)", "pos": "", "bn": "প্রশ্নপত্র (ভুল বানান)", "ex": "The teacher said the questionaire has ten questions.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "quever": {"word": "Quever", "wordLower": "quever", "definition": "not a real word, likely typo of quaver", "pos": "", "bn": "সঠিক শব্দ নয়, quaver-এর ভুল বানান", "ex": "The teacher said 'quever' is not a proper word.", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "quardant": {"word": "Quardant", "wordLower": "quardant", "definition": "", "pos": "", "bn": "", "ex": "", "mnemonic": "", "root": "", "rootMeaning": "", "rootBn": "", "rootFamily": [], "ssSynonyms": [], "ssAntonyms": []}, "questionnaire": {"word": "Questionnaire", "wordLower": "questionnaire", "definition": "set of printed questions for survey", "pos": "noun", "bn": "প্রশ্নমালা", "ex": "Please fill out this questionnaire before the interview.", "mnemonic": "questionnaire – question ka naala, ek ke baad ek sawaal", "root": "QUAER", "rootMeaning": "seek / ask", "rootBn": "খোঁজা / জিজ্ঞাসা", "rootFamily": [{"w": "questionnaire", "wLower": "questionnaire", "pos": "noun", "mean": "set of printed questions for survey", "bn": "প্রশ্নমালা", "mn": "questionnaire – question ka naala, ek ke baad ek sawaal", "n": 5}, {"w": "question", "wLower": "question", "pos": "noun", "mean": "a sentence asking for information", "bn": "প্রশ্ন", "mn": "question – teacher poochta hai sawaal", "n": 4}, {"w": "request", "wLower": "request", "pos": "noun", "mean": "act of asking for something politely", "bn": "অনুরোধ", "mn": "request – re+quest, dobara khoj mein maang karna", "n": 1}, {"w": "unquestionable", "wLower": "unquestionable", "pos": "adj", "mean": "beyond doubt; certainly true", "bn": "প্রশ্নাতীত", "mn": "un-question-able – jispe koi question nahi kar sakta, pakka sach", "n": 1}], "ssSynonyms": [], "ssAntonyms": []}}
+{
+ "quality": {
+  "word": "Quality",
+  "wordLower": "quality",
+  "definition": "standard or degree of excellence of something",
+  "pos": "noun",
+  "bn": "গুণমান",
+  "ex": "The quality of this fabric is excellent.",
+  "mnemonic": "quality – 'kis quality ka maal hai?' matlab kaisa achha hai",
+  "root": "QUAL",
+  "rootMeaning": "of what kind",
+  "rootBn": "কী রকম",
+  "rootFamily": [
+   {
+    "w": "qualified",
+    "wLower": "qualified",
+    "pos": "adj",
+    "mean": "having necessary skills or qualifications",
+    "bn": "যোগ্য",
+    "mn": "qualified – quality wala banda, job ke liye fit",
+    "n": 1
+   },
+   {
+    "w": "qualify",
+    "wLower": "qualify",
+    "pos": "verb",
+    "mean": "meet required standard; become eligible",
+    "bn": "যোগ্য হওয়া",
+    "mn": "qualify – quality dikhao tabhi eligible bano",
+    "n": 1
+   },
+   {
+    "w": "qualities",
+    "wLower": "qualities",
+    "pos": "noun",
+    "mean": "characteristics or attributes of something",
+    "bn": "গুণাবলী",
+    "mn": "qualities – kaunsi quali (kaisi) hai, uske gun.",
+    "n": 1
+   },
+   {
+    "w": "quality",
+    "wLower": "quality",
+    "pos": "noun",
+    "mean": "standard or degree of excellence of something",
+    "bn": "গুণমান",
+    "mn": "quality – 'kis quality ka maal hai?' matlab kaisa achha hai",
+    "n": 1
+   }
+  ],
+  "ssSynonyms": [
+   {
+    "word": "Attribute",
+    "status": "correct"
+   },
+   {
+    "word": "Caliber",
+    "status": "added"
+   },
+   {
+    "word": "Calibre",
+    "status": "added"
+   },
+   {
+    "word": "Character",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "quiescent": {
+  "word": "Quiescent",
+  "wordLower": "quiescent",
+  "definition": "inactive, dormant, at rest",
+  "pos": "adj",
+  "bn": "নিষ্ক্রিয়",
+  "ex": "The volcano remained quiescent for centuries.",
+  "mnemonic": "quiescent – 'quiet-scent', shaant aur nishkriya pada hua",
+  "root": "QUIE",
+  "rootMeaning": "quiet / rest",
+  "rootBn": "শান্ত / বিশ্রাম",
+  "rootFamily": [
+   {
+    "w": "quiescent",
+    "wLower": "quiescent",
+    "pos": "adj",
+    "mean": "inactive, dormant, at rest",
+    "bn": "নিষ্ক্রিয়",
+    "mn": "quiescent – 'quiet-scent', shaant aur nishkriya pada hua",
+    "n": 3
+   },
+   {
+    "w": "acquiesce",
+    "wLower": "acquiesce",
+    "pos": "verb",
+    "mean": "to accept or agree without protest",
+    "bn": "নীরবে সম্মতি দেওয়া",
+    "mn": "acquiesce – chup rehke quiet ho ke maan gaya",
+    "n": 2
+   }
+  ],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Active",
+    "status": "correct"
+   }
+  ]
+ },
+ "quick": {
+  "word": "Quick",
+  "wordLower": "quick",
+  "definition": "moving or done fast",
+  "pos": "adj",
+  "bn": "দ্রুত",
+  "ex": "He gave a quick reply.",
+  "mnemonic": "quick – jaldi kar, quick banao",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Fast",
+    "status": "correct"
+   },
+   {
+    "word": "Prompt",
+    "status": "correct"
+   },
+   {
+    "word": "Agile",
+    "status": "correct"
+   },
+   {
+    "word": "Speedy",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "quell": {
+  "word": "Quell",
+  "wordLower": "quell",
+  "definition": "suppress or put an end to",
+  "pos": "verb",
+  "bn": "দমন করা",
+  "ex": "Troops were sent to quell the riot.",
+  "mnemonic": "quell – 'kill' jaisa lagta hai, police ne danga kill/dabaa diya",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Suppress",
+    "status": "correct"
+   },
+   {
+    "word": "Appease",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "query": {
+  "word": "Query",
+  "wordLower": "query",
+  "definition": "a question or doubt",
+  "pos": "noun",
+  "bn": "প্রশ্ন",
+  "ex": "I sent a query to the support team.",
+  "mnemonic": "query – computer mein search ka sawaal, quer=poochna",
+  "root": "QUER",
+  "rootMeaning": "ask / seek",
+  "rootBn": "খোঁজা / জিজ্ঞাসা",
+  "rootFamily": [
+   {
+    "w": "conquer",
+    "wLower": "conquer",
+    "pos": "verb",
+    "mean": "to defeat or overcome by force",
+    "bn": "জয় করা",
+    "mn": "conquer – jung karke kingdom ko jeet lena",
+    "n": 1
+   },
+   {
+    "w": "query",
+    "wLower": "query",
+    "pos": "noun",
+    "mean": "a question or doubt",
+    "bn": "প্রশ্ন",
+    "mn": "query – computer mein search ka sawaal, quer=poochna",
+    "n": 1
+   },
+   {
+    "w": "questionable",
+    "wLower": "questionable",
+    "pos": "adj",
+    "mean": "doubtful; of uncertain honesty or value",
+    "bn": "সন্দেহজনক",
+    "mn": "questionable – jiske upar question uthe, doubtful cheez",
+    "n": 1
+   }
+  ],
+  "ssSynonyms": [
+   {
+    "word": "Enquiry",
+    "status": "added"
+   },
+   {
+    "word": "Inquiry",
+    "status": "added"
+   },
+   {
+    "word": "Interrogation",
+    "status": "added"
+   },
+   {
+    "word": "Question",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Answer",
+    "status": "added"
+   }
+  ]
+ },
+ "quandary": {
+  "word": "Quandary",
+  "wordLower": "quandary",
+  "definition": "state of confusion or dilemma",
+  "pos": "noun",
+  "bn": "উভয়সংকট",
+  "ex": "She was in a quandary about which job to accept.",
+  "mnemonic": "quandary – kaun sa raasta? confusion mein phasa banda",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Predicament",
+    "status": "correct"
+   },
+   {
+    "word": "Dilemma",
+    "status": "correct"
+   },
+   {
+    "word": "Plight",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "quit": {
+  "word": "Quit",
+  "wordLower": "quit",
+  "definition": "to leave or stop doing something",
+  "pos": "verb",
+  "bn": "ত্যাগ করা",
+  "ex": "She decided to quit her job.",
+  "mnemonic": "quit – job chhod do, free ho jao",
+  "root": "QUIT",
+  "rootMeaning": "free / release",
+  "rootBn": "মুক্ত করা",
+  "rootFamily": [
+   {
+    "w": "acquit",
+    "wLower": "acquit",
+    "pos": "verb",
+    "mean": "free from a criminal charge by verdict",
+    "bn": "খালাস দেওয়া",
+    "mn": "acquit – court ne quit kar diya, bari kar diya",
+    "n": 3
+   },
+   {
+    "w": "acquittal",
+    "wLower": "acquittal",
+    "pos": "noun",
+    "mean": "a judgment that a person is not guilty",
+    "bn": "খালাস",
+    "mn": "acquittal – court ne quit kiya, bari kar diya",
+    "n": 3
+   },
+   {
+    "w": "quit",
+    "wLower": "quit",
+    "pos": "verb",
+    "mean": "to leave or stop doing something",
+    "bn": "ত্যাগ করা",
+    "mn": "quit – job chhod do, free ho jao",
+    "n": 2
+   },
+   {
+    "w": "acquitted",
+    "wLower": "acquitted",
+    "pos": "verb",
+    "mean": "declared not guilty of a charge",
+    "bn": "খালাস",
+    "mn": "acquitted – court se 'quit' hokar bari ho gaya",
+    "n": 1
+   }
+  ],
+  "ssSynonyms": [
+   {
+    "word": "Cease",
+    "status": "added"
+   },
+   {
+    "word": "Depart",
+    "status": "added"
+   },
+   {
+    "word": "Discontinue",
+    "status": "added"
+   },
+   {
+    "word": "Resign",
+    "status": "added"
+   },
+   {
+    "word": "Stop",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Continue",
+    "status": "added"
+   },
+   {
+    "word": "Stay",
+    "status": "added"
+   }
+  ]
+ },
+ "qualified": {
+  "word": "Qualified",
+  "wordLower": "qualified",
+  "definition": "having necessary skills or qualifications",
+  "pos": "adj",
+  "bn": "যোগ্য",
+  "ex": "She is highly qualified for this teaching post.",
+  "mnemonic": "qualified – quality wala banda, job ke liye fit",
+  "root": "QUAL",
+  "rootMeaning": "of what kind",
+  "rootBn": "কী ধরনের",
+  "rootFamily": [
+   {
+    "w": "qualified",
+    "wLower": "qualified",
+    "pos": "adj",
+    "mean": "having necessary skills or qualifications",
+    "bn": "যোগ্য",
+    "mn": "qualified – quality wala banda, job ke liye fit",
+    "n": 1
+   },
+   {
+    "w": "qualify",
+    "wLower": "qualify",
+    "pos": "verb",
+    "mean": "meet required standard; become eligible",
+    "bn": "যোগ্য হওয়া",
+    "mn": "qualify – quality dikhao tabhi eligible bano",
+    "n": 1
+   },
+   {
+    "w": "qualities",
+    "wLower": "qualities",
+    "pos": "noun",
+    "mean": "characteristics or attributes of something",
+    "bn": "গুণাবলী",
+    "mn": "qualities – kaunsi quali (kaisi) hai, uske gun.",
+    "n": 1
+   },
+   {
+    "w": "quality",
+    "wLower": "quality",
+    "pos": "noun",
+    "mean": "standard or degree of excellence of something",
+    "bn": "গুণমান",
+    "mn": "quality – 'kis quality ka maal hai?' matlab kaisa achha hai",
+    "n": 1
+   }
+  ],
+  "ssSynonyms": [
+   {
+    "word": "Competent",
+    "status": "correct"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "queer": {
+  "word": "Queer",
+  "wordLower": "queer",
+  "definition": "strange, odd or peculiar",
+  "pos": "adj",
+  "bn": "অদ্ভুত",
+  "ex": "He had a queer feeling about the house.",
+  "mnemonic": "queer – 'kya yaar' itna ajeeb behaviour",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Ordinary",
+    "status": "correct"
+   }
+  ]
+ },
+ "quiet": {
+  "word": "Quiet",
+  "wordLower": "quiet",
+  "definition": "making little or no noise",
+  "pos": "adj",
+  "bn": "শান্ত",
+  "ex": "Please keep the room quiet.",
+  "mnemonic": "quiet – kya-yet? chup raho, koi awaaz nahi",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Lull",
+    "status": "added"
+   },
+   {
+    "word": "Silence",
+    "status": "added"
+   },
+   {
+    "word": "Tranquility",
+    "status": "added"
+   },
+   {
+    "word": "Tranquillity",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Boisterous",
+    "status": "correct"
+   }
+  ]
+ },
+ "questions": {
+  "word": "Questions",
+  "wordLower": "questions",
+  "definition": "sentences asking for information; matters to resolve",
+  "pos": "noun",
+  "bn": "প্রশ্নসমূহ",
+  "ex": "The teacher answered all the students' questions.",
+  "mnemonic": "questions – quest (khoj) me answer dhundo, sawal",
+  "root": "QUEST",
+  "rootMeaning": "seek / ask",
+  "rootBn": "খোঁজা / জিজ্ঞাসা",
+  "rootFamily": [
+   {
+    "w": "questions",
+    "wLower": "questions",
+    "pos": "noun",
+    "mean": "sentences asking for information; matters to resolve",
+    "bn": "প্রশ্নসমূহ",
+    "mn": "questions – quest (khoj) me answer dhundo, sawal",
+    "n": 1
+   },
+   {
+    "w": "requested",
+    "wLower": "requested",
+    "pos": "verb",
+    "mean": "asked for politely",
+    "bn": "অনুরোধ করা",
+    "mn": "request – re + quest, dobara maangna",
+    "n": 1
+   }
+  ],
+  "ssSynonyms": [
+   {
+    "word": "Enquiry",
+    "status": "added"
+   },
+   {
+    "word": "Inquiry",
+    "status": "added"
+   },
+   {
+    "word": "Interrogation",
+    "status": "added"
+   },
+   {
+    "word": "Query",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Resolve",
+    "status": "correct"
+   },
+   {
+    "word": "Answer",
+    "status": "added"
+   }
+  ]
+ },
+ "queen": {
+  "word": "Queen",
+  "wordLower": "queen",
+  "definition": "female monarch or king's wife",
+  "pos": "noun",
+  "bn": "রানি",
+  "ex": "The queen addressed the nation on television.",
+  "mnemonic": "queen – rani, raja ki patni ya shaasak",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Fading",
+    "status": "correct"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "King",
+    "status": "added"
+   }
+  ]
+ },
+ "quenched": {
+  "word": "Quenched",
+  "wordLower": "quenched",
+  "definition": "satisfied thirst; extinguished",
+  "pos": "verb",
+  "bn": "নিবারিত",
+  "ex": "She quenched her thirst with cold water.",
+  "mnemonic": "quenched – thanda paani se pyaas bujh gayi",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Allay",
+    "status": "added"
+   },
+   {
+    "word": "Assuage",
+    "status": "added"
+   },
+   {
+    "word": "Extinguish",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Ignite",
+    "status": "added"
+   }
+  ]
+ },
+ "quaint": {
+  "word": "Quaint",
+  "wordLower": "quaint",
+  "definition": "attractively old-fashioned or unusual",
+  "pos": "adj",
+  "bn": "অদ্ভুত সুন্দর",
+  "ex": "They stayed in a quaint little cottage by the sea.",
+  "mnemonic": "quaint – purane zamane ka pyaara sa gaon, cute aur alag",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Ordinary",
+    "status": "correct"
+   }
+  ]
+ },
+ "question": {
+  "word": "Question",
+  "wordLower": "question",
+  "definition": "a sentence asking for information",
+  "pos": "noun",
+  "bn": "প্রশ্ন",
+  "ex": "She asked a difficult question.",
+  "mnemonic": "question – teacher poochta hai sawaal",
+  "root": "QUAER",
+  "rootMeaning": "to ask / seek",
+  "rootBn": "খোঁজা / জিজ্ঞাসা",
+  "rootFamily": [
+   {
+    "w": "questionnaire",
+    "wLower": "questionnaire",
+    "pos": "noun",
+    "mean": "set of printed questions for survey",
+    "bn": "প্রশ্নমালা",
+    "mn": "questionnaire – question ka naala, ek ke baad ek sawaal",
+    "n": 5
+   },
+   {
+    "w": "question",
+    "wLower": "question",
+    "pos": "noun",
+    "mean": "a sentence asking for information",
+    "bn": "প্রশ্ন",
+    "mn": "question – teacher poochta hai sawaal",
+    "n": 4
+   },
+   {
+    "w": "request",
+    "wLower": "request",
+    "pos": "noun",
+    "mean": "act of asking for something politely",
+    "bn": "অনুরোধ",
+    "mn": "request – re+quest, dobara khoj mein maang karna",
+    "n": 1
+   },
+   {
+    "w": "unquestionable",
+    "wLower": "unquestionable",
+    "pos": "adj",
+    "mean": "beyond doubt; certainly true",
+    "bn": "প্রশ্নাতীত",
+    "mn": "un-question-able – jispe koi question nahi kar sakta, pakka sach",
+    "n": 1
+   }
+  ],
+  "ssSynonyms": [
+   {
+    "word": "Enquiry",
+    "status": "added"
+   },
+   {
+    "word": "Inquiry",
+    "status": "added"
+   },
+   {
+    "word": "Interrogation",
+    "status": "added"
+   },
+   {
+    "word": "Query",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Answer",
+    "status": "added"
+   }
+  ]
+ },
+ "quicken": {
+  "word": "Quicken",
+  "wordLower": "quicken",
+  "definition": "make or become faster",
+  "pos": "verb",
+  "bn": "দ্রুততর করা",
+  "ex": "She quickened her pace to catch the bus.",
+  "mnemonic": "quicken – quick + en, speed badhana",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Accelerate",
+    "status": "added"
+   },
+   {
+    "word": "Invigorate",
+    "status": "added"
+   },
+   {
+    "word": "Speed",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": [
+   {
+    "word": "Linger",
+    "status": "correct"
+   },
+   {
+    "word": "Decelerate",
+    "status": "added"
+   }
+  ]
+ },
+ "quicken the pulse": {
+  "word": "Quicken the pulse",
+  "wordLower": "quicken the pulse",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "quite perplexed": {
+  "word": "Quite perplexed",
+  "wordLower": "quite perplexed",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "queer fish": {
+  "word": "Queer fish",
+  "wordLower": "queer fish",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "queer pitch": {
+  "word": "Queer pitch",
+  "wordLower": "queer pitch",
+  "definition": "a strange or unfair situation to deal with",
+  "pos": "",
+  "bn": "অদ্ভুত বা অন্যায় পরিস্থিতি",
+  "ex": "The new rules made a queer pitch for the cricket team.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "queer somebody's pitch": {
+  "word": "Queer somebody's pitch",
+  "wordLower": "queer somebody's pitch",
+  "definition": "to spoil someone's plan or chance",
+  "pos": "",
+  "bn": "কারো পরিকল্পনা নষ্ট করা",
+  "ex": "Rahul's idea queered Priya's pitch for the school competition.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "quaking in his boots": {
+  "word": "Quaking in his boots",
+  "wordLower": "quaking in his boots",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "quay": {
+  "word": "Quay",
+  "wordLower": "quay",
+  "definition": "a landing place for ships; wharf",
+  "pos": "noun",
+  "bn": "জাহাজঘাট",
+  "ex": "The boat was tied up at the quay.",
+  "mnemonic": "quay – 'key' bola jaata, jahaaz ke ghat pe khada",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "quiver": {
+  "word": "Quiver",
+  "wordLower": "quiver",
+  "definition": "to shake with a slight rapid motion",
+  "pos": "verb",
+  "bn": "কম্পিত হওয়া",
+  "ex": "Her lips began to quiver with emotion.",
+  "mnemonic": "quiver – 'kaap-var' thand se kaanpna",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Shaking",
+    "status": "added"
+   },
+   {
+    "word": "Shiver",
+    "status": "added"
+   },
+   {
+    "word": "Shudder",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "quake": {
+  "word": "Quake",
+  "wordLower": "quake",
+  "definition": "to shake or tremble, often from fear",
+  "pos": "verb",
+  "bn": "কাঁপা",
+  "ex": "The ground began to quake during the earthquake.",
+  "mnemonic": "quake – earthquake mein zameen kaanpti hai",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [
+   {
+    "word": "Earthquake",
+    "status": "added"
+   },
+   {
+    "word": "Quiver",
+    "status": "added"
+   },
+   {
+    "word": "Tremor",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "quorum": {
+  "word": "Quorum",
+  "wordLower": "quorum",
+  "definition": "minimum members needed for valid meeting",
+  "pos": "noun",
+  "bn": "কোরাম",
+  "ex": "The meeting was cancelled for lack of a quorum.",
+  "mnemonic": "quorum – meeting valid hone ka minimum count",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "quadrangle": {
+  "word": "Quadrangle",
+  "wordLower": "quadrangle",
+  "definition": "four-sided courtyard enclosed by buildings; a quadrilateral",
+  "pos": "noun",
+  "bn": "চতুর্ভুজ প্রাঙ্গণ",
+  "ex": "Students gathered in the college quadrangle after class.",
+  "mnemonic": "quadrangle – quad (chaar) angle wala aangan, college ka square courtyard",
+  "root": "QUADR",
+  "rootMeaning": "four",
+  "rootBn": "চার",
+  "rootFamily": [
+   {
+    "w": "quadrangle",
+    "wLower": "quadrangle",
+    "pos": "noun",
+    "mean": "four-sided courtyard enclosed by buildings; a quadrilateral",
+    "bn": "চতুর্ভুজ প্রাঙ্গণ",
+    "mn": "quadrangle – quad (chaar) angle wala aangan, college ka square courtyard",
+    "n": 1
+   },
+   {
+    "w": "quadruped",
+    "wLower": "quadruped",
+    "pos": "noun",
+    "mean": "animal with four feet",
+    "bn": "চতুষ্পদ প্রাণী",
+    "mn": "quad bike ke chaar pahiye, quadruped ke chaar pair",
+    "n": 1
+   }
+  ],
+  "ssSynonyms": [
+   {
+    "word": "Quadrilateral",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "quadruped": {
+  "word": "Quadruped",
+  "wordLower": "quadruped",
+  "definition": "animal with four feet",
+  "pos": "noun",
+  "bn": "চতুষ্পদ প্রাণী",
+  "ex": "A horse is a quadruped.",
+  "mnemonic": "quad bike ke chaar pahiye, quadruped ke chaar pair",
+  "root": "QUADR",
+  "rootMeaning": "four",
+  "rootBn": "চার",
+  "rootFamily": [
+   {
+    "w": "quadrangle",
+    "wLower": "quadrangle",
+    "pos": "noun",
+    "mean": "four-sided courtyard enclosed by buildings; a quadrilateral",
+    "bn": "চতুর্ভুজ প্রাঙ্গণ",
+    "mn": "quadrangle – quad (chaar) angle wala aangan, college ka square courtyard",
+    "n": 1
+   },
+   {
+    "w": "quadruped",
+    "wLower": "quadruped",
+    "pos": "noun",
+    "mean": "animal with four feet",
+    "bn": "চতুষ্পদ প্রাণী",
+    "mn": "quad bike ke chaar pahiye, quadruped ke chaar pair",
+    "n": 1
+   }
+  ],
+  "ssSynonyms": [],
+  "ssAntonyms": [
+   {
+    "word": "Biped",
+    "status": "added"
+   }
+  ]
+ },
+ "quinton": {
+  "word": "Quinton",
+  "wordLower": "quinton",
+  "definition": "a boy's name, also an old string instrument",
+  "pos": "",
+  "bn": "একটি ছেলের নাম বা পুরোনো বাদ্যযন্ত্র",
+  "ex": "Quinton scored the highest marks in the class test.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "quintessential": {
+  "word": "Quintessential",
+  "wordLower": "quintessential",
+  "definition": "most perfect example of a quality",
+  "pos": "adj",
+  "bn": "আদর্শ নমুনা",
+  "ex": "He is the quintessential English gentleman.",
+  "mnemonic": "quintessential – fifth essence, sabse perfect example",
+  "root": "QUINT",
+  "rootMeaning": "five / fifth",
+  "rootBn": "পাঁচ",
+  "rootFamily": [
+   {
+    "w": "quintessential",
+    "wLower": "quintessential",
+    "pos": "adj",
+    "mean": "most perfect example of a quality",
+    "bn": "আদর্শ নমুনা",
+    "mn": "quintessential – fifth essence, sabse perfect example",
+    "n": 2
+   }
+  ],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "quarter": {
+  "word": "Quarter",
+  "wordLower": "quarter",
+  "definition": "one of four equal parts",
+  "pos": "noun",
+  "bn": "এক-চতুর্থাংশ",
+  "ex": "He ate a quarter of the pizza.",
+  "mnemonic": "quarter – char hisse mein se ek quarter",
+  "root": "QUART",
+  "rootMeaning": "four",
+  "rootBn": "চার",
+  "rootFamily": [
+   {
+    "w": "quarter",
+    "wLower": "quarter",
+    "pos": "noun",
+    "mean": "one of four equal parts",
+    "bn": "এক-চতুর্থাংশ",
+    "mn": "quarter – char hisse mein se ek quarter",
+    "n": 1
+   },
+   {
+    "w": "square",
+    "wLower": "square",
+    "pos": "noun",
+    "mean": "shape with four equal sides",
+    "bn": "বর্গক্ষেত্র",
+    "mn": "square – char (quart) barabar side wala shape",
+    "n": 1
+   }
+  ],
+  "ssSynonyms": [
+   {
+    "word": "Fourth",
+    "status": "added"
+   }
+  ],
+  "ssAntonyms": []
+ },
+ "quotient": {
+  "word": "Quotient",
+  "wordLower": "quotient",
+  "definition": "result of dividing one number by another",
+  "pos": "noun",
+  "bn": "ভাগফল",
+  "ex": "Divide sixty by five to get the quotient.",
+  "mnemonic": "quotient – 'quotation' nahi, bhaag ka answer, IQ ka Q",
+  "root": "QUOT",
+  "rootMeaning": "how many / how great",
+  "rootBn": "কতগুলো",
+  "rootFamily": [
+   {
+    "w": "misquote",
+    "wLower": "misquote",
+    "pos": "verb",
+    "mean": "to quote someone inaccurately",
+    "bn": "ভুলভাবে উদ্ধৃত করা",
+    "mn": "misquote – galat QUOTE, kisi ki baat galat bolna",
+    "n": 1
+   },
+   {
+    "w": "quotient",
+    "wLower": "quotient",
+    "pos": "noun",
+    "mean": "result of dividing one number by another",
+    "bn": "ভাগফল",
+    "mn": "quotient – 'quotation' nahi, bhaag ka answer, IQ ka Q",
+    "n": 1
+   }
+  ],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "questionaire": {
+  "word": "Questionaire",
+  "wordLower": "questionaire",
+  "definition": "wrong spelling of questionnaire (a form with questions)",
+  "pos": "",
+  "bn": "প্রশ্নপত্র (ভুল বানান)",
+  "ex": "The teacher said the questionaire has ten questions.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "quever": {
+  "word": "Quever",
+  "wordLower": "quever",
+  "definition": "not a real word, likely typo of quaver",
+  "pos": "",
+  "bn": "সঠিক শব্দ নয়, quaver-এর ভুল বানান",
+  "ex": "The teacher said 'quever' is not a proper word.",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "quardant": {
+  "word": "Quardant",
+  "wordLower": "quardant",
+  "definition": "",
+  "pos": "",
+  "bn": "",
+  "ex": "",
+  "mnemonic": "",
+  "root": "",
+  "rootMeaning": "",
+  "rootBn": "",
+  "rootFamily": [],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ },
+ "questionnaire": {
+  "word": "Questionnaire",
+  "wordLower": "questionnaire",
+  "definition": "set of printed questions for survey",
+  "pos": "noun",
+  "bn": "প্রশ্নমালা",
+  "ex": "Please fill out this questionnaire before the interview.",
+  "mnemonic": "questionnaire – question ka naala, ek ke baad ek sawaal",
+  "root": "QUAER",
+  "rootMeaning": "seek / ask",
+  "rootBn": "খোঁজা / জিজ্ঞাসা",
+  "rootFamily": [
+   {
+    "w": "questionnaire",
+    "wLower": "questionnaire",
+    "pos": "noun",
+    "mean": "set of printed questions for survey",
+    "bn": "প্রশ্নমালা",
+    "mn": "questionnaire – question ka naala, ek ke baad ek sawaal",
+    "n": 5
+   },
+   {
+    "w": "question",
+    "wLower": "question",
+    "pos": "noun",
+    "mean": "a sentence asking for information",
+    "bn": "প্রশ্ন",
+    "mn": "question – teacher poochta hai sawaal",
+    "n": 4
+   },
+   {
+    "w": "request",
+    "wLower": "request",
+    "pos": "noun",
+    "mean": "act of asking for something politely",
+    "bn": "অনুরোধ",
+    "mn": "request – re+quest, dobara khoj mein maang karna",
+    "n": 1
+   },
+   {
+    "w": "unquestionable",
+    "wLower": "unquestionable",
+    "pos": "adj",
+    "mean": "beyond doubt; certainly true",
+    "bn": "প্রশ্নাতীত",
+    "mn": "un-question-able – jispe koi question nahi kar sakta, pakka sach",
+    "n": 1
+   }
+  ],
+  "ssSynonyms": [],
+  "ssAntonyms": []
+ }
+}

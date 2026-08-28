@@ -2,11 +2,14 @@
 // src/pages/spelling.astro
 import Layout from '../layouts/Layout.astro';
 import WordAccordion from '../components/WordAccordion.svelte';
+import ProgressTracker from '../components/ProgressTracker.svelte';
 
 let initialWords = [];
+let spellCount = 0;
 try {
   const fs = await import('node:fs');
   initialWords = JSON.parse(fs.readFileSync('public/data/words.json', 'utf-8'));
+  spellCount = initialWords.filter((w: any) => (w.qtypesAsStem?.spelling || 0) > 0).length;
 } catch (e) {}
 ---
 <Layout title="Module 6 — Spelling | SSC Vocab Master" activeNav="spelling">
@@ -20,6 +23,7 @@ try {
         Correctly-spelt words from SSC spelling questions. Only the correct spelling is shown — misspelt options and "No error" answers are excluded. Click any card to expand.
       </p>
     </div>
+    <ProgressTracker client:idle pageType="spelling" total={spellCount} />
     <WordAccordion client:load view="stems" qtypeFilter="spelling" words={initialWords} />
   </section>
 </Layout>

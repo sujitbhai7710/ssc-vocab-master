@@ -2,8 +2,9 @@
 // src/pages/roots.astro
 import Layout from '../layouts/Layout.astro';
 import RootsView from '../components/RootsView.svelte';
+import ProgressTracker from '../components/ProgressTracker.svelte';
 ---
-<Layout title="Module 7 — Root Words | SSC Vocab Master" activeNav="roots">
+<Layout title="Module 7 — Root Words | SSC PYQs" activeNav="roots">
   <section class="space-y-4">
     <div>
       <h2 class="text-xl font-bold tracking-tight flex items-center gap-2">
@@ -14,6 +15,7 @@ import RootsView from '../components/RootsView.svelte';
         1,603 Latin/Greek root word families. Each family shows the root, its meaning (English + Bengali), and all the words derived from it with their own meanings, mnemonics, and SSC appearance counts.
       </p>
     </div>
+    <ProgressTracker client:idle pageType="roots" total={1603} />
     <RootsView client:load />
   </section>
 </Layout>

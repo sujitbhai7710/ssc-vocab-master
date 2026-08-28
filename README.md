@@ -1,4 +1,4 @@
-# SSC Vocab Master 📚
+# SSC PYQs 📚
 
 A feature-rich, blazing-fast vocabulary platform covering **every synonym, antonym, and one-word substitution question** from 5 years of SSC exams (2019–2026). Built with **Astro + Svelte + Tailwind CSS** and deployed to **Cloudflare Pages**.
 
@@ -126,7 +126,7 @@ npm run deploy
 
 # Or step by step
 npm run build
-npx wrangler pages deploy ./dist --project-name=ssc-vocab-master
+npx wrangler pages deploy ./dist --project-name=sscpyqs
 ```
 
 ### Option B: Cloudflare Dashboard

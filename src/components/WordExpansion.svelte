@@ -5,11 +5,12 @@
   import type { WordEntry, QType, EnrichedEntry, QuestionEntry, WordQuestions } from '../lib/vocab-data';
   import {
     loadEnrichedForWord,
-    loadQuestions,
+    loadWordQuestions,
     buildExampleSentence,
     pronounceWord,
   } from '../lib/vocab-data';
   import MCQCard from './MCQCard.svelte';
+  import ProblematicButton from './ProblematicButton.svelte';
 
   let {
     word,
@@ -22,9 +23,8 @@
   } = $props();
 
   let enriched = $state<EnrichedEntry | null>(null);
-  let allQuestions = $state<QuestionEntry[]>([]);
-  let stemQuestionIds = $state<number[]>([]);
-  let optionQuestionIds = $state<number[]>([]);
+  let stemQuestions = $state<QuestionEntry[]>([]);
+  let optionQuestions = $state<QuestionEntry[]>([]);
   let loading = $state(true);
 
   // MCQ slider state
@@ -34,38 +34,31 @@
   if (typeof window !== 'undefined') {
     (async () => {
       try {
-        const e = await loadEnrichedForWord(word.wordLower);
-        const { questions, wordQuestions } = await loadQuestions();
-        const wq: WordQuestions = wordQuestions[word.wordLower] || { asStem: [], asOption: [] };
+        const [e, wq] = await Promise.all([
+          loadEnrichedForWord(word.wordLower),
+          loadWordQuestions(word.wordLower),
+        ]);
         enriched = e;
-        allQuestions = questions;
 
         // FILTER MCQs by current section's qtype — DON'T mix question types.
-        // E.g., when on /stems (syn/ant section), only show syn/ant questions,
-        // not spelling/idiom/ows/homonym questions even if the same word appeared there.
-        const filterQids = (ids: number[]): number[] => {
-          if (!qtypeFilter && !restrictToSynAnt) return ids; // no filter (home page word click)
-          return ids.filter((id) => {
-            const q = questions[id];
-            if (!q) return false;
+        const filterQs = (qs: QuestionEntry[]): QuestionEntry[] => {
+          if (!qtypeFilter && !restrictToSynAnt) return qs; // no filter (home page word click)
+          return qs.filter((q) => {
             if (restrictToSynAnt) {
-              // /options page — only syn/ant option questions
               return q.qtype === 'synonym' || q.qtype === 'antonym';
             }
             if (qtypeFilter === 'synonym' || qtypeFilter === 'antonym') {
-              // /stems page — syn OR ant (since they share the same page)
               return q.qtype === 'synonym' || q.qtype === 'antonym';
             }
             return q.qtype === qtypeFilter;
           });
         };
 
-        stemQuestionIds = filterQids(wq.asStem);
-        optionQuestionIds = filterQids(wq.asOption);
-        // Default: stem mode if any stem questions, else option mode
-        if (stemQuestionIds.length > 0) {
+        stemQuestions = filterQs(wq.asStem || []);
+        optionQuestions = filterQs(wq.asOption || []);
+        if (stemQuestions.length > 0) {
           mcqMode = 'stem';
-        } else if (optionQuestionIds.length > 0) {
+        } else if (optionQuestions.length > 0) {
           mcqMode = 'option';
         }
         loading = false;
@@ -89,8 +82,7 @@
   );
 
   // Active MCQ set (based on mode)
-  const activeMCQIds = $derived(mcqMode === 'stem' ? stemQuestionIds : mcqMode === 'option' ? optionQuestionIds : []);
-  const activeMCQs = $derived(activeMCQIds.map((id) => allQuestions[id]).filter(Boolean));
+  const activeMCQs = $derived(mcqMode === 'stem' ? stemQuestions : mcqMode === 'option' ? optionQuestions : []);
   const currentMCQ = $derived(activeMCQs[currentMCQIdx]);
 
   function setMode(mode: 'stem' | 'option') {
@@ -112,9 +104,9 @@
       <span>Loading details...</span>
     </div>
   {:else}
-    <!-- Header: badges + Bengali meaning -->
+    <!-- Header: badges + Bengali meaning + problematic -->
     <div class="space-y-2">
-      <div class="flex flex-wrap items-baseline gap-3">
+      <div class="flex flex-wrap items-center gap-3">
         {#if enriched?.pos}
           <span class="text-xs italic text-zinc-500">{enriched.pos}</span>
         {/if}
@@ -130,6 +122,7 @@
             ✍ {word.asStem} · ◆ {word.asOption} · Total {word.total}
           {/if}
         </span>
+        <span class="ml-auto"><ProblematicButton itemType="vocab" itemKey={word.wordLower} subType="syn-ant" label="Mark problematic" /></span>
       </div>
     </div>
 
@@ -274,20 +267,20 @@
             Past SSC MCQs
           </h4>
           <div class="flex items-center gap-1.5">
-            {#if stemQuestionIds.length > 0}
+            {#if stemQuestions.length > 0}
               <button
                 onclick={() => setMode('stem')}
                 class="text-[11px] h-7 px-2 rounded-md {mcqMode === 'stem' ? 'bg-amber-500 text-white' : 'border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800'}"
               >
-                As stem ({stemQuestionIds.length})
+                As stem ({stemQuestions.length})
               </button>
             {/if}
-            {#if optionQuestionIds.length > 0}
+            {#if optionQuestions.length > 0}
               <button
                 onclick={() => setMode('option')}
                 class="text-[11px] h-7 px-2 rounded-md {mcqMode === 'option' ? 'bg-emerald-500 text-white' : 'border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800'}"
               >
-                As option ({optionQuestionIds.length})
+                As option ({optionQuestions.length})
               </button>
             {/if}
           </div>

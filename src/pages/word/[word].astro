@@ -1,0 +1,18 @@
+---
+// src/pages/word/[word].astro
+import Layout from '../../layouts/Layout.astro';
+import WordDetailView from '../../components/WordDetailView.svelte';
+import { readFileSync } from 'node:fs';
+
+export function getStaticPaths() {
+  const words = JSON.parse(readFileSync('public/data/words.json', 'utf-8'));
+  return words.map((w: any) => ({ params: { word: w.wordLower }, props: { word: w } }));
+}
+
+const { word } = Astro.props;
+---
+<Layout title={`${word.word} | SSC PYQs`}>
+  <section>
+    <WordDetailView client:load word={word} />
+  </section>
+</Layout>

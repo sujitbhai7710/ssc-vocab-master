@@ -1,0 +1,12 @@
+---
+// src/pages/narration.astro
+import Layout from '../layouts/Layout.astro';
+import TopicLanding from '../components/TopicLanding.svelte';
+import ProgressTracker from '../components/ProgressTracker.svelte';
+---
+<Layout title="Narration (Direct–Indirect Speech) Rules & PYQs | SSC Vocab Master" activeNav="narration">
+  <section class="space-y-4">
+    <ProgressTracker client:idle pageType="narration" total={10} />
+    <TopicLanding client:load kind="narration" />
+  </section>
+</Layout>

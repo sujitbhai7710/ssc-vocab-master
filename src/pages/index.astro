@@ -3,6 +3,6 @@
 import Layout from '../layouts/Layout.astro';
 import Dashboard from '../components/Dashboard.svelte';
 ---
-<Layout activeNav="home">
+<Layout activeNav="home" publicPage={true}>
   <Dashboard client:load />
 </Layout>

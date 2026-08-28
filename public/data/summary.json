@@ -1,12 +1,12 @@
 {
   "totalFiles": 23,
-  "totalQuestions": 4768,
+  "totalQuestions": 4692,
   "byType": {
     "antonym": 697,
     "synonym": 870,
     "idiom": 1143,
     "one-word": 883,
-    "spelling": 1069,
+    "spelling": 993,
     "homonym": 106
   },
   "totalSynonym": 870,
@@ -15,7 +15,7 @@
   "totalOneWord": 883,
   "totalIdioms": 1143,
   "totalHomonyms": 106,
-  "totalSpelling": 1069,
-  "totalUniqueWords": 7683,
+  "totalSpelling": 993,
+  "totalUniqueWords": 7897,
   "totalRoots": 1603
 }

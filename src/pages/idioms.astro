@@ -1,7 +1,13 @@
 ---
 // src/pages/idioms.astro
 import Layout from '../layouts/Layout.astro';
-import WordListView from '../components/WordListView.svelte';
+import WordAccordion from '../components/WordAccordion.svelte';
+
+let initialWords = [];
+try {
+  const fs = await import('node:fs');
+  initialWords = JSON.parse(fs.readFileSync('public/data/words.json', 'utf-8'));
+} catch (e) {}
 ---
 <Layout title="Module 4 — Idioms & Phrases | SSC Vocab Master" activeNav="idioms">
   <section class="space-y-4">
@@ -11,9 +17,9 @@ import WordListView from '../components/WordListView.svelte';
         Module 4 — Idioms & Phrases
       </h2>
       <p class="text-sm text-zinc-500 mt-1 leading-relaxed">
-        Idiom phrases that appeared as question stems in SSC papers (e.g. "By and by", "tip of the iceberg", "square peg in a round hole"). Sorted by how many times each idiom was asked.
+        Idiom phrases that appeared as question stems (e.g. "By and by", "tip of the iceberg"). Click any card to expand.
       </p>
     </div>
-    <WordListView client:load view="stems" qtypeFilter="idiom" />
+    <WordAccordion client:load view="stems" qtypeFilter="idiom" words={initialWords} />
   </section>
 </Layout>

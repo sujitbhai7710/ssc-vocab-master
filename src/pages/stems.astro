@@ -1,7 +1,15 @@
 ---
 // src/pages/stems.astro
 import Layout from '../layouts/Layout.astro';
-import WordListView from '../components/WordListView.svelte';
+import WordAccordion from '../components/WordAccordion.svelte';
+import { loadWords } from '../lib/vocab-data';
+
+// Pre-render the words list at build time so the page hydrates fast
+let initialWords = [];
+try {
+  const fs = await import('node:fs');
+  initialWords = JSON.parse(fs.readFileSync('public/data/words.json', 'utf-8'));
+} catch (e) {}
 ---
 <Layout title="Module 1 — Main Question Stems | SSC Vocab Master" activeNav="stems">
   <section class="space-y-4">
@@ -11,9 +19,9 @@ import WordListView from '../components/WordListView.svelte';
         Module 1 — Main Question Stems
       </h2>
       <p class="text-sm text-zinc-500 mt-1 leading-relaxed">
-        Words that appeared as the main question word in synonym/antonym questions across SSC exams. Sorted from most repeated to least repeated.
+        Words that appeared as the main question word in synonym/antonym questions across SSC exams. Click any card to expand — see definition, Bengali meaning, root, mnemonic, and practice MCQs inline.
       </p>
     </div>
-    <WordListView client:load view="stems" />
+    <WordAccordion client:load view="stems" words={initialWords} />
   </section>
 </Layout>

@@ -42,8 +42,9 @@
   function navigate(href: string) {
     if (typeof window !== 'undefined') window.location.href = href;
   }
+  // For word click from dashboard: just go to /stems (the word will be visible there)
   function selectWord(w: WordEntry) {
-    if (typeof window !== 'undefined') window.location.href = `/word/${encodeURIComponent(w.wordLower)}`;
+    if (typeof window !== 'undefined') window.location.href = `/stems`;
   }
 
   const modules = $derived([

@@ -1,7 +1,13 @@
 ---
 // src/pages/homonyms.astro
 import Layout from '../layouts/Layout.astro';
-import WordListView from '../components/WordListView.svelte';
+import WordAccordion from '../components/WordAccordion.svelte';
+
+let initialWords = [];
+try {
+  const fs = await import('node:fs');
+  initialWords = JSON.parse(fs.readFileSync('public/data/words.json', 'utf-8'));
+} catch (e) {}
 ---
 <Layout title="Module 5 — Homonyms & Homophones | SSC Vocab Master" activeNav="homonyms">
   <section class="space-y-4">
@@ -11,9 +17,9 @@ import WordListView from '../components/WordListView.svelte';
         Module 5 — Homonyms & Homophones
       </h2>
       <p class="text-sm text-zinc-500 mt-1 leading-relaxed">
-        Words that appeared as the correct answer in homonym/homophone fill-in-the-blank questions (e.g. add, aid, aide). Sorted by frequency.
+        Words that appeared as the correct answer in homonym/homophone fill-in-the-blank questions. Click any card to expand.
       </p>
     </div>
-    <WordListView client:load view="stems" qtypeFilter="homonym" />
+    <WordAccordion client:load view="stems" qtypeFilter="homonym" words={initialWords} />
   </section>
 </Layout>

@@ -1,7 +1,13 @@
 ---
 // src/pages/ows.astro
 import Layout from '../layouts/Layout.astro';
-import WordListView from '../components/WordListView.svelte';
+import WordAccordion from '../components/WordAccordion.svelte';
+
+let initialWords = [];
+try {
+  const fs = await import('node:fs');
+  initialWords = JSON.parse(fs.readFileSync('public/data/words.json', 'utf-8'));
+} catch (e) {}
 ---
 <Layout title="Module 3 — One-Word Substitution | SSC Vocab Master" activeNav="ows">
   <section class="space-y-4">
@@ -11,9 +17,9 @@ import WordListView from '../components/WordListView.svelte';
         Module 3 — One-Word Substitution
       </h2>
       <p class="text-sm text-zinc-500 mt-1 leading-relaxed">
-        Words that appeared as the correct answer in one-word substitution questions. Sorted by frequency — the word that was the correct OWS answer the most times appears first.
+        Words that appeared as the correct answer in one-word substitution questions. Click any card to expand.
       </p>
     </div>
-    <WordListView client:load view="stems" qtypeFilter="one-word" />
+    <WordAccordion client:load view="stems" qtypeFilter="one-word" words={initialWords} />
   </section>
 </Layout>

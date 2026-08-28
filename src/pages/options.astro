@@ -1,7 +1,13 @@
 ---
 // src/pages/options.astro
 import Layout from '../layouts/Layout.astro';
-import WordListView from '../components/WordListView.svelte';
+import WordAccordion from '../components/WordAccordion.svelte';
+
+let initialWords = [];
+try {
+  const fs = await import('node:fs');
+  initialWords = JSON.parse(fs.readFileSync('public/data/words.json', 'utf-8'));
+} catch (e) {}
 ---
 <Layout title="Module 2 — Syn/Ant Option Choices | SSC Vocab Master" activeNav="options">
   <section class="space-y-4">
@@ -11,9 +17,9 @@ import WordListView from '../components/WordListView.svelte';
         Module 2 — Syn/Ant Option Choices
       </h2>
       <p class="text-sm text-zinc-500 mt-1 leading-relaxed">
-        Words that appeared as option choices in synonym/antonym questions only. Sorted from most repeated to least repeated.
+        Words that appeared as option choices in synonym/antonym questions only. Click any card to expand.
       </p>
     </div>
-    <WordListView client:load view="options" restrictToSynAnt={true} />
+    <WordAccordion client:load view="options" restrictToSynAnt={true} words={initialWords} />
   </section>
 </Layout>

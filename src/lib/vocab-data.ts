@@ -29,6 +29,7 @@ export interface QuestionEntry {
   correctIdx?: number;  // REAL correct answer from Satwik, not best-guess
   expl?: string;
   src?: string;
+  sent?: string;  // The full sentence (for underlined-word questions)
 }
 
 export interface SummaryStats {
@@ -55,6 +56,16 @@ export interface EnrichedSynonym {
   status: 'correct' | 'added';
 }
 
+export interface RootFamilyWord {
+  w: string;
+  wLower: string;
+  pos: string;
+  mean: string;
+  bn: string;
+  mn: string;
+  n: number;
+}
+
 export interface EnrichedEntry {
   word: string;
   wordLower: string;
@@ -66,6 +77,7 @@ export interface EnrichedEntry {
   root: string;
   rootMeaning: string;
   rootBn: string;
+  rootFamily: RootFamilyWord[];  // All words in the same root family
   ssSynonyms: EnrichedSynonym[];
   ssAntonyms: EnrichedSynonym[];
 }

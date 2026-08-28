@@ -18,13 +18,12 @@
   } = $props();
 
   let enriched = $state<EnrichedEntry | null>(null);
-  let questions = $state<QuestionEntry[]>([]);
+  let allQuestions = $state<QuestionEntry[]>([]);
   let stemQuestionIds = $state<number[]>([]);
   let optionQuestionIds = $state<number[]>([]);
   let error = $state<string | null>(null);
   let loading = $state(true);
 
-  // Load data when word changes
   $effect(() => {
     const wordLower = word.wordLower;
     let cancelled = false;
@@ -34,11 +33,11 @@
       try {
         const e = await loadEnrichedForWord(wordLower);
         if (cancelled) return;
-        const { questions: qs, wordQuestions } = await loadQuestions();
+        const { questions, wordQuestions } = await loadQuestions();
         if (cancelled) return;
         const wq = wordQuestions[wordLower] || { asStem: [], asOption: [] };
         enriched = e;
-        questions = qs;
+        allQuestions = questions;
         stemQuestionIds = wq.asStem;
         optionQuestionIds = wq.asOption;
         loading = false;
@@ -53,20 +52,15 @@
     return () => { cancelled = true; };
   });
 
-  // Top 5 questions for this word
-  const wordQuestions = $derived.by(() => {
-    const allIds = new Set([...stemQuestionIds, ...optionQuestionIds]);
-    return Array.from(allIds)
-      .map((id) => questions[id])
-      .filter(Boolean)
-      .sort((a, b) => {
-        const aIsStem = stemQuestionIds.includes(a.id);
-        const bIsStem = stemQuestionIds.includes(b.id);
-        if (aIsStem !== bIsStem) return aIsStem ? -1 : 1;
-        return a.qtype.localeCompare(b.qtype);
-      })
-      .slice(0, 5);
-  });
+  // All stem questions first (where the word is the question stem)
+  const stemQuestions = $derived(
+    stemQuestionIds.map((id) => allQuestions[id]).filter(Boolean)
+  );
+  // Then all option questions (where the word is one of the options)
+  const optionQuestions = $derived(
+    optionQuestionIds.map((id) => allQuestions[id]).filter(Boolean)
+  );
+  const totalMCQs = $derived(stemQuestions.length + optionQuestions.length);
 
   const sscSynonyms = $derived(enriched?.ssSynonyms ?? []);
   const sscAntonyms = $derived(enriched?.ssAntonyms ?? []);
@@ -78,6 +72,26 @@
   const allExams = $derived(
     Array.from(new Set([...word.stemExams, ...word.optionExams]))
   );
+
+  // Count of correct vs distractor vs added
+  const synStats = $derived.by(() => {
+    let correct = 0, distractor = 0, added = 0;
+    for (const s of sscSynonyms) {
+      if (s.status === 'correct') correct++;
+      else if (s.status === 'distractor') distractor++;
+      else added++;
+    }
+    return { correct, distractor, added };
+  });
+  const antStats = $derived.by(() => {
+    let correct = 0, distractor = 0, added = 0;
+    for (const a of sscAntonyms) {
+      if (a.status === 'correct') correct++;
+      else if (a.status === 'distractor') distractor++;
+      else added++;
+    }
+    return { correct, distractor, added };
+  });
 </script>
 
 <div class="space-y-5 animate-fade-in">
@@ -114,7 +128,7 @@
       </div>
     </div>
     {#if allExams.length > 0}
-      <div class="p-5 pt-4 space-y-4">
+      <div class="p-5 pt-4">
         <div class="flex flex-wrap gap-1.5">
           {#each allExams as exam}
             {@const isStem = word.stemExams.includes(exam)}
@@ -156,55 +170,88 @@
       </div>
     {:else}
       <div class="bg-white dark:bg-zinc-900 border border-dashed border-zinc-200 dark:border-zinc-700 rounded-xl">
-        <div class="px-5 pt-3 pb-2 text-sm font-semibold text-zinc-500 flex items-center gap-2">
-          Definition
-        </div>
-        <p class="px-5 pb-4 text-sm text-zinc-500 italic">
-          No curated definition available for this word yet. It appears primarily as a distractor option in SSC papers.
-        </p>
+        <div class="px-5 pt-3 pb-2 text-sm font-semibold text-zinc-500 flex items-center gap-2">Definition</div>
+        <p class="px-5 pb-4 text-sm text-zinc-500 italic">No curated definition available for this word yet.</p>
       </div>
     {/if}
 
-    <!-- Synonyms & Antonyms Grid -->
+    <!-- Synonyms & Antonyms Grid (with color-coded legend) -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <!-- Synonyms -->
       <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-xl">
-        <div class="px-5 pt-3 pb-2 text-sm font-semibold flex items-center gap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-600"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .962 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.962 0z"/></svg>
-          SSC Exam Synonyms
+        <div class="px-5 pt-3 pb-2 flex items-center justify-between">
+          <span class="text-sm font-semibold flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-600"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .962 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.962 0z"/></svg>
+            SSC Exam Synonyms
+          </span>
+          <span class="text-[10px] text-zinc-500">
+            {synStats.correct} correct · {synStats.distractor} distractor · {synStats.added} added
+          </span>
         </div>
         {#if sscSynonyms.length === 0}
-          <p class="px-5 pb-4 text-xs text-zinc-500 italic">No synonyms recorded from past SSC papers.</p>
+          <p class="px-5 pb-4 text-xs text-zinc-500 italic">No synonyms recorded.</p>
         {:else}
           <div class="px-5 pb-4 flex flex-wrap gap-1.5">
             {#each sscSynonyms as s}
-              <span class="text-xs font-medium border rounded-md px-2 py-1 {s.added
-                ? 'bg-violet-50 border-violet-200 text-violet-900 dark:bg-violet-950/30 dark:text-violet-200 dark:border-violet-800'
-                : 'bg-emerald-50 border-emerald-200 text-emerald-900 dark:bg-emerald-950/30 dark:text-emerald-100 dark:border-emerald-800'}">
-                {s.word}{#if s.added}<span class="ml-1 text-[9px] font-bold uppercase opacity-70">Added</span>{/if}
+              <span class="text-xs font-medium border rounded-md px-2 py-1 {s.status === 'correct'
+                ? 'bg-emerald-100 border-emerald-400 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-100 dark:border-emerald-700'
+                : s.status === 'distractor'
+                  ? 'bg-rose-50 border-rose-300 text-rose-900 dark:bg-rose-950/30 dark:text-rose-100 dark:border-rose-700'
+                  : 'bg-zinc-100 border-zinc-300 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}"
+                title={s.status === 'correct' ? 'Appeared as the correct answer in past SSC (best-guess)' : s.status === 'distractor' ? 'Appeared as a distractor option in past SSC' : 'Added from WordNet (did NOT appear in SSC)'}
+              >
+                {s.word}
               </span>
             {/each}
           </div>
         {/if}
       </div>
+      <!-- Antonyms -->
       <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-xl">
-        <div class="px-5 pt-3 pb-2 text-sm font-semibold flex items-center gap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-600"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .962 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.962 0z"/></svg>
-          SSC Exam Antonyms
+        <div class="px-5 pt-3 pb-2 flex items-center justify-between">
+          <span class="text-sm font-semibold flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-600"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .962 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.962 0z"/></svg>
+            SSC Exam Antonyms
+          </span>
+          <span class="text-[10px] text-zinc-500">
+            {antStats.correct} correct · {antStats.distractor} distractor · {antStats.added} added
+          </span>
         </div>
         {#if sscAntonyms.length === 0}
-          <p class="px-5 pb-4 text-xs text-zinc-500 italic">No antonyms recorded from past SSC papers.</p>
+          <p class="px-5 pb-4 text-xs text-zinc-500 italic">No antonyms recorded.</p>
         {:else}
           <div class="px-5 pb-4 flex flex-wrap gap-1.5">
             {#each sscAntonyms as a}
-              <span class="text-xs font-medium border rounded-md px-2 py-1 {a.added
-                ? 'bg-violet-50 border-violet-200 text-violet-900 dark:bg-violet-950/30 dark:text-violet-200 dark:border-violet-800'
-                : 'bg-rose-50 border-rose-200 text-rose-900 dark:bg-rose-950/30 dark:text-rose-100 dark:border-rose-800'}">
-                {a.word}{#if a.added}<span class="ml-1 text-[9px] font-bold uppercase opacity-70">Added</span>{/if}
+              <span class="text-xs font-medium border rounded-md px-2 py-1 {a.status === 'correct'
+                ? 'bg-emerald-100 border-emerald-400 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-100 dark:border-emerald-700'
+                : a.status === 'distractor'
+                  ? 'bg-rose-50 border-rose-300 text-rose-900 dark:bg-rose-950/30 dark:text-rose-100 dark:border-rose-700'
+                  : 'bg-zinc-100 border-zinc-300 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}"
+                title={a.status === 'correct' ? 'Appeared as the correct answer in past SSC (best-guess)' : a.status === 'distractor' ? 'Appeared as a distractor option in past SSC' : 'Added from WordNet (did NOT appear in SSC)'}
+              >
+                {a.word}
               </span>
             {/each}
           </div>
         {/if}
       </div>
+    </div>
+
+    <!-- Legend -->
+    <div class="bg-zinc-50 dark:bg-zinc-800/30 border border-zinc-200 dark:border-zinc-700 rounded-lg px-4 py-3 flex flex-wrap items-center gap-4 text-[11px] text-zinc-600 dark:text-zinc-400">
+      <span class="font-semibold">Legend:</span>
+      <span class="flex items-center gap-1.5">
+        <span class="w-3 h-3 rounded border-2 border-emerald-400 bg-emerald-100"></span>
+        Correct answer in past SSC (best-guess via WordNet)
+      </span>
+      <span class="flex items-center gap-1.5">
+        <span class="w-3 h-3 rounded border-2 border-rose-300 bg-rose-50"></span>
+        Appeared as a distractor option in past SSC
+      </span>
+      <span class="flex items-center gap-1.5">
+        <span class="w-3 h-3 rounded border-2 border-zinc-300 bg-zinc-100"></span>
+        Added from WordNet (did NOT appear in SSC)
+      </span>
     </div>
 
     <!-- Example Sentence -->
@@ -226,15 +273,6 @@
           Mnemonic / Memory Tip
         </div>
         <p class="px-5 pb-4 text-sm leading-relaxed">{enriched!.mnemonic}</p>
-      </div>
-    {:else}
-      <div class="bg-zinc-50 dark:bg-zinc-800/30 border border-dashed border-zinc-200 dark:border-zinc-700 rounded-xl">
-        <div class="px-5 pt-3 pb-2 text-sm font-semibold text-zinc-500 flex items-center gap-2">
-          Mnemonic / Memory Tip
-        </div>
-        <p class="px-5 pb-4 text-sm text-zinc-500 italic">
-          No mnemonic curated for this word yet. Try breaking the word into sound-alike parts to create your own memory hook.
-        </p>
       </div>
     {/if}
 
@@ -263,16 +301,9 @@
           </ul>
         </div>
       </div>
-    {:else}
-      <div class="bg-white dark:bg-zinc-900 border border-dashed border-zinc-200 dark:border-zinc-700 rounded-xl">
-        <div class="px-5 pt-3 pb-2 text-sm font-semibold text-zinc-500 flex items-center gap-2">
-          Root Words & Family
-        </div>
-        <p class="px-5 pb-4 text-sm text-zinc-500 italic">No curated etymology for this word yet.</p>
-      </div>
     {/if}
 
-    <!-- Past SSC Exam MCQs -->
+    <!-- Past SSC Exam MCQs — ALL of them, stem first then options -->
     <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-xl">
       <div class="px-5 pt-3 pb-3 flex items-center gap-2 flex-wrap">
         <span class="text-sm font-semibold flex items-center gap-2">
@@ -280,21 +311,43 @@
           Actual Past SSC Exam MCQs
         </span>
         <span class="text-[10px] font-medium bg-zinc-100 dark:bg-zinc-800 px-2 py-0.5 rounded-md">
-          {wordQuestions.length} of {stemQuestionIds.length + optionQuestionIds.length} available
+          {totalMCQs} total · {stemQuestions.length} as stem · {optionQuestions.length} as option
         </span>
       </div>
       <p class="px-5 pb-2 text-xs text-zinc-500 leading-relaxed">
-        Showing up to 5 actual SSC questions where <span class="font-semibold">{word.word}</span> appeared as a question stem or as one of the four options.
+        All SSC questions where <span class="font-semibold">{word.word}</span> appeared, ordered with question-stem appearances first, then option-choice appearances.
       </p>
-      <div class="px-5 pb-4 space-y-3 max-h-[600px] overflow-y-auto">
-        {#if wordQuestions.length === 0}
-          <p class="text-sm text-zinc-500 italic">No past SSC questions surfaced for this word.</p>
-        {:else}
-          {#each wordQuestions as q, i}
+
+      {#if totalMCQs === 0}
+        <p class="px-5 pb-4 text-sm text-zinc-500 italic">No past SSC questions surfaced for this word.</p>
+      {:else}
+        <!-- Stem questions section -->
+        {#if stemQuestions.length > 0}
+          <div class="px-5 pb-2 pt-2">
+            <h3 class="text-xs font-bold uppercase tracking-wide text-amber-700 dark:text-amber-400 mb-2 flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-amber-500"></span>
+              As Question Stem ({stemQuestions.length} question{stemQuestions.length === 1 ? '' : 's'})
+            </h3>
+          </div>
+        {/if}
+        <div class="px-5 pb-4 space-y-3 max-h-[800px] overflow-y-auto pr-1">
+          {#each stemQuestions as q, i (q.id)}
             <MCQCard question={q} highlightWord={word.wordLower} index={i} />
           {/each}
-        {/if}
-      </div>
+
+          {#if optionQuestions.length > 0}
+            <div class="pt-2 pb-1">
+              <h3 class="text-xs font-bold uppercase tracking-wide text-emerald-700 dark:text-emerald-400 mb-2 flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                As Option Choice ({optionQuestions.length} question{optionQuestions.length === 1 ? '' : 's'})
+              </h3>
+            </div>
+            {#each optionQuestions as q, i (q.id)}
+              <MCQCard question={q} highlightWord={word.wordLower} index={stemQuestions.length + i} />
+            {/each}
+          {/if}
+        </div>
+      {/if}
     </div>
   {/if}
 </div>

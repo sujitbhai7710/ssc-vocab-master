@@ -23,14 +23,22 @@ export interface QuestionEntry {
   qtype: QType;
   stem: string;
   options: string[];
+  /** Index of the best-guess correct answer in `options`. -1 if unknown. */
+  correctIdx?: number;
 }
+
+export type QTypeExtended = 'synonym' | 'antonym' | 'one-word' | 'idiom' | 'homonym' | 'spelling';
 
 export interface SummaryStats {
   totalFiles: number;
   exams: string[];
   totalQuestions: number;
+  byType: Record<string, number>;
   totalSynonymAntonym: number;
   totalOneWord: number;
+  totalIdioms: number;
+  totalHomonyms: number;
+  totalSpelling: number;
   totalUniqueWords: number;
   questionsPerFile: { exam: string; questions: number }[];
 }
@@ -39,6 +47,12 @@ export interface EnrichedSynonym {
   word: string;
   source: 'ssc' | 'wordnet';
   added?: boolean;
+  /** Status of this synonym/antonym:
+   *  - 'correct'    = appeared as the correct answer in past SSC (best-guess via WordNet)
+   *  - 'distractor' = appeared as a wrong option in past SSC
+   *  - 'added'      = added from WordNet (did NOT appear in any SSC question for this word)
+   */
+  status?: 'correct' | 'distractor' | 'added';
 }
 
 export interface EnrichedEntry {

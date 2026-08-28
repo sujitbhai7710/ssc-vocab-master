@@ -2,8 +2,8 @@
   // src/components/ProgressTracker.svelte
   // "From / To / Set Done" range tracker + read-till, persisted per page_type.
   // Shows completed count / total with a progress bar.
-  import { onMount } from 'svelte';
-  import { isLoggedIn, loadProgress, saveProgressRange, resetProgressCompleted, type ProgressMap } from '../lib/auth';
+  import { onMount, onDestroy } from 'svelte';
+  import { isLoggedIn, loadSession, onAuthChange, loadProgress, saveProgressRange, resetProgressCompleted, type ProgressMap } from '../lib/auth';
 
   let { pageType, total }: { pageType: string; total: number } = $props();
 
@@ -13,8 +13,10 @@
   let busy = $state(false);
   let msg = $state('');
   let loaded = $state(false);
+  let loggedIn = $state(false);
+  let unsub: (() => void) | null = null;
 
-  onMount(async () => {
+  async function loadMyProgress() {
     if (!isLoggedIn()) { loaded = true; return; }
     try {
       const p: ProgressMap = await loadProgress();
@@ -28,7 +30,23 @@
     } catch {} finally {
       loaded = true;
     }
+  }
+
+  onMount(async () => {
+    await loadSession();
+    loggedIn = isLoggedIn();
+    // React to late session resolution
+    unsub = onAuthChange((u) => {
+      const now = !!u;
+      if (now !== loggedIn) {
+        loggedIn = now;
+        if (now) { loaded = false; loadMyProgress(); }
+      }
+    });
+    await loadMyProgress();
   });
+
+  onDestroy(() => { unsub?.(); });
 
   const doneCount = $derived(completed.length);
   const pct = $derived(total > 0 ? Math.round((doneCount / total) * 100) : 0);
@@ -63,7 +81,7 @@
   }
 </script>
 
-{#if loaded && isLoggedIn()}
+{#if loaded && loggedIn}
   <div class="bg-gradient-to-r from-emerald-50 to-sky-50 dark:from-emerald-950/30 dark:to-sky-950/30 border border-emerald-200 dark:border-emerald-800 rounded-lg p-3 space-y-2">
     <div class="flex items-center justify-between gap-3 flex-wrap">
       <div class="flex items-center gap-2">

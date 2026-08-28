@@ -2,8 +2,8 @@
   // src/components/ProblemsView.svelte
   // Shows all problematic items for the current user, grouped by category.
   // Each category links to the source page /word/[word] or the rule section.
-  import { onMount } from 'svelte';
-  import { isLoggedIn, listProblematic, removeProblematic, type ProblematicItem } from '../lib/auth';
+  import { onMount, onDestroy } from 'svelte';
+  import { isLoggedIn, loadSession, onAuthChange, listProblematic, removeProblematic, type ProblematicItem } from '../lib/auth';
 
   let items = $state<ProblematicItem[]>([]);
   let loading = $state(true);
@@ -18,14 +18,34 @@
     { key: 'voice', label: 'Voice', itemType: 'voice' },
   ];
 
-  onMount(async () => {
+  let loggedIn = $state(false);
+  let unsub: (() => void) | null = null;
+
+  async function refresh() {
     if (!isLoggedIn()) { loading = false; return; }
+    loading = true;
     try {
       items = await listProblematic();
     } catch {} finally {
       loading = false;
     }
+  }
+
+  onMount(async () => {
+    await loadSession();
+    loggedIn = isLoggedIn();
+    // React to late session resolution (e.g. AuthBar loads session after us)
+    unsub = onAuthChange((u) => {
+      const now = !!u;
+      if (now !== loggedIn) {
+        loggedIn = now;
+        if (now) refresh();
+      }
+    });
+    await refresh();
   });
+
+  onDestroy(() => { unsub?.(); });
 
   const byType = $derived.by(() => {
     const map: Record<string, ProblematicItem[]> = {};
@@ -59,7 +79,7 @@
 
   {#if loading}
     <div class="space-y-2">{#each Array(5) as _}<div class="h-14 rounded-lg bg-zinc-100 dark:bg-zinc-800 animate-pulse"></div>{/each}</div>
-  {:else if !isLoggedIn()}
+  {:else if !loggedIn}
     <div class="text-center py-12 border-2 border-dashed rounded-lg">
       <p class="text-sm text-zinc-500">Please log in to see your problematic items.</p>
       <a href="/login" class="inline-block mt-3 text-sm text-orange-600 hover:underline">Log in</a>

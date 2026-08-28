@@ -37,17 +37,19 @@ const summary = typeof window !== 'undefined' ? null : null; // server-side plac
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+Bengali:wght@400;500;600&display=swap" rel="stylesheet" />
     {isPublic ? null : (
       <script is:inline define:vars={{ pathname }}>
-        // Route gate: if not logged in, redirect to /login before paint.
-        // Session cookie is httpOnly so we probe /api/auth/me.
+        // Route gate: probe /api/auth/me; only redirect if we get a definitive
+        // "no user" response. Network errors / slow responses don't redirect
+        // (the in-page AuthGate handles those gracefully without a broken page).
         (async function () {
           try {
-            const r = await fetch('/api/auth/me', { credentials: 'include' });
-            const d = r.ok ? await r.json() : { user: null };
+            const r = await fetch('/api/auth/me', { credentials: 'include', cache: 'no-store' });
+            if (!r.ok) return; // network/5xx — don't redirect, let page handle
+            const d = await r.json();
             if (!d.user) {
               window.location.replace('/login?next=' + encodeURIComponent(pathname || '/'));
             }
           } catch (e) {
-            // network error — let the page AuthGate handle it
+            // network error — don't redirect; page will show content/AuthGate
           }
         })();
       </script>
@@ -55,8 +57,8 @@ const summary = typeof window !== 'undefined' ? null : null; // server-side plac
   </head>
   <body class="min-h-full bg-gradient-to-b from-zinc-50 via-white to-white dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950 text-zinc-900 dark:text-zinc-100 antialiased">
     <div class="min-h-screen flex flex-col">
-      <!-- Header -->
-      <header class="sticky top-0 z-30 bg-white/85 dark:bg-zinc-900/85 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-700">
+      <!-- Header (static — scrolls with the page) -->
+      <header class="bg-white/85 dark:bg-zinc-900/85 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-700">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between gap-3 flex-wrap">
           <a href="/" class="flex items-center gap-2.5 group min-w-0">
             <div class="h-9 w-9 rounded-lg bg-gradient-to-br from-amber-500 via-orange-500 to-rose-500 flex items-center justify-center text-white shrink-0 shadow-sm group-hover:shadow-md transition-shadow">

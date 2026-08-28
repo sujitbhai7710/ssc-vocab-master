@@ -1,0 +1,19 @@
+---
+// src/pages/options.astro
+import Layout from '../layouts/Layout.astro';
+import WordListView from '../components/WordListView.svelte';
+---
+<Layout title="Module 2 — Syn/Ant Option Choices | SSC Vocab Master" activeNav="options">
+  <section class="space-y-4">
+    <div>
+      <h2 class="text-xl font-bold tracking-tight flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-600"><path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/></svg>
+        Module 2 — Syn/Ant Option Choices
+      </h2>
+      <p class="text-sm text-zinc-500 mt-1 leading-relaxed">
+        Words that appeared as option choices in synonym/antonym questions only. Sorted from most repeated to least repeated.
+      </p>
+    </div>
+    <WordListView client:load view="options" restrictToSynAnt={true} />
+  </section>
+</Layout>

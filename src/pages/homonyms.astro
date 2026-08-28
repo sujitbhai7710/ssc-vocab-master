@@ -1,0 +1,19 @@
+---
+// src/pages/homonyms.astro
+import Layout from '../layouts/Layout.astro';
+import WordListView from '../components/WordListView.svelte';
+---
+<Layout title="Module 5 — Homonyms & Homophones | SSC Vocab Master" activeNav="homonyms">
+  <section class="space-y-4">
+    <div>
+      <h2 class="text-xl font-bold tracking-tight flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-pink-600"><path d="M12 22V12"/><path d="M2 12h20"/><circle cx="12" cy="6" r="4"/></svg>
+        Module 5 — Homonyms & Homophones
+      </h2>
+      <p class="text-sm text-zinc-500 mt-1 leading-relaxed">
+        Words that appeared as the correct answer in homonym/homophone fill-in-the-blank questions (e.g. add, aid, aide). Sorted by frequency.
+      </p>
+    </div>
+    <WordListView client:load view="stems" qtypeFilter="homonym" />
+  </section>
+</Layout>

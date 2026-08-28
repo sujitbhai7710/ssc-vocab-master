@@ -1,0 +1,19 @@
+---
+// src/pages/spelling.astro
+import Layout from '../layouts/Layout.astro';
+import WordListView from '../components/WordListView.svelte';
+---
+<Layout title="Module 6 — Spelling | SSC Vocab Master" activeNav="spelling">
+  <section class="space-y-4">
+    <div>
+      <h2 class="text-xl font-bold tracking-tight flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-sky-600"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="m9 11 2 2 4-4"/></svg>
+        Module 6 — Spelling
+      </h2>
+      <p class="text-sm text-zinc-500 mt-1 leading-relaxed">
+        Correctly-spelt words from SSC spelling questions. Only the correct spelling is shown — misspelt options are excluded. Sorted by frequency.
+      </p>
+    </div>
+    <WordListView client:load view="stems" qtypeFilter="spelling" />
+  </section>
+</Layout>

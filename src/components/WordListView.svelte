@@ -1,32 +1,39 @@
 <script lang="ts">
   // src/components/WordListView.svelte
-  // Lists vocabulary words ranked by frequency.
-  // For Syn/Ant pages: sorts by asStem or asOption (overall).
-  // For OWS/Idioms/Homonyms/Spelling pages: filters to words that appeared in
-  // that specific question type, then sorts by appearance count in that type.
+  // Lists vocabulary words ranked by frequency for a specific question type.
+  // Used by /stems, /options, /ows, /idioms, /homonyms, /spelling pages.
 
   import WordCard from './WordCard.svelte';
-  import type { WordEntry, QTypeExtended } from '../lib/vocab-data';
+  import { loadWords, type WordEntry, type QType } from '../lib/vocab-data';
 
   let {
-    words = [],
     view = 'stems',
     qtypeFilter = null,
-    loading = false,
-    onSelectWord = () => {},
+    restrictToSynAnt = false, // for /options page: only show syn/ant option words
   }: {
-    words?: WordEntry[];
     view: 'stems' | 'options';
-    qtypeFilter?: QTypeExtended | null;
-    loading?: boolean;
-    onSelectWord?: (w: WordEntry) => void;
+    qtypeFilter?: QType | null;
+    restrictToSynAnt?: boolean;
   } = $props();
+
+  let words = $state<WordEntry[]>([]);
+  let loading = $state(true);
+
+  if (typeof window !== 'undefined') {
+    (async () => {
+      try {
+        words = await loadWords();
+      } catch (err) {
+        console.error('Failed to load words:', err);
+      } finally {
+        loading = false;
+      }
+    })();
+  }
 
   let query = $state('');
   let sort = $state<'frequency' | 'alphabetical'>('frequency');
   let examFilter = $state('all');
-  let minStem = $state(0);
-  let minOption = $state(0);
   let page = $state(1);
   let showFilters = $state(false);
 
@@ -36,11 +43,17 @@
     Array.from(new Set(words.flatMap((w) => [...w.stemExams, ...w.optionExams]))).sort()
   );
 
-  function countInQtype(w: WordEntry, qt: QTypeExtended): { asStem: number; asOption: number } {
+  // Helper: count appearances in a specific qtype
+  function countInQtype(w: WordEntry, qt: QType): { asStem: number; asOption: number } {
     return {
       asStem: w.qtypesAsStem[qt] ?? 0,
       asOption: w.qtypesAsOption[qt] ?? 0,
     };
+  }
+
+  // For /options page with restrictToSynAnt: only count syn/ant options
+  function getSynAntOptionCount(w: WordEntry): number {
+    return (w.qtypesAsOption['synonym'] ?? 0) + (w.qtypesAsOption['antonym'] ?? 0);
   }
 
   const filtered = $derived.by(() => {
@@ -50,28 +63,41 @@
       if (examFilter !== 'all') {
         if (!w.stemExams.includes(examFilter) && !w.optionExams.includes(examFilter)) return false;
       }
-      if (w.asStem < minStem) return false;
-      if (w.asOption < minOption) return false;
       return true;
     });
 
-    if (qtypeFilter) {
+    // Apply section-specific filter
+    if (restrictToSynAnt) {
+      // /options page: only words that appeared as syn/ant option
+      result = result.filter((w) => getSynAntOptionCount(w) > 0);
+    } else if (qtypeFilter) {
+      // Section-specific filter: words that appeared in this qtype
       result = result.filter((w) => {
         const c = countInQtype(w, qtypeFilter);
         return c.asStem > 0 || c.asOption > 0;
       });
-    } else {
-      if (view === 'stems') result = result.filter((w) => w.asStem > 0);
-      else if (view === 'options') result = result.filter((w) => w.asOption > 0);
+    } else if (view === 'stems') {
+      result = result.filter((w) => w.asStem > 0);
+    } else if (view === 'options') {
+      result = result.filter((w) => w.asOption > 0);
     }
 
     const sorted = [...result];
     if (sort === 'frequency') {
-      if (qtypeFilter) {
+      if (restrictToSynAnt) {
+        // /options page: sort by syn/ant option count, then total
+        sorted.sort((a, b) => {
+          const ac = getSynAntOptionCount(a);
+          const bc = getSynAntOptionCount(b);
+          if (bc !== ac) return bc - ac;
+          return a.word.localeCompare(b.word);
+        });
+      } else if (qtypeFilter) {
         const qt = qtypeFilter;
         sorted.sort((a, b) => {
           const ac = countInQtype(a, qt);
           const bc = countInQtype(b, qt);
+          // For syn/ant: stem-first then option
           if (qt === 'synonym' || qt === 'antonym') {
             const primary = bc.asStem - ac.asStem;
             if (primary !== 0) return primary;
@@ -79,8 +105,11 @@
             if (sec !== 0) return sec;
             return a.word.localeCompare(b.word);
           }
-          const primary = bc.asOption - ac.asOption;
+          // For OWS/Idioms/Homonyms/Spelling: sort by stem count (which is "as correct answer")
+          const primary = bc.asStem - ac.asStem;
           if (primary !== 0) return primary;
+          const sec = bc.asOption - ac.asOption;
+          if (sec !== 0) return sec;
           return a.word.localeCompare(b.word);
         });
       } else if (view === 'stems') {
@@ -102,12 +131,8 @@
     query = v;
     page = 1;
   }
-  function resetFilters() {
-    examFilter = 'all';
-    minStem = 0;
-    minOption = 0;
-    query = '';
-    page = 1;
+  function selectWord(w: WordEntry) {
+    if (typeof window !== 'undefined') window.location.href = `/word/${encodeURIComponent(w.wordLower)}`;
   }
 </script>
 
@@ -154,26 +179,8 @@
             {/each}
           </select>
         </div>
-        <div class="flex flex-col gap-1.5 w-[120px]">
-          <label class="text-[11px] font-medium text-zinc-500">Min. Stem count</label>
-          <input
-            type="number"
-            min="0"
-            bind:value={minStem}
-            class="h-8 px-2 text-xs bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400/40"
-          />
-        </div>
-        <div class="flex flex-col gap-1.5 w-[120px]">
-          <label class="text-[11px] font-medium text-zinc-500">Min. Option count</label>
-          <input
-            type="number"
-            min="0"
-            bind:value={minOption}
-            class="h-8 px-2 text-xs bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400/40"
-          />
-        </div>
         <button
-          on:click={resetFilters}
+          on:click={() => { examFilter = 'all'; query = ''; page = 1; }}
           class="h-8 self-end px-3 text-xs text-zinc-600 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 rounded-md border border-zinc-200 dark:border-zinc-700"
         >
           Reset
@@ -191,12 +198,6 @@
       </span>
       {#if examFilter !== 'all'}
         <span class="text-[10px] font-medium bg-zinc-100 dark:bg-zinc-800 px-2 py-0.5 rounded-md">exam: {examFilter}</span>
-      {/if}
-      {#if minStem > 0}
-        <span class="text-[10px] font-medium bg-zinc-100 dark:bg-zinc-800 px-2 py-0.5 rounded-md">stem ≥ {minStem}</span>
-      {/if}
-      {#if minOption > 0}
-        <span class="text-[10px] font-medium bg-zinc-100 dark:bg-zinc-800 px-2 py-0.5 rounded-md">option ≥ {minOption}</span>
       {/if}
       {#if totalPages > 1}
         <span class="ml-auto">page {currentPage} / {totalPages}</span>
@@ -223,7 +224,8 @@
           rank={(currentPage - 1) * PAGE_SIZE + i + 1}
           {view}
           {qtypeFilter}
-          onSelect={onSelectWord}
+          {restrictToSynAnt}
+          onSelect={selectWord}
         />
       {/each}
     </div>

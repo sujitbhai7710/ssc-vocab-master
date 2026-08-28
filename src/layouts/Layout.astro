@@ -1,14 +1,18 @@
 ---
-// src/layouts/Layout.astro
+// src/layouts/Layout.astro — shared layout for all pages
 export interface Props {
   title?: string;
   description?: string;
+  activeNav?: string;
 }
 const {
   title = 'SSC Vocab Master — Synonyms & Antonyms from 5 Years of SSC Papers',
-  description = 'A feature-rich vocabulary platform covering every synonym, antonym, and one-word substitution question from 5 years of SSC exams (CGL, CHSL, CPO, MTS). Words ranked by frequency, with badges, MCQs, mnemonics, and root-word breakdowns.',
+  description = 'A feature-rich vocabulary platform covering every synonym, antonym, one-word substitution, idiom, homonym, and spelling question from 5 years of SSC exams (2019-2026).',
+  activeNav = 'home',
 } = Astro.props;
 import '../styles/global.css';
+import { loadSummary } from '../lib/vocab-data';
+const summary = typeof window !== 'undefined' ? null : null; // server-side placeholder
 ---
 <!doctype html>
 <html lang="en" class="h-full">
@@ -18,7 +22,7 @@ import '../styles/global.css';
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <meta name="keywords" content="SSC vocabulary, SSC synonyms, SSC antonyms, SSC CGL, SSC CHSL, SSC CPO, SSC MTS, vocabulary builder, English vocabulary" />
+    <meta name="keywords" content="SSC vocabulary, SSC synonyms, SSC antonyms, SSC CGL, SSC CHSL, SSC CPO, SSC MTS, vocabulary builder, English vocabulary, idioms, spelling, one-word substitution, homonyms, root words" />
     <meta name="author" content="SSC Vocab Master" />
     <meta property="og:title" content="SSC Vocab Master" />
     <meta property="og:description" content="5 years of SSC synonyms & antonyms, frequency-ranked" />
@@ -26,9 +30,76 @@ import '../styles/global.css';
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+Bengali:wght@400;500;600&display=swap" rel="stylesheet" />
   </head>
   <body class="min-h-full bg-gradient-to-b from-zinc-50 via-white to-white dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950 text-zinc-900 dark:text-zinc-100 antialiased">
-    <slot />
+    <div class="min-h-screen flex flex-col">
+      <!-- Header -->
+      <header class="sticky top-0 z-30 bg-white/85 dark:bg-zinc-900/85 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between gap-3 flex-wrap">
+          <a href="/" class="flex items-center gap-2.5 group min-w-0">
+            <div class="h-9 w-9 rounded-lg bg-gradient-to-br from-amber-500 via-orange-500 to-rose-500 flex items-center justify-center text-white shrink-0 shadow-sm group-hover:shadow-md transition-shadow">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/><path d="M8 11h8"/><path d="M8 7h6"/></svg>
+            </div>
+            <div class="min-w-0 text-left">
+              <h1 class="text-base font-bold tracking-tight leading-tight truncate">SSC Vocab Master</h1>
+              <p class="text-[10px] text-zinc-500 leading-none truncate">5 years of SSC papers · vocabulary trainer</p>
+            </div>
+          </a>
+
+          <nav class="flex items-center gap-0.5 text-sm overflow-x-auto max-w-full">
+            <a href="/" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'home' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+              <span class="hidden sm:inline">Home</span>
+            </a>
+            <a href="/stems" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'stems' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/></svg>
+              <span class="hidden sm:inline">Stems</span>
+            </a>
+            <a href="/options" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'options' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/></svg>
+              <span class="hidden sm:inline">Options</span>
+            </a>
+            <a href="/ows" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'ows' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3"/><path d="M9 22h6"/><path d="M12 18v4"/><path d="M4 7a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"/></svg>
+              <span class="hidden sm:inline">OWS</span>
+            </a>
+            <a href="/idioms" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'idioms' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+              <span class="hidden sm:inline">Idioms</span>
+            </a>
+            <a href="/homonyms" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'homonyms' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12"/><path d="M2 12h20"/><circle cx="12" cy="6" r="4"/></svg>
+              <span class="hidden sm:inline">Homonyms</span>
+            </a>
+            <a href="/spelling" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'spelling' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="m9 11 2 2 4-4"/></svg>
+              <span class="hidden sm:inline">Spelling</span>
+            </a>
+            <a href="/roots" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'roots' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/><circle cx="12" cy="12" r="9"/></svg>
+              <span class="hidden sm:inline">Roots</span>
+            </a>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Main content -->
+      <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full">
+        <slot />
+      </main>
+
+      <!-- Footer -->
+      <footer class="mt-auto border-t border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 text-xs text-zinc-500 text-center">
+          <p>
+            SSC Vocab Master · Vocabulary questions from 23 SSC exam papers (2019-2026) · Built for aspirants preparing for CGL, CHSL, CPO, MTS, Selection Posts.
+          </p>
+          <p class="mt-1 text-[10px]">
+            Word data sourced from Satwik's SSC Question Bank · Real correct answers + Bengali meanings + mnemonics + root word families.
+          </p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

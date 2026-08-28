@@ -1,0 +1,19 @@
+---
+// src/pages/ows.astro
+import Layout from '../layouts/Layout.astro';
+import WordListView from '../components/WordListView.svelte';
+---
+<Layout title="Module 3 — One-Word Substitution | SSC Vocab Master" activeNav="ows">
+  <section class="space-y-4">
+    <div>
+      <h2 class="text-xl font-bold tracking-tight flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-violet-600"><path d="M4 7V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3"/><path d="M9 22h6"/><path d="M12 18v4"/><path d="M4 7a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"/></svg>
+        Module 3 — One-Word Substitution
+      </h2>
+      <p class="text-sm text-zinc-500 mt-1 leading-relaxed">
+        Words that appeared as the correct answer in one-word substitution questions. Sorted by frequency — the word that was the correct OWS answer the most times appears first.
+      </p>
+    </div>
+    <WordListView client:load view="stems" qtypeFilter="one-word" />
+  </section>
+</Layout>

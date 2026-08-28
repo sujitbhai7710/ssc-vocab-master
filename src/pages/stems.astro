@@ -1,0 +1,19 @@
+---
+// src/pages/stems.astro
+import Layout from '../layouts/Layout.astro';
+import WordListView from '../components/WordListView.svelte';
+---
+<Layout title="Module 1 — Main Question Stems | SSC Vocab Master" activeNav="stems">
+  <section class="space-y-4">
+    <div>
+      <h2 class="text-xl font-bold tracking-tight flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-amber-600"><path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/></svg>
+        Module 1 — Main Question Stems
+      </h2>
+      <p class="text-sm text-zinc-500 mt-1 leading-relaxed">
+        Words that appeared as the main question word in synonym/antonym questions across SSC exams. Sorted from most repeated to least repeated.
+      </p>
+    </div>
+    <WordListView client:load view="stems" />
+  </section>
+</Layout>

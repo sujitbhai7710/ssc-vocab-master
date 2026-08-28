@@ -1,6 +1,5 @@
 // src/lib/vocab-data.ts
 // Type definitions and data loaders for SSC vocabulary platform.
-// All data files live in /data/*.json and are fetched at runtime.
 
 export interface WordEntry {
   word: string;
@@ -10,49 +9,50 @@ export interface WordEntry {
   total: number;
   stemExams: string[];
   optionExams: string[];
-  qtypesAsStem: { synonym: number; antonym: number; 'one-word': number };
-  qtypesAsOption: { synonym: number; antonym: number; 'one-word': number };
+  qtypesAsStem: Partial<Record<QType, number>>;
+  qtypesAsOption: Partial<Record<QType, number>>;
+  correctAsStem: number;
+  correctAsOption: number;
 }
 
-export type QType = 'synonym' | 'antonym' | 'one-word';
+export type QType = 'synonym' | 'antonym' | 'one-word' | 'idiom' | 'homonym' | 'spelling';
 
 export interface QuestionEntry {
   id: number;
-  exam: string;
-  qno: number;
+  exam?: string;
+  year?: string;
+  satwik_id?: number;
   qtype: QType;
+  prompt?: string;
   stem: string;
   options: string[];
-  /** Index of the best-guess correct answer in `options`. -1 if unknown. */
-  correctIdx?: number;
+  correctIdx?: number;  // REAL correct answer from Satwik, not best-guess
+  expl?: string;
+  src?: string;
 }
-
-export type QTypeExtended = 'synonym' | 'antonym' | 'one-word' | 'idiom' | 'homonym' | 'spelling';
 
 export interface SummaryStats {
   totalFiles: number;
-  exams: string[];
   totalQuestions: number;
   byType: Record<string, number>;
+  totalSynonym: number;
+  totalAntonym: number;
   totalSynonymAntonym: number;
   totalOneWord: number;
   totalIdioms: number;
   totalHomonyms: number;
   totalSpelling: number;
   totalUniqueWords: number;
-  questionsPerFile: { exam: string; questions: number }[];
+  totalRoots: number;
 }
 
 export interface EnrichedSynonym {
   word: string;
-  source: 'ssc' | 'wordnet';
-  added?: boolean;
-  /** Status of this synonym/antonym:
-   *  - 'correct'    = appeared as the correct answer in past SSC (best-guess via WordNet)
-   *  - 'distractor' = appeared as a wrong option in past SSC
-   *  - 'added'      = added from WordNet (did NOT appear in any SSC question for this word)
+  /** 'correct' = appeared as the actual synonym/antonym in past SSC (GREEN).
+   *  'added'   = added by me (GRAY).
+   *  (No more 'distractor' — user requested only two colors.)
    */
-  status?: 'correct' | 'distractor' | 'added';
+  status: 'correct' | 'added';
 }
 
 export interface EnrichedEntry {
@@ -60,15 +60,14 @@ export interface EnrichedEntry {
   wordLower: string;
   definition: string;
   pos: string;
+  bn: string;        // Bengali meaning
+  ex: string;        // Example sentence (curated)
+  mnemonic: string;  // Trick to remember
+  root: string;
+  rootMeaning: string;
+  rootBn: string;
   ssSynonyms: EnrichedSynonym[];
   ssAntonyms: EnrichedSynonym[];
-  root: {
-    primary: string;
-    meaning: string;
-    family: string[];
-    added: boolean;
-  } | null;
-  mnemonic: string;
 }
 
 export interface WordQuestions {
@@ -76,11 +75,27 @@ export interface WordQuestions {
   asOption: number[];
 }
 
-// Module-level caches
+export interface RootFamily {
+  root: string;
+  rm: string;     // root meaning
+  rbn: string;     // Bengali root meaning
+  words: Array<{
+    w: string;
+    pos: string;
+    mean: string;
+    bn: string;
+    mn: string;
+    n: number;
+    mods?: Record<string, number>;
+  }>;
+}
+
+// Caches
 let summaryCache: SummaryStats | null = null;
 let wordsCache: WordEntry[] | null = null;
 let questionsCache: QuestionEntry[] | null = null;
 let wordQuestionsCache: Record<string, WordQuestions> | null = null;
+let rootsCache: RootFamily[] | null = null;
 const enrichedCache: Record<string, Record<string, EnrichedEntry>> = {};
 
 export async function loadSummary(): Promise<SummaryStats> {
@@ -106,9 +121,9 @@ export async function loadQuestions(): Promise<{
   if (questionsCache && wordQuestionsCache) {
     return { questions: questionsCache, wordQuestions: wordQuestionsCache };
   }
-  const questionsRes = await fetch('/data/questions.json');
-  if (!questionsRes.ok) throw new Error(`HTTP ${questionsRes.status} for questions.json`);
-  const questions = (await questionsRes.json()) as QuestionEntry[];
+  const qRes = await fetch('/data/questions.json');
+  if (!qRes.ok) throw new Error(`HTTP ${qRes.status} for questions.json`);
+  const questions = (await qRes.json()) as QuestionEntry[];
   const wqRes = await fetch('/data/word_questions.json');
   if (!wqRes.ok) throw new Error(`HTTP ${wqRes.status} for word_questions.json`);
   const wordQuestions = (await wqRes.json()) as Record<string, WordQuestions>;
@@ -132,19 +147,39 @@ export async function loadEnrichedForWord(wordLower: string): Promise<EnrichedEn
   return enrichedCache[letter][wordLower] || null;
 }
 
-// Helper: build example sentence for a word
+export async function loadRoots(): Promise<RootFamily[]> {
+  if (rootsCache) return rootsCache;
+  try {
+    const res = await fetch('/data/roots.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    rootsCache = (await res.json()) as RootFamily[];
+  } catch (err) {
+    console.error('Failed to load roots.json:', err);
+    rootsCache = [];
+  }
+  return rootsCache;
+}
+
+// Build a fallback example sentence if Satwik doesn't provide one
 export function buildExampleSentence(word: string, pos?: string): string {
   const lower = word.toLowerCase();
-  if (lower === 'loquacious') {
-    return 'The loquacious tour guide kept the travelers entertained throughout the long bus journey.';
-  }
-  if (lower === 'reticent') {
-    return 'Normally reticent about his private life, the actor refused to comment on the rumors.';
-  }
+  if (lower === 'loquacious') return 'The loquacious tour guide kept the travelers entertained throughout the long bus journey.';
+  if (lower === 'reticent') return 'Normally reticent about his private life, the actor refused to comment on the rumors.';
   const p = pos?.toLowerCase();
   if (p === 'noun') return `His attitude toward the issue showed a remarkable sense of ${word.toLowerCase()}.`;
   if (p === 'verb') return `She decided to ${word.toLowerCase()} despite the obvious risks involved.`;
-  if (p === 'adjective') return `The speaker gave a remarkably ${word.toLowerCase()} explanation of the situation.`;
-  if (p === 'adverb') return `He spoke ${word.toLowerCase()} about his achievements, never boasting.`;
+  if (p === 'adjective' || p === 'adj') return `The speaker gave a remarkably ${word.toLowerCase()} explanation of the situation.`;
+  if (p === 'adverb' || p === 'adv') return `He spoke ${word.toLowerCase()} about his achievements, never boasting.`;
   return `The committee chose to ${word.toLowerCase()} its strategy to fit the new regulations.`;
+}
+
+// Pronounce a word using the Web Speech API
+export function pronounceWord(word: string): void {
+  if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+  // Cancel any ongoing speech
+  window.speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(word);
+  utterance.rate = 0.9;
+  utterance.lang = 'en-US';
+  window.speechSynthesis.speak(utterance);
 }

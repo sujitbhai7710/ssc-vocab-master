@@ -1,0 +1,19 @@
+---
+// src/pages/idioms.astro
+import Layout from '../layouts/Layout.astro';
+import WordListView from '../components/WordListView.svelte';
+---
+<Layout title="Module 4 — Idioms & Phrases | SSC Vocab Master" activeNav="idioms">
+  <section class="space-y-4">
+    <div>
+      <h2 class="text-xl font-bold tracking-tight flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-600"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+        Module 4 — Idioms & Phrases
+      </h2>
+      <p class="text-sm text-zinc-500 mt-1 leading-relaxed">
+        Idiom phrases that appeared as question stems in SSC papers (e.g. "By and by", "tip of the iceberg", "square peg in a round hole"). Sorted by how many times each idiom was asked.
+      </p>
+    </div>
+    <WordListView client:load view="stems" qtypeFilter="idiom" />
+  </section>
+</Layout>

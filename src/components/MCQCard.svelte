@@ -1,12 +1,10 @@
 <script lang="ts">
   // src/components/MCQCard.svelte
-  // Displays a single SSC question. If `correctIdx` is provided (>=0), the
-  // best-guess correct answer is shown in green and can be revealed/hidden.
   import type { QuestionEntry } from '../lib/vocab-data';
 
   let {
     question,
-    highlightWord,
+    highlightWord = '',
     index,
   }: {
     question: QuestionEntry;
@@ -40,7 +38,7 @@
   const wordIsStem = $derived(
     !!highlightWord && question.stem.toLowerCase().trim() === highlightWord!.toLowerCase()
   );
-  const hasCorrectGuess = $derived(question.correctIdx !== undefined && question.correctIdx >= 0);
+  const hasCorrectAnswer = $derived(question.correctIdx !== undefined && question.correctIdx >= 0 && question.correctIdx < question.options.length);
 
   function isHighlighted(opt: string): boolean {
     return !!highlightWord && opt.toLowerCase() === highlightWord!.toLowerCase();
@@ -52,11 +50,13 @@
     <div class="text-sm font-semibold flex items-center gap-2 flex-wrap">
       <span class="text-xs font-mono text-zinc-500 tabular-nums">Q{index + 1}</span>
       <span class="text-[10px] font-medium border rounded-md px-2 py-0.5 {qtypeColors[question.qtype]}">
-        {qtypeLabels[question.qtype]}
+        {qtypeLabels[question.qtype] ?? question.qtype}
       </span>
-      <span class="text-[10px] font-medium border rounded-md px-2 py-0.5 bg-zinc-100 text-zinc-700 dark:bg-zinc-800/50 dark:text-zinc-300 dark:border-zinc-700">
-        {question.exam} · Q{question.qno}
-      </span>
+      {#if question.exam}
+        <span class="text-[10px] font-medium border rounded-md px-2 py-0.5 bg-zinc-100 text-zinc-700 dark:bg-zinc-800/50 dark:text-zinc-300 dark:border-zinc-700">
+          {question.exam}{#if question.year} · {question.year}{/if} · Q{question.qno ?? ''}
+        </span>
+      {/if}
       {#if wordIsStem}
         <span class="text-[10px] font-medium border rounded-md px-2 py-0.5 bg-amber-100 text-amber-900 dark:bg-amber-950/40 dark:text-amber-200 dark:border-amber-800">★ Word as stem</span>
       {:else if wordIsOption}
@@ -83,7 +83,7 @@
       {#each question.options as opt, i}
         {@const letter = String.fromCharCode(65 + i)}
         {@const hi = isHighlighted(opt)}
-        {@const isCorrect = hasCorrectGuess && i === question.correctIdx}
+        {@const isCorrect = hasCorrectAnswer && i === question.correctIdx}
         {@const showAnswer = revealed && isCorrect}
         <div class="flex items-center gap-2 px-3 py-2 rounded-md border text-sm transition-colors
           {showAnswer
@@ -94,13 +94,20 @@
           <span class="font-mono text-xs font-bold text-zinc-500 w-5">({letter})</span>
           <span class="font-medium capitalize">{opt}</span>
           {#if showAnswer}
-            <span class="ml-auto text-[10px] font-bold text-emerald-700 dark:text-emerald-300 uppercase tracking-wide">Answer</span>
+            <span class="ml-auto text-[10px] font-bold text-emerald-700 dark:text-emerald-300 uppercase tracking-wide">✓ Answer</span>
           {:else if !revealed && hi && wordIsOption}
             <span class="ml-auto text-[10px] font-bold text-amber-700 dark:text-amber-300 uppercase tracking-wide">This word</span>
           {/if}
         </div>
       {/each}
     </div>
+
+    {#if revealed && question.expl}
+      <div class="bg-amber-50 dark:bg-amber-950/20 border-l-4 border-amber-400 dark:border-amber-700 p-3 rounded-md">
+        <div class="text-[10px] uppercase font-semibold text-amber-700 dark:text-amber-400 mb-1">Explanation</div>
+        <p class="text-xs leading-relaxed text-zinc-800 dark:text-zinc-200">{question.expl}</p>
+      </div>
+    {/if}
 
     <div class="flex items-center justify-between gap-2 pt-1">
       <p class="text-[11px] text-zinc-500 leading-relaxed">
@@ -111,12 +118,13 @@
         {:else}
           This question relates to the highlighted word.
         {/if}
-        {#if !hasCorrectGuess}
-          No best-guess answer available.
+        {#if !hasCorrectAnswer}
+          No answer key available.
+        {:else}
+          Answer sourced from verified SSC answer key.
         {/if}
-        Source PDFs do not include official answer keys; the highlighted option is the most likely answer based on WordNet similarity.
       </p>
-      {#if hasCorrectGuess}
+      {#if hasCorrectAnswer}
         <button
           on:click={() => (revealed = !revealed)}
           class="text-xs h-7 shrink-0 px-3 rounded-md border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800 transition-colors"

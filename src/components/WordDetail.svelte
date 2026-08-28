@@ -2,21 +2,28 @@
   // src/components/WordDetail.svelte
   import FrequencyBadge from './FrequencyBadge.svelte';
   import MCQCard from './MCQCard.svelte';
-  import type { WordEntry, EnrichedEntry, QuestionEntry } from '../lib/vocab-data';
+  import type { EnrichedEntry, QuestionEntry, WordQuestions } from '../lib/vocab-data';
   import {
+    loadWords,
     loadEnrichedForWord,
     loadQuestions,
     buildExampleSentence,
+    pronounceWord,
   } from '../lib/vocab-data';
 
+  // Props: wordLower + wordDisplay (passed from [word].astro page)
   let {
-    word,
-    onBack = () => {},
+    wordLower,
+    wordDisplay,
   }: {
-    word: WordEntry;
-    onBack?: () => void;
+    wordLower: string;
+    wordDisplay: string;
   } = $props();
 
+  // Find the WordEntry from words.json (cached)
+  let wordEntry = $state<{word: string; wordLower: string; asStem: number; asOption: number; total: number;
+    stemExams: string[]; optionExams: string[]; qtypesAsStem: Record<string, number>;
+    qtypesAsOption: Record<string, number>; correctAsStem: number; correctAsOption: number;} | null>(null);
   let enriched = $state<EnrichedEntry | null>(null);
   let allQuestions = $state<QuestionEntry[]>([]);
   let stemQuestionIds = $state<number[]>([]);
@@ -25,17 +32,23 @@
   let loading = $state(true);
 
   $effect(() => {
-    const wordLower = word.wordLower;
+    const wl = wordLower;
     let cancelled = false;
     loading = true;
     error = null;
     (async () => {
       try {
-        const e = await loadEnrichedForWord(wordLower);
+        // Load all words to find the entry
+        const words = await loadWords();
         if (cancelled) return;
+        wordEntry = words.find((w) => w.wordLower === wl) ?? null;
+        // Load enriched entry
+        const e = await loadEnrichedForWord(wl);
+        if (cancelled) return;
+        // Load questions
         const { questions, wordQuestions } = await loadQuestions();
         if (cancelled) return;
-        const wq = wordQuestions[wordLower] || { asStem: [], asOption: [] };
+        const wq: WordQuestions = wordQuestions[wl] || { asStem: [], asOption: [] };
         enriched = e;
         allQuestions = questions;
         stemQuestionIds = wq.asStem;
@@ -65,42 +78,48 @@
   const sscSynonyms = $derived(enriched?.ssSynonyms ?? []);
   const sscAntonyms = $derived(enriched?.ssAntonyms ?? []);
   const hasDefinition = $derived(!!enriched?.definition);
-  const hasRoot = $derived(!!enriched?.root);
   const hasMnemonic = $derived(!!enriched?.mnemonic);
-  const exampleSentence = $derived(buildExampleSentence(word.word, enriched?.pos));
+  const hasRoot = $derived(!!enriched?.root);
+  // Use the curated example from Satwik if available, else build one
+  const exampleSentence = $derived(enriched?.ex || buildExampleSentence(wordDisplay, enriched?.pos));
 
   const allExams = $derived(
-    Array.from(new Set([...word.stemExams, ...word.optionExams]))
+    wordEntry ? Array.from(new Set([...wordEntry.stemExams, ...wordEntry.optionExams])) : []
   );
 
-  // Count of correct vs distractor vs added
+  // Two-color stats: correct count + added count (no distractor)
   const synStats = $derived.by(() => {
-    let correct = 0, distractor = 0, added = 0;
+    let correct = 0, added = 0;
     for (const s of sscSynonyms) {
       if (s.status === 'correct') correct++;
-      else if (s.status === 'distractor') distractor++;
       else added++;
     }
-    return { correct, distractor, added };
+    return { correct, added };
   });
   const antStats = $derived.by(() => {
-    let correct = 0, distractor = 0, added = 0;
+    let correct = 0, added = 0;
     for (const a of sscAntonyms) {
       if (a.status === 'correct') correct++;
-      else if (a.status === 'distractor') distractor++;
       else added++;
     }
-    return { correct, distractor, added };
+    return { correct, added };
   });
+
+  function back() {
+    if (typeof window !== 'undefined') window.history.back();
+  }
+  function pronounce() {
+    pronounceWord(wordDisplay);
+  }
 </script>
 
 <div class="space-y-5 animate-fade-in">
   <button
-    on:click={onBack}
+    on:click={back}
     class="flex items-center gap-1.5 text-sm text-zinc-600 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors -ml-2"
   >
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>
-    Back to list
+    Back
   </button>
 
   <!-- Header card -->
@@ -109,30 +128,43 @@
       <div class="flex items-start justify-between gap-4 flex-wrap">
         <div class="space-y-2 min-w-0">
           <div class="flex items-baseline gap-3 flex-wrap">
-            <h2 class="text-3xl font-bold tracking-tight">{word.word}</h2>
+            <h2 class="text-3xl font-bold tracking-tight">{wordDisplay}</h2>
             {#if enriched?.pos}
               <span class="text-xs font-medium italic bg-zinc-100 dark:bg-zinc-800 px-2 py-1 rounded-md">{enriched.pos}</span>
             {/if}
+            <!-- Pronunciation button -->
+            <button
+              on:click={pronounce}
+              class="h-9 w-9 rounded-full flex items-center justify-center bg-orange-100 dark:bg-orange-950/40 text-orange-700 dark:text-orange-300 hover:bg-orange-200 dark:hover:bg-orange-900 transition-colors"
+              title="Pronounce '{wordDisplay}'"
+              aria-label="Pronounce {wordDisplay}"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.72a.99.99 0 0 1-.703.286H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.71a.99.99 0 0 1 .703.286l3.484 3.516A.705.705 0 0 0 11 19.298z"/><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 5.636a9 9 0 0 1 0 12.728"/></svg>
+            </button>
           </div>
-          <div class="flex flex-wrap gap-2">
-            <FrequencyBadge label="Main Question" count={word.asStem} variant="stem" />
-            <FrequencyBadge label="Option Choice" count={word.asOption} variant="option" />
-          </div>
+          {#if wordEntry}
+            <div class="flex flex-wrap gap-2">
+              <FrequencyBadge label="Main Question" count={wordEntry.asStem} variant="stem" />
+              <FrequencyBadge label="Option Choice" count={wordEntry.asOption} variant="option" />
+            </div>
+          {/if}
         </div>
-        <div class="flex flex-col items-end gap-1 text-right">
-          <div class="text-2xl font-bold tabular-nums text-orange-600">
-            {word.total}<span class="text-sm font-normal text-zinc-500 ml-1.5">total</span>
+        {#if wordEntry}
+          <div class="flex flex-col items-end gap-1 text-right">
+            <div class="text-2xl font-bold tabular-nums text-orange-600">
+              {wordEntry.total}<span class="text-sm font-normal text-zinc-500 ml-1.5">total</span>
+            </div>
+            <div class="text-xs text-zinc-500">across {allExams.length} exam paper{allExams.length === 1 ? '' : 's'}</div>
           </div>
-          <div class="text-xs text-zinc-500">across {allExams.length} exam paper{allExams.length === 1 ? '' : 's'}</div>
-        </div>
+        {/if}
       </div>
     </div>
-    {#if allExams.length > 0}
+    {#if wordEntry && allExams.length > 0}
       <div class="p-5 pt-4 space-y-3">
         <div class="flex flex-wrap gap-1.5">
           {#each allExams as exam}
-            {@const isStem = word.stemExams.includes(exam)}
-            {@const isOption = word.optionExams.includes(exam)}
+            {@const isStem = wordEntry.stemExams.includes(exam)}
+            {@const isOption = wordEntry.optionExams.includes(exam)}
             <span
               class="exam-chip {isStem && isOption
                 ? 'bg-gradient-to-r from-amber-50 to-emerald-50 border-amber-200 dark:from-amber-950/30 dark:to-emerald-950/30 dark:border-amber-800'
@@ -156,8 +188,8 @@
             { key: 'homonym', label: 'Hom', color: 'bg-pink-100 text-pink-900 border-pink-300 dark:bg-pink-950/40 dark:text-pink-200 dark:border-pink-800' },
             { key: 'spelling', label: 'Spell', color: 'bg-teal-100 text-teal-900 border-teal-300 dark:bg-teal-950/40 dark:text-teal-200 dark:border-teal-800' },
           ] as qt}
-            {@const stemCount = word.qtypesAsStem[qt.key] ?? 0}
-            {@const optCount = word.qtypesAsOption[qt.key] ?? 0}
+            {@const stemCount = wordEntry.qtypesAsStem[qt.key] ?? 0}
+            {@const optCount = wordEntry.qtypesAsOption[qt.key] ?? 0}
             {#if stemCount > 0 || optCount > 0}
               <span class="text-[10px] font-medium border rounded-md px-2 py-0.5 {qt.color}" title={`${qt.label}: ${stemCount} as stem, ${optCount} as option`}>
                 {qt.label}: {stemCount}S+{optCount}O
@@ -172,7 +204,7 @@
   {#if loading}
     <div class="border border-dashed border-zinc-200 dark:border-zinc-700 rounded-xl bg-white dark:bg-zinc-900 py-6 px-4 flex items-center gap-3 text-sm text-zinc-500">
       <svg class="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>
-      <span>Loading full vocabulary data (definitions, mnemonics, MCQs)...</span>
+      <span>Loading word details...</span>
     </div>
   {:else if error}
     <div class="border border-rose-300 dark:border-rose-800 rounded-xl bg-white dark:bg-zinc-900 py-4 px-4 text-sm text-rose-700 dark:text-rose-300">
@@ -187,38 +219,41 @@
           Definition
         </div>
         <p class="px-5 pb-4 text-sm leading-relaxed">{enriched!.definition}</p>
+        {#if enriched!.bn}
+          <div class="px-5 pb-3 pt-2 border-t border-zinc-100 dark:border-zinc-800">
+            <div class="text-[10px] uppercase font-semibold text-zinc-500 mb-1">Bengali meaning</div>
+            <p class="text-sm font-bengali" lang="bn">{enriched!.bn}</p>
+          </div>
+        {/if}
       </div>
     {:else}
       <div class="bg-white dark:bg-zinc-900 border border-dashed border-zinc-200 dark:border-zinc-700 rounded-xl">
-        <div class="px-5 pt-3 pb-2 text-sm font-semibold text-zinc-500 flex items-center gap-2">Definition</div>
-        <p class="px-5 pb-4 text-sm text-zinc-500 italic">No curated definition available for this word yet.</p>
+        <div class="px-5 pt-3 pb-2 text-sm font-semibold text-zinc-500">Definition</div>
+        <p class="px-5 pb-4 text-sm text-zinc-500 italic">No definition available for this word yet.</p>
       </div>
     {/if}
 
-    <!-- Synonyms & Antonyms Grid (with color-coded legend) -->
+    <!-- Synonyms & Antonyms Grid (TWO colors: green=correct, gray=added) -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <!-- Synonyms -->
       <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-xl">
         <div class="px-5 pt-3 pb-2 flex items-center justify-between">
           <span class="text-sm font-semibold flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-600"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .962 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.962 0z"/></svg>
-            SSC Exam Synonyms
+            Synonyms
           </span>
           <span class="text-[10px] text-zinc-500">
-            {synStats.correct} correct · {synStats.distractor} distractor · {synStats.added} added
+            {synStats.correct} from SSC{#if synStats.added > 0} · {synStats.added} added{/if}
           </span>
         </div>
         {#if sscSynonyms.length === 0}
-          <p class="px-5 pb-4 text-xs text-zinc-500 italic">No synonyms recorded.</p>
+          <p class="px-5 pb-4 text-xs text-zinc-500 italic">No synonyms recorded from past SSC papers.</p>
         {:else}
           <div class="px-5 pb-4 flex flex-wrap gap-1.5">
             {#each sscSynonyms as s}
               <span class="text-xs font-medium border rounded-md px-2 py-1 {s.status === 'correct'
                 ? 'bg-emerald-100 border-emerald-400 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-100 dark:border-emerald-700'
-                : s.status === 'distractor'
-                  ? 'bg-rose-50 border-rose-300 text-rose-900 dark:bg-rose-950/30 dark:text-rose-100 dark:border-rose-700'
-                  : 'bg-zinc-100 border-zinc-300 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}"
-                title={s.status === 'correct' ? 'Appeared as the correct answer in past SSC (best-guess)' : s.status === 'distractor' ? 'Appeared as a distractor option in past SSC' : 'Added from WordNet (did NOT appear in SSC)'}
+                : 'bg-zinc-100 border-zinc-300 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}"
+                title={s.status === 'correct' ? 'This synonym appeared in past SSC papers' : 'Added for reference (not in SSC)'}
               >
                 {s.word}
               </span>
@@ -226,28 +261,25 @@
           </div>
         {/if}
       </div>
-      <!-- Antonyms -->
       <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-xl">
         <div class="px-5 pt-3 pb-2 flex items-center justify-between">
           <span class="text-sm font-semibold flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-600"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .962 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.962 0z"/></svg>
-            SSC Exam Antonyms
+            Antonyms
           </span>
           <span class="text-[10px] text-zinc-500">
-            {antStats.correct} correct · {antStats.distractor} distractor · {antStats.added} added
+            {antStats.correct} from SSC{#if antStats.added > 0} · {antStats.added} added{/if}
           </span>
         </div>
         {#if sscAntonyms.length === 0}
-          <p class="px-5 pb-4 text-xs text-zinc-500 italic">No antonyms recorded.</p>
+          <p class="px-5 pb-4 text-xs text-zinc-500 italic">No antonyms recorded from past SSC papers.</p>
         {:else}
           <div class="px-5 pb-4 flex flex-wrap gap-1.5">
             {#each sscAntonyms as a}
               <span class="text-xs font-medium border rounded-md px-2 py-1 {a.status === 'correct'
                 ? 'bg-emerald-100 border-emerald-400 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-100 dark:border-emerald-700'
-                : a.status === 'distractor'
-                  ? 'bg-rose-50 border-rose-300 text-rose-900 dark:bg-rose-950/30 dark:text-rose-100 dark:border-rose-700'
-                  : 'bg-zinc-100 border-zinc-300 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}"
-                title={a.status === 'correct' ? 'Appeared as the correct answer in past SSC (best-guess)' : a.status === 'distractor' ? 'Appeared as a distractor option in past SSC' : 'Added from WordNet (did NOT appear in SSC)'}
+                : 'bg-zinc-100 border-zinc-300 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}"
+                title={a.status === 'correct' ? 'This antonym appeared in past SSC papers' : 'Added for reference (not in SSC)'}
               >
                 {a.word}
               </span>
@@ -257,20 +289,16 @@
       </div>
     </div>
 
-    <!-- Legend -->
+    <!-- Legend (TWO colors only) -->
     <div class="bg-zinc-50 dark:bg-zinc-800/30 border border-zinc-200 dark:border-zinc-700 rounded-lg px-4 py-3 flex flex-wrap items-center gap-4 text-[11px] text-zinc-600 dark:text-zinc-400">
       <span class="font-semibold">Legend:</span>
       <span class="flex items-center gap-1.5">
         <span class="w-3 h-3 rounded border-2 border-emerald-400 bg-emerald-100"></span>
-        Correct answer in past SSC (best-guess via WordNet)
-      </span>
-      <span class="flex items-center gap-1.5">
-        <span class="w-3 h-3 rounded border-2 border-rose-300 bg-rose-50"></span>
-        Appeared as a distractor option in past SSC
+        Appeared in past SSC papers as the correct synonym/antonym
       </span>
       <span class="flex items-center gap-1.5">
         <span class="w-3 h-3 rounded border-2 border-zinc-300 bg-zinc-100"></span>
-        Added from WordNet (did NOT appear in SSC)
+        Added for reference (not in SSC papers)
       </span>
     </div>
 
@@ -285,40 +313,36 @@
       </blockquote>
     </div>
 
-    <!-- Mnemonic -->
+    <!-- Mnemonic (trick to remember) -->
     {#if hasMnemonic}
       <div class="bg-gradient-to-br from-amber-50/70 to-yellow-50/30 dark:from-amber-950/20 dark:to-yellow-950/10 border border-amber-200 dark:border-amber-800 rounded-xl">
         <div class="px-5 pt-3 pb-2 text-sm font-semibold flex items-center gap-2 text-amber-900 dark:text-amber-200">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 3 3 0 0 0 5.997-.875Z"/><path d="M2.5 21H21.5"/><path d="M12 5v16"/></svg>
-          Mnemonic / Memory Tip
+          Trick to Remember
         </div>
         <p class="px-5 pb-4 text-sm leading-relaxed">{enriched!.mnemonic}</p>
       </div>
     {/if}
 
-    <!-- Root Words & Family -->
+    <!-- Root Word -->
     {#if hasRoot}
       <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-xl">
         <div class="px-5 pt-3 pb-2 text-sm font-semibold flex items-center gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-violet-600"><path d="M12 5v14"/><path d="M5 12h14"/><circle cx="12" cy="12" r="9"/></svg>
-          Root Words & Family
+          Root Word
+          <a href={`/roots`} class="ml-auto text-[10px] text-violet-700 dark:text-violet-400 hover:underline">View all roots →</a>
         </div>
-        <div class="px-5 pb-4 space-y-3">
+        <div class="px-5 pb-4 space-y-2">
           <div class="text-sm">
-            <span class="font-semibold text-violet-700 dark:text-violet-400">Primary Root: </span>
-            <span>{enriched!.root!.primary}</span>
+            <span class="font-semibold text-violet-700 dark:text-violet-400">Root: </span>
+            <span class="font-mono font-bold">{enriched!.root}</span>
             <span class="text-zinc-500 mx-1.5">=</span>
-            <span class="italic">{enriched!.root!.meaning}</span>
+            <span>{enriched!.rootMeaning}</span>
+            {#if enriched!.rootBn}
+              <span class="text-zinc-500 mx-1.5">·</span>
+              <span class="font-bengali" lang="bn">{enriched!.rootBn}</span>
+            {/if}
           </div>
-          <hr class="border-zinc-200 dark:border-zinc-700" />
-          <ul class="space-y-1.5 text-sm leading-relaxed">
-            {#each enriched!.root!.family as fam}
-              <li class="flex items-start gap-2">
-                <span class="text-violet-500 mt-0.5">•</span>
-                <span>{fam}</span>
-              </li>
-            {/each}
-          </ul>
         </div>
       </div>
     {/if}
@@ -335,13 +359,12 @@
         </span>
       </div>
       <p class="px-5 pb-2 text-xs text-zinc-500 leading-relaxed">
-        All SSC questions where <span class="font-semibold">{word.word}</span> appeared, ordered with question-stem appearances first, then option-choice appearances.
+        All SSC questions where <span class="font-semibold">{wordDisplay}</span> appeared, ordered with question-stem appearances first, then option-choice appearances. Correct answers (in green) are sourced from a verified SSC answer key.
       </p>
 
       {#if totalMCQs === 0}
         <p class="px-5 pb-4 text-sm text-zinc-500 italic">No past SSC questions surfaced for this word.</p>
       {:else}
-        <!-- Stem questions section -->
         {#if stemQuestions.length > 0}
           <div class="px-5 pb-2 pt-2">
             <h3 class="text-xs font-bold uppercase tracking-wide text-amber-700 dark:text-amber-400 mb-2 flex items-center gap-2">
@@ -350,9 +373,9 @@
             </h3>
           </div>
         {/if}
-        <div class="px-5 pb-4 space-y-3 max-h-[800px] overflow-y-auto pr-1">
+        <div class="px-5 pb-4 space-y-3 max-h-[1200px] overflow-y-auto pr-1">
           {#each stemQuestions as q, i (q.id)}
-            <MCQCard question={q} highlightWord={word.wordLower} index={i} />
+            <MCQCard question={q} highlightWord={wordLower} index={i} />
           {/each}
 
           {#if optionQuestions.length > 0}
@@ -363,7 +386,7 @@
               </h3>
             </div>
             {#each optionQuestions as q, i (q.id)}
-              <MCQCard question={q} highlightWord={word.wordLower} index={stemQuestions.length + i} />
+              <MCQCard question={q} highlightWord={wordLower} index={stemQuestions.length + i} />
             {/each}
           {/if}
         </div>

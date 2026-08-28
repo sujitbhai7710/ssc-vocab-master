@@ -11,6 +11,11 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+  /* Bengali script */
+  .font-bengali, [lang="bn"] {
+    font-family: 'Noto Sans Bengali', 'Inter', system-ui, sans-serif;
+    letter-spacing: 0;
+  }
 }
 
 @layer components {

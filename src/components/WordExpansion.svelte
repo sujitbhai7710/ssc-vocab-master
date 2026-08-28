@@ -39,12 +39,33 @@
         const wq: WordQuestions = wordQuestions[word.wordLower] || { asStem: [], asOption: [] };
         enriched = e;
         allQuestions = questions;
-        stemQuestionIds = wq.asStem;
-        optionQuestionIds = wq.asOption;
+
+        // FILTER MCQs by current section's qtype — DON'T mix question types.
+        // E.g., when on /stems (syn/ant section), only show syn/ant questions,
+        // not spelling/idiom/ows/homonym questions even if the same word appeared there.
+        const filterQids = (ids: number[]): number[] => {
+          if (!qtypeFilter && !restrictToSynAnt) return ids; // no filter (home page word click)
+          return ids.filter((id) => {
+            const q = questions[id];
+            if (!q) return false;
+            if (restrictToSynAnt) {
+              // /options page — only syn/ant option questions
+              return q.qtype === 'synonym' || q.qtype === 'antonym';
+            }
+            if (qtypeFilter === 'synonym' || qtypeFilter === 'antonym') {
+              // /stems page — syn OR ant (since they share the same page)
+              return q.qtype === 'synonym' || q.qtype === 'antonym';
+            }
+            return q.qtype === qtypeFilter;
+          });
+        };
+
+        stemQuestionIds = filterQids(wq.asStem);
+        optionQuestionIds = filterQids(wq.asOption);
         // Default: stem mode if any stem questions, else option mode
-        if (wq.asStem.length > 0) {
+        if (stemQuestionIds.length > 0) {
           mcqMode = 'stem';
-        } else if (wq.asOption.length > 0) {
+        } else if (optionQuestionIds.length > 0) {
           mcqMode = 'option';
         }
         loading = false;
@@ -180,37 +201,49 @@
       </div>
     {/if}
 
-    <!-- Synonyms & Antonyms (TWO colors only) -->
+    <!-- Synonyms & Antonyms (TWO colors only: green=from SSC, gray=added from WordNet) -->
     {#if sscSynonyms.length > 0 || sscAntonyms.length > 0}
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
-        {#if sscSynonyms.length > 0}
-          <div>
-            <div class="text-[10px] uppercase font-semibold text-zinc-500 mb-1.5">Synonyms</div>
-            <div class="flex flex-wrap gap-1">
-              {#each sscSynonyms as s}
-                <span class="text-xs font-medium border rounded-md px-2 py-1 {s.status === 'correct'
-                  ? 'bg-emerald-100 border-emerald-400 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-100 dark:border-emerald-700'
-                  : 'bg-zinc-100 border-zinc-300 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}">
-                  {s.word}
-                </span>
-              {/each}
+      <div class="space-y-2">
+        <div class="text-[10px] text-zinc-500 flex flex-wrap items-center gap-3">
+          <span class="flex items-center gap-1">
+            <span class="w-2.5 h-2.5 rounded border border-emerald-400 bg-emerald-100"></span>
+            appeared in past SSC
+          </span>
+          <span class="flex items-center gap-1">
+            <span class="w-2.5 h-2.5 rounded border border-zinc-300 bg-zinc-100"></span>
+            added from WordNet (not in SSC)
+          </span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+          {#if sscSynonyms.length > 0}
+            <div>
+              <div class="text-[10px] uppercase font-semibold text-zinc-500 mb-1.5">Synonyms</div>
+              <div class="flex flex-wrap gap-1">
+                {#each sscSynonyms as s}
+                  <span class="text-xs font-medium border rounded-md px-2 py-1 {s.status === 'correct'
+                    ? 'bg-emerald-100 border-emerald-400 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-100 dark:border-emerald-700'
+                    : 'bg-zinc-100 border-zinc-300 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}">
+                    {s.word}
+                  </span>
+                {/each}
+              </div>
             </div>
-          </div>
-        {/if}
-        {#if sscAntonyms.length > 0}
-          <div>
-            <div class="text-[10px] uppercase font-semibold text-zinc-500 mb-1.5">Antonyms</div>
-            <div class="flex flex-wrap gap-1">
-              {#each sscAntonyms as a}
-                <span class="text-xs font-medium border rounded-md px-2 py-1 {a.status === 'correct'
-                  ? 'bg-emerald-100 border-emerald-400 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-100 dark:border-emerald-700'
-                  : 'bg-zinc-100 border-zinc-300 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}">
-                  {a.word}
-                </span>
-              {/each}
+          {/if}
+          {#if sscAntonyms.length > 0}
+            <div>
+              <div class="text-[10px] uppercase font-semibold text-zinc-500 mb-1.5">Antonyms</div>
+              <div class="flex flex-wrap gap-1">
+                {#each sscAntonyms as a}
+                  <span class="text-xs font-medium border rounded-md px-2 py-1 {a.status === 'correct'
+                    ? 'bg-emerald-100 border-emerald-400 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-100 dark:border-emerald-700'
+                    : 'bg-zinc-100 border-zinc-300 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}">
+                    {a.word}
+                  </span>
+                {/each}
+              </div>
             </div>
-          </div>
-        {/if}
+          {/if}
+        </div>
       </div>
     {/if}
 
@@ -243,7 +276,7 @@
           <div class="flex items-center gap-1.5">
             {#if stemQuestionIds.length > 0}
               <button
-                on:click={() => setMode('stem')}
+                onclick={() => setMode('stem')}
                 class="text-[11px] h-7 px-2 rounded-md {mcqMode === 'stem' ? 'bg-amber-500 text-white' : 'border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800'}"
               >
                 As stem ({stemQuestionIds.length})
@@ -251,7 +284,7 @@
             {/if}
             {#if optionQuestionIds.length > 0}
               <button
-                on:click={() => setMode('option')}
+                onclick={() => setMode('option')}
                 class="text-[11px] h-7 px-2 rounded-md {mcqMode === 'option' ? 'bg-emerald-500 text-white' : 'border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800'}"
               >
                 As option ({optionQuestionIds.length})
@@ -269,7 +302,7 @@
           <!-- Nav: Prev / Next -->
           <div class="flex items-center justify-between mt-3 pt-3 border-t border-zinc-100 dark:border-zinc-800">
             <button
-              on:click={prevMCQ}
+              onclick={prevMCQ}
               disabled={currentMCQIdx === 0}
               class="flex items-center gap-1.5 text-xs h-8 px-3 rounded-md border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:cursor-not-allowed"
             >
@@ -280,7 +313,7 @@
               {currentMCQIdx + 1} / {activeMCQs.length}
             </span>
             <button
-              on:click={nextMCQ}
+              onclick={nextMCQ}
               disabled={currentMCQIdx === activeMCQs.length - 1}
               class="flex items-center gap-1.5 text-xs h-8 px-3 rounded-md border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:cursor-not-allowed"
             >

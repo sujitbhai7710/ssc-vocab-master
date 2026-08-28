@@ -43,6 +43,9 @@ SATWIK_DATA_ISSUES.md (written after parser runs).
 
 import os, re, json, glob
 from collections import defaultdict, Counter
+import nltk
+nltk.data.path.append('/home/z/nltk_data')
+from nltk.corpus import wordnet
 
 SATWIK_DIR = "/home/z/my-project/ssc-question-bank/frontend/static/data"
 OUTPUT_DIR = "/home/z/my-project/ssc-vocab-astro/public/data"
@@ -307,6 +310,26 @@ def norm_display(s):
     if not s:
         return ""
     return s[0].upper() + s[1:]
+
+# ─── WordNet synonym/antonym helpers (for GRAY 'added' entries) ──────────
+def get_wordnet_syn_ant(word_low):
+    """Return (synonyms_list, antonyms_list) from WordNet."""
+    syns = set()
+    ants = set()
+    try:
+        synsets = wordnet.synsets(word_low)
+        for s in synsets[:3]:  # use top 3 senses
+            for lemma in s.lemmas():
+                syn_name = lemma.name().replace("_", " ").lower()
+                if syn_name and syn_name != word_low:
+                    syns.add(syn_name)
+                for ant in lemma.antonyms():
+                    ant_name = ant.name().replace("_", " ").lower()
+                    if ant_name and ant_name != word_low:
+                        ants.add(ant_name)
+    except Exception:
+        pass
+    return sorted(syns)[:10], sorted(ants)[:10]
 
 for q in all_questions:
     qtype = q["qtype"]
@@ -584,6 +607,7 @@ for w_low, v in words_db.items():
     # Synonyms/antonyms — TWO colors only
     ss_syn = []
     seen_syn = set()
+    # GREEN (correct): synonyms that appeared in past SSC papers for this word
     for s in synonyms_map.get(w_low, []):
         if s and s != w_low and s not in seen_syn:
             ss_syn.append({"word": s.capitalize(), "status": "correct"})
@@ -593,10 +617,10 @@ for w_low, v in words_db.items():
         if s_low and s_low != w_low and s_low not in seen_syn:
             ss_syn.append({"word": s.capitalize(), "status": "correct"})
             seen_syn.add(s_low)
-    ss_syn = ss_syn[:15]
 
     ss_ant = []
     seen_ant = set()
+    # GREEN (correct): antonyms that appeared in past SSC papers for this word
     for a in antonyms_map.get(w_low, []):
         if a and a != w_low and a not in seen_ant:
             ss_ant.append({"word": a.capitalize(), "status": "correct"})
@@ -606,6 +630,21 @@ for w_low, v in words_db.items():
         if a_low and a_low != w_low and a_low not in seen_ant:
             ss_ant.append({"word": a.capitalize(), "status": "correct"})
             seen_ant.add(a_low)
+
+    # GRAY (added): WordNet synonyms/antonyms NOT in past SSC for this word.
+    # Only add for single words (skip multi-word idiom phrases).
+    if " " not in w_low and len(w_low) >= 2:
+        wn_syns, wn_ants = get_wordnet_syn_ant(w_low)
+        for s in wn_syns:
+            if s not in seen_syn and s != w_low:
+                ss_syn.append({"word": s.capitalize(), "status": "added"})
+                seen_syn.add(s)
+        for a in wn_ants:
+            if a not in seen_ant and a != w_low:
+                ss_ant.append({"word": a.capitalize(), "status": "added"})
+                seen_ant.add(a)
+
+    ss_syn = ss_syn[:15]
     ss_ant = ss_ant[:15]
 
     enriched[w_low] = {

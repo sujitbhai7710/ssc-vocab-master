@@ -1,5 +1,11 @@
 <script lang="ts">
   // src/components/MCQCard.svelte
+  // MCQ display with click-to-reveal feedback:
+  // - Before click: all options are neutral (no green shown)
+  // - After click:
+  //   - Clicked option is correct → that option turns GREEN (✓ Correct)
+  //   - Clicked option is wrong → that option turns RED (✗ Wrong)
+  //   - The actual correct answer (regardless of what user clicked) turns GREEN (✓ Correct)
   import type { QuestionEntry } from '../lib/vocab-data';
 
   let {
@@ -12,7 +18,7 @@
     index: number;
   } = $props();
 
-  // Per-MCQ state: user's selected option index (null = not answered)
+  // Per-MCQ state: user's selected option index (null = not answered yet)
   let selectedIdx = $state<number | null>(null);
 
   const qtypeLabels: Record<string, string> = {
@@ -67,6 +73,13 @@
   function reset() {
     selectedIdx = null;
   }
+
+  // Reset when the question changes (e.g. slider navigation)
+  $effect(() => {
+    // Watch question.id and reset
+    const qid = question.id;
+    selectedIdx = null;
+  });
 </script>
 
 <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg overflow-hidden">
@@ -115,43 +128,45 @@
       </div>
     {/if}
 
-    <!-- Options: clickable -->
+    <!-- Options: clickable. NO answer is shown green BEFORE clicking. -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
       {#each question.options as opt, i}
         {@const letter = String.fromCharCode(65 + i)}
         {@const hi = isHighlighted(opt)}
         {@const isSelected = selectedIdx === i}
         {@const isCorrect = hasCorrectAnswer && i === question.correctIdx}
-        {@const showResult = selectedIdx !== null}
-        {@const thisIsCorrect = isCorrect}
-        {@const thisIsWrong = showResult && isSelected && !isCorrect}
-        {@const thisIsMissedCorrect = showResult && !isSelected && isCorrect}
+        {@const answered = selectedIdx !== null}
+        {@const clickedWrong = answered && isSelected && !isCorrect}
+        {@const clickedCorrect = answered && isSelected && isCorrect}
+        {@const missedCorrect = answered && !isSelected && isCorrect}
         <button
-          on:click={() => handleClick(i)}
-          disabled={showResult}
+          onclick={() => handleClick(i)}
+          disabled={answered}
           class="flex items-center gap-2 px-3 py-2 rounded-md border text-sm transition-colors text-left
-          {thisIsCorrect
+          {clickedCorrect
             ? 'bg-emerald-100 border-emerald-400 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-100 dark:border-emerald-700'
-            : thisIsWrong
+            : clickedWrong
               ? 'bg-rose-100 border-rose-400 text-rose-900 dark:bg-rose-950/50 dark:text-rose-100 dark:border-rose-700'
-              : thisIsMissedCorrect
+              : missedCorrect
                 ? 'bg-emerald-50 border-emerald-300 text-emerald-900 dark:bg-emerald-950/30 dark:text-emerald-100 dark:border-emerald-700'
-                : hi && !showResult
+                : hi && !answered
                   ? 'bg-amber-50 border-amber-300 text-amber-900 dark:bg-amber-950/30 dark:text-amber-100 dark:border-amber-700'
                   : 'bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700 hover:border-orange-400/40 enabled:hover:bg-zinc-50 dark:enabled:hover:bg-zinc-800/50'}">
           <span class="font-mono text-xs font-bold text-zinc-500 w-5">({letter})</span>
           <span class="font-medium capitalize">{opt}</span>
-          {#if thisIsCorrect}
+          {#if clickedCorrect}
             <span class="ml-auto text-[10px] font-bold text-emerald-700 dark:text-emerald-300 uppercase tracking-wide">✓ Correct</span>
-          {:else if thisIsWrong}
+          {:else if clickedWrong}
             <span class="ml-auto text-[10px] font-bold text-rose-700 dark:text-rose-300 uppercase tracking-wide">✗ Wrong</span>
+          {:else if missedCorrect}
+            <span class="ml-auto text-[10px] font-bold text-emerald-700 dark:text-emerald-300 uppercase tracking-wide">✓ Correct</span>
           {/if}
         </button>
       {/each}
     </div>
 
-    <!-- Result + explanation -->
-    {#if selectedIdx !== null}
+    <!-- Result + explanation (only after user clicks) -->
+    {#if selectedIdx !== null && hasCorrectAnswer}
       {#if selectedIdx === question.correctIdx}
         <div class="bg-emerald-50 dark:bg-emerald-950/20 border-l-4 border-emerald-400 dark:border-emerald-700 p-3 rounded-md">
           <div class="text-[10px] uppercase font-semibold text-emerald-700 dark:text-emerald-400 mb-1">🎉 Correct! Well done.</div>
@@ -175,7 +190,7 @@
         </div>
       {/if}
       <button
-        on:click={reset}
+        onclick={reset}
         class="text-xs h-7 px-3 rounded-md border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800 transition-colors"
       >
         Try again
@@ -183,4 +198,3 @@
     {/if}
   </div>
 </div>
-

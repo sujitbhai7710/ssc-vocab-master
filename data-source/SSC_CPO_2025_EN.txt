@@ -1,0 +1,3099 @@
+==============================================================================
+FILE      : SSC_CPO_2025_EN.txt
+SOURCE PDF: ssc_papers/merged/SSC_CPO_2025_EN.pdf
+SUBJECT   : English Comprehension
+QUESTIONS : 389
+==============================================================================
+
+Q1.
+Which of the following options, rearrange the given sentences in a proper sequence to make a
+meaningful passage?
+1. The empire's economy also suffered as the Ottomans lost control over key trade routes, particularly
+with the rise of maritime trade routes controlled by European powers.
+2. In the 19th century, the rise of nationalism within the empire's diverse ethnic groups - Greeks, Serbs,
+Armenians, Arabs, and others - further weakened Ottoman control.
+3. The sultans also grew less powerful as the elite bureaucracy became more entrenched, and
+factionalism within the ruling class created further instability.
+4. One of the key factors in the decline of the Ottoman Empire was the weakening of its military forces
+due to the failure in keeping up with the European military advancements.
+5. The final blow came with its involvement in World War I as the Ottomans sided with the Central
+Powers who were badly defeated by the Allies.
+(A) 2-1-3-4-5
+(B) 5-4-2-3-1
+(C) 3-2-1-4-5
+(D) 4-1-3-2-5
+
+Q2.
+Which of the following options, rearrange the given sentences in a proper sequence to make a meaningful
+passage?
+1. English became the a global lingua franca, constantly evolving by absorbing words from languages worldwide
+and adapting to technological and scientific advancements.
+2. It was quite different from modern English, with a complex grammar system and a vocabulary influenced by
+Norse due to Viking invasions.
+3. Old English was heavily influenced by Germanic languages brought by the Angles, Saxons, and Jutes in the 5th
+century.
+4. The Renaissance and the invention of the printing press helped standardize English spelling and grammar,
+leading to the rise of Early Modern English.
+5. With the Norman Conquest of 1066, a large number of French and Latin words were incorporated in English,
+particularly in government, law and art.
+(A) 3-2-5-4-1
+(B) 2-4-3-5-1
+(C) 2-5-4-3-1
+(D) 1-4-3-2-5
+
+Q3.
+Which of the following options, rearrange the given sentences in a proper sequence to make a
+meaningful passage?
+1. Johann Wolfgang von Goethe is often regarded as one of the most important figures in German
+literature and thought.
+2. His "Theory of Colours", challenged Isaac Newton's ideas by arguing that colour is not merely a
+product of light refraction but also influenced by human perception.
+3. Goethe was also deeply interested in the sciences and his work in the field of colour theory and plant
+morphology was groundbreaking in its time.
+4. Goethe's works, such as the Faust plays, explored themes of human desire, ambition, and the quest
+for knowledge.
+5. Goethe also developed the concept of the "Urpflanze" or "primordial plant," suggesting that all plant
+structures derive from a common, adaptable form.
+(A) 2-4-3-1-5
+(B) 1-4-3-2-5
+(C) 2-5-4-3-1
+(D) 1-5-3-2-4
+
+Q4.
+Which of the given options arranges the following sentences in the most logical sequence to form a
+meaningful paragraph?
+1. Without keystone species, entire ecosystems can collapse, leading to significant biodiversity loss.
+2. The concept of a keystone species was first introduced by ecologist Robert Paine, who studied the effect of
+removing certain predators from an ecosystem.
+3. Keystone species play a disproportionately large role in maintaining the structure and stability of their
+ecosystems.
+4. For example, sea otters help regulate sea urchin populations, preventing the destruction of kelp forests.
+5. This idea revolutionized ecology by highlighting how some species have a far greater impact on their
+environment than others.
+(A) 1-3-2-4-5
+(B) 3-2-5-4-1
+(C) 4-3-2-5-1
+(D) 5-2-3-1-4
+
+Q5.
+Which of the given options arranges the following sentences in the most logical sequence to form
+a meaningful paragraph?
+1. James Watson and Francis Crick, building on Rosalind Franklin's X-ray diffraction images, proposed
+the model in 1953.
+2. Understanding DNA's structure has led to developments in medicine, forensic science, and
+evolutionary research.
+3. Their findings demonstrated how DNA stores genetic information through base pairing.
+4. This discovery revolutionized biology, paving the way for advances in genetic engineering and
+biotechnology.
+5. The discovery of DNA's double-helix structure was a major breakthrough in genetics.
+(A) 5-1-3-4-2
+(B) 2-4-3-1-5
+(C) 3-1-4-2-5
+(D) 1-2-4-3-5
+
+Q6.
+Which of the given options arranges the following sentences in the most logical sequence to form a
+meaningful paragraph?
+1. Ocean acidification poses a severe threat to coral reef ecosystems worldwide.
+2. Carbon dioxide absorbed by the oceans reacts with seawater to form carbonic acid.
+3. Coral reefs support nearly a quarter of all known marine species.
+4. As pH levels drop, corals struggle to build and maintain their calcium carbonate skeletons.
+5. Without urgent action to curb emissions, these biodiversity hotspots face collapse within decades.
+(A) 1-2-3-4-5
+(B) 3-1-2-4-5
+(C) 2-4-1-3-5
+(D) 5-1-3-2-4
+
+Q7.
+A sentence is provided in indirect speech. From the four given options, choose the one that most accurately
+conveys the sentence in its corresponding direct speech.
+The archivist declared that, unless the humidity controls were recalibrated, the papyri could deteriorate beyond
+salvage.
+(A) The archivist declared, "Unless the humidity controls are recalibrated, the papyri could deteriorate beyond salvage."
+(B) The archivist declared, "If humidity controls were recalibrated, papyri would deteriorate."
+(C) The archivist declared, "Unless humidity controls were recalibrated, the papyri could deteriorate beyond salvage."
+(D) The archivist declared, "Unless humidity controls were recalibrated, papyri can get deteriorated beyond salvage."
+
+Q8.
+Select the correct option for the Direct Speech conversion of the sentence below.
+The environmentalist warned that deforestation would trigger irreversible climatic shifts if corrective
+measures were not adopted immediately.
+(A) The environmentalist said, "Deforestation will trigger irreversible climatic shifts if corrective measures are not adopted immediately."
+(B) The environmentalist said, "Deforestation would trigger irreversible climatic shifts if corrective measures were not adopted."
+(C) The environmentalist said, "Deforestation may trigger irreversible climatic shifts unless corrective measures had been adopted."
+(D) The environmentalist said, "Deforestation has triggered irreversible climatic shifts because corrective measures were not adopted."
+
+Q9.
+A sentence is provided in indirect speech. From the four given options, choose the one that most
+accurately conveys the sentence in its corresponding direct speech.
+He mused that, were the glacier to retreat another kilometre, the valley ecosystem could irrevocably
+shift.
+(A) He mused, "If the glacier retreats another kilometre, the valley ecosystem could irrevocably shift."
+(B) He mused, "Were the glacier to retreat another kilometre, the valley ecosystem could irrevocably shift."
+(C) He said, "If glacier retreated another kilometre, ecosystem would shift."
+(D) He mused, "Had the glacier retreated another kilometre, ecosystem could shift."
+
+Q10.
+A sentence is provided in indirect speech. From the four given options, choose the one that most accurately
+conveys the sentence in its corresponding direct speech.
+The official said that only if the forms were submitted on time would the applications be processed.
+(A) "The applications would be processed only if the forms were submitted on time," said the official.
+(B) "Only if the forms were submitted on time would the applications be processed," said the official.
+(C) "If forms are submitted on time, the applications would be processed," said the official.
+(D) "Submit forms on time and your applications will be processed," said the official.
+
+Q11.
+A sentence is provided in indirect speech. From the four given options, choose the one that most
+accurately conveys the sentence in its corresponding direct speech.
+She observed that the appellate bench might overturn the ruling were new exculpatory evidence to
+surface.
+(A) She observed, "The appellate bench may overturn the ruling if new exculpatory evidence surfaces."
+(B) She said, "The appellate bench might overturn the ruling were new exculpatory evidence to surface."
+(C) She observed, "Should new exculpatory evidence surface, the bench has overturned the ruling."
+(D) She said, "Evidence surfaces, ruling might overturn."
+
+Q12.
+Rearrange the following sentences in correct order to make a logical passage.
+1. Governments worldwide are investing heavily in solar and wind energy projects.
+2. This transition is driven by the urgent need to reduce carbon emissions globally.
+3. Fossil fuels have long dominated the global energy supply.
+4. As renewable sources become economically viable, they are gradually replacing traditional alternatives.
+(A) 3-1-2-4
+(B) 2-1-4-3
+(C) 1-3-4-2
+(D) 4-2-1-3
+
+Q13.
+A sentence is provided in indirect speech. From the four given options, choose the one that most
+accurately conveys the sentence in its corresponding direct speech.
+The philosopher remarked that, had the syllogism been valid, the paradox would not have arisen.
+(A) The philosopher said, "If the syllogism is valid, the paradox does not arise."
+(B) The philosopher said, "Had the syllogism been valid, the paradox would not arise."
+(C) The philosopher said, "Had the syllogism been valid, the paradox would not have arisen."
+(D) The philosopher said, "If syllogism is valid, paradox should not arise."
+
+Q14.
+Rearrange the following sentences in correct order to make a logical passage.
+1. Regular reading enhances vocabulary and sharpens critical thinking.
+2. Despite the rise of digital media, books remain an invaluable source of knowledge.
+3. Developing a reading habit from childhood fosters lasting intellectual curiosity.
+4. Libraries and schools play a vital role in nurturing this practice.
+(A) 1-4-2-3
+(B) 2-1-3-4
+(C) 4-2-1-3
+(D) 3-1-4-2
+
+Q15.
+A sentence is provided in indirect speech. From the four given options, choose the one that most
+accurately conveys the sentence in its corresponding direct speech.
+The trainer remarked that participants must arrive 15 minutes early for registration.
+(A) "Participants had to come 15 minutes early for registration," the trainer remarked.
+(B) "Arrive 15 minutes early for registration," the trainer told the participants.
+(C) "You will be registered only if you arrive 15 minutes early," said the trainer.
+(D) "It's mandatory to register before 15 minutes," said the trainer.
+
+Q16.
+What grammatical function does the phrase "utilizing wooden rails to minimize friction" serve in
+the sentence?
+"Early prototypes, such as horse-drawn wagon ways in 16th-century Europe, represented rudimentary
+precursors to modern trains, utilizing wooden rails to minimize friction and facilitate the movement of
+goods..."
+(A) Adjective clause modifying "wagon ways"
+(B) Adverbial phrase explaining the manner
+(C) Noun clause functioning as object
+(D) Gerund phrase acting as the subject
+
+Q17.
+A sentence is provided in direct speech. From the four given options, choose the one that most
+accurately conveys the sentence in its corresponding indirect speech.
+He said, "If I had studied harder, I would have passed the examination."
+(A) He said if he studied harder, he would pass the examination.
+(B) He said that if he had studied harder, he would have passed the examination.
+(C) He told that he would have passed the examination if he studied harder.
+(D) He said that if he studied harder, he would had passed the examination.
+
+Q18.
+Rearrange the following sentences in correct order to make a logical passage.
+1. The final draft is prepared after multiple revisions and feedback sessions.
+2. The first draft is developed and shared with the team for input.
+3. Feedback is analyzed, and changes are made to improve the draft.
+4. The finalized document is shared with the clients for approval.
+(A) 2-1-3-4
+(B) 1-3-2-4
+(C) 3-2-1-4
+(D) 2-3-1-4
+
+Q19.
+A sentence is provided in direct speech. From the four given options, choose the one that most
+accurately conveys the sentence in its corresponding indirect speech.
+The professor said, "Submit your assignments by Friday without fail."
+(A) The professor said to submit their assignments by Friday without fail.
+(B) The professor told that submit assignments by Friday without fail.
+(C) The professor said that submit your assignments by Friday without fail.
+(D) The professor told to submit your assignments by Friday without fail.
+
+Q20.
+A sentence is provided in direct speech. From the four given options, choose the one that most
+accurately conveys the sentence in its corresponding indirect speech.
+She said, "I will call you as soon as I reach the airport."
+(A) She said she would call me as soon as she reached the airport.
+(B) She said she will call me as soon as she reaches the airport.
+(C) She told that she would call you as soon as she reaches the airport.
+(D) She said that I will call you as soon as I reach the airport.
+
+Q21.
+A sentence is provided in indirect speech. From the four given options, choose the one that most
+accurately conveys the sentence in its corresponding direct speech.
+The advisor said that if need be, he would intervene personally.
+(A) "If need be, I will intervene personally," said the advisor.
+(B) "If needs be, I shall personally intervene," said the advisor.
+(C) "If needed, I might intervene," said the advisor.
+(D) "If there is need, I would intervene personally," said the advisor.
+
+Q22.
+Rearrange the following sentences in correct order to make a logical passage.
+1. The team reviews the project deliverables to ensure quality.
+2. A detailed timeline is created for the completion of tasks.
+3. The progress is evaluated based on the defined metrics.
+4. The project is successfully completed within the defined timeline.
+(A) 2-3-1-4
+(B) 1-4-3-2
+(C) 3-2-1-4
+(D) 4-1-2-3
+
+Q23.
+In the sentence
+"Far beyond the superficial glitz of viral videos, contemporary content creators must navigate a labyrinthine
+ecosystem encompassing algorithmic unpredictability..."
+What is the function of the introductory phrase "Far beyond the superficial glitz of viral videos"?
+(A) Appositive phrase
+(B) Adverbial phrase modifying "navigate"
+(C) Prepositional phrase functioning as a noun
+(D) Absolute phrase with implied verb
+
+Q24.
+Convert the sentence provided below from its passive voice structure to an active voice structure:
+The new safety protocols are expected to be implemented by the management before the year-end.
+(A) The new safety protocols implement themselves before the year-end.
+(B) Implementation of the new safety protocols is expected before the year-end.
+(C) The management is expected to implement the new safety protocols before the year-end.
+(D) Expected implementation of safety protocols must occur before the year-end.
+
+Q25.
+A sentence is provided in indirect speech. From the four given options, choose the one that most
+accurately conveys the sentence in its corresponding direct speech.
+He told me that he had been working on the project since morning.
+(A) He said, "I have been working on the project since morning."
+(B) He said, "I was working on the project since morning."
+(C) He said, "I had been working on the project since morning."
+(D) He said, "I am working on the project since morning."
+
+Q26.
+Benita: I had such a terrible fight with Samira last night. I can't believe what I said.
+Richard: I don't need to hear all about it. Some things are better left unsaid.
+What does Richard mean when he says, "Some things are better left unsaid"?
+(A) Some things should remain private and not be spoken about.
+(B) Everything should always be openly discussed.
+(C) Speaking about problems will always make them worse.
+(D) It's best to forget everything after a fight.
+
+Q27.
+Rearrange the following sentences in correct order to make a logical passage.
+1. The employee training program is created to improve skills.
+2. Feedback is gathered after training to assess effectiveness.
+3. The program is implemented and employees begin their training.
+4. Adjustments are made based on the feedback collected.
+(A) 1-4-2-3
+(B) 3-2-4-1
+(C) 1-3-2-4
+(D) 2-1-3-4
+
+Q28.
+Rearrange the following sentences in correct order to make a logical passage.
+1. However, it requires careful planning and execution.
+2. Launching a new product can be an exciting venture.
+3. Market research is the first crucial step to ensure success.
+4. This helps in understanding customer needs and competitive landscape.
+(A) 2-4-1-3
+(B) 2-1-3-4
+(C) 4-3-1-2
+(D) 2-3-1-4
+
+Q29.
+Rearrange the following sentences in correct order to make a logical passage.
+1. This can lead to environmental degradation.
+2. Rapid industrialization often brings economic growth.
+3. However, it frequently comes at a significant cost to the environment.
+4. Strict regulations are needed to mitigate these negative impacts.
+(A) 2-1-3-4
+(B) 3-4-2-1
+(C) 2-3-1-4
+(D) 2-4-1-3
+
+Q30.
+Identify the grammatical function of the phrase "offering a direct conduit between creator and audience" in
+the sentence:
+"The platform enables unparalleled autonomy, offering a direct conduit between creator and audience, unmediated
+by corporate gatekeepers."
+(A) Adjective Phrase
+(B) Present participial phrase functioning as an adverb
+(C) Noun phrase acting as an object
+(D) Absolute phrase modifying the subject
+
+Q31.
+Convert the sentence provided below from its passive voice structure to an active voice structure:
+The policy is supposed to have been drafted by external advisors in complete secrecy.
+(A) It was supposed that the advisors externally drafted the policy.
+(B) The policy drafting by external advisors was a secret assumption.
+(C) External advisors are supposed to have drafted the policy in complete secrecy.
+(D) Someone supposed that secrecy was used to draft the policy.
+
+Q32.
+A sentence is provided in indirect speech. From the four given options, choose the one that most
+accurately conveys the sentence in its corresponding direct speech.
+He said that he would be moving to the capital soon.
+(A) He said, "I would move to the capital soon."
+(B) He said, "I will be moving to the capital soon."
+(C) He said, "I shall move to the capital soon."
+(D) He said, "I was moving to the capital soon."
+
+Q33.
+Change the following from active to passive:
+The researchers were analysing the sediment samples collected from the ocean floor.
+(A) The sediment samples collected from the ocean floor have been analysed by the researchers.
+(B) The sediment samples collected from the ocean floor were being analysed by the researchers.
+(C) The sediment samples collected from the ocean floor had been analysed by the researchers.
+(D) The sediment samples collected from the ocean floor was analysed by the researchers.
+
+Q34.
+A sentence is provided in direct speech. From the four given options, choose the one that most
+accurately conveys the sentence in its corresponding indirect speech.
+He said to me, "Where have you been all this while?"
+(A) He asked me where had I been all that while.
+(B) He asked me where I have been all that while.
+(C) He asked me where I had been all that while.
+(D) He asked where I was being all this while.
+
+Q35.
+A sentence is provided in direct speech. From the four given options, choose the one that most
+accurately conveys the sentence in its corresponding indirect speech.
+He said, "I wish I had not wasted those years."
+(A) He said he wished he had not wasted those years.
+(B) He said he wished not to waste those years.
+(C) He said that he did not waste those years.
+(D) He wished that he would not waste those years.
+
+Q36.
+Convert the sentence provided below from its passive voice structure to an active voice structure:
+A new strategy had been devised by the marketing team to increase sales.
+(A) The marketing team has devised a new strategy to increase sales.
+(B) The marketing team devises a new strategy to increase sales.
+(C) The marketing team had devised a new strategy to increase sales.
+(D) The marketing team was devising a new strategy to increase sales.
+
+Q37.
+Convert the sentence provided below from its passive voice structure to an active voice structure:
+The documents have been being reviewed by the compliance team for several weeks.
+(A) The compliance team has reviewed the documents for weeks.
+(B) The compliance team has been reviewing the documents for several weeks.
+(C) The documents were being reviewed for several weeks.
+(D) The compliance team had reviewed the documents weekly.
+
+Q38.
+Rearrange the following sentences to form a meaningful passage:
+1. Philosophical scepticism questions whether knowledge is possible.
+2. This position originated in ancient Greek thought.
+3. Later, it influenced Enlightenment thinkers.
+4. Its legacy persists in modern epistemology.
+(A) 1-3-2-4
+(B) 2-1-3-4
+(C) 2-4-3-1
+(D) 1-2-3-4
+
+Q39.
+Convert the sentence provided below from its passive voice structure to an active voice structure:
+It is presumed that the documents had been tampered with by internal staff before the audit.
+(A) Internal staff had tampered with the documents before the audit.
+(B) The audit presumed tampering by staff.
+(C) The documents were tampered with before the audit.
+(D) Presumptions were made regarding document tampering.
+
+Q40.
+Convert the sentence provided below from its passive voice structure to an active voice structure:
+Was the issue being handled by the legal team when the notice arrived?
+(A) Did the legal team handle the issue when the notice arrived?
+(B) Was the legal team handling the issue when the notice arrived?
+(C) Had the legal team handled the issue when the notice arrived?
+(D) Does the legal team handle the issue when the notice arrived?
+
+Q41.
+In the sentence:
+"The annals of mountaineering history are adorned with figures whose daring transcended mere
+athleticism..."
+What is the grammatical role of the clause "whose daring transcended mere athleticism"
+(A) Adjective clause modifying "figures"
+(B) Adverbial clause modifying "history"
+(C) Noun clause acting as the subject
+(D) Adjective phrase modifying "mountaineering"
+
+Q42.
+Convert the sentence provided below from its passive voice structure to an active voice structure:
+The financial records are being audited by the regulatory authority.
+(A) The regulatory authority audits the financial records.
+(B) The regulatory authority had audited the financial records.
+(C) The regulatory authority is auditing the financial records.
+(D) The regulatory authority has been auditing the financial records.
+
+Q43.
+A sentence is provided in direct speech. From the four given options, choose the one that most
+accurately conveys the sentence in its corresponding indirect speech.
+She said, "I was going to the market."
+(A) She said that she had been going to the market.
+(B) She said she was gone to the market.
+(C) She said she is going to the market.
+(D) She said she had gone to the market.
+
+Q44.
+In the following question, a sentence with a blank is given, followed by five words labeled (1),
+(2), (3), (4), and (5).
+Choose the word that fills the blank appropriately in the context of the passage.
+What does 'nostalgia' most nearly mean in this context? (4)
+(A) Resentment
+(B) Longing
+(C) Anger
+(D) Indifference
+
+Q45.
+Find the part of the sentence that contains an error:
+In response to an alarming spike in fraudulent transactions, (1)/ the bank introduced mechanism (2)/
+to verify customer identities using two-factor authentication, (3)/ biometric checks, and behavioural
+patterns. (4)
+(A) (1)
+(B) (2)
+(C) (3)
+(D) (4)
+
+Q46.
+Change the following from active to passive:
+The intelligence unit had been tracking the suspect's communications covertly for months.
+(A) The suspect's communications had covertly tracked the intelligence unit.
+(B) The suspect's communications had been tracked covertly by the intelligence unit for months.
+(C) Covert tracking of communications had occurred over months.
+(D) The suspect's communications were kept under surveillance.
+
+Q47.
+A sentence is provided in direct speech. From the four given options, choose the one that most
+accurately conveys the sentence in its corresponding indirect speech.
+Tom said, "I have been working all day."
+(A) Tom said he had worked all day.
+(B) Tom said he had been working all day.
+(C) Tom said he has been working all day.
+(D) Tom said he was working all day.
+
+Q48.
+Convert the sentence provided below from its passive voice structure to an active voice structure:
+A complaint was filed against the director by the shareholders.
+(A) The shareholders had filed a complaint against the director.
+(B) The shareholders were filing a complaint against the director.
+(C) The shareholders filed a complaint against the director.
+(D) The director complained to the shareholders.
+
+Q49.
+A sentence is provided in direct speech. From the four given options, choose the one that most
+accurately conveys the sentence in its corresponding indirect speech.
+He said, "My brother is sleeping."
+(A) He said his brother is sleeping.
+(B) He said that his brother was sleeping.
+(C) He said that his brother had slept.
+(D) He said his brother has been sleeping.
+
+Q50.
+Select the sentence containing the homonym of the highlighted word:
+The archivist catalogued each siglum to identify its manuscript source.
+(A) The palaeographer noted each siglum in the margin of the codex.
+(B) The surgeon examined the siglum's tissue under the microscope.
+(C) The bibliographer cross-referenced each siglum against the critical edition.
+(D) The scribe inscribed a siglum beside the disputed verse.
+
+Q51.
+Find the part of the sentence that contains an error:
+What the council could not anticipate (1)/ was that the regulatory changes, sudden as they seemed, (2)/
+were in fact a culmination of several years (3)/ of there being dissatisfaction within the sector. (4)
+(A) (1)
+(B) (2)
+(C) (3)
+(D) (4)
+
+Q52.
+Select the sentence containing the homonym of the highlighted word:
+The architect measured the chancel before beginning the restoration work.
+(A) The priest stood at the entrance of the chancel to greet worshippers.
+(B) The decorator fitted new lighting within the chancel.
+(C) The painting was commissioned for display in the chancel.
+(D) The pharmacologist noted the unstable chancel compound in her report.
+
+Q53.
+Convert the sentence provided below from its passive voice structure to an active voice structure:
+The offer had not been expected to be withdrawn at the last moment.
+(A) Someone had not expected the offer to be withdrawn at the last moment.
+(B) The withdrawal of the offer was not expected.
+(C) The offer withdrew itself unexpectedly.
+(D) Nobody expected that the offer withdrew.
+
+Q54.
+Read the passage and answer the questions.
+According to the passage, what is the primary purpose of the caloric reserves accumulated during the
+Antarctic feeding period?
+(A) To maintain body temperature during extreme cold
+(B) To sustain the return migration and subsequent reproduction
+(C) To enable magnetic field navigation
+(D) To develop feather structure for minimal drag
+
+Q55.
+A sentence is provided in direct speech. From the four given options, choose the one that most accurately
+conveys the sentence in its corresponding indirect speech.
+They said, "We need more time."
+(A) They said they needed more time.
+(B) They said they need more time.
+(C) They said they had need more time.
+(D) They said that we needed more time.
+
+Q56.
+Select the sentence containing the homonym of the highlighted word:
+The liturgical objects were arranged upon the marble mensa.
+(A) The congregation gathered around the gilded mensa for the ceremony.
+(B) The metalworker repaired the hinged joint of the mensa in the foundry.
+(C) The bishop consecrated the mensa before the Easter service.
+(D) The restorer carefully cleaned the ancient mensa's surface with linen.
+
+Q57.
+Convert the sentence provided below from its passive voice structure to an active voice structure:
+Has the proposal been reviewed by the advisory board yet?
+(A) Is the advisory board reviewing the proposal?
+(B) Did the advisory board review the proposal already?
+(C) Has the advisory board reviewed the proposal yet?
+(D) The proposal is under review by the advisory board.
+
+Q58.
+In the following question, a sentence with a blank is given, followed by five words labeled (1),
+(2), (3), (4), and (5).
+Choose the word that fills the blank appropriately in the context of the passage.
+Choose the right tense/form. (2)
+(A) navigates
+(B) navigating
+(C) navigate
+(D) navigated
+
+Q59.
+In the following question, a sentence with a blank is given, followed by five words labeled (1),
+(2), (3), (4), and (5).
+Choose the word that fills the blank appropriately in the context of the passage.
+Which modal/tense works best? (3)
+(A) will occur
+(B) occurs
+(C) occurring
+(D) occur
+
+Q60.
+Find the part of the sentence that contains an error:
+Among all the diplomatic envoys stationed in the conflict zone, (1)/ she is undoubtedly more trusted
+and relied upon (2)/ by both factions of the civil war (3)/ than any other ambassador. (4)
+(A) (1)
+(B) (2)
+(C) (3)
+(D) (4)
+
+Q61.
+Change the following from active to passive:
+The government is said to have downplayed the findings deliberately.
+(A) The findings are said to be downplayed by the government.
+(B) It is said that the findings were downplayed deliberately.
+(C) The findings are said to have been downplayed deliberately by the government.
+(D) Deliberate findings were said to be downplayed by the government.
+
+Q62.
+Change the following from active to passive:
+Can the algorithm classify the images without supervision?
+(A) Can the images being classified by the algorithm without supervision?
+(B) Can the images be classified by the algorithm without supervision?
+(C) Can the images been classified by the algorithm without supervision?
+(D) Can the images have been classified by the algorithm without supervision?
+
+Q63.
+Choose the correct Active Voice form of the given sentence:
+The flight announcement was being made by the staff when I entered.
+(A) The staff made the flight announcement when I entered.
+(B) The flight announcement made the staff when I entered.
+(C) The staff was making the flight announcement when I entered.
+(D) The staff has made the flight announcement when I entered.
+
+Q64.
+Select the sentence containing the homonym of the highlighted word:
+The ancient patera was discovered near the temple ruins.
+(A) The curator displayed a silver patera from Hellenistic Syria.
+(B) The historian cited a patera in a Latin votive inscription.
+(C) The botanist studied the shape of the leaf's patera.
+(D) The archaeologist cataloged a bronze patera for libation.
+
+Q65.
+Choose the correct one-word substitution for the blank in the sentence below.
+Although Priya had more than enough money, she compulsively took merchandise from shops without
+paying, indicating she might be a ______.
+(A) misanthrope
+(B) kleptomaniac
+(C) narcissist
+(D) hypochondriac
+
+Q66.
+Select the sentence containing the homonym of the highlighted word:
+The theologian referenced kenosis in Christological debates.
+(A) The mystic practiced kenosis as spiritual self-emptying.
+(B) The sailor recorded kenosis as a form of water purging.
+(C) The sermon concluded with a reflection on kenosis.
+(D) The tract explored kenosis in Eastern and Western thought.
+
+Q67.
+Choose the correct Active Voice form of the given sentence:
+The roof had been painted by the workers before the rain started.
+(A) The workers painted the roof before the rain started.
+(B) The workers had painted the roof before the rain started.
+(C) The roof paints the workers before the rain started.
+(D) The workers were painting the roof before the rain started.
+
+Q68.
+Change the following from active to passive:
+Have the archivists digitized the medieval manuscripts yet?
+(A) Were the medieval manuscripts digitized by the archivists yet?
+(B) Have the medieval manuscripts been digitized by the archivists yet?
+(C) Are the medieval manuscripts being digitized by the archivists yet?
+(D) Had the medieval manuscripts been digitized by the archivists yet?
+
+Q69.
+Choose the correct direct sentence of the following sentence.
+He said that she had been trying to reach him for several days.
+(A) He said, "She has been trying to reach me for several days."
+(B) He said, "She tried to reach me for several days."
+(C) He said, "She was trying to reach me for several days."
+(D) He said, "She is trying to reach me for several days."
+
+Q70.
+Find the part of the sentence that contains an error:
+If the contractor fail to submit (1)/ the revised proposal within the stipulated deadline, (2)/ the client
+reserves the right (3)/ to terminate the agreement immediately. (4)
+(A) (1)
+(B) (2)
+(C) (3)
+(D) (4)
+
+Q71.
+Choose the correct direct sentence of the following sentence.
+He said that they had not been given any clear instructions.
+(A) He said, "They are not given any clear instructions."
+(B) He said, "They were not given any clear instructions."
+(C) He said, "They had not been given any clear instructions."
+(D) He said, "They have been given any clear instructions."
+
+Q72.
+Change the following from active to passive:
+The policy required citizens to link their ID with mobile numbers.
+(A) Citizens were required by the policy to link their ID with mobile numbers.
+(B) Citizens had to link their ID with mobile numbers.
+(C) Linking of ID to mobile numbers was required from citizens.
+(D) It was required by the policy to link ID to mobile numbers.
+
+Q73.
+Choose the correct direct sentence of the following sentence.
+He said that the committee had decided to postpone the event.
+(A) He said, "The committee has decided postpone the event."
+(B) He said, "The committee had decided to postpone the event."
+(C) He said, "The event was postponed by the committee."
+(D) He said, "The committee would postpone the event."
+
+Q74.
+Choose the most appropriate one-word substitution for the sentence below.
+The religious leader who publicly condemned materialism was privately found to own multiple luxury
+properties—a glaring display of ____.
+(A) ostentation
+(B) complacency
+(C) hypocrisy
+(D) arrogance
+
+Q75.
+Choose the correct one-word substitution for the blank in the sentence below.
+Despite the rise of digital art, Maya chose to specialize in _______, dedicating hours to perfecting each
+elegant stroke by hand.
+(A) typography
+(B) calligraphy
+(C) cartography
+(D) photography
+
+Q76.
+Choose the correct Active Voice form of the given sentence:
+The furniture is being shifted by workers to the other block.
+(A) Workers are shifting the furniture to the other block.
+(B) The furniture shifts the workers to the other block.
+(C) Workers were shifting the furniture to the other block.
+(D) Workers have shifted the furniture to the other block.
+
+Q77.
+Read the passage and answer the questions.
+Which of the following sentences contains a relative clause?
+(A) "Arctic terns depart their breeding grounds each year."
+(B) "The terns, which can travel over seventy thousand kilometres annually, are remarkable navigators."
+(C) "Caloric reserves help sustain the return migration."
+(D) "Feathers are engineered for minimal drag."
+
+Q78.
+Find the part of the sentence that contains an error:
+The delegation, which the ambassador had personally selected, (1)/ were scheduled to depart (2)/ on the
+morning of the summit (3)/ after a brief ceremonial address. (4)
+(A) (1)
+(B) (2)
+(C) (3)
+(D) (4)
+
+Q79.
+Select the sentence containing the homonym of the highlighted word:
+The conservator repaired the fillet on the old manuscript binding.
+(A) The chef pan-seared a salmon fillet with herbs.
+(B) The bookbinder stitched the leather fillet tightly.
+(C) The fillet was traced in gold on the spine.
+(D) The medieval fillet indicated title divisions.
+
+Q80.
+Select the sentence containing the homonym of the highlighted word:
+The scholar referred to a rare tract on Neo-Platonism.
+(A) The preacher recited from a tract during his sermon.
+(B) The farmer tilled the entire tract before sowing.
+(C) The manuscript's tract discussed early Christian mysticism.
+(D) The teacher distributed a moral tract to students.
+
+Q81.
+Select the sentence containing the homonym of the highlighted word:
+The sculptor carved a mensa for the altar from travertine.
+(A) The curator displayed a Roman mensa used in funerary rites.
+(B) The monk rested his arms on the marble mensa.
+(C) The chef placed the tureen on the mensa.
+(D) The logic student solved the truth table using a mensa.
+
+Q82.
+Change the following from active to passive:
+Will investors have perceived the subtle shift in policy?
+(A) Will the subtle shift in policy be perceived by investors?
+(B) Will the subtle shift in policy have perceived by investors?
+(C) Will the subtle shift in policy has been perceived by investors?
+(D) Will the subtle shift in policy have been perceived by investors?
+
+Q83.
+Find the part of the sentence that contains an error:
+She speaks more persuasively than she writes, (1)/ which, according to her critics, (2)/ makes her a
+better orator rather than (3)/ an accomplished communicator. (4)
+(A) (1)
+(B) (2)
+(C) (3)
+(D) (4)
+
+Q84.
+Choose the correct indirect speech of the sentence:
+She said, "Don't you understand the seriousness of the matter?"
+(A) She asked why I didn't understand the serious matter.
+(B) She asked whether I don’t understand the seriousness of the matter.
+(C) She asked if I understood the seriousness of the matter.
+(D) She asked do I understand how serious it is.
+
+Q85.
+Select the sentence containing the homonym of the highlighted word:
+The chant included a solemn sursum near the offertory.
+(A) The musicologist analyzed the sursum tones in Gregorian chant.
+(B) The botanist labeled the root as sursum-curving.
+(C) The cantor raised his arms at the sursum.
+(D) The choir followed the rubric leading into the sursum.
+
+Q86.
+Which of the following best captures the primary tension described in the passage?
+(A) The tension between traditional media and decentralized platforms
+(B) The tension between the glamorized perception of content creation and its actual challenges
+(C) The tension between corporate sponsorships and independent artistry
+(D) The tension between financial rewards and creative compromises
+
+Q87.
+Find the part of the sentence that contains an error:
+The committee submitted a unanimous report (1)/ recommending that the project be reviewed (2)/ by an
+independent body (3)/ before a implementation could begin. (4)
+(A) (1)
+(B) (2)
+(C) (3)
+(D) (4)
+
+Q88.
+Select the sentence containing the homonym of the highlighted word:
+The illuminated antiphonary contained Advent chants.
+(A) The singer read directly from the antiphonary.
+(B) The musicologist translated a medieval antiphonary.
+(C) The engineer downloaded an antiphonary for circuit patterns.
+(D) The archivist restored the parchment antiphonary.
+
+Q89.
+Choose the correct one-word substitution for the blank in the sentence below.
+Despite knowing the importance of the assignment, Rahul kept delaying it until the last minute — a
+clear case of _______.
+(A) exaggeration
+(B) procrastination
+(C) temptation
+(D) negotiation
+
+Q90.
+Read the passage and answer the questions.
+Identify the sentence from the passage which is in the passive voice:
+(A) "The terns exploit the region's extraordinary productivity."
+(B) "Juveniles demonstrate an innate cartographic instinct."
+(C) "Their migrations are shaped by evolutionary pressures."
+(D) "Metabolic suppression enables sustained flight."
+
+Q91.
+Choose the correct direct sentence of the following sentence.
+The scientist said that the results had been surprising.
+(A) The scientist said, "The results has been surprising."
+(B) The scientist said, "The results had been surprising."
+(C) The scientist said, "The results are surprising."
+(D) The scientist said, "The results were surprising."
+
+Q92.
+Identify the tense and voice used in the sentence:
+"Early prototypes, such as horse-drawn wagon ways in 16th-century Europe, represented rudimentary
+precursors to modern trains..."
+(A) Past Perfect Passive
+(B) Simple Past Active
+(C) Present Perfect Active
+(D) Past Continuous Passive
+
+Q93.
+Choose the most suitable option to replace the highlighted part of the sentence:
+The teacher explained the topic so clearly that no one had doubts.
+(A) very clearly that no one had doubts
+(B) so clearly that no one had any doubts
+(C) in such clear way that no doubt remained
+(D) clearly so that no doubts were there
+
+Q94.
+Find the part of the sentence that contains an error:
+He took such an offense at the remark (1)/ that he refused to speak with the manager (2)/ despite repeated
+requests made (3)/ on behalf of the HR department. (4)
+(A) (1)
+(B) (2)
+(C) (3)
+(D) (4)
+
+Q95.
+Change the following from active to passive:
+The committee is reviewing the annual budget proposal.
+(A) The annual budget proposal has been reviewed by the committee.
+(B) The annual budget proposal was reviewed by the committee.
+(C) The annual budget proposal is being reviewed by the committee.
+(D) The annual budget proposal will be reviewed by the committee.
+
+Q96.
+Which of the following best summarizes the primary argument of the passage?
+(A) Mountaineering is solely a test of physical endurance.
+(B) Mountaineering history is dominated by Western adventurers.
+(C) Mountaineering represents a confluence of physical challenge, cultural identity, and philosophical exploration.
+(D) Technological advancements have made mountaineering effortless.
+
+Q97.
+What does the word "dialectic" most nearly imply in the phrase:
+"...each ascent a dialectic between human fragility and the immutable majesty of the mountains"?
+(A) A silent observation
+(B) A hostile confrontation
+(C) A dialogue or interplay between opposing forces
+(D) A scientific measurement
+
+Q98.
+Choose the correct indirect speech of the sentence:
+The general said, "May our nation always remain free."
+(A) The general said our nation may always remain free.
+(B) The general expressed the wish that their nation might always remain free.
+(C) The general hoped that his nation will remain free.
+(D) The general wished the nation would stay free.
+
+Q99.
+Select the sentence containing the homonym of the highlighted word:
+The bishop outlined the duties of a prebendary.
+(A) The prebendary read the Epistle during Sunday Mass.
+(B) The accountant filed taxes for a prebendary trust fund.
+(C) The canon and prebendary sat near the choir.
+(D) The cathedral housed relics named after a prebendary.
+
+Q100.
+Select the sentence containing the homonym of the highlighted word:
+The cleric wore a pallium for the festival.
+(A) The theologian interpreted the pallium as a symbol of grace.
+(B) The physician noted a pallium over the patient's brain.
+(C) The vestment included the ancient pallium from Rome.
+(D) The bishop draped the pallium ceremonially.
+
+Q101.
+Choose the correct indirect speech of the sentence:
+He said, "Whoever did this must be held accountable."
+(A) He said that whoever did it must be held to account.
+(B) He said that the one who did this must be accounted.
+(C) He said that whoever had done that must be held accountable.
+(D) He said that whoever did this must have held accountable.
+
+Q102.
+Choose the correct indirect speech of the sentence:
+The man said, "Do you not realize how serious this is?"
+(A) The man asked if I did not realize how serious that was.
+(B) The man asked me did I not realize how serious it was.
+(C) The man told I don't realize how serious this is.
+(D) The man asked whether I did realize how serious this is.
+
+Q103.
+Choose the correct one-word substitution for the blank in the sentence below.
+Despite being wealthy, Rohan couldn't resist stealing small items from stores, suggesting he might be a
+______.
+(A) philanthropist
+(B) kleptomaniac
+(C) pessimist
+(D) hypochondriac
+
+Q104.
+Choose the correct direct sentence of the following sentence.
+He said that the lights had gone off during the storm.
+(A) He said, "The lights go off during the storm."
+(B) He said, "The lights did go off during the storm."
+(C) He said, "The lights went off during the storm."
+(D) He said, "The lights gone off during the storm."
+
+Q105.
+Select the sentence containing the homonym of the highlighted word:
+The sculpture's patina conveyed a sense of antiquity.
+(A) The vase developed a green patina from oxidation.
+(B) Her reputation had the patina of elegance.
+(C) The copper roof bore a classic patina.
+(D) Patina formed due to prolonged exposure to salt air.
+
+Q106.
+Choose the correct indirect speech of the sentence:
+She said, "Why didn't anyone inform me about the change?"
+(A) She asked why had no one informed her about the change.
+(B) She said why was no one informing her.
+(C) She asked why no one had informed her about the change.
+(D) She asked why didn't anyone inform her about the change.
+
+Q107.
+Direction: Identify the segment that contains a grammatical error.
+Milk products (A)/was provide protein (B)/for a nutritionally (C)/balanced diet to everyone(D).
+(A) was provide protein (B)
+(B) Milk products (A)
+(C) balanced diet to everyone(D)
+(D) for a nutritionally (C)
+
+Q108.
+Change the following from active to passive:
+No one could have anticipated such a diplomatic backlash.
+(A) Such a diplomatic backlash could not be anticipated.
+(B) Such a diplomatic backlash have not been anticipated.
+(C) Such a diplomatic backlash was unanticipated.
+(D) Such a diplomatic backlash could not have been anticipated.
+
+Q109.
+Find the part of the sentence that contains an error:
+The manager asked the interns (1)/ to compile the data accurately and quick (2)/ for tomorrow's
+presentation (3)/ before the end of the day. (4)/
+(A) (1)
+(B) (2)
+(C) (3)
+(D) (4)
+
+Q110.
+Choose the correct meaning of the idiom 'burned the midnight oil' as used in the sentence below:
+Jonathan and his friends burned the midnight oil to complete their final project.
+(A) Worked late at night
+(B) Slept well
+(C) Celebrated
+(D) Lit candles
+
+Q111.
+Change the following from active to passive:
+People found her explanation lacking in coherence.
+(A) Her explanation lacked coherence when people found it.
+(B) It was found by people that her explanation lacked coherence.
+(C) Her explanation was found to be lacking in coherence.
+(D) Her coherence was lacking when it was explained.
+
+Q112.
+Choose the correct indirect speech of the sentence:
+He said to his brother, "Please stop playing loud music."
+(A) He requested his brother to stop playing loud music.
+(B) He asked his brother please to stop loud music.
+(C) He said his brother to stop playing music.
+(D) He told his brother that please stop the music.
+
+Q113.
+Find the part of the sentence that contains an error:
+The consultant suggested that the firm (1)/ discontinues the outdated product line (2)/ so as to focus more
+resources (3)/ on innovation. (4)/
+(A) (1)
+(B) (2)
+(C) (3)
+(D) (4)
+
+Q114.
+Select the correct Passive form of the given sentence.
+When will the manager attend the programme?
+(A) When will the programme be attended by the manager?
+(B) When would the programme be attended by the manager?
+(C) When can the programme be attended by the manager?
+(D) When should the programme be attended by the manager?
+
+Q115.
+Select the most appropriate meaning of the highlighted idiom in the following sentence.
+If you want to participate in the Olympics, you need to hit the ground running.
+(A) Started working energetically
+(B) Took a break
+(C) Made a mistake
+(D) Fell down
+
+Q116.
+Change the following from active to passive:
+They will not tolerate procedural anomalies.
+(A) Procedural anomalies will not be tolerated by them.
+(B) Procedural anomalies are not being tolerated by them.
+(C) Procedural anomalies would not be tolerated by them.
+(D) Procedural anomalies have not been tolerated by them.
+
+Q117.
+Select the most appropriate option to substitute the highlighted segment in the given sentence.
+My younger brother will teaches english language to the graduate students.
+(A) will teach
+(B) can teach
+(C) could teach
+(D) would have teach
+
+Q118.
+Choose the most suitable option to replace the highlighted part of the sentence:
+The committee have submitted its final report.
+(A) has submitted its final report
+(B) have submitted their final reports
+(C) has submitted their final report
+(D) had submitted its final report
+
+Q119.
+Choose the correct direct sentence of the following sentence.
+They said that they had completed the project.
+(A) They said, "We completed the project."
+(B) They said, "We complete the project."
+(C) They said, "We have been completing the project."
+(D) They said, "They completed the project."
+
+Q120.
+Choose the most suitable option to replace the highlighted part of the sentence:
+The information provided by the two witnesses are contradicting each other.
+(A) is contradicting
+(B) are contradict
+(C) were contradicting
+(D) is contradicted
+
+Q121.
+Direction: Identify the segment that contains a grammatical error.
+In my entire life(A)/one of the best gift (B)/ I have received (C)/ is the car(D).
+(A) one of the best gift (B)
+(B) Entire in my life(A)
+(C) I have received (C)
+(D) is the car(D)
+
+Q122.
+What is the central ethical concern raised in the passage?
+A passage is given with five questions following it.
+(A) AI's ability to outperform humans
+(B) Lack of data for AI training
+(C) Delegating moral responsibility to non-conscious systems
+(D) AI replacing engineers in key jobs
+
+Q123.
+Choose the most suitable option to replace the highlighted part of the sentence:
+The patient has suffered from deafness at one ear since childhood.
+(A) deafness from one ear
+(B) deafness in one ear
+(C) deafness of one ear
+(D) deafness on one ear
+
+Q124.
+Find the part of the sentence that contains an error:
+The economist's analysis (1)/ was replete with insights (2)/ yet lacked the adequate context (3)/ for
+policy formulation. (4)/
+(A) (1)
+(B) (2)
+(C) (3)
+(D) (4)
+
+Q125.
+Choose the correct meaning of the idiom 'off one's rocker' in the sentence:
+Anyone who quits this job without a backup must be off their rocker.
+(A) Mentally unstable or irrational
+(B) Physically tired
+(C) Ready to retire
+(D) Emotionally strong
+
+Q126.
+Select the correct meaning of the idiom 'kick the bucket' as used in the sentence below:
+He passed on all his belongings to his nephew before he kicked the bucket.
+(A) Went on vacation
+(B) Died
+(C) Bought a farm
+(D) Got angry
+
+Q127.
+Improve the following sentence by replacing the highlighted words with the correct phrasal verb.
+After months of training, she was ready to go through the final exam.
+(A) go in for
+(B) go off
+(C) went through
+(D) go along
+
+Q128.
+Select the sentence containing the homonym of the highlighted word:
+The dove flew above the trees with grace.
+(A) She watched the dove as it landed.
+(B) A dove perched on the window sill.
+(C) He saw the dove headfirst into the challenge.
+(D) The diver dove deep into the ocean.
+
+Q129.
+Choose the most suitable option to replace the highlighted part of the sentence:
+The scientist explained the phenomenon in layman's language.
+(A) in the language of layman
+(B) using ordinary terms
+(C) in layman's concepts
+(D) to ordinary people
+
+Q130.
+Select the sentence containing the homonym of the highlighted word:
+He had a strong will to overcome adversity.
+(A) They signed a will before retirement.
+(B) The king ruled with willful pride.
+(C) She was willing to help without reward.
+(D) The team showed great willpower.
+
+Q131.
+Select the most appropriate option to substitute the highlighted segment in the given sentence.
+After a moment's thought, a brilliant idea strike him like lightning.
+(A) struck
+(B) striking
+(C) strikes
+(D) will struck
+
+Q132.
+Find the part of the sentence that contains an error:
+We look forward to meet (1)/ you at the orientation session (2)/ scheduled for next Tuesday (3)/ in the
+seminar hall. (4)
+(A) (1)
+(B) (2)
+(C) (3)
+(D) (4)
+
+Q133.
+In the following question, a sentence with a blank is given, followed by five words labeled (1),
+(2), (3), (4), and (5).
+"Assimilation" most nearly means: (5)
+(A) Preservation
+(B) Segregation
+(C) Absorption
+(D) Rejection
+
+Q134.
+Fill in the blank with the appropriate article.
+Many experts argue that without _____ unequivocal global consensus, climate mitigation efforts will be
+severely undermined.
+(A) a
+(B) an
+(C) the
+(D) no article
+
+Q135.
+Direction: Identify the segment that contains a grammatical error.
+This is the man(A) / who I think (B)/ had stolen the bag(C)/ in the train(D).
+(A) who I think (B)
+(B) This is the man(A)
+(C) had stolen the bag(C)
+(D) in the train(D)
+
+Q136.
+Choose the most suitable option to replace the highlighted part of the sentence:
+It is high time the management must address the employees' grievances.
+(A) must addressed
+(B) addressing
+(C) addressed
+(D) must be addressing
+
+Q137.
+Read the passage and answer the questions.
+Which word from the passage is formed from Greek roots, one meaning 'self' and another meaning 'law' or
+'rule'?
+(A) physiological
+(B) autonomous
+(C) metabolic
+(D) cartographic
+
+Q138.
+Select the most appropriate option to substitute the highlighted segment in the given sentence.
+Now, the maid is clean the floor which is in the second stair.
+(A) is cleaning
+(B) cleaning
+(C) has cleaned
+(D) cleans
+
+Q139.
+Improve the sentence using the correct phrasal verb of the highlighted words.
+The students decided to call away the annual picnic owing to the sudden downpour.
+(A) call out
+(B) call off
+(C) call up
+(D) call in
+
+Q140.
+Choose the correct meaning of the idiom 'hit below the belt' in the sentence:
+That comment about his family was hitting below the belt.
+(A) A clever move
+(B) A fair insult
+(C) An unfair or unethical remark
+(D) A surprising compliment
+
+Q141.
+Direction: Identify the segment that contains a grammatical error.
+It seems (A)/the I am the most(B)/ beautiful plant(C)/ in this forest(D).
+(A) the I am the most(B)
+(B) It seems (A)
+(C) in this forest(D).
+(D) beautiful plant(C)
+
+Q142.
+Select the most appropriate option to substitute the highlighted segment in the given sentence:
+There are not lessing than a hundred students in this school.
+(A) no less
+(B) no fewer
+(C) not less
+(D) only less
+
+Q143.
+Choose the correct meaning of the idiom 'play it by ear' in the sentence:
+We don't have a fixed plan—let's play it by ear.
+(A) Use a musical approach
+(B) Act spontaneously without planning
+(C) Misunderstand instructions
+(D) Avoid taking action
+
+Q144.
+Choose the correct Active Voice form of the given sentence:
+The keys are kept on the table by Rohan.
+(A) Rohan keeps the keys on the table.
+(B) Rohan kept the keys on the table.
+(C) The keys keep Rohan on the table.
+(D) Rohan is keeping the keys on the table.
+
+Q145.
+Direction: Identify the segment that contains a grammatical error.
+The rose tried (A)/to move them (B)/roots away(C)/ from the cactus(D).
+(A) to move them (B)
+(B) from the cactus(D)
+(C) roots away(C)
+(D) The rose tried (A)
+
+Q146.
+Choose the most suitable option to replace the highlighted part of the sentence:
+Neither Rina or Raju was present in the class.
+(A) Neither Rina not Raju
+(B) Either Rina or Raju
+(C) None of Rina and Raju
+(D) Neither Rina nor Raju
+
+Q147.
+Direction: Identify the segment that contains a grammatical error. God did not (A)/create any(B)/
+form in life (C)/without a purpose(D).
+(A) form in life (C)
+(B) without a purpose(D)
+(C) God did not (A)
+(D) create any(B)
+
+Q148.
+Select the most appropriate option to substitute the highlighted segment in the given sentence.
+A professor begins class by holding up a glass of water.
+(A) began
+(B) beginning
+(C) is began
+(D) was begins
+
+Q149.
+What is the meaning of the word "epochal" as used in the context:
+"...each epochal shift reflects broader socio-technological metamorphoses."
+(A) Ancient
+(B) Minor
+(C) Highly significant or defining
+(D) Predictable
+
+Q150.
+Fill in the blank with the appropriate article.
+Despite efforts to standardize practices, _____ law remains subject to cultural interpretation in many
+regions.
+(A) a
+(B) an
+(C) the
+(D) no article
+
+Q151.
+Choose the right meaning of the idiom 'go the extra mile' in the sentence:
+The team went the extra mile to meet the client's needs.
+(A) Took a long route
+(B) Made additional effort
+(C) Spent more money
+(D) Traveled abroad
+
+Q152.
+Choose the most suitable option to replace the highlighted part of the sentence:
+She inspires from her mother's success.
+(A) is inspiring from
+(B) is inspired by her mother's success
+(C) is inspiring by
+(D) inspired with her mother
+
+Q153.
+What is the meaning of the word "epochal" in the context:
+"Tenzing Norgay and Sir Edmund Hillary's epochal 1953 Everest ascent..."
+(A) Trivial
+(B) Highly significant and historic
+(C) Ordinary and recurrent
+(D) Disastrous
+
+Q154.
+Choose the most suitable option to replace the highlighted part of the sentence:
+He availed of the opportunity well.
+(A) has availed the opportunity
+(B) availed himself of the opportunity
+(C) took the avail
+(D) availed to opportunity
+
+Q155.
+Which word could best replace "immutable" in the phrase
+"...the immutable majesty of the mountains..."
+without significantly changing the meaning?
+(A) Transient
+(B) Unchanging
+(C) Diminishing
+(D) Fragile
+
+Q156.
+Choose the correct one-word substitute for: 'The tendency to interpret non-human entities as
+possessing human emotions and characteristics.'
+(A) Zoomorphism
+(B) Animism
+(C) Anthropomorphism
+(D) Theomorphism
+
+Q157.
+Choose the correct idiom for the word highlighted in bold.
+Rohit is very calculative and always has an axe to grind.
+(A) To have a hidden personal motive
+(B) To sharpen one's skills
+(C) To work hard for success
+(D) To take revenge
+
+Q158.
+Choose the right meaning of the idiom 'take with a grain of salt' in the sentence:
+You should take his claims with a grain of salt.
+(A) Believe fully
+(B) Ignore it completely
+(C) Accept with doubt
+(D) Add salt to it
+
+Q159.
+Direction: Identify the segment that contains a grammatical error.
+Pushpa is (A)/knows all (B)/the facts about (C)/the incident (D).
+(A) knows all (B)
+(B) Pushpa is (A)
+(C) the facts about (C)
+(D) the indicent (D)
+
+Q160.
+Select the correct passive form of the given sentence.
+Who tore the window curtains ?
+(A) By whom were the window curtains torn ?
+(B) By whom are the window curtains torn?
+(C) By whom were the window curtains tore?
+(D) By whom were the window curtains teared?
+
+Q161.
+Select the most appropriate option to fill in the blanks:
+The manager is very pleased with her new assistant, her work is of a high _____________.
+(A) standard
+(B) degree
+(C) capacity
+(D) condition
+
+Q162.
+Choose the correct meaning of the idiom 'go the extra mile' in the sentence:
+She always goes the extra mile to support her students.
+(A) Travels more
+(B) Puts in extra effort
+(C) Avoids work
+(D) Gives directions
+
+Q163.
+Read the passage and answer the questions.
+In the passage, the word "cartographic" most nearly means:
+(A) relating to maps or spatial navigation
+(B) relating to genetic encoding
+(C) relating to celestial bodies
+(D) relating to ocean currents
+
+Q164.
+Select the most appropriate option to substitute the highlighted segment in the given sentence. He returns
+and diligently pursued knowledge.
+(A) returned
+(B) returning
+(C) will returning
+(D) can return
+
+Q165.
+Improve the sentence using the correct phrasal verb of the highlighted words.
+The thieves managed to get off the police during the chase.
+(A) get away from
+(B) get along with
+(C) get over
+(D) get through
+
+Q166.
+Improve the sentence using the correct phrasal verb of the highlighted word.
+You must not fall out your parents, no matter how angry you are.
+(A) fall for
+(B) fall on
+(C) fall out with
+(D) fall off
+
+Q167.
+Change the following from active to passive:
+Did they invite you to the party?
+(A) Were you invited to the party by them?
+(B) Are you invited to the party by them?
+(C) Have you been invited to the party by them?
+(D) Had you been invited to the party by them?
+
+Q168.
+What does the author imply by describing AI's neutrality as a guise?
+(A) AI systems are incapable of calculations
+(B) The neutrality is often an illusion due to biased training data
+(C) AI always requires human intervention
+(D) AI refuses to learn from its environment
+
+Q169.
+Select the correct Passive form of the given sentence.
+Will you teach chess to my daughter?
+(A) Will my daughter be taught chess?
+(B) Could my daughter be taught chess?
+(C) Can my daughter be taught chess?
+(D) Would my daughter be taught chess?
+
+Q170.
+Choose the correct Active Voice form of the given sentence:
+The prize will be given by the judge.
+(A) The judge gives the prize.
+(B) The judge is giving the prize.
+(C) The judge will give the prize.
+(D) The prize gives the judge.
+
+Q171.
+Direction: Identify the segment that contains a grammatical error. Rahul is(A) / taller(B) / than
+any boy(C)/ in his office(D).
+(A) than any boy(C)
+(B) in his office(D)
+(C) Rahul is(A)
+(D) taller(B)
+
+Q172.
+What does the author suggest is required for ethical AI development?
+(A) Global deployment and faster algorithms
+(B) Political lobbying and marketing strategies
+(C) Technical precision and corporate growth
+(D) Fairness checks, transparency, and oversight
+
+Q173.
+Choose the correct meaning of the idiom 'jump the gun' in the sentence:
+You shouldn't jump the gun before getting confirmation.
+(A) Act too soon
+(B) Run faster
+(C) Ask a question
+(D) Fire a shot
+
+Q174.
+Direction: Identify the segment that contains a grammatical error.
+The old man (A)/ died for(B) / a heart attack(C)/today(D).
+(A) died for(B)
+(B) The old man (A)
+(C) a heart attack(C)
+(D) today(D)
+
+Q175.
+Fill in the blank with the appropriate article.
+It was ______ sheer determination of the rescue team that ultimately saved the trapped miners.
+(A) a
+(B) an
+(C) the
+(D) no article
+
+Q176.
+Choose the most suitable option to replace the highlighted part of the sentence:
+He is more wiser than his brother.
+(A) very wise than
+(B) more wise than
+(C) wiser to his brother
+(D) wiser than his brother
+
+Q177.
+Choose the most suitable option to replace the highlighted part of the sentence:
+He did nothing but to complain all day.
+(A) but only complained
+(B) but complaining
+(C) but complain
+(D) than complain
+
+Q178.
+Choose the meaning of the idiom 'hit the books' in the sentence:
+I have exams tomorrow, so I need to hit the books.
+(A) Go to the library
+(B) Start studying seriously
+(C) Buy new books
+(D) Tear the books
+
+Q179.
+Why is accountability in AI decision-making described as "diffuse"?
+(A) Because outcomes are always beneficial
+(B) Because many parties may share responsibility
+(C) Because AI systems self-regulate completely
+(D) Because data is usually open-source
+
+Q180.
+In the following, there are four different words, out of which only one word is correctly spelt.
+Find the correctly spelt word.
+(A) Desperation
+(B) Depresion
+(C) Jubletion
+(D) Fascinetion
+
+Q181.
+Choose the most suitable option to replace the highlighted part of the sentence:
+I have seen him yesterday.
+(A) seen him yesterday
+(B) had seen him yesterday
+(C) saw him yesterday
+(D) have saw him yesterday
+
+Q182.
+Fill in the blank with the correctly spelt word.
+The scientist was known for her ________ adherence to ethical standards.
+(A) unasssailable
+(B) unassailable
+(C) unasailable
+(D) unassailible
+
+Q183.
+Choose the meaning of the idiom 'call it a day' in the sentence:
+Let's call it a day and resume work tomorrow.
+(A) Go for lunch
+(B) Stop working for the day
+(C) Make a phone call
+(D) Start the project
+
+Q184.
+Select the correct passive form of the given sentence.
+You ought to respect elders
+(A) Elders ought to be respected by you
+(B) Elders should be respected by you
+(C) Elders respected by you
+(D) Elders ought to be respected by me
+
+Q185.
+Choose the most suitable option to replace the part of the sentence:
+The doctor advised that he takes rest.
+(A) that he rested
+(B) for him to take rest
+(C) that he take rest
+(D) that he should took rest
+
+Q186.
+In the following, there are four different words, out of which only one word is correctly spelt.
+Find the correctly spelt word.
+(A) Fabulous
+(B) Beautifal
+(C) Marvelous
+(D) Charmeng
+
+Q187.
+Choose the most suitable option to replace the highlighted part of the sentence:
+If I was you, I would resign immediately.
+(A) was in your place
+(B) were you
+(C) would be you
+(D) am you
+
+Q188.
+In the following, there are four different words, out of which only one word is correctly spelt. Find the correctly
+spelt word.
+(A) Enigmatic
+(B) Magnitic
+(C) Autometic
+(D) Puzling
+
+Q189.
+In the following, there are four different words, out of which only one word is correctly spelt.
+Find the correctly spelt word.
+(A) Debacle
+(B) Declini
+(C) Downfal
+(D) Discomfeture
+
+Q190.
+Fill in the blank with the appropriate article.
+There was hardly ______ evidence to support the allegations made against the defendant.
+(A) a
+(B) an
+(C) the
+(D) no article
+
+Q191.
+Select the most appropriate option to fill in the blank.
+She didn't want to talk about it, but he kept ______ the topic.
+(A) bringing up
+(B) backing out
+(C) giving away
+(D) putting off
+
+Q192.
+Select the correct Passive form of the given sentence.
+Where did you find my luggage?
+(A) Where was my luggage found?
+(B) Where do you found my luggage?
+(C) Where is my luggage found?
+(D) Where will my luggage be found?
+
+Q193.
+Select the most appropriate option to fill in the blank.
+He was late because he _________ heavy traffic on the way to work.
+(A) ran into
+(B) looked into
+(C) got through
+(D) kept up
+
+Q194.
+Select the most appropriate option to fill in the blanks: The other youths ---------- to talk about
+their seeds and the plants.
+(A) began
+(B) begins
+(C) beginning
+(D) is began
+
+Q195.
+In the following, there are four different words, out of which only one word is correctly spelt.
+Find the correctly spelt word.
+(A) Flimsy
+(B) Funy
+(C) Irational
+(D) Partisen
+
+Q196.
+Fill in the blank with the correctly spelt word.
+His ________ behavior during negotiations frustrated his teammates.
+(A) intranzigent
+(B) intransegent
+(C) intransigant
+(D) intransigent
+
+Q197.
+In the following, there are four different words, out of which only one word is correctly spelt. Find the correctly
+spelt word.
+(A) Coddle
+(B) Hudle
+(C) Satisfe
+(D) Protecat
+
+Q198.
+Select the most appropriate option to fill in the blanks: Lingaiah told his mother that he wasn't -
+--------- take an empty box.
+(A) going to
+(B) going
+(C) goes
+(D) gone
+
+Q199.
+Choose the correct one-word substitute for: 'The practice of helping the poor and needy, especially by
+donating money'
+(A) Philanthropy
+(B) Misogyny
+(C) Sympathy
+(D) Misanthrope
+
+Q200.
+Select the correct passive form of the given sentence.
+We threw away the rubbish
+(A) The rubbish was thrown away
+(B) The rubbish thrown away
+(C) The rubbish was being thrown away
+(D) The rubbish will be thrown away
+
+Q201.
+Choose the correct Active Voice form of the given sentence:
+The call was being made by Shyam.
+(A) Shyam makes the call.
+(B) Shyam was making the call.
+(C) Shyam made the call.
+(D) The call made Shyam.
+
+Q202.
+Fill in the blank with the correctly spelt word.
+The DNA strands were separated through ________ methods.
+(A) electroforesis
+(B) electrophoresis
+(C) electrophorresis
+(D) electrophoreses
+
+Q203.
+Choose the correct one-word substitute for: 'A person who studies the stars and planets to predict the
+future'.
+(A) Astronomer
+(B) Astrologer
+(C) Meteorologist
+(D) Cosmologist
+
+Q204.
+Choose the most suitable option to replace the highlighted part of the sentence:
+I prefer tea than coffee.
+(A) over coffee
+(B) more than coffee
+(C) to coffee
+(D) instead of coffee
+
+Q205.
+Select the most appropriate option to fill in the blanks:
+My grand father gets vegetables from the ---------- , everyday.
+(A) market
+(B) dairy
+(C) daily
+(D) diary
+
+Q206.
+Select the most appropriate option to fill in the blanks: I __________ you to plant the seed, water it and come
+back here.
+(A) want
+(B) wants
+(C) wanting
+(D) win
+
+Q207.
+Choose the correct one-word substitute for: 'A short, amusing or interesting story about a real
+incident or person.'
+(A) Tale
+(B) Allegory
+(C) Anecdote
+(D) Biography
+
+Q208.
+Select the most appropriate option to fill in the blanks:
+He went home and excitedly _____________his mother the story.
+(A) told
+(B) telling
+(C) tells
+(D) talking
+
+Q209.
+What is the closest meaning of the word "labyrinthine" as used in the passage?
+(A) Superficial and obvious
+(B) Mysterious and confusingly complex
+(C) Predictable and linear
+(D) Structured and disciplined
+
+Q210.
+Select the correct option:
+The committee regarded the proposal as______ to the organization's long-term vision.
+(A) integral
+(B) integrally
+(C) integration
+(D) integrate
+
+Q211.
+Choose the correct one-word substitute for: 'An expression of sympathy, especially on the occasion of
+death'.
+(A) Condolence
+(B) Consolation
+(C) Reassurance
+(D) Assurance
+
+Q212.
+Select the most appropriate option to fill in the blanks:
+If you plant hard work, you will reap --------------.
+(A) success
+(B) failure
+(C) time pass
+(D) knowledge
+
+Q213.
+Choose the correct meaning of idiom:
+To send someone to Coventry
+(A) To award someone symbolic punishment
+(B) To exile someone to a faraway place
+(C) To ignore someone deliberately
+(D) To mock someone publicly
+
+Q214.
+Select the most appropriate option to fill in the blanks: A lamb was grazing with __________ sheep one day.
+(A) a flock of
+(B) a grouo of
+(C) a mob of
+(D) a number of
+
+Q215.
+Choose the correct meaning of the idiom:
+Not worth his salt
+(A) Excessively frugal with resources
+(B) Reluctant to accept criticism
+(C) Unwilling to share credit for work
+(D) Undeserving of the pay/respect he gets
+
+Q216.
+Which sentence correctly uses confirm?
+(A) Please confirm your attendance before Friday.
+(B) They conform the package before delivery.
+(C) He couldn't confirm to the crowd's pressure.
+(D) She confirmed with the regulations strictly.
+
+Q217.
+Which sentence uses "row" to mean a fight or noisy argument?
+(A) We had a terrible row last night.
+(B) He rowed the boat across the lake.
+(C) They sat in the front row.
+(D) There were ten chairs in each row.
+
+Q218.
+Choose the correct meaning of idiom:
+Where the shoe pinches
+(A) The turning point in fortune
+(B) The hidden benefit in hardship
+(C) The point of real difficulty or discomfort
+(D) The weakest member in a team
+
+Q219.
+Select the most appropriate option to fill in the blank.
+I can't believe you __________ that old trick!
+(A) fell for
+(B) looked up
+(C) took after
+(D) came across
+
+Q220.
+Fill in the blank:
+Had I known the conference was postponed, I ____ my flight reservations.
+(A) would cancel
+(B) would have canceled
+(C) will have canceled
+(D) had canceled
+
+Q221.
+Select the correct option:
+Never before in the history of the tournament __ such a stunning upset.
+(A) there was
+(B) was there
+(C) there has been
+(D) there had been
+
+Q222.
+Choose the correct meaning of idiom:
+Rest on his laurels
+(A) To withdraw from success
+(B) To bask in past glory and avoid current effort
+(C) To criticize one's own success
+(D) To challenge past achievements
+
+Q223.
+Select the correct option:
+They treated the interim guidelines as ___, pending formal ratification.
+(A) provisional
+(B) provisionally
+(C) provisioned
+(D) provision
+
+Q224.
+Identify the error in the sentence.
+The manager motivated his team with a strong believe in their potential.
+(A) team
+(B) believe
+(C) potential
+(D) strong
+
+Q225.
+What is the system of government in which one person holds absolute and unrestricted power is
+called?
+(A) Autocracy
+(B) Autonomy
+(C) Bureaucracy
+(D) Democracy
+
+Q226.
+Choose the most appropriate antonym for the word "harbinger" as used in the last line of the passage.
+(A) Catalyst
+(B) Precursor
+(C) Follower
+(D) Trailblazer
+
+Q227.
+Choose the correct one-word substitute for: 'A disease that spreads over a whole country or the
+world'.
+(A) Epidemic
+(B) Endemic
+(C) Pandemic
+(D) Pathogen
+
+Q228.
+Choose the correct meaning of idiom:
+Finger in the pie
+(A) Being involved or interfering in something
+(B) Trying to cause conflict intentionally
+(C) Avoiding responsibility
+(D) Speaking without knowledge
+
+Q229.
+. Which of the following best captures the overall tone of the passage?
+(A) Nostalgic and critical
+(B) Analytical and celebratory
+(C) Indifferent and factual
+(D) Cautionary and skeptical
+
+Q230.
+Select the most appropriate option to fill in the blanks: He just kept waiting for his seed to__________ .
+(A) grow
+(B) growing
+(C) grows
+(D) is grew
+
+Q231.
+Choose the correct meaning of idiom:
+Will not pass muster
+(A) Will not meet required standards
+(B) Will not bring any excitement
+(C) Will not escape attention
+(D) Will not create any disturbance
+
+Q232.
+Choose the correct one-word substitute for: 'A person who supports or is involved in the arts'.
+(A) Philatelist
+(B) Philanthropist
+(C) Aesthete
+(D) Curator
+
+Q233.
+When someone used the fictitious name instead of his own name especially in writing is called?
+(A) Pseudonym
+(B) Manuscript
+(C) Omniscient
+(D) Ambidextrous
+
+Q234.
+Select the correct option:
+No other student in the class is __ well-prepared for the final debate as Arjun.
+(A) more
+(B) as
+(C) so
+(D) such
+
+Q235.
+When some people or things are existing at the same time period in the society is called.
+(A) Contemporaries
+(B) Periods
+(C) Historical events
+(D) History
+
+Q236.
+Which of the following best captures the tone of the passage?
+(A) Alarmist and reactionary
+(B) Reflective and cautionary
+(C) Optimistic and promotional
+(D) Satirical and dismissive
+
+Q237.
+Find the word that is spelled correctly and refers to an artistic viewpoint valuing beauty.
+(A) Aesthetics
+(B) Aestheticks
+(C) Asthetic
+(D) Atheistic
+
+Q238.
+Which of these is the correct spelling of a radical equality concept from Rawls?
+(A) Egaliterianism
+(B) Egalitarianism
+(C) Egalatarianism
+(D) Egalitairianism
+
+Q239.
+Select the correct option:
+The treaty stipulates that disputes shall be resolved ______ arbitration.
+(A) through
+(B) in
+(C) with
+(D) via
+
+Q240.
+Select the correct option:
+Barely __ the announcement concluded when inquiries flooded the hotline.
+(A) had
+(B) has
+(C) did
+(D) was
+
+Q241.
+Which of these is the correct spelling of an ethical theory prioritizing duty?
+(A) Deontological
+(B) Deantological
+(C) Deontollogical
+(D) Deontologicel
+
+Q242.
+What does "bark" mean in: "The dog barked loudly at the stranger."
+(A) A loud sound made by a dog
+(B) Outer part of a tree
+(C) A wooden texture
+(D) A sharp command
+
+Q243.
+What does the idiom "blow one's own horn" mean?
+(A) To praise oneself excessively
+(B) To play a musical instrument
+(C) To help others in need
+(D) To remain silent in a conversation
+
+Q244.
+Select the correct option:
+Her lecture ranged ___ quantum mechanics to cognitive linguistics.
+(A) from
+(B) between
+(C) among
+(D) over
+
+Q245.
+Which of these is the correct spelling of a term meaning 'questioning everything'?
+(A) Pyrrhonism
+(B) Pyronism
+(C) Pyrrhoniism
+(D) Pyrhonnism
+
+Q246.
+Choose the correct one-word substitute for: 'A state of temporary disuse or suspension.'
+(A) Abeyance
+(B) Lull
+(C) Dormancy
+(D) Stasis
+
+Q247.
+Choose the correct one-word substitute for: 'A government ruled by the wealthy.'
+(A) Kleptocracy
+(B) Plutocracy
+(C) Theocracy
+(D) Meritocracy
+
+Q248.
+Identify the error in the sentence.
+We must respect the elder people in our community.
+(A) respect
+(B) people
+(C) elder
+(D) community
+
+Q249.
+Identify the correct adverb:
+He finished the work ____ to avoid missing the deadline.
+(A) hurried
+(B) hurrying
+(C) hurry
+(D) hurriedly
+
+Q250.
+Choose the correct one-word substitute for: 'One who uses long or obscure words.'
+(A) Sesquipedalian
+(B) Garrulous
+(C) Sophist
+(D) Verbose
+
+Q251.
+Select the correct spelling for a word meaning 'clumsy or awkward in movement or manner'.
+(A) Gauche
+(B) Gosh
+(C) Goush
+(D) Gauch
+
+Q252.
+Identify the error in the sentence.
+They celebration the win with music and dancing.
+(A) win
+(B) celebration
+(C) music
+(D) dancing
+
+Q253.
+What is the meaning of "bat" in: "The bat flew silently in the night sky."
+(A) A flying mammal
+(B) A sports tool
+(C) A stick
+(D) A butterfly
+
+Q254.
+What does the term property inherited from one's father or ancestors is called?
+(A) Patrimony
+(B) Manuscript
+(C) Forgery
+(D) Obsolete
+
+Q255.
+Choose the correct meaning of idiom:
+Hornet's nest
+(A) A confusing situation
+(B) A source of controversy and trouble
+(C) A peaceful debate
+(D) A place of retreat
+
+Q256.
+Choose the word that is opposite in meaning to the given word "Dependence".
+(A) Autonomy
+(B) Slavery
+(C) Subordinate
+(D) Submissiveness
+
+Q257.
+Choose the word that is opposite in meaning to the given word "Interesting".
+(A) Monotonous
+(B) Terrible
+(C) Terrifying
+(D) Disastrous
+
+Q258.
+Spot the correct spelling of cross-species organ grafting.
+(A) Xenotransplantion
+(B) Xenotransplantation
+(C) Zentransplantation
+(D) Xenotransplantasion
+
+Q259.
+Which sentence uses "borne" correctly?
+(A) The cost was borne by the company.
+(B) She was borne in 2001.
+(C) He has borne arms for years.
+(D) The queen has born two sons.
+
+Q260.
+Spot the correct spelling of the study of butterflies & moths.
+(A) Lepidopetrology
+(B) Lepidopterology
+(C) Lepidopteralogy
+(D) Lepidopterlogy
+
+Q261.
+Spot the correct spelling of a term meaning 'theory of knowledge'.
+(A) Epistemology
+(B) Epistomology
+(C) Eppistemology
+(D) Epistemollogy
+
+Q262.
+Choose the word that is opposite in meaning to the given word "Acquitted".
+(A) Convicted
+(B) Pardoned
+(C) Exempted
+(D) Liberated
+
+Q263.
+Choose the word that is opposite in meaning to the given word "Bashful".
+(A) Loquacious
+(B) Aggressive
+(C) Taciturn
+(D) Diffident
+
+Q264.
+Select the most appropriate synonym of the given word: INTRANSIGENCE
+(A) Acquiescence
+(B) Stubbornness
+(C) Deference
+(D) Flexibility
+
+Q265.
+Someone who enjoys being around people, sociable and outgoing is called?
+(A) Gregarious
+(B) Indelible
+(C) Famous
+(D) Extempore
+
+Q266.
+What is the meaning of "kind" in: "That was a very kind gesture."
+(A) Friendly or caring
+(B) Strong
+(C) Silent
+(D) A sort or category
+
+Q267.
+Choose the word that is opposite in meaning to the given word "Lengthy".
+(A) Concise
+(B) Extended
+(C) Elongated
+(D) Protracted
+
+Q268.
+Identify the correct spelling of the misspelled word "convincable".
+(A) convincing
+(B) convincible
+(C) convinciable
+(D) convinsible
+
+Q269.
+Choose the correct preposition:
+He was entrusted ____ confidential state documents.
+(A) for
+(B) with
+(C) to
+(D) by
+
+Q270.
+Choose the word that is opposite in meaning to the given word "Denial".
+(A) Affirmation
+(B) Opposition
+(C) Refusal
+(D) Liberal
+
+Q271.
+Find the correctly spelled word referring to one who hates mankind.
+(A) Misonthropy
+(B) Mizanthrope
+(C) Misanthrop
+(D) Misanthrope
+
+Q272.
+Choose the word that is opposite in meaning to the given word "Degenerate".
+(A) Flourish
+(B) Perish
+(C) Dismiss
+(D) Decay
+
+Q273.
+Someone whose individual exhibiting excessive self-importance is called.
+(A) Narcissist
+(B) Egotist
+(C) Misnomer
+(D) Grunt
+
+Q274.
+Select the correct spelling of a word meaning 'temporary stay or visit'.
+(A) Sojourn
+(B) Soejourn
+(C) Sajourn
+(D) Sojurn
+
+Q275.
+Select the most appropriate antonym of the given word. Rebarbative
+(A) Attractive
+(B) Repulsive
+(C) Off-putting
+(D) Irritating
+
+Q276.
+Someone who donates his money to the society as welfare is called.
+(A) Philanthropist
+(B) Capitalist
+(C) Donation
+(D) Honorary
+
+Q277.
+In the passage, what is the closest meaning of the word "superseded"?
+(A) Upgraded
+(B) Replaced
+(C) Abandoned
+(D) Destroyed
+
+Q278.
+Spot the correct spelling of a blood-pressure device.
+(A) Sphygmomannometer
+(B) Sphygmomanometer
+(C) Sphygmamanometre
+(D) Sphygmomamometer
+
+Q279.
+Select the most appropriate antonym of the given word. Intransigence
+(A) Obstinacy
+(B) Compromise
+(C) Defiance
+(D) Rigidity
+
+Q280.
+Select the most appropriate synonym of the given word: TRANQUILIZING
+(A) Soothing
+(B) Irritating
+(C) Provocative
+(D) Harsh
+
+Q281.
+Select the most appropriate antonym of the given word. Superfluous
+(A) Extraneous
+(B) Surplus
+(C) Essential
+(D) Dispensable
+
+Q282.
+Select the most appropriate synonym of the given word: DISPARAGING
+(A) Complimentary
+(B) Belittling
+(C) Flattering
+(D) Kind
+
+Q283.
+Choose the word that is opposite in meaning to the given word "Differ".
+(A) Conform
+(B) Question
+(C) Reject
+(D) Ignore
+
+Q284.
+Select the most appropriate antonym of the given word. Imbroglio
+(A) Entanglement
+(B) Complication
+(C) Agreement
+(D) Dispute
+
+Q285.
+Choose the correct spelling for a word meaning 'generosity in giving'.
+(A) Largesse
+(B) Larges
+(C) Largece
+(D) Largese
+
+Q286.
+Spot the correct spelling of a term meaning 'study of the mind'.
+(A) Sychology
+(B) Psychology
+(C) Psychollogy
+(D) Psycology
+
+Q287.
+Which tense/modal suits the idea of continuous influence best? (5)
+(A) endure
+(B) endured
+(C) has endured
+(D) had endured
+
+Q288.
+Find the correct spelling of a word that refers to a rule or principle.
+(A) Axiom
+(B) Axiiom
+(C) Axome
+(D) Axieum
+
+Q289.
+Select the most appropriate synonym of the given word: EFFRONTERY
+(A) Audacity
+(B) Politeness
+(C) Shyness
+(D) Courtesy
+
+Q290.
+Select the most appropriate antonym of the given word. Scrupulous
+(A) Honest
+(B) Immoral
+(C) Conscientious
+(D) Ethical
+
+Q291.
+Select the most appropriate antonym of the given word. Disparate
+(A) Alike
+(B) Different
+(C) Contrasting
+(D) Dissimilar
+
+Q292.
+Select the most appropriate synonym of the given word:
+DISCONSOLATE
+(A) Unhappy
+(B) Cheerful
+(C) Content
+(D) Elated
+
+Q293.
+Select the most appropriate antonym of the given word.
+Sanguine
+(A) Optimistic
+(B) Cheerful
+(C) Pessimistic
+(D) Hopeful
+
+Q294.
+Choose the word that is opposite in meaning to the given word "Clear".
+(A) Obscure
+(B) Open
+(C) Bright
+(D) Frank
+
+Q295.
+Select the most appropriate antonym of the given word. Accentuate
+(A) Emphasize
+(B) Highlight
+(C) Obscure
+(D) Promote
+
+Q296.
+Spot the correct spelling of a word meaning "charitable".
+(A) Eleemosinary
+(B) Eleemosynary
+(C) Elemosynory
+(D) Eleemosynery
+
+Q297.
+Select the most appropriate antonym of the given word. Obstinate
+(A) Dogged
+(B) Intractable
+(C) Pliable
+(D) Tenacious
+
+Q298.
+Select the most appropriate synonym of the given word: MELANCHOLY
+(A) Euphoria
+(B) Elation
+(C) Vivacity
+(D) Sadness
+
+Q299.
+Find the correct spelling of a word describing disloyal betrayal.
+(A) Perfidy
+(B) Perphidy
+(C) Perfedee
+(D) Perfody
+
+Q300.
+Select the most appropriate antonym of the given word. Propitiate
+(A) Conciliate
+(B) Pacify
+(C) Soothe
+(D) Enrage
+
+Q301.
+Select the most appropriate synonym of the given word: ELUCIDATE
+(A) Confuse
+(B) Darken
+(C) Complicate
+(D) Clarify
+
+Q302.
+Select the most appropriate synonym of the given word: FRUGAL
+(A) Opulent
+(B) Thrifty
+(C) Profligate
+(D) Improvident
+
+Q303.
+Select the most appropriate synonym of the given word: PROPITIATE
+(A) Agitate
+(B) Provoke
+(C) Appease
+(D) Enrage
+
+Q304.
+Select the most appropriate synonym of the given word: CAPITULATE
+(A) Defend
+(B) Attack
+(C) Resist
+(D) Surrender
+
+Q305.
+Select the most appropriate synonym of the given word: EGREGIOUS
+(A) Minor
+(B) Trivial
+(C) Unnoticed
+(D) Shocking
+
+Q306.
+Select the most appropriate synonym of the given word: MAGNANIMOUS
+(A) Mean
+(B) Generous
+(C) Covetous
+(D) Petty
+
+Q307.
+Select the most appropriate antonym of the given word.
+Dogmatic
+(A) Stubborn
+(B) Flexible
+(C) Rigid
+(D) Arrogant
+
+Q308.
+Select the most appropriate synonym of the given word: APPOSITE
+(A) Irrelevant
+(B) Vague
+(C) Relevant
+(D) Random
+
+Q309.
+Select the most appropriate synonym of the given word: EXCULPATE
+(A) Condemn
+(B) Blame
+(C) Exonerate
+(D) Punish
+
+Q310.
+Select the most appropriate antonym of the given word. Maladroit
+(A) Clumsy
+(B) Awkward
+(C) Skillful
+(D) Inept
+
+Q311.
+Select the most appropriate synonym of the given word: GREGARIOUS
+(A) Quiet
+(B) Sociable
+(C) Shy
+(D) Reserved
+
+Q312.
+Select the most appropriate synonym of the given word: NEOPHYTE
+(A) Beginner
+(B) Veteran
+(C) Master
+(D) Expert
+
+Q313.
+Select the most appropriate antonym of the given word. Exonerate
+(A) Convict
+(B) Free
+(C) Excuse
+(D) Liberate
+
+Q314.
+Select the most appropriate antonym of the given word. Cursory
+(A) Thorough
+(B) Brief
+(C) Hasty
+(D) Superficial
+
+Q315.
+Select the most appropriate antonym of the given word.
+Clandestine
+(A) Open
+(B) Long
+(C) Secret
+(D) Boring
+
+Q316.
+Select the most appropriate synonym of the given word: CALUMNY
+(A) Truth
+(B) Slander
+(C) Praise
+(D) Compliment
+
+Q317.
+Someone who is unable to read or write is referred to as...
+(A) Illiterate
+(B) Literate
+(C) Literature
+(D) Reader
+
+Q318.
+Select the most appropriate synonym of the given word: LACONIC
+(A) Concise
+(B) Wordy
+(C) Talkative
+(D) Verbose
+
+Q319.
+Select the most appropriate synonym of the given word: IGNOMINY
+(A) Disgrace
+(B) Respect
+(C) Fame
+(D) Honor
+
+Q320.
+Select the most appropriate antonym of the given word. Covert
+(A) Secret
+(B) Hidden
+(C) Clandestine
+(D) Overt
+
+Q321.
+Select the most appropriate antonym of the given word. Tedious
+(A) Dull
+(B) Boring
+(C) Exciting
+(D) Tiresome
+
+Q322.
+What should come in the place of blank number (4)?
+(A) ratification
+(B) modulation
+(C) gratification
+(D) reconciliation
+
+Q323.
+Spot the correct spelling of a term meaning 'reasoning method'.
+(A) Logic
+(B) Logik
+(C) Logick
+(D) Logiq
+
+Q324.
+What should come in the place of blank number (2)?
+(A) transactional
+(B) reflexive
+(C) proprietary
+(D) deterministic
+
+Q325.
+Identify the correct spelling of the misspelled word.
+(A) government
+(B) goverment
+(C) govarnment
+(D) goverenment
+
+Q326.
+Identify the correct spelling of the misspelled word.
+(A) unforeseen
+(B) unforesen
+(C) unphorseen
+(D) unforsean
+
+Q327.
+Select the most appropriate antonym of the given word. Candid
+(A) Frank
+(B) Guarded
+(C) Honest
+(D) Open
+
+Q328.
+Identify the correct spelling of the misspelled word.
+(A) necessary
+(B) neccessary
+(C) nessessary
+(D) neccesary
+
+Q329.
+What should come in the place of blank number (1)?
+(A) interpretive
+(B) diagnostic
+(C) ornamental
+(D) cautionary
+
+Q330.
+What should come in the place of blank number (5)?
+(A) interrupted
+(B) efficient
+(C) entertained
+(D) indifferent
+
+Q331.
+What should come in the place of blank number (4)?
+(A) indispensable
+(B) visible
+(C) mechanical
+(D) subordinate
+
+Q332.
+What should come in the place of blank number (5)?
+(A) relegated
+(B) aestheticized
+(C) emulated
+(D) phantomized
+
+Q333.
+What should come in the place of blank number (1)?
+(A) archived
+(B) celebrated
+(C) simplified
+(D) reconfigured
+
+Q334.
+What should come in the place of blank number (3)?
+(A) ceremonial
+(B) therapeutic
+(C) technocratic
+(D) erratic
+
+Q335.
+What should come in the place of blank number (5)?
+(A) intuitive
+(B) symbolic
+(C) unconscious
+(D) performative
+
+Q336.
+What should come in the place of blank number (2)?
+(A) surrendered
+(B) cultivated
+(C) encrypted
+(D) monetised
+
+Q337.
+What should come in the place of blank number (2)?
+(A) reciprocity
+(B) compliance
+(C) consent
+(D) variability
+
+Q338.
+What should come in the place of blank number (1)?
+(A) instantiated
+(B) rationalized
+(C) evoked
+(D) repressed
+
+Q339.
+In this context, 'palpable' most nearly means: (3)
+(A) Invisible
+(B) Tangible
+(C) Theoretical
+(D) Diminishing
+
+Q340.
+Choose the word that means the same as "Magnificence".
+(A) Grandeur
+(B) Destroy
+(C) Dismiss
+(D) Enormous
+
+Q341.
+Identify the correct spelling of the misspelled word.
+(A) committee
+(B) commitee
+(C) commite
+(D) committe
+
+Q342.
+What should come in the place of blank number (1)?
+(A) absolute
+(B) performative
+(C) illusory
+(D) reductive
+
+Q343.
+What should come in the place of blank number (1)?
+(A) vocabulary
+(B) architecture
+(C) illusion
+(D) burden
+
+Q344.
+What should come in the place of blank number (4)?
+(A) simulated
+(B) fabricated
+(C) contested
+(D) coerced
+
+Q345.
+What should come in the place of blank number (3)?
+(A) co-opted
+(B) inverted
+(C) obfuscated
+(D) delegated
+
+Q346.
+What should come in the place of blank number (2)?
+(A) revolutionary
+(B) trivial
+(C) automated
+(D) random
+
+Q347.
+What should come in the place of blank number (4)?
+(A) refusal
+(B) curriculum
+(C) hesitation
+(D) mandate
+
+Q348.
+What does 'engendered' most nearly mean here?(4)
+(A) Eradicated
+(B) Concealed
+(C) Generated
+(D) Challenged
+
+Q349.
+What should come in the place of blank number (5)?
+(A) enhanced
+(B) reactive
+(C) reformed
+(D) proactive
+
+Q350.
+What should come in the place of blank number (3)?
+(A) reduction
+(B) poverty
+(C) generosity
+(D) rupture
+
+Q351.
+Spot the correct spelling of a vine-pest genus.
+(A) Phylloxera
+(B) Phylloxerae
+(C) Philoxera
+(D) Phyloxera
+
+Q352.
+Choose the word that means the same as "Flattery".
+(A) Adulation
+(B) Delegate
+(C) Friendly
+(D) Cruelty
+
+Q353.
+Identify the correct spelling of the misspelled word.
+(A) assets
+(B) assests
+(C) assetts
+(D) asests
+
+Q354.
+What should come in the place of blank number (3)?
+(A) protected
+(B) vocal
+(C) legible
+(D) redundant
+
+Q355.
+What should come in the place of blank number (5)?
+(A) innovate
+(B) conform
+(C) returned
+(D) unravel
+
+Q356.
+Choose the word that means the same as "Tremble".
+(A) Quiver
+(B) Infatuation
+(C) Grandeur
+(D) Paradox
+
+Q357.
+Choose the correct synonym for the word 'Ambiguous'
+(A) Clear
+(B) Specific
+(C) Mysterious
+(D) Vague
+
+Q358.
+What does 'insidious' most nearly mean here? (3)
+(A) Sudden
+(B) Deceptive
+(C) Violent
+(D) Predictable
+
+Q359.
+What should come in the place of blank number (3)?
+(A) friction
+(B) data
+(C) feedback
+(D) bandwidth
+
+Q360.
+Choose the word that means the same as "Criticize".
+(A) Censure
+(B) Abuse
+(C) Appreciate
+(D) Blame
+
+Q361.
+Choose the word that means the same as "Respect".
+(A) Deference
+(B) Vigorous
+(C) Blame
+(D) Criticize
+
+Q362.
+Choose the word that means the same as "Puzzle".
+(A) Paradox
+(B) Paradise
+(C) Question
+(D) Challenge
+
+Q363.
+What should come in the place of blank number (2)?
+(A) held
+(B) disguise
+(C) mandate
+(D) virtue
+
+Q364.
+Choose the correct voice/tense carefully: (2)
+(A) limited
+(B) had limited
+(C) was limited
+(D) limits
+
+Q365.
+Choose the correct synonym for the word 'absolve'
+(A) Ablute
+(B) Abate
+(C) Pardon
+(D) Give away
+
+Q366.
+What should come in the place of blank number (4)?
+(A) predict
+(B) delay
+(C) measure
+(D) stop
+
+Q367.
+Choose the correct synonym for the word 'quarrel'
+(A) Barrel
+(B) Feud
+(C) Attack
+(D) Delusion
+
+Q368.
+Someone who dislikes men is called.
+(A) Misandrist
+(B) Misogynist
+(C) Philanthropist
+(D) Manuscript
+
+Q369.
+Which participle/verb form best fits? (1)
+(A) resulting
+(B) result
+(C) results
+(D) resulted
+
+Q370.
+'Obfuscation' most nearly means: (5)
+(A) Clarity
+(B) Confusion
+(C) Enthusiasm
+(D) Revelation
+
+Q371.
+Which auxiliary/modal verb fits best?(4)
+(A) must
+(B) has
+(C) is
+(D) was
+
+Q372.
+Which tense/form fits best?(1)
+(A) was marked
+(B) marks
+(C) was marking
+(D) marked
+
+Q373.
+Choose the right verb form.(2)
+(A) affects
+(B) affect
+(C) affecting
+(D) affected
+
+Q374.
+Which verb form fits best? (1)
+(A) denote
+(B) denotes
+(C) denoted
+(D) denoting
+
+Q375.
+(1)
+(A) demanding
+(B) personalized
+(C) expensive
+(D) structured
+
+Q376.
+(4)
+(A) passive
+(B) indifferent
+(C) responsible
+(D) careless
+
+Q377.
+(2)
+(A) measures
+(B) statements
+(C) complaints
+(D) greetings
+
+Q378.
+. (5)
+(A) passive
+(B) disengaged
+(C) focused
+(D) delayed
+
+Q379.
+(1)
+(A) restricted
+(B) connected
+(C) opposed
+(D) delayed
+
+Q380.
+(3)
+(A) casually
+(B) kindly
+(C) responsibly
+(D) formally
+
+Q381.
+(2)
+(A) curriculum
+(B) storage
+(C) devices
+(D) textbooks
+
+Q382.
+(4)
+(A) strengthen
+(B) reinforce
+(C) break
+(D) challenge
+
+Q383.
+(3)
+(A) burden
+(B) privilege
+(C) reaction
+(D) complaint
+
+Q384.
+(3)
+(A) disrupts
+(B) ignores
+(C) replicates
+(D) delays
+
+Q385.
+(2)
+(A) physical
+(B) solo
+(C) collective
+(D) creative
+
+Q386.
+(5)
+(A) created
+(B) reversed
+(C) replaced
+(D) blamed
+
+Q387.
+(1)
+(A) abandon
+(B) overlook
+(C) demand
+(D) delay
+
+Q388.
+(4)
+(A) regret
+(B) pride
+(C) authority
+(D) panic
+
+Q389.
+(5)
+(A) total
+(B) private
+(C) higher
+(D) common

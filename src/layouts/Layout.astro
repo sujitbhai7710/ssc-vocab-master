@@ -1,0 +1,34 @@
+---
+// src/layouts/Layout.astro
+export interface Props {
+  title?: string;
+  description?: string;
+}
+const {
+  title = 'SSC Vocab Master — Synonyms & Antonyms from 5 Years of SSC Papers',
+  description = 'A feature-rich vocabulary platform covering every synonym, antonym, and one-word substitution question from 5 years of SSC exams (CGL, CHSL, CPO, MTS). Words ranked by frequency, with badges, MCQs, mnemonics, and root-word breakdowns.',
+} = Astro.props;
+import '../styles/global.css';
+---
+<!doctype html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="keywords" content="SSC vocabulary, SSC synonyms, SSC antonyms, SSC CGL, SSC CHSL, SSC CPO, SSC MTS, vocabulary builder, English vocabulary" />
+    <meta name="author" content="SSC Vocab Master" />
+    <meta property="og:title" content="SSC Vocab Master" />
+    <meta property="og:description" content="5 years of SSC synonyms & antonyms, frequency-ranked" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body class="min-h-full bg-gradient-to-b from-zinc-50 via-white to-white dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950 text-zinc-900 dark:text-zinc-100 antialiased">
+    <slot />
+  </body>
+</html>

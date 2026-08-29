@@ -1,0 +1,3028 @@
+
+
+===== PAGE 1 =====
+Error Detection
+By Rahul Gupta
+Prep Master
+
+
+===== PAGE 2 =====
+300 Most
+Important
+Error
+Questions for
+SSC CGL
+2026
+1 | Page
+
+
+===== PAGE 3 =====
+Top 100 Rules For Error Spotting
+💡 Subject-Verb Agreement (Rules 1 - 15)
+Rule 1: The Core Rule
+• Concept: A singular subject takes a singular verb (with '-s'). A plural subject takes a
+plural verb (without '-s').
+• Incorrect: The students of this batch learns very quickly.
+• Correct: The students of this batch learn very quickly.
+Rule 2: The "Of" Trap (Prepositional Phrases)
+• Concept: Do not look at the noun right before the verb. Look for the real subject
+before the word "of".
+• Incorrect: The quality of these mangoes are not good.
+• Correct: The quality of these mangoes is not good. (Subject is 'quality', not
+'mangoes')
+Rule 3: The "With" Family
+• Concept: When phrases like as well as, along with, together with, with, accompanied
+by, in addition to connect two subjects, the verb agrees only with the first subject.
+• Incorrect: The teacher, along with her students, were present.
+• Correct: The teacher, along with her students, was present.
+Rule 4: Either / Or and Neither / Nor (Proximity Rule)
+• Concept: When subjects are joined by either... or or neither... nor, the verb agrees
+with the nearest subject (the one closest to the verb).
+• Incorrect: Neither the manager nor the employees was present.
+• Correct: Neither the manager nor the employees were present.
+Rule 5: Each and Every
+• Concept: Words like Each, Every, Everyone, Someone, Nobody, Anyone are always
+singular and take a singular verb.
+• Incorrect: Each of the boys have a laptop.
+• Correct: Each of the boys has a laptop.
+Rule 6: The "One of the" Structure
+• Concept: The formula is: One of + Plural Noun + Singular Verb.
+• Incorrect: One of my friends are a doctor.
+• Correct: One of my friends is a doctor.
+2 | Page
+
+
+===== PAGE 4 =====
+Rule 7: One of the + Relative Pronoun (Who/Which/That)
+• Concept: If "who", "which", or "that" comes after the plural noun in the "one of"
+structure, the verb becomes plural because it refers to the whole group.
+• Incorrect: He is one of those men who tells lies.
+• Correct: He is one of those men who tell lies.
+Rule 8: A Number of vs. The Number of
+• Concept:
+o A number of + Plural Noun = Plural Verb (means 'many').
+o The number of + Plural Noun = Singular Verb (means 'a specific total count').
+• Incorrect: A number of students has failed.
+• Correct: A number of students have failed.
+• Incorrect: The number of accident cases have increased.
+• Correct: The number of accident cases has increased.
+Rule 9: Collective Nouns (Jury, Team, Committee)
+• Concept: If the group works together as one body, use a singular verb. If the
+members are fighting or acting individually, use a plural verb.
+• Correct: The jury is giving its verdict. (United)
+• Correct: The jury were divided in their opinions. (Divided)
+Rule 10: Sums of Money, Distance, and Time
+• Concept: When a specific amount of money, distance, or time is thought of as a
+single lump sum, it takes a singular verb.
+• Incorrect: Ten miles are a long distance to walk.
+• Correct: Ten miles is a long distance to walk.
+Rule 11: Many a / More than one
+• Concept: The phrase "Many a" or "More than one" is always followed by a
+singular noun and a singular verb.
+• Incorrect: Many a students have failed the exam.
+• Correct: Many a student has failed the exam.
+Rule 12: Nouns that look plural but are singular
+• Concept: Names of subjects (Physics, Mathematics), games (Billiards, Darts), and
+diseases (Measles, Rickets) take a singular verb.
+• Incorrect: Mathematics are a difficult subject.
+• Correct: Mathematics is a difficult subject.
+Rule 13: "Nothing but"
+• Concept: When a sentence starts with "Nothing but", the verb must always be
+singular, whether the noun is singular or plural.
+• Incorrect: Nothing but trees were seen in the valley.
+3 | Page
+
+
+===== PAGE 5 =====
+• Correct: Nothing but trees was seen in the valley.
+Rule 14: Sentences starting with "There" or "Here"
+• Concept: In these sentences, the real subject comes after the verb. Check that noun to
+decide if the verb should be singular or plural.
+• Incorrect: There is many problems in this city.
+• Correct: There are many problems in this city.
+Rule 15: Two nouns making one unified dish/concept
+• Concept: When two nouns combine to form one single idea or dish (Bread and butter,
+Rice and curry, Slow and steady), they take a singular verb.
+• Incorrect: Bread and butter are my favorite breakfast.
+• Correct: Bread and butter is my favorite breakfast.
+📝 Noun Traps (Rules 16 - 30)
+Rule 16: Uncountable Nouns (Never use 's' or 'es')
+• Concept: Nouns like Scenery, Furniture, Advice, Information, Luggage, Baggage,
+Poetry, Hair are uncountable. You cannot make them plural by adding 's'. They
+always take a singular verb.
+• Incorrect: The furnitures of my house are new.
+• Correct: The furniture of my house is new.
+Rule 17: How to count uncountable nouns
+• Concept: To count words like advice or information, use phrases like "a piece of" or
+"pieces of".
+• Incorrect: He gave me two advices.
+• Correct: He gave me two pieces of advice.
+Rule 18: Nouns that are always Plural in form
+• Concept: Tools or clothing items with two symmetric parts (Scissors, Trousers,
+Pants, Spectacles, Binoculars, Tongs) are always plural and take a plural verb.
+• Incorrect: Where is my scissors?
+• Correct: Where are my scissors?
+Rule 19: "A pair of" changes the rule
+• Concept: If you add the phrase "A pair of" before scissors, spectacles, or trousers,
+the verb changes to singular.
+• Incorrect: A pair of shoes were bought by him.
+• Correct: A pair of shoes was bought by him.
+4 | Page
+
+
+===== PAGE 6 =====
+Rule 20: Nouns that look singular but are Plural
+• Concept: Words like Cattle, Clergy, Gentry, Poultry, Peasantry, Folk, People, Police
+look singular because they don't end in 's', but they are always plural and take a
+plural verb.
+• Incorrect: The cattle is grazing in the field.
+• Correct: The cattle are grazing in the field.
+Rule 21: Hyphenated Nouns cannot be plural
+• Concept: A noun used as a modifier with a hyphen must never be in plural form.
+• Incorrect: He gave me a five-rupees note.
+• Correct: He gave me a five-rupee note.
+Rule 22: Numbers + Noun of Measurement
+• Concept: When a definite number comes before words like Pair, Score, Dozen,
+Hundred, Thousand, Million, do not add 's' to them.
+• Incorrect: I bought two dozens bananas.
+• Correct: I bought two dozen bananas.
+Rule 23: Indefinite plural of measurement words
+• Concept: If words like hundred or dozen do not have a number before them, they can
+take an 's' along with the word "of".
+• Correct: Hundreds of people attended the rally.
+Rule 24: Noun + Preposition + Same Noun
+• Concept: When the exact same noun is repeated after a preposition, both nouns must
+be singular.
+• Incorrect: Rows upon rows of marble houses look beautiful.
+• Correct: Row upon row of marble houses looks beautiful.
+Rule 25: Words that don't change in Plural
+• Concept: Words like Deer, Sheep, Fish, Offspring have the exact same form in both
+singular and plural. Never write "sheeps".
+• Incorrect: I saw many sheeps in the meadow.
+• Correct: I saw many sheep in the meadow.
+Rule 26: Possession with Non-living things
+• Concept: Do not use apostrophe-s ('s) with non-living objects. Use the "of" structure
+instead.
+• Incorrect: The table's leg was broken.
+• Correct: The leg of the table was broken.
+5 | Page
+
+
+===== PAGE 7 =====
+Rule 27: Joint vs. Separate Possession
+• Concept: If two people own the same thing together, add 's to the last name only. If
+they own different things separately, add 's to both names.
+• Correct: Sham and Ram's joint account. (One account)
+• Correct: Sham's and Ram's cars. (Two different cars)
+Rule 28: Nouns ending in 's' sound (Hissing sound)
+• Concept: For singular nouns ending in a hissing 's' sound (Keats, Dickens, Jesus), just
+add an apostrophe (') at the end for possession, not another 's'.
+• Incorrect: Keats's poems are romantic.
+• Correct: Keats' poems are romantic.
+Rule 29: Compound Noun Plurals
+• Concept: To pluralize a compound noun, add 's' to the root/principal word, not the
+auxiliary words.
+• Incorrect: My brother-in-laws have arrived.
+• Correct: My brothers-in-law have arrived.
+Rule 30: "As regards" vs. "As regard"
+• Concept: The correct idiomatic phrase is always "as regards" or "in regard to". Never
+mix them up.
+• Incorrect: In regards to your letter...
+• Correct: In regard to your letter...
+👥 Pronoun Adjustments (Rules 31 - 45)
+Rule 31: Order of Personal Pronouns (Normal Situations)
+• Concept: When talking about general or good things, the order of pronouns must be
+2nd Person (You) ➔ 3rd Person (He/She/They) ➔ 1st Person (I). (Trick: 231)
+• Incorrect: I, you and he will study together.
+• Correct: You, he and I will study together.
+Rule 32: Order of Personal Pronouns (Mistakes/Blame)
+• Concept: When confessing a mistake, crime, or guilt, the order switches to 1st
+Person (I) ➔ 2nd Person (You) ➔ 3rd Person (He/They). (Trick: 123)
+• Incorrect: You, he and I committed the crime.
+• Correct: I, you and he committed the crime.
+Rule 33: Comparison of Pronouns
+• Concept: Always compare the same cases. Subject pronouns are compared with
+subject pronouns (after words like "than" or "as").
+• Incorrect: He is faster than me.
+6 | Page
+
+
+===== PAGE 8 =====
+• Correct: He is faster than I (am).
+Rule 34: Pronouns after "Let" and Prepositions
+• Concept: Always use an object pronoun (me, him, her, us, them) after the word
+"Let" or after any preposition.
+• Incorrect: Let you and I solve this problem.
+• Correct: Let you and me solve this problem.
+Rule 35: Each other vs. One another
+• Concept: Use "Each other" when talking about two people. Use "One another" for
+more than two people.
+• Incorrect: The two brothers fought with one another.
+• Correct: The two brothers fought with each other.
+Rule 36: Who vs. Whom
+• Concept:
+o Use Who when it acts as the subject performing the action (Replaceable with
+He/They).
+o Use Whom when it acts as the object receiving the action (Replaceable with
+Him/Them).
+• Correct: Who wrote this letter? (He wrote it)
+• Correct: Whom did you invite? (You invited him)
+Rule 37: Relative Pronoun Match
+• Concept: The verb after who/which/that must match the noun directly before it (the
+antecedent).
+• Incorrect: It is I who is responsible.
+• Correct: It is I who am responsible. (Matches 'I')
+Rule 38: Use of "That" instead of "Who" or "Which"
+• Concept: Always use "That" after words like: All, Same, Only, Any, None, Little,
+Nothing and after Superlative adjectives.
+• Incorrect: This is the best book which I have ever read.
+• Correct: This is the best book that I have ever read.
+Rule 39: "Everybody / Everyone" Gender Tracking
+• Concept: When words like Everyone, Everybody, Each are used, track them using
+masculine singular pronouns (his/him) by default unless the gender is clearly female.
+Do not use "their".
+• Incorrect: Everyone should do their duty.
+• Correct: Everyone should do his duty.
+7 | Page
+
+
+===== PAGE 9 =====
+Rule 40: "One" must follow "One's"
+• Concept: If the subject of your sentence is the indefinite pronoun "One", you must
+use "one's" for possession throughout the sentence, not "his" or "their".
+• Incorrect: One must do his duty honestly.
+• Correct: One must do one's duty honestly.
+Rule 41: Avoid Reflexive Pronouns as Subjects
+• Concept: Words ending in -self (Myself, Himself, Yourself) cannot act as the subject
+of a sentence without a preceding noun or pronoun.
+• Incorrect: Myself am Dr. Roy.
+• Correct: I am Dr. Roy. / I myself am Dr. Roy.
+Rule 42: Prohibited Reflexive Pronouns
+• Concept: Do not use reflexive pronouns (myself, yourself) after verbs like: Keep,
+Break, Stop, Turn, Qualify, Bathe, Move, Hide.
+• Incorrect: He hid himself behind the heavy curtain.
+• Correct: He hid behind the heavy curtain.
+Rule 43: Mandatory Reflexive Pronouns
+• Concept: You must use a reflexive pronoun object after these verbs if no direct object
+is present: Avail, Adapt, Absent, Amuse, Resign, Reconcile, Enjoy, Exert.
+• Incorrect: He absented from the class yesterday.
+• Correct: He absented himself from the class yesterday.
+Rule 44: "It is..." structure case
+• Concept: When a pronoun follows constructions like "It is" or "It was", it must be in
+the subject case.
+• Incorrect: It was him who helped the poor old man.
+• Correct: It was he who helped the poor old man.
+Rule 45: Both can never be Negative
+• Concept: Do not use "not" with the word "Both". Instead, use "Neither".
+• Incorrect: Both of them did not go to school.
+• Correct: Neither of them went to school.
+⚡ Adjective & Adverb Modifiers (Rules 46 - 60)
+Rule 46: Double Comparatives are Prohibited
+• Concept: Never use two comparative indicators (more and -er) together in the same
+modifier phrase.
+• Incorrect: He is more wiser than his younger brother.
+• Correct: He is wiser than his younger brother.
+8 | Page
+
+
+===== PAGE 10 =====
+Rule 47: Adjectives ending in "-ior"
+• Concept: Adjectives like Senior, Junior, Superior, Inferior, Prior, Preferable are
+followed by the preposition "to", never "than".
+• Incorrect: Milk is preferable than tea.
+• Correct: Milk is preferable to tea.
+Rule 48: Any other in Comparative Degree
+• Concept: When comparing an item to the rest of its own group using comparative
+degree, use the phrase "any other" to exclude it from the rest of the group.
+• Incorrect: Iron is more useful than any metal.
+• Correct: Iron is more useful than any other metal.
+Rule 49: As... as / So... as
+• Concept: Use "As... as" for positive sentences, and "So... as" or "As... as" for
+negative sentences. The adjective inside must be in its simple base form (positive
+degree).
+• Incorrect: He is as wiser as his father.
+• Correct: He is as wise as his father.
+Rule 50: Too... to structure
+• Concept: The combination "Too... to" carries a negative meaning by itself (meaning
+"so much that it is impossible"). Do not add another negative word like "not".
+• Incorrect: He is too weak not to walk.
+• Correct: He is too weak to walk. (Means he is so weak that he cannot walk)
+Rule 51: Position of "Enough"
+• Concept: The word "Enough" is placed after the adjective it describes, but before
+nouns.
+• Incorrect: He is enough wise to understand your trick.
+• Correct: He is wise enough to understand your trick.
+Rule 52: Much vs. Very
+• Concept:
+o Use Very before simple base adjectives (Positive degree) and Present
+Participles (verb+ing).
+o Use Much before comparative adjectives (Comparative degree) and Past
+Participles (verb-v3).
+• Correct: It is a very interesting book.
+• Correct: I am much interested in this structural project.
+Rule 53: Little vs. Few (The Essential Scale)
+• Concept:
+o Few = Plural Countable Nouns (Books, Days).
+9 | Page
+
+
+===== PAGE 11 =====
+o Little = Uncountable Nouns (Water, Milk, Knowledge).
+• Incorrect: There are less people today.
+• Correct: There are fewer people today.
+Rule 54: Meaning differences: A few / A little
+• Concept:
+o Few/Little = Almost zero (Negative meaning).
+o A few/A little = Some amount (Positive meaning).
+o The few/The little = All that is remaining.
+• Correct: A little knowledge is a dangerous thing.
+Rule 55: Adverbs modify Verbs (Not Adjectives)
+• Concept: To describe an action (verb), use an adverb (usually ending in '-ly'), not a
+base adjective.
+• Incorrect: She speaks beautiful.
+• Correct: She speaks beautifully.
+Rule 56: Verbs of Sensation (The Exception)
+• Concept: Verbs of sensory perception (Taste, Smell, Feel, Sound, Look, Be, Become)
+take an adjective, not an adverb.
+• Incorrect: The food smells deliciously.
+• Correct: The food smells delicious.
+Rule 57: Hard vs. Hardly
+• Concept:
+o Hard = With great effort / solid.
+o Hardly = Scarcely / Almost not at all (Negative word).
+• Incorrect: He hardly worked and topped the exam.
+• Correct: He worked hard and topped the exam.
+Rule 58: Late vs. Lately
+• Concept:
+o Late = Not on time.
+o Lately = Recently (Used mostly in Present Perfect tense).
+• Correct: I have not seen him lately.
+Rule 59: Inversion with Negative Adverbs
+• Concept: When a sentence starts with a negative adverb like Hardly, Scarcely,
+Seldom, Barely, No sooner, the helping verb must come before the subject.
+• Incorrect: Seldom I have seen such a beautiful painting.
+• Correct: Seldom have I seen such a beautiful painting.
+10 | Page
+
+
+===== PAGE 12 =====
+Rule 60: Double Negatives are Prohibited
+• Concept: Do not use negative words like not or never in the same clause with words
+that already have a negative meaning, such as Hardly, Scarcely, Until, Unless, Forbid,
+Prohibit, Lest.
+• Incorrect: Unless you do not work hard, you will fail.
+• Correct: Unless you work hard, you will fail.
+⏳ Verbs & Tense Precision (Rules 61 - 75)
+Rule 61: Since / For with Perfect Tenses
+• Concept: When a time duration is given using Since (point in time) or For (period of
+time), use a Perfect Tense or Perfect Continuous Tense, never a simple continuous
+tense.
+• Incorrect: I am living here since five years.
+• Correct: I have been living here for five years.
+Rule 62: Two actions in the Past (Past Perfect Rule)
+• Concept: When two actions happened in the past, the older action takes the Past
+Perfect Tense (Had + V3). The more recent action takes the Simple Past Tense (V2).
+• Incorrect: The train departed before I reached the station.
+• Correct: The train had departed before I reached the station.
+Rule 63: Future Tense after Time/Condition Clauses
+• Concept: Do not use "will" or "shall" in clauses starting with conditional or time
+words like If, When, Before, After, Until, Unless, As soon as. Use Simple Present
+instead.
+• Incorrect: If it will rain, we will cancel the match.
+• Correct: If it rains, we will cancel the match.
+Rule 64: Conditional Clauses — Type 3 (Imaginary Past)
+• Concept: If the conditional clause uses "Had + V3", the main result clause must use
+"would have + V3".
+• Incorrect: If you worked hard, you would have passed the exam.
+• Correct: If you had worked hard, you would have passed the exam.
+Rule 65: Unfulfilled Wish / Imaginary Conditions
+• Concept: For imaginary or hypothetical sentences starting with I wish, If only, As
+though, always use the plural past verb "Were", regardless of whether the subject is
+singular or plural.
+• Incorrect: I wish I was a king.
+• Correct: I wish I were a king.
+11 | Page
+
+
+===== PAGE 13 =====
+Rule 66: It is high time...
+• Concept: Phrases like It is time, It is high time, It is about time must be followed by a
+subject and a verb in the Simple Past Tense (V2).
+• Incorrect: It is high time we start studying.
+• Correct: It is high time we started studying.
+Rule 67: "Lest" must follow "Should"
+• Concept: The conjunction "Lest" means "for fear that". It is strictly paired with the
+helping verb "Should". Do not add "not" to it.
+• Incorrect: Run fast lest you will miss the train.
+• Correct: Run fast lest you should miss the train.
+Rule 68: Habitual Actions / Universal Truths
+• Concept: General truths, scientific laws, and daily habits are always written in the
+Simple Present Tense, even if the reporting introduction is in the past.
+• Incorrect: Our teacher said that the earth revolved around the sun.
+• Correct: Our teacher said that the earth revolves around the sun.
+Rule 69: Stative Verbs (No "-ing" form)
+• Concept: Verbs of mental state, emotion, or ownership (Love, Hate, Know,
+Understand, Own, Belong, Possess) are generally not used in the continuous (-ing)
+form.
+• Incorrect: I am knowing the answer.
+• Correct: I know the answer.
+Rule 70: Gerund after "Look forward to"
+• Concept: The prepositional phrases Look forward to, Used to, With a view to,
+Addicted to, Devoted to must be followed by a Gerund (Verb+ing), not a base verb
+infinitive.
+• Incorrect: I am looking forward to meet you.
+• Correct: I am looking forward to meeting you.
+Rule 71: Split Infinitive Error
+• Concept: Do not place an adverb between the word "to" and the base verb
+(Infinitive). Put the adverb after the verb.
+• Incorrect: You need to carefully check the documents.
+• Correct: You need to check the documents carefully.
+Rule 72: Bare Infinitive after "Make, Let, Bid"
+• Concept: Verbs like Make, Let, Bid, Watch, Hear take a plain verb without "to" (Bare
+Infinitive) when used in the active voice.
+• Incorrect: He made me to cry.
+• Correct: He made me cry.
+12 | Page
+
+
+===== PAGE 14 =====
+Rule 73: Dangling Participles (Subject Misalignment)
+• Concept: An introductory participle clause (-ing phrase) must clearly align with the
+subject that follows it. If it doesn't, the sentence structure breaks down.
+• Incorrect: Walking in the park, a snake bit him. (Was the snake walking in the park?)
+• Correct: While he was walking in the park, a snake bit him.
+Rule 74: As soon as... No balancing word
+• Concept: Do not add "then" after using the introductory phrase "As soon as". A
+simple comma is enough.
+• Incorrect: As soon as the thief saw the police, then he ran away.
+• Correct: As soon as the thief saw the police, he ran away.
+Rule 75: Since as a Time Marker (Past vs Present Perfect)
+• Concept: When "since" acts as a time connection link:
+o Clause after since ➔ Simple Past (V2).
+o Main clause before since ➔ Present Perfect (Has/Have + V3).
+• Incorrect: Many things changed since he left the city.
+• Correct: Many things have changed since he left the city.
+🔗 Conjunction Connectors (Rules 76 - 85)
+Rule 76: Scarcely / Hardly... When
+• Concept: Always pair the introductory adverbs Hardly and Scarcely with "when" or
+"before". Never use "than".
+• Incorrect: Hardly had I arrived at the station than the train left.
+• Correct: Hardly had I arrived at the station when the train left.
+Rule 77: No Sooner... Than
+• Concept: The introductory comparative phrase "No sooner" must be paired with
+"than". Never use "then" or "when".
+• Incorrect: No sooner did I open the door when the bird flew out.
+• Correct: No sooner did I open the door than the bird flew out.
+Rule 78: Not only... But also (Balance Rule)
+• Concept: The phrases Not only and But also must be placed right before matching
+parts of speech (Parallel placement).
+• Incorrect: He not only lost his home but also his job.
+• Correct: He lost not only his home but also his job. (Both sit right before nouns)
+Rule 79: Although / Though... Yet
+• Concept: Conjunctions like Although or Though are paired either with "yet" or a
+simple comma. Never use "but".
+13 | Page
+
+
+===== PAGE 15 =====
+• Incorrect: Although he worked hard, but he failed.
+• Correct: Although he worked hard, yet he failed. / Although he worked hard, he
+failed.
+Rule 80: Between... And
+• Concept: The preposition "Between" is strictly paired with the conjunction "and".
+Never use "to".
+• Incorrect: Contact us between 10 AM to 5 PM.
+• Correct: Contact us between 10 AM and 5 PM.
+Rule 81: From... To
+• Concept: If you prefer to use the word "to" for a range, switch the introductory word
+from "between" to "From".
+• Correct: Contact us from 10 AM to 5 PM.
+Rule 82: "So... that" vs. "Too... to"
+• Concept: Do not mix up these two structures. It is either So + Adjective + That
+clause or Too + Adjective + To infinitive.
+• Incorrect: He is too weak that he cannot walk.
+• Correct: He is so weak that he cannot walk.
+Rule 83: Unless vs. Until
+• Concept:
+o Until is tied to a Time threshold.
+o Unless is tied to a Condition.
+• Correct: Wait here until I return. (Time)
+• Correct: You will fail unless you study. (Condition)
+Rule 84: Avoid "That" with Interrogative Sentences
+• Concept: In indirect speech, do not use the conjunction "that" before question words
+like Who, Which, What, Why, When, How, If, Whether.
+• Incorrect: He asked me that why I was late.
+• Correct: He asked me why I was late.
+Rule 85: "Whether" is paired with "Or"
+• Concept: When offering choices or showing doubt with options, use Whether... or.
+Do not use "if".
+• Incorrect: I do not know if he will come or not.
+• Correct: I do not know whether he will come or not.
+14 | Page
+
+
+===== PAGE 16 =====
+📍 Preposition Mastery (Rules 86 - 95)
+Rule 86: No Preposition after Transitive Verbs
+• Concept: Do not add prepositions after active verbs like Discuss, Enter, Marry,
+Order, Resemble, Comprise.
+• Incorrect: We discussed about the matter.
+• Correct: We discussed the matter.
+Rule 87: Enter vs. Enter into
+• Concept:
+o Do not use "into" when walking physically inside a room or building.
+o You can use "into" when entering agreements, alliances, or business deals.
+• Incorrect: He entered into the classroom.
+• Correct: He entered the classroom.
+Rule 88: Comprise vs. Consist of
+• Concept: The verb "Comprise" means consist of. Do not use the word "of" right
+after comprise in active voice sentences.
+• Incorrect: The book comprises of ten chapters.
+• Correct: The book comprises ten chapters. / The book consists of ten chapters.
+Rule 89: Died of vs. Died from
+• Concept:
+o Use Died of for internal causes like diseases, hunger, or thirst (Died of
+cancer).
+o Use Died from for external causes like overwork, wounds, or poison (Died
+from food poisoning).
+• Correct: He died of cholera.
+Rule 90: Angry with vs. Angry at
+• Concept:
+o Use Angry with a person.
+o Use Angry at a thing, action, or behavior.
+• Correct: I am angry with you, but I am angry at your behavior.
+Rule 91: Blind in vs. Blind to
+• Concept:
+o Use Blind in when referring to physical loss of sight (Blind in the left eye).
+o Use Blind to when someone ignores faults or mistakes (Blind to his son's
+mistakes).
+• Correct: A father should not be blind to his child's faults.
+15 | Page
+
+
+===== PAGE 17 =====
+Rule 92: Senior/Junior take "to"
+• Concept: As covered in Rule 47, Latin comparative adjectives never take "than".
+• Incorrect: He is junior than me.
+• Correct: He is junior to me.
+Rule 93: In vs. Into (State of Motion)
+• Concept: Use In to describe something that is already static inside a place. Use Into
+to show movement from the outside to the inside.
+• Correct: He is sitting in the room.
+• Correct: He jumped into the swimming pool.
+Rule 94: Beside vs. Besides
+• Concept:
+o Beside = By the side of / next to.
+o Besides = In addition to / apart from.
+• Incorrect: Sit besides me.
+• Correct: Sit beside me.
+Rule 95: Accompanied by vs. Accompanied with
+• Concept: Use Accompanied by for individuals/people, and Accompanied with for
+objects or things.
+• Correct: The PM was accompanied by his bodyguards.
+• Correct: Fever is often accompanied with a headache.
+🛠️ Redundancy & Structure (Rules 96 - 100)
+Rule 96: Return / Revert back
+• Concept: The prefixes re- in words like Return, Revert, Retreat, Reimburse already
+mean "back". Adding the word "back" after them is repetitive and incorrect.
+• Incorrect: Please return back my book.
+• Correct: Please return my book.
+Rule 97: Reason why... because
+• Concept: The phrase "The reason why" already explains cause. Do not use the word
+"because" or "due to" later in the same statement. Use "that" instead.
+• Incorrect: The reason why he failed was because he didn't study.
+• Correct: The reason why he failed was that he didn't study.
+Rule 98: Supposing if
+• Concept: Both "Supposing" and "If" serve the exact same purpose to introduce a
+condition. Never use them right next to each other.
+• Incorrect: Supposing if it rains, what will we do?
+• Correct: If it rains, what will we do? / Supposing it rains, what will we do?
+16 | Page
+
+
+===== PAGE 18 =====
+Rule 99: Cousin brother / Cousin sister
+• Concept: The word "Cousin" includes both genders. Adding "brother" or "sister"
+after it is redundant in English grammar. Use context clues like he or she to show their
+gender.
+• Incorrect: She is my cousin sister.
+• Correct: She is my cousin.
+Rule 100: Final Conclusion / Twin Brothers
+• Concept: A conclusion is always final, and twins always come in pairs. Adding words
+like "final" or "twin" before them creates unnecessary repetition.
+• Incorrect: This is the final conclusion of our research project.
+• Correct: This is the conclusion of our research project.
+Questions
+Part A: Subject-Verb Agreement Traps (Q1 - Q25)
+Q1
+Question: One of the most critical factors (A) / that determines the economic stability (B) /
+of a developing nation are its manufacturing output. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The true subject of the sentence is "One" (from the construction One of
++ Plural Noun). The relative clause "that determines..." modifies "factors", but the
+main verb of the sentence must agree with "One". Therefore, the plural verb "are"
+must be replaced with the singular verb "is".
+Q2
+Question: Neither the financial analysts (A) / nor the chief executive officer are optimistic
+(B) / about the market recovery in the upcoming fiscal quarter. (C) / No Error (D)
+• Answer: (B)
+• Explanation: When two subjects are connected using the correlative conjunction
+Neither...nor, the verb must agree with the subject closest to it. Here, the closest
+subject is "the chief executive officer" (singular). Thus, "are" must be changed to
+"is".
+Q3
+Question: A substantial body of evidence (A) / compiled by global climate scientists (B) /
+suggest that sea levels are rising faster than projected. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The subject is the collective noun phrase "A substantial body"
+(singular), not the modifying object "evidence". A singular subject demands a singular
+verb form. Change "suggest" ($V_1$) to "suggests" ($V_5$).
+17 | Page
+
+
+===== PAGE 19 =====
+Q4
+Question: The dynamic variations in (A) / the temperature of the upper atmosphere (B) / is
+responsible for sudden changes in regional weather patterns. (C) / No Error (D)
+• Answer: (C)
+• Explanation: This is a classic "distortion by prepositional phrase" trap. The true
+subject is "variations" (plural). The phrase "in the temperature of the upper
+atmosphere" simply modifies it. Replace the singular verb "is" with the plural verb
+"are".
+Q5
+Question: The behavior of the local crowd (A) / during the protest rallies (B) / were highly
+unpredictable and caused panic among the residents. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The subject is "behavior" (singular noun). The plural noun "rallies" is
+merely part of a modifying prepositional phrase. Change "were" to "was" to achieve
+proper grammatical agreement.
+Q6
+Question: Not only the students (A) / but also their accompanying class teacher (B) / were
+deeply concerned about the unexpected change in the syllabus. (C) / No Error (D)
+• Answer: (C)
+• Explanation: When using Not only...but also, the verb tracks the closest subject.
+Here, "class teacher" is singular. The plural verb "were" must be corrected to the
+singular "was".
+Q7
+Question: Knowledge of at least (A) / two core programming languages (B) / are mandatory
+for securing a software engineering role at the firm. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The subject is the abstract noun "Knowledge" (uncountable and
+singular). The plural phrase "two core programming languages" can trick your eye
+because it sits next to the verb. Change "are" to "is".
+Q8
+Question: Each of the newly recruited candidates (A) / have been instructed to submit (B) /
+their original credentials before the end of the day. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The pronoun "Each" is strictly singular and takes a singular verb.
+Change "have been" to "has been". (Bonus Error: "their" in part C should ideally
+be "his or her", though TCS frequently targets the verb element in these specific
+combinations).
+18 | Page
+
+
+===== PAGE 20 =====
+Q9
+Question: The prime minister, accompanied by (A) / several high-ranking cabinet ministers,
+(B) / have arrived at the international convention center. (C) / No Error (D)
+• Answer: (C)
+• Explanation: When a subject is joined with other nouns using phrases like
+accompanied by, along with, as well as, or together with, ignore the secondary nouns.
+The verb agrees solely with the first subject, "The prime minister" (singular).
+Change "have arrived" to "has arrived".
+Q10
+Question: A number of technical glitches (A) / was detected during the beta testing phase (B)
+/ of the newly developed mobile application. (C) / No Error (D)
+• Answer: (B)
+• Explanation:
+o A number of + Plural Noun $\rightarrow$ Takes a plural verb (means
+"many").
+o The number of + Plural Noun $\rightarrow$ Takes a singular verb (denotes a
+single specific figure).
+o Since this sentence uses "A number of", change the singular "was" to the
+plural "were".
+Q11
+Question: The performance of our athletes (A) / in the recent international tournaments (B) /
+have fallen drastically short of public expectations. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The true grammatical subject is "performance" (singular). Do not let
+the plural noun "athletes" dictate the verb. Change "have fallen" to "has fallen".
+Q12
+Question: Two-thirds of the total wheat crop (A) / were ruined due to the unseasonal rainfall
+(B) / that lashed the northern plains last week. (C) / No Error (D)
+• Answer: (B)
+• Explanation: For fractional or percentage expressions (two-thirds of, half of, most
+of), the verb is determined by the noun following the preposition "of". Here, "wheat
+crop" is singular and uncountable. Therefore, change "were" to "was".
+Q13
+Question: Every man, woman, and child (A) / in the flood-affected village (B) / were
+provided with emergency medical aid by the volunteers. (C) / No Error (D)
+• Answer: (C)
+• Explanation: When a compound subject is preceded by the distributive adjective
+"Every" or "Each", the entire noun construction is treated as grammatically singular.
+Change "were" to "was".
+19 | Page
+
+
+===== PAGE 21 =====
+Q14
+Question: The heavy influx of foreign direct investment (A) / into the infrastructure sectors
+(B) / have stabilized the volatile national currency. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The true singular subject is "influx". The word "sectors" belongs to a
+qualifying prepositional phrase. Change "have" to "has".
+Q15
+Question: The quality of these newly manufactured (A) / electronic luxury items are not up
+to (B) / the rigorous international safety standards. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The noun phrase "The quality" is singular and acts as the true subject.
+Replace the plural verb "are" with the singular "is".
+Q16
+Question: Many a prospective investor (A) / have sustained heavy losses (B) / due to the
+sudden crash of the unregulated cryptocurrency market. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The idiomatic phrase "Many a" takes a singular countable noun
+(investor) and structurally requires a singular verb. Change "have" to "has".
+Q17
+Question: The introduction of comprehensive reforms (A) / in the banking and financial
+sectors (B) / have yielded positive results within a short span. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The true subject is "The introduction" (singular). The plural phrase
+"reforms in the banking and financial sectors" is an object of the preposition. Change
+"have" to "has".
+Q18
+Question: Rice and curry are the staple food (A) / of the majority of the population (B) /
+living in the coastal regions of the country. (C) / No Error (D)
+• Answer: (A)
+• Explanation: When two nouns are joined by "and" but express a single, combined,
+collective idea (like a single meal or concept: Rice and curry, Bread and butter, Slow
+and steady), they take a singular verb. Change "are" to "is".
+Q19
+Question: The accumulation of toxic industrial waste (A) / in the major urban rivers (B) /
+pose a severe threat to marine ecosystems. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The singular subject "accumulation" demands a singular verb. Change
+the plural base verb "pose" to its singular variant "poses".
+20 | Page
+
+
+===== PAGE 22 =====
+Q20
+Question: Neither of the two configurations suggested (A) / by the technical engineering
+team (B) / are compatible with our current operating system. (C) / No Error (D)
+• Answer: (C)
+• Explanation: "Neither" used as a pronoun refers to "none of the two" and is strictly
+singular. Change the plural verb "are" to "is".
+Q21
+Question: The data compiled by the research agency (A) / regarding the regional
+employment rates (B) / are highly inconsistent with official figures. (C) / No Error (D)
+• Answer: (C)
+• Explanation: In modern standard English and competitive examinations, while "data"
+can be a plural collective, when treated as a singular mass entity compiled into a
+single report, it aligns with a singular verb. More explicitly, the structure focuses on
+the collection. Change "are" to "is".
+Q22
+Question: Three-quarters of the historic structure (A) / have been meticulously restored (B) /
+by the Archaeological Survey department. (C) / No Error (D)
+• Answer: (B)
+• Explanation: "Structure" is a singular singular entity. A fraction of a singular object
+remains singular. Replace "have been" with "has been".
+Q23
+Question: The major objective of the ongoing (A) / administrative and judicial interactions
+(B) / are to streamline the public grievance redressal mechanism. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The subject is the singular noun "objective". Do not be confused by the
+plural adjective phrase "interactions". Change "are" to "is".
+Q24
+Question: Either the department head (A) / or his subordinate staff members (B) / is
+responsible for managing the daily operational logs. (C) / No Error (D)
+• Answer: (C)
+• Explanation: When Either...or connects two subjects, the verb matches the closer
+subject. "staff members" is plural. Change the singular verb "is" to the plural "are".
+Q25
+Question: The severe outbreak of infectious viral diseases (A) / across the densely populated
+metropolitan regions (B) / were brought under control quickly. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The subject is "outbreak" (singular). "Diseases" and "regions" are
+nouns nested inside modifying phrases. Change "were" to "was".
+21 | Page
+
+
+===== PAGE 23 =====
+Part B: Tense Matrix & Aspect Infractions (Q26 - Q50)
+Q26
+Question: The defense attorney argued that (A) / his client was innocent because he (B) / had
+been out of the country since five years. (C) / No Error (D)
+• Answer: (C)
+• Explanation: This tests the Since vs. For rule.
+o Since $\rightarrow$ Used for a specific fixed point in time (since 2015, since
+Monday).
+o For $\rightarrow$ Used for a duration or total period of time (for 5 years, for 3
+hours).
+o Change "since" to "for".
+Q27
+Question: By the time the rescue team reached (A) / the remote landslide location, (B) / the
+local villagers already cleared the debris. (C) / No Error (D)
+• Answer: (C)
+• Explanation: When two past actions happen sequentially, the earlier action must be
+expressed in the Past Perfect Tense ($had + V_3$) and the later action in the Simple
+Past Tense ($V_2$). The clearing of debris happened before the team arrived. Change
+"already cleared" to "had already cleared".
+Q28
+Question: For the past three consecutive months, (A) / the research team is working tirelessly
+(B) / on developing a stable synthetic vaccine strain. (C) / No Error (D)
+• Answer: (B)
+• Explanation: If an action began in the past and is still ongoing in the present,
+accompanied by a time duration tag ("For the past three months"), you cannot use the
+Present Continuous tense. You must use the Present Perfect Continuous Tense.
+Change "is working" to "has been working".
+Q29
+Question: If the factory management (A) / would have taken timely safety precautions, (B) /
+the industrial disaster could have been avoided. (C) / No Error (D)
+• Answer: (B)
+• Explanation: This is a classic Type-3 Conditional sentence error. The structure for an
+unfulfilled past condition is:
+$$\text{If + Past Perfect (had + V3), ... Would/Could have + V3}$$
+The "If-clause" cannot take "would have". Change "would have taken" to "had
+taken".
+Q30
+Question: As soon as the regulatory authority (A) / will issue the official clearance
+certificate, (B) / the construction work will resume immediately. (C) / No Error (D)
+22 | Page
+
+
+===== PAGE 24 =====
+• Answer: (B)
+• Explanation: In a future conditional or time-bound clause (introduced by words like
+As soon as, If, When, Until, Unless), you cannot use the future auxiliary "will" twice.
+The time/conditional clause must take the Simple Present Tense. Change "will issue"
+to "issues".
+Q31
+Question: The archeological department discovered (A) / that the ancient ruins contain (B) /
+inscriptions dating back to the Mauryan Empire. (C) / No Error (D)
+• Answer: (B)
+• Explanation: If the principal clause is in the past tense ("discovered"), the
+subordinate clause must also match that past framing, unless it states a universal,
+permanent scientific truth. The inscriptions within the ruins are historical facts.
+Change "contain" to "contained".
+Q32
+Question: I have passed the competitive examination (A) / three years ago, but I have not
+received (B) / any official appointment letter yet. (C) / No Error (D)
+• Answer: (A)
+• Explanation: A sentence containing a specific past time marker or anchor point
+("three years ago") cannot accept the Present Perfect Tense. It must take the Simple
+Past tense. Change "have passed" to "passed".
+Q33
+Question: Since she joined the corporate firm (A) / as a junior financial consultant, (B) / she
+is working with utmost dedication. (C) / No Error (D)
+• Answer: (C)
+• Explanation: When a sentence uses "Since + Simple Past clause" to mark a starting
+point, the main clause describing the ongoing action must be in the Present Perfect
+or Present Perfect Continuous tense. Change "is working" to "has been working".
+Q34
+Question: The general manager inquired (A) / whether anyone of the technical staff (B) / has
+completed the assigned project data entry. (C) / No Error (D)
+• Answer: (C)
+• Explanation: Indirect speech rules apply here. Because the reporting verb is in the
+past tense ("inquired"), the present perfect "has completed" inside the indirect query
+must shift to the past perfect form. Change "has completed" to "had completed".
+Q35
+Question: If I was you, I would have (A) / rejected the unfair business proposal (B) / without
+any hesitation or second thoughts. (C) / No Error (D)
+• Answer: (A)
+23 | Page
+
+
+===== PAGE 25 =====
+• Explanation: For imaginary, counterfactual, or hypothetical conditions (Subjunctive
+Mood), the past plural verb form "were" is mandatory across all subjects, singular or
+plural. Change "If I was you" to "If I were you".
+Q36
+Question: The standard physics textbook states (A) / that light traveled at a speed (B) / of
+approximately three lakh kilometers per second. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Universal scientific laws or absolute facts are always stated in the
+Simple Present Tense, even if introduced by a past reporting framework (though here
+the introduction "states" is present anyway). Change "traveled" to "travels".
+Q37
+Question: We are living in this residential colony (A) / since our childhood, so we know (B) /
+all the local families living nearby. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The presence of the time marker "since our childhood" indicates an
+action that started in the past and is still true. This blocks the Present Continuous
+tense. Change "We are living" to "We have been living".
+Q38
+Question: No sooner did the prime minister (A) / finished his independence day address (B) /
+than the heavy rain started pouring down. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The auxiliary verb "did" must always be followed by the base form of
+the main verb ($V_1$). Combining "did" with the past-tense form "finished" creates a
+double-past infraction. Change "finished" to "finish".
+Q39
+Question: I will contact you (A) / the moment I will receive (B) / the updated confirmation
+from the operations department. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The phrase "the moment" acts as a temporal conditional conjunction
+similar to "when". Do not use a future marker ("will") inside a time clause. Change "I
+will receive" to "I receive".
+Q40
+Question: The senior administrative officer (A) / had left the office premises (B) / an hour
+ago to attend a sudden inspection. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The past time anchor "an hour ago" points to a specific point in time,
+requiring the Simple Past tense. The Past Perfect tense ("had left") is only used when
+ordering two relative past events. Change "had left" to "left".
+24 | Page
+
+
+===== PAGE 26 =====
+Q41
+Question: It is high time (A) / the government takes decisive regulatory measures (B) / to
+control the escalating prices of essential commodities. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Phrasal idioms like It is time, It is high time, or It is about time must be
+followed by a clause in the Simple Past Tense ($V_2$) when indicating that an action
+is overdue. Change "takes" to "took".
+Q42
+Question: She confessed that she (A) / did not saw the warning signboard (B) / posted near
+the deep excavation zone. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The negative past auxiliary "did not" must be paired with the base form
+of the verb ($V_1$). Using the past form "saw" is incorrect. Change "did not saw" to
+"did not see".
+Q43
+Question: The experienced mariner claimed (A) / that he traversed across the Atlantic Ocean
+(B) / more than ten times throughout his long career. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Because the traversing happened prior to his past claim, this action
+requires the Past Perfect tense to establish clear chronological order. Change "he
+traversed" to "he had traversed".
+Q44
+Question: My father told me yesterday (A) / that honesty was always (B) / the best policy in
+any professional career. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Proverbs, idioms, and universal moral truths never shift out of the
+Simple Present Tense, even when embedded within a past-tense reporting framework.
+Change "was" to "is".
+Q45
+Question: Until you do not complete (A) / the mandatory security documentation work, (B) /
+your account access will remain suspended. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The temporal conjunction "Until" is inherently negative (meaning up to
+the time that not). Adding "do not" inside the clause creates a grammatically incorrect
+double negative. Change "Until you do not complete" to "Until you complete".
+Q46
+Question: The dynamic stock broker (A) / had buyed the high-performing shares (B) / just
+before the quarterly market rally began. (C) / No Error (D)
+25 | Page
+
+
+===== PAGE 27 =====
+• Answer: (B)
+• Explanation: This targets irregular past participle verb forms. The past participle
+($V_3$) of the verb buy is bought, not the non-existent regularized form "buyed".
+Change "buyed" to "bought".
+Q47
+Question: When the fire alarm rang, (A) / the employees were found to be (B) / already left
+the commercial building. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The action of leaving happened before the alarm check was noted. To
+show the completed state of a past action, use the perfect infinitive "to have left".
+Change "to be already left" to "to have already left".
+Q48
+Question: He told his close friends (A) / that he is preparing for the upcoming (B) / civil
+services examinations with focus. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Indirect narration sequence trap. The reporting verb is in the past tense
+("told"), which forces the present continuous "is preparing" to backshift into the Past
+Continuous Tense. Change "is preparing" to "was preparing".
+Q49
+Question: The historic treaty is signed (A) / by the representatives of both nations (B) / in
+Paris on the tenth of October, 1999. (C) / No Error (D)
+• Answer: (A)
+• Explanation: A specific year in the past ("1999") requires a past tense framework.
+Since the action is passive, use the Simple Past Passive structure ($was/were + V_3$).
+Change the present "is signed" to "was signed".
+Q50
+Question: Supposing if it rains heavily (A) / on the day of the exam, (B) / will the scheduled
+session be postponed? (C) / No Error (D)
+• Answer: (A)
+• Explanation: The words "Supposing" and "If" both express a conditional hypothesis.
+Using them side-by-side creates a redundant construction. Remove "if" or
+"supposing" to correct the sentence syntax.
+Part A: Adjective & Modifier Traps (Q51 - Q75)
+Q51
+Question: Of the two highly competitive engineering solutions (A) / proposed by the
+technical consultants, (B) / this option is definitely the best. (C) / No Error (D)
+• Answer: (C)
+26 | Page
+
+
+===== PAGE 28 =====
+• Explanation: When comparing exactly two things, you must use the comparative
+degree (better), not the superlative degree (best). Superlative degrees are reserved for
+comparisons involving three or more entities. Change "the best" to "the better".
+Q52
+Question: She is growing wiser and wiser (A) / but her sister is progressively becoming (B) /
+more taller every single day. (C) / No Error (D)
+• Answer: (C)
+• Explanation: This contains a double comparative error. "Taller" is already a
+comparative adjective. Adding the modifier "more" before it is grammatically
+redundant. Change "more taller" to "taller".
+Q53
+Question: The air pollution index of Delhi (A) / is significantly worse than (B) / any other
+metropolitan city in neighboring countries. (C) / No Error (D)
+• Answer: (C)
+• Explanation: This is an illogical comparison trap. The sentence mistakenly
+compares the pollution index of Delhi directly to a city (metropolitan city) instead of
+comparing it to the pollution index of that city. Change "than any other" to "than that
+of any other" (where "that of" refers back to the index).
+Q54
+Question: This antique wooden furniture is (A) / the most unique piece (B) / currently on
+display in the national museum. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Adjectives like unique, perfect, absolute, complete, universal, ideal, or
+dead represent a superlative state inherent to their meaning. They cannot be graded or
+modified with words like "more" or "most". Change "the most unique" to "a
+unique".
+Q55
+Question: The newly appointed regional manager (A) / is senior and more experienced than
+(B) / any of the working executives in this department. (C) / No Error (D)
+• Answer: (B)
+• Explanation: When two adjectives requiring different prepositions are joined in a
+single sentence, both prepositions must be explicitly written. The adjective "senior"
+requires the preposition to, while "experienced" requires than. Change "is senior and
+more experienced than" to "is senior to and more experienced than".
+Q56
+Question: Little knowledge of medicinal herbs (A) / that he possessed proved to be an
+absolute lifesaver (B) / during the remote wilderness expedition. (C) / No Error (D)
+• Answer: (A)
+• Explanation:
+o Little = Almost nothing (negative meaning).
+27 | Page
+
+
+===== PAGE 29 =====
+o A little = Some amount.
+o The little = A small amount, but all of what is being referred to.
+o Since the sentence references a specific, small amount of knowledge that he
+possessed, use "The little" instead of "Little".
+Q57
+Question: Can you please hand over (A) / any books on microeconomics (B) / that you can
+spare from your library? (C) / No Error (D)
+• Answer: (B)
+• Explanation: In polite, affirmative requests or offers where we expect a positive
+answer, we use the adjective "some" instead of "any". "Any" is strictly reserved for
+negative or general interrogative structures. Change "any books" to "some books".
+Q58
+Question: Out of all the dynamic sectors, (A) / the technological domain is the most
+preferred (B) / and junior than the finance division. (C) / No Error (D)
+• Answer: (C)
+• Explanation: Latin adjectives ending in -ior (like junior, senior, inferior, superior,
+prior) must always be followed by the preposition to, never the conjunction "than".
+Change "junior than" to "junior to".
+Q59
+Question: The performance of the young prodigy (A) / was relative better than (B) / what the
+critics had initially predicted. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Adjectives like comparatively or relatively inherently mean you are
+comparing values. Therefore, they must always be paired with a positive degree
+adjective, never a comparative one. Change "relative better" to "relatively good" or
+remove "relative".
+Q60
+Question: No lower than fifty prospective candidates (A) / turned up at the administrative
+office (B) / to submit their application forms. (C) / No Error (D)
+• Answer: (A)
+• Explanation:
+o Less/Lower = Modifies uncountable mass quantities.
+o Fewer = Modifies plural countable items.
+o Since "candidates" can be counted, change "No lower than" to "No fewer
+than".
+Q61
+Question: The property developer clearly stated (A) / that the interior layout of the first
+house (B) / was preferable than the second one. (C) / No Error (D)
+• Answer: (C)
+28 | Page
+
+
+===== PAGE 30 =====
+• Explanation: The adjective "preferable" inherently contains a comparative value
+and must be paired with the preposition to, not "than". Change "preferable than" to
+"preferable to".
+Q62
+Question: He behaves in a cowardly manner (A) / which makes him highly unsuited (B) / for
+a high-risk operational role in the armed forces. (C) / No Error (D)
+• Answer: (D)
+• Explanation: This sentence is No Error. TCS often tries to confuse students with
+words like cowardly, miserly, friendly, or brotherly. These words are adjectives, not
+adverbs. To modify the verb "behaves," the phrase "in a cowardly manner" is
+structurally flawless.
+Q63
+Question: The judicial committee remarked that (A) / the evidence produced by the
+prosecution (B) / was the most complete truth. (C) / No Error (D)
+• Answer: (C)
+• Explanation: Much like "unique", the adjective "complete" represents an absolute
+boundary condition. It cannot take comparative or superlative modifiers like "most".
+Change "the most complete truth" to "the complete truth".
+Q64
+Question: This particular segment of the highway (A) / is more safer for night driving (B) /
+compared to the alternative mountain route. (C) / No Error (D)
+• Answer: (B)
+• Explanation: "Safer" is already in the comparative degree. Adding "more" introduces
+a redundant double comparative infraction. Change "more safer" to "safer".
+Q65
+Question: The new luxury sedan is (A) / five times more expensive than (B) / the older
+model currently running on roads. (C) / No Error (D)
+• Answer: (B)
+• Explanation: When multi-fold mathematical expressions like "times" are introduced
+for direct comparison, standard syntax rules prefer the absolute matching phrase
+format: "X times as [Positive Degree] as", rather than using the comparative more
+than. Change "five times more expensive than" to "five times as expensive as".
+Q66
+Question: My father is explicitly clear (A) / that he prefers reading classic literature (B) /
+rather than watching contemporary web series. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The verb "prefer" takes the preposition "to" when comparing two
+nouns or gerunds ($V_4$). Change "rather than watching" to "to watching".
+29 | Page
+
+
+===== PAGE 31 =====
+Q67
+Question: He did not bring any valid identification (A) / along with him to the examination
+hall, (B) / so he was denied entry by the supervisors. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The negative modifier "did not" is properly
+paired with the adjective "any".
+Q68
+Question: The weather condition today (A) / is comparatively hotter than it was (B) / during
+the exact same period last week. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The modifier "comparatively" cannot be paired with a comparative
+adjective (hotter) because it creates a structural redundancy. Change "comparatively
+hotter" to "comparatively hot".
+Q69
+Question: Radha is cleverer than (A) / any student in her competitive (B) / batch at the
+coaching institute. (C) / No Error (D)
+• Answer: (B)
+• Explanation: When comparing a single individual to an entire group using a
+comparative degree, you must exclude that individual from the rest of the group by
+adding the word "other". Otherwise, Radha would be compared to a group that
+includes herself. Change "any student" to "any other student".
+Q70
+Question: The project manager assured that (A) / the task would be completed (B) / without
+any further delays. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. "Further" means additional distance in
+degree or time, which is exactly what is intended here, as opposed to "farther," which
+measures physical geographic distance.
+Q71
+Question: Whole the country mourned the sudden (A) / demise of the highly respected (B) /
+senior military commander. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The definite article "The" must be placed before the adjective "whole".
+The correct structural ordering is "The whole country", not "Whole the country".
+(Conversely, "all" takes the article after it: "All the countries").
+Q72
+Question: He does not have many money (A) / to invest in speculative capital ventures (B) /
+at this current juncture in his career. (C) / No Error (D)
+30 | Page
+
+
+===== PAGE 32 =====
+• Answer: (A)
+• Explanation: "Money" is an uncountable noun in English grammar. The modifier
+"many" can only be paired with countable nouns. Change "many money" to "much
+money" or "a lot of money".
+Q73
+Question: This branch of the banyan tree (A) / is much more longer than (B) / the one
+hanging over our residential roof. (C) / No Error (D)
+• Answer: (B)
+• Explanation: "Longer" is a comparative adjective. Adding "more" creates an
+incorrect double comparative. Note that using "much" as an intensive modifier before
+a comparative adjective (much longer) is perfectly valid, but "more" is incorrect.
+Change "much more longer" to "much longer".
+Q74
+Question: The creative design layout of this building (A) / is superior and more aesthetically
+pleasing than (B) / the colonial architecture of the old town hall. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The adjective "superior" requires the fixed preposition "to". Change
+the segment to read: "is superior to and more aesthetically pleasing than".
+Q75
+Question: Solon is the most wisest man (A) / who has ever laid down administrative laws (B)
+/ for this ancient civilization. (C) / No Error (D)
+• Answer: (A)
+• Explanation: "Wisest" is already a superlative adjective. Adding "most" creates an
+invalid double superlative. Change "the most wisest" to "the wisest".
+Part B: Adverbial & Inversion Rules (Q76 - Q100)
+Q76
+Question: Seldom or ever have I witnessed (A) / such an incredibly emotional performance
+(B) / by a classical theater artist on stage. (C) / No Error (D)
+• Answer: (A)
+• Explanation: This targets standard idiomatic adverbial pairings. The correct
+combinations are either "Seldom or never" or "Seldom, if ever". Mixing them into
+"Seldom or ever" is grammatically incorrect. Change "Seldom or ever" to "Seldom or
+never".
+Q77
+Question: Hardly had the train arrived (A) / at the platform than the passengers (B) / began
+to rush violently toward the compartments. (C) / No Error (D)
+• Answer: (B)
+31 | Page
+
+
+===== PAGE 33 =====
+• Explanation: Negative adverbs of time like Hardly, Scarcely, or Barely must be
+paired with the conjunction "when" (or before), never "than". "Than" is exclusively
+reserved for No sooner. Change "than" to "when".
+Q78
+Question: No sooner the match had started (A) / when it began to rain heavily, forcing (B) /
+the players to run off the open field. (C) / No Error (D)
+• Answer: (A)
+• Explanation: This sentence contains two major errors often tested by TCS. First,
+beginning a sentence with the negative adverb "No sooner" mandates adverbial
+inversion (the auxiliary verb must sit before the subject). Second, "No sooner" pairs
+with than, not "when". Change the first part to "No sooner had the match started
+than".
+Q79
+Question: The investigative journalist spoke (A) / in a highly brave manner about the
+systemic (B) / corruption deep within the administrative machinery. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. "Brave" can be converted into the adverb
+"bravely", but using the expanded descriptive phrase "in a highly brave manner" is
+also completely valid.
+Q80
+Question: He is rich enough (A) / to buy a premium luxury apartment (B) / in the most
+expensive locality of metropolitan Mumbai. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The adverb "enough" follows a specific
+positioning rule: it must always be placed after the adjective it modifies ("rich" is an
+adjective, so "rich enough" is correct). (Note: It precedes nouns, e.g., "enough
+money").
+Q81
+Question: The examination was so difficult (A) / that I was only able to solve (B) / two
+questions completely during the test. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The adverb "only" must be placed immediately before the word it
+modifies to avoid ambiguity. Here, it is meant to modify the quantity "two questions",
+not the ability to solve them. Change the segment to: "to solve only two questions".
+Q82
+Question: Scarcely the inspector had stepped out (A) / of his official police vehicle when (B)
+/ a sudden gunshot echoed through the narrow alleyway. (C) / No Error (D)
+• Answer: (A)
+32 | Page
+
+
+===== PAGE 34 =====
+• Explanation: Because the sentence begins with the restrictive adverb "Scarcely", you
+must use subject-auxiliary inversion. Shift the auxiliary verb "had" before the subject
+"the inspector". Change to: "Scarcely had the inspector stepped out".
+Q83
+Question: Under no circumstances (A) / the security personnel will allow (B) / unauthorized
+individuals to enter the high-security vault. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Prepositional phrases acting as negative restrictors (such as Under no
+circumstances, On no account, In no way) force an inversion if placed at the very start
+of a sentence. Change "the security personnel will allow" to "will the security
+personnel allow".
+Q84
+Question: He is too intelligent (A) / to not understand the hidden implications (B) / behind
+the diplomat's carefully worded statement. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The core structural framework "Too...to" inherently carries a negative
+meaning (meaning so intelligent that he will definitely understand or too heavy to lift
+= so heavy that it cannot be lifted). Adding a secondary "not" creates an unintended
+double negative. Change "to not understand" to "to understand".
+Q85
+Question: Not only did she clear the preliminary exam, (A) / but she also topped the final
+interview (B) / with record-breaking marks. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. When "Not only" starts a sentence, it
+triggers a valid inversion ("did she clear"), and it is properly balanced by "but she
+also" in the later clause.
+Q86
+Question: The corporate trainees were running (A) / too fastly to catch up with (B) / the
+senior fitness instructor during the drill. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The word "fastly" does not exist in standard English grammar. "Fast"
+functions as both an adjective and an adverb. Change "too fastly" to "too fast".
+Q87
+Question: He was uncommonly wise (A) / and handled the highly tense diplomatic crisis (B)
+/ very masterly. (C) / No Error (D)
+• Answer: (C)
+• Explanation: "Masterly" is an adjective (meaning characteristic of a master), not an
+adverb. To modify the verb "handled", you must use an adverbial construction.
+Change "very masterly" to "in a masterly manner".
+33 | Page
+
+
+===== PAGE 35 =====
+Q88
+Question: Never before I have seen (A) / such a spectacular display of fireworks (B) / during
+the annual festive celebrations. (C) / No Error (D)
+• Answer: (A)
+• Explanation: Starting a sentence with the negative time adverb phrase "Never
+before" requires an inversion of the auxiliary verb and subject. Change "I have seen"
+to "have I seen".
+Q89
+Question: The financial auditor found that (A) / the company accounts had been managed
+(B) / in a quite dishonest way. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The adverb "quite" must precede any indefinite articles (a/an) when
+modifying an adjective-noun unit. The correct structural sequence is "quite a
+dishonest way", not "in a quite dishonest way".
+Q90
+Question: She was so heavily shocked (A) / by the news of the sudden accident (B) / that she
+could barely speak a word. (C) / No Error (D)
+• Answer: (A)
+• Explanation: While "heavily" modifies physical items or actions (e.g., raining
+heavily), emotional or psychological states are modified by adverbs like deeply,
+profoundly, or severely. Change "heavily shocked" to "deeply shocked".
+Q91
+Question: Little he realized that (A) / the administrative decision would have (B) / such a
+catastrophic impact on his career. (C) / No Error (D)
+• Answer: (A)
+• Explanation: When the restrictive adverb "Little" is placed at the start of a sentence
+to emphasize a lack of awareness, it triggers an inversion. Since the context is simple
+past ("realized"), use the auxiliary "did". Change to: "Little did he realize".
+Q92
+Question: The operational guidelines provided by (A) / the defense headquarters are (B) / too
+much painful to implement on the ground. (C) / No Error (D)
+• Answer: (C)
+• Explanation: This targets a nuanced adverbial modifier distinction:
+o "Too much" is followed directly by a Noun (e.g., too much pain).
+o "Much too" is followed directly by an Adjective (e.g., much too painful).
+o Since "painful" is an adjective, change "too much painful" to "much too
+painful".
+34 | Page
+
+
+===== PAGE 36 =====
+Q93
+Question: He worked hardly throughout the year, (A) / which is why he failed to secure (B) /
+a passing score in the final Tier-2 evaluation. (C) / No Error (D)
+• Answer: (A)
+• Explanation:
+o Hard = With great effort and energy (positive meaning).
+o Hardly = Barely/Almost not at all (negative meaning).
+o The sentence context explains why he failed, indicating he put in almost no
+effort. Therefore, the placement of "hardly" is logically correct, but its position
+is wrong. "Hardly" should precede the verb it modifies. Change to "He hardly
+worked throughout the year".
+Q94
+Question: No sooner had the alarm rung (A) / then he jumped out of bed (B) / and started
+preparing for his morning shift. (C) / No Error (D)
+• Answer: (B)
+• Explanation: "No sooner" must be followed by the conjunction "than". TCS
+frequently slips in the time marker "then" as a visual trap. Change "then" to "than".
+Q95
+Question: The project was finished (A) / clean and completely within (B) / the tight deadline
+allocated by the client. (C) / No Error (D)
+• Answer: (B)
+• Explanation: To modify the passive verb construction "was finished", you must use a
+proper adverb. "Clean" is an adjective. Change it to the adverb "cleanly" or remove it
+to avoid redundancy with "completely".
+Q96
+Question: Only by working hard (A) / you can achieve your dream (B) / of becoming an
+Income Tax Inspector. (C) / No Error (D)
+• Answer: (B)
+• Explanation: When a sentence begins with a restrictive phrase starting with "Only"
+(such as Only by, Only when, Only after), the main clause that follows must undergo
+subject-auxiliary inversion. Change "you can achieve" to "can you achieve".
+Q97
+Question: The water of the holy river (A) / was direct flowing into (B) / the deep concrete
+reservoir channels. (C) / No Error (D)
+• Answer: (B)
+• Explanation: To modify the continuous verb action "flowing", you must use an
+adverb rather than an adjective. Change "direct" to "directly".
+35 | Page
+
+
+===== PAGE 37 =====
+Q98
+Question: I am directly coming (A) / from the administrative office (B) / to clear all your
+pending doubts. (C) / No Error (D)
+• Answer: (A)
+• Explanation: When expressing immediate sequential movement in time or space,
+standard idiom usage prefers the adverb "straight" over "directly" to avoid
+ambiguity regarding physical trajectory. Change "directly coming" to "coming
+straight".
+Q99
+Question: He was remarkably optimal (A) / about his selection prospects, (B) / despite facing
+multiple setbacks in the past. (C) / No Error (D)
+• Answer: (A)
+• Explanation: This is an incorrect word choice trap. "Optimal" means the best or most
+favorable condition for a process. The sentence describes a psychological state of
+hopefulness, which requires the adjective "optimistic". Change "optimal" to
+"optimistic".
+Q100
+Question: Not until the entire country (A) / was locked down the citizens (B) / realized the
+severe intensity of the viral pandemic. (C) / No Error (D)
+• Answer: (B)
+• Explanation: When a sentence begins with a negative time constraint phrase like
+"Not until...", the inversion does not happen in the initial "until" clause itself; it is
+triggered in the main governing clause that follows. Change "the citizens realized"
+(simple past) to " did the citizens realize".
+Part A: Pronoun Agreements & Relative Traps (Q101 - Q125)
+Q101
+Question: The board of directors were divided (A) / in their opinions regarding the
+appointment (B) / of the new managing director. (C) / No Error (D)
+• Answer: (D)
+• Explanation: This sentence is No Error. When a collective noun (board of directors,
+jury, committee) is divided or acts as individuals, it takes a plural verb (were) and a
+plural pronoun (their). This is grammatically perfect.
+Q102
+Question: Every employee must bring (A) / their own laptop to the workshop (B) / as per the
+new IT policy guidelines. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The distributive pronoun "Every" is singular and must be paired with
+singular tracking pronouns. Change "their own laptop" to "his or her own laptop".
+36 | Page
+
+
+===== PAGE 38 =====
+Q103
+Question: Between you and I, (A) / the newly proposed tax structure (B) / is highly
+unfavorable to small business owners. (C) / No Error (D)
+• Answer: (A)
+• Explanation: Prepositions like between, except, like, or but must always be followed
+by a pronoun in the objective case. Change "Between you and I" to "Between you
+and me".
+Q104
+Question: The candidate whom we thought (A) / would easily secure the top rank (B) / failed
+to clear even the Tier-1 cutoff. (C) / No Error (D)
+• Answer: (A)
+• Explanation: This is a classic Who vs. Whom trap. If you remove the parenthetical
+phrase "we thought," the relative pronoun acts as the direct subject for the verb phrase
+"would easily secure." Therefore, it must be in the subjective case. Change "whom" to
+"who".
+Q105
+Question: It was me who telephoned (A) / the emergency helpline number (B) / when the fire
+broke out in the building. (C) / No Error (D)
+• Answer: (A)
+• Explanation: When a pronoun follows a form of the "to be" verb serving as an
+identifier (is, was, were), it must be in the subjective case. Change "It was me" to "It
+was I".
+Q106
+Question: He is one of those technical experts (A) / who never compromises on the structural
+(B) / integrity of architectural designs. (C) / No Error (D)
+• Answer: (B)
+• Explanation: When a relative pronoun (who, which, that) connects a clause, its verb
+agrees with its immediate antecedent. Here, the antecedent is the plural noun
+"experts," making the relative clause plural. Change "compromises" to
+"compromise".
+Q107
+Question: The two business partners frequently (A) / argued with one another over (B) / the
+allocation of corporate profits. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Use "each other" when referring strictly to two entities. "One
+another" is reserved for three or more entities. Change "one another" to "each
+other".
+37 | Page
+
+
+===== PAGE 39 =====
+Q108
+Question: Myself am responsible (A) / for executing this entire project (B) / within the
+specified budget guidelines. (C) / No Error (D)
+• Answer: (A)
+• Explanation: A reflexive pronoun (myself, himself, yourself) can never function as
+the primary subject of a sentence without an accompanying subjective pronoun.
+Change "Myself am" to "I myself am" or simply "I am".
+Q109
+Question: The master craftsman was deeply annoyed (A) / at his apprentice forgetting (B) /
+to lock the tool shed overnight. (C) / No Error (D)
+• Answer: (B)
+• Explanation: A noun or pronoun modifying a gerund ($V_4$ acting as a noun, like
+forgetting) must always be in the possessive case. Change "at his apprentice
+forgetting" to "at his apprentice's forgetting".
+Q110
+Question: This luxury sedan is (A) / far superior to that (B) / manufactured by our competitor
+firm. (C) / No Error (D)
+• Answer: (B)
+• Explanation: This is a pronoun-based faulty comparison trap. The sentence should
+compare a sedan to another sedan's traits, or use a pronoun demonstrative to balance
+the structure. Change "to that" to "to that one" or "to the one".
+Q111
+Question: You, he and I (A) / must coordinate effectively to complete (B) / this project
+assignment by tomorrow evening. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. When normal or positive personal pronouns
+are combined, they follow the 2-3-1 rule (Second Person $\rightarrow$ Third Person
+$\rightarrow$ First Person). Here, You (2), he (3) and I (1) is perfectly ordered.
+Q112
+Question: The legal team instructed that (A) / everyone of the witnesses must register (B) /
+their biometrics before entering the courtroom. (C) / No Error (D)
+• Answer: (C)
+• Explanation: "Everyone" is an indefinite singular pronoun, requiring singular
+tracking forms. Change "their biometrics" to "his or her biometrics".
+Q113
+Question: This is the most complex assignment (A) / which has ever been handed over (B) /
+to our research and development department. (C) / No Error (D)
+• Answer: (B)
+38 | Page
+
+
+===== PAGE 40 =====
+• Explanation: When a relative clause modifies an antecedent preceded by a
+superlative degree adjective (the most complex), you must use the relative pronoun
+"that" instead of "which". Change "which" to "that".
+Q114
+Question: Let he and his brother (A) / take charge of the logistics management (B) / for the
+upcoming international summit. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The verb "Let" must always be followed by pronouns in the objective
+case. Change "Let he and his brother" to "Let him and his brother".
+Q115
+Question: The stray dog wagged it's tail (A) / enthusiastically when the young child (B) /
+offered it a piece of fresh bread. (C) / No Error (D)
+• Answer: (A)
+• Explanation:
+o It's = Contraction of "It is" or "It has".
+o Its = Possessive pronoun.
+o The sentence requires a possessive modifier for the tail. Change "it's" to "its".
+Q116
+Question: Neither of the two candidates (A) / have brought their original documents (B) / for
+the document verification round. (C) / No Error (D)
+• Answer: (B)
+• Explanation: "Neither" means none of the two, which is singular. It requires both a
+singular verb and a singular pronoun. Change "have brought their" to "has brought
+his".
+Q117
+Question: The manager explicitly told the staff (A) / that it was him who had cleared (B) /
+the pending invoice files yesterday. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Following a form of the verb to be ("was"), use the subjective pronoun
+form. Change "it was him" to "it was he".
+Q118
+Question: Such students who do not take (A) / regular mock tests seriously fail (B) / to
+perform well in the actual exam. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The correlative demonstrative adjective phrase "Such" must be paired
+with the relative pronoun "as" rather than "who" when introducing a category
+example. Change "Such students who" to "Such students as".
+39 | Page
+
+
+===== PAGE 41 =====
+Q119
+Question: The stray cat scratched itself (A) / when it tried to jump over (B) / the sharp
+barbed wire fence. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The reflexive pronoun "itself" correctly
+matches the singular neuter-gendered animal subject "cat".
+Q120
+Question: I, you and he (A) / have committed a serious blunder (B) / during the accounting
+calculation process. (C) / No Error (D)
+• Answer: (A)
+• Explanation: When personal pronouns are combined to express a mistake, guilt,
+crime, or negative situation, the ordering rule flips from 2-3-1 to the 1-2-3 rule
+(First Person $\rightarrow$ Second Person $\rightarrow$ Third Person). Change the
+order to "I, you and he" (which is correct as written, meaning the question checks
+your validation of this rule). Let's re-verify the question prompt text: "I, you and he"
+is indeed 1-2-3, making this section correct.
+Q121
+Question: He is the same gentleman (A) / who met me at the banking terminal (B) / last
+Tuesday afternoon. (C) / No Error (D)
+• Answer: (B)
+• Explanation: When an antecedent is modified by the phrase "the same", it must be
+followed by the relative pronoun "that", never "who" or "which". Change "who" to
+"that".
+Q122
+Question: The long-awaited vacation packages offered (A) / by the tourism agency are
+cheaper (B) / than our competitors. (C) / No Error (D)
+• Answer: (C)
+• Explanation: This is a faulty comparison trap. You cannot compare packages directly
+to competitors. Change "than our competitors" to "than those of our competitors"
+(where "those" perfectly stands in for the plural packages).
+Q123
+Question: The multi-national firm is planning (A) / to shift their primary headquarters (B) /
+from London to Singapore next year. (C) / No Error (D)
+• Answer: (B)
+• Explanation: "Firm" is a singular collective noun acting as a single cohesive unit
+here. It must take the singular possessive pronoun "its" rather than the plural "their".
+Change "their primary" to "its primary".
+40 | Page
+
+
+===== PAGE 42 =====
+Q124
+Question: The principal distribution of tasks (A) / was carried out between (B) / all the
+members of the administrative cell. (C) / No Error (D)
+• Answer: (B)
+• Explanation: "Between" is used for exactly two items. When dealing with more than
+two items, use the preposition "among". Change "between" to "among".
+Q125
+Question: Whomever is chosen by the selection (A) / panel will have to undergo (B) / a
+rigorous medical evaluation process. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The pronoun acts as the direct subject for the verb phrase "is chosen"
+inside the subject clause. It must be in the subjective pronoun case. Change
+"Whomever" to "Whoever".
+Part B: Article & Noun Case Infractions (Q126 - Q150)
+Q126
+Question: The internal technical audit revealed (A) / that the building's roof requires (B) /
+immediate structural reinforcement works. (C) / No Error (D)
+• Answer: (B)
+• Explanation: In standard grammar rules, an apostrophe-s ('s) possessive marker
+cannot be appended to non-living objects (building's roof). Instead, possession must
+be shown using the "of" structure. Change "the building's roof" to "the roof of the
+building".
+Q127
+Question: It is a scientifically proven fact (A) / that the copper is a highly efficient (B) /
+conductor of electrical current waves. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Omission of Articles Rule: Do not place a definite article (the) before
+materials or substances (copper, iron, gold) when speaking about them in a general
+sense. Remove "the" before copper.
+Q128
+Question: The ongoing cross-border trade dispute (A) / has caused a great damage (B) / to
+the bilateral diplomatic relationship. (C) / No Error (D)
+• Answer: (B)
+• Explanation: "Damage" is an uncountable abstract noun. Placing the indefinite
+article "a" before it is a grammatical infraction. Change "a great damage" to "great
+damage".
+Q129
+Question: The commanding officer instructed his infantry (A) / to take a two-miles walk (B)
+/ down the rugged mountain terrain. (C) / No Error (D)
+41 | Page
+
+
+===== PAGE 43 =====
+• Answer: (B)
+• Explanation: In a hyphenated or compound noun modifier construct (a two-mile
+walk), the modifying noun component acting as an adjective can never take a plural
+form. Change "a two-miles walk" to "a two-mile walk".
+Q130
+Question: He always carries a pack of (A) / cards in his travel bag to pass (B) / the time
+during long transit hours. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The collective noun phrase "a pack of cards"
+is grammatically standard.
+Q131
+Question: My father's friend's son (A) / has cleared the civil services exam (B) / on his very
+first attempt this year. (C) / No Error (D)
+• Answer: (A)
+• Explanation: Double Possessive Rule: Avoid using consecutive apostrophe-s
+constructions (father's friend's). Rephrase the sentence using the "of" structure to
+break the chain. Change to: "The son of my father's friend".
+Q132
+Question: The dynamic marketing executive (A) / is an university graduate with (B) / a
+specialization in digital media metrics. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Choice of a vs. an depends on the initial phonetic sound, not the actual
+vowel letter. "University" begins with a consonant sound ("yoo"). Therefore, change
+"an university" to "a university".
+Q133
+Question: He told the investigation panel (A) / that he had forgotten his spectacle (B) / inside
+the corporate locker vault. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Certain items worn or handled as pairs (spectacles, scissors, trousers,
+binoculars) are always plural in form and require an 's' ending. Change "spectacle" to
+"spectacles".
+Q134
+Question: The financial advisory firm provided (A) / multiple valuable advices to the clients
+(B) / regarding equity investment options. (C) / No Error (D)
+• Answer: (B)
+• Explanation: "Advice" is an uncountable noun and cannot be pluralized into
+"advices". To express a plural count, use countable counters. Change "multiple
+valuable advices" to "multiple pieces of valuable advice".
+42 | Page
+
+
+===== PAGE 44 =====
+Q135
+Question: The prime minister addressed (A) / the nation from the ramparts (B) / of the Red
+Fort last morning. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. Historic monuments (the Red Fort, the Taj
+Mahal) correctly require the definite article "the".
+Q136
+Question: All the physics apparatuses (A) / in the laboratory were found to be (B) / damaged
+during the sudden shifting process. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The plural form of the noun apparatus is either apparatus or
+apparatuses in generic contexts, but in standard regulatory scientific listings,
+apparatus itself serves as the plural collective, or pieces of apparatus is preferred to
+clean up formatting. Change to "pieces of physics apparatus".
+Q137
+Question: It is a well-known fact that (A) / a honest individual will never (B) / compromise
+on his core moral values. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The word "honest" begins with a silent 'h' and a vowel sound ("ah-
+nest"). It must be preceded by "an" instead of "a". Change to "an honest individual".
+Q138
+Question: The heavy machinery industry (A) / has entered a temporary slump (B) / due to a
+lack of raw materials. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. "Machinery" is correctly used as an
+uncountable mass noun.
+Q139
+Question: The cattle's pasture land (A) / was heavily waterlogged due to (B) / the continuous
+monsoon downpour. (C) / No Error (D)
+• Answer: (A)
+• Explanation: "Cattle" is a plural noun that does not end in 's'. To show possession for
+a plural noun that does not end in 's', add an apostrophe followed by 's' (cattle's). The
+grammar structure here is correct, but let's look closer at the phrasing: "The pasture
+land of the cattle" is the cleaner variant to avoid non-human possessive distortions.
+Change to "The pasture land of the cattle".
+Q140
+Question: He has been suffering from (A) / the measles for the past (B) / two consecutive
+weeks. (C) / No Error (D)
+43 | Page
+
+
+===== PAGE 45 =====
+• Answer: (D)
+• Explanation: The sentence is No Error. While most diseases do not take articles, a
+few specific medical conditions like the measles, the mumps, the flu take the definite
+article "the".
+Q141
+Question: The manager rejected his application (A) / because he had not attached (B) / two
+passport-size photographs. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The phrase "passport-size photographs" is
+structurally flawless.
+Q142
+Question: The legislative assembly passed (A) / a bill granting additional funds (B) / to the
+old and the poor. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. When a definite article is placed before an
+adjective (the old, the poor), it turns into a plural collective noun representing that
+entire group of people.
+Q143
+Question: He purchased three dozens bananas (A) / from the local fruit vendor (B) / to
+distribute among the children. (C) / No Error (D)
+• Answer: (A)
+• Explanation: When a definite numeral adjective (three, two, five) precedes words like
+dozen, hundred, thousand, million, these units must remain singular if followed
+immediately by a noun. Change "three dozens bananas" to "three dozen bananas".
+Q144
+Question: The information received from (A) / the border security outposts (B) / were highly
+alarming to the council. (C) / No Error (D)
+• Answer: (C)
+• Explanation: "Information" is an uncountable noun and is strictly singular. It cannot
+take the plural verb "were". Change "were" to "was".
+Q145
+Question: The sun rises in east (A) / and sets in the west, (B) / maintaining a perfect celestial
+rhythm. (C) / No Error (D)
+• Answer: (A)
+• Explanation: Directions of the compass (the East, the West, the North) must always
+take the definite article "the". Change "in east" to "in the East".
+44 | Page
+
+
+===== PAGE 46 =====
+Q146
+Question: The local library house (A) / a vast collection of (B) / ancient poetries and
+manuscripts. (C) / No Error (D)
+• Answer: (C)
+• Explanation: "Poetry" is an uncountable collective noun and cannot be pluralized
+into "poetries". Change "poetries" to "poems" or "poetry".
+Q147
+Question: The sound of a explosion (A) / could be heard across (B) / a radius of five
+kilometers. (C) / No Error (D)
+• Answer: (A)
+• Explanation: "Explosion" begins with a vowel sound. It must be preceded by the
+indefinite article "an". Change "a explosion" to "an explosion".
+Q148
+Question: The commander-in-chiefs' conference (A) / was held at the defense ministry (B) /
+to review the border security grid. (C) / No Error (D)
+• Answer: (A)
+• Explanation: For a compound noun (commander-in-chief), pluralization happens at
+the root word (commanders-in-chief), but possessive markers ('s) are appended to the
+very last word of the phrase. Change to "The commander-in-chief's conference".
+Q149
+Question: He has given me (A) / an five-hundred rupee note (B) / to purchase the required
+medication. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The compound modifier phrase "five-hundred rupee" begins with a
+consonant sound ("f"). The indefinite article must switch to match it. Change "an five-
+hundred" to "a five-hundred".
+Q150
+Question: The principal reason for (A) / his academic failure is a lack (B) / of concentration
+and hard works. (C) / No Error (D)
+• Answer: (C)
+• Explanation: "Work" when meaning physical or mental effort is an uncountable noun
+and does not take a plural ending. Change "hard works" to "hard work".
+phrasal verbs, and the strict structural symmetry required by correlative conjunctions. Let's
+dive straight into the questions.
+45 | Page
+
+
+===== PAGE 47 =====
+300 Master Error Spotting Bank — Module 4 (Q151 - Q200)
+Part A: Fixed Prepositions & Phrasal Errors (Q151 - Q175)
+Q151
+Question: The sudden escalation of fuel prices (A) / has naturally resulted into a
+corresponding increase (B) / in the cost of essential daily commodities. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The verb "result" takes the fixed preposition "in" when indicating an
+outcome, not "into". Change "resulted into" to "resulted in".
+Q152
+Question: Despite of the technical team working (A) / around the clock, the server
+breakdown issues (B) / could not be resolved before the market opened. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The preposition "Despite" is never followed by "of". It is equivalent to
+"In spite of". Change "Despite of" to "Despite" or "In spite of".
+Q153
+Question: The managing director emphasized on (A) / the absolute necessity of maintaining
+cross-departmental (B) / transparency during the restructuring phase. (C) / No Error (D)
+• Answer: (A)
+• Explanation: When used as a active verb, "emphasize" takes a direct object without
+any preposition. Remove the superfluous preposition "on". (Note: The noun form does
+take a preposition, e.g., "lay emphasis on").
+Q154
+Question: The senior architect was highly proficient (A) / with designing eco-friendly
+residential spaces (B) / using sustainable bamboo composites. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The adjective "proficient" requires the fixed preposition "in" when
+referring to an activity or field. Change "proficient with designing" to "proficient in
+designing".
+Q155
+Question: The internal investigation cell (A) / has accused the senior accountant for (B) /
+embezzling funds from the employee welfare reserve. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The verb phrase structure is "accuse someone of something", not
+"for". Change "accused the senior accountant for" to "accused the senior accountant
+of".
+46 | Page
+
+
+===== PAGE 48 =====
+Q156
+Question: After a prolonged discussion lasting (A) / for nearly four hours, the committee
+finally (B) / agreed with the terms proposed by the union leader. (C) / No Error (D)
+• Answer: (C)
+• Explanation:
+o Agree to a proposal, plan, or terms.
+o Agree with a person.
+o Since the object is "the terms", change "agreed with" to "agreed to".
+Q157
+Question: The security guards successfully prevented (A) / the unauthorized media personnel
+to enter (B) / the restricted zones of the aerospace facility. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The verb "prevent" tracks with the preposition "from" followed by a
+gerund ($V_4$), rather than an infinitive ($to + V_1$). Change "prevented... to enter"
+to "prevented... from entering".
+Q158
+Question: The software update was completely (A) / incompatible to the older operating
+system (B) / installed on our office workstations. (C) / No Error (D)
+• Answer: (B)
+• Explanation: "Incompatible" takes the fixed preposition "with", not "to". Change
+"incompatible to" to "incompatible with".
+Q159
+Question: During the annual general meeting, (A) / the junior operations analyst was called
+out (B) / to explain the sudden drop in quarterly revenue. (C) / No Error (D)
+• Answer: (B)
+• Explanation: This is a phrasal verb contextual error.
+o Call out means to shout or challenge someone publicly.
+o Call upon or Call on means to formally invite or ask someone to speak or
+perform a duty.
+o Change "called out" to "called upon" (or "called on").
+Q160
+Question: The brave soldiers patterns of bravery (A) / were highly conducive for generating
+a sense (B) / of intense patriotism among the youth. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The adjective "conducive" is always paired with the fixed preposition
+"to", not "for". Change "conducive for" to "conducive to".
+47 | Page
+
+
+===== PAGE 49 =====
+Q161
+Question: The sudden heavy downpour coped up with (A) / the infrastructure challenges,
+exposing the municipal (B) / corporation's total lack of urban flood preparedness. (C) / No
+Error (D)
+• Answer: (A)
+• Explanation: The expression "cope up with" is a highly frequent colloquial error. The
+correct English phrasal verb meaning to manage or face a situation successfully is
+"cope with". Remove the superfluous "up".
+Q162
+Question: The local administration has been (A) / vestibulating relief material since (B) / the
+past three consecutive weeks. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Use "for" to denote a duration or period of time ("the past three
+weeks"). "Since" is reserved strictly for a specific starting point in time (e.g., "since
+Monday"). Change "since" to "for".
+Q163
+Question: The multi-billion dollar conglomerate (A) / actively abstains from investing into
+high-risk (B) / cryptocurrency and unregulated digital derivative markets. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The phrasal combination "abstain from" correctly targets an action, but
+when referencing fields or directions after it, "investing" takes "in" rather than "into".
+Change "investing into" to "investing in".
+Q164
+Question: The young sub-inspector was accompanied with (A) / a heavily armed police
+contingent to raid (B) / the suspected illegal warehouses near the port. (C) / No Error (D)
+• Answer: (A)
+• Explanation: When an animate entity or group accompanies a person in the passive
+voice, use "accompanied by". (Note: "Accompanied with" is used for inanimate
+attachments, like a fever accompanied with a rash). Change "accompanied with" to
+"accompanied by".
+Q165
+Question: The project team worked late into the night (A) / to ensure that the execution
+framework (B) / was in accordance to the client's guidelines. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The standard idiomatic phrase is "in accordance with", not "in
+accordance to". Change "in accordance to" to "in accordance with".
+Q166
+Question: The research scholar was deeply absorbed with (A) / analyzing the medieval
+carbon dating samples (B) / inside the climate-controlled laboratory vault. (C) / No Error (D)
+48 | Page
+
+
+===== PAGE 50 =====
+• Answer: (A)
+• Explanation: The adjective "absorbed" takes the preposition "in" when it means
+fully engaged or deeply interested in something. Change "absorbed with" to
+"absorbed in".
+Q167
+Question: Our sales division needs to coordinate (A) / closely with the logistics cell to look
+into (B) / the reasons behind the delayed export deliveries. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The phrasal verb "look into" correctly
+means to investigate.
+Q168
+Question: The legal counsel advised the family (A) / not to comply to the aggressive out-of-
+court (B) / demands made by the opposition party. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The verb "comply" must be paired with the fixed preposition "with",
+never "to". Change "comply to" to "comply with".
+Q169
+Question: The senior diplomat politely differed from (A) / his European counterpart on the
+specific clauses (B) / relating to cross-border carbon tax exemptions. (C) / No Error (D)
+• Answer: (A)
+• Explanation:
+o Differ from means to be dissimilar in traits/appearance.
+o Differ with means to disagree in opinion.
+o Because the context is an opinion clash on specific contract clauses, change
+"differed from" to "differed with".
+Q170
+Question: The technical committee consists of (A) / ten highly experienced software
+engineers (B) / drawn from various premier technology institutions. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. Note that "consist of" is equivalent to
+"comprise". (TCS frequently tricks students by using "comprise of", which is wrong,
+but "consist of" is completely correct).
+Q171
+Question: The state government has provided (A) / an administrative guarantee to
+compensate the farmers (B) / for any loss arising out of the sudden drought. (C) / No Error
+(D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The phrasal combo "arising out of" means
+originating from and is perfectly idiomatic.
+49 | Page
+
+
+===== PAGE 51 =====
+Q172
+Question: The young athlete was completely blind in (A) / his left eye due to a severe injury
+(B) / sustained during a training session in childhood. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error.
+o Blind in an eye is used for literal loss of sight.
+o Blind to is used metaphorically for faults (e.g., "blind to his son's mistakes").
+Q173
+Question: The continuous noise from the nearby (A) / construction site made it extremely
+difficult (B) / to concentrate on our academic revisions. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The verb "concentrate" correctly takes the
+preposition "on".
+Q174
+Question: The corporate vigilance team is currently (A) / inquiring for the suspicious
+financial transactions (B) / routed through offshore shell accounts. (C) / No Error (D)
+• Answer: (B)
+• Explanation:
+o Inquire into a matter means to investigate it.
+o Inquire after someone's health means to ask how they are.
+o Inquire of someone means to ask them a question.
+o Change "inquiring for" to "inquiring into".
+Q175
+Question: The newly appointed operational manager (A) / is highly passionate about his
+work and (B) / prides himself for his punctual execution track record. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The reflexive verb construction "pride oneself" requires the fixed
+preposition "on", not "for". (Note: The adjective form takes "proud of", but the verb
+form takes "pride oneself on"). Change "prides himself for" to "prides himself on".
+Part B: Conjunction Pairings & Parallelism (Q176 - Q200)
+Q176
+Question: Scarcely had the international flight landed (A) / at the terminal runway than the
+ground security crew (B) / cordoned off the entire arrival zone. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Negative adverbial conjunctions like "Scarcely" and "Hardly" must
+always be paired with "when" or "before", never "than". "Than" is exclusively
+reserved for "No sooner". Change "than" to "when".
+50 | Page
+
+
+===== PAGE 52 =====
+Q177
+Question: Not only did the malicious malware encrypt (A) / the core corporate database files
+but it also demanded (B) / a massive ransom payment in cryptocurrency tokens. (C) / No
+Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The correlative pair "Not only... but also"
+is correctly utilized, and the inversion rule (Not only did the malware encrypt) is
+perfectly maintained.
+Q178
+Question: No sooner did the factory siren sound (A) / when the workers dropped their heavy
+tools (B) / and rushed out toward the main exit gate. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The correlative conjunction phrase "No sooner" must always be
+followed by its fixed coordinate twin "than", never "when". Change "when" to
+"than".
+Q179
+Question: Both the operations manager (A) / as well as the head of quality assurance (B) /
+were summoned to present the compliance report. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The conjunction "Both" must be paired strictly with "and". Using "as
+well as" alongside "Both" creates a redundant and grammatically invalid coupling.
+Change "as well as" to "and".
+Q180
+Question: The project coordinator was highly confused (A) / whether to allocate the
+additional funds to marketing (B) / or to spend it entirely on technical research. (C) / No Error
+(D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The alternative marker "whether" is
+correctly completed by its matching tracking partner "or".
+Q181
+Question: Unless you do not submit your original (A) / medical certificates to the
+administrative office, (B) / your medical leave extension will not be sanctioned. (C) / No
+Error (D)
+• Answer: (A)
+• Explanation: The conditional conjunction "Unless" is inherently negative (meaning if
+not). Placing another negative term like "do not" inside the clause introduces an
+invalid double negative error. Change "Unless you do not submit" to "Unless you
+submit".
+51 | Page
+
+
+===== PAGE 53 =====
+Q182
+Question: Walk carefully lest you should not trip (A) / over the loose construction cables laid
+down (B) / across the main entrance hallway corridors. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The adverbial conjunction "Lest" inherently carries a negative meaning
+(meaning for fear that). It is paired exclusively with the modal auxiliary verb
+"should", and no negative word like "not" or "never" can be placed inside its clause.
+Remove "not".
+Q183
+Question: Although the public sector bank faced (A) / massive bad loan write-offs this fiscal
+year, (B) / but it managed to declare a minor net profit margin. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The concession conjunctions "Although" or "Even though" can be
+followed either by a comma or by the word "yet". They can never be coupled with
+the coordinating conjunction "but". Remove "but".
+Q184
+Question: The reason why he was rejected (A) / from the final campus placement rounds (B)
+/ was because his communication skills were inadequate. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The phrase "The reason why" structurally denotes a cause. Pairing it
+with the conjunction "because" creates redundancy. Replace "because" with "that".
+Q185
+Question: He had no other choice (A) / but to tender his formal resignation (B) / after the
+corporate governance scandal broke out. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The comparative adjectives "other" and "rather" must be followed by
+the conjunction "than" instead of "but". Change "but to tender" to "than to tender".
+Q186
+Question: The local defense unit had (A) / hardly completed the tactical trench fortifications
+(B) / than the enemy launched a surprise artillery strike. (C) / No Error (D)
+• Answer: (C)
+• Explanation: As established earlier, "Hardly" requires "when" or "before" to link
+its dependent clause, never "than". Change "than" to "when".
+Q187
+Question: Such was his brilliant performance (A) / that the entire auditorium stood up (B) /
+to give him a roaring standing ovation. (C) / No Error (D)
+• Answer: (D)
+52 | Page
+
+
+===== PAGE 54 =====
+• Explanation: The sentence is No Error. The combination "Such... that" is correctly
+applied to showcase cause and effect.
+Q188
+Question: The real estate company not only provides (A) / premium housing flats at highly
+affordable rates (B) / but also customized interior design setups. (C) / No Error (D)
+• Answer: (A)
+• Explanation: This is a conjunction parallelism trap. The elements following not
+only and but also must belong to identical parts of speech.
+o But also is followed by a noun phrase ("customized interior design setups").
+o Not only is followed by a verb ("provides").
+o To balance the structure, shift the position of the verb. Change part A to: "The
+real estate company provides not only".
+Q189
+Question: Until the central government does not (A) / ease the direct tax compliance
+parameters, (B) / small-scale industrial units will struggle to survive. (C) / No Error (D)
+• Answer: (A)
+• Explanation: Similar to "unless", "Until" is a time-based negative conditional
+marker. It cannot tolerate a secondary "does not" inside its immediate clause. Change
+"Until the central government does not ease" to "Until the central government
+eases".
+Q190
+Question: No sooner had the prime minister finished (A) / his Independence Day speech then
+the massive crowd (B) / began dispersing from the historic grounds. (C) / No Error (D)
+• Answer: (B)
+• Explanation: TCS frequently exploits the homophone trap between "than"
+(conjunction of comparison) and "then" (adverb of time). "No sooner" strictly
+requires the conjunction "than". Change "then" to "than".
+Q191
+Question: He is as intelligent, (A) / if not more intelligent than, (B) / his elder brother who
+works at NASA. (C) / No Error (D)
+• Answer: (A)
+• Explanation: This is an incomplete comparison pairing trap. The positive degree
+structure requires the full correlative frame "as... as". Change "as intelligent" to "as
+intelligent as".
+Q192
+Question: Keep your configuration documentations ready (A) / so that the systems migration
+process can be (B) / executed without any unexpected technical glitch. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The compound conjunction "so that"
+correctly introduces a clause of purpose.
+53 | Page
+
+
+===== PAGE 55 =====
+Q193
+Question: The seasoned politician spoke in such a manner (A) / as everyone present in the
+press room (B) / believed his fabricated narratives blindly. (C) / No Error (D)
+• Answer: (B)
+• Explanation: When showing a result or consequence of a manner, use the
+combination "such a manner that" instead of "as". Change "as everyone" to "that
+everyone".
+Q194
+Question: He ran as fastly as he could (A) / but he still failed to catch (B) / the departing
+commuter express train. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The word "fastly" does not exist in standard English vocabulary; "fast"
+functions as both an adjective and an adverb. Change "as fastly as" to "as fast as".
+Q195
+Question: Work systematically down the checklist (A) / lest you should miss out any critical
+parameters (B) / during the final safety validation inspection. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. "Lest" is correctly paired with the modal
+verb "should" without any negative terms nearby.
+Q196
+Question: The newly launched premium smartphone (A) / is neither sleek in its design (B) /
+or affordable for the middle-class segment. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The negative correlative conjunction "neither" must be completed by
+"nor", never "or". Change "or affordable" to "nor affordable".
+Q197
+Question: The multi-national enterprise has announced (A) / that it will either scale up its
+manufacturing units (B) / otherwise downsize its non-performing staff. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The alternative conjunction "either" must be strictly paired with its
+partner "or". Using "otherwise" breaks this structure. Change "otherwise downsize"
+to "or downsize".
+Q198
+Question: No sooner the heavy metal gates opened (A) / than the eager enthusiasts flooded
+inside (B) / to grab the front-row event seats. (C) / No Error (D)
+• Answer: (A)
+• Explanation: When a sentence begins with a negative adverbial phrase like "No
+sooner," the rule of grammatical inversion must be applied (the auxiliary verb must
+54 | Page
+
+
+===== PAGE 56 =====
+sit before the subject). Change "No sooner the heavy metal gates opened" to "No
+sooner did the heavy metal gates open" or "No sooner had the heavy metal gates
+opened".
+Q199
+Question: He did not question the validation (A) / of the technical parameters because of he
+trusted (B) / the core competency of the senior research head. (C) / No Error (D)
+• Answer: (B)
+• Explanation: "Because of" is a prepositional phrase and must be followed by a noun
+or pronoun. Since it is followed here by a full active clause (he trusted the core
+competency...), you must use the subordinating conjunction "because". Remove the
+word "of".
+Q200
+Question: Provided that you strictly adhere (A) / to the specified sterilization guidelines, (B)
+/ the laboratory cultures will grow without contamination. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The conditional conjunction phrase
+"Provided that" is used correctly to mean on the condition that.
+Part A: Tense Timelines & Conditional Anchors (Q201 - Q225)
+Q201
+Question: The research scientist discovered (A) / that the newly isolated bacterial strain (B) /
+is highly resistant to standard penicillin doses. (C) / No Error (D)
+• Answer: (C)
+• Explanation: This is a trap involving the sequence of tenses. While a past-tense
+reporting verb (discovered) normally shifts the subordinate clause to the past tense,
+universal truths, scientific facts, and permanent realities remain strictly in the
+simple present tense. The resistance of the strain is a scientific fact, making "is"
+completely correct.
+Q202
+Question: If the finance ministry would have revised (A) / the direct tax slabs earlier, the
+domestic markets (B) / would have witnessed a much stronger recovery phase. (C) / No Error
+(D)
+• Answer: (A)
+• Explanation: Third Conditional Rule: In a past conditional sentence showing an
+unfulfilled past action, the conditional clause (if-clause) must take the Past Perfect
+Tense ($had + V_3$), while the main clause takes $would + have + V_3$. You can
+never use "would have" in the if-clause. Change "would have revised" to "had
+revised".
+55 | Page
+
+
+===== PAGE 57 =====
+Q203
+Question: The administrative staff is maintaining (A) / these critical digital ledger records
+(B) / since the inception of the corporate cell. (C) / No Error (D)
+• Answer: (A)
+• Explanation: When an action begins in the past and continues into the present—
+indicated by time markers like since or for—you must use the Present Perfect
+Continuous Tense instead of the Present Continuous. Change "is maintaining" to
+"has been maintaining".
+Q204
+Question: By the time the fire brigade personnel (A) / arrived at the suburban industrial
+estate, (B) / the fire completely destroyed two massive warehouses. (C) / No Error (D)
+• Answer: (C)
+• Explanation: When two connected actions occurred in the past, the older action (the
+first event) must be expressed in the Past Perfect Tense ($had + V_3$), while the
+subsequent action takes the Simple Past. The destruction of the warehouses happened
+before the brigade arrived. Change "completely destroyed" to "had completely
+destroyed".
+Q205
+Question: He told me that he was working (A) / in the software firm for five long years (B) /
+before he finally decided to pursue an MBA. (C) / No Error (D)
+• Answer: (A)
+• Explanation: Because the action was ongoing over a specific duration (for five long
+years) before another past anchor point (decided), it requires the Past Perfect
+Continuous Tense rather than the Past Continuous. Change "was working" to "had
+been working".
+Q206
+Question: The senior operations executive (A) / is working at our manufacturing facility (B)
+/ for the past seven months now. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The presence of the duration marker "for the past seven months" flags
+an action anchored in the past stretching to the present. Change "is working" to the
+Present Perfect Continuous form: "has been working".
+Q207
+Question: When I will visit my native village (A) / next month, I will definitely distribute
+(B) / winter blankets to the local manual laborers. (C) / No Error (D)
+• Answer: (A)
+• Explanation: Future Conditional Constraint: In a sentence containing a future time
+clause or conditional clause introduced by markers like when, if, until, as soon as, you
+cannot use the auxiliary verb "will" or "shall" within that time clause. It must remain
+in the Simple Present. Change "When I will visit" to "When I visit".
+56 | Page
+
+
+===== PAGE 58 =====
+Q208
+Question: I have seen him yesterday (A) / at the crossroad traffic junction but he (B) / did not
+notice my vehicle passing by. (C) / No Error (D)
+• Answer: (A)
+• Explanation: If a sentence contains a specific past time marker (yesterday, last
+week, in 1947, two days ago), you must use the Simple Past Tense, never the Present
+Perfect. Change "I have seen him yesterday" to "I saw him yesterday".
+Q209
+Question: My younger sister is going (A) / to the state swimming academy (B) / every
+morning at six o'clock. (C) / No Error (D)
+• Answer: (A)
+• Explanation: Habitual Actions Rule: Regular habits, repeated routines, or
+permanent characteristics must always be framed in the Simple Present Tense, not
+the continuous tense. Change "is going" to "goes".
+Q210
+Question: It is high time the central environmental board (A) / takes strict punitive measures
+against (B) / the chemical factories polluting the river basin. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Phrases like "It is high time," "It is time," or "It is about time"
+indicate a hypothetical scenario that should have already happened. They must be
+followed by a subject and a verb in the Simple Past Tense ($V_2$). Change "takes"
+to "took".
+Q211
+Question: The historical monument stands (A) / proudly at the city center (B) / for more than
+three centuries. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The duration marker "for more than three centuries" forces the timeline
+out of the simple present state into a perfect aspect. Change "stands" to the Present
+Perfect state: "has stood".
+Q212
+Question: By next December, the technical core team (A) / will complete the software
+integration phase (B) / across all the global servers. (C) / No Error (D)
+• Answer: (B)
+• Explanation: When an action is expected to be finished by a specific future boundary
+limit denoted by "By + Future Time Word" (By next December), you must use the
+Future Perfect Tense ($will + have + V_3$). Change "will complete" to "will have
+completed".
+57 | Page
+
+
+===== PAGE 59 =====
+Q213
+Question: As soon as the regulatory panel will clear (A) / the safety compliance report, our
+company (B) / will commence the commercial production of vaccines. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The subordinating time conjunction "As soon as" introduces a time
+clause. As with Q207, avoid using "will" inside the time clause. Change "will clear" to
+the simple present form "clears".
+Q214
+Question: The senior management officer had left (A) / the office premises before the audit
+team (B) / had arrived to verify the transaction files. (C) / No Error (D)
+• Answer: (C)
+• Explanation: This sentence misapplies the past perfect tense by doubling it. The
+older action ("had left") is correctly past perfect, so the subsequent action ("arrived")
+must be in the Simple Past Tense. Change "had arrived" to "arrived".
+Q215
+Question: The young child has been crying (A) / continuously for the past one hour (B) /
+because he had lost his favorite toy. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The main action ("has been crying") anchors the sentence's baseline
+context firmly in the present timeline. Therefore, a cause extending right up to this
+moment should be framed in the Present Perfect, not the past perfect. Change "had
+lost" to "has lost".
+Q216
+Question: I am knowing the primary suspect (A) / for several years, and I can confidently
+state (B) / that he is incapable of committing this crime. (C) / No Error (D)
+• Answer: (A)
+• Explanation: This sentence hits two traps. First, "know" is a stative verb (a verb of
+mental state) and cannot be used in a continuous form (am knowing). Second, the
+phrase "for several years" requires a perfect aspect. Change "I am knowing" to the
+Present Perfect form: "I have known".
+Q217
+Question: If I was you, I would immediately (A) / accept the lucrative international posting
+(B) / offered by the executive recruitment panel. (C) / No Error (D)
+• Answer: (A)
+• Explanation: Second Conditional / Hypothetical Trap: When framing an
+imaginary, impossible, or purely hypothetical conditional statement (If I were you),
+the past subjunctive verb "were" must be used for all subjects, regardless of whether
+the subject is singular or plural. Change "If I was" to "If I were".
+58 | Page
+
+
+===== PAGE 60 =====
+Q218
+Question: The local defense unit successfully repulsed (A) / the enemy incursions because
+they received (B) / timely intelligence warnings from the command center. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The receipt of the intelligence warnings happened prior to the
+successful defense action. To clearly sequence these past events, change the cause
+("received") to the Past Perfect form: "had received".
+Q219
+Question: He behaves as if he knows (A) / everything about the secret diplomatic (B) /
+negotiations taking place behind closed doors. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The phrase "as if" or "as though" introduces an unreal, hypothetical
+condition. It must be followed by a verb in the Past Subjunctive / Simple Past form
+($V_2$) to reflect this unreality. Change "knows" to "knew".
+Q220
+Question: My father did not yet receive (A) / the formal retirement pension orders (B) / from
+the central administrative cell. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The presence of the time adverb "yet" indicates that an action has not
+occurred up to the present moment. This requires the Present Perfect Tense alongside
+a negative marker, not the simple past. Change "did not yet receive" to "has not yet
+received".
+Q221
+Question: Unless the civic authorities will take (A) / prompt remedial actions, the city's
+drainage grid (B) / will collapse completely during the monsoon. (C) / No Error (D)
+• Answer: (A)
+• Explanation: Similar to standard time clauses, conditional clauses introduced by
+"Unless" or "Until" cannot contain the future auxiliary "will". Change "will take" to
+"takes".
+Q222
+Question: The laboratory technician told the director (A) / that the culture sample grew (B) /
+significantly overnight. (C) / No Error (D)
+• Answer: (B)
+• Explanation: In indirect speech, if the reporting verb is in the past tense ("told"),
+actions that occurred prior to the reporting moment must shift backward on the
+timeline. Change "grew" to the Past Perfect form: "had grown".
+Q223
+Question: For over a decade now, (A) / our non-governmental organization is working (B) /
+to eradicate illiteracy from the tribal belts. (C) / No Error (D)
+59 | Page
+
+
+===== PAGE 61 =====
+• Answer: (B)
+• Explanation: The introductory duration text "For over a decade now" mandates the
+use of the Present Perfect Continuous Tense. Change "is working" to "has been
+working".
+Q224
+Question: Had the locomotive driver applied (A) / the emergency air brakes on time, (B) /
+the catastrophic collision could be avoided. (C) / No Error (D)
+• Answer: (C)
+• Explanation: This is an inverted Third Conditional construction (Had the driver
+applied is equivalent to If the driver had applied). The tracking main clause must
+contain $could / would + have + been + V_3$ to register past passive capability.
+Change "could be avoided" to "could have been avoided".
+Q225
+Question: I am working on this research manuscript (A) / since last Monday and I hope to
+finish (B) / the final draft by tomorrow evening. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The point-in-time marker "since last Monday" forces the verb
+configuration out of the simple present continuous. Change "I am working" to "I
+have been working".
+Part B: Voice, Narration & Subjunctive Anomalies (Q226 - Q250)
+Q226
+Question: The senior investigative journalist asked the minister (A) / that why he had refused
+to sign the global (B) / carbon emission reduction treaty. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Indirect Speech Interrogative Rule: When converting a Wh-question
+(why, what, where, how) into indirect narrative style, you must never use the
+conjunction "that" before the interrogative word. The Wh-word itself functions as
+the connector. Remove "that".
+Q227
+Question: The high-yield cash crop fields (A) / were completely ruined by the locust swarm
+(B) / before the local farmers can harvest them. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The sentence sets up its action baseline in the past passive voice ("were
+completely ruined"). Therefore, the capability auxiliary in the following clause must
+match this past perspective. Change "can harvest" to "could harvest".
+Q228
+Question: The judge requested the defense lawyer (A) / to call his next witness (B) / to the
+stand immediately. (C) / No Error (D)
+• Answer: (A)
+60 | Page
+
+
+===== PAGE 62 =====
+• Explanation: This is a contextual reporting verb infraction in direct/indirect
+grammar. A judge does not "request" or plead with a lawyer in an official capacity
+within a court setting; a judge orders, directs, or instructs. Change "requested" to
+"ordered" or "directed".
+Q229
+Question: The multi-million dollar corporate fraud case (A) / is currently being investigating
+(B) / by a special task force of economic offenses wing. (C) / No Error (D)
+• Answer: (B)
+• Explanation: In the Present Continuous Passive Voice framework, the structure
+must strictly adhere to: $is/am/are + being + V_3$ (Past Participle). The sentence
+mistakenly uses a present participle ($V_4$). Change "investigating" to
+"investigated".
+Q230
+Question: The medical board recommended that (A) / the injured athlete undergoes a
+comprehensive (B) / magnetic resonance imaging scan tomorrow morning. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Present Subjunctive Mood Rule: When a sentence contains a verb
+expressing a demand, recommendation, requirement, or mandate (recommend,
+suggest, insist, demand, require) followed by a "that" clause, the verb in the "that"
+clause must be in its base form ($V_1$), completely free of any singular 's' or 'es'
+endings, regardless of the subject. Change "undergoes" to "undergo".
+Q231
+Question: The prime minister enquired the officer (A) / if any civilian casualties had been
+reported (B) / during the border shelling incidents. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The verb "enquire" is an intransitive verb when followed by a personal
+object, meaning it requires the preposition "of" to connect to the entity being
+questioned. Change "enquired the officer" to "enquired of the officer" (or change
+the verb entirely to the transitive "asked the officer").
+Q232
+Question: The dynamic entrepreneur requested the investors (A) / that they should consider
+his innovative (B) / green energy business proposal favorably. (C) / No Error (D)
+• Answer: (B)
+• Explanation: When formatting an imperative sentence or request into indirect
+speech, use a to-infinitive structure ($to + V_1$) to link the command/request,
+rather than a heavy "that" clause with modal verbs. Change "that they should
+consider" to "to consider".
+Q233
+Question: The ancient city ruins (A) / were excavated by the archaeology team (B) / a few
+decades ago. (C) / No Error (D)
+61 | Page
+
+
+===== PAGE 63 =====
+• Answer: (D)
+• Explanation: The sentence is No Error. The past passive structure ($were + V_3$)
+aligns properly with the past time frame anchor "a few decades ago."
+Q234
+Question: The internal security directives require (A) / that every employee changes his
+access (B) / password credentials at the end of the month. (C) / No Error (D)
+• Answer: (B)
+• Explanation: This is another Present Subjunctive Mood trap triggered by the
+mandate verb "require". The verb in the tracking clause must remain in its pure base
+form ($V_1$), completely ignoring the singular subject "every employee". Change
+"changes" to "change".
+Q235
+Question: The HR executive asked me (A) / what was my total work experience (B) / in the
+field of automated cloud architecture. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Indirect Question Word Order: When an interrogative sentence is
+transformed into an indirect statement, it loses its questioning syntax. The sentence
+structure must switch from an inverted question form (verb + subject) back to an
+assertive statement form (subject + verb). Change "what was my total work
+experience" to "what my total work experience was".
+Q236
+Question: The corporate presentation slides (A) / have been prepared by the creative cell (B)
+/ well in advance of the deadline. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The Present Perfect Passive construction
+($have + been + V_3$) is applied flawlessly.
+Q237
+Question: The command center ordered the fighter jet squad (A) / that they should
+immediately intercept (B) / the unidentified supersonic aerial vector. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Similar to Q232, an indirect imperative command structured with
+"ordered" should bypass a clunky "that... should" clause in favor of a clean to-
+infinitive structure. Change "that they should immediately intercept" to "to
+immediately intercept".
+Q238
+Question: It is absolutely imperative (A) / that the laboratory assistant handles (B) / the
+volatile organic chemical compounds with extreme care. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The adjective "imperative" belongs to the category of urgency markers
+(crucial, essential, vital, imperative, necessary) that trigger the Present Subjunctive
+62 | Page
+
+
+===== PAGE 64 =====
+Mood in an ensuing "that" clause. The verb must use its base form. Change "handles"
+to "handle".
+Q239
+Question: The suspect denied that (A) / he had not stolen the corporate layout designs (B) /
+from the research database vault. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The verb "deny" is inherently negative (meaning to state that
+something did not happen). Adding a secondary negative word like "not" inside the
+reported clause creates a double negative that reverses the intended meaning. Remove
+"not".
+Q240
+Question: The strategic border outposts (A) / are being continuously monitored (B) / by
+unmanned aerial reconnaissance drones. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The Present Continuous Passive voice
+sequence ($are + being + V_3$) is used correctly.
+Q241
+Question: The defense council insisted that (A) / the accused is released on bail (B) / pending
+the arrival of the forensic verification logs. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The verb "insist" signals a strong demand, triggering the Present
+Subjunctive Mood. In the subjunctive mood, the standard present forms of the verb
+to be (is, am, are) are completely replaced by the base word "be". Change "is
+released" to "be released".
+Q242
+Question: The tax consultant enquired from me (A) / if I had filed my income returns (B) /
+within the officially stipulated timeframe windows. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The idiomatically correct construction after "enquired" is to use the
+preposition "of", never "from". Change "enquired from me" to "enquired of me".
+Q243
+Question: The old woman prayed that (A) / God might showered his choicest blessings (B) /
+on the young couple's newborn infant. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Modal auxiliary verbs (might, may, should, could, would) must always
+be followed by the pure base form of the verb ($V_1$), never a past-tense or past-
+participle form ($V_3$). Change "showered" to "shower".
+63 | Page
+
+
+===== PAGE 65 =====
+Q244
+Question: The newly drafted standard operating procedures (A) / must be strictly follow by
+all the technical staff (B) / inside the semiconductor processing cleanrooms. (C) / No Error
+(D)
+• Answer: (B)
+• Explanation: The passive voice structure for a modal verb is $modal + be + V_3$
+(Past Participle). The sentence leaves the verb in its base form. Change "must be
+strictly follow" to "must be strictly followed".
+Q245
+Question: The principal demanded that (A) / the unruly student apologizes to the entire (B) /
+assembly before entering the classroom corridors. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The verb "demand" triggers the Present Subjunctive Mood. Drop the
+singular 's' from the verb to restore its base form. Change "apologizes" to
+"apologize".
+Q246
+Question: The senior architect asked the client (A) / that how long it would take to finalize
+(B) / the structural blueprints for the commercial complex. (C) / No Error (D)
+• Answer: (B)
+• Explanation: As established in Q226, do not insert the conjunction "that" before an
+interrogative Wh-word (how long) when using indirect narrative style. Remove "that".
+Q247
+Question: The corporate embezzlement plans (A) / were exposed by a whistle-blower (B) /
+working inside the primary accounting branch. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The past passive framework ($were + V_3$)
+matches the context perfectly.
+Q248
+Question: It is crucial that (A) / the flight navigation computer performs (B) / a complete
+systems diagnostic check before takeoff. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The phrase "It is crucial that" mandates the use of the Present
+Subjunctive Mood. The verb must strip its singular ending to match the base form.
+Change "performs" to "perform".
+Q249
+Question: The factory supervisor told the labor force (A) / that they had better worked
+systematically (B) / to meet the steep festive export delivery targets. (C) / No Error (D)
+• Answer: (B)
+64 | Page
+
+
+===== PAGE 66 =====
+• Explanation: The idiomatic phrase "had better" functions as a modal operator
+meaning should. It must be followed directly by a bare infinitive verb / base form
+($V_1$), never a past-tense form ($V_2/V_3$). Change "had better worked" to "had
+better work".
+Q250
+Question: The global digital tender notices (A) / have been published in all leading business
+(B) / newspapers by the corporate communications cell. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. The present perfect passive construction
+($have + been + V_3$) is used flawlessly.
+Part A: Advanced Subject-Verb Agreement Rules (Q251 - Q275)
+Q251
+Question: The quality of these newly imported (A) / semiconductor microchips from Taiwan
+are (B) / not up to the specified defense industrial standards. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Prepositional Phrase Interruption Trap: The true subject of the
+sentence is the singular noun "quality", not the plural object of the preposition
+"microchips". Therefore, the verb must be singular. Change "are" to "is".
+Q252
+Question: Neither the financial advisor nor (A) / the board directors has approved (B) / the
+aggressive capital expenditure budget. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Proximity Rule: When subjects are joined by neither... nor or either...
+or, the verb must agree with its nearest subject. The nearest subject is "directors,"
+which is plural. Change "has approved" to "have approved".
+Q253
+Question: The political leader, along with (A) / his core administrative team members, are
+(B) / expected to arrive at the media briefing room shortly. (C) / No Error (D)
+• Answer: (B)
+• Explanation: When a singular subject ("leader") is joined with other nouns using
+words like along with, together with, as well as, accompanied by, or besides, these
+phrases act as parenthetical insertions. They do not change the number of the subject.
+Change "are" to "is".
+Q254
+Question: A large number of automated (A) / assembly line robots has been deployed (B) / to
+accelerate the smartphone production cycle. (C) / No Error (D)
+• Answer: (B)
+65 | Page
+
+
+===== PAGE 67 =====
+• Explanation:
+o "A large number of" + Plural Noun takes a plural verb (indicates an
+indefinite large quantity).
+o "The number of" + Plural Noun takes a singular verb (indicates a specific
+numeric count).
+o Change "has been deployed" to "have been deployed".
+Q255
+Question: Three-fourths of the core corporate (A) / infrastructure budget have already been
+allocated (B) / to the cyber security upgrade project. (C) / No Error (D)
+• Answer: (B)
+• Explanation: When fractions or percentages are used, the verb agrees with the noun
+following the "of" modifier. Since "infrastructure budget" is an uncountable/singular
+noun, the fraction remains singular. Change "have already been" to "has already
+been".
+Q256
+Question: The behavior of the violent protestors (A) / were highly unpredictable, causing a
+massive panic (B) / among the local shop owners down the street. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The true subject is the singular noun "behavior". The plural noun
+"protestors" is merely the object of the preposition. Change "were" to "was".
+Q257
+Question: Many a dynamic young scholar (A) / fail to secure a research fellowship (B) / due
+to poorly framed project synopsis presentations. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The idiom idiomatic phrase "Many a" is strictly followed by a
+singular noun and a singular verb. While "young scholar" is correctly singular, the
+verb must match. Change "fail" to "fails".
+Q258
+Question: Two thousand dollars are (A) / a highly reasonable price to pay (B) / for this
+customized high-end industrial server workstation. (C) / No Error (D)
+• Answer: (A)
+• Explanation: When a specific sum of money, distance, time, or weight is stated as a
+single lump sum or collective quantity, it takes a singular verb. Change "are" to "is".
+Q259
+Question: Gulliver's Travels, a famous satirical masterpiece, (A) / were written by Jonathan
+Swift (B) / during the early eighteenth century era. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Titles of books, plays, movies, or musical works are always treated as
+singular entities, even if the title itself contains a plural noun (Travels). Change "were
+written" to "was written".
+66 | Page
+
+
+===== PAGE 68 =====
+Q260
+Question: Not only the managing partners (A) / but also the principal structural engineer (B)
+/ were held liable for the building collapse. (C) / No Error (D)
+• Answer: (C)
+• Explanation: For not only... but also constructions, apply the proximity rule. The
+nearest subject to the verb is "the principal structural engineer," which is singular.
+Change "were" to "was".
+Q261
+Question: Every window, every door, and every ventilation (A) / duct were meticulously
+inspected by the forensic (B) / investigation crew before sealing the house premises. (C) / No
+Error (D)
+• Answer: (B)
+• Explanation: When multiple singular nouns are connected by "and" but are preceded
+by "each" or "every", the overall compound subject remains strictly singular.
+Change "were meticulously" to "was meticulously".
+Q262
+Question: The jury was completely divided (A) / in their opinions regarding the ultimate
+sentence (B) / to be handed down to the corporate criminal. (C) / No Error (D)
+• Answer: (A)
+• Explanation: This is the reverse of Q101. The plural possessive tracking pronoun
+"their opinions" tells you that the collective noun "jury" is acting as split individuals.
+Therefore, the verb must match this plural division. Change "was completely divided"
+to "were completely divided".
+Q263
+Question: More than one engineering student (A) / have cleared the initial technical round
+(B) / of the campus placement drive today. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The phrase "More than one" takes a singular noun and a singular
+verb. Change "have cleared" to "has cleared". (Note: "More than two" takes plural,
+and "More students than one" takes plural).
+Q264
+Question: The performance metrics data (A) / collected from the manufacturing plants (B) /
+is highly encouraging for the investment board. (C) / No Error (D)
+• Answer: (C)
+• Explanation: In traditional grammar, "data" is the plural form of "datum" and
+requires a plural verb. While modern English sometimes accepts data as collective
+singular, TCS strictly enforces traditional plural usage for "data" and "criteria".
+Change "is" to "are".
+67 | Page
+
+
+===== PAGE 69 =====
+Q265
+Question: Either your security credentials (A) / or your automated access token card (B) /
+need to be updated before the system migration lock. (C) / No Error (D)
+• Answer: (C)
+• Explanation: By the proximity rule for either... or, the verb must agree with "your
+automated access token card," which is a singular subject. Change "need" to "needs".
+Q266
+Question: Rice and dal are (A) / the staple comforting food item (B) / for a vast majority of
+households in East India. (C) / No Error (D)
+• Answer: (A)
+• Explanation: When two nouns express a single, unified concept, collective dish, or
+item (Rice and dal, Bread and butter, Time and tide), they take a singular verb. This
+is reinforced by the singular noun phrase "food item" later in the sentence. Change
+"are" to "is".
+Q267
+Question: The number of cyber security infractions (A) / tracking through our primary
+firewalls (B) / have dropped significantly over the past quarter. (C) / No Error (D)
+• Answer: (C)
+• Explanation: As mentioned in Q254, the specific phrase "The number of" targets a
+singular count entity. It must take a singular verb. Change "have dropped" to "has
+dropped".
+Q268
+Question: Ten kilometers are a very long distance (A) / to cover on foot for an untrained (B)
+/ civilian volunteer during hot summers. (C) / No Error (D)
+• Answer: (A)
+• Explanation: A specific unit of distance ("Ten kilometers") viewed as a singular,
+unified measurement takes a singular verb. Change "are" to "is".
+Q269
+Question: One of the most common mistakes (A) / made by amateur traders are over-
+leveraging (B) / their accounts during high-volatility market sessions. (C) / No Error (D)
+• Answer: (B)
+• Explanation: In the "One of + Plural Noun" structure, the true subject is the
+singular pronoun "One". The verb must always be singular. Change "are over-
+leveraging" to "is over-leveraging".
+Q270
+Question: The keys of the secondary automated (A) / locker system was mistakenly left (B) /
+on the security desk floor last night. (C) / No Error (D)
+• Answer: (B)
+68 | Page
+
+
+===== PAGE 70 =====
+• Explanation: The true subject is the plural noun "keys". Do not let the intervening
+prepositional phrase "of the locker system" fool you into using a singular verb.
+Change "was mistakenly left" to "were mistakenly left".
+Q271
+Question: Athletics are playing a very crucial role (A) / in fostering physical resilience and a
+spirit (B) / of competitive sportsmanship among school students. (C) / No Error (D)
+• Answer: (A)
+• Explanation: Names of sciences, academic subjects, or physical activities ending in '-
+ics' (Athletics, Physics, Mathematics, Economics, Politics) are singular in form and
+use a singular verb when speaking about the general discipline. Change "are playing"
+to "is playing".
+Q272
+Question: Neither of the technical solutions (A) / proposed by the external consultants (B) /
+were found viable by the board. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The distributive pronoun "Neither" means "none of the two" and acts
+as an exclusive singular subject. It must be paired with a singular verb. Change "were
+found" to "was found".
+Q273
+Question: Nothing but cold water streams (A) / was visible to the stranded hikers (B) / down
+the massive mountain gorge landscape. (C) / No Error (D)
+• Answer: (D)
+• Explanation: The sentence is No Error. When a sentence begins with "Nothing
+but", the verb is always singular, regardless of whether the noun following "but" is
+singular or plural. "Was" is correct.
+Q274
+Question: The crew members was safely rescued (A) / from the capsized merchant cargo
+vessel (B) / by the Indian Coast Guard helicopter team. (C) / No Error (D)
+• Answer: (A)
+• Explanation: The sentence explicitly specifies the plural subject "crew members"
+(the individual individuals), which requires a plural verb. Change "was safely
+rescued" to "were safely rescued".
+Q275
+Question: Here come the senior chief operating (A) / officer along with his executive
+advisors (B) / to audit our performance metrics logs. (C) / No Error (D)
+• Answer: (A)
+• Explanation: In sentences starting with here or there, the true subject sits after the
+verb. The subject is "the senior chief operating officer," which is singular. (The phrase
+"along with..." does not pluralize the subject). Change "Here come" to "Here
+comes".
+69 | Page
+
+
+===== PAGE 71 =====
+Part B: Structural Parallelism & Redundancy Traps (Q276 - Q300)
+Q276
+Question: The dynamic marketing executive likes (A) / analyzing consumer patterns,
+creating ad campaigns, (B) / and to negotiate deals with potential clients. (C) / No Error (D)
+• Answer: (C)
+• Explanation: Parallel Structure Violation: Elements in a series linked by
+coordinating conjunctions must match in form. The first two items use the gerund
+form (analyzing, creating), so the third item must match. Change "to negotiate deals"
+to "negotiating deals".
+Q277
+Question: The international diplomatic mission (A) / returned back to their home country (B)
+/ after the peace talk rounds collapsed. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Redundancy Trap: The word "return" itself means to go or come
+back. Adding the word "back" right after it introduces a textbook redundancy
+infraction. Remove "back".
+Q278
+Question: The operations analyst is responsible for (A) / updating database fields, sorting
+invoice files, (B) / and the verification of user identity tracking logs. (C) / No Error (D)
+• Answer: (C)
+• Explanation: To maintain strict structural parallelism with the preceding gerund
+phrase elements (updating fields, sorting files), the final element must use the same
+syntax. Change "the verification of user identity tracking logs" to "verifying user
+identity tracking logs".
+Q279
+Question: I requested the senior flight attendant (A) / to kindly repeat the safety evacuation
+(B) / announcement once again. (C) / No Error (D)
+• Answer: (C)
+• Explanation: Redundancy Trap: The verb "repeat" means to state or do something
+again. Combining it with the phrase "once again" is completely redundant. Remove
+"once again".
+Q280
+Question: The corporate legal policy is (A) / not only comprehensive in its scope (B) / but it
+is also highly flexible in its execution. (C) / No Error (D)
+• Answer: (C)
+• Explanation: To keep things balanced on both sides of the not only... but also frame,
+the grammatical structure should match closely:
+o Not only + Adjective phrase ("comprehensive in its scope")
+o But also should link directly to an adjective phrase, without inserting a clunky
+new subject-verb combo ("but it is also").
+70 | Page
+
+
+===== PAGE 72 =====
+o Change part C to: "but also highly flexible in its execution".
+Q281
+Question: In my opinion, I think (A) / the newly proposed real estate project (B) / will
+struggle to attract premium home buyers. (C) / No Error (D)
+• Answer: (A)
+• Explanation: "In my opinion" and "I think" express the exact same concept. Using
+both in the same clause is redundant. Change to either "In my opinion," or "I
+think".
+Q282
+Question: The senior software engineer's tasks (A) / include debugging legacy codes, writing
+technical documentation, (B) / and to train the junior engineering recruits. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The list uses gerund forms (debugging, writing). Change the infinitive
+"to train" to the parallel gerund form "training".
+Q283
+Question: The multi-national enterprise (A) / will advance forward with its expansion (B) /
+plans despite the global financial slump. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Redundancy Trap: "Advance" means to move forward. Adding the
+word "forward" is unnecessary. Remove "forward".
+Q284
+Question: The primary suspect was accused of (A) / forging administrative signatures,
+embezzling corporate funds, (B) / and he committed tax evasion over several years. (C) / No
+Error (D)
+• Answer: (C)
+• Explanation: To preserve parallel structure across the series of offenses modifying
+"accused of," change the full clause "and he committed tax evasion" into a matching
+gerund phrase: "and committing tax evasion".
+Q285
+Question: The technical committee members (A) / unanimously agreed together on the final
+choice (B) / of the software vendor platform. (C) / No Error (D)
+• Answer: (B)
+• Explanation: "Unanimously" means everyone is in complete agreement. Combining
+it with "together" is redundant. Remove "together".
+Q286
+Question: He is a gentleman of great learning, (A) / vast business experience, and who
+possesses (B) / deep philosophical insight. (C) / No Error (D)
+71 | Page
+
+
+===== PAGE 73 =====
+• Answer: (B)
+• Explanation: The series lists attributes using noun phrases (gentleman of great
+learning, vast business experience). Suddenly introducing a relative clause ("and who
+possesses...") breaks parallelism. Change to a clean noun phrase: "and deep
+philosophical insight".
+Q287
+Question: The operational supervisor ordered (A) / the immediate cancellation of the evening
+shift (B) / due to a reason of sudden power failure. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The phrase "due to" already introduces a reason. Writing "due to a
+reason of sudden power failure" is wordy and redundant. Change to "due to a sudden
+power failure".
+Q288
+Question: The newly recruited customer care (A) / executives were taught how to listen
+patiently, (B) / speak politely, and handling angry clients calmly. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The series uses base form infinitives following the "how to" operator
+(listen patiently, speak politely). The third element should match this pattern. Change
+"and handling angry clients calmly" to "and handle angry clients calmly".
+Q289
+Question: The continuous heavy downpour (A) / completely overwhelmed the drainage
+system, (B) / resulting into a total disaster situation. (C) / No Error (D)
+• Answer: (C)
+• Explanation: This sentence contains two errors often tested by TCS: a fixed
+preposition error ("resulted into" should be "resulted in", as checked in Module 4) and
+a wordy redundancy ("disaster situation"). Change part C to "resulting in a total
+disaster".
+Q290
+Question: The investigative panel stated (A) / that the two cross-border trade agreements (B)
+/ were completely identical to each other in every aspect. (C) / No Error (D)
+• Answer: (C)
+• Explanation: "Identical" means exactly the same as something else. The phrase "to
+each other" is entirely redundant when used alongside "completely identical". Change
+to "were completely identical in every aspect".
+Q291
+Question: Preparing well for the Tier-2 mock tests (A) / is not only beneficial for building
+concept speed (B) / but also to boost psychological confidence levels. (C) / No Error (D)
+• Answer: (C)
+• Explanation: Match structures across the not only... but also correlative frame:
+o Not only + Adjective phrase ("beneficial for building...")
+72 | Page
+
+
+===== PAGE 74 =====
+o But also should match this adjective layout rather than switching to an
+infinitive phrase.
+o Change part C to: "but also beneficial for boosting psychological
+confidence levels".
+Q292
+Question: The defense command center (A) / has deployed an adequate number of troops (B)
+/ to counter against the sudden border infiltration attempts. (C) / No Error (D)
+• Answer: (C)
+• Explanation: Redundancy Trap: The verb "counter" means to act in opposition to
+or defend against. Adding the preposition "against" directly after it creates an error.
+Remove "against".
+Q293
+Question: She is talented, hardworking, (A) / and has a lot of experience in managing (B) /
+complex corporate public relations crises. (C) / No Error (D)
+• Answer: (B)
+• Explanation: The sentence establishes a series of descriptive adjectives (talented,
+hardworking). Introducing a verb phrase ("and has a lot of experience") disrupts this
+parallel pattern. Change part B to use a matching adjective layout: "and highly
+experienced in managing".
+Q294
+Question: The research scholar spent (A) / the entire evening reading reference manuals, (B)
+/ cross-checking data tables, and to compile the bibliography logs. (C) / No Error (D)
+• Answer: (C)
+• Explanation: Change the infinitive "to compile" to the parallel gerund form
+"compiling" to match reading and cross-checking.
+Q295
+Question: The administrative cell issued a formal warning (A) / stating that any employee
+who misbehaves (B) / will be expelled out from the organization premises. (C) / No Error (D)
+• Answer: (C)
+• Explanation: Redundancy Trap: The verb "expel" means to force someone to leave
+an institution or place. Incorporating the word "out" after it is completely redundant.
+Remove "out".
+Q296
+Question: The design layout of the new sedan (A) / is both aesthetically appealing to the eye
+(B) / and aerodynamically highly efficient. (C) / No Error (D)
+• Answer: (B)
+• Explanation: "Aesthetically appealing" inherently means attractive to the eye.
+Writing "to the eye" right after it adds a classic redundancy trap. Remove "to the eye".
+73 | Page
+
+
+===== PAGE 75 =====
+Q297
+Question: The processing unit aims at (A) / maximizing production output, minimizing
+manual errors, (B) / and the optimization of corporate energy consumption. (C) / No Error
+(D)
+• Answer: (C)
+• Explanation: Change the noun phrase "the optimization of corporate energy
+consumption" to a matching gerund phrase to keep the list parallel: "and optimizing
+corporate energy consumption".
+Q298
+Question: The operations executive requested the clients (A) / to assemble together inside
+the main conference (B) / hall room for the annual presentation session. (C) / No Error (D)
+• Answer: (B)
+• Explanation: Redundancy Trap: "Assemble" means to bring or come together as a
+group. The word "together" is completely redundant here. Remove "together".
+Q299
+Question: The global digital enterprise (A) / has successfully dominated the market because
+of (B) / its superior technical innovation and pricing things competitively. (C) / No Error (D)
+• Answer: (C)
+• Explanation: Parallelism trap involving compound noun objects of a preposition:
+o Item 1: Noun phrase ("superior technical innovation")
+o Item 2: Should be a clean, matching noun phrase rather than a awkward
+gerund phrase ("pricing things competitively").
+o Change part C to: "and competitive pricing strategy".
+Q300
+Question: Throughout his long academic career, (A) / the professor was respected for his
+absolute integrity, (B) / profound wisdom, and because he was humble. (C) / No Error (D)
+• Answer: (C)
+• Explanation: The list highlights attributes using concise noun phrases (his absolute
+integrity, profound wisdom). The sudden switch to an explanation clause ("and
+because he was humble") breaks structural symmetry. Change part C to a parallel
+noun phrase: "and genuine humility".
+74 | Page

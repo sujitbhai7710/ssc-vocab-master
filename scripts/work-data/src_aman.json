@@ -1,0 +1,5243 @@
+{
+ "source": "aman",
+ "rules": [
+  {
+   "source_rule_id": "aman-1",
+   "concept_no": 1,
+   "title": "Possessive Pronouns vs Possessive Adjectives",
+   "topic": "Pronoun",
+   "concept": "Distinguish possessive adjectives from possessive pronouns. Possessive adjectives: my, our, your, his/her/its, their (used before a noun). Possessive pronouns: mine, ours, yours, his/hers, theirs (used alone, without a noun). Also note: 'its' is a possessive adjective while 'it's' is a contraction of pronoun + verb (it is/it has). For a compound subject like 'You and Rohan', use 'your'; for 'You and I', use 'our'; for 'He and I', use 'our'.",
+   "examples": [
+    {
+     "sentence": "I have decided that I won't work at yours company anymore.",
+     "correction": "Use 'your' instead of 'yours'."
+    },
+    {
+     "sentence": "Their is the best offer that you can get so you should not think much.",
+     "correction": "Use 'Theirs' instead of 'Their'."
+    },
+    {
+     "sentence": "I can't buy this car because it's cost is way out of my budget.",
+     "correction": "Use 'its' instead of 'it's'. 'Its' is a possessive adjective, whereas 'it's' is pronoun + verb."
+    },
+    {
+     "sentence": "You and Rohan should not waste his time wandering here and there.",
+     "correction": "Use 'your' instead of 'his'."
+    },
+    {
+     "sentence": "You and I have done my best to make her happy.",
+     "correction": "Use 'our' instead of 'my'."
+    },
+    {
+     "sentence": "He and I will not leave any stone unturned to complete ours assignment.",
+     "correction": "Use 'our' instead of 'ours'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-2",
+   "concept_no": 2,
+   "title": "Reflexive Pronouns after certain verbs",
+   "topic": "Pronoun",
+   "concept": "Use a reflexive pronoun (myself, ourselves, yourself, yourselves, himself, herself, itself, themselves) after these verbs: absent, present, adapt, adjust, acquit, exert, apply, hurt, prostrate, submit, resign, reconcile, introduce, avail, amuse, enjoy, satisfy, avenge, pride, etc. The reflexive pronoun must agree with the subject in number.",
+   "examples": [
+    {
+     "sentence": "He introduced to the Chairman as the General Secretary of the party.",
+     "correction": "The verb 'introduced' needs an object, so add the reflexive pronoun 'himself' before 'to'."
+    },
+    {
+     "sentence": "He prostrated before his master who taught him when he was in school.",
+     "correction": "'Prostrated' is a transitive verb and needs an object, so use 'himself' after 'prostrated'."
+    },
+    {
+     "sentence": "The minister and his cabinet members absented himself from the meeting.",
+     "correction": "Use 'themselves' instead of 'himself'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-3",
+   "concept_no": 3,
+   "title": "Each / Either / Neither + of",
+   "topic": "Pronoun",
+   "concept": "Structure: Each/Either/Neither + of + plural noun + singular verb + singular pronoun/adjective.",
+   "examples": [
+    {
+     "sentence": "Each of the boys have completed their assignment.",
+     "correction": "Use 'has' instead of 'have' and use 'his' instead of 'their'."
+    },
+    {
+     "sentence": "Each of these 5 students have worked very hard on this project.",
+     "correction": "Use 'has' instead of 'have'."
+    },
+    {
+     "sentence": "They told me that neither of them were present there when the accident happened.",
+     "correction": "Use 'was' instead of 'were'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-4",
+   "concept_no": 4,
+   "title": "Out of class comparison / 'that of' concept",
+   "topic": "Pronoun",
+   "concept": "When comparing, compare like with like. Use 'that of' (or 'those of', or an apostrophe form) so that the same noun is compared on both sides, rather than comparing a quality with a person or place.",
+   "examples": [
+    {
+     "sentence": "The air of Delhi is more polluted than Mumbai.",
+     "correction": "Delhi's air must be compared with Mumbai's air, so use 'that of' where 'that' stands for 'air': ...than that of Mumbai."
+    },
+    {
+     "sentence": "The maximum speed of my car is way more than yours.",
+     "correction": "The speed of one car must be compared with the speed of the other car, so use 'that of': 'that of yours' = the speed of your car."
+    },
+    {
+     "sentence": "Rohit and Rahul both are my friends, but Rohit's sense of humour is better than Rahul.",
+     "correction": "Rohit's sense of humour must be compared with Rahul's sense of humour. There is no need to repeat the noun 'sense of humour'; simply add an apostrophe to Rahul, so use 'Rahul's'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-5",
+   "concept_no": 5,
+   "title": "Uses of Relative Pronouns",
+   "topic": "Pronoun",
+   "concept": "Who/whom are used for human beings (who as subject, whom as object); which is used for things and for clauses; that is used to give emphasis with human beings or things (especially after superlatives, 'the only', 'the same', 'the few', etc.); what is used for noun clauses.",
+   "examples": [
+    {
+     "sentence": "The girl who you had slapped in the class complained to the principal.",
+     "correction": "Use 'whom' instead of 'who'."
+    },
+    {
+     "sentence": "Sahil, whom just started last week, is already doing good at his new job.",
+     "correction": "Use 'who' instead of 'whom'."
+    },
+    {
+     "sentence": "The car which/who is standing in front of my house is my father's.",
+     "correction": "'which' is correct."
+    },
+    {
+     "sentence": "You have never questioned any decision of your master that is a proof of your loyalty.",
+     "correction": "Here the relative pronoun must refer to the whole clause. When an entire clause acts as the antecedent, the relative pronoun 'which' is used."
+    },
+    {
+     "sentence": "The few people who came to my party are the only friends that I have till now.",
+     "correction": "Use 'that' instead of 'who'."
+    },
+    {
+     "sentence": "He told me that he saw the same boy who killed your dog.",
+     "correction": "Use 'that' instead of 'who'."
+    },
+    {
+     "sentence": "I cannot predict that might happen if you don't submit your fees on time.",
+     "correction": "Use 'what' instead of 'that'."
+    },
+    {
+     "sentence": "You shouldn't judge a person when you don't know that he has gone through.",
+     "correction": "Use 'what' instead of 'that'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-6",
+   "concept_no": 6,
+   "title": "Relative pronouns take the verb according to their antecedent",
+   "topic": "Pronoun",
+   "concept": "A relative pronoun takes its verb (and related pronouns) according to its antecedent. In 'one of those who...' the antecedent is plural, so use a plural verb and plural pronoun; in 'the only one of the... that...' the antecedent is 'one', so use a singular verb.",
+   "examples": [
+    {
+     "sentence": "He is one of those who can sacrifice his life for the country.",
+     "correction": "Use 'their' instead of 'his'."
+    },
+    {
+     "sentence": "This novel is one of the best novels that has been written in the last 10 years.",
+     "correction": "Use 'have' instead of 'has'."
+    },
+    {
+     "sentence": "Roshni is the only one of the girls that have scored more than 98% marks in the exam.",
+     "correction": "Use 'has' instead of 'have'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-7",
+   "concept_no": 7,
+   "title": "Subject 'one' takes 'one's' / 'oneself'",
+   "topic": "Pronoun",
+   "concept": "If the subject is 'one', use the pronoun, adjective, etc. according to 'one' (one's, oneself) and not 'he', 'his' or 'himself'.",
+   "examples": [
+    {
+     "sentence": "One should respect his parents.",
+     "correction": "Use 'one's' instead of 'his'."
+    },
+    {
+     "sentence": "One should never criticize others if he not sure of his facts.",
+     "correction": "Use 'one's' instead of 'his'."
+    },
+    {
+     "sentence": "He added philosophically that one should adapt himself to the changing conditions.",
+     "correction": "Use 'oneself' instead of 'himself'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-8",
+   "concept_no": 8,
+   "title": "Quantifiers/Fractions + of + Noun + Verb",
+   "topic": "Pronoun",
+   "concept": "With expressions such as All, Some, Most, A lot, Lots, Plenty, and percentages or fractions (20%, 30%, 1/2, one third, two fifths), the structure is: quantifier/fraction + of + noun + verb, and the verb agrees with the noun that follows 'of'. If that noun is plural, use a plural verb; if it is singular or uncountable, use a singular verb.",
+   "examples": [
+    {
+     "sentence": "Some of the students was absent yesterday.",
+     "correction": "Use 'were' instead of 'was'."
+    },
+    {
+     "sentence": "Half of the class have not completed the assignment given by the teacher.",
+     "correction": "Use 'has' instead of 'have'."
+    },
+    {
+     "sentence": "All of the chairs was in perfect condition when I bought them from the new furniture store.",
+     "correction": "Use 'were' instead of 'was'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-9",
+   "concept_no": 9,
+   "title": "Comparison of pronouns",
+   "topic": "Pronoun",
+   "concept": "In comparisons, keep the cases parallel: compare a subject with a subject and an object with an object. So after 'than' or 'as ... as', use the subject pronoun when the comparison is with the subject of the sentence.",
+   "examples": [
+    {
+     "sentence": "You are stronger than him so you can easily defeat him.",
+     "correction": "Use 'he' instead of 'him'."
+    },
+    {
+     "sentence": "I was surprised to find that their tallest player was shorter than me.",
+     "correction": "Use 'I' instead of 'me'."
+    },
+    {
+     "sentence": "I have told you many times that you are as smart as him.",
+     "correction": "Use 'he' instead of 'him'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-10",
+   "concept_no": 10,
+   "title": "Objective case after certain prepositions and prepositional phrases",
+   "topic": "Pronoun",
+   "concept": "Use the objective case of the pronoun after these words: between, with, besides, including, excluding, but, like, unlike, together with, along with, as well as, and not, in addition to, rather than, accompanied by, no less than, nothing but, etc. This is because all of these words and phrases are prepositions or prepositional phrases.",
+   "examples": [
+    {
+     "sentence": "Between you and I, I think he is not dressed appropriately for the occasion.",
+     "correction": "Use 'me' after 'and'."
+    },
+    {
+     "sentence": "I think he is a bit ungrateful, because everyone but he was happy to receive gift on Christmas.",
+     "correction": "Use 'him' instead of 'he'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-11",
+   "concept_no": 11,
+   "title": "Position of ordinals and cardinals",
+   "topic": "Adjective",
+   "concept": "When an ordinal (first, last, next) and a cardinal number (five, ten, two) are used together, the ordinal comes before the cardinal: 'first five', 'first ten', 'last two'.",
+   "examples": [
+    {
+     "sentence": "He has solved the five first questions of the exercise.",
+     "correction": "Use 'first five questions' instead of 'five first questions'."
+    },
+    {
+     "sentence": "The policeman checked only the ten first trucks that were standing in the line.",
+     "correction": "Use 'first ten trucks' instead of 'ten first trucks'."
+    },
+    {
+     "sentence": "15 men went into lion's den one by one as a challenge but only the two last survived.",
+     "correction": "Use 'the last two' instead of 'the two last'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-12",
+   "concept_no": 12,
+   "title": "Each/Either/Neither/Every + singular noun + singular verb",
+   "topic": "Adjective",
+   "concept": "Each, either, neither and every are followed by a singular noun and take a singular verb.",
+   "examples": [
+    {
+     "sentence": "Each boy of this class were called by the principal.",
+     "correction": "Use 'was' instead of 'were'."
+    },
+    {
+     "sentence": "According to the rules set by the judges, each speaker were allowed to speak for 5 minutes.",
+     "correction": "Use 'was' instead of 'were'."
+    },
+    {
+     "sentence": "I am going to the family function only because every cousin of mine are coming.",
+     "correction": "Use 'is' instead of 'are'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-13",
+   "concept_no": 13,
+   "title": "Some vs any",
+   "topic": "Adjective",
+   "concept": "Use 'some' in affirmative (positive) sentences and 'any' in negative and interrogative sentences.",
+   "examples": [
+    {
+     "sentence": "I don't have some/any experience of this field.",
+     "correction": "'any' is correct."
+    },
+    {
+     "sentence": "She told me that she needed any time to think about my proposal.",
+     "correction": "Use 'some' instead of 'any'."
+    },
+    {
+     "sentence": "You all are invited to my birthday party this weekend but please don't bring some presents.",
+     "correction": "Use 'any' instead of 'some'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-14",
+   "concept_no": 14,
+   "title": "Adjectives that cannot be intensified or compared",
+   "topic": "Adjective",
+   "concept": "Do not use 'very', 'more' or 'most' with these absolute adjectives: impossible, universal, eternal, chief, ideal, supreme, perfect, unique, excellent, full, empty, entire, dead, free, circular, rectangular, etc.",
+   "examples": [
+    {
+     "sentence": "I can assure you that this school is most excellent.",
+     "correction": "Remove 'most'."
+    },
+    {
+     "sentence": "I really love the area and see it as the most ideal place to get married.",
+     "correction": "Use 'an' instead of 'the most'."
+    },
+    {
+     "sentence": "Today I met a person who could communicate with animals, I guess some humans are born with the most unique talents.",
+     "correction": "Remove 'the most'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-15",
+   "concept_no": 15,
+   "title": "Excluding the subject from the group it is compared with",
+   "topic": "Adjective",
+   "concept": "When a person or thing is compared with a group, that person or thing must not be included in the group. Therefore use 'all the other' or 'no other' to exclude it.",
+   "examples": [
+    {
+     "sentence": "Rohan is taller than all the boys of his class.",
+     "correction": "Use 'all the other boys' instead of 'all the boys'."
+    },
+    {
+     "sentence": "Rahul, my colleague is more hardworking than all the employees of our company.",
+     "correction": "Use 'all the other employees' instead of 'all the employees'."
+    },
+    {
+     "sentence": "Based on the stories that I read when I was child, I think no animal is as cunning as a fox.",
+     "correction": "Use 'I think no other animal' instead of 'I think no animal'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-16",
+   "concept_no": 16,
+   "title": "No double comparatives or superlatives",
+   "topic": "Adjective",
+   "concept": "Do not use 'more' with comparative degree adjectives or 'most' with superlative degree adjectives. To emphasise a comparative, use 'much' or 'far'; to emphasise a superlative, use 'by far' or 'much'.",
+   "examples": [
+    {
+     "sentence": "He is more stronger than Ajay.",
+     "correction": "Use 'much/far' instead of 'more'."
+    },
+    {
+     "sentence": "Mr. Mehta has two daughters and the younger one is more prettier than the older one.",
+     "correction": "Use 'much/far' instead of 'more'."
+    },
+    {
+     "sentence": "I really like spending time with him as he is the most nicest person that I have ever met.",
+     "correction": "Use 'by far/much' after 'as he is' and remove 'most'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-17",
+   "concept_no": 17,
+   "title": "Confusing pairs: later/latter, farther/further, good/well, bad/ill, far/a long way, last/latest, next/nearest",
+   "topic": "Adjective",
+   "concept": "Distinguish these commonly confused pairs: 'later' refers to time while 'latter' means the second of two things; 'farther' is used for physical distance while 'further' means 'in addition to something'; 'good' is an adjective while 'well' is an adverb; 'bad' is an adjective while 'ill' is an adverb; 'far' is used in negative and interrogative sentences while 'a long way' is used in positive (affirmative) sentences. Also distinguish 'last' from 'latest' and 'next' from 'nearest'.",
+   "examples": [
+    {
+     "sentence": "Of these two choices of cuisines, I would love to have the later one.",
+     "correction": "Use 'latter' instead of 'later'."
+    },
+    {
+     "sentence": "I hope it won't be a problem if we postpone this meeting to a latter date.",
+     "correction": "Use 'later' instead of 'latter'."
+    },
+    {
+     "sentence": "I wanted to discuss that topic farther, but my professor didn't have time.",
+     "correction": "Use 'further' instead of 'farther'."
+    },
+    {
+     "sentence": "My college is located further than hers yet she got a scooty and I got a bicycle.",
+     "correction": "Use 'farther' instead of 'further'."
+    },
+    {
+     "sentence": "My friend has told me that this new restaurant serves well Indian food.",
+     "correction": "Use 'good' instead of 'well'."
+    },
+    {
+     "sentence": "I stayed up all night and prepared a lot for my meeting but it didn't go good.",
+     "correction": "Use 'well' instead of 'good'."
+    },
+    {
+     "sentence": "When he was here last year, he was grossly bad treated by you.",
+     "correction": "Use 'ill' instead of 'bad'."
+    },
+    {
+     "sentence": "Rohit has made some bad choices in life but trust me he is not an ill person.",
+     "correction": "Use 'bad' instead of 'ill'."
+    },
+    {
+     "sentence": "How far/a long way is the library from your house?",
+     "correction": "Use 'far'."
+    },
+    {
+     "sentence": "He is good at shooting the ball into the net from far.",
+     "correction": "Use 'a long way' instead of 'far'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-18",
+   "concept_no": 18,
+   "title": "Present participle vs past participle",
+   "topic": "Adjective",
+   "concept": "Distinguish the present participle from the past participle when used as an adjective. The past participle describes the person who experiences the feeling (a horrified man = a frightened man), while the present participle describes the thing that causes the feeling (a horrifying man = a frightening man).",
+   "examples": [
+    {
+     "sentence": "He solved that confused question very easily.",
+     "correction": "Use 'confusing' instead of 'confused'."
+    },
+    {
+     "sentence": "He told me that he had gifted his girlfriend a very interested novel on her birthday.",
+     "correction": "Use 'interesting' instead of 'interested'."
+    },
+    {
+     "sentence": "I tried a lot but I could not find my losing book.",
+     "correction": "Use 'lost' instead of 'losing'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-19",
+   "concept_no": 19,
+   "title": "Little / a little / the little and few / a few / the few",
+   "topic": "Adjective",
+   "concept": "'Little' and 'few' carry a negative sense (hardly any); 'a little' and 'a few' carry a positive sense (some); 'the little' and 'the few' refer to the whole of the small quantity or number that is available.",
+   "examples": [
+    {
+     "sentence": "Could you give me …… sugar?",
+     "correction": "Use 'a little'."
+    },
+    {
+     "sentence": "When my friend was in trouble I offered him a little money that I had with me.",
+     "correction": "Use 'the' instead of 'a'."
+    },
+    {
+     "sentence": "I was out of town and couldn't find a place to rest therefore I got very a little sleep last night.",
+     "correction": "Remove 'a' before 'little'."
+    },
+    {
+     "sentence": "He met with an accident yesterday, and the doctor advised him to rest for the few days.",
+     "correction": "Remove 'the' before 'few'."
+    },
+    {
+     "sentence": "The school had to cancel the debate competition as a few students participated in it.",
+     "correction": "Remove 'a' before 'few'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-20",
+   "concept_no": 20,
+   "title": "Correct degree of adjective",
+   "topic": "Adjective",
+   "concept": "Use the correct degree of the adjective according to the meaning of the sentence.",
+   "examples": [
+    {
+     "sentence": "Rahul is stronger and wise than Mahesh.",
+     "correction": "Use 'wiser' instead of 'wise'."
+    },
+    {
+     "sentence": "My friend and I got dresses from the same store but still mine is best than hers.",
+     "correction": "Use 'better' instead of 'best'."
+    },
+    {
+     "sentence": "She gave bars of chocolate to everyone of us but sadly I got the smaller one of all the options available.",
+     "correction": "Use 'smallest' instead of 'smaller'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-21",
+   "concept_no": 21,
+   "title": "Confusing verbs: fall/fell, rise/raise, lie/lay",
+   "topic": "Verb + Modals",
+   "concept": "Confusing verbs: fall–fell–fallen–falling means 'to fall' (intransitive), while fell–felled–felled–felling means 'to make something fall / cut down' (transitive). Rise–rose–risen–rising means 'to get up, increase or grow' (intransitive), while raise–raised–raised–raising means 'to lift, increase or bring up something' (transitive). Lie–lay–lain–lying means 'to recline or be lying down' (intransitive), while lay–laid–laid–laying means 'to lay something down or place something' (transitive).",
+   "examples": [
+    {
+     "sentence": "I knew I had sprained my ankle, the moment I felled.",
+     "correction": "Use 'fell' instead of 'felled'."
+    },
+    {
+     "sentence": "Your favourite vase felled off the table during the earthquake.",
+     "correction": "Use 'fell' instead of 'felled'."
+    },
+    {
+     "sentence": "Yash has raised as one of the top athletes in the entire state.",
+     "correction": "Use 'risen' instead of 'raised'."
+    },
+    {
+     "sentence": "With temperatures on the rise, it's crucial to rise awareness about the pressing issue of global warming.",
+     "correction": "Use 'to raise' instead of 'to rise'."
+    },
+    {
+     "sentence": "I was in a park when I felt sick, so I laid on a bench nearby.",
+     "correction": "Use 'lay' instead of 'laid'."
+    },
+    {
+     "sentence": "She had lain the bag down before she left for the seminar.",
+     "correction": "Use 'laid' instead of 'lain'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-22",
+   "concept_no": 22,
+   "title": "Verbs with identical V1/V2/V3 forms",
+   "topic": "Verb + Modals",
+   "concept": "These verbs have the same V1, V2 and V3 forms: wed, cost, set, bet, bid, thrust, hit, cut, slit, spread, read, burst, quit, shut, shed, cast, rid, telecast, broadcast, overcast, forecast, etc.",
+   "examples": [
+    {
+     "sentence": "After getting scolded by his father, he shutted the door and started studying.",
+     "correction": "Use 'shut' instead of 'shutted'."
+    },
+    {
+     "sentence": "Taylor Swift's new concert will be broadcasted live on radio and television.",
+     "correction": "Use 'broadcast' instead of 'broadcasted'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-23",
+   "concept_no": 23,
+   "title": "",
+   "topic": "Verb + Modals",
+   "concept": "",
+   "examples": [
+    {
+     "sentence": "He has already molten some gold to make a necklace for you so you should wait for some time.",
+     "correction": "Use 'melted' instead of 'molten'."
+    },
+    {
+     "sentence": "People accuse him of stealing that necklace but the charges against him could not be proven in court.",
+     "correction": "Use 'proved' instead of 'proven'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-24",
+   "concept_no": 24,
+   "title": "Stative Verbs take no progressive (-ing) form",
+   "topic": "Verb",
+   "concept": "Stative verbs are not used in the progressive (-ing) form. Examples: think, believe, consider, have, own, possess, look, seem, appear, consist, contain, comprise, feel, smell, taste, sound, know, resemble, like, love, want, agree, hate, forgive, forget, remember, depend, exist, etc.",
+   "examples": [
+    {
+     "sentence": "I am vaguely remembering that I met him during a concert.",
+     "correction": "Remove 'am' and use 'remember' instead of 'remembering'."
+    },
+    {
+     "sentence": "Have you noticed that he is strongly resembling his brother in appearance?",
+     "correction": "Remove 'is' and use 'resembles' instead of 'resembling'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-25",
+   "concept_no": 25,
+   "title": "No 'as' after certain verbs",
+   "topic": "Verb",
+   "concept": "Do not use 'as' after these verbs: make, choose, elect, select, anoint, appoint, name, call, think, consider, etc.",
+   "examples": [
+    {
+     "sentence": "Although I met him only 5 months ago, I consider him as one of my closest friends.",
+     "correction": "Remove 'as'."
+    },
+    {
+     "sentence": "He has been performing very well in last few matches, therefore the team has decided to make him as captain of the team.",
+     "correction": "Remove 'as'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-26",
+   "concept_no": 26,
+   "title": "Active vs Passive voice based on the subject",
+   "topic": "Verb",
+   "concept": "If the subject is the doer of the action, use the active voice. If the subject is the receiver of the action, use the passive voice (be + third form of the verb). Example: 'My car was stolen by somebody' (subject is the receiver, so passive). Example: 'Somebody stole my car' (subject is the doer, so active).",
+   "examples": [
+    {
+     "sentence": "The wounded woman was treating by the doctor at the hospital.",
+     "correction": "Use 'was being treated' instead of 'was treating'."
+    },
+    {
+     "sentence": "While playing in the park some children were being teased the animals.",
+     "correction": "Use 'were teasing' instead of 'were being teased'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-27",
+   "concept_no": 27,
+   "title": "Used to / be used to",
+   "topic": "Verb",
+   "concept": "'Used to + base form of the verb' expresses a past habit. 'Be + used to + gerund' means to be accustomed to something (a habit of the past or the present). 'Be + used + infinitive' is passive and means 'to be used for the purpose of'.",
+   "examples": [
+    {
+     "sentence": "When I was a child, I used to playing cricket with my father every sunday.",
+     "correction": "Use 'play' instead of 'playing'."
+    },
+    {
+     "sentence": "I have worked at a call center for 7 years therefore I am used to work in night shifts also.",
+     "correction": "Use 'working' instead of 'working' (as printed in the source)."
+    },
+    {
+     "sentence": "The police inspector told my father that my stolen car was used to carrying some illegal drugs to Gujrat.",
+     "correction": "Use 'to carry' instead of 'to carrying'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-28",
+   "concept_no": 28,
+   "title": "Need and Dare as marginal auxiliaries",
+   "topic": "Verb",
+   "concept": "'Need' and 'Dare' are marginal auxiliary verbs. They act as modals in these structures: (1) 'need not' and 'dare not'; (2) WH-word + need/dare + subject + main verb + ? As modals they are followed by the base form of the verb without 'to'.",
+   "examples": [
+    {
+     "sentence": "You need not to worry about this mole as it's totally benign.",
+     "correction": "Remove 'to'."
+    },
+    {
+     "sentence": "How dare you to say these words to my father?",
+     "correction": "Remove 'to'."
+    },
+    {
+     "sentence": "You do not need pay anything as all these bills are covered under the insurance.",
+     "correction": "Use 'do not need to pay' or 'need not pay' instead of 'do not need pay'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-29",
+   "concept_no": 29,
+   "title": "Can, May, Could, Might",
+   "topic": "Verb",
+   "concept": "'Can' expresses ability, an informal request, and negative possibility. 'May' expresses a polite request and both positive and negative possibility. 'Could' expresses a polite request, remote possibility, and is the past of 'can'. 'Might' expresses less possibility and is the past of 'may'.",
+   "examples": [
+    {
+     "sentence": "We should let Shruti handle international clients as she may speak several languages.",
+     "correction": "Use 'can' instead of 'may'."
+    },
+    {
+     "sentence": "I have forgotten my phone at home, will I use yours to call home and call someone to pick me up.",
+     "correction": "Use 'may' instead of 'will'."
+    },
+    {
+     "sentence": "May you come with me to the clinic as I am too weak to drive right now.",
+     "correction": "Use 'could' instead of 'may'."
+    },
+    {
+     "sentence": "He told me that he may join Aman's batch to prepare for competitive exams.",
+     "correction": "Use 'might' instead of 'may'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-30",
+   "concept_no": 30,
+   "title": "Would, Ought to, Should, Must",
+   "topic": "Verb",
+   "concept": "'Would' expresses a polite request, a past habit, and is the past of 'will'. 'Ought to' gives moral advice. 'Should' gives general advice. 'Must' expresses obligation and very high possibility.",
+   "examples": [
+    {
+     "sentence": "When I was a child, I would hide under the bed to scare my parents.",
+     "correction": "No error."
+    },
+    {
+     "sentence": "If you earn a decent amount of income, you dare help the poor.",
+     "correction": "Use 'ought to' or 'should' instead of 'dare'."
+    },
+    {
+     "sentence": "If you want to lose weight, You may stop eating fast food.",
+     "correction": "Use 'should' instead of 'may'."
+    },
+    {
+     "sentence": "I feel that one could love one's country.",
+     "correction": "Use 'ought to' or 'should' instead of 'could'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-31",
+   "concept_no": 31,
+   "title": "Uncountable nouns: no article, number, or plural marker",
+   "topic": "Noun",
+   "concept": "Do not use a, an, one, two, these, those, many, or -s/-es with these nouns: (a) nouns that act like material nouns: bread, soap, shampoo, sand, iron, paper, hair, brick, food, grass, garbage, filth, etc.; (b) nouns that act like abstract nouns: scenery, machinery, jewellery, cutlery, crockery, stationery, luggage, baggage, money, evidence, equipment, furniture, advice, work, music, information, knowledge, wealth, etc.; (c) others: business, research, abuse, percentage, alphabet.",
+   "examples": [
+    {
+     "sentence": "Our NGO helps the people who live in slums and collect garbages for a living.",
+     "correction": "Use 'garbage' instead of 'garbages'."
+    },
+    {
+     "sentence": "All the houses in our colony were destroyed during the earthquake except hers, because it was made of best quality bricks.",
+     "correction": "Use 'brick' instead of 'bricks'."
+    },
+    {
+     "sentence": "The scientists had all the equipments that they need in order to complete the experiment.",
+     "correction": "Use 'equipment' instead of 'equipments'."
+    },
+    {
+     "sentence": "Thousands of tourists visit Jammu and Kashmir every year to see the beautiful sceneries.",
+     "correction": "Use 'scenery' instead of 'sceneries'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-32",
+   "concept_no": 32,
+   "title": "Nouns that look plural but are singular",
+   "topic": "Noun",
+   "concept": "These nouns look plural but are singular: (a) Some subject names: Physics, Mathematics, Economics, Politics etc. (b) Some game names: Billiards, Darts, Athletics, Dominoes etc. (c) Disease names: Rickets, Measles, Mumps, Diabetes, Rabies, Shingles. (d) Others: Innings, News, Summons etc.",
+   "examples": [
+    {
+     "sentence": "Mathematics are one of the subjects which I have found very difficult since school.",
+     "correction": "Use 'is' instead of 'are'."
+    },
+    {
+     "sentence": "Darts are a form of throwing game where darts are thrown at a circular target.",
+     "correction": "Use 'Darts is' instead of 'Darts are'."
+    },
+    {
+     "sentence": "The news of her getting that promotion were the reason behind that big smile on her face.",
+     "correction": "Use 'was' instead of 'were'."
+    },
+    {
+     "sentence": "Rickets cause problems in the normal calcification of the growing bones.",
+     "correction": "Use 'causes' instead of 'cause'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-33",
+   "concept_no": 33,
+   "title": "Nouns that are always used as plural",
+   "topic": "Noun",
+   "concept": "Some nouns are used as plural nouns: (a) Things that always exist in a pair: Scissors, Tongs, Pliers, Pincers, Bellows, Trousers, Pants, Pyjamas, Shorts, Fangs, Spectacles, Glasses, Opticals, Binoculars, Scales, Gallows, Fetters, Shackles. (b) Compliments, Thanks, Congratulations, Regards. (c) Valuables, Eatables, Belongings, Goods, Surroundings, Movables. (d) Ashes, Embers, Remains, Ruins, Proceedings, Clothes, Outskirts, Arrears, Dues, Sweets, Alms, Riches, Earnings, Savings, Proceeds, Odds.",
+   "examples": [
+    {
+     "sentence": "The binoculars was not in focus so he raised them and adjusted the focus.",
+     "correction": "Use 'were' instead of 'was'."
+    },
+    {
+     "sentence": "Tongs is used by my grandmother to make chapatis.",
+     "correction": "Use 'are' instead of 'is'."
+    },
+    {
+     "sentence": "All his goods was packed in some cardboard boxes when he was moving to another city.",
+     "correction": "Use 'were' instead of 'was'."
+    },
+    {
+     "sentence": "The outskirts of the city has some good hospitals for the people living there.",
+     "correction": "Use 'have' instead of 'has'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-34",
+   "concept_no": 34,
+   "title": "Nouns that look singular but are plural",
+   "topic": "Noun",
+   "concept": "Some nouns look singular but are plural: Cattle, Vermin, Police, Gentry, Peasantry, Children, People, Poultry, Cavalry, Clergy, Infantry etc.",
+   "examples": [
+    {
+     "sentence": "Do you know that cattle was considered wealth in ancient times?",
+     "correction": "Use 'were' instead of 'was'."
+    },
+    {
+     "sentence": "Poultry is domesticated birds kept by humans for the purpose of harvesting animal products such as meat, eggs or feathers.",
+     "correction": "Use 'are' instead of 'is'."
+    },
+    {
+     "sentence": "The police was informed by the locals about the dead body found near the lake.",
+     "correction": "Use 'were' instead of 'was'."
+    },
+    {
+     "sentence": "Although they want to yet most people doesn't do exercise daily.",
+     "correction": "Use 'don't' instead of 'doesn't'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-35",
+   "concept_no": 35,
+   "title": "Nouns with the same singular and plural forms",
+   "topic": "Noun",
+   "concept": "Some nouns have the same singular and plural forms: Deer, Sheep, Fish, Species, Series, Aircraft, Vacation, Offspring, Issue, Whereabouts, Headquarters, Wages, Means etc. Notes: 'Wages' meaning income/salary takes a plural verb; 'Wages' meaning result/outcome takes a singular or plural verb according to the meaning. 'Means' meaning income/resources takes a plural verb; 'Means' meaning channel/medium takes a singular or plural verb according to the meaning.",
+   "examples": [
+    {
+     "sentence": "When I went to Japan, I saw the remains of some aircrafts which attacked Japan amid world war 2.",
+     "correction": "Use 'aircraft' instead of 'aircrafts'."
+    },
+    {
+     "sentence": "Two series of lectures is scheduled for the coming week.",
+     "correction": "Use 'are' instead of 'is'."
+    },
+    {
+     "sentence": "The wages of the workers was increased after they protested for 2 days.",
+     "correction": "Use 'were' instead of 'was'."
+    },
+    {
+     "sentence": "The wages of burning midnight oil are always worth it.",
+     "correction": "Use 'is' instead of 'were'."
+    },
+    {
+     "sentence": "His means is not enough to support such a large family.",
+     "correction": "Use 'are' instead of 'is'."
+    },
+    {
+     "sentence": "Various means was used by them in order to communicate with their family stuck in Ukraine war.",
+     "correction": "Use 'were' instead of 'was'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-36",
+   "concept_no": 36,
+   "title": "",
+   "topic": "Noun",
+   "concept": "",
+   "examples": [
+    {
+     "sentence": "Both of his brother in laws live in Agra and run a book shop there.",
+     "correction": "Use 'brothers in law' instead of 'brother in laws'."
+    },
+    {
+     "sentence": "All the man teachers were called by the principal to his office yesterday.",
+     "correction": "Use 'men' instead of 'man'."
+    },
+    {
+     "sentence": "Some passer bys saw the accident and stopped to help him when his car collided with a truck.",
+     "correction": "Use 'passers by' instead of 'passer bys'."
+    },
+    {
+     "sentence": "She gulped down two mouthsful of coffee before the meeting to remain awake.",
+     "correction": "Use 'mouthfuls' instead of 'mouthsful'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-37",
+   "concept_no": 37,
+   "title": "",
+   "topic": "Noun",
+   "concept": "",
+   "examples": []
+  },
+  {
+   "source_rule_id": "aman-38",
+   "concept_no": 38,
+   "title": "Apostrophe with Joint Possession and Pronouns",
+   "topic": "Noun",
+   "concept": "When two nouns share possession of the same thing and are joined by 'and', add the apostrophe ('s) only to the latter noun. The apostrophe ('s) can also be used with certain pronouns, e.g. everybody, somebody, nobody, everyone, someone, one. If a word already ends in an 'sh'/'s' sound, add only the apostrophe (') and not ('s).",
+   "examples": [
+    {
+     "sentence": "David's and Mindy's car has stopped functioning properly so they are thinking about selling it.",
+     "correction": "Use 'David' instead of 'David's'."
+    },
+    {
+     "sentence": "Your parents's trust on you has degraded because you kept on repeating the same mistakes.",
+     "correction": "Use 'parents'' instead of 'parents's'."
+    },
+    {
+     "sentence": "The recent earthquake has destroyed everyone's house in our society.",
+     "correction": "No error."
+    },
+    {
+     "sentence": "For god sake , please forgive me. I promise that I won't repeat this mistake.",
+     "correction": "Use 'god's' instead of 'god'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-39",
+   "concept_no": 39,
+   "title": "Possessive Case of Compound Nouns",
+   "topic": "Noun",
+   "concept": "While forming the possessive case of a compound noun, place the apostrophe ('s) at the end of the whole compound.",
+   "examples": [
+    {
+     "sentence": "We get discount at that hospital because my son's in law sister works there.",
+     "correction": "Use 'son in law's' instead of 'son's in law'."
+    },
+    {
+     "sentence": "When I married Anjali, I took over my father's in law business as he had no son.",
+     "correction": "Use 'father in law's' instead of 'father's in law'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-40",
+   "concept_no": 40,
+   "title": "Apostrophe with Non-Living Things",
+   "topic": "Noun",
+   "concept": "The apostrophe ('s) can be used with certain non-living things: Personification - sun's fury, death's icy hands, nature's law, country's honour, fortune's favourite, etc.; Dignified objects - court's order, duty's call, etc.; Celestial bodies - earth's atmosphere, sun's axis, etc.; Expressions of time, weight, value and distance - a ton's weight, 2 metres' gap, razor's edge, a pound's worth, etc.; Idioms - at a stone's throw, at one's wit's end, nature's call, etc.",
+   "examples": [
+    {
+     "sentence": "The temperature has touched 50°c in many areas this summer, I think no one will be saved from sun's fury this time.",
+     "correction": "No error."
+    },
+    {
+     "sentence": "Mohit has received a court's order barring him from entering the hotel.",
+     "correction": "No error."
+    },
+    {
+     "sentence": "After the rise of greenhouse gases the experts have noticed changes in Earth's atmosphere.",
+     "correction": "No error."
+    },
+    {
+     "sentence": "We sat at a 2 meter's gap from each other in that conference hall.",
+     "correction": "No error."
+    },
+    {
+     "sentence": "This resort is expensive because it is at a stone's throw from the famous beach.",
+     "correction": "No error."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-41",
+   "concept_no": 41,
+   "title": "Adjective vs Adverb (Linking Verbs)",
+   "topic": "Adverb",
+   "concept": "Use an adjective after a linking verb and an adverb after an action verb. Common linking verbs: be forms, become, get, grow, feel, smell, taste, sound, keep, remain, prove, look, seem, appear, etc.",
+   "examples": [
+    {
+     "sentence": "She behaved very rude with Ajay's parents so he stopped talking to her.",
+     "correction": "Use 'rudely' instead of 'rude'."
+    },
+    {
+     "sentence": "He got really madly when he saw his girlfriend having dinner with his friend.",
+     "correction": "Use 'mad' instead of 'madly'."
+    },
+    {
+     "sentence": "Although she is a very impatient person yet she kept calmly during the interrogation.",
+     "correction": "Use 'calm' instead of 'calmly'."
+    },
+    {
+     "sentence": "I want to shift from this area because I don't feel safely here.",
+     "correction": "Use 'safe' instead of 'safely'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-42",
+   "concept_no": 42,
+   "title": "Words with Identical Adjective and Adverb Forms",
+   "topic": "Adverb",
+   "concept": "These words have the same adjective and adverb forms: fast, hard, late, straight, daily, weekly, monthly, yearly, etc. Hard (adjective) means tough; hard (adverb) means forcefully or with great effort; hardly (adverb) means scarcely or almost not at all. Also note: 'every day' is an adverb of frequency, while 'everyday' is an adjective.",
+   "examples": [
+    {
+     "sentence": "We have to make some choices hard in life if we want to be successful.",
+     "correction": "Remove 'hardly' and use 'hard' before 'choices'."
+    },
+    {
+     "sentence": "Reeta came home lately as she got stuck in the traffic while coming back from her office.",
+     "correction": "Use 'late' instead of 'lately'."
+    },
+    {
+     "sentence": "Shruti had to take an every day appointment with a therapist after she got diagnosed with clinical depression.",
+     "correction": "Use 'appointment every day' instead of 'every day appointment', because 'every day' is an adverb of frequency while 'everyday' is an adjective."
+    },
+    {
+     "sentence": "After getting irritated by his friend's continuous sarcastic remarks, Yash told him straightly to stop bothering him anymore.",
+     "correction": "Use 'straight' instead of 'straightly'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-43",
+   "concept_no": 43,
+   "title": "Words Ending in -ly That Are Adjectives Only",
+   "topic": "Adverb",
+   "concept": "These words are adjectives, not adverbs: godly, kingly, queenly, fatherly, motherly, brotherly, friendly, manly, womanly, miserly, niggardly, lively, lovely, deadly, cowardly, etc. Note the difference: nice (adjective) + ly = nicely (adverb), but man (noun) + ly = manly (adjective).",
+   "examples": [
+    {
+     "sentence": "The old lady in our neighbourhood is a very kind woman and she always treats me motherly.",
+     "correction": "Use 'like a mother' or 'in a motherly manner' instead of 'motherly'."
+    },
+    {
+     "sentence": "He started his career as a sports commentator as he has a very deep and manly voice.",
+     "correction": "No error."
+    },
+    {
+     "sentence": "Army is for brave people and not for those who act cowardly as soon as they come across some danger.",
+     "correction": "Use 'like a coward' or 'in a cowardly manner' instead of 'cowardly'."
+    },
+    {
+     "sentence": "We have stopped going out with Rajesh because he always acts miserly.",
+     "correction": "Use 'like a miser' or 'in a miserly manner' instead of 'miserly'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-44",
+   "concept_no": 44,
+   "title": "Position of adverbs of frequency",
+   "topic": "Adverb",
+   "concept": "Position of adverbs of frequency: (1) Indefinite adverbs of frequency (often, seldom, always, rarely, never, etc.) are placed before the main verb. (2) Definite adverbs of frequency (daily, weekly, monthly, yearly, etc.) are placed at the end of the clause. (3) Some adverbs can occupy both positions: regularly, frequently, occasionally, etc.",
+   "examples": [
+    {
+     "sentence": "With the increasing work load and responsibilities, I have rarely time to continue my passion for painting.",
+     "correction": "Use 'I rarely have' instead of 'I have rarely'."
+    },
+    {
+     "sentence": "He is physically strong and has a good health because he daily goes to the gym.",
+     "correction": "Use 'he goes to the gym daily' instead of 'he daily goes to the gym'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-45",
+   "concept_no": 45,
+   "title": "Too much vs much too; still vs yet",
+   "topic": "Adverb",
+   "concept": "'Too much' functions as an adjective, while 'much too' functions as an adverb. 'Still' is used with continuous tenses and is placed before the verb (except with linking verbs). 'Yet' is used in negative sentences, generally with the present perfect tense, and is placed after the verb (if intransitive) or after the object (if the verb is transitive).",
+   "examples": [
+    {
+     "sentence": "His teachers were too much angry with him for coming late to school and failing all the classes.",
+     "correction": "Use 'much too' instead of 'too much'."
+    },
+    {
+     "sentence": "I think that you have spent much too money on you suit.",
+     "correction": "Use 'too much' instead of 'much too'."
+    },
+    {
+     "sentence": "He cannot come to the office for a few more weeks because he is yet recovering from his illness.",
+     "correction": "Use 'still' instead of 'yet'."
+    },
+    {
+     "sentence": "Rohini didn't attend the book club meeting yesterday because she hasn't still finished reading the book.",
+     "correction": "Remove 'still' and place 'yet' after 'book'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-46",
+   "concept_no": 46,
+   "title": "Inversion",
+   "topic": "Adverb",
+   "concept": "Inversion structures: Adverb + helping verb + subject + main verb. With an adverb of place: Adverb of place + main verb + subject.",
+   "examples": [
+    {
+     "sentence": "Barely she had got back in bed when her alarm went off.",
+     "correction": "Use 'had she' instead of 'she had'."
+    },
+    {
+     "sentence": "Never I have encountered such rudeness before I stared working in this office.",
+     "correction": "Use 'Never have I' in place of 'Never I have'."
+    },
+    {
+     "sentence": "Just two meters away from their house was lying 3 dead bodies.",
+     "correction": "Use 'were' instead of 'was'."
+    },
+    {
+     "sentence": "When I told them my plan, Rajesh joined me and so kunal did.",
+     "correction": "Use 'so did Kunal' instead of 'so Kunal did'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-47",
+   "concept_no": 47,
+   "title": "Usage of articles: a/an vs the",
+   "topic": "Article",
+   "concept": "Usage of articles: 'a/an' is used for a non-specific or indefinite noun, whereas 'the' is used for a specific or already identified noun.",
+   "examples": [
+    {
+     "sentence": "I was happy to see a fireman who saved my life when my house got on fire.",
+     "correction": "Use 'the fireman' instead of 'a fireman'."
+    },
+    {
+     "sentence": "I can't believe that he lives in the small flat in Pacific golf society.",
+     "correction": "Use 'in a small' instead of 'in the small'."
+    },
+    {
+     "sentence": "My uncle gifted me the expensive watch on my 18th birthday.",
+     "correction": "Use 'an' instead of 'the'."
+    },
+    {
+     "sentence": "A man whom we met while we were coming back is brother in law.",
+     "correction": "Use 'The man' instead of 'A man'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-48",
+   "concept_no": 48,
+   "title": "Articles: a vs an",
+   "topic": "Article",
+   "concept": "The choice between 'a' and 'an' depends on sound, not spelling. Some words begin with a vowel letter but have a consonant sound: unit, unique, utopia, universal, uniform, useful, union, university, European, eulogy, one, etc. — these take 'a'. Some words begin with a consonant letter but have a vowel sound: hour, heir, heiress, honest, honour, honorary, SMS, RTI, MNC, LLB (and abbreviations beginning with F, H, L, M, N, S, R, X) — these take 'an'.",
+   "examples": [
+    {
+     "sentence": "My brother is an interesting boy who has an unique sense of humour.",
+     "correction": "Use 'a unique' instead of 'an unique'."
+    },
+    {
+     "sentence": "If you try to blackmail me again, I will not hesitate in lodging a FIR against you.",
+     "correction": "Use 'an FIR' instead of 'a FIR'."
+    },
+    {
+     "sentence": "The spammer sent him a SMS saying that all his bank accounts would get blocked soon.",
+     "correction": "Use 'an SMS' instead of 'a SMS'."
+    },
+    {
+     "sentence": "They awarded him a honorary degree for his tremendous work in the field of cinema.",
+     "correction": "Use 'an honorary' instead of 'a honorary'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-49",
+   "concept_no": 49,
+   "title": "Proper noun used as a common noun",
+   "topic": "Article",
+   "concept": "When a proper noun is used as a common noun, an article can be used with it.",
+   "examples": [
+    {
+     "sentence": "The infamous criminal Joe adams is also known as Robin Hood of his area because he looted from the rich and gave it to the poor.",
+     "correction": "Use 'as the Robin Hood' instead of 'as Robin Hood'."
+    },
+    {
+     "sentence": "You should probably give up on your dream of becoming a cricketer and accept the fact that you are not Sachin.",
+     "correction": "Use 'a' before 'Sachin'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-50",
+   "concept_no": 50,
+   "title": "Omission of articles",
+   "topic": "Article",
+   "concept": "Do not use any article with these places when they are used for their primary purpose: school, university, college, hospital, church, temple, jail, prison, market, bed, etc. Also do not use any article with the names of games, days, months, colours, seasons, festivals, subjects, languages, cities, continents, lakes, diseases, meals, etc.",
+   "examples": [
+    {
+     "sentence": "I know that you don't earn much but you should try to send your children to the school.",
+     "correction": "Remove 'the' before 'school'."
+    },
+    {
+     "sentence": "After a long and tedious day, Yamini came home and went to the bed.",
+     "correction": "Remove 'the' before 'bed'."
+    },
+    {
+     "sentence": "My brother and I always wait for the Christmas because it is filled with joy and sweet treats.",
+     "correction": "Remove 'the' before 'Christmas'."
+    },
+    {
+     "sentence": "As soon as I get an opportunity, I will shift to the Australia.",
+     "correction": "Remove 'the' before 'Australia'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-51",
+   "concept_no": 51,
+   "title": "Verb agreement with the first noun",
+   "topic": "Subject, Verb & Agreement",
+   "concept": "When two nouns are joined by these words, the verb agrees with the first noun: between, with, along with, but, together with, including, excluding, except, like, unlike, followed by, accompanied by, in addition to, besides, and not, but not, as well as, etc.",
+   "examples": [
+    {
+     "sentence": "The prime minister accompanied by his bodyguards come to the red fort every year to hoist the flag on Republic day.",
+     "correction": "Use 'comes' instead of 'come'."
+    },
+    {
+     "sentence": "All the languages besides Hindi is spoken by the new student who got transferred from Korea last week.",
+     "correction": "Use 'are spoken' instead of 'is spoken'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-52",
+   "concept_no": 52,
+   "title": "Each / Either / Neither and Each / Every",
+   "topic": "Subject, Verb & Agreement",
+   "concept": "Each/Either/Neither + of + plural noun takes a singular verb. Each/Either/Neither + singular noun takes a singular verb. Each/Every + singular noun + and + each/every + singular noun takes a singular verb.",
+   "examples": [
+    {
+     "sentence": "Each of my cats were fed by my neighbour when I was out of town for a meeting.",
+     "correction": "Use 'was fed' instead of 'were fed'."
+    },
+    {
+     "sentence": "Each chapter of the newly launched book are interesting but the last one was spectacular.",
+     "correction": "Use 'is interesting' instead of 'are interesting'."
+    },
+    {
+     "sentence": "Every girl and every boy were given a packet of sweets on independence day at school.",
+     "correction": "Use 'was' instead of 'were'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-53",
+   "concept_no": 53,
+   "title": "One of + plural noun; The + adjective as subject",
+   "topic": "Subject, Verb & Agreement",
+   "concept": "One + of + plural noun takes a singular verb. 'The' + adjective used as a subject takes a plural verb.",
+   "examples": [
+    {
+     "sentence": "I got all my furniture at a discounted price because one of my friends own a furniture shop.",
+     "correction": "Use 'owns' instead of 'own'."
+    },
+    {
+     "sentence": "The rich always looks down on the poor, and don't treat them with kindness.",
+     "correction": "Use 'look down' instead of 'looks down'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-54",
+   "concept_no": 54,
+   "title": "Articles before joined nouns indicating same or different persons",
+   "topic": "Subject, Verb & Agreement",
+   "concept": "Article + noun and article + noun refers to two different people (plural verb). Article + noun and noun (article used only once) refers to the same person (singular verb).",
+   "examples": [
+    {
+     "sentence": "The host and hostess /of the party were very nice and /they welcomed each guest with/ a big smile on their faces.",
+     "correction": "Use 'the' before 'hostess'."
+    },
+    {
+     "sentence": "The Principal and the secretary/ of our school is coming and many/ arrangements were made by the /teachers for their visit.",
+     "correction": "Use 'are' instead of 'is'."
+    },
+    {
+     "sentence": "The Vice-President and the chairman/ of the Rajya Sabha is elected/ by an electoral college consisting of members of /both Houses of Parliament.",
+     "correction": "Remove 'the' before 'chairman'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-55",
+   "concept_no": 55,
+   "title": "Gerunds and infinitives as subject",
+   "topic": "Subject, Verb & Agreement",
+   "concept": "Use a singular verb when gerunds or infinitives are used as the subject.",
+   "examples": [
+    {
+     "sentence": "Writing poems have been my hobby since I was in school.",
+     "correction": "Use 'has' instead of 'have'."
+    },
+    {
+     "sentence": "To give suggestions are easy, when you are not the one in that particular situation.",
+     "correction": "Use 'is easy' instead of 'are easy'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-56",
+   "concept_no": 56,
+   "title": "Either–or / Neither–nor / Not only–but also",
+   "topic": "Subject, Verb & Agreement",
+   "concept": "With either–or, neither–nor and not only–but also, the verb agrees with the noun or pronoun nearest to it.",
+   "examples": [
+    {
+     "sentence": "Neither Shruti nor her friends is going to attend the convocation on Saturday at the university.",
+     "correction": "Use 'are' instead of 'is'."
+    },
+    {
+     "sentence": "Either Ashish or his colleagues is responsible for leaking the confidential information about the products of the company.",
+     "correction": "Use 'are' instead of 'is'."
+    },
+    {
+     "sentence": "Not only my parents but also my brother are coming to my destination wedding in goa.",
+     "correction": "Use 'is' instead of 'are'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-57",
+   "concept_no": 57,
+   "title": "Many / Many a / A great many",
+   "topic": "Subject, Verb & Agreement",
+   "concept": "Many + plural noun takes a plural verb. Many a + singular noun takes a singular verb. A great/good many + plural noun takes a plural verb.",
+   "examples": [
+    {
+     "sentence": "Many aspirants preparing for this exam was shocked when they found that the exam got cancelled.",
+     "correction": "Use 'were' instead of 'was'."
+    },
+    {
+     "sentence": "Many a man have tried to climb Mount Everest without oxygen cylinder but most of them failed to do so.",
+     "correction": "Use 'has' instead of 'have'."
+    },
+    {
+     "sentence": "A great many lives was saved by the rescue team during the tsunami of 2004.",
+     "correction": "Use 'were' instead of 'was'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-58",
+   "concept_no": 58,
+   "title": "A number of / The number of",
+   "topic": "Subject, Verb & Agreement",
+   "concept": "A number of + plural noun takes a plural verb. The number of + plural noun takes a singular verb.",
+   "examples": [
+    {
+     "sentence": "A number of players of our team is still injured from the last game, therefore we can't play today's match.",
+     "correction": "Use 'are' instead of 'is'."
+    },
+    {
+     "sentence": "The number of employees who are getting laid off by tech companies are increasing every year.",
+     "correction": "Use 'is increasing' instead of 'are increasing'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-59",
+   "concept_no": 59,
+   "title": "Collective nouns and 'none of'",
+   "topic": "Subject, Verb & Agreement",
+   "concept": "A collective noun normally takes a singular verb, but takes a plural verb if there is a hint of referring to its individual members. None + of + plural noun takes a singular verb.",
+   "examples": [
+    {
+     "sentence": "The committee have agreed to build a park for all the people living in the society.",
+     "correction": "Use 'has' instead of 'have'."
+    },
+    {
+     "sentence": "The jury has different opinions about the case of a mother killing a man to save her child.",
+     "correction": "Use 'have' instead of 'has'."
+    },
+    {
+     "sentence": "None of his friends were present at his funeral.",
+     "correction": "Use 'was' instead of 'were'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-60",
+   "concept_no": 60,
+   "title": "Proper Noun as Subject",
+   "topic": "Subject-Verb Agreement",
+   "concept": "When a proper noun is used as the subject, a singular verb is used.",
+   "examples": [
+    {
+     "sentence": "The harry potter series were written by J.K. Rowling and is very popular among teenagers and young adults.",
+     "correction": "Use 'was' instead of 'were'."
+    },
+    {
+     "sentence": "Mathematics have always been my favourite subject since childhood.",
+     "correction": "Use 'has' instead of 'have'."
+    },
+    {
+     "sentence": "I have seen him using a calculator even for basic calculations so I think that his mathematics is very weak.",
+     "correction": "Use 'are' instead of 'is'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-61",
+   "concept_no": 61,
+   "title": "Correct Verb Form After Auxiliaries",
+   "topic": "Tense + Question Tag",
+   "concept": "",
+   "examples": [
+    {
+     "sentence": "Abhishek does not took bus to school everyday because his father drops him while going to work.",
+     "correction": "Use 'take' instead of 'took'."
+    },
+    {
+     "sentence": "His parents got a call from the school because he did not went to school yesterday.",
+     "correction": "Use 'go' instead of 'went'."
+    },
+    {
+     "sentence": "Trisha is play chess with her friends in her room while her younger brother is watching them from a distance.",
+     "correction": "Use 'playing' instead of 'play'."
+    },
+    {
+     "sentence": "The young writer Brian Wiest has already wrote three books and he is working on another one.",
+     "correction": "Use 'written' instead of 'wrote'."
+    },
+    {
+     "sentence": "Shreya was nervous to go to her rich friend's birthday party because she had not ate at such an expensive restaurant before.",
+     "correction": "Use 'eaten' instead of 'ate'."
+    },
+    {
+     "sentence": "She has been worked on this report since eight o'clock this morning.",
+     "correction": "Use 'working' instead of 'worked'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-62",
+   "concept_no": 62,
+   "title": "Since / For with Perfect Tenses",
+   "topic": "Tense + Question Tag",
+   "concept": "",
+   "examples": [
+    {
+     "sentence": "I am teaching English for the last 10 years.",
+     "correction": "Use 'I have been teaching' instead of 'I am teaching'."
+    },
+    {
+     "sentence": "Shruti is working as a content writer since 2022.",
+     "correction": "Use 'has been working' instead of 'is working'."
+    },
+    {
+     "sentence": "Mrs. Sharma knows the neighbourhood better than anyone else, as she is living here for the last 20 years.",
+     "correction": "Use 'has been living here' instead of 'is living here'."
+    },
+    {
+     "sentence": "I have been knowing her for the last 5 years.",
+     "correction": "Use 'have known' instead of 'have been knowing'."
+    },
+    {
+     "sentence": "Nalini didn't call me even once since she moved to Australia.",
+     "correction": "Use 'has not called me' instead of \"didn't call me\"."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-63",
+   "concept_no": 63,
+   "title": "Hints of Present Indefinite and Present Continuous",
+   "topic": "Tense + Question Tag",
+   "concept": "Hints of Present Indefinite: proverbs, facts, and words such as always, often, daily, everyday, regularly, frequently, occasionally, seldom, never, etc. Hints of Present Continuous: at this time, at this moment, at present, currently, these days, right now, etc.",
+   "examples": [
+    {
+     "sentence": "As Rohan lives in mountains, he has often gone for a hike with his friends.",
+     "correction": "Replace 'has often gone' with 'often goes'."
+    },
+    {
+     "sentence": "He is seldom leaving his home because he is an introvert.",
+     "correction": "Replace 'is seldom leaving' with 'seldom leaves'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-64",
+   "concept_no": 64,
+   "title": "Hints of Present Perfect and Past Perfect Usage",
+   "topic": "Tense + Question Tag",
+   "concept": "Hints of Present Perfect: yet, so far, already, just, just now, lately, recently, of late, etc. Past Perfect usage: Past Perfect + before + Past Indefinite; Past Indefinite + after + Past Perfect.",
+   "examples": [
+    {
+     "sentence": "I hadn't got any email regarding the job interview yet.",
+     "correction": "Use \"haven't\" instead of \"hadn't\"."
+    },
+    {
+     "sentence": "Her children hadn't been well lately, so she is taking them to a doctor.",
+     "correction": "Use \"haven't\" instead of \"hadn't\"."
+    },
+    {
+     "sentence": "I never met anyone from India before I started living with my new roommate Sangeeta.",
+     "correction": "Use 'I had never met' instead of 'I never met'."
+    },
+    {
+     "sentence": "The Doctor had arrived after the patient had died from a heart attack.",
+     "correction": "Use 'arrived' instead of 'had arrived'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-65",
+   "concept_no": 65,
+   "title": "Hints of Past Indefinite and Future Indefinite",
+   "topic": "Tense + Question Tag",
+   "concept": "Hints of Past Indefinite: yesterday, ago, in past, last day/Sunday/week/year, etc. Hints of Future Indefinite: tomorrow, next Sunday/week/month/year, coming days/Sunday/week/month/year, shortly, presently, in 2040 (future years), etc.",
+   "examples": [
+    {
+     "sentence": "It had rained cats and dogs yesterday, and many slums got flooded with water.",
+     "correction": "Use 'it rained' instead of 'It had rained'."
+    },
+    {
+     "sentence": "I have gone to the cinema with my family last Sunday.",
+     "correction": "Use 'I went to' instead of 'I have gone to'."
+    },
+    {
+     "sentence": "All the arrangements have been made for the party and the guests arrive shortly.",
+     "correction": "Use 'arrive' instead of 'will arrive'."
+    },
+    {
+     "sentence": "We gather more information in the coming days to determine our next step in the case.",
+     "correction": "Use 'We will gather' instead of 'We gather'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-66",
+   "concept_no": 66,
+   "title": "Tense agreement between main clause and sub-clause",
+   "topic": "Tense",
+   "concept": "If the main clause is in the past tense, the sub-clause should also be in the past tense. Do not use the future tense after these conjunctions: when, while, if, until, unless, provided that, as soon as, before, after, etc.",
+   "examples": [
+    {
+     "sentence": "My mother asked me where I am going.",
+     "correction": "Use 'I was going' instead of 'I am going'."
+    },
+    {
+     "sentence": "The teacher wanted to know if the students have completed their homework.",
+     "correction": "Use 'had' instead of 'have'."
+    },
+    {
+     "sentence": "I will call Shraddha when I will finish my presentation for tomorrow's meeting.",
+     "correction": "Use 'I finish' instead of 'I will finish'."
+    },
+    {
+     "sentence": "You will get a seat in AC compartment only if someone will cancel his ticket.",
+     "correction": "Use 'cancels' instead of 'will cancel'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-67",
+   "concept_no": 67,
+   "title": "'By the time' structures",
+   "topic": "Tense",
+   "concept": "Use the structure: Past Perfect + by the time + Past Indefinite. Use the structure: Future Perfect + by the time + Present Indefinite.",
+   "examples": [
+    {
+     "sentence": "Witnesses told the judge that the suspects already escaped from the back of the store by the time police officers arrived.",
+     "correction": "Replace 'escaped' with 'had escaped'."
+    },
+    {
+     "sentence": "I finished all the household chores by the time my mother woke up.",
+     "correction": "Use 'had' before 'finished'."
+    },
+    {
+     "sentence": "By the time, You come back from market, I will complete my homework.",
+     "correction": "Use 'will have completed' instead of 'will complete'."
+    },
+    {
+     "sentence": "He will have held that position for ten years by the time he will retire.",
+     "correction": "Use 'retires' instead of 'will retire'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-68",
+   "concept_no": 68,
+   "title": "Tense according to the meaning of the sentence",
+   "topic": "Tense",
+   "concept": "Use the correct tense according to the meaning of the sentence.",
+   "examples": [
+    {
+     "sentence": "My parents threw me a big surprise party and invite all of my best friends.",
+     "correction": "Use 'invited' instead of 'invite'."
+    },
+    {
+     "sentence": "Most people bought groceries from the supermarket but we prefer our local shop.",
+     "correction": "Use 'buy' instead of 'bought'."
+    },
+    {
+     "sentence": "I used to go to my grandparents house every summer when I was a kid and every morning we plucks flowers from their garden.",
+     "correction": "Use 'plucked' instead of 'plucks'."
+    },
+    {
+     "sentence": "The judge asked the man if he has stolen five thousand rupees from the bag.",
+     "correction": "Use 'had' instead of 'has'."
+    },
+    {
+     "sentence": "He started a very small business two years ago but it grew very fast as the country is experiencing a boom at that time.",
+     "correction": "Use 'was experiencing' instead of 'is experiencing'."
+    },
+    {
+     "sentence": "Most children like to rest in the afternoon after they returned from school.",
+     "correction": "Use 'return' instead of 'returned'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-69",
+   "concept_no": 69,
+   "title": "Question tag basics",
+   "topic": "Question Tag",
+   "concept": "1. A question tag contains a helping verb + a pronoun. 2. Positive sentences take negative question tags and vice versa. 3. Use the helping verb in its contracted form.",
+   "examples": [
+    {
+     "sentence": "We have already met each other, didn't we?",
+     "correction": "Use 'haven't we' instead of 'didn't we'."
+    },
+    {
+     "sentence": "The trains in India never come on time, aren't they?",
+     "correction": "Use 'do they' instead of 'aren't they'."
+    },
+    {
+     "sentence": "The new HR was late on his first day of job, weren't he?",
+     "correction": "Use 'wasn't he' instead of 'weren't he'."
+    },
+    {
+     "sentence": "An Aspirant should be consistent in his studies, don't he?",
+     "correction": "Use 'shouldn't he' instead of 'don't he'."
+    },
+    {
+     "sentence": "Let's go for a dinner for our anniversary, will we?",
+     "correction": "Use 'shall we' instead of 'will we'."
+    },
+    {
+     "sentence": "You haven't seen the film that I recommended to you last week, did you?",
+     "correction": "Use 'have you?' instead of 'did you?'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-70",
+   "concept_no": 70,
+   "title": "Use 'they' in the question tag with indefinite subjects",
+   "topic": "Question Tag",
+   "concept": "If the following words are used as the subject of a statement, use 'they' in the question tag: each, either, neither, none, no one, everybody, nobody, anybody, everyone, anyone, all, any, etc.",
+   "examples": [
+    {
+     "sentence": "Everybody has come on time today, hasn't he?",
+     "correction": "Use \"haven't they?\" instead of \"hasn't he?\"."
+    },
+    {
+     "sentence": "None of his colleagues came to his retirement party, have they?",
+     "correction": "Use 'did' instead of 'have'."
+    },
+    {
+     "sentence": "All of you were present there at the time of accident, weren't they?",
+     "correction": "Use 'you?' instead of 'they?'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-71",
+   "concept_no": 71,
+   "title": "Correlative conjunctions join words of the same rank",
+   "topic": "Conjunction",
+   "concept": "These correlative conjunctions join words of the same rank (same grammatical category): either - or, not only - but also, neither - nor, both - and.",
+   "examples": [
+    {
+     "sentence": "You have a long weekend coming up, so either you can go for a vacation or stay at home.",
+     "correction": "Remove 'either' before 'you' and place 'either' before 'go'."
+    },
+    {
+     "sentence": "The new teacher teaches them not only mathematics but also provides career counseling to them.",
+     "correction": "Remove 'not only' after 'them' and place 'not only' before 'teaches'."
+    },
+    {
+     "sentence": "Both my friend as well as I like to watch hollywood movies in our free time.",
+     "correction": "Use 'and' instead of 'as well as'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-72",
+   "concept_no": 72,
+   "title": "Hardly/Scarcely - when; No sooner - than",
+   "topic": "Conjunction",
+   "concept": "Correlative conjunction pairs: hardly/scarcely - when; no sooner - than.",
+   "examples": [
+    {
+     "sentence": "Hardly had I started having my breakfast than the bell rang.",
+     "correction": "Use 'when' instead of 'than'."
+    },
+    {
+     "sentence": "Scarcely he had entered the office when everyone started laughing.",
+     "correction": "Use 'Scarcely had he' instead of 'Scarcely he had'."
+    },
+    {
+     "sentence": "No sooner had the dance performance ended when the audience started cheering for the dancer.",
+     "correction": "Use 'than' instead of 'when'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-73",
+   "concept_no": 73,
+   "title": "Correlative conjunction pairs: although/though–yet, so–as, as–as",
+   "topic": "Conjunction",
+   "concept": "Correlative conjunction pairs: 'although/though' is paired with 'yet' (not 'but'); 'so...as' is used in negative sentences; 'as...as' is used in positive and negative sentences.",
+   "examples": [
+    {
+     "sentence": "Though there were many people in the museum but there was pin drop silence.",
+     "correction": "Use 'yet' instead of 'but'."
+    },
+    {
+     "sentence": "Radhika is not so intelligent as she used to be in her 10th standard.",
+     "correction": "No error."
+    },
+    {
+     "sentence": "Shivam's car is so expensive as mine, but it has a lot more features.",
+     "correction": "Use 'as expensive as' instead of 'so expensive as'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-74",
+   "concept_no": 74,
+   "title": "Correlative conjunction pairs: so–that, too–to + V1",
+   "topic": "Conjunction",
+   "concept": "Correlative conjunction pairs: 'so' is paired with 'that'; 'too' is followed by 'to + first form of the verb'.",
+   "examples": [
+    {
+     "sentence": "The dumbbells were too heavy that he sprained his wrist while lifting them.",
+     "correction": "Use 'so' instead of 'too'."
+    },
+    {
+     "sentence": "Aryan was too tired after the party that he couldn't attend his class the next day.",
+     "correction": "Use 'so' instead of 'too'."
+    },
+    {
+     "sentence": "His marks in 12th class were so low to get admission in a good college.",
+     "correction": "Use 'too' instead of 'so'."
+    },
+    {
+     "sentence": "He was so old to walk on his own therefore he had to carry a cane with him all the time.",
+     "correction": "Use 'too' instead of 'so'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-75",
+   "concept_no": 75,
+   "title": "Correlative conjunction pairs: between–and, lest–should",
+   "topic": "Conjunction",
+   "concept": "Correlative conjunction pairs: 'between' is paired with 'and' (not 'to'); 'lest' is followed by 'should'.",
+   "examples": [
+    {
+     "sentence": "The British Raj was the period of British Parliament rule on the Indian subcontinent between 1858 to 1947.",
+     "correction": "Use '1858 and 1947' instead of '1858 to 1947'."
+    },
+    {
+     "sentence": "The award function has started and the chief guest will arrive between 9pm to 10pm.",
+     "correction": "Use '9pm and 10pm' instead of '9pm to 10pm'."
+    },
+    {
+     "sentence": "Study for 10 hours daily, lest you will fail your medical entrance exam.",
+     "correction": "Use 'should' instead of 'will'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-76",
+   "concept_no": 76,
+   "title": "Correlative conjunction pairs: such–as, such–that",
+   "topic": "Conjunction",
+   "concept": "'Such...as' is used when 'as' functions as a relative pronoun (meaning 'who/which'). 'Such...that' is used when 'that' functions as a conjunction (expressing result).",
+   "examples": [
+    {
+     "sentence": "I like teaching only such students who are serious about their career.",
+     "correction": "Use 'as' instead of 'who'."
+    },
+    {
+     "sentence": "She is such a bad-tempered person as no one can live with her for long.",
+     "correction": "Use 'that' instead of 'as'."
+    },
+    {
+     "sentence": "It was such a ferocious and brutal animal as everyone preferred to stay away from its cage at the zoo.",
+     "correction": "Use 'that' instead of 'as'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-77",
+   "concept_no": 77,
+   "title": "Do not use 'so' with 'as'; do not use 'that' before why/how/where/when/what",
+   "topic": "Conjunction",
+   "concept": "Do not use the conjunction 'so' if the conjunction 'as' has already been used. Do not use the conjunction 'that' when it is followed by the conjunctions why, how, where, when or what.",
+   "examples": [
+    {
+     "sentence": "As I have lived in Mumbai for a year so, I know how expensive it is.",
+     "correction": "Remove 'so'."
+    },
+    {
+     "sentence": "When Shreya was leaving home last night, I asked her that where she was going but she didn't reply and left.",
+     "correction": "Remove 'that'."
+    },
+    {
+     "sentence": "Radhika's husband asked her that what she was doing.",
+     "correction": "Remove 'that'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-78",
+   "concept_no": 78,
+   "title": "Until vs unless; no 'not' with unless/until",
+   "topic": "Conjunction",
+   "concept": "'Until' is used for time, while 'unless' is used for a general condition. Do not use 'not' together with the conjunctions 'unless' or 'until' in the same clause.",
+   "examples": [
+    {
+     "sentence": "Until you control your diet, you won't be able to lose fat.",
+     "correction": "Use 'Unless' instead of 'Until'."
+    },
+    {
+     "sentence": "Please promise me that you will wait for me here unless I return.",
+     "correction": "Use 'Until' instead of 'Unless'."
+    },
+    {
+     "sentence": "Yash will not go on the trip unless he does not have enough money for that.",
+     "correction": "Use 'has' instead of 'does not have'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-79",
+   "concept_no": 79,
+   "title": "'Reason...that' not 'reason...because'; do not use 'supposing' with 'if'",
+   "topic": "Conjunction",
+   "concept": "If the noun 'reason' is used in a sentence, do not use the conjunction 'because'; use 'that' instead. Do not use the conjunctions 'supposing' and 'if' together.",
+   "examples": [
+    {
+     "sentence": "The reason she is upset these days is because she broke up with her boyfriend.",
+     "correction": "Use 'that' instead of 'because'."
+    },
+    {
+     "sentence": "The reason Payal could not attend the meeting was because she had a severe headache.",
+     "correction": "Use 'that' instead of 'because'."
+    },
+    {
+     "sentence": "Supposing if you are wrong, will you apologise for all this?",
+     "correction": "Only one of the two conjunctions should be used — either 'supposing' or 'if'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-80",
+   "concept_no": 80,
+   "title": "Use the correct conjunction according to the meaning of the sentence",
+   "topic": "Conjunction",
+   "concept": "Use the correct conjunction according to the meaning of the sentence: as, because, since, so, therefore, although, though, but, yet, so that, if, whether, when, while, etc.",
+   "examples": [
+    {
+     "sentence": "He has all the required skills and lots of money and he dare not start a company.",
+     "correction": "Use 'yet' instead of 'and'."
+    },
+    {
+     "sentence": "She wouldn't have suffered when you had helped her in time.",
+     "correction": "Use 'if' instead of 'when'."
+    },
+    {
+     "sentence": "He has very little money in his account so he offered to help her for her treatment.",
+     "correction": "Use 'yet' instead of 'so'."
+    },
+    {
+     "sentence": "Her husband was very loving and caring although she left him.",
+     "correction": "Use 'yet' instead of 'although'."
+    },
+    {
+     "sentence": "Yamini broke my laptop but I asked her to get it repaired.",
+     "correction": "Use 'so' instead of 'but'."
+    },
+    {
+     "sentence": "I missed my bus as I had to book a taxi to the office.",
+     "correction": "Use 'so' instead of 'as'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-81",
+   "concept_no": 81,
+   "title": "Verbs that take no preposition",
+   "topic": "Preposition",
+   "concept": "Do not use a preposition after these verbs: Meet, Join, Obey, Violate, Ask, Kid, Tell, Inform, Remind, Warn, Thank, Advise, Reach, Resist, Resemble, Attack, Afford, Demand, Comprise, Investigate, Enter, Flee, Explain, Describe, Discuss, Disobey, Order, Stress, Emphasize, Await, Despise, etc.",
+   "examples": [
+    {
+     "sentence": "The play that we are going to perform in the annual event, comprises of total 3 acts.",
+     "correction": "Remove 'of'."
+    },
+    {
+     "sentence": "Juhi strongly resembles of her Grandmother in appearance and in temperament.",
+     "correction": "Remove 'of'."
+    },
+    {
+     "sentence": "The police are investigating into the murder of the man whose body was found on the highway this morning.",
+     "correction": "Remove 'into'."
+    },
+    {
+     "sentence": "Let's discuss about your current situation and try to find a solution.",
+     "correction": "Remove 'about'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-82",
+   "concept_no": 82,
+   "title": "Use of 'to' before an indirect object",
+   "topic": "Preposition",
+   "concept": "Do not use the preposition 'to' after these verbs when they are followed by an indirect object (a person): Ask, Beg, Inform, Advise, Allow, Call, Assure, Apprise, Remind, Warn, Thank, Wish, Order, Request, Invite, Forbade, Welcome, Congratulate, Compliment, etc. Do use the preposition 'to' after these verbs when they are followed by an indirect object: Propose, Announce, Apologize, Plead, Talk, Report, Suggest, Spoke, Listen, Wrote, Pray, Complain, Describe, Explain, Appeal, etc.",
+   "examples": [
+    {
+     "sentence": "Whenever I visit dominos I always ask to the cook to put extra sauce on my pizza.",
+     "correction": "Remove 'to' after 'ask'."
+    },
+    {
+     "sentence": "I want to thank to Reeta for letting me stay at her place when I first came to Mumbai and had no place to go.",
+     "correction": "Remove 'to' after 'thank'."
+    },
+    {
+     "sentence": "I was upset because my parents forbade to me from going to the school trip.",
+     "correction": "Remove 'to' after 'forbade'."
+    },
+    {
+     "sentence": "I apologized my client for cancelling the meeting at such a short notice.",
+     "correction": "Use 'to' after 'apologized'."
+    },
+    {
+     "sentence": "He proposed his parents that they should go for a family vacation in Kerala.",
+     "correction": "Use 'to' after 'proposed'."
+    },
+    {
+     "sentence": "When my grandfather died I asked the doctor to explain me the cause of his death.",
+     "correction": "Use 'to me' instead of 'me'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-83",
+   "concept_no": 83,
+   "title": "Conjunctions vs prepositions: because / in case / unless",
+   "topic": "Preposition",
+   "concept": "'Because' is a conjunction while 'because of' is a preposition. 'In case' is a conjunction while 'in case of' is a preposition. 'Unless' is a conjunction while 'without' is a preposition. A conjunction is followed by a clause; a preposition is followed by a noun or noun phrase.",
+   "examples": [
+    {
+     "sentence": "The semi finale of T20 world cup was stopped because the heavy rain.",
+     "correction": "Use 'because of' instead of 'because'."
+    },
+    {
+     "sentence": "I love the spring season, because of the blossoming flowers and the green leaves fill my heart with joy.",
+     "correction": "Use 'because' instead of 'because of'."
+    },
+    {
+     "sentence": "Everyone bought groceries in bulk during covid in case of the lockdown gets extended.",
+     "correction": "Use 'in case' instead of 'in case of'."
+    },
+    {
+     "sentence": "You can call me anytime in case any emergency.",
+     "correction": "Use 'in case of' instead of 'in case'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-84",
+   "concept_no": 84,
+   "title": "Instead of / In spite of / Despite",
+   "topic": "Preposition",
+   "concept": "'Instead of' means 'in place of' (as an alternative). 'In spite of' and 'Despite' both mean 'notwithstanding' or 'even though'. 'Despite' is never followed by 'of'.",
+   "examples": [
+    {
+     "sentence": "Inspite of buying a new car, I decided to use my father's old vintage car.",
+     "correction": "Use 'instead of' instead of 'in spite of'."
+    },
+    {
+     "sentence": "Instead of the financial difficulties, they never borrowed any money from family or friends.",
+     "correction": "Use 'in spite of' instead of 'instead of'."
+    },
+    {
+     "sentence": "Despite of facing a lot of criticism, Tobey continued his struggle of becoming an actor.",
+     "correction": "Remove 'of' after 'Despite'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-85",
+   "concept_no": 85,
+   "title": "Different prepositions with nouns joined by 'and'",
+   "topic": "Preposition",
+   "concept": "If two nouns are joined by the conjunction 'and' and they do not take the same preposition, the appropriate different prepositions must be used with each noun.",
+   "examples": [
+    {
+     "sentence": "It is clear that my bag is superior but cheaper than yours.",
+     "correction": "Use 'to' after 'superior'."
+    },
+    {
+     "sentence": "Once I hand over the keys to you, I won't be liable for any loss and damage to this car.",
+     "correction": "Use the preposition 'of' after 'loss'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-86",
+   "concept_no": 86,
+   "title": "Among vs Between",
+   "topic": "Preposition",
+   "concept": "'Between' is used for two persons or things, while 'among' is used for more than two. Note: 'Between' can be used for more than two when there is a relationship between the individual elements.",
+   "examples": [
+    {
+     "sentence": "My mother stood among me and my brother and told us to stop fighting with each other.",
+     "correction": "Use 'between' instead of 'among'."
+    },
+    {
+     "sentence": "The railway authority warned us to keep our belongings safe as there could be pickpockets between the passengers.",
+     "correction": "Use 'among' instead of 'between'."
+    },
+    {
+     "sentence": "A new peace agreement has been signed among India, China, Pakistan and Sri lanka.",
+     "correction": "Use 'between' instead of 'among'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-87",
+   "concept_no": 87,
+   "title": "Angry/Annoyed/Vexed/Disgusted + at/with",
+   "topic": "Preposition",
+   "concept": "Use 'at' with angry / annoyed / vexed / disgusted when referring to a thing, and 'with' when referring to a person.",
+   "examples": [
+    {
+     "sentence": "I was angry at my mother for not telling me about her disease earlier.",
+     "correction": "Use 'with' instead of 'at'."
+    },
+    {
+     "sentence": "I was angry with my new phone's performance because it stopped working when I needed it the most.",
+     "correction": "Use 'at' instead of 'with'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-88",
+   "concept_no": 88,
+   "title": "Supply + prepositions",
+   "topic": "Preposition",
+   "concept": "Use the correct pattern with 'supply': supply something TO somebody; supply somebody WITH something; supply something FOR a purpose.",
+   "examples": [
+    {
+     "sentence": "Shruti started a new business with her brother in which she supplies stationery with all the schools in her town.",
+     "correction": "Use 'stationery to all' instead of 'stationery with all'."
+    },
+    {
+     "sentence": "When my brother was quarantined during covid outbreak, I supplied him to food and medicines.",
+     "correction": "Use 'with food' instead of 'to food'."
+    },
+    {
+     "sentence": "I supply medicines to homeless people to their treatment.",
+     "correction": "Use 'for their' instead of 'to their'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-89",
+   "concept_no": 89,
+   "title": "Fixed prepositions",
+   "topic": "Preposition",
+   "concept": "Learn these fixed preposition combinations: accused of, cope with, dispose of, afraid of, different from.",
+   "examples": [
+    {
+     "sentence": "Rohan was accused for theft and fraud by the company he was working in.",
+     "correction": "Use 'of theft' instead of 'for theft'."
+    },
+    {
+     "sentence": "She has not been coming to office for a week because she is still coping up with her mother's death.",
+     "correction": "Use 'coping with' instead of 'coping up with'."
+    },
+    {
+     "sentence": "You should dispose off all the extra items that you have not used in the last 2 years.",
+     "correction": "Use 'of' instead of 'off'."
+    },
+    {
+     "sentence": "Neha cannot go to the jungle for camping as she is afraid from wild animals.",
+     "correction": "Use 'of' instead of 'from'."
+    },
+    {
+     "sentence": "Your curry tastes different than the one we had at your mother's house.",
+     "correction": "Use 'from' instead of 'than'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-90",
+   "concept_no": 90,
+   "title": "Infinitive describing a noun or pronoun",
+   "topic": "Verb",
+   "concept": "If an infinitive is used to describe a noun or a pronoun, that noun or pronoun must be the object of the verb used in the infinitive. If it is not, add the necessary preposition after the infinitive.",
+   "examples": [
+    {
+     "sentence": "Sudhir was upset about losing his job but he had no one to talk.",
+     "correction": "Add 'to' after 'to talk'."
+    },
+    {
+     "sentence": "He lives with his parents because he has several health problems and needs someone to rely.",
+     "correction": "Add 'on' after 'to rely'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-91",
+   "concept_no": 91,
+   "title": "Present Participle (V1+ing): wrong subject of reference",
+   "topic": "Advance Verb + Conditionals",
+   "concept": "A present participle phrase (V1+ing) must refer to the correct subject of the main clause. If the subject does not match, rewrite the phrase with the proper subject and verb (e.g. 'While he was ...').",
+   "examples": [
+    {
+     "sentence": "Walking in the park, a snake bit him.",
+     "correction": "Use 'While he was' before 'Walking in the park'."
+    },
+    {
+     "sentence": "Walking down the road, a car caught Rohit's attention.",
+     "correction": "Use 'While he was' before 'Walking down the road'."
+    },
+    {
+     "sentence": "Climbing the mountain, different types of animals were seen by the hikers.",
+     "correction": "Use 'While they were' before 'Climbing the mountain,'."
+    },
+    {
+     "sentence": "Travelling through the metro, her mobile went missing.",
+     "correction": "Use 'While she was' before 'Travelling through'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-92",
+   "concept_no": 92,
+   "title": "Present Participle (V1+ing): wrong subject of reference",
+   "topic": "Advance Verb + Conditionals",
+   "concept": "A present participle phrase (V1+ing) must have the correct subject of reference; insert the appropriate pronoun before the participle when the subject is wrong.",
+   "examples": [
+    {
+     "sentence": "Being injured, we took him to hospital.",
+     "correction": "Use 'He' before 'Being'."
+    },
+    {
+     "sentence": "Being hospitalized, Radhika's parents took good care of her.",
+     "correction": "Use 'She' before 'Being hospitalized,'."
+    },
+    {
+     "sentence": "Being strong, his mother called him to help with all the lifting while shifting to a new place.",
+     "correction": "Use 'He' before 'Being'."
+    },
+    {
+     "sentence": "Being sick for 3 days during covid, Sanjana told her roommate to quarantine herself.",
+     "correction": "Use 'She' before 'Being'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-93",
+   "concept_no": 93,
+   "title": "Perfect Participle (Having + V3)",
+   "topic": "Advance Verb + Conditionals",
+   "concept": "When one action is completed before another, use the perfect participle 'Having + V3' (or 'After + V1+ing') instead of the simple present participle. Use 'Having been + V3' when the subject is the receiver of the action.",
+   "examples": [
+    {
+     "sentence": "Having played for 2 hours, he went home.",
+     "correction": "No error."
+    },
+    {
+     "sentence": "Completing the assignment, Suhani lay on the sofa to rest.",
+     "correction": "Use 'After completing/Having completed' instead of 'Completing'."
+    },
+    {
+     "sentence": "Sleeping for 2 hours, she woke up and started the work again.",
+     "correction": "Use 'After sleeping/Having slept' instead of 'Sleeping'."
+    },
+    {
+     "sentence": "Having caught, the thief admitted stealing a woman's purse in the train.",
+     "correction": "Use 'Having been caught' instead of 'Having caught'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-94",
+   "concept_no": 94,
+   "title": "Gerund or noun after certain phrases and adjectives",
+   "topic": "Advance Verb + Conditionals",
+   "concept": "Use a gerund (V1+ing) or a noun after these phrases and adjectives: look forward to, with a view to, in addition to, pay attention to, conducive to, accustomed to, prone to, vulnerable to, addicted to, devoted to, indifferent to, object to, averse to, opposed to, prefer to, etc.",
+   "examples": [
+    {
+     "sentence": "All of us are looking forward to join his new company.",
+     "correction": "Use 'joining' instead of 'join'."
+    },
+    {
+     "sentence": "He was not accustomed to work at night therefore he felt uncomfortable here.",
+     "correction": "Use 'working' instead of 'work'."
+    },
+    {
+     "sentence": "I prefer watching Hollywood movies than reading novels.",
+     "correction": "Use 'to' instead of 'than'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-95",
+   "concept_no": 95,
+   "title": "Verbs followed by infinitives vs gerunds",
+   "topic": "Advance Verb + Conditionals",
+   "concept": "Verbs followed by infinitives: seem, appear, decide, desire, want, try, endeavour, stop, hurry, fail, happen, refuse, forget, remember, promise, prove. For example, 'I want to watch a movie' (correct: watch), while 'I enjoy watching Hollywood movies' (correct: watching). Verbs followed by gerunds: detest, mind, resent, avoid, stop, excuse, resist, miss, prevent, defer, delay, postpone, consider, appreciate, admire, forget, forgive, recollect, remember, suggest, risk, engage, admit, propose, etc.",
+   "examples": [
+    {
+     "sentence": "He decided going on a trip to Manali with his family during his winter vacation.",
+     "correction": "Use 'to go' instead of 'going'."
+    },
+    {
+     "sentence": "She failed meeting the deadline of submitting the assignment and got zero marks.",
+     "correction": "Use 'to meet' instead of 'meeting'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-95",
+   "concept_no": 95,
+   "title": "Verbs followed by gerund (V-ing)",
+   "topic": "Verb",
+   "concept": "Certain verbs such as forget, detest, avoid and consider are followed by a gerund (V-ing) rather than an infinitive. (Concept heading not present in this chunk; examples 339-342 continue from the previous page.)",
+   "examples": [
+    {
+     "sentence": "Shruti was tensed because she forgot bringing her laptop to the meeting.",
+     "correction": "Use 'to bring' instead of 'bringing'."
+    },
+    {
+     "sentence": "Satvik leaves for the airports hours before his flight because he detests to wait in long queues.",
+     "correction": "Use 'waiting' instead of 'to wait'."
+    },
+    {
+     "sentence": "She avoids to eat junk food since she got diagnosed with stomach ulcers.",
+     "correction": "Use 'eating' instead of 'to eat'."
+    },
+    {
+     "sentence": "After getting fired from her job, she's considering to follow her dream of becoming a dancer.",
+     "correction": "Use 'following' instead of 'to follow'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-96",
+   "concept_no": 96,
+   "title": "Bare infinitive after certain verbs",
+   "topic": "Verb",
+   "concept": "Use the bare infinitive (verb without 'to') after these verbs: let, bid, make, see, notice, feel, hear, smell, have, watch, help, etc.",
+   "examples": [
+    {
+     "sentence": "She lets his brother to borrow her car whenever he needs to go to work.",
+     "correction": "Remove 'to' before 'borrow'."
+    },
+    {
+     "sentence": "We heard him to say very mean things about your wife and parents.",
+     "correction": "Remove 'to' before 'say'."
+    },
+    {
+     "sentence": "We saw him to cross the road with his children.",
+     "correction": "Remove 'to' before 'cross'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-97",
+   "concept_no": 97,
+   "title": "Causative verbs: make, have, get",
+   "topic": "Verb",
+   "concept": "Causative structures: 'make' and 'have' take a bare infinitive when followed by a person doing the action (make/have + object + V1), while 'have' and 'get' take the past participle (V3) when the object is a thing that receives the action (have/get + object + V3). (No rule text was printed for this concept in the chunk; the pattern is shown through the examples.)",
+   "examples": [
+    {
+     "sentence": "The coach made the players to practise every day for the upcoming championship.",
+     "correction": "Remove 'to' before 'practise'."
+    },
+    {
+     "sentence": "The director had the actors rehearsed their lines thoroughly before starting the shoot.",
+     "correction": "Use 'rehearse' instead of 'rehearsed'."
+    },
+    {
+     "sentence": "Ranjan had the cook prepared a special meal for the guests at his birthday party.",
+     "correction": "Use 'prepare' instead of 'prepared'."
+    },
+    {
+     "sentence": "Anaya got her car to repair by the mechanic after it broke down on the highway.",
+     "correction": "Use 'repaired' instead of 'to repair'."
+    },
+    {
+     "sentence": "The chef had the food tasting by his assistants before serving it to the guests.",
+     "correction": "Use 'tasted' instead of 'tasting'."
+    },
+    {
+     "sentence": "I got my presentation to review by my supervisor before the meeting to ensure it had no errors.",
+     "correction": "Use 'reviewed' instead of 'to review'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-98",
+   "concept_no": 98,
+   "title": "Conditional sentences",
+   "topic": "Verb",
+   "concept": "Conditional sentence patterns: do not use 'will' in the 'if' clause; in the second conditional use 'were' instead of 'was'; and in the third conditional (if + had + V3) the main clause takes a perfect modal form such as 'might have + V3'. (No rule text was printed for this concept in the chunk; the pattern is shown through the examples.)",
+   "examples": [
+    {
+     "sentence": "If you will finish the project on time, the boss will definitely consider giving you a promotion.",
+     "correction": "Remove 'will' before 'finish'."
+    },
+    {
+     "sentence": "If I was the president of the USA, I would surely help the poor countries of Africa.",
+     "correction": "Use 'were' instead of 'was'."
+    },
+    {
+     "sentence": "If Abhishek had completed his degree in engineering, they might hire him.",
+     "correction": "Use 'might have hired' instead of 'might hire'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-99",
+   "concept_no": 99,
+   "title": "Mixed conditionals",
+   "topic": "Verb",
+   "concept": "Mixed conditionals: when the imagined condition refers to a permanent or present state, use 'were' in the if-clause instead of 'had been'; when the condition is in the past but the result refers to the present, the main clause takes a present form such as 'could be' rather than 'could have been'. (No rule text was printed for this concept in the chunk; the pattern is shown through the examples.)",
+   "examples": [
+    {
+     "sentence": "If I had been his father, I would have taught him a lesson for his indecent behaviour.",
+     "correction": "Use 'were' instead of 'had been'."
+    },
+    {
+     "sentence": "If she had been from the USA, she would have got opportunities that she deserved.",
+     "correction": "Use 'were' instead of 'had been'."
+    },
+    {
+     "sentence": "If Juhi had asked her classmates for help that day, she could have been alive today.",
+     "correction": "Use 'could be' instead of 'could have been'."
+    }
+   ]
+  },
+  {
+   "source_rule_id": "aman-100",
+   "concept_no": 100,
+   "title": "'I wish' structures",
+   "topic": "Verb",
+   "concept": "With 'wish': for present imagination use 'I wish + V2' (past simple, with 'were' for the verb 'be'); for past imagination use 'I wish + had + V3'.",
+   "examples": [
+    {
+     "sentence": "I wish I know how to solve this complex maths problem.",
+     "correction": "Use 'knew' instead of 'know'."
+    },
+    {
+     "sentence": "I wish I was more fluent in expressing my thoughts and emotions.",
+     "correction": "Use 'were' instead of 'was'."
+    },
+    {
+     "sentence": "I wish I listened to my parents' advice about saving money when my company was making good profits.",
+     "correction": "Use 'had' before 'listened'."
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "source_q_id": "aman-ex1",
+   "rule_ref": "aman-1",
+   "question": "I have decided that I won't work at yours company anymore.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'your' instead of 'yours'."
+  },
+  {
+   "source_q_id": "aman-ex2",
+   "rule_ref": "aman-1",
+   "question": "Their is the best offer that you can get so you should not think much.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'Theirs' instead of 'Their'."
+  },
+  {
+   "source_q_id": "aman-ex3",
+   "rule_ref": "aman-1",
+   "question": "I can't buy this car because it's cost is way out of my budget.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'its' instead of 'it's'. 'Its' is a possessive adjective; 'it's' is pronoun + verb."
+  },
+  {
+   "source_q_id": "aman-ex4",
+   "rule_ref": "aman-1",
+   "question": "You and Rohan should not waste his time wandering here and there.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'your' instead of 'his'."
+  },
+  {
+   "source_q_id": "aman-ex5",
+   "rule_ref": "aman-1",
+   "question": "You and I have done my best to make her happy.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'our' instead of 'my'."
+  },
+  {
+   "source_q_id": "aman-ex6",
+   "rule_ref": "aman-1",
+   "question": "He and I will not leave any stone unturned to complete ours assignment.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'our' instead of 'ours'."
+  },
+  {
+   "source_q_id": "aman-ex7",
+   "rule_ref": "aman-2",
+   "question": "He introduced to the Chairman as the General Secretary of the party.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "The verb 'introduced' needs an object, so use the reflexive pronoun 'himself' before 'to'."
+  },
+  {
+   "source_q_id": "aman-ex8",
+   "rule_ref": "aman-2",
+   "question": "He prostrated before his master who taught him when he was in school.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "'Prostrated' is a transitive verb and needs an object, so use 'himself' after 'prostrated'."
+  },
+  {
+   "source_q_id": "aman-ex9",
+   "rule_ref": "aman-2",
+   "question": "The minister and his cabinet members absented himself from the meeting.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'themselves' instead of 'himself'."
+  },
+  {
+   "source_q_id": "aman-ex10",
+   "rule_ref": "aman-3",
+   "question": "Each of the boys have completed their assignment.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'has' instead of 'have' and use 'his' instead of 'their'."
+  },
+  {
+   "source_q_id": "aman-ex11",
+   "rule_ref": "aman-3",
+   "question": "Each of these 5 students have worked very hard on this project.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'has' instead of 'have'."
+  },
+  {
+   "source_q_id": "aman-ex12",
+   "rule_ref": "aman-3",
+   "question": "They told me that neither of them were present there when the accident happened.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'was' instead of 'were'."
+  },
+  {
+   "source_q_id": "aman-ex13",
+   "rule_ref": "aman-4",
+   "question": "The air of Delhi is more polluted than Mumbai.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Delhi's air must be compared with Mumbai's air, so 'that of' is used, where 'that' stands for 'air'."
+  },
+  {
+   "source_q_id": "aman-ex14",
+   "rule_ref": "aman-4",
+   "question": "The maximum speed of my car is way more than yours.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "The speed of one car must be compared with the speed of another car, so 'that of' is used. 'That of yours' = the speed of your car."
+  },
+  {
+   "source_q_id": "aman-ex15",
+   "rule_ref": "aman-4",
+   "question": "Rohit and Rahul both are my friends, but Rohit's sense of humour is better than Rahul.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Rohit's sense of humour must be compared with Rahul's sense of humour. The noun 'sense of humour' need not be repeated; simply adding an apostrophe to Rahul is enough, so use 'Rahul's'."
+  },
+  {
+   "source_q_id": "aman-ex16",
+   "rule_ref": "aman-5",
+   "question": "The girl who you had slapped in the class complained to the principal.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'whom' instead of 'who'."
+  },
+  {
+   "source_q_id": "aman-ex17",
+   "rule_ref": "aman-5",
+   "question": "Sahil, whom just started last week, is already doing good at his new job.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'who' instead of 'whom'."
+  },
+  {
+   "source_q_id": "aman-ex18",
+   "rule_ref": "aman-5",
+   "question": "The car which/who is standing in front of my house is my father's.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "'which' is correct."
+  },
+  {
+   "source_q_id": "aman-ex19",
+   "rule_ref": "aman-5",
+   "question": "You have never questioned any decision of your master that is a proof of your loyalty.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Here the relative pronoun must refer to the whole clause. When an entire clause acts as the antecedent, the relative pronoun 'which' is used."
+  },
+  {
+   "source_q_id": "aman-ex20",
+   "rule_ref": "aman-5",
+   "question": "The few people who came to my party are the only friends that I have till now.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'that' instead of 'who'."
+  },
+  {
+   "source_q_id": "aman-ex21",
+   "rule_ref": "aman-5",
+   "question": "He told me that he saw the same boy who killed your dog.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'that' instead of 'who'."
+  },
+  {
+   "source_q_id": "aman-ex22",
+   "rule_ref": "aman-5",
+   "question": "I cannot predict that might happen if you don't submit your fees on time.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'what' instead of 'that'."
+  },
+  {
+   "source_q_id": "aman-ex23",
+   "rule_ref": "aman-5",
+   "question": "You shouldn't judge a person when you don't know that he has gone through.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'what' instead of 'that'."
+  },
+  {
+   "source_q_id": "aman-ex24",
+   "rule_ref": "aman-6",
+   "question": "He is one of those who can sacrifice his life for the country.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'their' instead of 'his'."
+  },
+  {
+   "source_q_id": "aman-ex25",
+   "rule_ref": "aman-6",
+   "question": "This novel is one of the best novels that has been written in the last 10 years.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'have' instead of 'has'."
+  },
+  {
+   "source_q_id": "aman-ex26",
+   "rule_ref": "aman-6",
+   "question": "Roshni is the only one of the girls that have scored more than 98% marks in the exam.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'has' instead of 'have'."
+  },
+  {
+   "source_q_id": "aman-ex27",
+   "rule_ref": "aman-7",
+   "question": "One should respect his parents.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'one's' instead of 'his'."
+  },
+  {
+   "source_q_id": "aman-ex28",
+   "rule_ref": "aman-7",
+   "question": "One should never criticize others if he not sure of his facts.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'one's' instead of 'his'."
+  },
+  {
+   "source_q_id": "aman-ex29",
+   "rule_ref": "aman-7",
+   "question": "He added philosophically that one should adapt himself to the changing conditions.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'oneself' instead of 'himself'."
+  },
+  {
+   "source_q_id": "aman-ex30",
+   "rule_ref": "aman-8",
+   "question": "Some of the students was absent yesterday.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were' instead of 'was'."
+  },
+  {
+   "source_q_id": "aman-ex31",
+   "rule_ref": "aman-8",
+   "question": "Half of the class have not completed the assignment given by the teacher.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'has' instead of 'have'."
+  },
+  {
+   "source_q_id": "aman-ex32",
+   "rule_ref": "aman-8",
+   "question": "All of the chairs was in perfect condition when I bought them from the new furniture store.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were' instead of 'was'."
+  },
+  {
+   "source_q_id": "aman-ex33",
+   "rule_ref": "aman-9",
+   "question": "You are stronger than him so you can easily defeat him.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'he' instead of 'him'."
+  },
+  {
+   "source_q_id": "aman-ex34",
+   "rule_ref": "aman-9",
+   "question": "I was surprised to find that their tallest player was shorter than me.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'I' instead of 'me'."
+  },
+  {
+   "source_q_id": "aman-ex35",
+   "rule_ref": "aman-9",
+   "question": "I have told you many times that you are as smart as him.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'he' instead of 'him'."
+  },
+  {
+   "source_q_id": "aman-ex36",
+   "rule_ref": "aman-10",
+   "question": "Between you and I, I think he is not dressed appropriately for the occasion.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'me' after 'and'."
+  },
+  {
+   "source_q_id": "aman-ex37",
+   "rule_ref": "aman-10",
+   "question": "I think he is a bit ungrateful, because everyone but he was happy to receive gift on Christmas.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'him' instead of 'he'."
+  },
+  {
+   "source_q_id": "aman-ex38",
+   "rule_ref": "aman-11",
+   "question": "He has solved the five first questions of the exercise.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'first five questions' instead of 'five first questions'."
+  },
+  {
+   "source_q_id": "aman-ex39",
+   "rule_ref": "aman-11",
+   "question": "The policeman checked only the ten first trucks that were standing in the line.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'first ten trucks' instead of 'ten first trucks'."
+  },
+  {
+   "source_q_id": "aman-ex40",
+   "rule_ref": "aman-11",
+   "question": "15 men went into lion's den one by one as a challenge but only the two last survived.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'the last two' instead of 'the two last'."
+  },
+  {
+   "source_q_id": "aman-ex41",
+   "rule_ref": "aman-12",
+   "question": "Each boy of this class were called by the principal.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'was' instead of 'were'."
+  },
+  {
+   "source_q_id": "aman-ex42",
+   "rule_ref": "aman-12",
+   "question": "According to the rules set by the judges, each speaker were allowed to speak for 5 minutes.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'was' instead of 'were'."
+  },
+  {
+   "source_q_id": "aman-ex43",
+   "rule_ref": "aman-12",
+   "question": "I am going to the family function only because every cousin of mine are coming.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'is' instead of 'are'."
+  },
+  {
+   "source_q_id": "aman-ex44",
+   "rule_ref": "aman-13",
+   "question": "I don't have some/any experience of this field.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "'any' is correct."
+  },
+  {
+   "source_q_id": "aman-ex45",
+   "rule_ref": "aman-13",
+   "question": "She told me that she needed any time to think about my proposal.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'some' instead of 'any'."
+  },
+  {
+   "source_q_id": "aman-ex46",
+   "rule_ref": "aman-13",
+   "question": "You all are invited to my birthday party this weekend but please don't bring some presents.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'any' instead of 'some'."
+  },
+  {
+   "source_q_id": "aman-ex47",
+   "rule_ref": "aman-14",
+   "question": "I can assure you that this school is most excellent.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'most'."
+  },
+  {
+   "source_q_id": "aman-ex48",
+   "rule_ref": "aman-14",
+   "question": "I really love the area and see it as the most ideal place to get married.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'an' instead of 'the most'."
+  },
+  {
+   "source_q_id": "aman-ex49",
+   "rule_ref": "aman-14",
+   "question": "Today I met a person who could communicate with animals, I guess some humans are born with the most unique talents.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'the most'."
+  },
+  {
+   "source_q_id": "aman-ex50",
+   "rule_ref": "aman-15",
+   "question": "Rohan is taller than all the boys of his class.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'all the other boys' instead of 'all the boys'."
+  },
+  {
+   "source_q_id": "aman-ex51",
+   "rule_ref": "aman-15",
+   "question": "Rahul, my colleague is more hardworking than all the employees of our company.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'all the other employees' instead of 'all the employees'."
+  },
+  {
+   "source_q_id": "aman-ex52",
+   "rule_ref": "aman-15",
+   "question": "Based on the stories that I read when I was child, I think no animal is as cunning as a fox.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'I think no other animal' instead of 'I think no animal'."
+  },
+  {
+   "source_q_id": "aman-ex53",
+   "rule_ref": "aman-16",
+   "question": "He is more stronger than Ajay.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'much/far' instead of 'more'."
+  },
+  {
+   "source_q_id": "aman-ex54",
+   "rule_ref": "aman-16",
+   "question": "Mr. Mehta has two daughters and the younger one is more prettier than the older one.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'much/far' instead of 'more'."
+  },
+  {
+   "source_q_id": "aman-ex55",
+   "rule_ref": "aman-16",
+   "question": "I really like spending time with him as he is the most nicest person that I have ever met.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'by far/much' after 'as he is' and remove 'most'."
+  },
+  {
+   "source_q_id": "aman-ex56",
+   "rule_ref": "aman-17",
+   "question": "Of these two choices of cuisines, I would love to have the later one.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'latter' instead of 'later'."
+  },
+  {
+   "source_q_id": "aman-ex57",
+   "rule_ref": "aman-17",
+   "question": "I hope it won't be a problem if we postpone this meeting to a latter date.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'later' instead of 'latter'."
+  },
+  {
+   "source_q_id": "aman-ex58",
+   "rule_ref": "aman-17",
+   "question": "I wanted to discuss that topic farther, but my professor didn't have time.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'further' instead of 'farther'."
+  },
+  {
+   "source_q_id": "aman-ex59",
+   "rule_ref": "aman-17",
+   "question": "My college is located further than hers yet she got a scooty and I got a bicycle.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'farther' instead of 'further'."
+  },
+  {
+   "source_q_id": "aman-ex60",
+   "rule_ref": "aman-17",
+   "question": "My friend has told me that this new restaurant serves well Indian food.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'good' instead of 'well'."
+  },
+  {
+   "source_q_id": "aman-ex61",
+   "rule_ref": "aman-17",
+   "question": "I stayed up all night and prepared a lot for my meeting but it didn't go good.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'well' instead of 'good'."
+  },
+  {
+   "source_q_id": "aman-ex62",
+   "rule_ref": "aman-17",
+   "question": "When he was here last year, he was grossly bad treated by you.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'ill' instead of 'bad'."
+  },
+  {
+   "source_q_id": "aman-ex63",
+   "rule_ref": "aman-17",
+   "question": "Rohit has made some bad choices in life but trust me he is not an ill person.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'bad' instead of 'ill'."
+  },
+  {
+   "source_q_id": "aman-ex64",
+   "rule_ref": "aman-17",
+   "question": "How far/a long way is the library from your house?",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'far'."
+  },
+  {
+   "source_q_id": "aman-ex65",
+   "rule_ref": "aman-17",
+   "question": "He is good at shooting the ball into the net from far.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'a long way' instead of 'far'."
+  },
+  {
+   "source_q_id": "aman-ex66",
+   "rule_ref": "aman-18",
+   "question": "He solved that confused question very easily.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'confusing' instead of 'confused'."
+  },
+  {
+   "source_q_id": "aman-ex67",
+   "rule_ref": "aman-18",
+   "question": "He told me that he had gifted his girlfriend a very interested novel on her birthday.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'interesting' instead of 'interested'."
+  },
+  {
+   "source_q_id": "aman-ex68",
+   "rule_ref": "aman-18",
+   "question": "I tried a lot but I could not find my losing book.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'lost' instead of 'losing'."
+  },
+  {
+   "source_q_id": "aman-ex69",
+   "rule_ref": "aman-19",
+   "question": "Could you give me …… sugar?",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'a little'."
+  },
+  {
+   "source_q_id": "aman-ex70",
+   "rule_ref": "aman-19",
+   "question": "When my friend was in trouble I offered him a little money that I had with me.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'the' instead of 'a'."
+  },
+  {
+   "source_q_id": "aman-ex71",
+   "rule_ref": "aman-19",
+   "question": "I was out of town and couldn't find a place to rest therefore I got very a little sleep last night.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'a' before 'little'."
+  },
+  {
+   "source_q_id": "aman-ex72",
+   "rule_ref": "aman-19",
+   "question": "He met with an accident yesterday, and the doctor advised him to rest for the few days.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'the' before 'few'."
+  },
+  {
+   "source_q_id": "aman-ex73",
+   "rule_ref": "aman-19",
+   "question": "The school had to cancel the debate competition as a few students participated in it.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'a' before 'few'."
+  },
+  {
+   "source_q_id": "aman-ex74",
+   "rule_ref": "aman-20",
+   "question": "Rahul is stronger and wise than Mahesh.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'wiser' instead of 'wise'."
+  },
+  {
+   "source_q_id": "aman-ex75",
+   "rule_ref": "aman-20",
+   "question": "My friend and I got dresses from the same store but still mine is best than hers.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'better' instead of 'best'."
+  },
+  {
+   "source_q_id": "aman-ex76",
+   "rule_ref": "aman-20",
+   "question": "She gave bars of chocolate to everyone of us but sadly I got the smaller one of all the options available.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'smallest' instead of 'smaller'."
+  },
+  {
+   "source_q_id": "aman-ex77",
+   "rule_ref": "aman-21",
+   "question": "I knew I had sprained my ankle, the moment I felled.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'fell' instead of 'felled'."
+  },
+  {
+   "source_q_id": "aman-ex78",
+   "rule_ref": "aman-21",
+   "question": "Your favourite vase felled off the table during the earthquake.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'fell' instead of 'felled'."
+  },
+  {
+   "source_q_id": "aman-ex79",
+   "rule_ref": "aman-21",
+   "question": "Yash has raised as one of the top athletes in the entire state.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'risen' instead of 'raised'."
+  },
+  {
+   "source_q_id": "aman-ex80",
+   "rule_ref": "aman-21",
+   "question": "With temperatures on the rise, it's crucial to rise awareness about the pressing issue of global warming.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'to raise' instead of 'to rise'."
+  },
+  {
+   "source_q_id": "aman-ex81",
+   "rule_ref": "aman-21",
+   "question": "I was in a park when I felt sick, so I laid on a bench nearby.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'lay' instead of 'laid'."
+  },
+  {
+   "source_q_id": "aman-ex82",
+   "rule_ref": "aman-21",
+   "question": "She had lain the bag down before she left for the seminar.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'laid' instead of 'lain'."
+  },
+  {
+   "source_q_id": "aman-ex83",
+   "rule_ref": "aman-22",
+   "question": "After getting scolded by his father, he shutted the door and started studying.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'shut' instead of 'shutted'."
+  },
+  {
+   "source_q_id": "aman-ex84",
+   "rule_ref": "aman-22",
+   "question": "Taylor Swift's new concert will be broadcasted live on radio and television.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'broadcast' instead of 'broadcasted'."
+  },
+  {
+   "source_q_id": "aman-ex85",
+   "rule_ref": "aman-23",
+   "question": "He has already molten some gold to make a necklace for you so you should wait for some time.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'melted' instead of 'molten'."
+  },
+  {
+   "source_q_id": "aman-ex86",
+   "rule_ref": "aman-23",
+   "question": "People accuse him of stealing that necklace but the charges against him could not be proven in court.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'proved' instead of 'proven'."
+  },
+  {
+   "source_q_id": "aman-ex87",
+   "rule_ref": "aman-24",
+   "question": "I am vaguely remembering that I met him during a concert.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'am' and use 'remember' instead of 'remembering'."
+  },
+  {
+   "source_q_id": "aman-ex88",
+   "rule_ref": "aman-24",
+   "question": "Have you noticed that he is strongly resembling his brother in appearance?",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'is' and use 'resembles' instead of 'resembling'."
+  },
+  {
+   "source_q_id": "aman-ex89",
+   "rule_ref": "aman-25",
+   "question": "Although I met him only 5 months ago, I consider him as one of my closest friends.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'as'."
+  },
+  {
+   "source_q_id": "aman-ex90",
+   "rule_ref": "aman-25",
+   "question": "He has been performing very well in last few matches, therefore the team has decided to make him as captain of the team.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'as'."
+  },
+  {
+   "source_q_id": "aman-ex91",
+   "rule_ref": "aman-26",
+   "question": "The wounded woman was treating by the doctor at the hospital.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'was being treated' instead of 'was treating'."
+  },
+  {
+   "source_q_id": "aman-ex92",
+   "rule_ref": "aman-26",
+   "question": "While playing in the park some children were being teased the animals.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were teasing' instead of 'were being teased'."
+  },
+  {
+   "source_q_id": "aman-ex93",
+   "rule_ref": "aman-27",
+   "question": "When I was a child, I used to playing cricket with my father every sunday.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'play' instead of 'playing'."
+  },
+  {
+   "source_q_id": "aman-ex94",
+   "rule_ref": "aman-27",
+   "question": "I have worked at a call center for 7 years therefore I am used to work in night shifts also.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'working' instead of 'working' (as printed in the source)."
+  },
+  {
+   "source_q_id": "aman-ex95",
+   "rule_ref": "aman-27",
+   "question": "The police inspector told my father that my stolen car was used to carrying some illegal drugs to Gujrat.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'to carry' instead of 'to carrying'."
+  },
+  {
+   "source_q_id": "aman-ex96",
+   "rule_ref": "aman-28",
+   "question": "You need not to worry about this mole as it's totally benign.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'to'."
+  },
+  {
+   "source_q_id": "aman-ex97",
+   "rule_ref": "aman-28",
+   "question": "How dare you to say these words to my father?",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'to'."
+  },
+  {
+   "source_q_id": "aman-ex98",
+   "rule_ref": "aman-28",
+   "question": "You do not need pay anything as all these bills are covered under the insurance.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'do not need to pay' or 'need not pay' instead of 'do not need pay'."
+  },
+  {
+   "source_q_id": "aman-ex99",
+   "rule_ref": "aman-29",
+   "question": "We should let Shruti handle international clients as she may speak several languages.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'can' instead of 'may'."
+  },
+  {
+   "source_q_id": "aman-ex100",
+   "rule_ref": "aman-29",
+   "question": "I have forgotten my phone at home, will I use yours to call home and call someone to pick me up.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'may' instead of 'will'."
+  },
+  {
+   "source_q_id": "aman-ex101",
+   "rule_ref": "aman-29",
+   "question": "May you come with me to the clinic as I am too weak to drive right now.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'could' instead of 'may'."
+  },
+  {
+   "source_q_id": "aman-ex102",
+   "rule_ref": "aman-29",
+   "question": "He told me that he may join Aman's batch to prepare for competitive exams.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'might' instead of 'may'."
+  },
+  {
+   "source_q_id": "aman-ex103",
+   "rule_ref": "aman-30",
+   "question": "When I was a child, I would hide under the bed to scare my parents.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "No error."
+  },
+  {
+   "source_q_id": "aman-ex104",
+   "rule_ref": "aman-30",
+   "question": "If you earn a decent amount of income, you dare help the poor.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'ought to' or 'should' instead of 'dare'."
+  },
+  {
+   "source_q_id": "aman-ex105",
+   "rule_ref": "aman-30",
+   "question": "If you want to lose weight, You may stop eating fast food.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'should' instead of 'may'."
+  },
+  {
+   "source_q_id": "aman-ex106",
+   "rule_ref": "aman-30",
+   "question": "I feel that one could love one's country.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'ought to' or 'should' instead of 'could'."
+  },
+  {
+   "source_q_id": "aman-ex107",
+   "rule_ref": "aman-31",
+   "question": "Our NGO helps the people who live in slums and collect garbages for a living.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'garbage' instead of 'garbages'."
+  },
+  {
+   "source_q_id": "aman-ex108",
+   "rule_ref": "aman-31",
+   "question": "All the houses in our colony were destroyed during the earthquake except hers, because it was made of best quality bricks.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'brick' instead of 'bricks'."
+  },
+  {
+   "source_q_id": "aman-ex109",
+   "rule_ref": "aman-31",
+   "question": "The scientists had all the equipments that they need in order to complete the experiment.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'equipment' instead of 'equipments'."
+  },
+  {
+   "source_q_id": "aman-ex110",
+   "rule_ref": "aman-31",
+   "question": "Thousands of tourists visit Jammu and Kashmir every year to see the beautiful sceneries.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'scenery' instead of 'sceneries'."
+  },
+  {
+   "source_q_id": "aman-ex111",
+   "rule_ref": "aman-32",
+   "question": "Mathematics are one of the subjects which I have found very difficult since school.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'is' instead of 'are'."
+  },
+  {
+   "source_q_id": "aman-ex112",
+   "rule_ref": "aman-32",
+   "question": "Darts are a form of throwing game where darts are thrown at a circular target.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'Darts is' instead of 'Darts are'."
+  },
+  {
+   "source_q_id": "aman-ex113",
+   "rule_ref": "aman-32",
+   "question": "The news of her getting that promotion were the reason behind that big smile on her face.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'was' instead of 'were'."
+  },
+  {
+   "source_q_id": "aman-ex114",
+   "rule_ref": "aman-32",
+   "question": "Rickets cause problems in the normal calcification of the growing bones.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'causes' instead of 'cause'."
+  },
+  {
+   "source_q_id": "aman-ex115",
+   "rule_ref": "aman-33",
+   "question": "The binoculars was not in focus so he raised them and adjusted the focus.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were' instead of 'was'."
+  },
+  {
+   "source_q_id": "aman-ex116",
+   "rule_ref": "aman-33",
+   "question": "Tongs is used by my grandmother to make chapatis.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'are' instead of 'is'."
+  },
+  {
+   "source_q_id": "aman-ex117",
+   "rule_ref": "aman-33",
+   "question": "All his goods was packed in some cardboard boxes when he was moving to another city.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were' instead of 'was'."
+  },
+  {
+   "source_q_id": "aman-ex118",
+   "rule_ref": "aman-33",
+   "question": "The outskirts of the city has some good hospitals for the people living there.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'have' instead of 'has'."
+  },
+  {
+   "source_q_id": "aman-ex119",
+   "rule_ref": "aman-34",
+   "question": "Do you know that cattle was considered wealth in ancient times?",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were' instead of 'was'."
+  },
+  {
+   "source_q_id": "aman-ex120",
+   "rule_ref": "aman-34",
+   "question": "Poultry is domesticated birds kept by humans for the purpose of harvesting animal products such as meat, eggs or feathers.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'are' instead of 'is'."
+  },
+  {
+   "source_q_id": "aman-ex121",
+   "rule_ref": "aman-34",
+   "question": "The police was informed by the locals about the dead body found near the lake.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were' instead of 'was'."
+  },
+  {
+   "source_q_id": "aman-ex123",
+   "rule_ref": "aman-34",
+   "question": "Although they want to yet most people doesn't do exercise daily.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'don't' instead of 'doesn't'."
+  },
+  {
+   "source_q_id": "aman-ex124",
+   "rule_ref": "aman-35",
+   "question": "When I went to Japan, I saw the remains of some aircrafts which attacked Japan amid world war 2.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'aircraft' instead of 'aircrafts'."
+  },
+  {
+   "source_q_id": "aman-ex125",
+   "rule_ref": "aman-35",
+   "question": "Two series of lectures is scheduled for the coming week.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'are' instead of 'is'."
+  },
+  {
+   "source_q_id": "aman-ex126",
+   "rule_ref": "aman-35",
+   "question": "The wages of the workers was increased after they protested for 2 days.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were' instead of 'was'."
+  },
+  {
+   "source_q_id": "aman-ex127",
+   "rule_ref": "aman-35",
+   "question": "The wages of burning midnight oil are always worth it.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'is' instead of 'were'."
+  },
+  {
+   "source_q_id": "aman-ex128",
+   "rule_ref": "aman-35",
+   "question": "His means is not enough to support such a large family.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'are' instead of 'is'."
+  },
+  {
+   "source_q_id": "aman-ex129",
+   "rule_ref": "aman-35",
+   "question": "Various means was used by them in order to communicate with their family stuck in Ukraine war.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were' instead of 'was'."
+  },
+  {
+   "source_q_id": "aman-ex130",
+   "rule_ref": "aman-36",
+   "question": "Both of his brother in laws live in Agra and run a book shop there.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'brothers in law' instead of 'brother in laws'."
+  },
+  {
+   "source_q_id": "aman-ex131",
+   "rule_ref": "aman-36",
+   "question": "All the man teachers were called by the principal to his office yesterday.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'men' instead of 'man'."
+  },
+  {
+   "source_q_id": "aman-ex132",
+   "rule_ref": "aman-36",
+   "question": "Some passer bys saw the accident and stopped to help him when his car collided with a truck.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'passers by' instead of 'passer bys'."
+  },
+  {
+   "source_q_id": "aman-ex133",
+   "rule_ref": "aman-36",
+   "question": "She gulped down two mouthsful of coffee before the meeting to remain awake.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'mouthfuls' instead of 'mouthsful'."
+  },
+  {
+   "source_q_id": "aman-ex134",
+   "rule_ref": null,
+   "question": "She adopted a group of cats which she found in a box near her mailbox.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'clowder' instead of 'group of cats'."
+  },
+  {
+   "source_q_id": "aman-ex135",
+   "rule_ref": null,
+   "question": "The excessive rise in temperature killed the group of bees in its hive.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'swarm' instead of 'group of bees'."
+  },
+  {
+   "source_q_id": "aman-ex136",
+   "rule_ref": null,
+   "question": "A group of wolves was seen chasing some dogs in the national park yesterday.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'pack of wolves' instead of 'group of wolves'."
+  },
+  {
+   "source_q_id": "aman-ex137",
+   "rule_ref": null,
+   "question": "A group of merchants passes through our village every year in the month of July.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'caravan of merchants' instead of 'group of merchants'."
+  },
+  {
+   "source_q_id": "aman-ex138",
+   "rule_ref": "aman-38",
+   "question": "David's and Mindy's car has stopped functioning properly so they are thinking about selling it.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'David' instead of 'David's'."
+  },
+  {
+   "source_q_id": "aman-ex139",
+   "rule_ref": "aman-38",
+   "question": "Your parents's trust on you has degraded because you kept on repeating the same mistakes.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'parents'' instead of 'parents's'."
+  },
+  {
+   "source_q_id": "aman-ex140",
+   "rule_ref": "aman-38",
+   "question": "The recent earthquake has destroyed everyone's house in our society.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "No error."
+  },
+  {
+   "source_q_id": "aman-ex141",
+   "rule_ref": "aman-38",
+   "question": "For god sake , please forgive me. I promise that I won't repeat this mistake.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'god's' instead of 'god'."
+  },
+  {
+   "source_q_id": "aman-ex142",
+   "rule_ref": "aman-39",
+   "question": "We get discount at that hospital because my son's in law sister works there.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'son in law's' instead of 'son's in law'."
+  },
+  {
+   "source_q_id": "aman-ex143",
+   "rule_ref": "aman-39",
+   "question": "When I married Anjali, I took over my father's in law business as he had no son.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'father in law's' instead of 'father's in law'."
+  },
+  {
+   "source_q_id": "aman-ex144",
+   "rule_ref": "aman-40",
+   "question": "The temperature has touched 50°c in many areas this summer, I think no one will be saved from sun's fury this time.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "No error."
+  },
+  {
+   "source_q_id": "aman-ex145",
+   "rule_ref": "aman-40",
+   "question": "Mohit has received a court's order barring him from entering the hotel.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "No error."
+  },
+  {
+   "source_q_id": "aman-ex146",
+   "rule_ref": "aman-40",
+   "question": "After the rise of greenhouse gases the experts have noticed changes in Earth's atmosphere.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "No error."
+  },
+  {
+   "source_q_id": "aman-ex147",
+   "rule_ref": "aman-40",
+   "question": "We sat at a 2 meter's gap from each other in that conference hall.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "No error."
+  },
+  {
+   "source_q_id": "aman-ex148",
+   "rule_ref": "aman-40",
+   "question": "This resort is expensive because it is at a stone's throw from the famous beach.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "No error."
+  },
+  {
+   "source_q_id": "aman-ex149",
+   "rule_ref": "aman-41",
+   "question": "She behaved very rude with Ajay's parents so he stopped talking to her.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'rudely' instead of 'rude'."
+  },
+  {
+   "source_q_id": "aman-ex150",
+   "rule_ref": "aman-41",
+   "question": "He got really madly when he saw his girlfriend having dinner with his friend.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'mad' instead of 'madly'."
+  },
+  {
+   "source_q_id": "aman-ex151",
+   "rule_ref": "aman-41",
+   "question": "Although she is a very impatient person yet she kept calmly during the interrogation.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'calm' instead of 'calmly'."
+  },
+  {
+   "source_q_id": "aman-ex152",
+   "rule_ref": "aman-41",
+   "question": "I want to shift from this area because I don't feel safely here.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'safe' instead of 'safely'."
+  },
+  {
+   "source_q_id": "aman-ex153",
+   "rule_ref": "aman-42",
+   "question": "We have to make some choices hard in life if we want to be successful.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'hardly' and use 'hard' before 'choices'."
+  },
+  {
+   "source_q_id": "aman-ex154",
+   "rule_ref": "aman-42",
+   "question": "Reeta came home lately as she got stuck in the traffic while coming back from her office.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'late' instead of 'lately'."
+  },
+  {
+   "source_q_id": "aman-ex155",
+   "rule_ref": "aman-42",
+   "question": "Shruti had to take an every day appointment with a therapist after she got diagnosed with clinical depression.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'appointment every day' instead of 'every day appointment'; 'every day' is an adverb of frequency while 'everyday' is an adjective."
+  },
+  {
+   "source_q_id": "aman-ex156",
+   "rule_ref": "aman-42",
+   "question": "After getting irritated by his friend's continuous sarcastic remarks, Yash told him straightly to stop bothering him anymore.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'straight' instead of 'straightly'."
+  },
+  {
+   "source_q_id": "aman-ex157",
+   "rule_ref": "aman-43",
+   "question": "The old lady in our neighbourhood is a very kind woman and she always treats me motherly.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'like a mother' or 'in a motherly manner' instead of 'motherly'."
+  },
+  {
+   "source_q_id": "aman-ex158",
+   "rule_ref": "aman-43",
+   "question": "He started his career as a sports commentator as he has a very deep and manly voice.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "No error."
+  },
+  {
+   "source_q_id": "aman-ex159",
+   "rule_ref": "aman-43",
+   "question": "Army is for brave people and not for those who act cowardly as soon as they come across some danger.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'like a coward' or 'in a cowardly manner' instead of 'cowardly'."
+  },
+  {
+   "source_q_id": "aman-ex160",
+   "rule_ref": "aman-43",
+   "question": "We have stopped going out with Rajesh because he always acts miserly.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'like a miser' or 'in a miserly manner' instead of 'miserly'."
+  },
+  {
+   "source_q_id": "aman-ex161",
+   "rule_ref": "aman-44",
+   "question": "With the increasing work load and responsibilities, I have rarely time to continue my passion for painting.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'I rarely have' instead of 'I have rarely'."
+  },
+  {
+   "source_q_id": "aman-ex162",
+   "rule_ref": "aman-44",
+   "question": "He is physically strong and has a good health because he daily goes to the gym.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'he goes to the gym daily' instead of 'he daily goes to the gym'."
+  },
+  {
+   "source_q_id": "aman-ex163",
+   "rule_ref": "aman-45",
+   "question": "His teachers were too much angry with him for coming late to school and failing all the classes.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'much too' instead of 'too much'."
+  },
+  {
+   "source_q_id": "aman-ex164",
+   "rule_ref": "aman-45",
+   "question": "I think that you have spent much too money on you suit.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'too much' instead of 'much too'."
+  },
+  {
+   "source_q_id": "aman-ex165",
+   "rule_ref": "aman-45",
+   "question": "He cannot come to the office for a few more weeks because he is yet recovering from his illness.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'still' instead of 'yet'."
+  },
+  {
+   "source_q_id": "aman-ex166",
+   "rule_ref": "aman-45",
+   "question": "Rohini didn't attend the book club meeting yesterday because she hasn't still finished reading the book.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'still' and place 'yet' after 'book'."
+  },
+  {
+   "source_q_id": "aman-ex167",
+   "rule_ref": "aman-46",
+   "question": "Barely she had got back in bed when her alarm went off.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'had she' instead of 'she had'."
+  },
+  {
+   "source_q_id": "aman-ex168",
+   "rule_ref": "aman-46",
+   "question": "Never I have encountered such rudeness before I stared working in this office.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'Never have I' in place of 'Never I have'."
+  },
+  {
+   "source_q_id": "aman-ex169",
+   "rule_ref": "aman-46",
+   "question": "Just two meters away from their house was lying 3 dead bodies.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were' instead of 'was'."
+  },
+  {
+   "source_q_id": "aman-ex170",
+   "rule_ref": "aman-46",
+   "question": "When I told them my plan, Rajesh joined me and so kunal did.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'so did Kunal' instead of 'so Kunal did'."
+  },
+  {
+   "source_q_id": "aman-ex171",
+   "rule_ref": "aman-47",
+   "question": "I was happy to see a fireman who saved my life when my house got on fire.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'the fireman' instead of 'a fireman'."
+  },
+  {
+   "source_q_id": "aman-ex172",
+   "rule_ref": "aman-47",
+   "question": "I can't believe that he lives in the small flat in Pacific golf society.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'in a small' instead of 'in the small'."
+  },
+  {
+   "source_q_id": "aman-ex173",
+   "rule_ref": "aman-47",
+   "question": "My uncle gifted me the expensive watch on my 18th birthday.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'an' instead of 'the'."
+  },
+  {
+   "source_q_id": "aman-ex174",
+   "rule_ref": "aman-47",
+   "question": "A man whom we met while we were coming back is brother in law.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'The man' instead of 'A man'."
+  },
+  {
+   "source_q_id": "aman-ex175",
+   "rule_ref": "aman-48",
+   "question": "My brother is an interesting boy who has an unique sense of humour.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'a unique' instead of 'an unique'."
+  },
+  {
+   "source_q_id": "aman-ex176",
+   "rule_ref": "aman-48",
+   "question": "If you try to blackmail me again, I will not hesitate in lodging a FIR against you.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'an FIR' instead of 'a FIR'."
+  },
+  {
+   "source_q_id": "aman-ex177",
+   "rule_ref": "aman-48",
+   "question": "The spammer sent him a SMS saying that all his bank accounts would get blocked soon.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'an SMS' instead of 'a SMS'."
+  },
+  {
+   "source_q_id": "aman-ex178",
+   "rule_ref": "aman-48",
+   "question": "They awarded him a honorary degree for his tremendous work in the field of cinema.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'an honorary' instead of 'a honorary'."
+  },
+  {
+   "source_q_id": "aman-ex179",
+   "rule_ref": "aman-49",
+   "question": "The infamous criminal Joe adams is also known as Robin Hood of his area because he looted from the rich and gave it to the poor.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'as the Robin Hood' instead of 'as Robin Hood'."
+  },
+  {
+   "source_q_id": "aman-ex180",
+   "rule_ref": "aman-49",
+   "question": "You should probably give up on your dream of becoming a cricketer and accept the fact that you are not Sachin.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'a' before 'Sachin'."
+  },
+  {
+   "source_q_id": "aman-ex181",
+   "rule_ref": "aman-50",
+   "question": "I know that you don't earn much but you should try to send your children to the school.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'the' before 'school'."
+  },
+  {
+   "source_q_id": "aman-ex182",
+   "rule_ref": "aman-50",
+   "question": "After a long and tedious day, Yamini came home and went to the bed.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'the' before 'bed'."
+  },
+  {
+   "source_q_id": "aman-ex183",
+   "rule_ref": "aman-50",
+   "question": "My brother and I always wait for the Christmas because it is filled with joy and sweet treats.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'the' before 'Christmas'."
+  },
+  {
+   "source_q_id": "aman-ex184",
+   "rule_ref": "aman-50",
+   "question": "As soon as I get an opportunity, I will shift to the Australia.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'the' before 'Australia'."
+  },
+  {
+   "source_q_id": "aman-ex185",
+   "rule_ref": "aman-51",
+   "question": "The prime minister accompanied by his bodyguards come to the red fort every year to hoist the flag on Republic day.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'comes' instead of 'come'."
+  },
+  {
+   "source_q_id": "aman-ex186",
+   "rule_ref": "aman-51",
+   "question": "All the languages besides Hindi is spoken by the new student who got transferred from Korea last week.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'are spoken' instead of 'is spoken'."
+  },
+  {
+   "source_q_id": "aman-ex187",
+   "rule_ref": "aman-52",
+   "question": "Each of my cats were fed by my neighbour when I was out of town for a meeting.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'was fed' instead of 'were fed'."
+  },
+  {
+   "source_q_id": "aman-ex188",
+   "rule_ref": "aman-52",
+   "question": "Each chapter of the newly launched book are interesting but the last one was spectacular.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'is interesting' instead of 'are interesting'."
+  },
+  {
+   "source_q_id": "aman-ex189",
+   "rule_ref": "aman-52",
+   "question": "Every girl and every boy were given a packet of sweets on independence day at school.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'was' instead of 'were'."
+  },
+  {
+   "source_q_id": "aman-ex190",
+   "rule_ref": "aman-53",
+   "question": "I got all my furniture at a discounted price because one of my friends own a furniture shop.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'owns' instead of 'own'."
+  },
+  {
+   "source_q_id": "aman-ex191",
+   "rule_ref": "aman-53",
+   "question": "The rich always looks down on the poor, and don't treat them with kindness.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'look down' instead of 'looks down'."
+  },
+  {
+   "source_q_id": "aman-ex192",
+   "rule_ref": "aman-54",
+   "question": "The host and hostess /of the party were very nice and /they welcomed each guest with/ a big smile on their faces.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'the' before 'hostess'."
+  },
+  {
+   "source_q_id": "aman-ex193",
+   "rule_ref": "aman-54",
+   "question": "The Principal and the secretary/ of our school is coming and many/ arrangements were made by the /teachers for their visit.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'are' instead of 'is'."
+  },
+  {
+   "source_q_id": "aman-ex194",
+   "rule_ref": "aman-54",
+   "question": "The Vice-President and the chairman/ of the Rajya Sabha is elected/ by an electoral college consisting of members of /both Houses of Parliament.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'the' before 'chairman'."
+  },
+  {
+   "source_q_id": "aman-ex195",
+   "rule_ref": "aman-55",
+   "question": "Writing poems have been my hobby since I was in school.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'has' instead of 'have'."
+  },
+  {
+   "source_q_id": "aman-ex196",
+   "rule_ref": "aman-55",
+   "question": "To give suggestions are easy, when you are not the one in that particular situation.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'is easy' instead of 'are easy'."
+  },
+  {
+   "source_q_id": "aman-ex197",
+   "rule_ref": "aman-56",
+   "question": "Neither Shruti nor her friends is going to attend the convocation on Saturday at the university.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'are' instead of 'is'."
+  },
+  {
+   "source_q_id": "aman-ex198",
+   "rule_ref": "aman-56",
+   "question": "Either Ashish or his colleagues is responsible for leaking the confidential information about the products of the company.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'are' instead of 'is'."
+  },
+  {
+   "source_q_id": "aman-ex199",
+   "rule_ref": "aman-56",
+   "question": "Not only my parents but also my brother are coming to my destination wedding in goa.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'is' instead of 'are'."
+  },
+  {
+   "source_q_id": "aman-ex200",
+   "rule_ref": "aman-57",
+   "question": "Many aspirants preparing for this exam was shocked when they found that the exam got cancelled.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were' instead of 'was'."
+  },
+  {
+   "source_q_id": "aman-ex201",
+   "rule_ref": "aman-57",
+   "question": "Many a man have tried to climb Mount Everest without oxygen cylinder but most of them failed to do so.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'has' instead of 'have'."
+  },
+  {
+   "source_q_id": "aman-ex202",
+   "rule_ref": "aman-57",
+   "question": "A great many lives was saved by the rescue team during the tsunami of 2004.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were' instead of 'was'."
+  },
+  {
+   "source_q_id": "aman-ex203",
+   "rule_ref": "aman-58",
+   "question": "A number of players of our team is still injured from the last game, therefore we can't play today's match.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'are' instead of 'is'."
+  },
+  {
+   "source_q_id": "aman-ex204",
+   "rule_ref": "aman-58",
+   "question": "The number of employees who are getting laid off by tech companies are increasing every year.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'is increasing' instead of 'are increasing'."
+  },
+  {
+   "source_q_id": "aman-ex205",
+   "rule_ref": "aman-59",
+   "question": "The committee have agreed to build a park for all the people living in the society.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'has' instead of 'have'."
+  },
+  {
+   "source_q_id": "aman-ex206",
+   "rule_ref": "aman-59",
+   "question": "The jury has different opinions about the case of a mother killing a man to save her child.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'have' instead of 'has'."
+  },
+  {
+   "source_q_id": "aman-ex207",
+   "rule_ref": "aman-59",
+   "question": "None of his friends were present at his funeral.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'was' instead of 'were'."
+  },
+  {
+   "source_q_id": "aman-ex208",
+   "rule_ref": "aman-60",
+   "question": "The harry potter series were written by J.K. Rowling and is very popular among teenagers and young adults.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'was' instead of 'were'."
+  },
+  {
+   "source_q_id": "aman-ex209",
+   "rule_ref": "aman-60",
+   "question": "Mathematics have always been my favourite subject since childhood.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'has' instead of 'have'."
+  },
+  {
+   "source_q_id": "aman-ex210",
+   "rule_ref": "aman-60",
+   "question": "I have seen him using a calculator even for basic calculations so I think that his mathematics is very weak.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'are' instead of 'is'."
+  },
+  {
+   "source_q_id": "aman-ex211",
+   "rule_ref": "aman-61",
+   "question": "Abhishek does not took bus to school everyday because his father drops him while going to work.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'take' instead of 'took'."
+  },
+  {
+   "source_q_id": "aman-ex212",
+   "rule_ref": "aman-61",
+   "question": "His parents got a call from the school because he did not went to school yesterday.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'go' instead of 'went'."
+  },
+  {
+   "source_q_id": "aman-ex213",
+   "rule_ref": "aman-61",
+   "question": "Trisha is play chess with her friends in her room while her younger brother is watching them from a distance.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'playing' instead of 'play'."
+  },
+  {
+   "source_q_id": "aman-ex214",
+   "rule_ref": "aman-61",
+   "question": "The young writer Brian Wiest has already wrote three books and he is working on another one.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'written' instead of 'wrote'."
+  },
+  {
+   "source_q_id": "aman-ex215",
+   "rule_ref": "aman-61",
+   "question": "Shreya was nervous to go to her rich friend's birthday party because she had not ate at such an expensive restaurant before.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'eaten' instead of 'ate'."
+  },
+  {
+   "source_q_id": "aman-ex216",
+   "rule_ref": "aman-61",
+   "question": "She has been worked on this report since eight o'clock this morning.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'working' instead of 'worked'."
+  },
+  {
+   "source_q_id": "aman-ex217",
+   "rule_ref": "aman-62",
+   "question": "Shruti is working as a content writer since 2022.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'has been working' instead of 'is working'."
+  },
+  {
+   "source_q_id": "aman-ex218",
+   "rule_ref": "aman-62",
+   "question": "Mrs. Sharma knows the neighbourhood better than anyone else, as she is living here for the last 20 years.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'has been living here' instead of 'is living here'."
+  },
+  {
+   "source_q_id": "aman-ex219",
+   "rule_ref": "aman-62",
+   "question": "I have been knowing her for the last 5 years.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'have known' instead of 'have been knowing'."
+  },
+  {
+   "source_q_id": "aman-ex220",
+   "rule_ref": "aman-62",
+   "question": "Nalini didn't call me even once since she moved to Australia.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'has not called me' instead of \"didn't call me\"."
+  },
+  {
+   "source_q_id": "aman-ex221",
+   "rule_ref": "aman-63",
+   "question": "As Rohan lives in mountains, he has often gone for a hike with his friends.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Replace 'has often gone' with 'often goes'."
+  },
+  {
+   "source_q_id": "aman-ex222",
+   "rule_ref": "aman-63",
+   "question": "He is seldom leaving his home because he is an introvert.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Replace 'is seldom leaving' with 'seldom leaves'."
+  },
+  {
+   "source_q_id": "aman-ex223",
+   "rule_ref": "aman-64",
+   "question": "I hadn't got any email regarding the job interview yet.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use \"haven't\" instead of \"hadn't\"."
+  },
+  {
+   "source_q_id": "aman-ex224",
+   "rule_ref": "aman-64",
+   "question": "Her children hadn't been well lately, so she is taking them to a doctor.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use \"haven't\" instead of \"hadn't\"."
+  },
+  {
+   "source_q_id": "aman-ex225",
+   "rule_ref": "aman-64",
+   "question": "I never met anyone from India before I started living with my new roommate Sangeeta.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'I had never met' instead of 'I never met'."
+  },
+  {
+   "source_q_id": "aman-ex226",
+   "rule_ref": "aman-64",
+   "question": "The Doctor had arrived after the patient had died from a heart attack.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'arrived' instead of 'had arrived'."
+  },
+  {
+   "source_q_id": "aman-ex227",
+   "rule_ref": "aman-65",
+   "question": "It had rained cats and dogs yesterday, and many slums got flooded with water.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'it rained' instead of 'It had rained'."
+  },
+  {
+   "source_q_id": "aman-ex228",
+   "rule_ref": "aman-65",
+   "question": "I have gone to the cinema with my family last Sunday.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'I went to' instead of 'I have gone to'."
+  },
+  {
+   "source_q_id": "aman-ex229",
+   "rule_ref": "aman-65",
+   "question": "All the arrangements have been made for the party and the guests arrive shortly.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'arrive' instead of 'will arrive'."
+  },
+  {
+   "source_q_id": "aman-ex230",
+   "rule_ref": "aman-65",
+   "question": "We gather more information in the coming days to determine our next step in the case.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'We will gather' instead of 'We gather'."
+  },
+  {
+   "source_q_id": "aman-ex231",
+   "rule_ref": "aman-66",
+   "question": "My mother asked me where I am going.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'I was going' instead of 'I am going'."
+  },
+  {
+   "source_q_id": "aman-ex232",
+   "rule_ref": "aman-66",
+   "question": "The teacher wanted to know if the students have completed their homework.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'had' instead of 'have'."
+  },
+  {
+   "source_q_id": "aman-ex233",
+   "rule_ref": "aman-66",
+   "question": "I will call Shraddha when I will finish my presentation for tomorrow's meeting.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'I finish' instead of 'I will finish'."
+  },
+  {
+   "source_q_id": "aman-ex234",
+   "rule_ref": "aman-66",
+   "question": "You will get a seat in AC compartment only if someone will cancel his ticket.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'cancels' instead of 'will cancel'."
+  },
+  {
+   "source_q_id": "aman-ex235",
+   "rule_ref": "aman-67",
+   "question": "Witnesses told the judge that the suspects already escaped from the back of the store by the time police officers arrived.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Replace 'escaped' with 'had escaped'."
+  },
+  {
+   "source_q_id": "aman-ex236",
+   "rule_ref": "aman-67",
+   "question": "I finished all the household chores by the time my mother woke up.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'had' before 'finished'."
+  },
+  {
+   "source_q_id": "aman-ex237",
+   "rule_ref": "aman-67",
+   "question": "By the time, You come back from market, I will complete my homework.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'will have completed' instead of 'will complete'."
+  },
+  {
+   "source_q_id": "aman-ex238",
+   "rule_ref": "aman-67",
+   "question": "He will have held that position for ten years by the time he will retire.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'retires' instead of 'will retire'."
+  },
+  {
+   "source_q_id": "aman-ex239",
+   "rule_ref": "aman-68",
+   "question": "My parents threw me a big surprise party and invite all of my best friends.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'invited' instead of 'invite'."
+  },
+  {
+   "source_q_id": "aman-ex240",
+   "rule_ref": "aman-68",
+   "question": "Most people bought groceries from the supermarket but we prefer our local shop.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'buy' instead of 'bought'."
+  },
+  {
+   "source_q_id": "aman-ex241",
+   "rule_ref": "aman-68",
+   "question": "I used to go to my grandparents house every summer when I was a kid and every morning we plucks flowers from their garden.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'plucked' instead of 'plucks'."
+  },
+  {
+   "source_q_id": "aman-ex242",
+   "rule_ref": "aman-68",
+   "question": "The judge asked the man if he has stolen five thousand rupees from the bag.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'had' instead of 'has'."
+  },
+  {
+   "source_q_id": "aman-ex243",
+   "rule_ref": "aman-68",
+   "question": "He started a very small business two years ago but it grew very fast as the country is experiencing a boom at that time.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'was experiencing' instead of 'is experiencing'."
+  },
+  {
+   "source_q_id": "aman-ex244",
+   "rule_ref": "aman-68",
+   "question": "Most children like to rest in the afternoon after they returned from school.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'return' instead of 'returned'."
+  },
+  {
+   "source_q_id": "aman-ex245",
+   "rule_ref": "aman-69",
+   "question": "We have already met each other, didn't we?",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'haven't we' instead of 'didn't we'."
+  },
+  {
+   "source_q_id": "aman-ex246",
+   "rule_ref": "aman-69",
+   "question": "The trains in India never come on time, aren't they?",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'do they' instead of 'aren't they'."
+  },
+  {
+   "source_q_id": "aman-ex247",
+   "rule_ref": "aman-69",
+   "question": "The new HR was late on his first day of job, weren't he?",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'wasn't he' instead of 'weren't he'."
+  },
+  {
+   "source_q_id": "aman-ex248",
+   "rule_ref": "aman-69",
+   "question": "An Aspirant should be consistent in his studies, don't he?",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'shouldn't he' instead of 'don't he'."
+  },
+  {
+   "source_q_id": "aman-ex249",
+   "rule_ref": "aman-69",
+   "question": "Let's go for a dinner for our anniversary, will we?",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'shall we' instead of 'will we'."
+  },
+  {
+   "source_q_id": "aman-ex250",
+   "rule_ref": "aman-69",
+   "question": "You haven't seen the film that I recommended to you last week, did you?",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'have you?' instead of 'did you?'."
+  },
+  {
+   "source_q_id": "aman-ex251",
+   "rule_ref": "aman-70",
+   "question": "Everybody has come on time today, hasn't he?",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use \"haven't they?\" instead of \"hasn't he?\"."
+  },
+  {
+   "source_q_id": "aman-ex252",
+   "rule_ref": "aman-70",
+   "question": "None of his colleagues came to his retirement party, have they?",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'did' instead of 'have'."
+  },
+  {
+   "source_q_id": "aman-ex253",
+   "rule_ref": "aman-70",
+   "question": "All of you were present there at the time of accident, weren't they?",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'you?' instead of 'they?'."
+  },
+  {
+   "source_q_id": "aman-ex254",
+   "rule_ref": "aman-71",
+   "question": "You have a long weekend coming up, so either you can go for a vacation or stay at home.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'either' before 'you' and place 'either' before 'go'."
+  },
+  {
+   "source_q_id": "aman-ex255",
+   "rule_ref": "aman-71",
+   "question": "The new teacher teaches them not only mathematics but also provides career counseling to them.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'not only' after 'them' and place 'not only' before 'teaches'."
+  },
+  {
+   "source_q_id": "aman-ex256",
+   "rule_ref": "aman-71",
+   "question": "Both my friend as well as I like to watch hollywood movies in our free time.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'and' instead of 'as well as'."
+  },
+  {
+   "source_q_id": "aman-ex257",
+   "rule_ref": "aman-72",
+   "question": "Hardly had I started having my breakfast than the bell rang.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'when' instead of 'than'."
+  },
+  {
+   "source_q_id": "aman-ex258",
+   "rule_ref": "aman-72",
+   "question": "Scarcely he had entered the office when everyone started laughing.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'Scarcely had he' instead of 'Scarcely he had'."
+  },
+  {
+   "source_q_id": "aman-ex259",
+   "rule_ref": "aman-72",
+   "question": "No sooner had the dance performance ended when the audience started cheering for the dancer.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'than' instead of 'when'."
+  },
+  {
+   "source_q_id": "aman-ex260",
+   "rule_ref": "aman-73",
+   "question": "Though there were many people in the museum but there was pin drop silence.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'yet' instead of 'but'."
+  },
+  {
+   "source_q_id": "aman-ex261",
+   "rule_ref": "aman-73",
+   "question": "Radhika is not so intelligent as she used to be in her 10th standard.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "No error."
+  },
+  {
+   "source_q_id": "aman-ex262",
+   "rule_ref": "aman-73",
+   "question": "Shivam's car is so expensive as mine, but it has a lot more features.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'as expensive as' instead of 'so expensive as'."
+  },
+  {
+   "source_q_id": "aman-ex263",
+   "rule_ref": "aman-74",
+   "question": "The dumbbells were too heavy that he sprained his wrist while lifting them.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'so' instead of 'too'."
+  },
+  {
+   "source_q_id": "aman-ex264",
+   "rule_ref": "aman-74",
+   "question": "Aryan was too tired after the party that he couldn't attend his class the next day.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'so' instead of 'too'."
+  },
+  {
+   "source_q_id": "aman-ex265",
+   "rule_ref": "aman-74",
+   "question": "His marks in 12th class were so low to get admission in a good college.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'too' instead of 'so'."
+  },
+  {
+   "source_q_id": "aman-ex266",
+   "rule_ref": "aman-74",
+   "question": "He was so old to walk on his own therefore he had to carry a cane with him all the time.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'too' instead of 'so'."
+  },
+  {
+   "source_q_id": "aman-ex267",
+   "rule_ref": "aman-75",
+   "question": "The British Raj was the period of British Parliament rule on the Indian subcontinent between 1858 to 1947.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use '1858 and 1947' instead of '1858 to 1947'."
+  },
+  {
+   "source_q_id": "aman-ex268",
+   "rule_ref": "aman-75",
+   "question": "The award function has started and the chief guest will arrive between 9pm to 10pm.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use '9pm and 10pm' instead of '9pm to 10pm'."
+  },
+  {
+   "source_q_id": "aman-ex269",
+   "rule_ref": "aman-75",
+   "question": "Study for 10 hours daily, lest you will fail your medical entrance exam.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'should' instead of 'will'."
+  },
+  {
+   "source_q_id": "aman-ex270",
+   "rule_ref": "aman-76",
+   "question": "I like teaching only such students who are serious about their career.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'as' instead of 'who'."
+  },
+  {
+   "source_q_id": "aman-ex271",
+   "rule_ref": "aman-76",
+   "question": "She is such a bad-tempered person as no one can live with her for long.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'that' instead of 'as'."
+  },
+  {
+   "source_q_id": "aman-ex272",
+   "rule_ref": "aman-76",
+   "question": "It was such a ferocious and brutal animal as everyone preferred to stay away from its cage at the zoo.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'that' instead of 'as'."
+  },
+  {
+   "source_q_id": "aman-ex273",
+   "rule_ref": "aman-77",
+   "question": "As I have lived in Mumbai for a year so, I know how expensive it is.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'so'."
+  },
+  {
+   "source_q_id": "aman-ex274",
+   "rule_ref": "aman-77",
+   "question": "When Shreya was leaving home last night, I asked her that where she was going but she didn't reply and left.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'that'."
+  },
+  {
+   "source_q_id": "aman-ex275",
+   "rule_ref": "aman-77",
+   "question": "Radhika's husband asked her that what she was doing.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'that'."
+  },
+  {
+   "source_q_id": "aman-ex276",
+   "rule_ref": "aman-78",
+   "question": "Until you control your diet, you won't be able to lose fat.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'Unless' instead of 'Until'."
+  },
+  {
+   "source_q_id": "aman-ex277",
+   "rule_ref": "aman-78",
+   "question": "Please promise me that you will wait for me here unless I return.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'Until' instead of 'Unless'."
+  },
+  {
+   "source_q_id": "aman-ex278",
+   "rule_ref": "aman-78",
+   "question": "Yash will not go on the trip unless he does not have enough money for that.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'has' instead of 'does not have'."
+  },
+  {
+   "source_q_id": "aman-ex279",
+   "rule_ref": "aman-79",
+   "question": "The reason she is upset these days is because she broke up with her boyfriend.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'that' instead of 'because'."
+  },
+  {
+   "source_q_id": "aman-ex280",
+   "rule_ref": "aman-79",
+   "question": "The reason Payal could not attend the meeting was because she had a severe headache.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'that' instead of 'because'."
+  },
+  {
+   "source_q_id": "aman-ex281",
+   "rule_ref": "aman-79",
+   "question": "Supposing if you are wrong, will you apologise for all this?",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Only one of the two conjunctions should be used — either 'supposing' or 'if'."
+  },
+  {
+   "source_q_id": "aman-ex282",
+   "rule_ref": "aman-80",
+   "question": "He has all the required skills and lots of money and he dare not start a company.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'yet' instead of 'and'."
+  },
+  {
+   "source_q_id": "aman-ex283",
+   "rule_ref": "aman-80",
+   "question": "She wouldn't have suffered when you had helped her in time.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'if' instead of 'when'."
+  },
+  {
+   "source_q_id": "aman-ex284",
+   "rule_ref": "aman-80",
+   "question": "He has very little money in his account so he offered to help her for her treatment.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'yet' instead of 'so'."
+  },
+  {
+   "source_q_id": "aman-ex285",
+   "rule_ref": "aman-80",
+   "question": "Her husband was very loving and caring although she left him.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'yet' instead of 'although'."
+  },
+  {
+   "source_q_id": "aman-ex286",
+   "rule_ref": "aman-80",
+   "question": "Yamini broke my laptop but I asked her to get it repaired.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'so' instead of 'but'."
+  },
+  {
+   "source_q_id": "aman-ex287",
+   "rule_ref": "aman-80",
+   "question": "I missed my bus as I had to book a taxi to the office.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'so' instead of 'as'."
+  },
+  {
+   "source_q_id": "aman-ex288",
+   "rule_ref": "aman-81",
+   "question": "The play that we are going to perform in the annual event, comprises of total 3 acts.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'of'."
+  },
+  {
+   "source_q_id": "aman-ex289",
+   "rule_ref": "aman-81",
+   "question": "Juhi strongly resembles of her Grandmother in appearance and in temperament.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'of'."
+  },
+  {
+   "source_q_id": "aman-ex290",
+   "rule_ref": "aman-81",
+   "question": "The police are investigating into the murder of the man whose body was found on the highway this morning.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'into'."
+  },
+  {
+   "source_q_id": "aman-ex291",
+   "rule_ref": "aman-81",
+   "question": "Let's discuss about your current situation and try to find a solution.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'about'."
+  },
+  {
+   "source_q_id": "aman-ex292",
+   "rule_ref": "aman-82",
+   "question": "Whenever I visit dominos I always ask to the cook to put extra sauce on my pizza.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'to' after 'ask'."
+  },
+  {
+   "source_q_id": "aman-ex293",
+   "rule_ref": "aman-82",
+   "question": "I want to thank to Reeta for letting me stay at her place when I first came to Mumbai and had no place to go.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'to' after 'thank'."
+  },
+  {
+   "source_q_id": "aman-ex294",
+   "rule_ref": "aman-82",
+   "question": "I was upset because my parents forbade to me from going to the school trip.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'to' after 'forbade'."
+  },
+  {
+   "source_q_id": "aman-ex295",
+   "rule_ref": "aman-82",
+   "question": "I apologized my client for cancelling the meeting at such a short notice.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'to' after 'apologized'."
+  },
+  {
+   "source_q_id": "aman-ex296",
+   "rule_ref": "aman-82",
+   "question": "He proposed his parents that they should go for a family vacation in Kerala.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'to' after 'proposed'."
+  },
+  {
+   "source_q_id": "aman-ex297",
+   "rule_ref": "aman-82",
+   "question": "When my grandfather died I asked the doctor to explain me the cause of his death.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'to me' instead of 'me'."
+  },
+  {
+   "source_q_id": "aman-ex298",
+   "rule_ref": "aman-83",
+   "question": "The semi finale of T20 world cup was stopped because the heavy rain.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'because of' instead of 'because'."
+  },
+  {
+   "source_q_id": "aman-ex299",
+   "rule_ref": "aman-83",
+   "question": "I love the spring season, because of the blossoming flowers and the green leaves fill my heart with joy.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'because' instead of 'because of'."
+  },
+  {
+   "source_q_id": "aman-ex300",
+   "rule_ref": "aman-83",
+   "question": "Everyone bought groceries in bulk during covid in case of the lockdown gets extended.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'in case' instead of 'in case of'."
+  },
+  {
+   "source_q_id": "aman-ex301",
+   "rule_ref": "aman-83",
+   "question": "You can call me anytime in case any emergency.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'in case of' instead of 'in case'."
+  },
+  {
+   "source_q_id": "aman-ex302",
+   "rule_ref": "aman-84",
+   "question": "Inspite of buying a new car, I decided to use my father's old vintage car.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'instead of' instead of 'in spite of'."
+  },
+  {
+   "source_q_id": "aman-ex303",
+   "rule_ref": "aman-84",
+   "question": "Instead of the financial difficulties, they never borrowed any money from family or friends.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'in spite of' instead of 'instead of'."
+  },
+  {
+   "source_q_id": "aman-ex304",
+   "rule_ref": "aman-84",
+   "question": "Despite of facing a lot of criticism, Tobey continued his struggle of becoming an actor.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'of' after 'Despite'."
+  },
+  {
+   "source_q_id": "aman-ex305",
+   "rule_ref": "aman-85",
+   "question": "It is clear that my bag is superior but cheaper than yours.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'to' after 'superior'."
+  },
+  {
+   "source_q_id": "aman-ex306",
+   "rule_ref": "aman-85",
+   "question": "Once I hand over the keys to you, I won't be liable for any loss and damage to this car.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use the preposition 'of' after 'loss'."
+  },
+  {
+   "source_q_id": "aman-ex307",
+   "rule_ref": "aman-86",
+   "question": "My mother stood among me and my brother and told us to stop fighting with each other.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'between' instead of 'among'."
+  },
+  {
+   "source_q_id": "aman-ex308",
+   "rule_ref": "aman-86",
+   "question": "The railway authority warned us to keep our belongings safe as there could be pickpockets between the passengers.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'among' instead of 'between'."
+  },
+  {
+   "source_q_id": "aman-ex309",
+   "rule_ref": "aman-86",
+   "question": "A new peace agreement has been signed among India, China, Pakistan and Sri lanka.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'between' instead of 'among'."
+  },
+  {
+   "source_q_id": "aman-ex310",
+   "rule_ref": "aman-87",
+   "question": "I was angry at my mother for not telling me about her disease earlier.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'with' instead of 'at'."
+  },
+  {
+   "source_q_id": "aman-ex311",
+   "rule_ref": "aman-87",
+   "question": "I was angry with my new phone's performance because it stopped working when I needed it the most.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'at' instead of 'with'."
+  },
+  {
+   "source_q_id": "aman-ex312",
+   "rule_ref": "aman-88",
+   "question": "Shruti started a new business with her brother in which she supplies stationery with all the schools in her town.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'stationery to all' instead of 'stationery with all'."
+  },
+  {
+   "source_q_id": "aman-ex313",
+   "rule_ref": "aman-88",
+   "question": "When my brother was quarantined during covid outbreak, I supplied him to food and medicines.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'with food' instead of 'to food'."
+  },
+  {
+   "source_q_id": "aman-ex314",
+   "rule_ref": "aman-88",
+   "question": "I supply medicines to homeless people to their treatment.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'for their' instead of 'to their'."
+  },
+  {
+   "source_q_id": "aman-ex315",
+   "rule_ref": "aman-89",
+   "question": "Rohan was accused for theft and fraud by the company he was working in.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'of theft' instead of 'for theft'."
+  },
+  {
+   "source_q_id": "aman-ex316",
+   "rule_ref": "aman-89",
+   "question": "She has not been coming to office for a week because she is still coping up with her mother's death.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'coping with' instead of 'coping up with'."
+  },
+  {
+   "source_q_id": "aman-ex317",
+   "rule_ref": "aman-89",
+   "question": "You should dispose off all the extra items that you have not used in the last 2 years.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'of' instead of 'off'."
+  },
+  {
+   "source_q_id": "aman-ex318",
+   "rule_ref": "aman-89",
+   "question": "Neha cannot go to the jungle for camping as she is afraid from wild animals.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'of' instead of 'from'."
+  },
+  {
+   "source_q_id": "aman-ex319",
+   "rule_ref": "aman-89",
+   "question": "Your curry tastes different than the one we had at your mother's house.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'from' instead of 'than'."
+  },
+  {
+   "source_q_id": "aman-ex320",
+   "rule_ref": "aman-90",
+   "question": "Sudhir was upset about losing his job but he had no one to talk.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Add 'to' after 'to talk'."
+  },
+  {
+   "source_q_id": "aman-ex321",
+   "rule_ref": "aman-90",
+   "question": "He lives with his parents because he has several health problems and needs someone to rely.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Add 'on' after 'to rely'."
+  },
+  {
+   "source_q_id": "aman-ex322",
+   "rule_ref": "aman-91",
+   "question": "Walking in the park, a snake bit him.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'While he was' before 'Walking in the park'."
+  },
+  {
+   "source_q_id": "aman-ex323",
+   "rule_ref": "aman-91",
+   "question": "Walking down the road, a car caught Rohit's attention.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'While he was' before 'Walking down the road'."
+  },
+  {
+   "source_q_id": "aman-ex324",
+   "rule_ref": "aman-91",
+   "question": "Climbing the mountain, different types of animals were seen by the hikers.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'While they were' before 'Climbing the mountain,'."
+  },
+  {
+   "source_q_id": "aman-ex325",
+   "rule_ref": "aman-91",
+   "question": "Travelling through the metro, her mobile went missing.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'While she was' before 'Travelling through'."
+  },
+  {
+   "source_q_id": "aman-ex326",
+   "rule_ref": "aman-92",
+   "question": "Being injured, we took him to hospital.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'He' before 'Being'."
+  },
+  {
+   "source_q_id": "aman-ex327",
+   "rule_ref": "aman-92",
+   "question": "Being hospitalized, Radhika's parents took good care of her.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'She' before 'Being hospitalized,'."
+  },
+  {
+   "source_q_id": "aman-ex328",
+   "rule_ref": "aman-92",
+   "question": "Being strong, his mother called him to help with all the lifting while shifting to a new place.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'He' before 'Being'."
+  },
+  {
+   "source_q_id": "aman-ex329",
+   "rule_ref": "aman-92",
+   "question": "Being sick for 3 days during covid, Sanjana told her roommate to quarantine herself.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'She' before 'Being'."
+  },
+  {
+   "source_q_id": "aman-ex330",
+   "rule_ref": "aman-93",
+   "question": "Having played for 2 hours, he went home.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "No error."
+  },
+  {
+   "source_q_id": "aman-ex331",
+   "rule_ref": "aman-93",
+   "question": "Completing the assignment, Suhani lay on the sofa to rest.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'After completing/Having completed' instead of 'Completing'."
+  },
+  {
+   "source_q_id": "aman-ex332",
+   "rule_ref": "aman-93",
+   "question": "Sleeping for 2 hours, she woke up and started the work again.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'After sleeping/Having slept' instead of 'Sleeping'."
+  },
+  {
+   "source_q_id": "aman-ex333",
+   "rule_ref": "aman-93",
+   "question": "Having caught, the thief admitted stealing a woman's purse in the train.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'Having been caught' instead of 'Having caught'."
+  },
+  {
+   "source_q_id": "aman-ex334",
+   "rule_ref": "aman-94",
+   "question": "All of us are looking forward to join his new company.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'joining' instead of 'join'."
+  },
+  {
+   "source_q_id": "aman-ex335",
+   "rule_ref": "aman-94",
+   "question": "He was not accustomed to work at night therefore he felt uncomfortable here.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'working' instead of 'work'."
+  },
+  {
+   "source_q_id": "aman-ex336",
+   "rule_ref": "aman-94",
+   "question": "I prefer watching Hollywood movies than reading novels.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'to' instead of 'than'."
+  },
+  {
+   "source_q_id": "aman-ex337",
+   "rule_ref": "aman-95",
+   "question": "He decided going on a trip to Manali with his family during his winter vacation.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'to go' instead of 'going'."
+  },
+  {
+   "source_q_id": "aman-ex338",
+   "rule_ref": "aman-95",
+   "question": "She failed meeting the deadline of submitting the assignment and got zero marks.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'to meet' instead of 'meeting'."
+  },
+  {
+   "source_q_id": "aman-ex339",
+   "rule_ref": "aman-95",
+   "question": "Shruti was tensed because she forgot bringing her laptop to the meeting.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'to bring' instead of 'bringing'."
+  },
+  {
+   "source_q_id": "aman-ex340",
+   "rule_ref": "aman-95",
+   "question": "Satvik leaves for the airports hours before his flight because he detests to wait in long queues.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'waiting' instead of 'to wait'."
+  },
+  {
+   "source_q_id": "aman-ex341",
+   "rule_ref": "aman-95",
+   "question": "She avoids to eat junk food since she got diagnosed with stomach ulcers.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'eating' instead of 'to eat'."
+  },
+  {
+   "source_q_id": "aman-ex342",
+   "rule_ref": "aman-95",
+   "question": "After getting fired from her job, she's considering to follow her dream of becoming a dancer.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'following' instead of 'to follow'."
+  },
+  {
+   "source_q_id": "aman-ex343",
+   "rule_ref": "aman-96",
+   "question": "She lets his brother to borrow her car whenever he needs to go to work.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'to' before 'borrow'."
+  },
+  {
+   "source_q_id": "aman-ex344",
+   "rule_ref": "aman-96",
+   "question": "We heard him to say very mean things about your wife and parents.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'to' before 'say'."
+  },
+  {
+   "source_q_id": "aman-ex345",
+   "rule_ref": "aman-96",
+   "question": "We saw him to cross the road with his children.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'to' before 'cross'."
+  },
+  {
+   "source_q_id": "aman-ex346",
+   "rule_ref": "aman-97",
+   "question": "The coach made the players to practise every day for the upcoming championship.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'to' before 'practise'."
+  },
+  {
+   "source_q_id": "aman-ex347",
+   "rule_ref": "aman-97",
+   "question": "The director had the actors rehearsed their lines thoroughly before starting the shoot.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'rehearse' instead of 'rehearsed'."
+  },
+  {
+   "source_q_id": "aman-ex348",
+   "rule_ref": "aman-97",
+   "question": "Ranjan had the cook prepared a special meal for the guests at his birthday party.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'prepare' instead of 'prepared'."
+  },
+  {
+   "source_q_id": "aman-ex349",
+   "rule_ref": "aman-97",
+   "question": "Anaya got her car to repair by the mechanic after it broke down on the highway.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'repaired' instead of 'to repair'."
+  },
+  {
+   "source_q_id": "aman-ex350",
+   "rule_ref": "aman-97",
+   "question": "The chef had the food tasting by his assistants before serving it to the guests.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'tasted' instead of 'tasting'."
+  },
+  {
+   "source_q_id": "aman-ex351",
+   "rule_ref": "aman-97",
+   "question": "I got my presentation to review by my supervisor before the meeting to ensure it had no errors.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'reviewed' instead of 'to review'."
+  },
+  {
+   "source_q_id": "aman-ex352",
+   "rule_ref": "aman-98",
+   "question": "If you will finish the project on time, the boss will definitely consider giving you a promotion.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Remove 'will' before 'finish'."
+  },
+  {
+   "source_q_id": "aman-ex353",
+   "rule_ref": "aman-98",
+   "question": "If I was the president of the USA, I would surely help the poor countries of Africa.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were' instead of 'was'."
+  },
+  {
+   "source_q_id": "aman-ex354",
+   "rule_ref": "aman-98",
+   "question": "If Abhishek had completed his degree in engineering, they might hire him.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'might have hired' instead of 'might hire'."
+  },
+  {
+   "source_q_id": "aman-ex355",
+   "rule_ref": "aman-99",
+   "question": "If I had been his father, I would have taught him a lesson for his indecent behaviour.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were' instead of 'had been'."
+  },
+  {
+   "source_q_id": "aman-ex356",
+   "rule_ref": "aman-99",
+   "question": "If she had been from the USA, she would have got opportunities that she deserved.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were' instead of 'had been'."
+  },
+  {
+   "source_q_id": "aman-ex357",
+   "rule_ref": "aman-99",
+   "question": "If Juhi had asked her classmates for help that day, she could have been alive today.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'could be' instead of 'could have been'."
+  },
+  {
+   "source_q_id": "aman-ex358",
+   "rule_ref": "aman-100",
+   "question": "I wish I know how to solve this complex maths problem.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'knew' instead of 'know'."
+  },
+  {
+   "source_q_id": "aman-ex359",
+   "rule_ref": "aman-100",
+   "question": "I wish I was more fluent in expressing my thoughts and emotions.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'were' instead of 'was'."
+  },
+  {
+   "source_q_id": "aman-ex360",
+   "rule_ref": "aman-100",
+   "question": "I wish I listened to my parents' advice about saving money when my company was making good profits.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Use 'had' before 'listened'."
+  },
+  {
+   "source_q_id": "aman-exp1",
+   "rule_ref": "aman-100",
+   "question": "While driving to work, a truck hit her car and caused a lot of damage.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Practice question; no answer given in the source."
+  },
+  {
+   "source_q_id": "aman-exp2",
+   "rule_ref": "aman-100",
+   "question": "She started doing yoga with a view to improve her physical and mental health.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Practice question; no answer given in the source."
+  },
+  {
+   "source_q_id": "aman-exp3",
+   "rule_ref": "aman-100",
+   "question": "The managing director of the company deferred to make the decision about launching any new product.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Practice question; no answer given in the source."
+  },
+  {
+   "source_q_id": "aman-exp4",
+   "rule_ref": "aman-100",
+   "question": "We would have adjusted our plans accordingly, If we were informed about the changes.",
+   "options": [],
+   "answer_idx": null,
+   "explanation": "Practice question; no answer given in the source."
+  }
+ ]
+}

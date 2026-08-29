@@ -15,6 +15,9 @@ server.log
 .env.local
 .env.*.local
 .wrangler/
+scripts/.env
+scripts/jwt_secret.txt
+**/jwt_secret.txt
 
 # OS / editor
 .DS_Store

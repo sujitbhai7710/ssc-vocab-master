@@ -1,0 +1,605 @@
+[
+ {
+  "id": "nar-1",
+  "no": 1,
+  "title": "Assertive / Statement Sentences",
+  "concept": "An assertive (statement) sentence simply states a fact or opinion. In indirect speech the inverted commas are removed and the statement is joined to the reporting verb by the conjunction 'that'. The reporting verb, pronouns, tenses and words showing nearness of time and place are then adjusted according to fixed rules.",
+  "rules": [
+   "Reporting verb: 'say/says/said' remains 'say/says/said' when no listener (object) is mentioned — He said that... . When a listener is mentioned, 'said to' changes to 'told' — He said to me -> He told me. Remember: 'tell' takes a direct object without preposition (told me), while 'say' needs 'to' (said to me). Other reporting verbs like 'replied', 'informed', 'complained', 'explained', 'remarked' are retained as they are and are followed by 'that'.",
+   "Conjunction: remove the quotation marks and comma, and join the reported speech with 'that'. 'That' may be omitted in informal writing, but in SSC exams the option containing 'that' is normally correct for assertive sentences. Never use inverted commas in the indirect form.",
+   "Pronoun change (SON rule): first person pronouns (I, we, me, us, my, our) change according to the SUBJECT of the reporting verb; second person pronouns (you, your, yours) change according to the OBJECT of the reporting verb; third person pronouns (he, she, it, they) remain UNCHANGED. Example: He said to me, 'I like your book.' -> He told me that he liked my book.",
+   "Tense backshift (only when the reporting verb is in the PAST tense): Simple Present -> Simple Past; Present Continuous -> Past Continuous; Present Perfect -> Past Perfect; Simple Past -> Past Perfect; Past Continuous -> Past Perfect Continuous; Present Perfect Continuous -> Past Perfect Continuous; 'will/shall' -> 'would/should', 'can' -> 'could', 'may' -> 'might', 'must' -> 'had to/must'. Past Perfect and Past Perfect Continuous do not change further. If the reporting verb is in the Present or Future tense, the tense of the reported speech remains UNCHANGED.",
+   "No backshift exceptions: keep the original tense when the reported speech expresses a universal truth, habitual fact, scientific law, proverb, historical fact, or a statement still true at the time of reporting — He said that honesty is the best policy. Also change words of nearness to distance: now->then, today->that day, tomorrow->the next day, yesterday->the previous day, here->there, this->that, these->those, ago->before, thus->so, hence->thence."
+  ],
+  "examples": [
+   {
+    "direct": "He said, \"I am busy today.\"",
+    "indirect": "He said that he was busy that day.",
+    "note": "No listener mentioned, so 'said' stays 'said'; 'I' changes to 'he' (subject rule), Present Continuous 'am' -> 'was', and 'today' -> 'that day'."
+   },
+   {
+    "direct": "She said to me, \"I have finished your work.\"",
+    "indirect": "She told me that she had finished my work.",
+    "note": "'said to me' -> 'told me'; 'I' -> 'she' (per subject), 'your' -> 'my' (per object), Present Perfect 'have finished' -> Past Perfect 'had finished'."
+   },
+   {
+    "direct": "The teacher said, \"The earth revolves round the sun.\"",
+    "indirect": "The teacher said that the earth revolves round the sun.",
+    "note": "Universal/scientific truth, so the Simple Present tense is NOT backshifted even though the reporting verb is past."
+   },
+   {
+    "direct": "Ravi says, \"I will help my brother tomorrow.\"",
+    "indirect": "Ravi says that he will help his brother tomorrow.",
+    "note": "Reporting verb is in the Present tense ('says'), so the tense and the time-word 'tomorrow' remain unchanged; only the pronouns shift."
+   }
+  ],
+  "questionIds": [
+   "narration_56",
+   "narration_70",
+   "narration_2",
+   "narration_5",
+   "narration_11",
+   "narration_152",
+   "narration_161",
+   "narration_226"
+  ]
+ },
+ {
+  "id": "nar-2",
+  "no": 2,
+  "title": "Interrogative Sentences",
+  "concept": "When a direct speech sentence is a question, the reporting verb 'said' changes to 'asked' (or enquired/demanded of) and the question is turned into a statement inside the reported clause. Two link words are possible: 'if/whether' for yes-no questions and the WH-word itself for WH-questions; 'that' is never used. The inverted question word order (auxiliary before subject) is removed, the question mark is replaced by a full stop, and the usual rules of tense, pronoun and time-place change still apply.",
+  "rules": [
+   "Reporting verb change: 'said to' becomes 'asked' / 'enquired of' / 'demanded of'. If 'said' has no object, add one where the sense requires it (He said to me -> He asked me). The question mark of direct speech is always replaced by a full stop, because the reported clause is now a statement, not a question.",
+   "Yes/No questions (those beginning with an auxiliary or modal such as is/am/are/was/were/do/does/did/have/has/had/can/could/will/would/shall/should/may/must) are joined with 'if' or 'whether'. Example pattern: He said to me, 'Are you ill?' -> He asked me if I was ill. Use 'whether' (not 'if') when the sentence contains 'or not' or offers a choice: She asked whether I would go or not.",
+   "WH-questions (what, who, whom, whose, which, when, where, why, how, how much/many/long) keep the WH-word itself as the connective; do NOT add 'if/whether' and never add 'that'. Pattern: She said to him, 'Where do you live?' -> She asked him where he lived.",
+   "Word-order change (auxiliary inversion removal) is compulsory: the reported clause must follow Subject + Verb order. 'Do/does/did' used only as question-makers disappear and their tense is transferred to the main verb — 'Where do you go?' -> where he went; 'Why did she cry?' -> why she had cried. Other auxiliaries simply move after the subject — 'is he' -> he was, 'can you' -> he could, 'have you' -> he had. Note: if the WH-word is itself the subject (Who broke the glass?), the order is already S+V, so only tense/pronoun change: He asked who had broken the glass.",
+   "All ordinary narration rules continue to operate inside the question: pronouns change according to the SON rule (Subject-Object-None), tense back-shifts if the reporting verb is past (present -> past, past -> past perfect, will -> would, can -> could, may -> might), and words of time and place change (now -> then, today -> that day, here -> there, this -> that, tomorrow -> the next day). Universal truths, habitual facts and the reporting verb in present/future tense keep the tense unchanged: He asks me why I am late."
+  ],
+  "examples": [
+   {
+    "direct": "He said to me, \"Do you know the way to the station?\"",
+    "indirect": "He asked me if I knew the way to the station.",
+    "note": "Yes/no question -> 'if'; the question-maker 'do' vanishes and its present tense passes to the main verb (know -> knew). Pronoun 'you' -> 'I' (object of reporting verb), question mark -> full stop."
+   },
+   {
+    "direct": "The teacher said to the boys, \"Why are you making a noise here now?\"",
+    "indirect": "The teacher asked the boys why they were making a noise there then.",
+    "note": "WH-question -> WH-word is the connective (no 'that', no 'if'). Inversion removed: 'are you' -> 'they were'; here -> there, now -> then."
+   },
+   {
+    "direct": "She said to him, \"Have you finished your homework or not?\"",
+    "indirect": "She asked him whether he had finished his homework or not.",
+    "note": "With 'or not' only 'whether' is correct. Present perfect (have finished) back-shifts to past perfect (had finished); 'your' -> 'his'."
+   },
+   {
+    "direct": "My friend said, \"Who is knocking at the door? What shall I do?\"",
+    "indirect": "My friend asked who was knocking at the door and what he should do.",
+    "note": "When the WH-word is itself the subject (who), the order stays S+V. Two questions are joined by 'and' with 'asked' understood; shall -> should, 'I' -> 'he' (subject of reporting verb)."
+   }
+  ],
+  "questionIds": [
+   "narration_88",
+   "narration_92",
+   "narration_100",
+   "narration_48",
+   "narration_51",
+   "narration_60",
+   "narration_62",
+   "narration_69",
+   "narration_72",
+   "narration_73",
+   "narration_76",
+   "narration_80",
+   "narration_32",
+   "narration_39",
+   "narration_1",
+   "narration_3",
+   "narration_6",
+   "narration_10",
+   "narration_119",
+   "narration_126",
+   "narration_139",
+   "narration_141",
+   "narration_147",
+   "narration_150",
+   "narration_151",
+   "narration_156",
+   "narration_158",
+   "narration_159",
+   "narration_160",
+   "narration_181",
+   "narration_188",
+   "narration_193",
+   "narration_167",
+   "narration_171",
+   "narration_176",
+   "narration_221",
+   "narration_227",
+   "narration_230",
+   "narration_231",
+   "narration_203"
+  ]
+ },
+ {
+  "id": "nar-3",
+  "no": 3,
+  "title": "Imperative Sentences",
+  "concept": "An imperative sentence expresses a command, order, request, advice, entreaty, warning, suggestion or prohibition, and its verb is always in the base form (V1). In indirect speech the imperative verb is changed into the infinitive ('to + V1'), and the neutral reporting verb 'said to' is replaced by a verb that matches the tone of the speech - ordered, commanded, requested, advised, begged, warned, suggested, etc. No conjunction 'that' is used (except with 'let' used for a suggestion), and the reporting verb must always take an object (told him, ordered them, requested me). All the usual changes of pronoun, tense-free infinitive and words of time/place still apply.",
+  "rules": [
+   "Change the imperative verb into 'to + base verb' and drop the conjunction 'that'. The reporting verb 'said to' must be replaced according to the mood of the sentence: order/command -> ordered, commanded; request -> requested; advice -> advised; entreaty -> begged, implored, entreated; warning -> warned, cautioned; permission -> permitted, allowed; prohibition -> forbade. Example: He said to me, 'Sit down.' -> He ordered me to sit down.",
+   "The reporting verb of an imperative must have an object (a person addressed). If the direct speech has no object after 'said', supply one from the context - 'said' becomes 'told/ordered/requested + me/him/her/them'. A vocative (Ram, boys, mother, sir) inside the quotation becomes that object: He said, 'Boys, keep quiet.' -> He ordered the boys to keep quiet. Respectful words like 'Sir/Madam' are shown as 'respectfully' or 'addressing him as sir'.",
+   "Courtesy words such as please, kindly, do (emphatic), pray, for God's sake are NOT reported; instead the reporting verb becomes requested / begged / implored. Example: He said to me, 'Please help me.' -> He requested me to help him. ('Kindly' may be kept as 'kindly' only with 'requested' in some styles, but the safe SSC answer is to omit it.)",
+   "For a negative imperative (Do not / Don't / Never / No + verb), use 'not to + verb' (or 'forbade ... to + verb', without 'not'). Example: She said to him, 'Don't waste your time here.' -> She advised/told him not to waste his time there. OR She forbade him to waste his time there. Note that 'Never' may be reported as 'never to + verb'.",
+   "'Let' type imperatives have two patterns. (a) 'Let us / Let's' expressing a proposal or suggestion -> suggested/proposed + that + we/they should + V1: He said, 'Let us play cricket.' -> He suggested that they should play cricket. (b) 'Let' expressing permission, request, wish or a third-person command -> use 'might/should be allowed to' or 'to be allowed to' with a suitable reporting verb: He said to me, 'Let me go home.' -> He requested me to let him go home / He asked me that he might be allowed to go home. In exclamatory wishes, 'Let him die!' -> He wished that he might die."
+  ],
+  "examples": [
+   {
+    "direct": "The officer said to the peon, \"Bring me a glass of water at once.\"",
+    "indirect": "The officer ordered the peon to bring him a glass of water at once.",
+    "note": "Command tone -> 'ordered'; verb 'bring' -> 'to bring'; 'me' -> 'him'; no 'that' is used."
+   },
+   {
+    "direct": "The doctor said to my father, \"Do not smoke here after this day.\"",
+    "indirect": "The doctor advised my father not to smoke there after that day.",
+    "note": "Advice -> 'advised'; negative imperative -> 'not to + V1'; here -> there, after this day -> after that day. Alternative: forbade my father to smoke there."
+   },
+   {
+    "direct": "He said, \"Please lend me your dictionary for a day, Mohan.\"",
+    "indirect": "He requested Mohan to lend him his dictionary for a day.",
+    "note": "'Please' is dropped and expressed through 'requested'; the vocative 'Mohan' becomes the object of the reporting verb; your -> his (speaker-based shift), me -> him."
+   },
+   {
+    "direct": "Rahul said to his friends, \"Let us go to the cinema tonight.\"",
+    "indirect": "Rahul suggested to his friends that they should go to the cinema that night.",
+    "note": "'Let us' = proposal, so 'suggested/proposed + that + they should + V1' - this is the only imperative pattern that keeps 'that'; tonight -> that night."
+   }
+  ],
+  "questionIds": [
+   "narration_87",
+   "narration_98",
+   "narration_99",
+   "narration_42",
+   "narration_47",
+   "narration_49",
+   "narration_21",
+   "narration_4",
+   "narration_9",
+   "narration_19",
+   "narration_102",
+   "narration_103",
+   "narration_117",
+   "narration_120",
+   "narration_121",
+   "narration_123",
+   "narration_127",
+   "narration_128",
+   "narration_129",
+   "narration_135",
+   "narration_136",
+   "narration_137",
+   "narration_140",
+   "narration_146",
+   "narration_149",
+   "narration_186",
+   "narration_194",
+   "narration_198",
+   "narration_162",
+   "narration_165",
+   "narration_166",
+   "narration_168",
+   "narration_178",
+   "narration_180",
+   "narration_232",
+   "narration_214",
+   "narration_216"
+  ]
+ },
+ {
+  "id": "nar-4",
+  "no": 4,
+  "title": "Exclamatory Sentences",
+  "concept": "Exclamatory sentences express sudden emotion — joy, sorrow, surprise, contempt, regret or wonder — and end with an exclamation mark. In Indirect Speech the exclamation is destroyed: the reporting verb 'said' is replaced by 'exclaimed with joy/sorrow/surprise/contempt', 'cried out', 'wished' or 'applauded', and the emotion carried by the interjection is absorbed into that reporting verb. The whole exclamation is then reported as a plain statement introduced by the conjunction 'that', with normal subject-verb word order and no exclamation mark.",
+  "rules": [
+   "Change the reporting verb to suit the emotion, then join with 'that': said → 'exclaimed with joy' (Hurrah!, Bravo!, Wow!), 'exclaimed with sorrow/grief' (Alas!, Ah!, Oh dear!), 'exclaimed with surprise/wonder' (What!, Oh!, Lo!, How strange!), 'exclaimed with contempt/disgust' (Pooh!, Fie!, Ugh!), 'exclaimed with relief' (Thank God!) and 'exclaimed with anger' (Damn!). SSC papers most often test Alas! → exclaimed with sorrow/grief and Hurrah! → exclaimed with joy.",
+   "Drop the interjection and the exclamation mark completely. Words like Alas, Hurrah, Bravo, Oh, Ah, Pooh, What, How (as exclamations) are NOT written in Indirect Speech — their meaning has already been transferred to the reporting verb. Replacing '!' with a full stop is compulsory; keeping the interjection or the '!' is the commonest error in the exam.",
+   "Exclamatory 'What' and 'How' become 'that' + an intensifier such as 'very', 'great' or 'a great deal of', because 'that' cannot carry emotion by itself: 'What a fool he is!' → 'that he was a great fool'; 'How beautiful the scene is!' → 'that the scene was very beautiful'; 'How he suffered!' → 'that he suffered a great deal'. Also invert any exclamatory word order back to Subject + Verb, e.g. 'What a shame it is!' → 'that it was a great shame'.",
+   "Apply the usual rules of Narration along with the above: back-shift the tense (is → was, has → had, will → would), and change pronouns, adjectives and adverbs of time/place according to sense (this → that, here → there, today → that day, now → then). Universal truths and habitual facts, however, keep their present tense.",
+   "Optative/wish-type exclamations (beginning with 'May', 'Would that', 'If only') use 'wished/prayed that' — 'May you live long!' → 'He wished that I might live long.' Sentences of praise use 'applauded/praised', and greetings like 'Good morning!' become 'wished me good morning'. Note that 'Alas!' may also be reported as 'exclaimed sorrowfully' or 'cried out in grief' — all are accepted."
+  ],
+  "examples": [
+   {
+    "direct": "He said, \"Alas! I have lost my purse.\"",
+    "indirect": "He exclaimed with sorrow that he had lost his purse.",
+    "note": "'Alas!' is absorbed into 'exclaimed with sorrow'; the interjection and '!' are dropped and 'have lost' back-shifts to 'had lost'."
+   },
+   {
+    "direct": "She said, \"Hurrah! We have won the match.\"",
+    "indirect": "She exclaimed with joy that they had won the match.",
+    "note": "'Hurrah!' → 'exclaimed with joy'; the pronoun 'We' becomes 'they' as the speaker is reported in the third person."
+   },
+   {
+    "direct": "The teacher said, \"What a brilliant answer this is!\"",
+    "indirect": "The teacher exclaimed with surprise that that was a very brilliant answer.",
+    "note": "Exclamatory 'What a' → 'that' + intensifier 'very'; word order becomes Subject + Verb and 'this' changes to 'that'."
+   },
+   {
+    "direct": "He said to me, \"May God bless you!\"",
+    "indirect": "He wished that God might bless me.",
+    "note": "Optative exclamations take 'wished/prayed that'; 'may' becomes 'might' and 'you' becomes 'me'."
+   }
+  ],
+  "questionIds": [
+   "narration_97",
+   "narration_7",
+   "narration_130",
+   "narration_133",
+   "narration_144",
+   "narration_145",
+   "narration_191",
+   "narration_164",
+   "narration_205"
+  ]
+ },
+ {
+  "id": "nar-5",
+  "no": 5,
+  "title": "Reporting Verb & Tense Backshift Rules",
+  "concept": "The reporting verb decides whether the reported speech shifts its tense. If the reporting verb is in the Present or Future tense, the tense of the reported speech never changes; only pronouns and time/place words adjust. If the reporting verb is in the Past tense, the reported speech normally moves one step back (Present to Past, Past to Past Perfect) — this is called backshift. Certain fixed cases (universal truths, habitual facts, historical facts, already-perfect tenses) resist backshift even after a past reporting verb.",
+  "rules": [
+   "Reporting verb in PRESENT or FUTURE (says, say, will say, has said, tells, will tell) = NO tense change in the reported speech. Only pronouns change as required. Direct: He says, 'I am tired.' Indirect: He says that he is tired. Direct: She will say, 'I have finished it.' Indirect: She will say that she has finished it. Note that 'has said / have said' is present perfect and therefore also blocks backshift.",
+   "Reporting verb in PAST (said, told, replied, asked, exclaimed) = BACKSHIFT one step: Simple Present to Simple Past (eat > ate); Present Continuous to Past Continuous (is eating > was eating); Present Perfect to Past Perfect (has eaten > had eaten); Present Perfect Continuous to Past Perfect Continuous (has been eating > had been eating); Simple Past to Past Perfect (ate > had eaten); Past Continuous to Past Perfect Continuous (was eating > had been eating). Modals shift too: will>would, shall>should/would, can>could, may>might, must>had to/must, is/am/are going to > was/were going to.",
+   "NO BACKSHIFT after a past reporting verb in these fixed cases: (a) universal truths and scientific facts — He said that the sun rises in the east; (b) habitual actions / permanent general facts — She said that she takes a walk every morning; (c) historical facts and dates — The teacher said that India became independent in 1947; (d) proverbs and maxims — He said that honesty is the best policy; (e) hypothetical / unreal conditionals and wishes with 'if I were / I wish I were / as if' — He said that if he were rich he would travel the world; (f) sentences with 'used to', 'ought to', 'should' (advice), 'could' (past ability), 'would' (habit), 'must' (obligation/deduction), 'had better', 'need not' — these have no further past form and stay unchanged.",
+   "NO BACKSHIFT when the reported speech is ALREADY in the PAST PERFECT or PAST PERFECT CONTINUOUS, because there is no tense further back. Direct: He said, 'I had completed the work before she came.' Indirect: He said that he had completed the work before she came. Similarly, a Simple Past inside a time clause introduced by when/while/after/before/as soon as usually stays as it is to preserve the sequence: He said, 'When I reached home, my father was sleeping.' > He said that when he reached home his father was sleeping.",
+   "CHANGING THE REPORTING VERB to suit the sense: (a) 'say' takes NO object — He said that...; 'tell' MUST take an object — He told me that... (never 'he told that' or 'he said me that'); (b) say to / said to + object + assertive sentence becomes 'told' — He said to me > He told me; (c) in questions, said/asked becomes 'asked / enquired of / demanded of'; in commands and requests it becomes 'ordered / commanded / told / requested / advised / warned / forbade / urged'; in exclamations it becomes 'exclaimed with joy / sorrow / surprise / wonder'; in wishes 'wished / prayed'; (d) when a reply is reported use 'replied / answered'; when two statements are joined, repeat the linker: He told me that he was busy and that he would come later.",
+   "CONJUNCTION AND PRONOUN SUPPORT: use 'that' for statements and exclamations, 'if/whether' for yes-no questions, the same wh-word for wh-questions, and 'to / not to' for imperatives. Pronouns change by the rule SON — Subject of reporting verb governs First person, Object governs Second person, Third person stays unchanged. Time and place words shift only when the reporting verb is past: now>then, today>that day, tonight>that night, yesterday>the previous day/the day before, tomorrow>the next day/the following day, last night>the previous night, next week>the following week, ago>before, here>there, this>that, these>those, thus>so, come>go."
+  ],
+  "examples": [
+   {
+    "direct": "He says, \"I have not seen the film yet.\"",
+    "indirect": "He says that he has not seen the film yet.",
+    "note": "Reporting verb 'says' is present, so 'have not seen' stays present perfect and 'yet' is not changed. Only the pronoun I > he shifts."
+   },
+   {
+    "direct": "The teacher said, \"Water boils at 100 degrees Celsius, and I explained this yesterday.\"",
+    "indirect": "The teacher said that water boils at 100 degrees Celsius and that he had explained that the previous day.",
+    "note": "Two-part rule: the universal truth 'boils' does NOT backshift, but the ordinary past 'explained' becomes 'had explained' and 'yesterday' becomes 'the previous day'. 'that' is repeated before the second clause."
+   },
+   {
+    "direct": "Ravi said to me, \"I had finished my homework before you called me.\"",
+    "indirect": "Ravi told me that he had finished his homework before I called him.",
+    "note": "'said to me' becomes 'told me' (tell takes an object). The past perfect 'had finished' cannot shift further, and 'called' in the time clause stays in the simple past to keep the sequence clear."
+   },
+   {
+    "direct": "She said, \"I used to walk to school every day, and I must go now.\"",
+    "indirect": "She said that she used to walk to school every day and that she had to go then.",
+    "note": "'used to' has no past form and stays unchanged; 'must' expressing present obligation becomes 'had to', and 'now' becomes 'then'."
+   }
+  ],
+  "questionIds": [
+   "narration_81",
+   "narration_82",
+   "narration_83",
+   "narration_84",
+   "narration_91",
+   "narration_94",
+   "narration_95",
+   "narration_96",
+   "narration_43",
+   "narration_45",
+   "narration_46",
+   "narration_59",
+   "narration_61",
+   "narration_63",
+   "narration_64",
+   "narration_66",
+   "narration_67",
+   "narration_68",
+   "narration_71",
+   "narration_74",
+   "narration_75",
+   "narration_79",
+   "narration_22",
+   "narration_24",
+   "narration_29",
+   "narration_31",
+   "narration_34",
+   "narration_35",
+   "narration_37",
+   "narration_38",
+   "narration_12",
+   "narration_15",
+   "narration_20",
+   "narration_101",
+   "narration_104",
+   "narration_105",
+   "narration_110",
+   "narration_111",
+   "narration_112",
+   "narration_114",
+   "narration_116",
+   "narration_122",
+   "narration_125",
+   "narration_132",
+   "narration_143",
+   "narration_153",
+   "narration_182",
+   "narration_184",
+   "narration_192",
+   "narration_197",
+   "narration_163",
+   "narration_169",
+   "narration_170",
+   "narration_172",
+   "narration_173",
+   "narration_174",
+   "narration_175",
+   "narration_177",
+   "narration_179",
+   "narration_222",
+   "narration_223",
+   "narration_224",
+   "narration_225",
+   "narration_229",
+   "narration_201",
+   "narration_202",
+   "narration_204",
+   "narration_206",
+   "narration_207",
+   "narration_208",
+   "narration_209",
+   "narration_217",
+   "narration_218",
+   "narration_219",
+   "narration_220"
+  ]
+ },
+ {
+  "id": "nar-6",
+  "no": 6,
+  "title": "Pronoun Changes",
+  "concept": "When a sentence is turned from Direct into Indirect speech, the pronouns inside the reported speech must be changed so that they point to the same people from the reporter's viewpoint. The standard shortcut is the SLO rule (also called 123 rule): First person pronouns change according to the Subject (speaker) of the reporting verb, Second person pronouns change according to the Listener or Object of the reporting verb, and Third person pronouns remain Unchanged. Possessive forms (my, our, your) and reflexive forms (myself, ourselves, yourself) shift in exactly the same pattern as their base pronouns. No pronoun change is made if the reporting verb's subject and the pronoun already refer to the same person from the reporter's angle.",
+  "rules": [
+   "FIRST PERSON follows the SUBJECT of the reporting verb (Speaker). I/me/my/mine/myself and we/us/our/ours/ourselves take the person, number and gender of the reporting subject. He said, 'I am busy' -> He said that he was busy. She said, 'My bag is lost' -> She said that her bag was lost. They said, 'We have finished our work' -> They said that they had finished their work. If the reporting subject is 'I' or 'we', the first person stays the same: I said, 'I am tired' -> I said that I was tired.",
+   "SECOND PERSON follows the OBJECT/LISTENER of the reporting verb. You/your/yours/yourself/yourselves change to the person of the object of 'said to / told / asked'. He said to me, 'You are late' -> He told me that I was late. She said to him, 'Your answer is wrong' -> She told him that his answer was wrong. He said to us, 'You must help yourselves' -> He told us that we must help ourselves. If NO object is given (e.g. 'He said, You are wrong'), the second person is normally changed to the person the context indicates, or the reporting verb is supplied with an object: He said to me, ... Note: when the listener is the reporter himself ('said to me'), you -> I/me/my/myself; when the listener is a third party ('said to Ram'), you -> he/him/his/himself.",
+   "THIRD PERSON PRONOUNS DO NOT CHANGE. He, she, it, they, him, her, them, his, hers, its, their, himself, herself, itself, themselves remain exactly as they are. He said, 'She has taken his book' -> He said that she had taken his book. Only exception: if the third person pronoun in the direct speech actually refers to the speaker or the listener, adjust for clarity, and if 'his/her' becomes ambiguous, replace it with the noun: Ram said to Shyam, 'He is my friend' -> Ram told Shyam that he (a third man) was his friend.",
+   "POSSESSIVE AND REFLEXIVE PRONOUNS shift with their base pronoun. my->his/her, our->their, your->my/his/her/their (as per listener), mine->his/hers, ours->theirs, yours->mine/his; myself->himself/herself, ourselves->themselves, yourself->myself/himself/herself, yourselves->ourselves/themselves. A reflexive pronoun used for emphasis also changes: He said, 'I did it myself' -> He said that he had done it himself. But a reflexive not linked to a changing pronoun stays put: He said, 'The machine switches itself off' -> He said that the machine switched itself off.",
+   "SPECIAL CARE POINTS: (a) 'We' may be inclusive (speaker + listener) or exclusive (speaker's group only). He said to me, 'We should go' -> He told me that we should go (inclusive), whereas He said to them, 'We shall win' -> He told them that they would win (exclusive, his own group). (b) In universal truths and proverbs the tense does not change, but pronouns still do: He said, 'Our body needs water' -> He said that our/their body needs water. (c) In reported questions and imperatives the same SLO rule applies: He said to me, 'Have you finished your work?' -> He asked me if I had finished my work; He said to me, 'Give me your pen' -> He asked me to give him my pen. (d) 'Let us' (proposal) -> he suggested that we should...; 'Let me/him' (permission) -> he requested that he might..."
+  ],
+  "examples": [
+   {
+    "direct": "He said to me, \"I have brought your book with me.\"",
+    "indirect": "He told me that he had brought my book with him.",
+    "note": "I->he (follows subject 'He'); your->my and 'me'->'him' (second person follows the listener 'me'; the first-person object me->him)."
+   },
+   {
+    "direct": "She said to them, \"You have not done your duty, but we have completed ours.\"",
+    "indirect": "She told them that they had not done their duty, but she and her group had completed theirs.",
+    "note": "you/your->they/their (listener 'them'); we/ours->she's group/theirs (first person follows subject 'She'). Exclusive 'we' is expanded to avoid ambiguity."
+   },
+   {
+    "direct": "Ram said, \"I myself repaired his cycle for them.\"",
+    "indirect": "Ram said that he himself had repaired his cycle for them.",
+    "note": "I->he and myself->himself (reflexive follows its base pronoun); third person 'his' and 'them' stay unchanged."
+   },
+   {
+    "direct": "I said to my brother, \"You must trust yourself as I trust you.\"",
+    "indirect": "I told my brother that he must trust himself as I trusted him.",
+    "note": "you/yourself->he/himself (listener is a third party, 'my brother'); 'I' stays 'I' because the reporting subject is also 'I'."
+   }
+  ],
+  "questionIds": [
+   "narration_89",
+   "narration_44",
+   "narration_26",
+   "narration_107",
+   "narration_115",
+   "narration_124",
+   "narration_134",
+   "narration_183",
+   "narration_185",
+   "narration_199",
+   "narration_200"
+  ]
+ },
+ {
+  "id": "nar-7",
+  "no": 7,
+  "title": "Time & Place Word Changes",
+  "concept": "When a reported verb is in the past tense, words that point to the speaker's original time and place must shift to suit the reporter's distant standpoint. Near words (now, here, this) become far words (then, there, that), and words of motion reverse direction (come becomes go). This shift happens only when the reporting verb is past; if it is present or future, or if the report is made at the same time and place, the words stay unchanged.",
+  "rules": [
+   "Standard shift table (applies when the reporting verb is in the past tense): now -> then, today -> that day, tonight -> that night, tomorrow -> the next day / the following day, yesterday -> the previous day / the day before, last night -> the previous night, next week -> the following week, last week -> the previous week, ago -> before, here -> there, this -> that, these -> those, thus -> so, hence -> thence, hither -> thither.",
+   "Demonstratives change function as well as form: as adjectives or pronouns 'this/these' become 'that/those' (He said, 'I like this book' -> He said that he liked that book), but when 'this' merely introduces something being handed over or refers to nothing physical in the scene, 'that' still replaces it. If 'this/these' refers to a person present, use the person's name or a noun instead: She said, 'This is my brother' -> She said that he was her brother.",
+   "Verbs of motion reverse with the shift of viewpoint: 'come' -> 'go', 'bring' -> 'take', 'come back' -> 'return / go back'. This is because the reporter is no longer standing where the original speaker stood. He said, 'Come here tomorrow' -> He asked me to go there the next day.",
+   "No change is made when (a) the reporting verb is in the present or future tense (He says, 'I am busy today' -> He says that he is busy today); (b) the report is made at the same place and on the same day, so 'here' and 'today' are still true (He said, 'I will meet you here today' -> He said that he would meet me here today); (c) the speech states a universal truth or habitual fact.",
+   "Keep the time-word change consistent with the tense change: 'tomorrow' plus a future tense becomes 'the next day' plus 'would'; 'yesterday' plus a past tense becomes 'the previous day' plus a past perfect. Do not mix a shifted verb with an unshifted time word, e.g. wrong: He said that he had come yesterday; correct: He said that he had come the previous day. Also note 'ago' -> 'before' and 'just now' -> 'then / at that moment'."
+  ],
+  "examples": [
+   {
+    "direct": "He said, \"I am leaving this city tomorrow.\"",
+    "indirect": "He said that he was leaving that city the next day.",
+    "note": "Reporting verb is past, so this -> that and tomorrow -> the next day, with the verb shifting to the past continuous."
+   },
+   {
+    "direct": "She said to me, \"I met your father here yesterday.\"",
+    "indirect": "She told me that she had met my father there the previous day.",
+    "note": "here -> there, yesterday -> the previous day, and the simple past becomes past perfect."
+   },
+   {
+    "direct": "The teacher said to the boys, \"Come to my room tonight and bring these books.\"",
+    "indirect": "The teacher asked the boys to go to his room that night and take those books.",
+    "note": "Imperative becomes an infinitive; come -> go, bring -> take, tonight -> that night, these -> those."
+   },
+   {
+    "direct": "He says, \"I shall finish this work today.\"",
+    "indirect": "He says that he will finish this work today.",
+    "note": "No time or place change because the reporting verb 'says' is in the present tense."
+   }
+  ],
+  "questionIds": [
+   "narration_85",
+   "narration_86",
+   "narration_52",
+   "narration_58",
+   "narration_65",
+   "narration_77",
+   "narration_78",
+   "narration_23",
+   "narration_109",
+   "narration_142",
+   "narration_154",
+   "narration_155",
+   "narration_157",
+   "narration_190",
+   "narration_195",
+   "narration_196"
+  ]
+ },
+ {
+  "id": "nar-8",
+  "no": 8,
+  "title": "Question Tags & 'Yes/No' Replies",
+  "concept": "A question tag ('isn't it?', 'didn't he?', 'will you?') is not a real question but a request for confirmation, so in Indirect Speech the tag is never kept as a separate clause — it is absorbed into a confirmation-seeking reporting verb such as 'asked for confirmation', 'sought confirmation' or 'asked ... whether/if'. Similarly, bare short answers 'Yes' and 'No' have no clause to report, so they are converted into set idiomatic phrases: 'replied/answered in the affirmative' and 'replied/answered in the negative'. Both areas are tested in SSC CGL/CHSL/MTS because candidates wrongly retain the tag or write 'said yes' where the fixed expression is expected. Master the fixed formulas and the accompanying tense/pronoun/time changes, and these questions become one-look answers.",
+  "rules": [
+   "RULE 1 — Drop the tag, use a confirmation verb: A statement + tag is reported with 'asked' / 'asked for confirmation' / 'wanted to know' + 'whether/if' + the statement in reported form; the tag itself vanishes. Formula: He said, 'S + V, tag?' → He asked (me) if/whether + S + V(one step back). E.g. 'You are tired, aren't you?' → He asked me whether I was tired. Alternative equally-accepted pattern: 'He said that I was tired and asked for confirmation.' Never write 'He asked if I was tired, wasn't I?' — retaining the tag is always wrong.",
+   "RULE 2 — Match polarity, then normalise: A positive statement takes a negative tag and a negative statement takes a positive tag. In Indirect Speech report only the main clause's polarity: 'You didn't call me, did you?' → He asked me if I had not called him. 'She has passed, hasn't she?' → He asked whether she had passed. Many reference books also allow the 'not' to be carried in: 'He asked me if I was not tired' — treat this as acceptable, but the confirmation-verb form ('asked for confirmation that…') is the safest in SSC keys.",
+   "RULE 3 — Imperative-type tags become requests: When the tag follows an imperative ('Shut the door, will you?', 'Let's go, shall we?'), do NOT use 'asked if'; use the imperative rules instead — 'requested/asked/urged + object + to + V1' or, for 'shall we', 'proposed/suggested + that + we should + V1'. E.g. 'Post this letter, will you?' → He requested me to post that letter. 'Let's start now, shall we?' → He proposed that we should start then.",
+   "RULE 4 — Fixed formulas for bare 'Yes' and 'No': 'Yes' → replied/answered/said in the affirmative; 'No' → replied/answered/said in the negative. The reporting verb 'say' changes to 'reply/answer'; the inverted commas, comma and the word Yes/No all disappear and NO 'that' is used before 'in the affirmative/negative'. If a form of address is present ('Yes, sir', 'No, madam'), add 'respectfully': 'replied respectfully in the affirmative'. For emphatic or courteous replies use a suitable verb-phrase: 'Certainly / Of course' → readily agreed; 'Thanks' → thanked him; 'Alas!' → exclaimed with sorrow.",
+   "RULE 5 — 'Yes/No' + extra words: If the answer carries matter after Yes/No, report the fixed phrase first, then join the rest with 'and said/added that…' applying the normal changes of tense, pronoun and time. Formula: 'Yes, I have finished it.' → He replied in the affirmative and added that he had finished it. Also remember that a Yes/No answer usually follows a reported question, so the preceding question must be turned with 'asked/enquired + if/whether' and the answer must agree in tense with it: I said, 'Will you help me?' He said, 'No.' → I asked him if he would help me and he replied in the negative."
+  ],
+  "examples": [
+   {
+    "direct": "He said to me, \"You have completed the assignment, haven't you?\"",
+    "indirect": "He asked me whether I had completed the assignment.",
+    "note": "Tag 'haven't you' is dropped; 'said to' → 'asked', statement becomes 'whether' clause, present perfect 'have completed' → past perfect 'had completed', 'you' → 'I'. The variant 'He said that I had completed the assignment and asked for confirmation' is also correct."
+   },
+   {
+    "direct": "The teacher said, \"Bring your notebook tomorrow, will you?\"",
+    "indirect": "The teacher requested me to bring my notebook the next day.",
+    "note": "An imperative + 'will you?' is a polite request, so 'requested + to + V1' is used — not 'asked if'. 'your' → 'my' and 'tomorrow' → 'the next day'."
+   },
+   {
+    "direct": "I said to Ravi, \"Did you see the match?\" He said, \"Yes.\"",
+    "indirect": "I asked Ravi if he had seen the match and he replied in the affirmative.",
+    "note": "The question takes 'asked + if' with V2 → had + V3; the bare 'Yes' becomes the fixed phrase 'replied in the affirmative' with no 'that' and no quotation marks."
+   },
+   {
+    "direct": "She said, \"No, sir, I cannot come today.\"",
+    "indirect": "She replied respectfully in the negative and said that she could not go that day.",
+    "note": "'No' → 'in the negative'; the address 'sir' is shown by 'respectfully'; the extra matter is joined with 'and said that', with 'cannot' → 'could not', 'come' → 'go' and 'today' → 'that day'."
+   }
+  ],
+  "questionIds": []
+ },
+ {
+  "id": "nar-9",
+  "no": 9,
+  "title": "Optative, Prayer & Wishes",
+  "concept": "Optative sentences express a wish, prayer, blessing, or curse and usually begin with 'May', 'Would that', 'If only', 'Long live', or 'Wish'. In indirect speech the optative mood is dropped and the sentence becomes a simple assertive clause introduced by 'that'. The reporting verb 'said' is replaced by a wish-verb such as pray, wish, bless, or curse, and 'may' normally becomes 'might' when the reporting verb is in the past tense.",
+  "rules": [
+   "Change the reporting verb according to the sense of the wish: 'say' becomes pray/wish (for prayers and good wishes), bless (for blessings), or curse (for ill wishes). Use 'pray for' or 'wish' when the object is not a person addressed directly, and keep the object after bless/curse (He blessed me..., She cursed him...). Link the reported part with the conjunction 'that' — never keep the exclamation mark.",
+   "Convert the optative structure to 'that + subject + may/might + verb'. If the reporting verb is in the past tense, 'may' changes to 'might'; if the reporting verb is in the present or future tense, 'may' is retained. Example: He said, \"May you prosper!\" → He wished that I might prosper. / He says, \"May you prosper!\" → He wishes that I may prosper.",
+   "Apply the normal rules of person and tense change inside the reported clause: 'you' → I/we/he/she/they (according to the listener), 'I/we' → he/she/they, and 'my/our' → his/her/their. Adverbs of time and place also shift (today → that day, here → there).",
+   "Restore normal subject–verb word order in inverted optatives. 'Long live the King!' is really 'May the King live long', so it becomes: He wished that the King might live long. Similarly, 'God save the Queen!' → He prayed that God might save the Queen.",
+   "For wishes about impossible or unreal situations introduced by 'Would that', 'If only', 'O that', use 'wished' + that-clause and keep or back-shift the subjunctive: 'Would that I were rich!' → He wished that he were rich (or: He wished that he had been rich). For 'Alas!' before a wish, use 'exclaimed with sorrow and wished that…'."
+  ],
+  "examples": [
+   {
+    "direct": "He said to me, \"May you live long!\"",
+    "indirect": "He prayed that I might live long.",
+    "note": "Optative 'May you' → that + subject + might; 'you' becomes 'I' because the speaker addressed me. 'said' → 'prayed'."
+   },
+   {
+    "direct": "The old man said to the boys, \"May God bless you!\"",
+    "indirect": "The old man blessed the boys saying that God might bless them. (or: The old man prayed that God might bless the boys.)",
+    "note": "A blessing takes the verb 'bless' with an object, or 'pray' + that-clause; 'you' → 'them'."
+   },
+   {
+    "direct": "The crowd shouted, \"Long live the President!\"",
+    "indirect": "The crowd wished that the President might live long.",
+    "note": "Inverted optative 'Long live X' is expanded to 'May X live long', then normal order is restored."
+   },
+   {
+    "direct": "She said, \"Would that I were a bird!\"",
+    "indirect": "She wished that she were a bird.",
+    "note": "'Would that / If only' → 'wished that'; the unreal subjunctive 'were' is kept unchanged."
+   }
+  ],
+  "questionIds": [
+   "narration_106",
+   "narration_131",
+   "narration_148",
+   "narration_228"
+  ]
+ },
+ {
+  "id": "nar-10",
+  "no": 10,
+  "title": "Mixed, Exception & Special Cases",
+  "concept": "Many SSC narration questions deliberately mix two or more sentence types (statement + question, assertive + imperative, exclamatory + statement) inside a single quotation, or embed one reported speech inside another. Such sentences must be split at the sense-break and each part converted with its own reporting verb and its own linker, then joined with a suitable conjunction. A small set of items — universal truths, historical facts, proverbs, quotations, exclamations of pure emotion, and past-perfect verbs — resist the normal tense/pronoun shifts, and these exceptions are exactly where the traps are set.",
+  "rules": [
+   "MIXED SENTENCE RULE (split-and-join): When one inverted comma contains two different sentence types, treat each as a separate clause with its OWN reporting verb and OWN linker, then join them with 'and'. Use the correct verb for each type: said/told + that (assertive), asked/enquired + if/wh-word (interrogative), told/ordered/requested/advised/forbade + to/not to (imperative), exclaimed with joy/sorrow/wonder + that (exclamatory), wished/prayed + that (optative). Example pattern: He said, 'I am tired. Please get me water.' → He said that he was tired and requested me to get him water. Note the second reporting verb is often reduced to just the linking verb form (said... and asked...); never carry a single 'that' across both parts.",
+   "ORDER AND CONNECTOR: Keep the original order of the parts; do not rearrange. If the two parts are contrastive, 'but' may replace 'and' ('He said that he was ill but asked me to wait'). If the second part is a reason for the first, 'as/because' is acceptable. When both parts are of the SAME type, one reporting verb is enough and the second clause simply repeats 'that' (He said that he was busy and that he would come later) — repeating 'that' before the second clause is compulsory in formal SSC answers.",
+   "INDIRECT OF INDIRECT (double/nested reporting): When a quotation itself contains another reported speech ('He said, \"Ram told me that he would come\"'), convert only the OUTER speech; the inner clause is already indirect, so shift its tense one step further back only if it is not already past perfect — 'would come' stays 'would come', 'told' becomes 'had told'. Pronouns of the inner clause must be re-adjusted with respect to the ORIGINAL speaker of the outer speech. Rule of thumb: past → past perfect, and past perfect / would-could-might / universal truths stay unchanged.",
+   "NO-CHANGE (EXCEPTION) LIST: The tense of the reported speech does NOT change when it states (a) a universal truth or scientific fact — 'The sun rises in the east'; (b) a habitual/eternal fact; (c) a historical fact — 'India became independent in 1947'; (d) an imaginary/hypothetical condition or subjunctive — 'if I were you', 'I wish I were rich'; (e) a verb already in the past perfect; (f) an unfulfilled or ongoing condition with 'would rather / had better / must (obligation) / ought to / used to / need not'. Also, the tense never changes when the reporting verb is in the PRESENT or FUTURE tense (He says that he is ill), and time/place words then remain unchanged too.",
+   "QUOTATIONS, PROVERBS AND EXACT WORDS ARE KEPT AS-IS: A proverb, maxim, slogan, verse or a famous quotation is reproduced word for word inside the inverted commas and introduced by a phrase, not by 'that': the standard patterns are 'He said, quoting the proverb, \"...\"', 'He quoted the proverb that ...' or 'He said that ... (proverb rendered as a general truth)'. The safest SSC-accepted form is: Direct — He said, 'Slow and steady wins the race.' → Indirect — He said that slow and steady wins the race (tense unchanged, being a proverb/universal truth). Similarly, when the reporter wants to preserve exact wording (technical terms, foreign words, legal text), the inverted commas are retained even in reported form.",
+   "SSC HIGH-FREQUENCY TRAPS: (i) 'Sir/Madam' → replace with 'respectfully' + told/addressed, never keep the vocative; 'Friends' → 'addressing them as friends'. (ii) 'Yes/No' answers → 'replied in the affirmative / negative' or 'said yes that...'. (iii) 'Let us' (proposal) → 'suggested/proposed that we should', while 'Let him/them' (permission) → 'requested/said that he might be allowed to'. (iv) Exclamations of pure emotion (Alas! Hurrah! Bravo! Ah!) are dropped and their feeling is absorbed into the reporting verb, but 'Good morning/Good night/Thank you' become 'wished him good morning / bade him good night / thanked him'. (v) 'this' → 'that', 'these' → 'those' only when the object is absent; if the object is present before the speaker, 'this/here/now' may remain."
+  ],
+  "examples": [
+   {
+    "direct": "He said to me, \"I have finished my work. Please help me with mine.\"",
+    "indirect": "He told me that he had finished his work and requested me to help him with his.",
+    "note": "Mixed type: assertive + imperative(request). Two reporting verbs (told ... and requested), two linkers (that / to). 'my' → 'his' twice; 'mine' → 'his'. Never write 'told me that ... and to help'."
+   },
+   {
+    "direct": "She said, \"What a beautiful sight! I have never seen such a scene before. Do you like it?\"",
+    "indirect": "She exclaimed with wonder that it was a very beautiful sight and that she had never seen such a scene before, and asked me if I liked it.",
+    "note": "Three parts: exclamatory + assertive + interrogative. 'What a beautiful sight!' → 'that it was a very beautiful sight'; the second assertive clause repeats 'that'; the question takes 'asked ... if' with statement word order and no question mark."
+   },
+   {
+    "direct": "Rohan said, \"My teacher told me that the earth moves round the sun and that Ashoka died in 232 BC.\"",
+    "indirect": "Rohan said that his teacher had told him that the earth moves round the sun and that Ashoka died in 232 BC.",
+    "note": "Indirect of indirect: only the outer speech shifts ('told' → 'had told', 'my/me' → 'his/him'). The inner clauses stay untouched because one is a universal truth and the other a historical fact."
+   },
+   {
+    "direct": "The old man said, \"Slow and steady wins the race. Alas! I did not learn it in time.\"",
+    "indirect": "The old man said that slow and steady wins the race and exclaimed with sorrow that he had not learnt it in time.",
+    "note": "Proverb retained in the present tense as a universal truth; 'Alas!' is dropped and its emotion is carried by 'exclaimed with sorrow', while 'did not learn' → 'had not learnt'."
+   }
+  ],
+  "questionIds": [
+   "narration_90",
+   "narration_93",
+   "narration_41",
+   "narration_50",
+   "narration_53",
+   "narration_54",
+   "narration_55",
+   "narration_57",
+   "narration_25",
+   "narration_27",
+   "narration_28",
+   "narration_30",
+   "narration_33",
+   "narration_36",
+   "narration_40",
+   "narration_8",
+   "narration_13",
+   "narration_14",
+   "narration_16",
+   "narration_17",
+   "narration_18",
+   "narration_108",
+   "narration_113",
+   "narration_118",
+   "narration_138",
+   "narration_187",
+   "narration_189",
+   "narration_210",
+   "narration_211",
+   "narration_212",
+   "narration_213",
+   "narration_215"
+  ]
+ }
+]

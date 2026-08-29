@@ -1,0 +1,4178 @@
+[
+ {
+  "id": "narration_81",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "She said that she wanted to meet the principal.",
+  "options": [
+   "“I want to meet the principal,” she said.",
+   "“I wanted to meet the principal,” she said.",
+   "“I wished to meet the principal,” she said.",
+   "“May I meet the principal?” she said."
+  ],
+  "correctIdx": 0,
+  "explanation": "Reversing the backshift, the reported past 'wanted' returns to the present 'want' in direct speech, with the pronoun staying first person inside the quotes.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_82",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He said, “I have completed the manuscript.”",
+  "options": [
+   "He said that he has completed the manuscript.",
+   "He said that he had completed the manuscript.",
+   "He said he completed the manuscript.",
+   "He said that he was completing the manuscript."
+  ],
+  "correctIdx": 1,
+  "explanation": "With a past reporting verb, the present perfect 'have completed' backshifts to the past perfect 'had completed'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_83",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He said, \"I have seen that movie already.\"",
+  "options": [
+   "He said that he saw that movie already.",
+   "He said that he had seen that movie already.",
+   "He said that he have seen that movie already.",
+   "He said that he was seeing that movie already."
+  ],
+  "correctIdx": 1,
+  "explanation": "Present perfect 'have seen' becomes past perfect 'had seen' after the past reporting verb 'said'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_84",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech. He said, \"I am going to the market now.\"",
+  "sentence": "",
+  "options": [
+   "He said that he was going to the market then.",
+   "He said that he is going to the market now.",
+   "He told that he was going to the market then.",
+   "He said that he will go to the market then."
+  ],
+  "correctIdx": 0,
+  "explanation": "'am going' backshifts to 'was going' and the time word 'now' changes to 'then'; 'said that' is correct since no listener is mentioned.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_85",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He said, “I may finish the task today.”",
+  "options": [
+   "He said that he will finish that task that day.",
+   "He said that he might finish this task today.",
+   "He said that he might finish that task that day.",
+   "He said he may finish the task today."
+  ],
+  "correctIdx": 2,
+  "explanation": "The modal 'may' backshifts to 'might', 'this' becomes 'that', and 'today' becomes 'that day'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_86",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "She said, \"I was very tired yesterday.\"",
+  "options": [
+   "She said she had been very tired the day before.",
+   "She said she was very tired yesterday.",
+   "She said she had been very tired yesterday.",
+   "She said she is very tired the day before."
+  ],
+  "correctIdx": 0,
+  "explanation": "Past simple 'was' backshifts to past perfect 'had been' and 'yesterday' changes to 'the day before'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_87",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. Choose the most accurate indirect speech conversion.",
+  "sentence": "The principal said, “Maintain silence during the examination.”",
+  "options": [
+   "The principal said to maintain silence during the examination.",
+   "The principal ordered that silence is maintained during the examination.",
+   "The principal instructed them to maintain silence during the examination.",
+   "The principal told maintain silence during the examination."
+  ],
+  "correctIdx": 2,
+  "explanation": "The imperative command becomes an infinitive ('to maintain') with a reporting verb of command and an object, giving 'instructed them to maintain'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_88",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He asked, \"Did you complete the homework?\"",
+  "options": [
+   "He asked whether I completed the homework.",
+   "He asked if I had completed the homework.",
+   "He asked did I completed the homework.",
+   "He asked that I had completed the homework."
+  ],
+  "correctIdx": 1,
+  "explanation": "A yes/no question is reported with 'if/whether', the interrogative word order is dropped, and 'did complete' backshifts to 'had completed'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_89",
+  "ruleId": "nar-6",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He said to me, “You ought to study harder.”",
+  "options": [
+   "He said me that I ought to study harder.",
+   "He told me that I ought to study harder.",
+   "He told me that you ought to study harder.",
+   "He told that I ought to study harder."
+  ],
+  "correctIdx": 1,
+  "explanation": "'said to me' becomes 'told me' and the pronoun 'you' changes to 'I'; 'ought to' has no past form so it stays unchanged.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_90",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. Choose the correct direct speech conversion. She stated that seldom",
+  "sentence": "had she encountered such procedural ambiguity.",
+  "options": [
+   "“Seldom have I encountered such procedural ambiguity,” she stated.",
+   "“Seldom had I encountered such procedural ambiguity,” she stated.",
+   "“I seldom encountered such procedural ambiguity,” she stated.",
+   "“I have seldom encountered such procedural ambiguity,” she stated."
+  ],
+  "correctIdx": 0,
+  "explanation": "Undoing the backshift, past perfect 'had encountered' reverts to present perfect 'have encountered', keeping the inverted order required after the negative adverb 'seldom'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_91",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "They said, “We are leaving for a tour.”",
+  "options": [
+   "They said that they are leaving for a tour.",
+   "They said that they were leaving for a tour.",
+   "They said that they left for a tour.",
+   "They said they had leaving for a tour."
+  ],
+  "correctIdx": 1,
+  "explanation": "'We are leaving' becomes 'they were leaving': the pronoun shifts to third person and the present continuous backshifts to past continuous.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_92",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. Choose the most accurate indirect speech conversion. The supervisor",
+  "sentence": "said, “Why have the reports not been submitted yet?”",
+  "options": [
+   "The supervisor asked why the reports had not been submitted yet.",
+   "The supervisor asked why have the reports not been submitted.",
+   "The supervisor said why the reports were not submitted.",
+   "The supervisor asked why the reports have not been submitted."
+  ],
+  "correctIdx": 0,
+  "explanation": "A wh-question keeps its question word but takes statement word order, and 'have not been submitted' backshifts to 'had not been submitted'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_93",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech:",
+  "sentence": "He said, \"The seminar will commence at 10 a.m.\"",
+  "options": [
+   "He said it may commence at 10 a.m.",
+   "He said it might commence at 10 a.m.",
+   "He said it will commence at 10 a.m.",
+   "He said it commenced at 10 a.m."
+  ],
+  "correctIdx": 2,
+  "explanation": "The scheduled seminar timing is a fixed fact, so 'will commence' is retained rather than backshifted to 'would'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_94",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He said, \"I can solve this problem.\"",
+  "options": [
+   "He said he could solve that problem.",
+   "He said he can solve this problem.",
+   "He told he could solved that problem.",
+   "He said he might solve the problem."
+  ],
+  "correctIdx": 0,
+  "explanation": "The modal 'can' backshifts to 'could' and the demonstrative 'this' changes to 'that'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_95",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "She said, “I am watching a movie.”",
+  "options": [
+   "She said she is watching a movie.",
+   "She said that she was watching a movie.",
+   "She said that she had watched a movie.",
+   "She said she watched a movie."
+  ],
+  "correctIdx": 1,
+  "explanation": "Present continuous 'am watching' backshifts to past continuous 'was watching' with the pronoun changing to 'she'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_96",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He said, “I am not feeling fine.”",
+  "options": [
+   "He said that he is not feeling fine.",
+   "He said that he was not feeling fine.",
+   "He said that he didn’t feel fine.",
+   "He said he not feeling fine."
+  ],
+  "correctIdx": 1,
+  "explanation": "'am not feeling' backshifts to 'was not feeling', preserving the continuous aspect.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_97",
+  "ruleId": "nar-4",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. Choose the option that most accurately represents it in indirect speech.",
+  "sentence": "Rita said, \"Hurrah! We have won the tournament.\"",
+  "options": [
+   "Rita exclaimed sadly that they had won the tournament.",
+   "Rita said that we have won the tournament.",
+   "Rita exclaimed with joy that they had won the tournament.",
+   "Rita said in joy that I have won the tournament."
+  ],
+  "correctIdx": 2,
+  "explanation": "The exclamation 'Hurrah!' is reported as 'exclaimed with joy that', with 'we' becoming 'they' and 'have won' becoming 'had won'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_98",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech:",
+  "sentence": "She said, “Finish it right now.”",
+  "options": [
+   "She said to finish it instantly.",
+   "She told to finish it then.",
+   "She told me to finish it immediately.",
+   "She told me finish it right now."
+  ],
+  "correctIdx": 2,
+  "explanation": "The imperative becomes 'told me to finish', with 'right now' changing to 'immediately'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_99",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He said to her, “Please shut the door.”",
+  "options": [
+   "He told her shut the door.",
+   "He told her to shut the door.",
+   "He told her shutting the door.",
+   "He said her to shut the door."
+  ],
+  "correctIdx": 1,
+  "explanation": "A polite request becomes 'told her to shut the door' (or 'requested her to'), converting the imperative into an infinitive after the object.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_100",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "She said, \"Why are you laughing?\"",
+  "options": [
+   "She asked why he was laughing.",
+   "She said why are you laughing.",
+   "She told why you laughed.",
+   "She asked why he laughed."
+  ],
+  "correctIdx": 0,
+  "explanation": "The wh-question is reported with 'asked', statement word order, 'you' becoming 'he', and 'are laughing' backshifting to 'was laughing'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_41",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the correct option for the Direct Speech conversion of the sentence below.",
+  "sentence": "He observed that the monument would have evoked greater solemnity had the inscriptions been less ornate.",
+  "options": [
+   "He said, “The monument would have evoked greater solemnity had the inscriptions been less ornate.”",
+   "He said, “If the inscriptions are less ornate, the monument evokes solemnity.”",
+   "He said, “The monument will evoke solemnity if inscriptions were less ornate.”",
+   "He said, “Had the inscriptions been less ornate, the monument must evoke solemnity.”"
+  ],
+  "correctIdx": 0,
+  "explanation": "The third conditional with inverted 'had' is retained verbatim in direct speech since past perfect and 'would have' cannot backshift further; only the reporting verb and 'that' are dropped.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_42",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "She said, “Let the documents not be circulated without authorization.”",
+  "options": [
+   "She asked not to circulate the documents without authorization.",
+   "She instructed that the documents should not be circulated without authorization.",
+   "She said that let the documents not be circulated.",
+   "She ordered no one circulate the documents."
+  ],
+  "correctIdx": 1,
+  "explanation": "A 'Let' sentence expressing a passive command becomes indirect with a verb of ordering/instructing plus 'that ... should not be circulated'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_43",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the correct option for the Direct Speech conversion of the sentence below. The biologist remarked that genetic mutations could be accelerated by prolonged radiation exposure.",
+  "sentence": "",
+  "options": [
+   "The biologist said, \"Genetic mutations can be accelerated by prolonged radiation exposure.\"",
+   "She remarked, \"If radiation is prolonged, genetic mutations will be accelerated.\"",
+   "The biologist said, \"Genetic mutations could be accelerated by prolonged radiation exposure.\"",
+   "She said, \"Genetic mutations accelerate when radiation exposure is prolonged.\""
+  ],
+  "correctIdx": 2,
+  "explanation": "'Could' in reported speech corresponds to 'could' in the original words here, and the reporter's identity ('the biologist') is retained; no other change is needed.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_44",
+  "ruleId": "nar-6",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "The coach said that they had played well and would win the match.",
+  "options": [
+   "\"You played well and you will win the match,\" said the coach.",
+   "\"They has played well and will win the match,\" the coach said.",
+   "\"You had played well and would win the match,\" said the coach.",
+   "\"They played well and they win the match,\" said the coach."
+  ],
+  "correctIdx": 0,
+  "explanation": "Reverting the backshift, 'had played' becomes 'played' and 'would win' becomes 'will win', while the third-person 'they' becomes the second-person 'you' addressed by the coach.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_45",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "The archaeologist noted that the artefact had been deliberately concealed.",
+  "options": [
+   "The archaeologist said, \"Someone concealed the artefact deliberately.\"",
+   "He noted, \"The artefact is being concealed.\"",
+   "The archaeologist said, \"The artefact had been deliberately concealed.\"",
+   "He said, \"The artefact was never found.\""
+  ],
+  "correctIdx": 0,
+  "explanation": "The past perfect passive 'had been concealed' un-backshifts to the simple past in the speaker's actual words, giving 'Someone concealed the artefact deliberately.'",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_46",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "The envoy said that only after the truce would talks commence.",
+  "options": [
+   "“Talks commence only after the truce,” said the envoy.",
+   "“Only after the truce, talks would commence,” said the envoy.",
+   "“Only after the truce will talks commence,” said the envoy.",
+   "“Talks would commence once the truce is declared,” said the envoy."
+  ],
+  "correctIdx": 2,
+  "explanation": "'Would commence' reverts to 'will commence', and the inverted word order after the negative-restrictive opening 'Only after the truce' is preserved.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_47",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "She said, \"Let us reconsider the proposal before the final vote.\"",
+  "options": [
+   "She said let us reconsider the proposal.",
+   "She told that they must reconsider the proposal.",
+   "She suggested us to reconsider the proposal before the final vote.",
+   "She suggested that they should reconsider the proposal before the final vote."
+  ],
+  "correctIdx": 3,
+  "explanation": "'Let us' expressing a proposal is reported with 'suggested/proposed that' + 'they should' + base verb.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_48",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "She said, “ Where have you been living for the past few months?”",
+  "options": [
+   "She asked where had I been living for the past few months.",
+   "She asked where I had been living for the past few months.",
+   "She asked where I have been living for the past few months.",
+   "She said where I had been living for the past few months."
+  ],
+  "correctIdx": 1,
+  "explanation": "A wh-question keeps the wh-word as the connective but takes statement order (subject before verb), with 'have you been living' backshifting to 'I had been living'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_49",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech. The manager said, “Submit the revised draft by tomorrow.”",
+  "sentence": "",
+  "options": [
+   "The manager said to submit the revised draft by tomorrow.",
+   "The manager ordered that the revised draft be submitted by the next day.",
+   "The manager asked to submit the revised draft tomorrow.",
+   "The manager told that submit the revised draft by tomorrow."
+  ],
+  "correctIdx": 1,
+  "explanation": "An imperative command is reported with 'ordered/commanded that' plus the subjunctive passive 'be submitted', and 'tomorrow' shifts to 'the next day'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_50",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "He said that he used to visit his grandparents during holidays.",
+  "options": [
+   "“I visited my grandparents during holidays,” he said.",
+   "“I use to visit my grandparents during holidays,” he said.",
+   "“I used to visit my grandparents during holidays,” he said.",
+   "“I was visiting my grandparents during holidays,” he said."
+  ],
+  "correctIdx": 2,
+  "explanation": "'Used to' is already a past form and cannot backshift further, so it stays unchanged when converted to direct speech.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_51",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "She said to him, \"Have you submitted the quarterly report?\"",
+  "options": [
+   "She asked him had he submitted the quarterly report.",
+   "She asked him whether he has submitted the quarterly report.",
+   "She asked him whether he had submitted the quarterly report.",
+   "She said him that he had submitted the quarterly report."
+  ],
+  "correctIdx": 2,
+  "explanation": "A yes/no question is introduced by 'whether/if' with statement order, and the present perfect 'have you submitted' backshifts to 'had submitted'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_52",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech. He stated that he had completed the assignment the previous night.",
+  "sentence": "",
+  "options": [
+   "He said, “I completed the assignment last night.”",
+   "He said, “I have completed the assignment last night.”",
+   "He said, “I had completed the assignment last night.”",
+   "He said, “I complete the assignment the previous night.”"
+  ],
+  "correctIdx": 0,
+  "explanation": "Removing the backshift, 'had completed' reverts to 'completed' and 'the previous night' reverts to 'last night'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_53",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He said, \"Water boils at one hundred degrees Celsius.\"",
+  "options": [
+   "He said that water boiled at one hundred degrees Celsius.",
+   "He said that water boils at one hundred degrees Celsius.",
+   "He said that water had boiled at one hundred degrees Celsius.",
+   "He said that water has boiled at one hundred degrees Celsius."
+  ],
+  "correctIdx": 1,
+  "explanation": "A universal scientific truth keeps its present tense even after a past reporting verb.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_54",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the correct option for the Direct Speech conversion of the sentence below.",
+  "sentence": "He asserted that the cryptographic protocol might have resisted the attack had entropy been truly random.",
+  "options": [
+   "He asserted, \"Had entropy been truly random, the cryptographic protocol might have resisted the attack.\"",
+   "He said, \"If entropy is truly random, protocol might resist attack.\"",
+   "He asserted, \"If entropy had been random, protocol might resist attack.\"",
+   "He said, \"Entropy random, protocol resists attack.\""
+  ],
+  "correctIdx": 0,
+  "explanation": "The past-perfect conditional 'might have resisted ... had entropy been' is unchangeable, so the direct form reproduces it exactly with the inverted 'Had' clause.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_55",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "He said that they had finished the work before he reached.",
+  "options": [
+   "“They have finished the work before I reached,” he said.",
+   "“They finished the work before I reached,” he said.",
+   "“They had finished the work before I reached,” he said.",
+   "“They finished the work before I had reached,” he said."
+  ],
+  "correctIdx": 2,
+  "explanation": "'Had finished' before a past action is already the earliest tense and stays as past perfect, while 'he' becomes 'I' in the speaker's own words.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_56",
+  "ruleId": "nar-1",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "The manager told the staff that due dates must be met strictly.",
+  "options": [
+   "“Due dates must be met strictly,” said the manager.",
+   "“You should meet the due dates strictly,” said the manager.",
+   "“Meet the due dates strictly,” the manager said.",
+   "“Due dates are to be met,” said the manager."
+  ],
+  "correctIdx": 0,
+  "explanation": "The obligation modal 'must' remains unchanged in the actual words, and the impersonal passive statement is reported as spoken.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_57",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech. The professor remarked that the sun rises in the east.",
+  "sentence": "",
+  "options": [
+   "\"The sun will rise in the east,\" remarked the professor.",
+   "\"The sun rises in the east,\" the professor remarked.",
+   "\"The sun had risen in the east,\" remarked the professor.",
+   "\"The sun is rising in the east,\" remarked the professor."
+  ],
+  "correctIdx": 1,
+  "explanation": "A universal truth retains the simple present in both direct and indirect speech.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_58",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "They said, “We will finalize the contract tomorrow.”",
+  "options": [
+   "They said they will finalize the contract the next day.",
+   "They said they would finalize the contract the following day.",
+   "They said they would finalize the contract tomorrow.",
+   "They said they shall finalize the contract the next day."
+  ],
+  "correctIdx": 1,
+  "explanation": "'Will' backshifts to 'would' after the past reporting verb and 'tomorrow' changes to 'the following/next day'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_59",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "He said that he would attend the meeting after the meal.",
+  "options": [
+   "“I will attend the meeting after the meal,” he said.",
+   "“I would attend the meeting after the meal,” he said.",
+   "“I shall attend the meeting after the meal,” he said.",
+   "“I can attend the meeting after the meal,” he said."
+  ],
+  "correctIdx": 0,
+  "explanation": "Reverting the backshift, 'would attend' becomes 'will attend' with the first-person pronoun 'I'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_60",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "She said to him, \"Can you explain this concept to me?\"",
+  "options": [
+   "She asked him if he can explain this concept to her.",
+   "She said if he could explain that concept to her.",
+   "She asked him whether he could explain that concept to her.",
+   "She told him could he explain this concept to her."
+  ],
+  "correctIdx": 2,
+  "explanation": "The yes/no request takes 'asked ... whether', 'can' backshifts to 'could', 'this' becomes 'that', and 'me' becomes 'her'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_61",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "She said, “I did not observe him at the terminal.”",
+  "options": [
+   "She said that she had not observed him at the terminal.",
+   "She said she has not observed him at the terminal.",
+   "She said that she did not observed him at the terminal.",
+   "She said that she was not observing him at the terminal."
+  ],
+  "correctIdx": 0,
+  "explanation": "The simple past 'did not observe' backshifts to the past perfect 'had not observed' and the first-person pronoun 'I' becomes 'she'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_62",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "She said, \"Where have you kept the confidential files?\"",
+  "options": [
+   "She asked where I had kept the confidential files.",
+   "She asked where had I kept the confidential files.",
+   "She said where I have kept the confidential files.",
+   "She questioned where did I keep the confidential files."
+  ],
+  "correctIdx": 0,
+  "explanation": "A 'wh-' question keeps the question word as the link, drops the question form to statement order (subject before verb, no auxiliary inversion), and 'have kept' backshifts to 'had kept'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_63",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. Choose the option that most accurately represents it in direct speech.",
+  "sentence": "She mentioned that her organisation would launch the project the next week.",
+  "options": [
+   "She mentioned, \"My organisation is launching the project next week.\"",
+   "She said, \"The project shall be launched next week.\"",
+   "She mentioned, \"My organisation would be launching the project next week.\"",
+   "She mentioned, \"My organisation will launch the project next week.\""
+  ],
+  "correctIdx": 3,
+  "explanation": "Reversing the reporting, 'would launch' returns to 'will launch' and 'the next week' returns to 'next week', with 'her' becoming 'my'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_64",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "Raman said, “I have not completed the assignment.”",
+  "options": [
+   "Raman said that he did not complete the assignment.",
+   "Raman said that he has not completed the assignment.",
+   "Raman said that he had not completed the assignment.",
+   "Raman said that he was not completing the assignment."
+  ],
+  "correctIdx": 2,
+  "explanation": "The present perfect 'have not completed' backshifts to the past perfect 'had not completed', with 'I' changing to 'he'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_65",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "Sikha said, “I like this pen as it is very useful.”",
+  "options": [
+   "Sikha said she liked that pen as it was very useful.",
+   "Sikha said she like that pen as it is very useful.",
+   "Sikha said she liked this pen as it was very useful.",
+   "Sikha said she likes that pen as it is very useful."
+  ],
+  "correctIdx": 0,
+  "explanation": "The near demonstrative 'this pen' becomes the remote 'that pen', while 'like'/'is' backshift to 'liked'/'was'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_66",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "The director noted that the figures had been inflated.",
+  "options": [
+   "The director said, \"These figures have been inflated.\"",
+   "The director said, \"The figures are inflated.\"",
+   "The director said, \"The figures were exaggerated.\"",
+   "The director said, \"They inflated the figures.\""
+  ],
+  "correctIdx": 0,
+  "explanation": "In direct speech the past perfect passive 'had been inflated' reverts to the present perfect passive 'have been inflated' with the near demonstrative 'these'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_67",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the correct option for the Direct Speech conversion of the sentence below. She remarked that institutional trust would erode unless transparency were restored.",
+  "sentence": "",
+  "options": [
+   "She remarked, “Institutional trust erodes unless transparency is restored.”",
+   "She remarked, “Institutional trust will erode unless transparency is restored.”",
+   "She remarked, “Institutional trust would erode unless transparency were restored.”",
+   "She remarked, “Transparency restored, institutional trust eroded.”"
+  ],
+  "correctIdx": 1,
+  "explanation": "Un-backshifting the reported clause turns 'would erode' into 'will erode' and the subjunctive 'were restored' into 'is restored'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_68",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. Choose the option that most accurately represents it in indirect speech.",
+  "sentence": "He said, \"I was preparing for the examination throughout the night.\"",
+  "options": [
+   "He said he was preparing for the examination throughout the night.",
+   "He said he had prepared for the examination throughout the night.",
+   "He said he had been preparing for the examination throughout the night.",
+   "He said he prepared for the examination throughout the night."
+  ],
+  "correctIdx": 2,
+  "explanation": "The past continuous 'was preparing' backshifts one step to the past perfect continuous 'had been preparing'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_69",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "She asked him if he had ever been to the Taj Mahal.",
+  "options": [
+   "She asked him, \"Did you ever go to the Taj Mahal?\"",
+   "She asked him, \"Were you at the Taj Mahal?\"",
+   "She asked him, \"Have you ever been to the Taj Mahal?\"",
+   "She asked him, \"Do you ever go to the Taj Mahal?\""
+  ],
+  "correctIdx": 2,
+  "explanation": "The 'if' clause becomes a yes/no question again, and the past perfect 'had ever been' reverts to the present perfect 'Have you ever been'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_70",
+  "ruleId": "nar-1",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. Choose the option that most accurately represents it in direct speech.",
+  "sentence": "The archaeologist stated that the artefacts were of pre-Harappan origin.",
+  "options": [
+   "\"The artefacts are of pre-Harappan origin,\" he stated.",
+   "The archaeologist said, \"The artefacts are of pre-Harappan origin.\"",
+   "The archaeologist stated, \"The artefacts were discovered recently.\"",
+   "\"Pre-Harappan artefacts are rare,\" said the archaeologist."
+  ],
+  "correctIdx": 1,
+  "explanation": "The reported statement is restored as a quoted assertive sentence with the past 'were' returning to the present 'are'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_71",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "Rita said, \"I had submitted the assignment.\"",
+  "options": [
+   "Rita said that she submitted the assignment.",
+   "Rita said that she has submitted the assignment.",
+   "Rita said that she had submitted the assignment.",
+   "Rita said that she had been submitting the assignment."
+  ],
+  "correctIdx": 2,
+  "explanation": "The past perfect is already the earliest tense form, so 'had submitted' remains unchanged; only the pronoun shifts from 'I' to 'she'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_72",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "The teacher said, \"Who can solve this question?\"",
+  "options": [
+   "The teacher asked who could solve that question.",
+   "The teacher asked who can solve that question.",
+   "The teacher said who could solve this question.",
+   "The teacher asked to solve that question."
+  ],
+  "correctIdx": 0,
+  "explanation": "'Said' becomes 'asked', the wh-word links the clause in statement order, 'can' backshifts to 'could', and 'this' becomes 'that'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_73",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "She said, “How could you disregard the warning?”",
+  "options": [
+   "She asked how could I disregard the warning.",
+   "She asked how I could disregard the warning.",
+   "She asked how I could have disregarded the warning.",
+   "She asked how did I disregard the warning."
+  ],
+  "correctIdx": 1,
+  "explanation": "The wh-question loses its interrogative inversion, becoming 'how I could disregard', with 'you' changing to 'I'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_74",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "She said, “I purchased a new smartphone.”",
+  "options": [
+   "She said that she had purchased a new smartphone.",
+   "She said that she purchases a new smartphone.",
+   "She said that she was purchasing a new smartphone.",
+   "She said that she has purchased a new smartphone."
+  ],
+  "correctIdx": 0,
+  "explanation": "The simple past 'purchased' backshifts to the past perfect 'had purchased' after the past reporting verb.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_75",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "Meera said, \"I can finish the task today.\"",
+  "options": [
+   "Meera said that she can finish the task today.",
+   "Meera said that I could finish the task that day.",
+   "Meera said that she could finish the task that day.",
+   "Meera said she will finish the task today."
+  ],
+  "correctIdx": 2,
+  "explanation": "'Can' backshifts to 'could', 'today' becomes 'that day', and 'I' becomes 'she'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_76",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He asked me, “Did you submit your homework?”",
+  "options": [
+   "He asked me if I had submitted my homework.",
+   "He asked me did I submit my homework.",
+   "He asked me whether I have submitted my homework.",
+   "He asked me whether had I submitted my homework."
+  ],
+  "correctIdx": 0,
+  "explanation": "A yes/no question is reported with 'if/whether' in statement order, and 'did you submit' backshifts to 'I had submitted' with 'your' becoming 'my'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_77",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech:",
+  "sentence": "She said, “I met him yesterday morning.”",
+  "options": [
+   "She said she had met him the previous morning.",
+   "She said she has met him yesterday morning.",
+   "She said she was meeting him yesterday morning.",
+   "She said she had meet him the previous morning."
+  ],
+  "correctIdx": 0,
+  "explanation": "'Met' backshifts to 'had met' and the time expression 'yesterday morning' changes to 'the previous morning'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_78",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He said, “My friends will leave tonight.”",
+  "options": [
+   "He said that his friends will leave that night.",
+   "He said his friends would leave tonight.",
+   "He said that his friends would leave that night.",
+   "He said his friends would be leaving tonight."
+  ],
+  "correctIdx": 2,
+  "explanation": "'Will' becomes 'would', 'my friends' becomes 'his friends', and 'tonight' changes to 'that night'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_79",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "Ritika said, “Rajiv does not listen to me.”",
+  "options": [
+   "Ritika said Rajiv don’t listen to her.",
+   "Ritika said that Rajiv doesn’t listened to her.",
+   "Ritika said that Rajiv didn’t listen to her.",
+   "Ritika said that Rajiv didn’t listened to her."
+  ],
+  "correctIdx": 2,
+  "explanation": "The simple present 'does not listen' backshifts to the simple past 'didn't listen' (base verb after 'did'), and 'me' becomes 'her'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_80",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He said, “Where have you submitted the report?”",
+  "options": [
+   "He asked where I had submitted the report.",
+   "He asked where had I submitted the report.",
+   "He asked where I have submitted the report.",
+   "He asked where did I submit the report."
+  ],
+  "correctIdx": 0,
+  "explanation": "The wh-question is reported without inversion and 'have you submitted' backshifts to 'I had submitted'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_21",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "The coach said to the players, “Practise your drills every morning to improve your stamina.”",
+  "options": [
+   "The coach said the players practise drills every morning.",
+   "The coach told the players to practised their drills every morning to improve their stamina.",
+   "The coach asked the players that they must practise drills every morning.",
+   "The coach advised the players to practise their drills every morning to improve their stamina."
+  ],
+  "correctIdx": 3,
+  "explanation": "An imperative giving advice becomes 'advised + object + to + base verb', with the pronoun 'your' changing to 'their'; only option 3 keeps the infinitive form and full sense.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_22",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the correct direct speech:",
+  "sentence": "The researcher stated that, in the absence of sufficient evidence, the conclusions drawn from the experiment were unreliable.",
+  "options": [
+   "The researcher stated, \"In the absence of sufficient evidence, the conclusions drawn from the experiment are unreliable.\"",
+   "The researcher stated, \"If there was no sufficient evidence, the conclusions drawn from the experiment had been unreliable.\"",
+   "The researcher stated, \"Without sufficient evidence, the conclusions drawn from the experiment would have been unreliable.\"",
+   "The researcher stated, \"The conclusions drawn from the experiment must have been unreliable since there was no sufficient evidence.\""
+  ],
+  "correctIdx": 0,
+  "explanation": "Reversing the backshift, 'were unreliable' returns to the present 'are unreliable' inside the quotation, with all other wording retained.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_23",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "The principal announced that the annual sports day would be held on the following Friday.",
+  "options": [
+   "The principal announced, \"The annual sports day will be held next Friday.\"",
+   "The principal said, \"The annual sports day is held on the following Friday.\"",
+   "The principal said, \"The annual sports day would be held on the following Friday.\"",
+   "The principal announced, \"The annual sports day will be held on Friday.\""
+  ],
+  "correctIdx": 0,
+  "explanation": "In direct speech 'would' reverts to 'will' and the reported time expression 'the following Friday' becomes 'next Friday'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_24",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "The supervisor said to the intern, \"You must submit all pending files by Friday.\"",
+  "options": [
+   "The supervisor said the intern must submit all pending files by Friday.",
+   "The supervisor told the intern that she had to submit all pending files by Friday.",
+   "The supervisor told the intern that she must submit all pending files by Friday.",
+   "The supervisor said that the intern has to submit all pending files by Friday."
+  ],
+  "correctIdx": 1,
+  "explanation": "'Said to' becomes 'told', the quotation becomes a that-clause, 'you' becomes 'she', and the modal 'must' backshifts to 'had to'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_25",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "The CEO stated that had the merger succeeded, the company would have expanded globally.",
+  "options": [
+   "“If the merger succeeded, the company would expand,” said the CEO.",
+   "“Had the merger succeeded, the company would have expanded globally,” said the CEO.",
+   "“If the merger had succeeded, the company will expand globally,” said the CEO.",
+   "“Had the merger succeed, the company would expand,” said the CEO."
+  ],
+  "correctIdx": 1,
+  "explanation": "A third-conditional (unreal past) structure is unchanged by reporting, so the inverted 'Had the merger succeeded... would have expanded globally' is quoted exactly.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_26",
+  "ruleId": "nar-6",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "The scientist claimed that her research had overturned decades of established theory.",
+  "options": [
+   "\"My research overturns decades of established theory,\" the scientist claimed.",
+   "The scientist said, \"My research has overturned decades of established theory.\"",
+   "\"The research had overturned decades of theory,\" she said.",
+   "The scientist said, \"Her research had overturned decades of established theory.\""
+  ],
+  "correctIdx": 1,
+  "explanation": "The pronoun 'her' becomes the speaker's 'my' and the past perfect 'had overturned' reverts to the present perfect 'has overturned'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_27",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the correct option for the Direct Speech conversion of the sentence below. The analyst remarked that, if",
+  "sentence": "inflation continued at the current pace, consumer spending might contract significantly.",
+  "options": [
+   "The analyst said, \"If inflation continues at the current pace, consumer spending will contract significantly.\"",
+   "The analyst said, \"If inflation continued at the current pace, consumer spending might contract significantly.\"",
+   "The analyst said, \"Consumer spending might contract significantly if inflation has continued.\"",
+   "The analyst said, \"Had inflation continued, consumer spending must contract.\""
+  ],
+  "correctIdx": 1,
+  "explanation": "The hypothetical second conditional ('continued... might contract') is not a backshifted form, so it is quoted unchanged in direct speech.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_28",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech. The magistrate declared that justice must be upheld",
+  "sentence": "regardless of the consequences.",
+  "options": [
+   "“Justice should be upheld regardless of the consequences,” declared the magistrate.",
+   "“Justice must be upheld regardless of the consequences,” the magistrate declared.",
+   "“We uphold justice regardless of the consequences,” declared the magistrate.",
+   "“One must uphold justice,” the magistrate declared."
+  ],
+  "correctIdx": 1,
+  "explanation": "'Must' expressing a permanent obligation or universal principle remains unchanged, and the wording is quoted verbatim.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_29",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech. She said, “We are launching the sustainability initiative next month.”",
+  "sentence": "",
+  "options": [
+   "She said that they were launching the sustainability initiative the following month.",
+   "She said that they are launching the sustainability initiative next month.",
+   "She said that we were launching the sustainability initiative next month.",
+   "She said that they had launched the sustainability initiative the following month."
+  ],
+  "correctIdx": 0,
+  "explanation": "'We' changes to 'they', the present continuous 'are launching' backshifts to 'were launching', and 'next month' becomes 'the following month'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_30",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the correct option for the Direct Speech conversion of the sentence below.",
+  "sentence": "The economist contended that the recession would have been averted had the central bank intervened decisively.",
+  "options": [
+   "The economist said, \"If the central bank intervenes decisively, the recession will be averted.\"",
+   "The economist said, \"The recession would be averted if the central bank had intervened decisively.\"",
+   "The economist said, \"Had the central bank intervened decisively, the recession would have been averted.\"",
+   "The economist said, \"The recession must have been averted had the central bank intervened.\""
+  ],
+  "correctIdx": 2,
+  "explanation": "The unreal past conditional stays intact when converted to direct speech, retaining 'Had the central bank intervened... would have been averted'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_31",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "The manager said that the employees were adapting to the new system quickly.",
+  "options": [
+   "“The employees are adapting to the new system quickly,” said the manager.",
+   "“The employees were adapting to the new system quickly,” said the manager.",
+   "“The employees adapted to the new system quickly,” said the manager.",
+   "“The employees had adapted to the new system quickly,” said the manager."
+  ],
+  "correctIdx": 0,
+  "explanation": "Undoing the backshift, the past continuous 'were adapting' returns to the present continuous 'are adapting' in the quotation.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_32",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "She wondered whether she could ever reconcile her ambitions with her commitments.",
+  "options": [
+   "She said, \"Could I ever reconcile my ambitions with my commitments?\"",
+   "She wondered, \"Can I ever reconcile my ambitions with my commitments?\"",
+   "She asked, \"Will I ever reconcile my ambitions with my commitments?\"",
+   "She wondered, \"Shall I reconcile my ambitions with my commitments?\""
+  ],
+  "correctIdx": 1,
+  "explanation": "A reported yes/no question with 'whether' becomes a direct interrogative with question mark, and 'could' reverts to 'can' with 'she' becoming 'I'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_33",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the correct Direct Speech conversion:",
+  "sentence": "He conceded that the symphonic movement would have remained incomplete had the late composer not preserved his annotated drafts.",
+  "options": [
+   "He said, \"The symphonic movement would have remained incomplete had the late composer not preserved his annotated drafts.\"",
+   "He said, \"The symphonic movement will remain incomplete if the late composer not preserved his annotated drafts.\"",
+   "He said, \"The symphonic movement would remain incomplete had drafts were not preserved.\"",
+   "He said, \"The symphonic movement remains incomplete if the composer had not preserved drafts.\""
+  ],
+  "correctIdx": 0,
+  "explanation": "The third-conditional inversion with negative ('had the late composer not preserved') is unaffected by reporting and is quoted as it stands.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_34",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the correct option for the Direct Speech conversion of the sentence below.",
+  "sentence": "The engineer explained that the cables were weakening faster than the support structure could sustain them.",
+  "options": [
+   "The engineer explained, \"The cables are weakening faster than the support structure can sustain them.\"",
+   "The engineer explained, \"The cables were weakening faster than the support structure can be sustained by them.\"",
+   "The engineer explained, \"Cables weaken faster than support structures sustain.\"",
+   "The engineer explained, \"Cable weakening faster than the support can sustain.\""
+  ],
+  "correctIdx": 0,
+  "explanation": "Removing the backshift turns 'were weakening' into 'are weakening' and 'could sustain' into 'can sustain', keeping the comparative clause intact.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_35",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech: The manager remarked that employees needed to submit their reports by Monday.",
+  "sentence": "",
+  "options": [
+   "“Employees need to submit their reports by Monday,” the manager remarked.",
+   "“Employees needed to submit their reports by Monday,” the manager said.",
+   "“Submit your reports by Monday,” the manager ordered.",
+   "“You were to submit your reports by Monday,” the manager said."
+  ],
+  "correctIdx": 0,
+  "explanation": "The reported past 'needed to submit' reverts to the present 'need to submit', with the reporting verb 'remarked' retained since it is a statement, not a command.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_36",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the correct option for the Direct Speech conversion of the sentence below. He remarked that, if market liquidity had disappeared completely, the exchange would have halted trading.",
+  "sentence": "",
+  "options": [
+   "He said, “If market liquidity disappears completely, the exchange halts trading.”",
+   "He said, “If market liquidity had disappeared completely, the exchange would have halted trading.”",
+   "He said, “The exchange will halt trading if market liquidity had disappeared completely.”",
+   "He said, “If the exchange halted trading, it was because market liquidity disappeared completely.”"
+  ],
+  "correctIdx": 1,
+  "explanation": "The past-perfect conditional expresses an unreal past condition, so it remains unchanged in the direct quotation.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_37",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "The researcher said, “We have been observing this phenomenon for months.”",
+  "options": [
+   "The researcher said they had been observing that phenomenon for months.",
+   "The researcher said they have been observing this phenomenon for months.",
+   "The researcher said that they were observing that phenomenon.",
+   "The researcher said that we had observed this phenomenon."
+  ],
+  "correctIdx": 0,
+  "explanation": "'We' becomes 'they', the present perfect continuous 'have been observing' backshifts to 'had been observing', and 'this' becomes 'that'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_38",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "Meera said, \"I had submitted the application before the deadline.\"",
+  "options": [
+   "Meera said that she has submitted the application before the deadline.",
+   "Meera said that she was submitting the application before the deadline.",
+   "Meera said that she had submitted the application before the deadline.",
+   "Meera said she submitted the application before the deadline."
+  ],
+  "correctIdx": 2,
+  "explanation": "The past perfect has no further backshift, so 'had submitted' stays the same and only 'I' changes to 'she'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_39",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "She wondered why the documents had been filed in the wrong cabinet.",
+  "options": [
+   "She said, \"Why were the documents filed in the wrong cabinet?\"",
+   "She said, \"Why are the documents filed in the wrong cabinet?\"",
+   "She said, \"Why have the documents been filed in the wrong cabinet?\"",
+   "She said, \"Why had the documents been filed in the wrong cabinet?\""
+  ],
+  "correctIdx": 2,
+  "explanation": "A reported wh-question becomes a direct interrogative, and the past perfect passive 'had been filed' reverts to the present perfect passive 'have been filed'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_40",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the correct option for the Direct Speech conversion of the sentence below. He remarked that, if the proposal were approved, the implementation would commence immediately.",
+  "sentence": "",
+  "options": [
+   "He said, “If the proposal was approved, the implementation will commence immediately.”",
+   "He said, “If the proposal is approved, the implementation will commence immediately.”",
+   "He said, “If the proposal had been approved, the implementation would have commenced immediately.”",
+   "He said, “If the proposal were approved, the implementation would commence immediately.”"
+  ],
+  "correctIdx": 3,
+  "explanation": "The subjunctive second conditional ('were approved... would commence') is a hypothetical form, not a backshift, so it is quoted unchanged.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_1",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the indirect narration of the given sentence.",
+  "sentence": "He said to the hotel receptionist, “Can you tell me the tariff of rooms?",
+  "options": [
+   "He enquired the hotel receptionist if he can tell him the tariff of rooms.",
+   "He asked the hotel receptionist if he could tell him the tariff of rooms.",
+   "He asked the hotel receptionist that if he can tell him the tariff of rooms.",
+   "He asked the hotel receptionist to tell him the tariff of rooms."
+  ],
+  "correctIdx": 1,
+  "explanation": "A 'Can you...' yes/no question becomes 'asked ... if', with 'can' backshifted to 'could' and 'me' changed to 'him'; the interrogative order is dropped.",
+  "exam": "SSC_CGL_Tier1_2020",
+  "year": ""
+ },
+ {
+  "id": "narration_2",
+  "ruleId": "nar-1",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the correct indirect narration of the given sentence.",
+  "sentence": "She said, \"We visited Uttarakhand in the summer vacation.\"",
+  "options": [
+   "She said that they will visit to Uttarakhand in the summer vacation.",
+   "She said that they had visited Uttarakhand in the summer vacation.",
+   "She said that we visited Uttarakhand in the summer vacation.",
+   "She said that they have visited Uttarakhand in the summer vacation."
+  ],
+  "correctIdx": 1,
+  "explanation": "An assertive sentence takes 'said that'; the simple past 'visited' backshifts to the past perfect 'had visited' and 'we' becomes 'they'.",
+  "exam": "SSC_CGL_Tier1_2020",
+  "year": ""
+ },
+ {
+  "id": "narration_3",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the indirect narration of the given sentence.",
+  "sentence": "He said to me,\" What time do the banks open and close?\"",
+  "options": [
+   "He said me what time did the banks open and close.",
+   "He asked me what time the banks opened and closed.",
+   "He wanted to know what time the banks open and close.",
+   "He asked me what time do the banks open and close."
+  ],
+  "correctIdx": 1,
+  "explanation": "A wh-question keeps 'what time' as the connective, drops the auxiliary 'do', and backshifts 'open and close' to 'opened and closed' in statement order.",
+  "exam": "SSC_CGL_Tier1_2020",
+  "year": ""
+ },
+ {
+  "id": "narration_4",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sent ence in indirect speech.",
+  "sentence": "“Read the inst ruct ions before you st art making the dish,” Deepa's mot her said to her.",
+  "options": [
+   "Deepa's mother told to her to read the instructions before you start making the dish.",
+   "Deepa's mother told her to read the instructions before you had made the dish.",
+   "Deepa's mother said her to read the instructions before she start making the dish.",
+   "Deepa's mother told her to read the instructions before she started making the dish."
+  ],
+  "correctIdx": 3,
+  "explanation": "The imperative becomes 'told her to read', and inside the clause 'you start' changes to 'she started' for pronoun and tense agreement.",
+  "exam": "SSC_CGL_Tier1_2021",
+  "year": ""
+ },
+ {
+  "id": "narration_5",
+  "ruleId": "nar-1",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "“Everything is going to be alright,” said the doctor.",
+  "options": [
+   "The doctor said that everything is going to be alright.",
+   "The doctor said that everything are going to be alright.",
+   "The doctor said that everything was going to be alright.",
+   "The doctor said that everything will be alright."
+  ],
+  "correctIdx": 2,
+  "explanation": "With the reporting verb in the past, present 'is going to be' backshifts to 'was going to be' after 'said that'.",
+  "exam": "SSC_CGL_Tier1_2021",
+  "year": ""
+ },
+ {
+  "id": "narration_6",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "The counter clerk asked the visitor, “What is your name?”",
+  "options": [
+   "The counter clerk asked the visitor his name.",
+   "The counter clerk asks the visitor your name.",
+   "The counter clerk is asking the visitor your name.",
+   "The counter clerk has asked the visitor his name."
+  ],
+  "correctIdx": 0,
+  "explanation": "The wh-question 'What is your name?' is compressed to the noun phrase 'his name' after 'asked the visitor', with 'your' becoming 'his' and the reporting verb kept in the past.",
+  "exam": "SSC_CGL_Tier1_2021",
+  "year": ""
+ },
+ {
+  "id": "narration_7",
+  "ruleId": "nar-4",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "“How beautiful she is!” said Betty.",
+  "options": [
+   "Betty exclaimed with joy how beautiful she was.",
+   "Betty exclaimed with joy that she was very beautiful.",
+   "Betty exclaimed with joy how beautiful she is.",
+   "Betty exclaimed with joy she is very beautiful."
+  ],
+  "correctIdx": 1,
+  "explanation": "The exclamatory sentence becomes 'exclaimed with joy that', with 'how' replaced by 'very' and 'is' backshifted to 'was'.",
+  "exam": "SSC_CGL_Tier1_2021",
+  "year": ""
+ },
+ {
+  "id": "narration_8",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "The teacher said, “Man is mortal.”",
+  "options": [
+   "The teacher said that man was mortal.",
+   "The teacher instructed that man was mortal.",
+   "The teacher said that men were mortal.",
+   "The teacher said that man is mortal."
+  ],
+  "correctIdx": 3,
+  "explanation": "'Man is mortal' is a universal truth, so the present tense is retained even though the reporting verb is past.",
+  "exam": "SSC_CGL_Tier1_2021",
+  "year": ""
+ },
+ {
+  "id": "narration_9",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "He said, ‘Let us wait for the award.’",
+  "options": [
+   "He proposed that they should wait for the award.",
+   "He said that he should wait for the award.",
+   "He proposed that he should wait for the award.",
+   "He said that they should waited for the award."
+  ],
+  "correctIdx": 0,
+  "explanation": "'Let us' expressing a proposal becomes 'proposed/suggested that' + 'they should' + base verb, with 'us' changing to 'they'.",
+  "exam": "SSC_CGL_Tier1_2022",
+  "year": ""
+ },
+ {
+  "id": "narration_10",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "He said to him, \"Is your name not Ahmed?\"",
+  "options": [
+   "He enquired is your name not Ahmed.",
+   "He enquired whether his name was not Ahmed.",
+   "He said whether his name was not Ahmed.",
+   "He said is your name not Ahmed."
+  ],
+  "correctIdx": 1,
+  "explanation": "The yes/no question takes 'whether', drops inversion, and shifts 'your name is' to 'his name was'.",
+  "exam": "SSC_CGL_Tier1_2022",
+  "year": ""
+ },
+ {
+  "id": "narration_11",
+  "ruleId": "nar-1",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech:",
+  "sentence": "The supervisor observed that the team had successfully completed the project despite multiple unforeseen challenges.",
+  "options": [
+   "The supervisor said, \"The team successfully completes the project despite multiple unforeseen challenges.\"",
+   "The supervisor said, \"The team had successfully completed the project despite multiple unforeseen challenges.\"",
+   "The supervisor remarked, \"The team completes the project successfully despite challenges.\"",
+   "The supervisor said, \"The team has successfully completed the project without any challenges.\""
+  ],
+  "correctIdx": 1,
+  "explanation": "Only this option preserves the full original content ('successfully completed ... despite multiple unforeseen challenges') inside quotation marks with a neutral reporting verb.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_12",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "The envoy reported that the negotiations were languishing because neither party would concede procedural precedence.",
+  "options": [
+   "The envoy reported, \"The negotiations languish because neither party would concede procedural precedence.\"",
+   "The envoy said, \"The negotiations are languishing because neither party will be conceding procedural precedence.\"",
+   "The envoy said, \"The negotiations are languishing because neither party will concede procedural precedence.\"",
+   "The envoy said, \"Negotiations languished, no party conceding precedence.\""
+  ],
+  "correctIdx": 2,
+  "explanation": "Reversing the backshift, 'were languishing' returns to 'are languishing' and 'would concede' returns to 'will concede' in the speaker's actual words.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_13",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech. The consultant remarked that had the audit been conducted earlier, the discrepancies would have been detected.",
+  "sentence": "",
+  "options": [
+   "\"If the audit was conducted earlier, the discrepancies would have been detected,\" said the consultant.",
+   "\"If only the audit had been conducted earlier, the discrepancies were detected,\" he said.",
+   "\"Had the audit been conducted earlier, the discrepancies would have been detected,\" said the consultant.",
+   "\"Had we conduct the audit earlier, the discrepancies would be detected,\" said the consultant."
+  ],
+  "correctIdx": 2,
+  "explanation": "The inverted third-conditional structure 'Had the audit been conducted... would have been detected' is already past-perfect subjunctive, so it stays unchanged in direct speech.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_14",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech. The historian remarked that had the manuscript not been preserved, invaluable insights might have been irrevocably lost.",
+  "sentence": "",
+  "options": [
+   "“If the manuscript was not preserved, insights may be lost,” the historian remarked.",
+   "“Had the manuscript not been preserved, invaluable insights might have been irrevocably lost,” remarked the historian.",
+   "“Had not the manuscript preserved, insights could lose,” he remarked.",
+   "“If the manuscript had preserved, insights might be lost,” the historian said."
+  ],
+  "correctIdx": 1,
+  "explanation": "A subjunctive third conditional undergoes no tense change, so the inverted 'Had the manuscript not been preserved... might have been irrevocably lost' is quoted as it is.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_15",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the correct option for the Direct Speech conversion of the sentence below.",
+  "sentence": "The ecologist cautioned that the region’s carrying capacity might be surpassed if invasive organisms multiplied without control.",
+  "options": [
+   "The ecologist said, “The region’s carrying capacity will be surpassed if invasive organisms multiply without control.”",
+   "The ecologist said, “Had invasive organisms multiplied without control, the region’s carrying capacity would be surpassed.”",
+   "The ecologist said, “The region’s carrying capacity might be surpassed if invasive organisms multiply without control.”",
+   "The ecologist said, “If invasive organisms multiplied without control, the carrying capacity had been surpassed.”"
+  ],
+  "correctIdx": 2,
+  "explanation": "The backshifted 'multiplied' reverts to the present 'multiply' in direct speech, while the modal 'might be surpassed' remains unchanged.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_16",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "He suggested that, if stochastic volatility had been included, the valuation might have been more conservative.",
+  "options": [
+   "He suggested, “If stochastic volatility had been included, the valuation might have been more conservative.”",
+   "He suggested, “If stochastic volatility is included, valuation will be conservative.”",
+   "He suggested, “If volatility included, valuation more conservative.”",
+   "He said, “Including volatility makes valuation conservative.”"
+  ],
+  "correctIdx": 0,
+  "explanation": "The unreal past conditional 'If ... had been included ... might have been' is unaffected by backshift, so it is reproduced verbatim in quotes.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_17",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the correct option for the Direct Speech conversion of the sentence below. He remarked that, had the expedition team been better equipped, they might still have reached the summit before nightfall.",
+  "sentence": "",
+  "options": [
+   "He said, “If the expedition team was better equipped, they may still reach the summit before nightfall.”",
+   "He said, “Had the expedition team been better equipped, they must still have reached the summit before nightfall.”",
+   "He said, “Had the expedition team been better equipped, they might still have reached the summit before nightfall.”",
+   "He said, “If the expedition team had been better equipped, they will still reach the summit before nightfall.”"
+  ],
+  "correctIdx": 2,
+  "explanation": "The inverted third conditional with 'might still have reached' remains identical in direct speech; changing the modal or tense alters the meaning.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_18",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the correct option for the Direct Speech conversion of the sentence below.",
+  "sentence": "The composer explained that, were the leitmotif transposed an octave higher, the tension might dissipate prematurely.",
+  "options": [
+   "The composer said, \"If the leitmotif was transposed an octave higher, the tension will dissipate prematurely.\"",
+   "The composer said, \"Were the leitmotif transposed an octave higher, the tension might dissipate prematurely.\"",
+   "The composer said, \"The tension will dissipate prematurely if the leitmotif had been transposed an octave higher.\"",
+   "The composer said, \"Had the leitmotif been transposed an octave higher, the tension must have dissipated prematurely.\""
+  ],
+  "correctIdx": 1,
+  "explanation": "The subjunctive inversion 'Were the leitmotif transposed... might dissipate' is retained unchanged, as subjunctive forms do not backshift.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_19",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech:",
+  "sentence": "The librarian of Public library said that silence must be maintained in the reading hall.",
+  "options": [
+   "“Silence should be maintained in the reading hall,” said the librarian of public library.",
+   "“You will maintain silence in the reading hall,” said the librarian of public library.",
+   "“Maintain silence in the reading hall,” said the librarian of public library.",
+   "“Must you maintain silence in the reading hall?” asked the librarian of public library."
+  ],
+  "correctIdx": 2,
+  "explanation": "'said that silence must be maintained' reports a command, so direct speech restores the imperative 'Maintain silence in the reading hall.'",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_20",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "The supervisor told the staff that the submission deadline had been pushed back by two days.",
+  "options": [
+   "“You can turn in the work two days after the scheduled date,” the supervisor informed.",
+   "“The submission deadline has been pushed back by two days,” said the supervisor.",
+   "“We are pushing back the submission deadline by two days,” the supervisor said.",
+   "“You must complete it within two additional days,” the supervisor said."
+  ],
+  "correctIdx": 1,
+  "explanation": "Undoing the backshift, the past perfect 'had been pushed back' reverts to the present perfect 'has been pushed back' in the speaker's own words.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_101",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. Choose the correct indirect speech. He said, “It has been two weeks since",
+  "sentence": "the audit commenced.”",
+  "options": [
+   "He said that it had been two weeks since the audit had commenced.",
+   "He said that it was two weeks since the audit commenced.",
+   "He said that it has been two weeks since the audit commenced.",
+   "He said that the audit was commenced two weeks ago."
+  ],
+  "correctIdx": 0,
+  "explanation": "In indirect speech the present perfect 'has been' backshifts to 'had been' and the past 'commenced' backshifts to past perfect 'had commenced', with 'that' introducing the reported clause.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_102",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "She said, \"Let him go.\"",
+  "options": [
+   "She said let him go.",
+   "She suggested him to go.",
+   "She ordered to let him go.",
+   "She suggested that he should be allowed to go."
+  ],
+  "correctIdx": 3,
+  "explanation": "An imperative with 'Let' expressing permission/suggestion is reported with a verb like 'suggested/proposed' plus a 'that ... should be allowed' clause.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_103",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. Choose the correct direct speech:",
+  "sentence": "The captain instructed the players to remain focused.",
+  "options": [
+   "“Remain focused,” instructed the captain.",
+   "“Players, remain focused,” the captain instructed.",
+   "“You must remain focused,” said the captain.",
+   "“Remain focused,” the captain instructed."
+  ],
+  "correctIdx": 1,
+  "explanation": "The reported infinitive 'to remain focused' becomes the imperative 'Remain focused', and the object 'the players' is retained as a vocative addressee.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_104",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. Choose the correct indirect speech:",
+  "sentence": "He said, “I will submit the report tomorrow.”",
+  "options": [
+   "He said he will submit the report tomorrow.",
+   "He said that he would submit the report the next day.",
+   "He said that he will submit the report the next day.",
+   "He said he would submit the report tomorrow."
+  ],
+  "correctIdx": 1,
+  "explanation": "'Will' backshifts to 'would' after the past reporting verb 'said', and the time word 'tomorrow' changes to 'the next day'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_105",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Convert into indirect speech:",
+  "sentence": "He said, “I am feeling tired.”",
+  "options": [
+   "He said he is feeling tired.",
+   "He said he was feeling tired.",
+   "He said he feels tired.",
+   "He said he had felt tired."
+  ],
+  "correctIdx": 1,
+  "explanation": "The first-person pronoun 'I' becomes 'he' and the present continuous 'am feeling' backshifts to the past continuous 'was feeling'.",
+  "exam": "SSC_CGL_Tier1_2025",
+  "year": ""
+ },
+ {
+  "id": "narration_106",
+  "ruleId": "nar-9",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "My grandfather wished that God should give me success in my new venture. He further said that his prayers would always be with me.",
+  "options": [
+   "My grandfather says to me, “God might give you success in your new venture! My prayers are always going to be with you.”",
+   "My grandfather said to me, “Maybe God will give you success in your new venture! My prayers would always be with you.”",
+   "My grandfather wished to me, “May God give to you success in your new venture! My prayers are always with you.”",
+   "My grandfather said to me, “May God give you success in your new venture! My prayers will always be with you.”"
+  ],
+  "correctIdx": 3,
+  "explanation": "An optative/wish is turned back into direct speech with 'May God give you success!' and the reported 'would' reverts to 'will'; pronouns shift from 'me/his' to 'you/my'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_107",
+  "ruleId": "nar-6",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The airline official said, “We are extremely sorry that the flight has been delayed due to heavy floods.”",
+  "options": [
+   "The airline official announced the airline is extremely sorry that the flight will be delayed due to heavy floods.",
+   "The airline official announces they are extremely sorry that the flight has been delayed due to heavy floods.",
+   "The airline official announced that they were extremely sorry that the flight had been delayed due to heavy floods.",
+   "The airline official announced that we are extremely sorry that the flight has been delayed due to heavy floods."
+  ],
+  "correctIdx": 2,
+  "explanation": "'We' changes to 'they' as the speaker is reported, 'are' backshifts to 'were' and the present perfect 'has been delayed' becomes 'had been delayed'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_108",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "“If the rains don’t stop we will have to move the animals to another place,”said the zoo official.",
+  "options": [
+   "The zoo official had been saying said that if the rains don’t stop they would have to move the animals to another place.",
+   "The zoo official said that if the rains didn’t stop they would have to move the animals to another place.",
+   "The zoo official will say that if the rains don’t stop they would have to move the animals to another place.",
+   "The zoo official said that if the rains are not stopping they would have to move the animals to another place."
+  ],
+  "correctIdx": 1,
+  "explanation": "In a first-conditional statement reported after a past verb, 'don't stop' backshifts to 'didn't stop' and 'we will' becomes 'they would'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_109",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The salesman said to me, “All the gift items are new. We received this consignment yesterday.”",
+  "options": [
+   "The salesman informed me that all the gift items were new. He further said they had received that consignment the day before.",
+   "The salesman informed to me about all the gift items that they were new. They received that consignment the day before.",
+   "The salesman told me that all the gift items are new. He further said we received this consignment yesterday.",
+   "The salesman said to me that all the gift items are new. We received that consignment yesterday."
+  ],
+  "correctIdx": 0,
+  "explanation": "'Are' backshifts to 'were', 'received' to 'had received', 'this' to 'that' and 'yesterday' to 'the day before', with 'He further said' linking the second sentence.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_110",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "Kapil said to his team, “If you don’t perform well in this match, you will not get a place in the team.”",
+  "options": [
+   "Kapil told to his team if you don’t perform well in this match, you will not get a place in the team.",
+   "Kapil warned his team that if they didn’t perform well in that match, they would not get a place in the team.",
+   "Kapil warned to his team, if they don’t perform well in this match, they will not get a place in the team.",
+   "Kapil said to his team that if you don’t perform well in that match, you will not get a place in the team."
+  ],
+  "correctIdx": 1,
+  "explanation": "A threat/conditional is reported with 'warned' (no 'to' before the object), 'you' becomes 'they', 'don't' becomes 'didn't', 'will' becomes 'would' and 'this match' becomes 'that match'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_111",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "He said, “The last film I saw was such a violent one that I couldn’t sleep the whole night”.",
+  "options": [
+   "He is saying the last film he saw was such a violent one that he couldn’t sleep the whole night.",
+   "He shall be saying that the last film he had been seeing was such a violent one that he couldn’t sleep the whole night.",
+   "He shall say that the last film he had seen was such a violent one that he couldn’t sleep the whole night.",
+   "He said that the last film he had seen was such a violent one that he couldn’t sleep the whole night."
+  ],
+  "correctIdx": 3,
+  "explanation": "The reporting verb stays past 'said', 'I saw' becomes 'he had seen', and pronouns shift to the third person.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_112",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "“Reena, I’m surprised you want dinner as we had such a late lunch,\" said Rajat.",
+  "options": [
+   "Rajat had told Reena that he was surprised that she had wanted dinner as they were having such a late lunch.",
+   "Rajat was saying to Reena that he was surprised that she was wanting dinner as they had been having such a late lunch.",
+   "Rajat had been telling Reena that he was surprised that she wants dinner as they had had such a late lunch.",
+   "Rajat told Reena that he was surprised that she wanted dinner as they had had such a late lunch."
+  ],
+  "correctIdx": 3,
+  "explanation": "'Said' becomes 'told Reena' (addressee named), 'want' backshifts to 'wanted' and the past perfect 'had had' replaces 'had' after the past reporting verb.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_113",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "Mother said that when we pluck a flower it dies so we should let it beautify the world as long as it lives.",
+  "options": [
+   "Mother said, “When we pluck a flower it dies so you should let it beautify the world as long as it lived.”",
+   "Mother said, “When we plucked a flower it died so we should let it beautify the world as long as it lived.”",
+   "Mother says, “When we pluck a flower it dies so we should let it beautify the world as long as it lives.”",
+   "Mother said, “When we pluck a flower it dies so we should let it beautify the world as long as it lives.”"
+  ],
+  "correctIdx": 3,
+  "explanation": "Since the reported clause states a universal truth/general maxim, the present tenses are kept unchanged when converted back to direct speech with 'Mother said'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_114",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "Sumit said, “I will be leaving for London this summer so I can meet you only when I return.”",
+  "options": [
+   "Sumit said he will be leaving for London this summer and he could meet him only when he returned.",
+   "Sumit said he will go to London this summer and he would meet me only when he will be returning.",
+   "Sumit said that he would be leaving for London that summer and he could meet me only when he returned.",
+   "Sumit said he will have gone to London that summer and could meet me only when he returned."
+  ],
+  "correctIdx": 2,
+  "explanation": "'Will be leaving' backshifts to 'would be leaving', 'can' to 'could', 'you' to 'me', 'this summer' to 'that summer' and 'return' to 'returned'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_115",
+  "ruleId": "nar-6",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The RWA members said, “We want to see the audited accounts before we make more payments.”",
+  "options": [
+   "The RWA members are saying that they want to see the audited accounts before they make more payments.",
+   "The RWA members said that they wanted to see the audited accounts before they made more payments.",
+   "The RWA members said that we want to see the audited accounts before we make more payments.",
+   "The RWA members said we wanted to see the audited accounts before we make more payments."
+  ],
+  "correctIdx": 1,
+  "explanation": "'We' becomes 'they' and the present tenses 'want/make' backshift to 'wanted/made' after the past reporting verb 'said'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_116",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The art teacher said, “I never tell my students what to draw. I tell them to imagine.”",
+  "options": [
+   "The art teacher said that I never tell my students what to draw. I tell them to imagine.",
+   "The art teacher said that she never told her students what to draw. She told them to imagine.",
+   "The art teacher is saying that she never tells her students what to draw. She tells them to imagine.",
+   "The art teacher had said that she never told her students what to draw. She tells them to imagine."
+  ],
+  "correctIdx": 1,
+  "explanation": "'I/my' change to 'she/her' and the present verbs 'tell' backshift consistently to 'told' after the past reporting verb.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_117",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "The commander ordered the soldiers to march ahead and not to think of their enemy’s large numbers.",
+  "options": [
+   "The commander said to the soldiers, “March ahead. Do not think of their enemy’s large numbers.”",
+   "The commander said to the soldiers, “March ahead and not think of their enemy’s large numbers.”",
+   "The commander said to the soldiers, “March ahead. Do not think of your enemy’s large numbers.”",
+   "The commander said to the soldiers, “Please march ahead. Do not think of your enemy’s large numbers.”"
+  ],
+  "correctIdx": 2,
+  "explanation": "The reported infinitives become imperatives — 'March ahead' and the negative 'Do not think' — with 'their enemy's' reverting to 'your enemy's' for the addressed soldiers.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_118",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "“If I had the manual of the new T.V, I would have fixed it by now,” said Uma.",
+  "options": [
+   "Uma said that if she was having the manual of the new T.V she would have fixed it by now.",
+   "Uma said that if she has the manual of the new T.V she will have fixed it by then.",
+   "Uma said that if she will have the manual of the new T.V she would have fixed it by then.",
+   "Uma said that if she had had the manual of the new T.V she would have fixed it by then."
+  ],
+  "correctIdx": 3,
+  "explanation": "The unreal conditional shifts one step back: 'had' becomes 'had had', 'would have fixed' is retained, and 'by now' changes to 'by then'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_119",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "Mrs. Sethi said to her students, “Would you like to go outdoors for the yoga class?”",
+  "options": [
+   "Mrs Sethi asked her students whether they would like to go outdoors for the yoga class.",
+   "Mrs Sethi asked her students about their liking to go outdoors for the yoga class.",
+   "Mrs Sethi told her students that would you like to go outdoors for the yoga class.",
+   "Mrs Sethi said to her students will you like to go outdoors for the yoga class?"
+  ],
+  "correctIdx": 0,
+  "explanation": "A yes/no question is reported with 'asked' + 'whether', the question order and mark are dropped, and 'you' becomes 'they'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_120",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The teacher suggested that the PTM be postponed to the third Saturday of the month.",
+  "options": [
+   "The teacher told, “The PTM will be postponed to the third Saturday of the month. “",
+   "The teacher said, “Let’s postpone the PTM to the third Saturday of the month. “",
+   "The teacher said, “The PTM would be postponed to the third Saturday of the month.”",
+   "The teacher suggested, “The PTM must be postponed to the third Saturday of the month.”"
+  ],
+  "correctIdx": 1,
+  "explanation": "A reported suggestion with 'suggested that ... be' converts to the direct first-person imperative 'Let's postpone ...'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_121",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "Raza requested his parents to forgive him that time and promised never to play truant again.",
+  "options": [
+   "Raza said to his parents, “Please forgive me that time. I promise to never play truant again.”",
+   "Raza said to his parents, “Forgive me that time. I promise I would never play truant again.”",
+   "Raza said to his parents, “Forgive me this time. I promised never to play truant again.”",
+   "Raza said to his parents, “Please forgive me this time. I promise never to play truant again.”"
+  ],
+  "correctIdx": 3,
+  "explanation": "Direct speech needs the request marker \"Please\", present-tense \"promise\", and the proximal \"this time\" which was shifted to \"that time\" in the indirect form.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_122",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "“You should lock your car as there have been some instances of theft,” said Anil.",
+  "options": [
+   "There have been instances of theft so I should lock my car was told to me by Anil.",
+   "Anil advised me that I should lock my car as there had been some instances of theft.",
+   "There have been some instances of theft so I should have locked my car said Anil.",
+   "Anil said he must lock his car because there were some instances of theft."
+  ],
+  "correctIdx": 1,
+  "explanation": "The advisory statement becomes indirect with the reporting verb \"advised\", pronoun shift from \"you/your\" to \"I/my\", and present perfect \"have been\" backshifted to \"had been\".",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_123",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "Amar urged Amit to stop taking tranquillizers without consulting the doctor.",
+  "options": [
+   "“Amit,please stop taking tranquillizers without consulting the doctor,”Amar was advising",
+   "Amit said to Amar, \"Please stop taking tranquillizers without consulting the doctor.”",
+   "“Amit,please stop taking tranquillizers without consulting the doctor,” said Amar.",
+   "Amar says to Amit,“ Please consult the doctor before taking tranquillizers.”"
+  ],
+  "correctIdx": 2,
+  "explanation": "The indirect request with \"urged...to\" reverts to an imperative with \"please\" inside quotes, keeping the original wording and the simple past reporting verb \"said\".",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_124",
+  "ruleId": "nar-6",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "My friend told me I could stay at his place in Dehradun whenever I wished.",
+  "options": [
+   "My friend said, “You will be coming to stay at my place in Dehradun whenever you wish.”",
+   "My friend said, “If you are wishing to come to Dehradun come and stay in my place.”",
+   "My friend said, “You can stay at my place in Dehradun whenever you wish.’’",
+   "My friend said, “You will come and be staying in my place in Dehradun whenever you wish.”"
+  ],
+  "correctIdx": 2,
+  "explanation": "Reverting to direct speech restores \"can\" from \"could\", \"you\" from \"I\", and \"my\" from \"his\" with present-tense \"wish\".",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_125",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "The actor said that what he did in films was something he had never attempted in real life.",
+  "options": [
+   "The actor said, “What I do in films is something I have never attempted in real life.”",
+   "The actor said, “What he did in films was something he had never attempted in real life.”",
+   "The actor said, “What I am doing in films is something I have never attempted in real life.”",
+   "The actor said, “What he did in films is something he has never attempted in real life.”"
+  ],
+  "correctIdx": 0,
+  "explanation": "Direct speech restores first-person \"I\", present tense \"do\", and present perfect \"have never attempted\" from the backshifted \"did/had never attempted\".",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_126",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "He asked me if I would like to take that apartment on rent from the next day.",
+  "options": [
+   "“Would you had taken this apartment on rent from tomorrow?” he said to me.",
+   "“Would you have taken this apartment on rent from the next day?” he said to me.",
+   "“Would you like to take this apartment on rent from tomorrow?” he said to me.",
+   "“Would you be liking to take this apartment on rent from tomorrow?” he said to me."
+  ],
+  "correctIdx": 2,
+  "explanation": "The reported question becomes a direct interrogative \"Would you like to take...?\" with \"that\" changing back to \"this\" and \"the next day\" to \"tomorrow\".",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_127",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "‘Let’s not go out today. It’s going to be a hot day,” he said to me.",
+  "options": [
+   "He suggested that we shouldn’t be going out that day as it is going to be a hot day.",
+   "He is suggesting that they shouldn’t go out today as it was going to be a hot day.",
+   "He suggested that we shouldn’t go out that day as it was going to be a hot day.",
+   "He had suggested that they shouldn’t go out today as it was going to be a hot day."
+  ],
+  "correctIdx": 2,
+  "explanation": "\"Let's\" becomes \"suggested that we should\", with \"today\" changing to \"that day\" and \"is going\" backshifted to \"was going\".",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_128",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "The District Magistrate ordered the police to work all night and put an end to those riots.",
+  "options": [
+   "The District Magistrate told the police, \"Work all night and put to end these riots.\"",
+   "The District Magistrate told the police, \"Work all night and put an end to these riots.\"",
+   "The District Magistrate told the police, \"Work all night and put an end to their riots.\"",
+   "The District Magistrate told the police, \"Work all night to put an end these riots.\""
+  ],
+  "correctIdx": 1,
+  "explanation": "The order reverts to an imperative addressed to the police, with \"those riots\" becoming the proximal \"these riots\" and the idiom \"put an end to\" retained.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_129",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "“Let’s go out for dinner. I’ve been home this whole week,” said Anna.",
+  "options": [
+   "Anna said to me that we must go out for dinner as she has been home that whole week.",
+   "Anna told me she was wanting to go out for dinner and had been home this whole week.",
+   "Anna told me she is at home the whole week and would like to go out for dinner.",
+   "Anna suggested we go out for dinner as she had been home that whole week."
+  ],
+  "correctIdx": 3,
+  "explanation": "\"Let's\" is reported with \"suggested (that) we go\", and the present perfect continuous \"I've been\" backshifts to \"she had been\" with \"this whole week\" becoming \"that whole week\".",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_130",
+  "ruleId": "nar-4",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "Reena said, “What a lovely scene! I wish I could stay here forever!”",
+  "options": [
+   "Reena said with happiness that was a lovely scene. She wishes to stay there forever.",
+   "Reena exclaimed that it was a lovely scene. She further wished that she could stay there forever.",
+   "Reena says this is a lovely scene. I wish I could stay there forever.",
+   "Reena said what a lovely scene! She wished she could stay here forever."
+  ],
+  "correctIdx": 1,
+  "explanation": "The exclamation is reported with \"exclaimed that it was a lovely scene\", and the wish with \"wished that she could stay there\", changing \"here\" to \"there\".",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_131",
+  "ruleId": "nar-9",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The old lady said, “May God bless you and give you all you desire in life!”",
+  "options": [
+   "The old lady says that may God bless you and give you all you desire in life.",
+   "The old lady said that God may bless you and give you all you desire in life.",
+   "The old lady said that God will bless me and give me all I desire in life.",
+   "The old lady wished that God would bless me and give me all I desired in life."
+  ],
+  "correctIdx": 3,
+  "explanation": "An optative/prayer sentence is reported with the verb \"wished (that)\" plus \"would\", with pronouns shifting from \"you/your\" to \"me/I\".",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_132",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "Aanya said, “Even if it rains very hard I will not miss school tomorrow.”",
+  "options": [
+   "Aanya says that even if it rains very hard she will not miss school tomorrow.",
+   "Aanya said that even if it rained very hard she would not miss school the next day.",
+   "Aanya said though it rains very hard she will not miss school the next day.",
+   "Aanya has said that if it rains very hard I will not miss school tomorrow."
+  ],
+  "correctIdx": 1,
+  "explanation": "Statement reported with backshift: \"rains\"→\"rained\", \"will\"→\"would\", \"tomorrow\"→\"the next day\", and \"I\"→\"she\".",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_133",
+  "ruleId": "nar-4",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The gym instructor exclaimed that her students’ performance was extremely poor.",
+  "options": [
+   "The gym instructor said to her students, “How poor their perfomance is!”",
+   "The gym instructor said to her students, “How is your perfomance so poor?”",
+   "The gym instructor said to her students, “How poor your perfomance is!”",
+   "The gym instructor says to her students, “Your perfomance is poor.\""
+  ],
+  "correctIdx": 2,
+  "explanation": "Reverting the exclamatory report gives the \"How + adjective\" pattern with second-person \"your\", i.e. \"How poor your performance is!\"",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_134",
+  "ruleId": "nar-6",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "Her mother said, “We must have a party to celebrate your promotion.”",
+  "options": [
+   "Her mother said that they must have a party to celebrate her promotion.",
+   "Her mother said she had been planning a party for celebrating her promotion.",
+   "Her mother says that they should plan a party to celebrate her promotion.",
+   "Her mother told that they would be having a party to celebrate her promotion."
+  ],
+  "correctIdx": 0,
+  "explanation": "The statement is reported with \"we\"→\"they\" and \"your\"→\"her\"; the modal \"must\" is retained as it expresses obligation.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_135",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The commander said, “Keep marching till you reach the border.\"",
+  "options": [
+   "The commander ordered his men to keep marching till they reached the border.",
+   "The commander requested the men keep marching till they reach the border.",
+   "The commander said the men should keep marching till they reach the border.",
+   "The commander said to his men they should keep marching till you reach the border."
+  ],
+  "correctIdx": 0,
+  "explanation": "The command becomes \"ordered his men to keep marching\", with \"you reach\" changing to \"they reached\" through pronoun shift and tense backshift.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_136",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "I said, “Mother please let me go out for a movie with my friends.”",
+  "options": [
+   "He requested his mother she may please let him go out for a movie with his friends.",
+   "I said to mother you please let me go out for a movie with my friends.",
+   "She is begging her mother to please let me go out for a movie with my friends.",
+   "I begged my mother to let me go out for a movie with my friends."
+  ],
+  "correctIdx": 3,
+  "explanation": "The polite request is reported with \"begged...to let\", dropping \"please\" and changing \"me/my\" appropriately to keep the first-person speaker consistent.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_137",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The Queen said to the ministers, “Cut off the prisoner’s head!”",
+  "options": [
+   "The Queen ordered the ministers to cut off the prisoner’s head.",
+   "Screaming at the ministers the Queen is ordering to cut off the prisoner’s head.",
+   "The prisoner’s head would be cut off screamed the queen to the ministers.",
+   "The Queen told the ministers that to cut off the prisoner’s head."
+  ],
+  "correctIdx": 0,
+  "explanation": "The imperative command is reported with \"ordered\" plus the infinitive \"to cut off\", with no conjunction \"that\".",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_138",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The salesgirl said, “Forgive me but this dress is already sold.”",
+  "options": [
+   "The salesgirl said that she is sorry but this dress is already sold.",
+   "The salesgirl begged forgiveness and regretted that that dress was already sold.",
+   "The salesgirl asked to be forgiven but this dress was already sold.",
+   "The salesgirl said to me to forgive her but this dress was sold."
+  ],
+  "correctIdx": 1,
+  "explanation": "The request for forgiveness plus statement is reported as \"begged forgiveness and regretted that\", with \"this dress is\" backshifted to \"that dress was\".",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_139",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "Her parents asked her if the match proposed by them would be acceptable to her.",
+  "options": [
+   "Her parents said to her, “Will the match proposed by us be acceptable to you?”",
+   "Her parents said to her, “Was the match proposed by them acceptable to her?”",
+   "Her parents said her, “Would the match proposed by them be acceptable to her?”",
+   "Her parents said her, “Will the match proposed by us be acceptable to you?”"
+  ],
+  "correctIdx": 0,
+  "explanation": "The reported yes/no question reverts to a direct interrogative with \"Will\", \"us\" for \"them\", and \"you\" for \"her\", introduced by \"said to her\".",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_140",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "He advised me to go abroad for higher studies the following year.",
+  "options": [
+   "He said to me,\"I go abroad for higher studies next year.\"",
+   "He said to me,\"Please go abroad for higher studies next year.\"",
+   "He told to me,\"You should go abroad for higher studies the following year.\"",
+   "He said to me,\"You should go abroad for higher studies next year.\""
+  ],
+  "correctIdx": 3,
+  "explanation": "The advice is expressed directly as \"You should go abroad...\", with \"the following year\" reverting to \"next year\" and correct \"said to me\".",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_141",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "The little boy asked his teacher if she had always been good as a child.",
+  "options": [
+   "The little boy said to his teacher, “You have always been good as a child?”",
+   "The little boy said to his teacher, “Are you always good as a child?”",
+   "The little boy said to his teacher, “Ma’am, always you were good as a child?”",
+   "The little boy said to his teacher, “Ma’am, were you always good as a child?”"
+  ],
+  "correctIdx": 3,
+  "explanation": "The indirect 'asked...if' signals a yes/no question, so direct speech needs inverted word order with a question mark: 'were you always good as a child?'",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_142",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "Father told the children that there was some good news for them that day.",
+  "options": [
+   "Father said to the children, “There had been some good news for them that day.”",
+   "Father said to the children, “There was some good news for you today.”",
+   "Father said to the children, “There was some good news for them that day.”",
+   "Father said to the children, “There is some good news for you today.”"
+  ],
+  "correctIdx": 3,
+  "explanation": "Reverting to direct speech restores the present tense 'is', the second-person pronoun 'you' for the addressees, and 'today' in place of 'that day'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_143",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "“I’m so sorry! I totally forgot about the meeting,” he said.",
+  "options": [
+   "He is being sorry for having totally forgotten about the meeting.",
+   "He apologized and said he had totally forgotten about the meeting.",
+   "He was so sorry that he had forgot totally about the meeting.",
+   "Having forgotten totally about the meeting he is very sorry."
+  ],
+  "correctIdx": 1,
+  "explanation": "The apology is reported with the verb 'apologized', and the past simple 'forgot' backshifts to the past perfect 'had forgotten'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_144",
+  "ruleId": "nar-4",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "My uncle said, “Just my luck! I’ve missed the bus again.”",
+  "options": [
+   "My uncle exclaimed that he was unlucky as he had missed the bus again.",
+   "My uncle said he was lucky as he had missed the bus again.",
+   "My uncle exclaimed that he is once again lucky to miss the bus.",
+   "My uncle says that he is unlucky as he has missed the bus again."
+  ],
+  "correctIdx": 0,
+  "explanation": "The exclamatory 'Just my luck!' becomes 'exclaimed that he was unlucky', and the present perfect 'have missed' backshifts to 'had missed'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_145",
+  "ruleId": "nar-4",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "Father hugged me and said, “What a beautiful painting!”",
+  "options": [
+   "Father hugged me and exclaimed that my painting was very beautiful.",
+   "Father hugs me and exclaimed that my painting is very beautiful.",
+   "Father hugs me and says that my painting was very beautiful.",
+   "Father hugged me and exclaimed I had made a very beautiful painting."
+  ],
+  "correctIdx": 0,
+  "explanation": "The exclamation 'What a beautiful painting!' is reported as 'exclaimed that my painting was very beautiful', with tense backshift to 'was'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_146",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "“Don’t use your mobile while crossing the road,” I said to him.",
+  "options": [
+   "I told him to not to use his mobile while crossing the road.",
+   "I advised him not to use his mobile while crossing the road.",
+   "I am advising him not to use his mobile while crossing the road.",
+   "I said him not to use his mobile while crossing the road."
+  ],
+  "correctIdx": 1,
+  "explanation": "A negative command of caution takes the reporting verb 'advised' with 'not to' + infinitive, and 'your' changes to 'his'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_147",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "\"Why is everybody leaving so early today?\" said the manager.",
+  "options": [
+   "The manager asked why was everybody leaving so early that day.",
+   "The manager asked why everybody left so early that day.",
+   "The manager asked why everybody was leaving so early that day.",
+   "The manager asked why everybody was leaving so early today."
+  ],
+  "correctIdx": 2,
+  "explanation": "A wh-question keeps the wh-word but drops interrogative inversion, so 'is everybody leaving' becomes 'everybody was leaving', and 'today' becomes 'that day'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_148",
+  "ruleId": "nar-9",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "“So help me heaven!”, the man cried, “I shall never lie again.”",
+  "options": [
+   "The man cries out to heaven to help him not to lie again ever.",
+   "The man called upon heaven to witness his resolve that he would never lie again.",
+   "The man requested heaven to help him and see that he lie again.",
+   "The man called heaven and ordered to help him and see to it that she never lies again."
+  ],
+  "correctIdx": 1,
+  "explanation": "The invocation 'So help me heaven!' is reported as calling upon heaven to witness his resolve, with 'shall' backshifting to 'would'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_149",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "The teacher ordered the students to go straight to their classrooms.",
+  "options": [
+   "“Go straight to your classrooms,” the teacher said to the students.",
+   "“Go straight to their classrooms,” the teacher said to the students.",
+   "The teacher said to the students, “Please go straight to your classrooms.”",
+   "The teacher said, “Students, to go straight to their classrooms.”"
+  ],
+  "correctIdx": 0,
+  "explanation": "The order becomes an imperative in direct speech, and 'their classrooms' reverts to the second-person 'your classrooms'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_150",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The teacher said to Rana, “Have you completed the project?”",
+  "options": [
+   "The teacher asked Rana that if Rana has completed the project.",
+   "The teacher asks Rana have you completed the project.",
+   "The teacher asked Rana whether he had completed the project.",
+   "The teacher asks Rana will you complete the project."
+  ],
+  "correctIdx": 2,
+  "explanation": "The yes/no question takes 'whether', drops inversion, and 'have you completed' backshifts to 'he had completed'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_151",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The airport helper said, “Should I fetch you a trolley?”",
+  "options": [
+   "The helper had said he would be fetching me a trolley.",
+   "The airport helper is asking me that he will fetch a trolley.",
+   "The airport helper asked me if he should fetch me a trolley.",
+   "The airport helper said he will go to fetch me a trolley."
+  ],
+  "correctIdx": 2,
+  "explanation": "The offer-question is reported with 'asked...if' and no inversion; 'should' remains unchanged as a modal of suggestion, with 'you' becoming 'me'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_152",
+  "ruleId": "nar-1",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The interviewer said, “Rajiv, I’m impressed with you.\"",
+  "options": [
+   "The interviewer says I am impressed with Rajiv.",
+   "The interviewer told to Rajiv that he is impressed with him.",
+   "The interviewer told Rajiv that he was impressed with him.",
+   "The interviewer said to Rajiv that he had been impressed with you."
+  ],
+  "correctIdx": 2,
+  "explanation": "The vocative 'Rajiv' becomes the object of 'told', and the present 'am impressed with you' backshifts to 'was impressed with him'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_153",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The priest said to me, “You have committed a cardinal sin.”",
+  "options": [
+   "The priest told me that I had committed a cardinal sin.",
+   "The priest is saying I have committed a cardinal sin.",
+   "The priest said if I will be committing a cardinal sin.",
+   "The priest told me I am committing a cardinal sin."
+  ],
+  "correctIdx": 0,
+  "explanation": "'Said to me' becomes 'told me', the pronoun 'you' becomes 'I', and the present perfect 'have committed' backshifts to 'had committed'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_154",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "“I will be twenty five tomorrow”, said Vidushi.",
+  "options": [
+   "Vidushi is saying that she will be twenty five by tomorrow.",
+   "Vidushi said that she would be twenty five the next day.",
+   "Vidushi will say that she would be twenty five tomorrow.",
+   "Vidushi had told that me she would be twenty five the next day."
+  ],
+  "correctIdx": 1,
+  "explanation": "'I' becomes 'she', 'will' backshifts to 'would', and 'tomorrow' changes to 'the next day'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_155",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "Mary said, “I have to be there by 10 am tomorrow.”",
+  "options": [
+   "Mary says to me that she has to be there by 10 am.",
+   "Mary tells me she has to be there by 10 am tomorrow.",
+   "Mary told me that she had to be there by 10 am the next day.",
+   "Mary is telling me that she has to be there by 10 am tomorrow."
+  ],
+  "correctIdx": 2,
+  "explanation": "'Have to' backshifts to 'had to', 'I' becomes 'she', and 'tomorrow' changes to 'the next day'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_156",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "Hira inquired how I was doing being all alone in my house.",
+  "options": [
+   "Hira said to me, “Are you doing fine being all alone in your house.”",
+   "Hira said to me, “How are you doing being all alone in my house.”",
+   "Hira said to me, “How are you doing being all alone in your house?”",
+   "Hira said to me, “How you are doing being all alone in your house?”"
+  ],
+  "correctIdx": 2,
+  "explanation": "The wh-question is restored with inversion and a question mark, and 'my house' reverts to 'your house' as the speaker addresses the listener.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_157",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "Kiran said, “I will reach Patna tomorrow morning.”",
+  "options": [
+   "Kiran said that she will reach Patna tomorrow morning.",
+   "Kiran says that she will reach Patna tomorrow morning.",
+   "Kiran said that I will reach Patna the next morning.",
+   "Kiran said that she would reach Patna the next morning."
+  ],
+  "correctIdx": 3,
+  "explanation": "'I' becomes 'she', 'will' backshifts to 'would', and 'tomorrow morning' changes to 'the next morning'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_158",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "My friend asked me where I planned to go for a vacation.",
+  "options": [
+   "My friend said to me, “Where have you planned to go for a vacation?”",
+   "My friend said to me, “Where do you plan to go for a vacation?”",
+   "My friend said to me, “Where are you planning to go for a vacation?”",
+   "My friend said to me, “Where you have planned to go for a vacation?”"
+  ],
+  "correctIdx": 1,
+  "explanation": "The reported past 'planned' reverts to the present simple 'do you plan' with interrogative inversion in direct speech.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_159",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "The students asked how they would benefit from online classes.",
+  "options": [
+   "The students said, “How will they be benefited from online classes?”",
+   "The students said, “How we would benefit from online classes?”",
+   "The students said, “How they will benefit from online classes?”",
+   "The students said, “How will we benefit from online classes?”"
+  ],
+  "correctIdx": 3,
+  "explanation": "In direct speech the pronoun 'they' reverts to 'we', 'would' becomes 'will', and the question takes inverted order with a question mark.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_160",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "She said to her friend, \"Where did you go yesterday?\"",
+  "options": [
+   "She asked her friend where she had gone the day before.",
+   "She asked her friend where had she gone the day before.",
+   "She asked her friend where she was going yesterday.",
+   "She asked her friend where she went yesterday."
+  ],
+  "correctIdx": 0,
+  "explanation": "The wh-question loses inversion, 'did you go' backshifts to 'she had gone', and 'yesterday' becomes 'the day before'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_181",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "Kanhaiya said to me, “Do you want to sing?”",
+  "options": [
+   "Kanhaiya said that I would sing or not.",
+   "Kanhaiya said that whether I would sing.",
+   "Kanhaiya asked me if I wanted to sing.",
+   "Kanhaiya enquires if I want to sing."
+  ],
+  "correctIdx": 2,
+  "explanation": "A yes/no question becomes 'asked ... if', with the interrogative changed to statement order and present 'want' backshifted to 'wanted'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_182",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "I said to Mohan, “He has a green book.”",
+  "options": [
+   "I told Mohan that he had had a green book.",
+   "I told Mohan that he have a green book.",
+   "I told Mohan that he had a green book.",
+   "I told Mohan that he has a green book."
+  ],
+  "correctIdx": 2,
+  "explanation": "'Said to' becomes 'told' and the present simple 'has' backshifts to the past simple 'had' after a past reporting verb.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_183",
+  "ruleId": "nar-6",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "She told the car mechanic that her car was giving very low mileage.",
+  "options": [
+   "She said to the car mechanic, “Her car has been giving very low mileage.”",
+   "She said to the car mechanic, “My car is giving very low mileage.”",
+   "She asked the car mechanic, “Why is my car giving very low mileage?”",
+   "The car mechanic said to her, “Your car is giving very low mileage.” 8/20/2021, 7:59 PM"
+  ],
+  "correctIdx": 1,
+  "explanation": "Reversing the report restores first-person 'my car' and the past 'was giving' shifts forward to present 'is giving' inside the quotation.",
+  "exam": "SSC CHSL",
+  "year": "2021"
+ },
+ {
+  "id": "narration_184",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "The plumber told Ranjit that he had fixed the leaking tap.",
+  "options": [
+   "The plumber told Ranjit, “Had he fixed the leaking tap?”",
+   "The plumber said to Ranjit, “I have fixed the leaking tap.”",
+   "The plumber said to Ranjit, “You had fix the leaking tap.”",
+   "The plumber told to Ranjit, “He had fixed the leaking tap.”"
+  ],
+  "correctIdx": 1,
+  "explanation": "The reported past perfect 'had fixed' comes from the speaker's present perfect 'I have fixed', with 'he' reverting to 'I'.",
+  "exam": "SSC CHSL",
+  "year": "2021"
+ },
+ {
+  "id": "narration_185",
+  "ruleId": "nar-6",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "Isha told Nitya that she could get her suit stitched at her shop and that it would be convenient for her.",
+  "options": [
+   "Isha said to Nitya, “She could get her suit stitched at her shop and that it would be convenient for her.”",
+   "Isha said to Nitya, “You can get her suit stitched at my shop. It would be convenient for you.”",
+   "Isha said to Nitya, “You can get your suit stitched at my shop. It will be convenient for you.”",
+   "Isha said to Nitya, “You could get your suit stitched at her shop. It will be convenient for her.”"
+  ],
+  "correctIdx": 2,
+  "explanation": "In direct speech the pronouns become 'you/your' for the listener and 'my' for the speaker, and 'could/would' revert to 'can/will'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_186",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "The teacher told the children to draw the diagram of water cycle after they had finished writing.",
+  "options": [
+   "The teacher said to the children, “Draw the diagram of water cycle after they had finished writing.”",
+   "The teacher said, “Children, draw the diagram of water cycle after you have finished writing.”",
+   "The teacher said to the children, “Now draw the diagram of water cycle after finishing writing.”",
+   "The teacher said, “Children, you may draw the diagram of water cycle after you have finished writing.”"
+  ],
+  "correctIdx": 1,
+  "explanation": "'Told the children to draw' comes from an imperative addressed to them, so direct speech uses 'Children, draw ...' with 'you have finished'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_187",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "Alex expressed uncertainty regarding his ability to meet the complex requirements of the project.",
+  "options": [
+   "Alex said, “The requirements of the project are complex enough to be handled.”",
+   "Alex said, “I am uncertain to meet the complex requirements of the project.”",
+   "Alex said, “I’m sure I won’t be able to meet the complex requirements of the project.”",
+   "Alex said, “I’m not sure if I can meet the complex requirements of the project.”"
+  ],
+  "correctIdx": 3,
+  "explanation": "'Expressed uncertainty regarding his ability' corresponds to the words \"I'm not sure if I can ...\" in direct speech.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_188",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "Mr. Prakash asked Rajesh if he wanted to work as an accountant for his company.",
+  "options": [
+   "Mr. Prakash said to Rajesh, “Do you want to work as an accountant for my company?”",
+   "Mr. Prakash said to Rajesh, “Would you want to work as an accountant for my company?”",
+   "Mr. Prakash said to Rajesh, “Does he want to work as an accountant for his company?”",
+   "Mr. Prakash said to Rajesh, “Why don’t you work as an accountant for my company?”"
+  ],
+  "correctIdx": 0,
+  "explanation": "'Asked ... if' restores a yes/no question, so 'he wanted' becomes 'Do you want' and 'his company' becomes 'my company'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_189",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "The teacher said that Ashoka had converted to Buddhism after the Kalinga War.",
+  "options": [
+   "The teacher said, “Ashoka had converted to Buddhism after the Kalinga War.”",
+   "The teacher said, “Ashoka converted to Buddhism after the Kalinga War.”",
+   "The teacher says, “Ashoka converted to Buddhism after the Kalinga War.”",
+   "The teacher said, “Ashoka was converted to Buddhism after the Kalinga War.”"
+  ],
+  "correctIdx": 1,
+  "explanation": "A historical fact stays in the past simple in direct speech; the past perfect in the report is the backshift of 'converted'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_190",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "The MLA said that they planned to make that area a safe place to live in.",
+  "options": [
+   "The MLA said, “We are planning to make this area a safe place to live in.”",
+   "The MLA said, “We plan to make this area a safe place to live in.”",
+   "The MLA said, “They have planned to make this area a safe place to live in.”",
+   "The MLA said, “They planned to make this area a safe place to live in.”"
+  ],
+  "correctIdx": 1,
+  "explanation": "'They planned' reverts to the speaker's 'We plan', and the distal 'that area' becomes 'this area'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_191",
+  "ruleId": "nar-4",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "“We can’t believe we won the competition!” they said with joy.",
+  "options": [
+   "They exclaimed with joy that they can't believe they won the competition.",
+   "They exclaimed with joy that we couldn't believe we had won the competition.",
+   "They exclaimed with joy that they couldn't believe they had won the competition.",
+   "They exclaimed with joy that they couldn't believe they won the competition."
+  ],
+  "correctIdx": 2,
+  "explanation": "The exclamation is reported with 'exclaimed with joy that', pronouns change to 'they', and tenses backshift to 'couldn't believe' and 'had won'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_192",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "The doctor told the patient that she needed to rest and avoid stress.",
+  "options": [
+   "The doctor said to the patient, \"You would have needed to rest and avoid stress.\"",
+   "The doctor said to the patient, \"You need to rest and avoid stress.\"",
+   "The doctor said to the patient, \"You needed to rest and avoid stress.\"",
+   "The doctor said to the patient, \"You will need to rest and avoid stress.\""
+  ],
+  "correctIdx": 1,
+  "explanation": "The reported past 'needed' comes from the present 'need', and 'she' becomes 'you' as the patient is addressed directly.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_193",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "The judge asked the lawyer whether he was ready to question the witness.",
+  "options": [
+   "The judge said to the lawyer, “Will you be ready to question the witness?”",
+   "The judge said to the lawyer, “Why don’t you question the witness?”",
+   "The judge said to the lawyer, “Are you ready to question the witness?”",
+   "The judge said to the lawyer, “Do you want to question the witness?”"
+  ],
+  "correctIdx": 2,
+  "explanation": "'Asked whether he was ready' restores the yes/no question 'Are you ready ...?' with question word order and 'you'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_194",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "Avika requested Kavya not to make noise as it disturbed her sleep.",
+  "options": [
+   "Avika said to Kavya,” Do not make noise. It disturbs my sleep.”",
+   "Avika said to Kavya, “Can you stop making noise? It disturbs my sleep.”",
+   "Avika said to Kavya, “Please do not make noise. It disturbs my sleep.”",
+   "Avika told Kavya, “Please do not make noise. It disturbs her sleep.”"
+  ],
+  "correctIdx": 2,
+  "explanation": "The reporting verb 'requested' signals a polite negative imperative, so direct speech is \"Please do not make noise\" with 'her sleep' becoming 'my sleep'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_195",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "She told me that she had loved the outing with me the previous evening.",
+  "options": [
+   "She said to me, “I love the outing with me last evening.”",
+   "She said to me, “She had loved the outing with me the previous evening.”",
+   "She said to me, “I loved the outing with you last evening.”",
+   "She said to me, “She has loved the outing with you the previous evening.”"
+  ],
+  "correctIdx": 2,
+  "explanation": "'Had loved' reverts to 'loved', 'with me' becomes 'with you', and 'the previous evening' becomes 'last evening'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_196",
+  "ruleId": "nar-7",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "The guard said that his family had gone to his village the previous week.",
+  "options": [
+   "The guard said, “My family had gone to my village the previous week.”",
+   "The guard said, “His family went to his village the previous week.”",
+   "The guard said, “My family went to my village last week.”",
+   "The guard said, “My family was going to my village last week.”"
+  ],
+  "correctIdx": 2,
+  "explanation": "The past perfect 'had gone' reverts to 'went', 'his' becomes 'my', and 'the previous week' becomes 'last week'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_197",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "“I love the smell of fresh flowers in the morning,” she said.",
+  "options": [
+   "She said that I love the smell of fresh flowers in the morning.",
+   "She said that she loves the smell of fresh flowers in the morning.",
+   "She says that she loved the smell of fresh flowers in the morning.",
+   "She said that she loved the smell of fresh flowers in the morning."
+  ],
+  "correctIdx": 3,
+  "explanation": "'I' becomes 'she' and the present 'love' backshifts to 'loved' after the past reporting verb 'said'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_198",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "Neha requested her mother to let her rest as she was very tired.",
+  "options": [
+   "Neha said to her mother, “Can you let me rest? I am very tired.”",
+   "Neha said to her mother, “Please let me rest. I was very tired.”",
+   "Neha said to her mother, “Please let me rest. I am very tired.”",
+   "Neha told her mother, “Please let her rest. I am very tired.”"
+  ],
+  "correctIdx": 2,
+  "explanation": "'Requested ... to let her rest' comes from the polite imperative \"Please let me rest\", and 'was very tired' reverts to 'am very tired'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_199",
+  "ruleId": "nar-6",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "She said that she was going to the store to buy some groceries.",
+  "options": [
+   "She said, “She was going to the store to buy some groceries.”",
+   "She said, “She will be going to the store to buy some groceries.”",
+   "She told, “I am going to the store to buy some groceries.”",
+   "She said, “I am going to the store to buy some groceries.”"
+  ],
+  "correctIdx": 3,
+  "explanation": "'She was going' reverts to the speaker's own words 'I am going', keeping 'said' as the reporting verb without an object.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_200",
+  "ruleId": "nar-6",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "The manager said, \"I will give you a raise next month.\"",
+  "options": [
+   "The manager said that he would give me a raise the next month.",
+   "The manager said that I would have gotten a raise the next month.",
+   "The manager said that he would have given me a raise the next month.",
+   "The manager said that I would get a raise the next month."
+  ],
+  "correctIdx": 0,
+  "explanation": "'I' becomes 'he' and 'you' becomes 'me', 'will' backshifts to 'would', and 'next month' becomes 'the next month'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_161",
+  "ruleId": "nar-1",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "Rohan smiled and said that he thought Jojo liked him.",
+  "options": [
+   "Rohan smiled and said he thought, “Jojo likes me!”",
+   "Rohan smiled and said, “I think Jojo likes me!”",
+   "Rohan smiled and said, “They think Jojo likes me!”",
+   "Rohan smiled and asked, “Do you think Jojo likes me?”"
+  ],
+  "correctIdx": 1,
+  "explanation": "The reported clause 'he thought Jojo liked him' reverts to the speaker's original present tense with first-person pronouns: 'I think Jojo likes me!'",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_162",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The commander ordered his battalion to march on.",
+  "options": [
+   "The commander says to his battalion, \"Please march on.\"",
+   "“March on!” the commander said to his battalion.",
+   "The commander says to his battalion, “March on!”",
+   "The commander gives his battalion order, “March on!”"
+  ],
+  "correctIdx": 1,
+  "explanation": "'Ordered ... to march on' converts back to a direct imperative, 'March on!', with the past reporting verb 'said' retained.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_163",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "Rashmi says, “My startup is doing very well.”",
+  "options": [
+   "Rashmi says that my startup is doing very well.",
+   "Rashmi said that her startup is doing very well.",
+   "Rashmi said that her startup was doing very well.",
+   "Rashmi says that her startup is doing very well."
+  ],
+  "correctIdx": 3,
+  "explanation": "The reporting verb 'says' is in the present tense, so there is no tense backshift; only the pronoun 'my' changes to 'her'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_164",
+  "ruleId": "nar-4",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "“You speak such good English!” said Mary.",
+  "options": [
+   "Mary exclaimed that I speak so much good English.",
+   "Mary told me I was speaking much good English.",
+   "Mary exclaimed that I spoke very good English.",
+   "Mary exclaimed that I was speaking very good English."
+  ],
+  "correctIdx": 2,
+  "explanation": "The exclamatory remark becomes 'exclaimed that', 'such good' changes to 'very good', and 'speak' backshifts to 'spoke'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_165",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "“Don’t overspeed at night,” I said to Irina.",
+  "options": [
+   "I warned Irina not to overspeed at night.",
+   "Over speeding at night is not good, I said to Irina.",
+   "I warn to Irina not to overspeed at night.",
+   "I had been warning Irina not to overspeed at night."
+  ],
+  "correctIdx": 0,
+  "explanation": "A negative imperative of caution takes the reporting verb 'warned' with 'not + to + verb'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_166",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "My sister suggested that we go for a walk in the fresh air.",
+  "options": [
+   "My sister said, “We shall go for a walk in the fresh air.”",
+   "My sister said, “Let me go for a walk in the fresh air.”",
+   "My sister said, “Go for a walk in the fresh air.”",
+   "My sister said, “Let us go for a walk in the fresh air.”"
+  ],
+  "correctIdx": 3,
+  "explanation": "A suggestion including the speaker ('suggested that we go') is expressed directly as 'Let us go...'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_167",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "Smriti greeted me and asked me where I was working then.",
+  "options": [
+   "Smriti said to me, “Hello! Where you are working now?”",
+   "Smriti said to me, “Hello! Where I was working then?”",
+   "Smriti said to me, “Hello! Where are you working now?”",
+   "Smriti said to me, “Hello! Where were you working then?”"
+  ],
+  "correctIdx": 2,
+  "explanation": "'Greeted' becomes the greeting 'Hello!', the reported question regains interrogative word order, and 'was working then' reverts to 'are you working now'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_168",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "Mother said, “Sonam, don’t throw tantrums.”",
+  "options": [
+   "Mother warns Sonam not to throw tantrums.",
+   "Mother said that Sonam is not to throw tantrums.",
+   "Mother told Sonam not to throw tantrums.",
+   "Mother says to Sonam not to throw tantrums."
+  ],
+  "correctIdx": 2,
+  "explanation": "A negative command with a named addressee becomes 'told + object + not + to + verb'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_169",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "The lawyer says, “My client is innocent.”",
+  "options": [
+   "The lawyer said that his client is innocent.",
+   "The lawyer says that his client is innocent.",
+   "The lawyer says my client was innocent.",
+   "The lawyer said that my client is innocent."
+  ],
+  "correctIdx": 1,
+  "explanation": "With the reporting verb in the present ('says'), the tense stays unchanged and only 'my' becomes 'his'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_170",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "The teacher informed that the exam had been postponed.",
+  "options": [
+   "The teacher informs, “The exam had been postponed.”",
+   "The teacher informed, “The exam was being postponed.”",
+   "The teacher informs, “The exam has been postponed.”",
+   "The teacher informed, “The exam has been postponed.”"
+  ],
+  "correctIdx": 3,
+  "explanation": "The past perfect 'had been postponed' in indirect speech corresponds to the present perfect 'has been postponed' in the original words, with 'informed' retained.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_171",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "“Can you pay him in cash?” she said to me.",
+  "options": [
+   "She asked me if he could pay me in cash.",
+   "She asked him if I can pay him in cash.",
+   "She asked me if I could pay him in cash.",
+   "She asked him if I should pay him in cash."
+  ],
+  "correctIdx": 2,
+  "explanation": "The yes/no question takes 'asked me if', 'you' becomes 'I' (addressee = me), 'him' stays third person, and 'can' backshifts to 'could'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_172",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "He said, \"I shall need a copy of the documents.\"",
+  "options": [
+   "He said that he will need a copy of the documents.",
+   "He said that he shall need a copy of the document.",
+   "He said that he is going to need a copy of the document.",
+   "He said that he would need a copy of the documents."
+  ],
+  "correctIdx": 3,
+  "explanation": "'I shall' becomes 'he would' after the past reporting verb 'said'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_173",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "Sonia says, “I love the monsoons.”",
+  "options": [
+   "Sonia said that she loved the monsoons.",
+   "Sonia says that she loves the monsoons.",
+   "Sonia says that she is loving the monsoons.",
+   "Sonia said that she was loving the monsoons."
+  ],
+  "correctIdx": 1,
+  "explanation": "The present-tense reporting verb 'says' blocks tense change; 'I love' becomes 'she loves'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_174",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "She said impatiently, “I don’t need any help.”",
+  "options": [
+   "She said impatiently that I don’t need any help.",
+   "She said impatiently that she didn’t need any help.",
+   "She said impatiently she don’t need any help.",
+   "She said impatiently that she doesn’t need any help."
+  ],
+  "correctIdx": 1,
+  "explanation": "After the past reporting verb, 'I don't need' backshifts to 'she didn't need', introduced by 'that'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_175",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "Harry said that he would not be in town on Friday.",
+  "options": [
+   "Harry saying, “I will not be in town on Friday”.",
+   "Harry said, “I will not be in town on Friday”.",
+   "Harry said, “I can’t be in town on Friday”.",
+   "Harry said, “I must not be in town on Friday”."
+  ],
+  "correctIdx": 1,
+  "explanation": "'Would not' in indirect speech reverts to the original 'will not', with the pronoun changing to 'I'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_176",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "She asked if she could help him with his packing.",
+  "options": [
+   "She said, “May I help you with your packing?”",
+   "She said, “Can I help you with your packing?”",
+   "She said, “Could I help him with your packing?”",
+   "She said, “Should you help me with my packing?”"
+  ],
+  "correctIdx": 1,
+  "explanation": "The reported 'asked if she could help him' reverts to a direct yes/no question, 'Can I help you with your packing?'",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_177",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the most appropriate option to change the narration (direct / indirect) of the given sentence.",
+  "sentence": "Rita said, “I’m not feeling well.”",
+  "options": [
+   "Rita said that she was not feeling well.",
+   "Rita said she will not be feeling well.",
+   "Rita said she is not feeling well.",
+   "Rita says that I’m not feeling well."
+  ],
+  "correctIdx": 0,
+  "explanation": "After 'said', the present continuous 'am not feeling' backshifts to 'was not feeling' and 'I' becomes 'she'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_178",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "My brother said to me, “Don’t play in the rain.”",
+  "options": [
+   "My brother said to me don’t play in the rain.",
+   "My brother forbade me to play in the rain.",
+   "My brother assured me not to play in the rain.",
+   "My brother refused me to not play in the rain."
+  ],
+  "correctIdx": 1,
+  "explanation": "A prohibition ('Don't play') is reported with the verb 'forbade' followed by the object and infinitive, with no extra negative.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_179",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "The mother said that the kids were playing.",
+  "options": [
+   "The mother said, “The kids have been playing”.",
+   "The mother has said, “The kids were playing”.",
+   "The mother told, “The kids had been playing”.",
+   "The mother said, “The kids are playing”."
+  ],
+  "correctIdx": 3,
+  "explanation": "The past continuous 'were playing' in indirect speech corresponds to the original present continuous 'are playing'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_180",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "I warned Rita not to be late the next day.",
+  "options": [
+   "I warned to Rita, “Don’t be late tomorrow”.",
+   "I warning Rita, “Not be late tomorrow”.",
+   "I warned Rita, “Not be late tomorrow”.",
+   "I warned Rita, “Don’t be late tomorrow”."
+  ],
+  "correctIdx": 3,
+  "explanation": "The negative infinitive 'not to be late' reverts to the imperative 'Don't be late', and 'the next day' becomes 'tomorrow'.",
+  "exam": "SSC_CGL_Tier2_All_Years",
+  "year": ""
+ },
+ {
+  "id": "narration_221",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He said to me, \"Where have you been all this while?\"",
+  "options": [
+   "He asked me where had I been all that while.",
+   "He asked me where I have been all that while.",
+   "He asked me where I had been all that while.",
+   "He asked where I was being all this while."
+  ],
+  "correctIdx": 2,
+  "explanation": "A wh-question becomes 'asked + wh-word + subject + verb' with no inversion, present perfect 'have been' backshifts to 'had been', and 'this while' changes to 'that while'.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_222",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He said, \"I wish I had not wasted those years.\"",
+  "options": [
+   "He said he wished he had not wasted those years.",
+   "He said he wished not to waste those years.",
+   "He said that he did not waste those years.",
+   "He wished that he would not waste those years."
+  ],
+  "correctIdx": 0,
+  "explanation": "The reported clause keeps 'wished' (present 'wish' backshifted), and the past perfect 'had not wasted' cannot shift further, so it stays unchanged.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_223",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech. She said, \"I was going to the market.\"",
+  "sentence": "",
+  "options": [
+   "She said that she had been going to the market.",
+   "She said she was gone to the market.",
+   "She said she is going to the market.",
+   "She said she had gone to the market."
+  ],
+  "correctIdx": 0,
+  "explanation": "Past continuous 'was going' backshifts to past perfect continuous 'had been going', with 'I' becoming 'she'.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_224",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "Tom said, \"I have been working all day.\"",
+  "options": [
+   "Tom said he had worked all day.",
+   "Tom said he had been working all day.",
+   "Tom said he has been working all day.",
+   "Tom said he was working all day."
+  ],
+  "correctIdx": 1,
+  "explanation": "Present perfect continuous 'have been working' backshifts to past perfect continuous 'had been working', and 'I' becomes 'he'.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_225",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He said, \"My brother is sleeping.\"",
+  "options": [
+   "He said his brother is sleeping.",
+   "He said that his brother was sleeping.",
+   "He said that his brother had slept.",
+   "He said his brother has been sleeping."
+  ],
+  "correctIdx": 1,
+  "explanation": "Present continuous 'is sleeping' backshifts to past continuous 'was sleeping', and 'my' becomes 'his'.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_226",
+  "ruleId": "nar-1",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "They said, \"We need more time.\"",
+  "options": [
+   "They said they needed more time.",
+   "They said they need more time.",
+   "They said they had need more time.",
+   "They said that we needed more time."
+  ],
+  "correctIdx": 0,
+  "explanation": "'We' changes to 'they' as the reported subject, and present 'need' backshifts to 'needed' after the past reporting verb.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_227",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the correct indirect speech of the sentence:",
+  "sentence": "She said, \"Don't you understand the seriousness of the matter?\"",
+  "options": [
+   "She asked why I didn't understand the serious matter.",
+   "She asked whether I don’t understand the seriousness of the matter.",
+   "She asked if I understood the seriousness of the matter.",
+   "She asked do I understand how serious it is."
+  ],
+  "correctIdx": 2,
+  "explanation": "A yes/no question takes 'asked if/whether' with statement word order, and 'do you understand' backshifts to 'I understood'.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_228",
+  "ruleId": "nar-9",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the correct indirect speech of the sentence:",
+  "sentence": "The general said, \"May our nation always remain free.\"",
+  "options": [
+   "The general said our nation may always remain free.",
+   "The general expressed the wish that their nation might always remain free.",
+   "The general hoped that his nation will remain free.",
+   "The general wished the nation would stay free."
+  ],
+  "correctIdx": 1,
+  "explanation": "An optative sentence with 'may' is reported with a verb of wishing, 'may' changing to 'might' and 'our' to 'their'.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_229",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the correct indirect speech of the sentence:",
+  "sentence": "He said, \"Whoever did this must be held accountable.\"",
+  "options": [
+   "He said that whoever did it must be held to account.",
+   "He said that the one who did this must be accounted.",
+   "He said that whoever had done that must be held accountable.",
+   "He said that whoever did this must have held accountable."
+  ],
+  "correctIdx": 2,
+  "explanation": "The past simple 'did' backshifts to past perfect 'had done', 'this' becomes 'that', while the modal 'must' is retained.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_230",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the correct indirect speech of the sentence:",
+  "sentence": "The man said, \"Do you not realize how serious this is?\"",
+  "options": [
+   "The man asked if I did not realize how serious that was.",
+   "The man asked me did I not realize how serious it was.",
+   "The man told I don't realize how serious this is.",
+   "The man asked whether I did realize how serious this is."
+  ],
+  "correctIdx": 0,
+  "explanation": "The negative yes/no question becomes 'asked if' with statement order; 'do you not realize' backshifts to 'did not realize' and 'this is' to 'that was'.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_231",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the correct indirect speech of the sentence:",
+  "sentence": "She said, \"Why didn't anyone inform me about the change?\"",
+  "options": [
+   "She asked why had no one informed her about the change.",
+   "She said why was no one informing her.",
+   "She asked why no one had informed her about the change.",
+   "She asked why didn't anyone inform her about the change."
+  ],
+  "correctIdx": 2,
+  "explanation": "The wh-question keeps 'why' as the connective with no auxiliary inversion, and past simple 'didn't inform' backshifts to past perfect 'had informed' with 'me' becoming 'her'.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_232",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Choose the correct indirect speech of the sentence:",
+  "sentence": "He said to his brother, \"Please stop playing loud music.\"",
+  "options": [
+   "He requested his brother to stop playing loud music.",
+   "He asked his brother please to stop loud music.",
+   "He said his brother to stop playing music.",
+   "He told his brother that please stop the music."
+  ],
+  "correctIdx": 0,
+  "explanation": "An imperative with 'please' is reported using 'requested' plus the infinitive, dropping 'please' and the imperative form.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_201",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "Kavya said that she was going to have a nap in the afternoon.",
+  "options": [
+   "Kavya said, “I am having a nap in the afternoon.”",
+   "Kavya says, “She is going to have a nap in the afternoon.”",
+   "Kavya said, “She was going to have a nap in the afternoon.”",
+   "Kavya said, “I am going to have a nap in the afternoon.”"
+  ],
+  "correctIdx": 3,
+  "explanation": "Reversing the backshift, 'was going' returns to 'am going' and the reported pronoun 'she' becomes the speaker's 'I'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_202",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "“I finished my homework early,” she said happily.",
+  "options": [
+   "She said happily that I have finished my homework early.",
+   "She said happily that she has finished her homework early.",
+   "She said happily that I finished her homework early.",
+   "She said happily that she had finished her homework early."
+  ],
+  "correctIdx": 3,
+  "explanation": "With a past reporting verb, the simple past 'finished' backshifts to the past perfect 'had finished', and 'I/my' become 'she/her'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_203",
+  "ruleId": "nar-2",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "Grandmother asked the little girl if she was hungry.",
+  "options": [
+   "Grandmother said to the little girl, “Was she hungry?”",
+   "Grandmother said to the little girl, “Are you hungry?”",
+   "Grandmother said to the little girl, “Is she hungry?”",
+   "Grandmother said to the little girl, “If she was hungry.”"
+  ],
+  "correctIdx": 1,
+  "explanation": "A yes/no question reported with 'asked...if' reverts to the interrogative form with inversion: 'Are you hungry?', with 'she' becoming 'you' (the listener).",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_204",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "My cousin said that he was good at drawing landscapes.",
+  "options": [
+   "My cousin said, “I am good at drawing landscapes.”",
+   "My cousin told, “I was good at drawing landscapes.”",
+   "My cousin said, “I was good at drawing landscapes.”",
+   "My cousin said, “He was good at drawing landscapes.”"
+  ],
+  "correctIdx": 0,
+  "explanation": "Undoing the backshift turns 'was' into 'am' and 'he' into 'I', keeping 'said' with direct quotation.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_205",
+  "ruleId": "nar-4",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in direct speech.",
+  "sentence": "Anshuman exclaimed that he had lost his coat again.",
+  "options": [
+   "Anshuman said, “Alas! I had lost my coat again!”",
+   "Anshuman said, “O God! How can I have lost my coat again!”",
+   "Anshuman said, “O God, I have lost my coat again!”",
+   "Anshuman said, “O God, he had lost his coat again!”"
+  ],
+  "correctIdx": 2,
+  "explanation": "'Exclaimed' signals an exclamatory original, so an interjection ('O God') plus the un-backshifted present perfect 'I have lost my coat' with '!' is restored.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_206",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the following sentence in direct speech.",
+  "sentence": "She told me that she had visited Paris last summer.",
+  "options": [
+   "“I have been visiting Paris last summer,” she told me.",
+   "“I will visit Paris next summer,” she told me.",
+   "“I am visiting Paris next summer,” she told me.",
+   "“I visited Paris last summer,” she told me."
+  ],
+  "correctIdx": 3,
+  "explanation": "The past perfect 'had visited' reverts to the simple past 'visited' since 'last summer' fixes a definite past time, and 'she' becomes 'I'.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_207",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the option that expresses the given sentence in indirect speech.",
+  "sentence": "The coach said, “You should practice every day.”",
+  "options": [
+   "The coach said that I would practice every day.",
+   "The coach said that I should practice every day.",
+   "The coach said that I will practice every day.",
+   "The coach said that I should have practiced every day."
+  ],
+  "correctIdx": 1,
+  "explanation": "'Should' expressing advice/obligation stays unchanged in indirect speech; only the pronoun 'you' shifts to 'I' as the person addressed.",
+  "exam": "SSC CPO",
+  "year": "2024"
+ },
+ {
+  "id": "narration_208",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "The archivist declared that, unless the humidity controls were recalibrated, the papyri could deteriorate beyond salvage.",
+  "options": [
+   "The archivist declared, \"Unless the humidity controls are recalibrated, the papyri could deteriorate beyond salvage.\"",
+   "The archivist declared, \"If humidity controls were recalibrated, papyri would deteriorate.\"",
+   "The archivist declared, \"Unless humidity controls were recalibrated, the papyri could deteriorate beyond salvage.\"",
+   "The archivist declared, \"Unless humidity controls were recalibrated, papyri can get deteriorated beyond salvage.\""
+  ],
+  "correctIdx": 0,
+  "explanation": "Removing the backshift restores the first conditional 'are recalibrated', while the modal 'could' and the full phrase 'beyond salvage' are retained.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_209",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "Select the correct option for the Direct Speech conversion of the sentence below.",
+  "sentence": "The environmentalist warned that deforestation would trigger irreversible climatic shifts if corrective measures were not adopted immediately.",
+  "options": [
+   "The environmentalist said, \"Deforestation will trigger irreversible climatic shifts if corrective measures are not adopted immediately.\"",
+   "The environmentalist said, \"Deforestation would trigger irreversible climatic shifts if corrective measures were not adopted.\"",
+   "The environmentalist said, \"Deforestation may trigger irreversible climatic shifts unless corrective measures had been adopted.\"",
+   "The environmentalist said, \"Deforestation has triggered irreversible climatic shifts because corrective measures were not adopted.\""
+  ],
+  "correctIdx": 0,
+  "explanation": "'Would trigger' un-backshifts to 'will trigger' and 'were not adopted' to 'are not adopted', retaining 'immediately'.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_210",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "He mused that, were the glacier to retreat another kilometre, the valley ecosystem could irrevocably shift.",
+  "options": [
+   "He mused, \"If the glacier retreats another kilometre, the valley ecosystem could irrevocably shift.\"",
+   "He mused, \"Were the glacier to retreat another kilometre, the valley ecosystem could irrevocably shift.\"",
+   "He said, \"If glacier retreated another kilometre, ecosystem would shift.\"",
+   "He mused, \"Had the glacier retreated another kilometre, ecosystem could shift.\""
+  ],
+  "correctIdx": 1,
+  "explanation": "The inverted subjunctive 'were the glacier to retreat' is a hypothetical form that does not backshift, so the words are quoted unchanged with the same reporting verb.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_211",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "The official said that only if the forms were submitted on time would the applications be processed.",
+  "options": [
+   "\"The applications would be processed only if the forms were submitted on time,\" said the official.",
+   "\"Only if the forms were submitted on time would the applications be processed,\" said the official.",
+   "\"If forms are submitted on time, the applications would be processed,\" said the official.",
+   "\"Submit forms on time and your applications will be processed,\" said the official."
+  ],
+  "correctIdx": 1,
+  "explanation": "The subjunctive conditional with negative inversion ('only if...were...would') remains unaltered, so the direct quote reproduces the clause order exactly.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_212",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "She observed that the appellate bench might overturn the ruling were new exculpatory evidence to surface.",
+  "options": [
+   "She observed, \"The appellate bench may overturn the ruling if new exculpatory evidence surfaces.\"",
+   "She said, \"The appellate bench might overturn the ruling were new exculpatory evidence to surface.\"",
+   "She observed, \"Should new exculpatory evidence surface, the bench has overturned the ruling.\"",
+   "She said, \"Evidence surfaces, ruling might overturn.\""
+  ],
+  "correctIdx": 1,
+  "explanation": "The hypothetical subjunctive 'were new evidence to surface' and the modal 'might' are unchanged forms, so the original wording is quoted as it stands.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_213",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech. The philosopher remarked that, had the syllogism been valid, the paradox would not have arisen.",
+  "sentence": "",
+  "options": [
+   "The philosopher said, \"If the syllogism is valid, the paradox does not arise.\"",
+   "The philosopher said, \"Had the syllogism been valid, the paradox would not arise.\"",
+   "The philosopher said, \"Had the syllogism been valid, the paradox would not have arisen.\"",
+   "The philosopher said, \"If syllogism is valid, paradox should not arise.\""
+  ],
+  "correctIdx": 2,
+  "explanation": "A third-conditional ('had been valid...would not have arisen') is already past-perfect and unreal, so it is quoted without any tense change.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_214",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech. The trainer remarked that participants must arrive 15 minutes early for registration.",
+  "sentence": "",
+  "options": [
+   "\"Participants had to come 15 minutes early for registration,\" the trainer remarked.",
+   "\"Arrive 15 minutes early for registration,\" the trainer told the participants.",
+   "\"You will be registered only if you arrive 15 minutes early,\" said the trainer.",
+   "\"It's mandatory to register before 15 minutes,\" said the trainer."
+  ],
+  "correctIdx": 1,
+  "explanation": "The reported obligation with 'must arrive' comes from an imperative, which reverts to the bare command 'Arrive 15 minutes early for registration.'",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_215",
+  "ruleId": "nar-10",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "He said, \"If I had studied harder, I would have passed the examination.\"",
+  "options": [
+   "He said if he studied harder, he would pass the examination.",
+   "He said that if he had studied harder, he would have passed the examination.",
+   "He told that he would have passed the examination if he studied harder.",
+   "He said that if he studied harder, he would had passed the examination."
+  ],
+  "correctIdx": 1,
+  "explanation": "An unreal third-conditional keeps its tenses in indirect speech; only 'I/my' changes to 'he/his' after 'said that'.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_216",
+  "ruleId": "nar-3",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "The professor said, \"Submit your assignments by Friday without fail.\"",
+  "options": [
+   "The professor said to submit their assignments by Friday without fail.",
+   "The professor told that submit assignments by Friday without fail.",
+   "The professor said that submit your assignments by Friday without fail.",
+   "The professor told to submit your assignments by Friday without fail."
+  ],
+  "correctIdx": 0,
+  "explanation": "The imperative is reported with the infinitive 'to submit', and 'your' changes to 'their' for the addressees.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_217",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.",
+  "sentence": "She said, \"I will call you as soon as I reach the airport.\"",
+  "options": [
+   "She said she would call me as soon as she reached the airport.",
+   "She said she will call me as soon as she reaches the airport.",
+   "She told that she would call you as soon as she reaches the airport.",
+   "She said that I will call you as soon as I reach the airport."
+  ],
+  "correctIdx": 0,
+  "explanation": "'Will' backshifts to 'would' and the present 'reach' to 'reached', with 'you' becoming 'me' (the reporter).",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_218",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "The advisor said that if need be, he would intervene personally.",
+  "options": [
+   "\"If need be, I will intervene personally,\" said the advisor.",
+   "\"If needs be, I shall personally intervene,\" said the advisor.",
+   "\"If needed, I might intervene,\" said the advisor.",
+   "\"If there is need, I would intervene personally,\" said the advisor."
+  ],
+  "correctIdx": 0,
+  "explanation": "Reversing the backshift, 'would intervene' becomes 'will intervene' and 'he' becomes 'I', while the fixed phrase 'if need be' stays.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_219",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "He told me that he had been working on the project since morning.",
+  "options": [
+   "He said, \"I have been working on the project since morning.\"",
+   "He said, \"I was working on the project since morning.\"",
+   "He said, \"I had been working on the project since morning.\"",
+   "He said, \"I am working on the project since morning.\""
+  ],
+  "correctIdx": 0,
+  "explanation": "The past perfect continuous 'had been working' un-backshifts to the present perfect continuous 'have been working', with 'he' becoming 'I'.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ },
+ {
+  "id": "narration_220",
+  "ruleId": "nar-5",
+  "source": "pyq-narration",
+  "qtype": "narration",
+  "prompt": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.",
+  "sentence": "He said that he would be moving to the capital soon.",
+  "options": [
+   "He said, \"I would move to the capital soon.\"",
+   "He said, \"I will be moving to the capital soon.\"",
+   "He said, \"I shall move to the capital soon.\"",
+   "He said, \"I was moving to the capital soon.\""
+  ],
+  "correctIdx": 1,
+  "explanation": "'Would be moving' reverts to 'will be moving', preserving the future continuous aspect, and 'he' becomes 'I'.",
+  "exam": "SSC CPO",
+  "year": "2025"
+ }
+]

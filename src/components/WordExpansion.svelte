@@ -12,6 +12,13 @@
   import MCQCard from './MCQCard.svelte';
   import ProblematicButton from './ProblematicButton.svelte';
 
+  function getSynAntStemCount(w: WordEntry): number {
+    return (w.qtypesAsStem['synonym'] ?? 0) + (w.qtypesAsStem['antonym'] ?? 0);
+  }
+  function getSynAntOptionCount(w: WordEntry): number {
+    return (w.qtypesAsOption['synonym'] ?? 0) + (w.qtypesAsOption['antonym'] ?? 0);
+  }
+
   let {
     word,
     qtypeFilter = null,
@@ -104,18 +111,16 @@
       <span>Loading details...</span>
     </div>
   {:else}
-    <!-- Header: badges + Bengali meaning + problematic -->
+    <!-- Header: word + badges + Bengali meaning + problematic -->
     <div class="space-y-2">
       <div class="flex flex-wrap items-center gap-3">
+        <h3 class="text-lg font-bold tracking-tight capitalize break-words leading-snug">{word.word}</h3>
         {#if enriched?.pos}
-          <span class="text-xs italic text-zinc-500">{enriched.pos}</span>
+          <span class="text-xs italic text-zinc-500 shrink-0">{enriched.pos}</span>
         {/if}
-        {#if enriched?.bn}
-          <span class="text-sm font-bengali text-zinc-700 dark:text-zinc-300" lang="bn">{enriched.bn}</span>
-        {/if}
-        <span class="text-[11px] text-zinc-500 tabular-nums">
+        <span class="text-[11px] text-zinc-500 tabular-nums shrink-0">
           {#if restrictToSynAnt}
-            ✍ {word.asStem} · ◆ {((word.qtypesAsOption['synonym'] ?? 0) + (word.qtypesAsOption['antonym'] ?? 0))} · Total {word.total}
+            ✍ {getSynAntStemCount(word)} · ◆ {getSynAntOptionCount(word)} · Total {word.total}
           {:else if qtypeFilter}
             ✍ {word.qtypesAsStem[qtypeFilter] ?? 0} · ◆ {word.qtypesAsOption[qtypeFilter] ?? 0} · Total {word.total}
           {:else}
@@ -124,6 +129,12 @@
         </span>
         <span class="ml-auto"><ProblematicButton itemType="vocab" itemKey={word.wordLower} subType="syn-ant" label="Mark problematic" /></span>
       </div>
+      {#if enriched?.bn}
+        <div class="text-sm text-zinc-700 dark:text-zinc-300">
+          <span class="text-[10px] uppercase font-semibold text-zinc-500 mr-1">বাংলা:</span>
+          <span class="font-bengali" lang="bn">{enriched.bn}</span>
+        </div>
+      {/if}
     </div>
 
     <!-- Definition + Bengali -->

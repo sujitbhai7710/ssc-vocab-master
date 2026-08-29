@@ -78,9 +78,11 @@
     question.sent.trim().toLowerCase() !== question.stem.trim().toLowerCase()
   );
 
-  // Idioms: if `sent` equals `stem` (no context sentence, just the idiom phrase repeated),
-  // we show "What does this idiom mean?" as the prompt — NOT the idiom itself (since the idiom
-  // is also in the options as the answer, showing it would reveal the answer).
+  // Idioms: the options are MEANINGS (not the idiom itself), so showing the idiom as the
+  // question is SAFE — it doesn't reveal the answer.
+  // - If `sent` is a real context sentence (different from `stem`): show `sent`
+  // - If `sent` equals `stem` (both just the idiom phrase): show "What does '[idiom]' mean?"
+  //   using the `stem` field — the idiom is NOT in the options (options are meanings).
   const idiomIsStemOnly = $derived(
     question.qtype === 'idiom' &&
     (!question.sent || question.sent.trim().toLowerCase() === question.stem.trim().toLowerCase())
@@ -91,12 +93,20 @@
     question.sent.trim().toLowerCase() !== question.stem.trim().toLowerCase()
   );
 
-  // Homonyms: the `sent` field holds the fill-in-the-blank sentence.
-  // The "pair" (confusing words) is the set of options — shown as a heading above the question.
+  // Homonyms: the `sent` field holds the fill-in-the-blank sentence in most cases.
+  // But for some questions (e.g. "Select the nearest homonym of the given word"), `sent`
+  // is just the word being asked about (short), and the full question text is in `prompt`.
+  // In that case, show `prompt` + ": " + `sent` (e.g. "Select the nearest homonym of the given word: Accept").
   const homonymHasSentence = $derived(
     question.qtype === 'homonym' &&
     !!question.sent &&
-    question.sent.trim().length > 0
+    question.sent.trim().length >= 15 &&
+    question.sent.trim().toLowerCase() !== question.stem.trim().toLowerCase()
+  );
+  const homonymNeedsPrompt = $derived(
+    question.qtype === 'homonym' &&
+    !!question.sent &&
+    question.sent.trim().length < 15
   );
 
   // For homonyms: build the "confused pair" — the unique set of similar-sounding options.
@@ -205,17 +215,24 @@
         &ldquo;{question.sent}&rdquo;
       </div>
     {:else if idiomIsStemOnly}
-      <!-- Idiom without context: show "What does this idiom mean?" prompt — do NOT show the idiom itself
-           (it's the answer and would be revealed) -->
+      <!-- Idiom without context sentence: show the idiom itself as the question.
+           Options are MEANINGS (not the idiom), so showing the idiom is SAFE. -->
       <div class="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed bg-orange-50 dark:bg-orange-950/20 p-2.5 rounded-md border border-orange-200 dark:border-orange-800">
         <div class="text-[10px] uppercase font-semibold text-orange-700 dark:text-orange-400 mb-1">Idiom — select the correct meaning</div>
-        What does the highlighted idiom mean in the options below?
+        What does <span class="font-semibold text-orange-900 dark:text-orange-100">&ldquo;{question.stem}&rdquo;</span> mean?
       </div>
     {:else if homonymHasSentence}
-      <!-- Homonym: show the fill-in-the-blank sentence. The "pair" heading is shown by parent component. -->
+      <!-- Homonym: show the fill-in-the-blank sentence. The "pair" heading is shown above. -->
       <div class="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed bg-pink-50 dark:bg-pink-950/20 p-2.5 rounded-md border border-pink-200 dark:border-pink-800">
         <div class="text-[10px] uppercase font-semibold text-pink-700 dark:text-pink-400 mb-1">Fill in the blank with the correct homonym:</div>
         &ldquo;{question.sent}&rdquo;
+      </div>
+    {:else if homonymNeedsPrompt}
+      <!-- Homonym where sent is just the word (not a sentence): show prompt + sent.
+           E.g. "Select the nearest homonym of the given word: Accept" -->
+      <div class="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed bg-pink-50 dark:bg-pink-950/20 p-2.5 rounded-md border border-pink-200 dark:border-pink-800">
+        <div class="text-[10px] uppercase font-semibold text-pink-700 dark:text-pink-400 mb-1">Homonym question:</div>
+        {#if question.prompt}{question.prompt} {/if}<span class="font-semibold capitalize">&ldquo;{question.sent}&rdquo;</span>
       </div>
     {:else if question.qtype === 'spelling' && question.sent && question.sent.trim().toLowerCase() !== question.stem.trim().toLowerCase()}
       <!-- Spelling with sentence: show the sentence -->

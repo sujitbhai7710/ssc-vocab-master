@@ -9,7 +9,12 @@ let optCount = 0;
 try {
   const fs = await import('node:fs');
   initialWords = JSON.parse(fs.readFileSync('public/data/words.json', 'utf-8'));
-  optCount = initialWords.filter((w: any) => (w.qtypesAsOption?.synonym || 0) + (w.qtypesAsOption?.antonym || 0) > 0).length;
+  // Module 2: ONLY syn/ant as option, EXCLUDING words that also appeared as syn/ant stem
+  optCount = initialWords.filter((w: any) => {
+    const synAntOption = (w.qtypesAsOption?.synonym ?? 0) + (w.qtypesAsOption?.antonym ?? 0);
+    const synAntStem = (w.qtypesAsStem?.synonym ?? 0) + (w.qtypesAsStem?.antonym ?? 0);
+    return synAntOption > 0 && synAntStem === 0;
+  }).length;
 } catch (e) {}
 ---
 <Layout title="Module 2 — Syn/Ant Option Choices | SSC Vocab Master" activeNav="options">

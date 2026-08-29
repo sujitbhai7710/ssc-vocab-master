@@ -97,9 +97,9 @@
     <span>Menu</span>
   </button>
 
-  <!-- Mobile dropdown -->
+  <!-- Mobile dropdown — z-50 to stay above all page content -->
   {#if mobileOpen}
-    <div class="sm:hidden absolute top-full right-0 mt-1 w-64 max-w-[calc(100vw-2rem)] bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-lg shadow-lg z-50 py-1 max-h-[80vh] overflow-y-auto">
+    <div class="sm:hidden absolute top-full right-0 mt-1 w-64 max-w-[calc(100vw-2rem)] bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-lg shadow-xl z-50 py-1 max-h-[80vh] overflow-y-auto">
       {#each navItems as item}
         <a
           href={item.href}

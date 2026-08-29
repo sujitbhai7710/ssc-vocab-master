@@ -31,6 +31,7 @@
   let examFilter = $state('all');
   let page = $state(1);
   let showFilters = $state(false);
+  let newOnly = $state(false);  // "New in 2025" filter
   let expandedWord = $state<string | null>(null);  // currently expanded wordLower
 
   const PAGE_SIZE = 30;  // Smaller for accordion (each card takes more space)
@@ -45,8 +46,20 @@
       asOption: w.qtypesAsOption[qt] ?? 0,
     };
   }
+  function getSynAntStemCount(w: WordEntry): number {
+    return (w.qtypesAsStem['synonym'] ?? 0) + (w.qtypesAsStem['antonym'] ?? 0);
+  }
   function getSynAntOptionCount(w: WordEntry): number {
     return (w.qtypesAsOption['synonym'] ?? 0) + (w.qtypesAsOption['antonym'] ?? 0);
+  }
+  // "New in 2025" — words that first appeared in 2025 exams (no prior-year exams)
+  function isNewIn2025(w: WordEntry): boolean {
+    const allExams = [...(w.stemExams || []), ...(w.optionExams || [])];
+    if (allExams.length === 0) return false;
+    const has2025 = allExams.some(e => e.includes('2025'));
+    if (!has2025) return false;
+    const hasBefore2025 = allExams.some(e => e.includes('2019') || e.includes('2020') || e.includes('2021') || e.includes('2022') || e.includes('2023') || e.includes('2024'));
+    return !hasBefore2025;
   }
 
   const filtered = $derived.by(() => {
@@ -59,17 +72,29 @@
       return true;
     });
 
-    if (restrictToSynAnt) {
-      result = result.filter((w) => getSynAntOptionCount(w) > 0);
-    } else if (qtypeFilter) {
+    if (qtypeFilter) {
+      // OWS/Idioms/Homonyms/Spelling pages: filter by specific qtype
       result = result.filter((w) => {
         const c = countInQtype(w, qtypeFilter);
         return c.asStem > 0 || c.asOption > 0;
       });
     } else if (view === 'stems') {
-      result = result.filter((w) => w.asStem > 0);
-    } else if (view === 'options') {
+      // Module 1: ONLY synonyms/antonyms as stem (exclude homonym/spelling/idiom/ows)
+      result = result.filter((w) => getSynAntStemCount(w) > 0);
+    } else if (view === 'options' && !restrictToSynAnt) {
+      // Generic options view
       result = result.filter((w) => w.asOption > 0);
+    }
+
+    if (restrictToSynAnt) {
+      // Module 2: ONLY syn/ant as option, EXCLUDING words that also appeared as syn/ant stem
+      // (those are already in Module 1)
+      result = result.filter((w) => getSynAntOptionCount(w) > 0 && getSynAntStemCount(w) === 0);
+    }
+
+    // "New in 2025" filter — words that first appeared in 2025 exams
+    if (newOnly) {
+      result = result.filter((w) => isNewIn2025(w));
     }
 
     const sorted = [...result];
@@ -127,8 +152,8 @@
 </script>
 
 <div class="space-y-4">
-  <!-- Search & filter bar -->
-  <div class="sticky top-1 z-20 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-md border border-zinc-200 dark:border-zinc-700 rounded-lg p-3 space-y-3">
+  <!-- Search & filter bar (NOT sticky — scrolls with page so it doesn't cover mobile menu) -->
+  <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-lg p-3 space-y-3">
     <div class="flex flex-wrap items-center gap-2">
       <div class="relative flex-1 min-w-[200px]">
         <svg class="absolute left-2.5 top-1/2 -translate-y-1/2 h-4 w-4 text-zinc-400 pointer-events-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
@@ -147,6 +172,13 @@
         <option value="frequency">Sort: Frequency</option>
         <option value="alphabetical">Sort: A→Z</option>
       </select>
+      <button
+        onclick={() => { newOnly = !newOnly; page = 1; }}
+        class="h-9 px-3 text-sm rounded-md border {newOnly ? 'bg-emerald-500 text-white border-emerald-500' : 'bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700'} transition-colors whitespace-nowrap"
+        title="Show only words that first appeared in 2025 exams"
+      >
+        New in 2025
+      </button>
       <button
         onclick={() => (showFilters = !showFilters)}
         class="h-9 px-3 text-sm rounded-md border {showFilters ? 'bg-orange-500 text-white border-orange-500' : 'bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700'} transition-colors"
@@ -170,7 +202,7 @@
           </select>
         </div>
         <button
-          onclick={() => { examFilter = 'all'; query = ''; page = 1; }}
+          onclick={() => { examFilter = 'all'; query = ''; newOnly = false; page = 1; }}
           class="h-8 self-end px-3 text-xs text-zinc-600 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 rounded-md border border-zinc-200 dark:border-zinc-700"
         >
           Reset
@@ -207,7 +239,7 @@
             class="w-full text-left px-4 py-3 flex items-center gap-3 hover:bg-zinc-50 dark:hover:bg-zinc-800/50 transition-colors"
           >
             <span class="text-xs font-mono text-zinc-500 tabular-nums shrink-0 w-7">{rank}.</span>
-            <h3 class="text-base font-semibold tracking-tight truncate flex-1 min-w-0">{w.word}</h3>
+            <h3 class="text-base font-semibold tracking-tight capitalize flex-1 min-w-0 break-words leading-snug">{w.word}</h3>
             <span
               onclick={(e) => { e.stopPropagation(); pronounceWord(w.word); }}
               onkeydown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); e.stopPropagation(); pronounceWord(w.word); } }}

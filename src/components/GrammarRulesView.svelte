@@ -107,25 +107,28 @@
         {@const expanded = expandedRule === r.id}
         {@const qcount = r.questionIds?.length ?? 0}
         <article class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-lg overflow-hidden">
-          <button onclick={() => toggleExpand(r)} class="w-full text-left px-4 py-3 flex items-center gap-3 hover:bg-zinc-50 dark:hover:bg-zinc-800/50 transition-colors">
-            <span class="text-xs font-mono text-zinc-500 tabular-nums shrink-0 w-8">#{r.no}</span>
+          <button onclick={() => toggleExpand(r)} class="w-full text-left px-4 py-3 flex items-start gap-3 hover:bg-zinc-50 dark:hover:bg-zinc-800/50 transition-colors">
+            <span class="text-xs font-mono text-zinc-500 tabular-nums shrink-0 w-8 pt-0.5">#{r.no}</span>
             <div class="flex-1 min-w-0">
-              <h3 class="text-base font-semibold tracking-tight truncate">{r.title}</h3>
-              {#if r.topic}<p class="text-[11px] text-zinc-500 truncate">{r.topic}</p>{/if}
+              <h3 class="text-base font-semibold tracking-tight break-words leading-snug">{r.title}</h3>
+              {#if r.topic}<p class="text-[11px] text-zinc-500 truncate mt-0.5">{r.topic}</p>{/if}
             </div>
-            <div class="flex items-center gap-1 shrink-0 flex-wrap justify-end">
-              {#each r.sources.slice(0,4) as s}<span class="text-[9px] font-medium border rounded px-1.5 py-0.5 bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300 dark:border-zinc-700">{sourceBadge[s] ?? s}</span>{/each}
-            </div>
-            <span class="shrink-0 text-[11px] text-zinc-500 tabular-nums">{qcount} Q</span>
-            <span class="shrink-0 text-zinc-400">{expanded ? '▲' : '▼'}</span>
+            <span class="shrink-0 text-[11px] text-zinc-500 tabular-nums pt-0.5">{qcount} Q</span>
+            <span class="shrink-0 text-zinc-400 pt-0.5">{expanded ? '▲' : '▼'}</span>
           </button>
           {#if expanded}
-            <div class="px-4 pb-4 pt-1 space-y-4 border-t border-zinc-100 dark:border-zinc-800">
+            <div class="px-4 pb-4 pt-3 space-y-4 border-t border-zinc-100 dark:border-zinc-800">
+              <!-- Rule title shown clearly first -->
               <div class="flex items-start justify-between gap-3 flex-wrap">
-                <div class="text-sm leading-relaxed text-zinc-700 dark:text-zinc-300 flex-1 min-w-0">
-                  <span class="font-semibold text-orange-600 dark:text-orange-400">Rule: </span>{r.concept}
+                <div class="flex-1 min-w-0">
+                  <h4 class="text-base font-bold tracking-tight break-words leading-snug">{r.title}</h4>
+                  {#if r.topic}<p class="text-[11px] text-zinc-500 mt-0.5">{r.topic}</p>{/if}
                 </div>
                 <ProblematicButton itemType="grammar-rule" itemKey={r.id} subType={r.topic} label="Mark rule" />
+              </div>
+              <!-- Rule concept/description -->
+              <div class="text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
+                <span class="font-semibold text-orange-600 dark:text-orange-400">Rule: </span>{r.concept}
               </div>
               {#if r.examples && r.examples.length}
                 <div class="space-y-1.5">

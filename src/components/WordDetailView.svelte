@@ -5,6 +5,8 @@
   import { loadEnrichedForWord, loadWordQuestions, buildExampleSentence, pronounceWord, fetchPronunciation } from '../lib/vocab-data';
   import MCQCard from './MCQCard.svelte';
   import ProblematicButton from './ProblematicButton.svelte';
+  import PronounceButton from './PronounceButton.svelte';
+  import WordLinkButton from './WordLinkButton.svelte';
 
   let { word }: { word: WordEntry } = $props();
 
@@ -130,7 +132,7 @@
             <h3 class="text-sm font-semibold mb-2 flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-emerald-500"></span>Synonyms ({enriched.ssSynonyms.length})</h3>
             <div class="flex flex-wrap gap-1.5">
               {#each enriched.ssSynonyms as s}
-                <span class="text-xs px-2 py-1 rounded-md border {s.status === 'correct' ? 'bg-emerald-50 border-emerald-300 text-emerald-800 dark:bg-emerald-950/30 dark:text-emerald-300 dark:border-emerald-800' : 'bg-zinc-50 border-zinc-200 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}">{s.word}</span>
+                <span class="text-xs ps-2 pe-1 py-1 rounded-md border inline-flex items-center gap-1 {s.status === 'correct' ? 'bg-emerald-50 border-emerald-300 text-emerald-800 dark:bg-emerald-950/30 dark:text-emerald-300 dark:border-emerald-800' : 'bg-zinc-50 border-zinc-200 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}">{s.word}<PronounceButton word={s.word} size="xs" /><WordLinkButton word={s.word} size="xs" /></span>
               {/each}
             </div>
             <p class="text-[10px] text-zinc-400 mt-2">🟩 = appeared in SSC exams · ⬜ = verified-related (added)</p>
@@ -141,7 +143,7 @@
             <h3 class="text-sm font-semibold mb-2 flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-rose-500"></span>Antonyms ({enriched.ssAntonyms.length})</h3>
             <div class="flex flex-wrap gap-1.5">
               {#each enriched.ssAntonyms as s}
-                <span class="text-xs px-2 py-1 rounded-md border {s.status === 'correct' ? 'bg-rose-50 border-rose-300 text-rose-800 dark:bg-rose-950/30 dark:text-rose-300 dark:border-rose-800' : 'bg-zinc-50 border-zinc-200 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}">{s.word}</span>
+                <span class="text-xs ps-2 pe-1 py-1 rounded-md border inline-flex items-center gap-1 {s.status === 'correct' ? 'bg-rose-50 border-rose-300 text-rose-800 dark:bg-rose-950/30 dark:text-rose-300 dark:border-rose-800' : 'bg-zinc-50 border-zinc-200 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}">{s.word}<PronounceButton word={s.word} size="xs" /><WordLinkButton word={s.word} size="xs" /></span>
               {/each}
             </div>
           </div>

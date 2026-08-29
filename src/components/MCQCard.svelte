@@ -10,6 +10,9 @@
   // For homonym questions, shows a collapsible "Confused pair" heading above the question
   // (the set of similar-sounding words from the options), so users can see the pair being tested.
   import type { QuestionEntry } from '../lib/vocab-data';
+  import { pronounceWord } from '../lib/vocab-data';
+  import PronounceButton from './PronounceButton.svelte';
+  import WordLinkButton from './WordLinkButton.svelte';
 
   let {
     question,
@@ -245,11 +248,19 @@
         Select the correct answer from the options below.
       </div>
     {:else if question.stem}
-      <!-- Syn/ant with main word (no sentence): show the stem word -->
-      <div class="text-base font-semibold tracking-tight">{question.stem}</div>
+      <!-- Syn/ant with main word (no sentence): show the stem word with pronunciation -->
+      <div class="flex items-center gap-2 flex-wrap">
+        <div class="text-base font-semibold tracking-tight capitalize break-words">{question.stem}</div>
+        {#if question.stem && question.stem.trim().length < 80}
+          <PronounceButton word={question.stem} size="sm" />
+          <WordLinkButton word={question.stem} size="sm" />
+        {/if}
+      </div>
     {/if}
 
-    <!-- Options: clickable. NO answer is shown green/amber BEFORE clicking. -->
+    <!-- Options: clickable. NO answer is shown green/amber BEFORE clicking.
+         Each option row has: the answer button + a pronunciation button + a word-link button.
+         The small buttons use stopPropagation so they don't trigger the answer selection. -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
       {#each question.options as opt, i}
         {@const letter = String.fromCharCode(65 + i)}
@@ -259,27 +270,51 @@
         {@const clickedWrong = answered && isSelected && !isCorrect}
         {@const clickedCorrect = answered && isSelected && isCorrect}
         {@const missedCorrect = answered && !isSelected && isCorrect}
-        <button
-          onclick={() => handleClick(i)}
-          disabled={answered}
-          class="flex items-center gap-2 px-3 py-2 rounded-md border text-sm transition-colors text-left
-          {clickedCorrect
-            ? 'bg-emerald-100 border-emerald-400 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-100 dark:border-emerald-700'
-            : clickedWrong
-              ? 'bg-rose-100 border-rose-400 text-rose-900 dark:bg-rose-950/50 dark:text-rose-100 dark:border-rose-700'
-              : missedCorrect
-                ? 'bg-emerald-50 border-emerald-300 text-emerald-900 dark:bg-emerald-950/30 dark:text-emerald-100 dark:border-emerald-700'
-                : 'bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700 hover:border-orange-400/40 enabled:hover:bg-zinc-50 dark:enabled:hover:bg-zinc-800/50'}">
-          <span class="font-mono text-xs font-bold text-zinc-500 w-5">({letter})</span>
-          <span class="font-medium capitalize">{opt}</span>
-          {#if clickedCorrect}
-            <span class="ml-auto text-[10px] font-bold text-emerald-700 dark:text-emerald-300 uppercase tracking-wide">✓ Correct</span>
-          {:else if clickedWrong}
-            <span class="ml-auto text-[10px] font-bold text-rose-700 dark:text-rose-300 uppercase tracking-wide">✗ Wrong</span>
-          {:else if missedCorrect}
-            <span class="ml-auto text-[10px] font-bold text-emerald-700 dark:text-emerald-300 uppercase tracking-wide">✓ Correct</span>
+        {@const optColor = clickedCorrect
+          ? 'bg-emerald-100 border-emerald-400 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-100 dark:border-emerald-700'
+          : clickedWrong
+            ? 'bg-rose-100 border-rose-400 text-rose-900 dark:bg-rose-950/50 dark:text-rose-100 dark:border-rose-700'
+            : missedCorrect
+              ? 'bg-emerald-50 border-emerald-300 text-emerald-900 dark:bg-emerald-950/30 dark:text-emerald-100 dark:border-emerald-700'
+              : 'bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700 hover:border-orange-400/40 enabled:hover:bg-zinc-50 dark:enabled:hover:bg-zinc-800/50'}
+        <div class="flex items-stretch gap-1.5">
+          <button
+            onclick={() => handleClick(i)}
+            disabled={answered}
+            class="flex-1 flex items-center gap-2 px-3 py-2 rounded-md border text-sm transition-colors text-left {optColor}">
+            <span class="font-mono text-xs font-bold text-zinc-500 w-5">({letter})</span>
+            <span class="font-medium capitalize break-words">{opt}</span>
+            {#if clickedCorrect}
+              <span class="ml-auto text-[10px] font-bold text-emerald-700 dark:text-emerald-300 uppercase tracking-wide shrink-0">✓ Correct</span>
+            {:else if clickedWrong}
+              <span class="ml-auto text-[10px] font-bold text-rose-700 dark:text-rose-300 uppercase tracking-wide shrink-0">✗ Wrong</span>
+            {:else if missedCorrect}
+              <span class="ml-auto text-[10px] font-bold text-emerald-700 dark:text-emerald-300 uppercase tracking-wide shrink-0">✓ Correct</span>
+            {/if}
+          </button>
+          {#if opt && opt.trim().length > 0 && opt.trim().length < 80}
+            <!-- Pronunciation button (only for single words / short phrases, not long sentences) -->
+            <button
+              onclick={(e) => { e.stopPropagation(); pronounceWord(opt); }}
+              disabled={answered}
+              class="shrink-0 w-9 flex items-center justify-center rounded-md border {optColor} hover:bg-orange-100 dark:hover:bg-orange-900 transition-colors disabled:opacity-50"
+              title="Pronounce {opt}"
+              aria-label="Pronounce {opt}"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.72a.99.99 0 0 1-.703.286H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.71a.99.99 0 0 1 .703.286l3.484 3.516A.705.705 0 0 0 11 19.298z"/><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 5.636a9 9 0 0 1 0 12.728"/></svg>
+            </button>
+            <!-- Word-link button (only for single words / short phrases) -->
+            <a
+              href={`/word/${encodeURIComponent(opt.toLowerCase().trim())}`}
+              onclick={(e) => e.stopPropagation()}
+              class="shrink-0 w-9 flex items-center justify-center rounded-md border {optColor} hover:bg-sky-100 dark:hover:bg-sky-900 transition-colors"
+              title="Open {opt} detail page"
+              aria-label="Open {opt} detail page"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+            </a>
           {/if}
-        </button>
+        </div>
       {/each}
     </div>
 

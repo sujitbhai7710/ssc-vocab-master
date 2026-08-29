@@ -11,6 +11,8 @@
   } from '../lib/vocab-data';
   import MCQCard from './MCQCard.svelte';
   import ProblematicButton from './ProblematicButton.svelte';
+  import PronounceButton from './PronounceButton.svelte';
+  import WordLinkButton from './WordLinkButton.svelte';
 
   function getSynAntStemCount(w: WordEntry): number {
     return (w.qtypesAsStem['synonym'] ?? 0) + (w.qtypesAsStem['antonym'] ?? 0);
@@ -184,6 +186,8 @@
                     {#if fam.pos}
                       <span class="text-[10px] italic text-zinc-500">{fam.pos}</span>
                     {/if}
+                    <PronounceButton word={fam.w} size="xs" />
+                    <WordLinkButton word={fam.w} size="xs" />
                     {#if fam.n}
                       <span class="text-[10px] text-zinc-500 ml-auto tabular-nums">{fam.n}× in PYQ</span>
                     {/if}
@@ -224,10 +228,12 @@
               <div class="text-[10px] uppercase font-semibold text-zinc-500 mb-1.5">Synonyms</div>
               <div class="flex flex-wrap gap-1">
                 {#each sscSynonyms as s}
-                  <span class="text-xs font-medium border rounded-md px-2 py-1 {s.status === 'correct'
+                  <span class="text-xs font-medium border rounded-md ps-2 pe-1 py-1 inline-flex items-center gap-1 {s.status === 'correct'
                     ? 'bg-emerald-100 border-emerald-400 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-100 dark:border-emerald-700'
                     : 'bg-zinc-100 border-zinc-300 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}">
                     {s.word}
+                    <PronounceButton word={s.word} size="xs" />
+                    <WordLinkButton word={s.word} size="xs" />
                   </span>
                 {/each}
               </div>
@@ -238,10 +244,12 @@
               <div class="text-[10px] uppercase font-semibold text-zinc-500 mb-1.5">Antonyms</div>
               <div class="flex flex-wrap gap-1">
                 {#each sscAntonyms as a}
-                  <span class="text-xs font-medium border rounded-md px-2 py-1 {a.status === 'correct'
+                  <span class="text-xs font-medium border rounded-md ps-2 pe-1 py-1 inline-flex items-center gap-1 {a.status === 'correct'
                     ? 'bg-emerald-100 border-emerald-400 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-100 dark:border-emerald-700'
                     : 'bg-zinc-100 border-zinc-300 text-zinc-600 dark:bg-zinc-800/40 dark:text-zinc-400 dark:border-zinc-700'}">
                     {a.word}
+                    <PronounceButton word={a.word} size="xs" />
+                    <WordLinkButton word={a.word} size="xs" />
                   </span>
                 {/each}
               </div>

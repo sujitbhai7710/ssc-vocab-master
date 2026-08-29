@@ -1,6 +1,8 @@
 # Future Roadmap — Mock Tests & Custom Series
 
-This document captures the user's planned features (shared in session 3) and how the current database + architecture already supports them. **None of this is built yet** — it's the spec for future implementation.
+> **✅ UPDATE (2026-08-30):** Mock tests, custom test series, auto-problematic from wrong answers, and the SSC-style timer are now **FULLY IMPLEMENTED**. See the "Implemented" badges below. This document remains as the original spec + implementation notes.
+
+This document captures the user's planned features (shared in session 3) and how the current database + architecture already supports them.
 
 ## User's vision (verbatim summary)
 
@@ -12,46 +14,43 @@ This document captures the user's planned features (shared in session 3) and how
 >
 > Same for narration and voice.
 
-## Feature 1: Mock tests (auto-generated from progress)
+## ✅ Feature 1: Mock tests (auto-generated from progress) — IMPLEMENTED
 
 ### Concept
 Based on the user's `progress.completed` set (what they've marked as "read"), the system auto-generates test series that quiz them on material they've covered but might be forgetting.
 
-### Rules
-- **Single MCQ per vocab word** by default — pick one question per word (not all questions for that word). User can toggle "multiple from single vocab/rule" off/on.
-- **Only include words/rules the user has marked as read** (in their `progress.completed` set for that page_type).
-- **Mixed/random** — questions can come from any category (syn/ant, idioms, spelling, homonyms, grammar, narration, voice) or be filtered to specific categories.
-- **Auto-problematic on wrong answer** — if the user answers wrong, that question's vocab/rule auto-adds to `problematic` (with sub_type = the test category).
+### Implementation
+- **DB tables:** `test_attempts`, `test_results` (see `scripts/schema.sql`)
+- **Worker endpoints:** `/api/test/generate`, `/api/test/[id]`, `/api/test/submit`, `/api/test/list`
+- **Pages:** `/tests` (list + presets), `/test?id=X` (take), `/test-results?id=X` (review)
+- **Components:** `TestList.svelte`, `TestRunner.svelte`, `TestResults.svelte`, `TestCard.svelte`
+- **Client API:** `src/lib/test-api.ts`
+- **Engine:** `functions/_lib/test-engine.ts`
 
-### Suggested implementation
-```
-New DB tables (not yet created):
-  test_attempts   (id, user_id, config JSON, started_at, finished_at, score)
-  test_results    (attempt_id, question_id, selected_idx, correct bool, time_ms)
+### Rules (all implemented)
+- ✅ **Single MCQ per vocab word** by default — pick one question per word (not all questions for that word). User can toggle "multiple from single vocab/rule" off/on.
+- ✅ **Only include words/rules the user has marked as read** (in their `progress.completed` set for that page_type).
+- ✅ **Mixed/random** — questions can come from any category (syn/ant, idioms, spelling, homonyms, grammar, narration, voice) or be filtered to specific categories.
+- ✅ **Auto-problematic on wrong answer** — if the user answers wrong, that question's vocab/rule auto-adds to `problematic` (with sub_type = the test category).
 
-New worker endpoints:
-  POST /api/test/generate  { categories: [...], count: N, single_per_item: bool }
-    → picks random questions from user's completed sets, returns a test session
-  POST /api/test/submit     { attempt_id, answers: [...] }
-    → scores, stores results, auto-adds wrong answers to problematic
+### 4 auto-generated presets (in `src/lib/test-api.ts → AUTO_PRESETS`)
+1. **Quick Mix (25 Q, ~12 min)** — balanced across all 8 categories
+2. **Syn/Ant Focus (50 Q, ~24 min)** — syn/ant only
+3. **Problematic Revision (20 Q, untimed)** — only from your Problems list, allows multiple-per-item
+4. **Grammar + Narration + Voice (40 Q, ~19 min)** — grammar-focused
 
-New pages:
-  /tests          — list of auto-generated + custom test series
-  /test/[id]      — take a test (timer, one question at a time or all)
-  /test/[id]/results — review answers, see explanations
-```
-
-### How the current schema supports it
-- `progress.completed` (JSON array of indices) already tracks what the user has read per page_type → use as the question pool
-- `problematic` table already has `item_type` + `item_key` + `sub_type` → auto-add wrong answers with sub_type = test category
-- The `grammar_rules` + `qs/gr-<no>.json` lazy-loading pattern extends to test questions
-
-## Feature 2: Custom test series
+## ✅ Feature 2: Custom test series — IMPLEMENTED
 
 ### Concept
 The user configures their own test: pick categories + question ranges based on what they've studied.
 
-### Example config
+### Implementation
+- **Page:** `/tests/custom` (build/edit a config)
+- **Component:** `CustomTestBuilder.svelte`
+- **Saved configs DB table:** `test_configs`
+- **CRUD endpoints:** `/api/test/configs` (GET/POST/PATCH/DELETE)
+
+### Example config (matches user's example)
 ```
 Categories:
   - syn/ant:     40-70 questions  (from progress.completed in 'stems'/'options')
@@ -62,56 +61,27 @@ Categories:
 Total: ~160-230 questions
 ```
 
-### Timer (SSC pattern)
-- SSC: 25 questions in 15 minutes = **0.6 min/question**
-- Auto-calc: `total_questions × 0.6 minutes` (e.g. 100 questions → 60 min... user said 48 min for 100, so maybe 0.48 min/Q — confirm the SSC ratio)
-- User said: "25 question 15 min, we give 12 min max" → so the ratio is `12/25 = 0.48 min/question`
-- 100 questions → `100 × 0.48 = 48 minutes` (matches user's example)
-- **Customizable** — user can override the auto-calculated time
+### ✅ Timer (SSC pattern) — IMPLEMENTED
+- SSC: 25 questions in 15 minutes, user said "we give 12 min max for 25"
+- Ratio: `12/25 = 0.48 min/question`
+- Auto-calc: `total_max_questions × 0.48 minutes` (e.g. 100 questions → 48 min)
+- **Customizable** — user can override the auto-calculated time in the builder
 
-### Suggested implementation
-```
-New DB table:
-  test_configs  (id, user_id, name, config JSON, created_at)
-    config = {
-      categories: [{ type: 'stems', min: 40, max: 70 }, ...],
-      single_per_item: true,
-      timer_minutes: 48,  // auto = sum × 0.48, overridable
-      shuffle: true
-    }
-
-New page:
-  /tests/custom  — build a custom test config (sliders for each category range)
-```
-
-## Feature 3: Auto-problematic from wrong answers
+## ✅ Feature 3: Auto-problematic from wrong answers — IMPLEMENTED
 
 ### Concept
-When a user gets a test question wrong, the underlying vocab word / grammar rule auto-adds to their `problematic` list (so it surfaces for revision).
+When a user gets a test question wrong, the underlying vocab word / grammar rule auto-adds to their `problematic` list.
 
-### Rules
-- Wrong answer → `INSERT INTO problematic (user_id, item_type, item_key, sub_type)` 
-  - `item_type` = 'vocab' / 'grammar-rule' / etc. (derived from the question)
-  - `item_key` = the word/rule-id
+### Implementation (in `functions/api/test/submit.ts`)
+- After scoring, for each wrong answer:
+  - `item_type` = derived from category (`vocab` for syn-ant/ows/idiom/homonym/spelling, `grammar-mcq` for grammar, `narration` for narration, `voice` for voice)
+  - `item_key` = the word/rule-id/section-id
   - `sub_type` = the test category (e.g. 'syn-ant', 'narration')
-- Deduped automatically (UNIQUE constraint on user_id + item_type + item_key)
+- Deduped automatically (`UNIQUE(user_id, item_type, item_key)` constraint + `ON CONFLICT DO NOTHING`)
 - User can still manually remove from `/problems`
+- The submit response includes `auto_problematic_added` count
 
-### Suggested implementation
-In the test submit handler:
-```ts
-// functions/api/test/submit.ts
-for (const answer of answers) {
-  if (!answer.correct) {
-    const { itemType, itemKey } = deriveFromQuestion(answer.questionId);
-    await ctx.env.DB.prepare(
-      'INSERT INTO problematic (user_id, item_type, item_key, sub_type, created_at) VALUES (?, ?, ?, ?, ?) ON CONFLICT DO NOTHING'
-    ).bind(uid, itemType, itemKey, answer.category, Date.now()).run();
-  }
-}
-```
-
-## Feature 4: Per-category problematic (already done ✓)
+## ✅ Feature 4: Per-category problematic (already done ✓)
 
 The `problematic` table's `item_type` column already separates:
 - `vocab` (syn/ant words)
@@ -121,57 +91,85 @@ The `problematic` table's `item_type` column already separates:
 - `narration` (narration sections)
 - `voice` (voice sections)
 
-The `/problems` page already has tabs for each. For mock tests, filter problematic by `item_type` to generate "revision tests" of only problematic items.
+The `/problems` page has tabs for each. Mock tests use this for the "Problematic Revision" preset.
 
-## Feature 5: Narration + voice in mock tests
+## ✅ Feature 5: Narration + voice in mock tests — IMPLEMENTED
 
-Same as grammar — narration (232 PYQs) and voice (329 PYQs) questions are already in `public/data/grammar/narration_questions.json` + `voice_questions.json`. The test generator can include them by category.
+Narration (232 PYQs) and voice (329 PYQs) questions are included as test categories. The test engine loads them from `public/data/grammar/narration_questions.json` + `voice_questions.json`.
 
-## Implementation priority (suggested)
+## Implementation priority (suggested vs actual)
 
-1. **Mock test engine** (auto-generate from progress) — highest value, uses existing data
-2. **Auto-problematic from wrong answers** — small addition to the submit handler
-3. **Custom test series** — UI-heavy (range sliders per category)
-4. **Timer** — straightforward once the test page exists
-5. **Test results review** — shows explanations (already in data)
+| # | Feature | Suggested | Actual |
+|---|---------|-----------|--------|
+| 1 | Mock test engine (auto-generate from progress) | Highest value | ✅ Done |
+| 2 | Auto-problematic from wrong answers | Small addition | ✅ Done (in submit handler) |
+| 3 | Custom test series | UI-heavy | ✅ Done |
+| 4 | Timer | Straightforward | ✅ Done |
+| 5 | Test results review | Shows explanations | ✅ Done |
 
-## Database additions needed (when building)
+## Database additions (all implemented)
 
 ```sql
-CREATE TABLE test_attempts (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  user_id INTEGER NOT NULL,
-  config TEXT NOT NULL,        -- JSON: categories, count, timer, etc.
-  question_ids TEXT NOT NULL,  -- JSON array of question IDs in this test
-  started_at INTEGER NOT NULL,
-  finished_at INTEGER,
-  score INTEGER                -- correct count
-);
-
-CREATE TABLE test_results (
-  attempt_id INTEGER NOT NULL,
-  question_id TEXT NOT NULL,
-  question_type TEXT NOT NULL, -- 'vocab' | 'grammar-rule' | etc.
-  selected_idx INTEGER,
-  correct INTEGER NOT NULL,    -- 0 or 1
-  time_ms INTEGER,
-  PRIMARY KEY (attempt_id, question_id)
-);
-
-CREATE TABLE test_configs (
+-- Saved custom test configs (user can build & reuse these)
+CREATE TABLE IF NOT EXISTS test_configs (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   user_id INTEGER NOT NULL,
   name TEXT NOT NULL,
-  config TEXT NOT NULL,        -- JSON
-  created_at INTEGER NOT NULL
+  config TEXT NOT NULL,         -- JSON: { categories: [{type, min, max}], single_per_item, timer_minutes, shuffle }
+  created_at INTEGER NOT NULL,
+  updated_at INTEGER NOT NULL
 );
+CREATE INDEX IF NOT EXISTS idx_testcfg_user ON test_configs(user_id);
+
+-- Each test attempt (auto-generated or from a saved config)
+CREATE TABLE IF NOT EXISTS test_attempts (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  config TEXT NOT NULL,         -- JSON snapshot of the config used
+  question_ids TEXT NOT NULL,   -- JSON array of question refs: [{type, id, itemKey, category}]
+  total INTEGER NOT NULL,
+  started_at INTEGER NOT NULL,
+  finished_at INTEGER,          -- NULL until submitted
+  score INTEGER,                -- correct count (NULL until submitted)
+  timer_minutes INTEGER         -- allotted duration (NULL = untimed)
+);
+CREATE INDEX IF NOT EXISTS idx_testatt_user ON test_attempts(user_id);
+CREATE INDEX IF NOT EXISTS idx_testatt_user_finished ON test_attempts(user_id, finished_at);
+
+-- Per-question results for each attempt
+CREATE TABLE IF NOT EXISTS test_results (
+  attempt_id INTEGER NOT NULL,
+  question_idx INTEGER NOT NULL,    -- 0-based position in the test
+  question_type TEXT NOT NULL,      -- 'vocab' | 'grammar' | 'narration' | 'voice'
+  question_id TEXT NOT NULL,        -- numeric id (vocab) or string id (grammar/narration/voice)
+  item_key TEXT,                    -- the underlying word/rule-id (for auto-problematic)
+  category TEXT NOT NULL,           -- test category
+  selected_idx INTEGER,             -- NULL if not answered
+  correct_idx INTEGER NOT NULL,
+  is_correct INTEGER NOT NULL,      -- 0 or 1
+  time_ms INTEGER,
+  PRIMARY KEY (attempt_id, question_idx)
+);
+CREATE INDEX IF NOT EXISTS idx_testres_attempt ON test_results(attempt_id);
 ```
 
-## What's already in place (no work needed)
+### Migration
+Run `scripts/migrate_mock_test_tables.sh` against the live D1 database (all statements use `CREATE TABLE IF NOT EXISTS`, safe to re-run).
+
+## What was already in place (no work needed)
 
 - ✅ `progress.completed` tracks what's been read (the question pool)
 - ✅ `problematic` table with `item_type` separation
 - ✅ All grammar/narration/voice questions AI-answered + explained (for test review)
 - ✅ Per-letter `wq/<letter>.json` + per-rule `qs/gr-<no>.json` for fast question loading
 - ✅ Auth + per-user data isolation
-- ✅ GrammarMCQCard component (reusable for test questions — click-to-reveal, but tests need a "submit all at end" variant)
+- ✅ GrammarMCQCard component pattern (reused for TestCard)
+
+## Future enhancements (not yet built)
+
+- **Test history charts** — track score over time per category
+- **Adaptive difficulty** — weight question selection by past performance
+- **Shareable test configs** — let users share their custom configs with others
+- **Timed vs. casual mode toggle** — quick "practice" mode without timer
+- **Question pool size display** — show how many questions are available per category before starting
+

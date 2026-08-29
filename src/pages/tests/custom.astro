@@ -1,0 +1,10 @@
+---
+// src/pages/tests/custom.astro
+import Layout from '../../layouts/Layout.astro';
+import CustomTestBuilder from '../../components/CustomTestBuilder.svelte';
+---
+<Layout title="Build Custom Test | SSC PYQs" activeNav="tests">
+  <section>
+    <CustomTestBuilder client:load />
+  </section>
+</Layout>

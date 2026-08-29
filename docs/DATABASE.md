@@ -150,6 +150,6 @@ These are the categories used across the app — keep them consistent:
 | `narration` | A narration section | ProblematicButton on TopicRulesView |
 | `voice` | A voice section | ProblematicButton on TopicRulesView |
 
-## Future: mock test tables (not yet created)
+## Mock test tables (implemented)
 
-The `completed` column in `progress` and the `problematic` table are designed to feed future mock tests. See [FUTURE_ROADMAP.md](./FUTURE_ROADMAP.md) for the planned `test_attempts` and `test_results` tables.
+The mock test feature adds 3 tables: `test_configs`, `test_attempts`, `test_results`. See [FUTURE_ROADMAP.md](./FUTURE_ROADMAP.md) for the full spec (now fully implemented). Run `scripts/migrate_mock_test_tables.sh` to add them to an existing database.

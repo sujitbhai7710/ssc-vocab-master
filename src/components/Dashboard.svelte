@@ -45,6 +45,7 @@
     { href: '/grammar-rules', title: 'Grammar Rules — 167 Merged Rules', desc: 'Error-spotting rules merged from Rani Ma\'am (60), Rahul Gupta (100) & Aman (100). Duplicates removed, concepts rewritten. Each rule has practice MCQs.', count: 167, top: 0, accent: 'amber', icon: 'grammar' },
     { href: '/narration', title: 'Narration (Direct–Indirect)', desc: '10 comprehensive rule sections for Direct↔Indirect Speech, with all 232 SSC PYQs answered & explained, mapped to each rule.', count: 232, top: 0, accent: 'sky', icon: 'narration' },
     { href: '/voice', title: 'Voice (Active–Passive)', desc: '10 comprehensive rule sections for Active↔Passive Voice across all tenses, with all 329 SSC PYQs answered & explained.', count: 329, top: 0, accent: 'teal', icon: 'voice' },
+    { href: '/tests', title: 'Mock Tests — Auto-Generated & Custom', desc: 'Test yourself on what you\'ve studied. 4 auto-generated presets + build your own custom test with category ranges, SSC-style timer, and single-MCQ-per-item. Wrong answers auto-add to your Problems list.', count: 4, top: 0, accent: 'orange', icon: 'tests' },
   ] as const);
 
   const accentMap: Record<string, { bg: string; text: string; border: string }> = {
@@ -143,11 +144,13 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
               {:else if mod.icon === 'voice'}
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
+              {:else if mod.icon === 'tests'}
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
               {/if}
             </div>
             <div class="text-right">
               <div class="text-2xl font-bold tabular-nums {accentMap[mod.accent].text}">{mod.count.toLocaleString()}</div>
-              <div class="text-[10px] text-zinc-500">{mod.href === '/roots' ? 'families' : mod.href === '/grammar-rules' ? 'rules' : mod.href === '/narration' || mod.href === '/voice' ? 'PYQs' : 'questions'}</div>
+              <div class="text-[10px] text-zinc-500">{mod.href === '/roots' ? 'families' : mod.href === '/grammar-rules' ? 'rules' : mod.href === '/narration' || mod.href === '/voice' ? 'PYQs' : mod.href === '/tests' ? 'presets' : 'questions'}</div>
             </div>
           </div>
           <h3 class="text-base font-semibold mt-2">{mod.title}</h3>

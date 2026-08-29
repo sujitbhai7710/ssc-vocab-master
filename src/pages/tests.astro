@@ -1,0 +1,10 @@
+---
+// src/pages/tests.astro
+import Layout from '../layouts/Layout.astro';
+import TestList from '../components/TestList.svelte';
+---
+<Layout title="Mock Tests | SSC PYQs" activeNav="tests">
+  <section>
+    <TestList client:load />
+  </section>
+</Layout>

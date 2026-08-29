@@ -98,3 +98,73 @@ Chronological log of what changed across each development session.
 - `worklog.md` — session-by-session work log
 - `.gitignore` updated to block `.env`, `jwt_secret.txt`
 - `scripts/.env.example` — template for secrets
+
+## Session 7 — Mock Test System (this agent)
+### Added — full mock test platform (all 5 features from the original FUTURE_ROADMAP)
+- **Mock test engine** — auto-generates tests from user's `progress.completed` set
+  - 4 presets: Quick Mix (25Q/12min), Syn-Ant Focus (50Q/24min), Problematic Revision (20Q untimed), Grammar+Narration+Voice (40Q/19min)
+  - Single-MCQ-per-item by default (toggleable)
+  - Shuffle question order
+- **Auto-problematic from wrong answers** — on submit, each wrong answer auto-adds to `problematic` table with `sub_type = category`
+- **Custom test series** — `/tests/custom` page with per-category min/max range inputs, save/edit/delete configs
+- **SSC-style timer** — 25Q/12min ratio (0.48 min/Q), auto-calc, customizable override, auto-submit on timeout
+- **Test results review** — score summary, per-category breakdown bar chart, per-question review with explanations, filter by correct/wrong/skipped
+
+### Database additions (3 new tables)
+- `test_configs` — saved custom configs (named, reusable)
+- `test_attempts` — each test run (config snapshot, question refs, score, timer)
+- `test_results` — per-question results (selected idx, correct idx, is_correct, time_ms)
+- Migration script: `scripts/migrate_mock_test_tables.sh` (idempotent, safe to re-run)
+
+### Architecture
+- `functions/_lib/test-engine.ts` — question pool builder, generator, scorer, auto-problematic logic
+- `functions/api/test/{generate,[id],submit,list}.ts` + `configs/index.ts` — 5 API endpoints
+- `src/lib/test-api.ts` — client API + AUTO_PRESETS + CATEGORIES metadata
+- `src/components/{TestList,TestRunner,TestResults,TestCard,CustomTestBuilder}.svelte` — 5 Svelte components
+- `src/pages/{tests,test,test-results}.astro` + `tests/custom.astro` — 4 pages
+- Added "Tests" nav link in header + Tests module card on Dashboard
+
+### Security
+- All `/api/test/*` endpoints require auth (`requireUser`)
+- Correct answers looked up **server-side** from `/data/*.json` — client only sends selected option index (no cheating)
+- Per-user isolation (can't access other users' tests/configs)
+- SQL parameterized throughout
+
+### Commits
+- `1ecb164` — feat: mock test system (main feature, 345+ files)
+- `71b672b` — fix: rename `validateTestConfig` → `validateConfig` to match actual export (wrangler bundler caught it; tsc didn't)
+
+## Session 8 — UI bug fixes (this agent, current session)
+### Fixed — 6 user-reported bugs
+1. **Mobile hamburger menu** — header nav had 13 items that overflowed/wrapped badly on mobile. New `Nav.svelte` component with:
+   - Desktop (sm+): horizontal nav bar (unchanged)
+   - Mobile (<sm): hamburger button reveals full dropdown with all 13 items, outside-click/escape closes
+   - Replaced ~50 lines of inline nav in `Layout.astro` with `<Nav client:load activeNav={activeNav} />`
+
+2. **Word page slow loading** (`/word/defamation/` etc.) — root cause: `WordDetailView.svelte` referenced undefined variables `stemQuestionIds` and `optionQuestionIds` (actual vars are `stemQuestions`/`optionQuestions`), throwing a JS error on hydration → page stuck on spinner forever. Also `client:load` blocked render. Fixes:
+   - Renamed `stemQuestionIds` → `stemQuestions`, `optionQuestionIds` → `optionQuestions`
+   - Changed `client:load` → `client:idle` (defer hydration until browser is idle)
+   - Added SSR-friendly fallback: word header + spinner renders immediately in initial HTML (no blank white flash)
+   - Added breadcrumb in the `.astro` page itself (was only in the Svelte component)
+
+3. **Yellow color revealing answer before clicking** — `MCQCard.svelte` had a `hi && !answered` branch that highlighted the `highlightWord` option in amber BEFORE the user clicked. For OWS where the answer word IS the highlightWord, this revealed the answer. Fix: removed the `hi && !answered` branch entirely — all options are now neutral until click.
+
+4. **OWS: question stem = answer** — for OWS questions, the data has `stem` = "Atheist" (the answer word) and `sent` = "A person who does not believe in God" (the actual question text). The old code showed `stem` as the question, making the answer obvious (since "Atheist" was also option A). Fix: for OWS, show `sent` (the description) as the question with a "Find the one-word substitute for:" label — NEVER show `stem`.
+
+5. **Idioms: half of questions not showing stem** — for idioms where `sent` equals `stem` (both are just the idiom phrase, no context sentence), the old code showed nothing or showed the idiom itself (revealing the answer). Fix: detect this case (`idiomIsStemOnly`) and show "What does this idiom mean?" prompt instead — never show the idiom phrase itself when it's also the answer.
+
+6. **Homonyms: pair not shown before question** — user wanted the set of similar-sounding words (the options, e.g. `accept / expect / expert`) shown as a heading BEFORE the question, with show/hide toggle. Fix: added a collapsible "Confused pair (homophones)" heading at the top of every homonym MCQ:
+   - Collapsed by default (so user can test themselves)
+   - Click "Show" → reveals the sorted, deduped pair joined with middle dots
+   - Resets to collapsed when navigating to a new question
+   - Pink color theme to match the homonym category
+
+### Files changed
+- `src/components/Nav.svelte` (NEW) — mobile-aware nav with hamburger
+- `src/layouts/Layout.astro` — replaced inline nav with `<Nav />` component
+- `src/components/WordDetailView.svelte` — fixed undefined refs, SSR fallback
+- `src/pages/word/[word].astro` — `client:load` → `client:idle`, added breadcrumb
+- `src/components/MCQCard.svelte` — removed yellow reveal, rewrote question display logic per qtype, added homonym pair heading
+
+### Commits
+- (this session) — feat: fix mobile menu, word page speed, MCQ yellow reveal, OWS/idiom display, homonym pair heading

@@ -61,16 +61,23 @@
 </script>
 
 {#if loading}
-  <div class="flex items-center justify-center py-20"><div class="h-8 w-8 rounded-full border-2 border-orange-400 border-t-transparent animate-spin"></div></div>
+  <!-- SSR-friendly fallback: show the word header immediately (not just a spinner) -->
+  <div class="space-y-5">
+    <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-xl p-5">
+      <div class="flex items-center gap-3 flex-wrap">
+        <h1 class="text-3xl font-bold tracking-tight capitalize">{word.word}</h1>
+        <div class="h-9 w-9 rounded-full border-2 border-orange-400 border-t-transparent animate-spin"></div>
+      </div>
+      <div class="text-xs text-zinc-500 mt-2 flex items-center gap-3 flex-wrap">
+        <span>✍ as stem: <strong class="text-zinc-700 dark:text-zinc-300">{word.asStem}</strong></span>
+        <span>◆ as option: <strong class="text-zinc-700 dark:text-zinc-300">{word.asOption}</strong></span>
+        <span>total: <strong class="text-zinc-700 dark:text-zinc-300">{word.total}</strong></span>
+      </div>
+      <p class="text-xs text-zinc-400 mt-3">Loading definitions, synonyms, and past SSC MCQs…</p>
+    </div>
+  </div>
 {:else}
   <div class="space-y-5">
-    <!-- breadcrumb -->
-    <div class="text-xs text-zinc-500 flex items-center gap-1.5">
-      <a href="/" class="hover:text-orange-600">Home</a><span>/</span>
-      <a href="/stems" class="hover:text-orange-600">Vocab</a><span>/</span>
-      <span class="text-zinc-700 dark:text-zinc-300">{word.word}</span>
-    </div>
-
     <!-- Word header -->
     <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-xl p-5">
       <div class="flex items-start justify-between gap-3 flex-wrap">
@@ -148,11 +155,11 @@
         <div class="flex items-center justify-between flex-wrap gap-2">
           <h3 class="text-sm font-semibold">Past SSC MCQs</h3>
           <div class="flex items-center gap-1.5">
-            {#if stemQuestionIds.length > 0}
-              <button onclick={() => setMode('stem')} class="text-[11px] h-7 px-2 rounded-md {mcqMode === 'stem' ? 'bg-amber-500 text-white' : 'border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800'}">As stem ({stemQuestionIds.length})</button>
+            {#if stemQuestions.length > 0}
+              <button onclick={() => setMode('stem')} class="text-[11px] h-7 px-2 rounded-md {mcqMode === 'stem' ? 'bg-amber-500 text-white' : 'border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800'}">As stem ({stemQuestions.length})</button>
             {/if}
-            {#if optionQuestionIds.length > 0}
-              <button onclick={() => setMode('option')} class="text-[11px] h-7 px-2 rounded-md {mcqMode === 'option' ? 'bg-emerald-500 text-white' : 'border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800'}">As option ({optionQuestionIds.length})</button>
+            {#if optionQuestions.length > 0}
+              <button onclick={() => setMode('option')} class="text-[11px] h-7 px-2 rounded-md {mcqMode === 'option' ? 'bg-emerald-500 text-white' : 'border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800'}">As option ({optionQuestions.length})</button>
             {/if}
           </div>
         </div>

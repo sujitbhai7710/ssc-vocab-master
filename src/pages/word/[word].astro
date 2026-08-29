@@ -13,6 +13,12 @@ const { word } = Astro.props;
 ---
 <Layout title={`${word.word} | SSC PYQs`}>
   <section>
-    <WordDetailView client:load word={word} />
+    <!-- SSR'd header so users see content immediately (no white flash) -->
+    <div class="text-xs text-zinc-500 flex items-center gap-1.5 mb-4">
+      <a href="/" class="hover:text-orange-600">Home</a><span>/</span>
+      <a href="/stems" class="hover:text-orange-600">Vocab</a><span>/</span>
+      <span class="text-zinc-700 dark:text-zinc-300">{word.word}</span>
+    </div>
+    <WordDetailView client:idle word={word} />
   </section>
 </Layout>

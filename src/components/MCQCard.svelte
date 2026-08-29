@@ -6,6 +6,9 @@
   //   - Clicked option is correct → that option turns GREEN (✓ Correct)
   //   - Clicked option is wrong → that option turns RED (✗ Wrong)
   //   - The actual correct answer (regardless of what user clicked) turns GREEN (✓ Correct)
+  //
+  // For homonym questions, shows a collapsible "Confused pair" heading above the question
+  // (the set of similar-sounding words from the options), so users can see the pair being tested.
   import type { QuestionEntry } from '../lib/vocab-data';
 
   let {
@@ -20,6 +23,9 @@
 
   // Per-MCQ state: user's selected option index (null = not answered yet)
   let selectedIdx = $state<number | null>(null);
+
+  // Homonym pair heading: collapsed by default (so user can test themselves without seeing the pair)
+  let pairExpanded = $state(false);
 
   const qtypeLabels: Record<string, string> = {
     synonym: 'Synonym',
@@ -62,6 +68,55 @@
     promptLower.includes('underlined words')
   );
 
+  // OWS: the `sent` field holds the actual question text (the description to find a single word for).
+  // The `stem` field holds the answer word — so we should NEVER show `stem` for OWS.
+  // Detect OWS questions where sent is a real description (not just the word repeated).
+  const owsHasDescription = $derived(
+    question.qtype === 'one-word' &&
+    !!question.sent &&
+    question.sent.trim().length > 0 &&
+    question.sent.trim().toLowerCase() !== question.stem.trim().toLowerCase()
+  );
+
+  // Idioms: if `sent` equals `stem` (no context sentence, just the idiom phrase repeated),
+  // we show "What does this idiom mean?" as the prompt — NOT the idiom itself (since the idiom
+  // is also in the options as the answer, showing it would reveal the answer).
+  const idiomIsStemOnly = $derived(
+    question.qtype === 'idiom' &&
+    (!question.sent || question.sent.trim().toLowerCase() === question.stem.trim().toLowerCase())
+  );
+  const idiomHasContext = $derived(
+    question.qtype === 'idiom' &&
+    !!question.sent &&
+    question.sent.trim().toLowerCase() !== question.stem.trim().toLowerCase()
+  );
+
+  // Homonyms: the `sent` field holds the fill-in-the-blank sentence.
+  // The "pair" (confusing words) is the set of options — shown as a heading above the question.
+  const homonymHasSentence = $derived(
+    question.qtype === 'homonym' &&
+    !!question.sent &&
+    question.sent.trim().length > 0
+  );
+
+  // For homonyms: build the "confused pair" — the unique set of similar-sounding options.
+  // E.g. options ['except', 'expect', 'accept', 'excerpt'] → "accept · except · excerpt · expect"
+  // Sorted alphabetically and joined with a middle dot. Deduped case-insensitively.
+  const homonymPair = $derived.by(() => {
+    if (question.qtype !== 'homonym') return '';
+    const seen = new Set<string>();
+    const unique: string[] = [];
+    for (const opt of question.options || []) {
+      const lower = opt.trim().toLowerCase();
+      if (lower && !seen.has(lower)) {
+        seen.add(lower);
+        unique.push(opt.trim());
+      }
+    }
+    unique.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+    return unique.join('  ·  ');
+  });
+
   function isHighlighted(opt: string): boolean {
     return !!highlightWord && opt.toLowerCase() === highlightWord!.toLowerCase();
   }
@@ -79,6 +134,7 @@
     // Watch question.id and reset
     const qid = question.id;
     selectedIdx = null;
+    pairExpanded = false;
   });
 </script>
 
@@ -102,37 +158,84 @@
     </div>
   </div>
   <div class="px-4 pb-4 space-y-3">
-    {#if showSentence && question.sent}
-      <!-- Show the sentence with the underlined word highlighted -->
+    <!-- Homonym pair heading (collapsible) -->
+    {#if question.qtype === 'homonym' && homonymPair}
+      <div class="bg-pink-50 dark:bg-pink-950/20 border border-pink-200 dark:border-pink-800 rounded-md">
+        <button
+          onclick={() => pairExpanded = !pairExpanded}
+          class="w-full flex items-center justify-between gap-2 px-3 py-2 text-left"
+        >
+          <span class="text-[10px] uppercase font-semibold text-pink-700 dark:text-pink-400 tracking-wide">Confused pair (homophones)</span>
+          <span class="text-[10px] text-pink-600 dark:text-pink-400 flex items-center gap-1">
+            {pairExpanded ? 'Hide' : 'Show'}
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform {pairExpanded ? 'rotate-180' : ''}"><path d="m6 9 6 6 6-6"/></svg>
+          </span>
+        </button>
+        {#if pairExpanded}
+          <div class="px-3 pb-2.5 pt-0">
+            <div class="text-sm font-semibold text-pink-900 dark:text-pink-100 leading-relaxed break-words">
+              {homonymPair}
+            </div>
+            <p class="text-[10px] text-pink-600 dark:text-pink-400 mt-1">These similar-sounding words are the options for this question. The correct one fits the blank in the sentence below.</p>
+          </div>
+        {/if}
+      </div>
+    {/if}
+
+    <!-- Question text — varies by question type -->
+
+    {#if showSentence && question.sent && (question.qtype === 'synonym' || question.qtype === 'antonym')}
+      <!-- Syn/ant with underlined word in sentence: show the sentence -->
       <div class="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed bg-zinc-50 dark:bg-zinc-800/40 p-2.5 rounded-md border border-zinc-200 dark:border-zinc-700">
         &ldquo;{question.sent}&rdquo;
       </div>
-    {/if}
-    {#if question.qtype === 'one-word' || question.qtype === 'idiom' || question.qtype === 'homonym' || (question.qtype === 'spelling' && !showSentence)}
-      <!-- For OWS/idiom/homonym/spelling (no-sentence): show the stem as the question -->
-      {#if question.stem && question.stem !== question.sent}
-        <div class="text-sm text-zinc-700 dark:text-zinc-300 italic leading-relaxed bg-zinc-50 dark:bg-zinc-800/40 p-2.5 rounded-md border border-zinc-200 dark:border-zinc-700">
-          &ldquo;{question.stem}&rdquo;
-        </div>
-      {/if}
-    {:else if !showSentence}
-      <!-- Syn/ant with main word: show the stem word -->
-      {#if question.stem}
-        <div class="text-base font-semibold tracking-tight">{question.stem}</div>
-      {/if}
-    {:else if showSentence && question.stem && question.qtype !== 'idiom' && question.qtype !== 'one-word' && question.qtype !== 'homonym'}
-      <!-- For syn/ant with sentence: also show the underlined word (the stem) below the sentence -->
       <div class="text-sm text-zinc-500">
         <span class="font-medium">Underlined word:</span>
         <span class="ml-1 font-semibold text-zinc-900 dark:text-zinc-100">{question.stem}</span>
       </div>
+    {:else if owsHasDescription}
+      <!-- OWS: show the description (sent) as the question — NEVER the answer word (stem) -->
+      <div class="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed bg-amber-50 dark:bg-amber-950/20 p-2.5 rounded-md border border-amber-200 dark:border-amber-800">
+        <div class="text-[10px] uppercase font-semibold text-amber-700 dark:text-amber-400 mb-1">Find the one-word substitute for:</div>
+        &ldquo;{question.sent}&rdquo;
+      </div>
+    {:else if idiomHasContext}
+      <!-- Idiom with context sentence: show the sentence with the idiom in it -->
+      <div class="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed bg-orange-50 dark:bg-orange-950/20 p-2.5 rounded-md border border-orange-200 dark:border-orange-800">
+        &ldquo;{question.sent}&rdquo;
+      </div>
+    {:else if idiomIsStemOnly}
+      <!-- Idiom without context: show "What does this idiom mean?" prompt — do NOT show the idiom itself
+           (it's the answer and would be revealed) -->
+      <div class="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed bg-orange-50 dark:bg-orange-950/20 p-2.5 rounded-md border border-orange-200 dark:border-orange-800">
+        <div class="text-[10px] uppercase font-semibold text-orange-700 dark:text-orange-400 mb-1">Idiom — select the correct meaning</div>
+        What does the highlighted idiom mean in the options below?
+      </div>
+    {:else if homonymHasSentence}
+      <!-- Homonym: show the fill-in-the-blank sentence. The "pair" heading is shown by parent component. -->
+      <div class="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed bg-pink-50 dark:bg-pink-950/20 p-2.5 rounded-md border border-pink-200 dark:border-pink-800">
+        <div class="text-[10px] uppercase font-semibold text-pink-700 dark:text-pink-400 mb-1">Fill in the blank with the correct homonym:</div>
+        &ldquo;{question.sent}&rdquo;
+      </div>
+    {:else if question.qtype === 'spelling' && question.sent && question.sent.trim().toLowerCase() !== question.stem.trim().toLowerCase()}
+      <!-- Spelling with sentence: show the sentence -->
+      <div class="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed bg-teal-50 dark:bg-teal-950/20 p-2.5 rounded-md border border-teal-200 dark:border-teal-800">
+        &ldquo;{question.sent}&rdquo;
+      </div>
+    {:else if question.qtype === 'spelling' || question.qtype === 'one-word' || question.qtype === 'idiom' || question.qtype === 'homonym'}
+      <!-- Fallback for OWS/idiom/homonym/spelling without a usable sentence: show a generic prompt -->
+      <div class="text-sm text-zinc-700 dark:text-zinc-300 italic leading-relaxed bg-zinc-50 dark:bg-zinc-800/40 p-2.5 rounded-md border border-zinc-200 dark:border-zinc-700">
+        Select the correct answer from the options below.
+      </div>
+    {:else if question.stem}
+      <!-- Syn/ant with main word (no sentence): show the stem word -->
+      <div class="text-base font-semibold tracking-tight">{question.stem}</div>
     {/if}
 
-    <!-- Options: clickable. NO answer is shown green BEFORE clicking. -->
+    <!-- Options: clickable. NO answer is shown green/amber BEFORE clicking. -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
       {#each question.options as opt, i}
         {@const letter = String.fromCharCode(65 + i)}
-        {@const hi = isHighlighted(opt)}
         {@const isSelected = selectedIdx === i}
         {@const isCorrect = hasCorrectAnswer && i === question.correctIdx}
         {@const answered = selectedIdx !== null}
@@ -149,9 +252,7 @@
               ? 'bg-rose-100 border-rose-400 text-rose-900 dark:bg-rose-950/50 dark:text-rose-100 dark:border-rose-700'
               : missedCorrect
                 ? 'bg-emerald-50 border-emerald-300 text-emerald-900 dark:bg-emerald-950/30 dark:text-emerald-100 dark:border-emerald-700'
-                : hi && !answered
-                  ? 'bg-amber-50 border-amber-300 text-amber-900 dark:bg-amber-950/30 dark:text-amber-100 dark:border-amber-700'
-                  : 'bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700 hover:border-orange-400/40 enabled:hover:bg-zinc-50 dark:enabled:hover:bg-zinc-800/50'}">
+                : 'bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-700 hover:border-orange-400/40 enabled:hover:bg-zinc-50 dark:enabled:hover:bg-zinc-800/50'}">
           <span class="font-mono text-xs font-bold text-zinc-500 w-5">({letter})</span>
           <span class="font-medium capitalize">{opt}</span>
           {#if clickedCorrect}

@@ -14,6 +14,7 @@ const {
 } = Astro.props;
 import '../styles/global.css';
 import AuthBar from '../components/AuthBar.svelte';
+import Nav from '../components/Nav.svelte';
 const pathname = Astro.url.pathname;
 const isPublic = publicPage || pathname === '/' || pathname === '/login' || pathname === '/signup';
 const summary = typeof window !== 'undefined' ? null : null; // server-side placeholder
@@ -70,60 +71,7 @@ const summary = typeof window !== 'undefined' ? null : null; // server-side plac
             </div>
           </a>
 
-          <nav class="flex items-center gap-0.5 text-sm overflow-x-auto max-w-full">
-            <a href="/" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'home' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
-              <span class="hidden sm:inline">Home</span>
-            </a>
-            <a href="/stems" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'stems' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/></svg>
-              <span class="hidden sm:inline">Stems</span>
-            </a>
-            <a href="/options" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'options' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/></svg>
-              <span class="hidden sm:inline">Options</span>
-            </a>
-            <a href="/ows" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'ows' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3"/><path d="M9 22h6"/><path d="M12 18v4"/><path d="M4 7a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"/></svg>
-              <span class="hidden sm:inline">OWS</span>
-            </a>
-            <a href="/idioms" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'idioms' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-              <span class="hidden sm:inline">Idioms</span>
-            </a>
-            <a href="/homonyms" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'homonyms' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12"/><path d="M2 12h20"/><circle cx="12" cy="6" r="4"/></svg>
-              <span class="hidden sm:inline">Homonyms</span>
-            </a>
-            <a href="/spelling" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'spelling' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="m9 11 2 2 4-4"/></svg>
-              <span class="hidden sm:inline">Spelling</span>
-            </a>
-            <a href="/roots" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'roots' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/><circle cx="12" cy="12" r="9"/></svg>
-              <span class="hidden sm:inline">Roots</span>
-            </a>
-            <a href="/grammar-rules" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'grammar-rules' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/><path d="M8 11h8"/><path d="M8 7h6"/></svg>
-              <span class="hidden sm:inline">Grammar Rules</span>
-            </a>
-            <a href="/narration" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'narration' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-              <span class="hidden sm:inline">Narration</span>
-            </a>
-            <a href="/voice" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'voice' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
-              <span class="hidden sm:inline">Voice</span>
-            </a>
-            <a href="/problems" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'problems' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
-              <span class="hidden sm:inline">Problems</span>
-            </a>
-            <a href="/tests" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'tests' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-              <span class="hidden sm:inline">Tests</span>
-            </a>
-          </nav>
+          <Nav client:load activeNav={activeNav} />
           <AuthBar client:idle />
         </div>
       </header>

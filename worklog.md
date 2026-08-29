@@ -80,3 +80,49 @@ Stage Summary:
 - Progress "From/To/Set Done" range input on all 9 list pages; persists completed-index set per page_type in D1.
 - Compact circular avatar header (was wide email-text button).
 - Monid CLI installed; needs user's API key (from app.monid.ai) for external-data research tasks.
+
+---
+Task ID: MOCK-TEST-SYSTEM
+Agent: Super Z (main)
+Task: Implement the full mock test system from FUTURE_ROADMAP.md (originally spec'd in chat 3 but deferred). All 5 features: mock test engine, auto-problematic from wrong answers, custom test series, SSC-style timer, test results review.
+
+Work Log:
+- D1 schema: added 3 new tables (test_configs, test_attempts, test_results) + 4 indexes. Updated scripts/schema.sql. Created scripts/migrate_mock_test_tables.sh (idempotent, uses CREATE TABLE IF NOT EXISTS — safe to re-run).
+- functions/_lib/test-engine.ts: shared engine with loadUserProgress, loadUserProblematic, buildVocabPool (per-letter wq/ files), buildGrammarPool (per-rule qs/ files + narration/voice), generateTest (single-per-item or multi, shuffle, source=auto/problematic), autoProblematicFromResults (INSERT ON CONFLICT DO NOTHING), calculateTimerMinutes (0.48 min/Q ratio), validateConfig, AUTO_TEST_PRESETS, VALID_CATEGORIES.
+- API endpoints (5): functions/api/test/generate.ts (POST — creates attempt, returns question refs), [id].ts (GET — fetch attempt; DELETE — abandon), submit.ts (POST — scores server-side by looking up correct answers from /data/*.json, stores results, auto-adds wrong answers to problematic), list.ts (GET — recent attempts + saved configs + stats), configs/index.ts (GET/POST/PATCH/DELETE — saved config CRUD).
+- src/lib/test-api.ts: client API (generateTest, getTest, submitTest, deleteTest, listTests, saveConfig, updateConfig, deleteConfig, calculateTimerMinutes) + AUTO_PRESETS (4 presets) + CATEGORIES (8 categories with labels/colors/descriptions).
+- Components (5): TestCard.svelte (exam-style MCQ — no immediate feedback, flag for review, allow re-selection), TestRunner.svelte (timer with auto-submit, one-Q-at-a-time slider, prev/next, jump-to-question grid, progress bar), TestResults.svelte (score summary, per-category breakdown bar chart, per-question review with explanations, filter all/correct/wrong/skipped), TestList.svelte (stats, 4 presets, saved configs, recent attempts), CustomTestBuilder.svelte (per-category min/max range inputs, single-per-item toggle, shuffle toggle, timer auto-calc with override, save/start).
+- Pages (4): src/pages/tests.astro, tests/custom.astro, test.astro (uses ?id= query param — Astro static build can't pre-render runtime IDs), test-results.astro.
+- Layout.astro: added Tests nav link (between Problems and AuthBar). Dashboard.svelte: added Tests module card (count: 4 presets, icon, accent: orange).
+- Deployed live: ran migrate_mock_test_tables.sh against D1 (all 7 statements OK, verified 9 tables present), pushed 2 commits to GitHub (1ecb164 main feature + 71b672b import-name fix), deployed to Cloudflare Pages (7,970 files uploaded).
+- Bug caught by wrangler bundler (not tsc): imported `validateTestConfig` but actual export was `validateConfig`. Fixed immediately, redeployed, pushed fix.
+
+Stage Summary:
+- Live: https://sscpyqs.pages.dev/tests/ (HTTP 200), /test?id=X, /test-results?id=X, /tests/custom/ all working
+- API: /api/test/list, /api/test/generate, /api/test/[id], /api/test/submit, /api/test/configs — all require auth (return 401 without session)
+- DB: 9 tables total (users, settings, problematic, progress, test_configs, test_attempts, test_results, _cf_KV, sqlite_sequence)
+- Security: correct answers looked up server-side (client never sends them), per-user isolation, SQL parameterized
+- All 5 FUTURE_ROADMAP features implemented; FUTURE_ROADMAP.md updated with "IMPLEMENTED" badges
+
+---
+Task ID: UI-BUG-FIXES-SESSION-8
+Agent: Super Z (main)
+Task: Fix 6 user-reported UI bugs: mobile menu, word page slow loading, MCQ yellow reveal, OWS stem=answer, idioms missing stem, homonyms missing pair heading.
+
+Work Log:
+- Mobile menu: created src/components/Nav.svelte — desktop (sm+) shows horizontal nav bar (unchanged), mobile (<sm) shows hamburger button that reveals a full dropdown with all 13 nav items. Outside-click + Escape closes. Replaced ~50 lines of inline nav in Layout.astro with <Nav client:load activeNav={activeNav} />.
+- Word page slow: root cause was WordDetailView.svelte referenced `stemQuestionIds` and `optionQuestionIds` (undefined — actual vars are `stemQuestions`/`optionQuestions`), throwing JS error on hydration → page stuck on spinner forever. ALSO client:load blocked initial render. Fixes: renamed vars, changed client:load → client:idle, added SSR-friendly fallback (word header + spinner renders in initial HTML so no blank white flash), added breadcrumb in the .astro page itself.
+- Yellow reveal: MCQCard.svelte had a `hi && !answered` branch that highlighted the highlightWord option in amber BEFORE click. For OWS where answer word IS highlightWord, this revealed the answer. Fix: removed the branch entirely — all options neutral until click.
+- OWS stem=answer: data has stem="Atheist" (answer word) and sent="A person who does not believe in God" (actual question). Old code showed stem as question, making answer obvious. Fix: added owsHasDescription derived — for OWS, show sent (description) with "Find the one-word substitute for:" label, NEVER show stem.
+- Idioms missing stem: when sent equals stem (both just the idiom phrase, no context sentence), old code showed nothing or showed the idiom (revealing answer). Fix: added idiomIsStemOnly + idiomHasContext derived — for stem-only idioms, show "What does this idiom mean?" prompt, never the idiom phrase itself.
+- Homonyms pair heading: user wanted the set of similar-sounding words (options) shown as heading BEFORE question with show/hide. Fix: added homonymPair derived (sorted, deduped options joined with middle dots) + pairExpanded state (collapsed by default). Collapsible "Confused pair (homophones)" heading at top of every homonym MCQ. Resets to collapsed on question change. Pink theme matches homonym category.
+
+Stage Summary:
+- All 6 bugs fixed in 1 commit
+- Build clean: 7,936 pages, tsc --noEmit passes, all routes return HTTP 200
+- Word page now shows content immediately (SSR fallback) instead of blank spinner
+- Mobile nav now usable (hamburger menu with all 13 items)
+- MCQs no longer reveal answers before clicking (yellow highlight removed)
+- OWS questions show the description (not the answer word) as the question
+- Idioms without context show "What does this idiom mean?" prompt (not the idiom itself)
+- Homonym MCQs show collapsible "Confused pair" heading before the question

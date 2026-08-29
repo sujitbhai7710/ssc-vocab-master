@@ -222,12 +222,49 @@ interface PronResult {
 }
 const _pronCache: Record<string, PronResult> = {};
 
-export async function fetchPronunciation(word: string): Promise<PronResult> {
+// Play pronunciation — INSTANT. Uses Web Speech API immediately (no network wait),
+// then prefetches dictionary audio in the background for next time.
+// If we already have cached dictionary audio, plays that instantly instead.
+export async function pronounceWord(word: string): Promise<PronResult> {
   const w = word.trim();
   if (!w) return { source: 'none' };
+  if (typeof window === 'undefined') return { source: 'none' };
+
   const key = w.toLowerCase();
-  if (_pronCache[key]) return _pronCache[key];
-  // Try dictionaryapi.dev (free, no key) — returns real audio + IPA.
+  const cached = _pronCache[key];
+
+  // Case 1: We have cached dictionary audio → play it instantly
+  if (cached?.audio) {
+    try {
+      const audio = new Audio(cached.audio);
+      audio.play().catch(() => {
+        // autoplay block → fall back to speech
+        _speakFallback(w);
+      });
+      return cached;
+    } catch {
+      _speakFallback(w);
+      return cached;
+    }
+  }
+
+  // Case 2: Not cached yet → play Web Speech INSTANTLY (no network wait),
+  // then prefetch dictionary audio in the background for next time.
+  _speakFallback(w);
+
+  // Prefetch in background (don't await — fire and forget)
+  if (!cached) {
+    _prefetchPronunciation(w).catch(() => {});
+  }
+
+  return cached || { source: 'speech' };
+}
+
+// Background prefetch — fetches dictionary audio + IPA, caches result.
+// Called by pronounceWord() so the NEXT click plays the better audio instantly.
+async function _prefetchPronunciation(word: string): Promise<void> {
+  const key = word.toLowerCase();
+  if (_pronCache[key]) return; // already cached
   try {
     const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(key)}`);
     if (res.ok) {
@@ -235,49 +272,33 @@ export async function fetchPronunciation(word: string): Promise<PronResult> {
       const entry = Array.isArray(data) ? data[0] : null;
       if (entry) {
         const phonetics = entry.phonetics || [];
-        // pick the first phonetic that has audio; fall back to first with text
         let withAudio = phonetics.find((p: any) => p.audio);
         let ipa = (withAudio?.text) || phonetics.find((p: any) => p.text)?.text || entry.phonetic;
         if (withAudio?.audio) {
-          const result: PronResult = { audio: withAudio.audio, ipa, source: 'dictionary' };
-          _pronCache[key] = result;
-          return result;
+          _pronCache[key] = { audio: withAudio.audio, ipa, source: 'dictionary' };
+          return;
         }
         if (ipa) {
-          const result: PronResult = { ipa, source: 'speech' };
-          _pronCache[key] = result;
-          // still cache and use speech
-          return result;
+          _pronCache[key] = { ipa, source: 'speech' };
+          return;
         }
       }
     }
   } catch {
-    /* network — fall through to speech */
+    /* network — ignore */
   }
-  const result: PronResult = { source: 'speech' };
-  _pronCache[key] = result;
-  return result;
+  _pronCache[key] = { source: 'speech' };
 }
 
-// Play pronunciation audio (async). Prefers dictionary audio; falls back to Web Speech.
-export async function pronounceWord(word: string): Promise<PronResult> {
-  const result = await fetchPronunciation(word);
-  if (typeof window === 'undefined') return result;
-  if (result.audio) {
-    try {
-      const audio = new Audio(result.audio);
-      audio.play().catch(() => {
-        // autoplay block or fetch fail → fallback to speech
-        _speakFallback(word);
-      });
-      return result;
-    } catch {
-      _speakFallback(word);
-    }
-  } else {
-    _speakFallback(word);
-  }
-  return result;
+// Keep fetchPronunciation for backward compat (used by WordDetailView for IPA display)
+// but make it use the cache-first approach too.
+export async function fetchPronunciation(word: string): Promise<PronResult> {
+  const w = word.trim();
+  if (!w) return { source: 'none' };
+  const key = w.toLowerCase();
+  if (_pronCache[key]) return _pronCache[key];
+  await _prefetchPronunciation(w);
+  return _pronCache[key] || { source: 'speech' };
 }
 
 function _speakFallback(word: string): void {

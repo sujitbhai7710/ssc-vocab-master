@@ -4,7 +4,7 @@
 // PATCH  /api/test/configs?id=X    -> update name/config
 // DELETE /api/test/configs?id=X    -> delete a saved config
 import { Env, getUser, requireUser, json } from '../../../_lib/auth';
-import { validateTestConfig } from '../../../_lib/test-engine';
+import { validateConfig } from '../../../_lib/test-engine';
 
 export const onRequestGet: PagesFunction<Env> = async (ctx) => {
   const user = await getUser(ctx.request, ctx.env);
@@ -36,7 +36,7 @@ export const onRequestPost: PagesFunction<Env> = async (ctx) => {
   if (!name) return json({ error: 'name required' }, 400);
   if (name.length > 100) return json({ error: 'name too long (max 100)' }, 400);
 
-  const validation = validateTestConfig(body.config);
+  const validation = validateConfig(body.config);
   if (!validation.ok) return json({ error: validation.error }, 400);
   const config = validation.config!;
   config.name = name;
@@ -78,7 +78,7 @@ export const onRequestPatch: PagesFunction<Env> = async (ctx) => {
     binds.push(name);
   }
   if (body.config !== undefined) {
-    const validation = validateTestConfig(body.config);
+    const validation = validateConfig(body.config);
     if (!validation.ok) return json({ error: validation.error }, 400);
     const config = validation.config!;
     if (body.name) config.name = body.name.trim();

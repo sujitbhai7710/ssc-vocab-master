@@ -8,7 +8,7 @@
 // NOT returned here — the client fetches them via /data/*.json when taking the test.
 // Only question refs are stored in the DB and returned.
 import { Env, getUser, requireUser, json } from '../../_lib/auth';
-import { generateTest, validateTestConfig, calculateTimerMinutes } from '../../_lib/test-engine';
+import { generateTest, validateConfig, calculateTimerMinutes } from '../../_lib/test-engine';
 
 export const onRequestPost: PagesFunction<Env> = async (ctx) => {
   const user = await getUser(ctx.request, ctx.env);
@@ -19,7 +19,7 @@ export const onRequestPost: PagesFunction<Env> = async (ctx) => {
   let body: any;
   try { body = await ctx.request.json(); } catch { return json({ error: 'Invalid JSON' }, 400); }
 
-  const validation = validateTestConfig(body);
+  const validation = validateConfig(body);
   if (!validation.ok) return json({ error: validation.error }, 400);
   const config = validation.config!;
 

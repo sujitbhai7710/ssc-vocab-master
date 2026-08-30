@@ -16,13 +16,14 @@ import urllib.request
 import urllib.error
 
 
-API_KEYS = [
-    'sk-p7r8yV70mfSCdHmSEyAVCsa47Cef7DQqz9nk2KMwaXuHM09Q',
-    'sk-fJ3HrhShKjmTMtrJEPTfltPYmxawBlfxvGCNTovvXrWE6QnN',
-    'sk-Dtu9WsE9jfco1rEFGVY5TzXJoD12zkOTqmiCjAlAbUXWFRSq',
-]
-API_URL = 'https://kktoken.cc/v1/chat/completions'
-MODEL = 'claude-opus-4-8'
+API_KEYS = os.environ.get("OPENAI_API_KEYS", "").split(",")
+API_KEYS = [k.strip() for k in API_KEYS if k.strip()]
+if not API_KEYS:
+    import sys
+    print("ERROR: set OPENAI_API_KEYS env var to a comma-separated list of API keys.", file=sys.stderr)
+    sys.exit(1)
+API_URL = os.environ.get("API_URL", "https://kktoken.cc/v1/chat/completions")
+MODEL = os.environ.get("MODEL", "claude-opus-4-8")
 UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 
 

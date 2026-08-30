@@ -22,13 +22,13 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
 
 
-API_KEYS = [
-    'sk-p7r8yV70mfSCdHmSEyAVCsa47Cef7DQqz9nk2KMwaXuHM09Q',
-    'sk-fJ3HrhShKjmTMtrJEPTfltPYmxawBlfxvGCNTovvXrWE6QnN',
-    'sk-Dtu9WsE9jfco1rEFGVY5TzXJoD12zkOTqmiCjAlAbUXWFRSq',
-]
-API_URL = 'https://kktoken.cc/v1/chat/completions'
-MODEL = 'claude-opus-4-8'
+API_KEYS = os.environ.get("OPENAI_API_KEYS", "").split(",")
+API_KEYS = [k.strip() for k in API_KEYS if k.strip()]
+if not API_KEYS:
+    print("ERROR: set OPENAI_API_KEYS env var to a comma-separated list of API keys.", file=sys.stderr)
+    sys.exit(1)
+API_URL = os.environ.get("API_URL", "https://kktoken.cc/v1/chat/completions")
+MODEL = os.environ.get("MODEL", "claude-opus-4-8")
 BATCH_SIZE = 20  # roots per API call
 MAX_WORKERS = 1  # sequential to avoid rate-limiting (error 1010)
 BATCH_DELAY = 1.5  # seconds between batches

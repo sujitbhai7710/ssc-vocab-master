@@ -1,0 +1,4638 @@
+[
+  {
+    "num": 1,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Each students is present.",
+      "Every of the student is here.",
+      "Each student is here.",
+      "Every student are present."
+    ],
+    "ans": 2,
+    "exp": "'Each' is used with a singular noun and verb. 'Each student is here' is correct.",
+    "rule": "Each vs Every"
+  },
+  {
+    "num": 2,
+    "q": "______ of the girls was rewarded.",
+    "opts": [
+      "Each",
+      "Every",
+      "All",
+      "Many"
+    ],
+    "ans": 0,
+    "exp": "'Each' fits best when referring to individuals in a group with a singular verb.",
+    "rule": "Each vs Every"
+  },
+  {
+    "num": 3,
+    "q": "Choose the grammatically correct sentence:",
+    "opts": [
+      "Every students are ready.",
+      "Each of the players are excited.",
+      "Each of my friends is here.",
+      "Every and each book was read."
+    ],
+    "ans": 2,
+    "exp": "'Each of' takes a singular verb — 'Each of my friends is here' is correct.",
+    "rule": "Each vs Every"
+  },
+  {
+    "num": 4,
+    "q": "Which is correct?",
+    "opts": [
+      "Both of them are not here.",
+      "Neither of them is here.",
+      "Both didn't attend.",
+      "Both he or I is absent."
+    ],
+    "ans": 1,
+    "exp": "We don't use 'Both + not.' Use 'Neither…nor' for negation.",
+    "rule": "Both+Not → Neither…nor"
+  },
+  {
+    "num": 5,
+    "q": "'Neither of the answers ____ correct.'",
+    "opts": [
+      "are",
+      "were",
+      "is",
+      "be"
+    ],
+    "ans": 2,
+    "exp": "'Neither' is singular, so use the singular verb 'is'.",
+    "rule": "Neither/Either → Singular"
+  },
+  {
+    "num": 6,
+    "q": "Identify the correct usage:",
+    "opts": [
+      "Both Rahul and Ravi doesn't agree.",
+      "Neither the girl nor the boys has eaten.",
+      "Neither the dog nor the cat has eaten.",
+      "Both of the question isn't correct."
+    ],
+    "ans": 2,
+    "exp": "Verb agrees with the nearest subject — 'cat has eaten' is correct.",
+    "rule": "Neither…nor Agreement"
+  },
+  {
+    "num": 7,
+    "q": "Who is used for:",
+    "opts": [
+      "Things",
+      "Animals only",
+      "People",
+      "Places"
+    ],
+    "ans": 2,
+    "exp": "'Who' is used for people (and sometimes pets).",
+    "rule": "Who/Whom/Which/That"
+  },
+  {
+    "num": 8,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "The girl whom sings well is my sister.",
+      "The man who gave me the book was kind.",
+      "That boy whom is playing is my brother.",
+      "The cat who chased the dog is outside."
+    ],
+    "ans": 1,
+    "exp": "'Who' is subject, 'Whom' is object — 'who gave' is correct here.",
+    "rule": "Who/Whom"
+  },
+  {
+    "num": 9,
+    "q": "Which sentence uses 'that' correctly?",
+    "opts": [
+      "This is the only pen which works.",
+      "Something which is rare is valuable.",
+      "The same boy who won also failed.",
+      "The car that I drive is electric."
+    ],
+    "ans": 3,
+    "exp": "'That' is used after: same, only, all, much, none, superlatives.",
+    "rule": "Who/Which/That"
+  },
+  {
+    "num": 10,
+    "q": "Choose the correct usage:",
+    "opts": [
+      "Much apples",
+      "Many sugar",
+      "Many books",
+      "Much pens"
+    ],
+    "ans": 2,
+    "exp": "'Many' is used with countable nouns like books.",
+    "rule": "Much vs Many"
+  },
+  {
+    "num": 11,
+    "q": "I don't have _____ time to waste.",
+    "opts": [
+      "many",
+      "much",
+      "few",
+      "several"
+    ],
+    "ans": 1,
+    "exp": "'Much' is used with uncountable nouns like time.",
+    "rule": "Much vs Many"
+  },
+  {
+    "num": 12,
+    "q": "Select the correct sentence:",
+    "opts": [
+      "How many rice do you need?",
+      "She bought many furniture.",
+      "I have much work today.",
+      "Many money was lost."
+    ],
+    "ans": 2,
+    "exp": "'Work' is uncountable, so 'much work' is correct.",
+    "rule": "Much vs Many"
+  },
+  {
+    "num": 13,
+    "q": "I have _____ money left. Let's go for tea.",
+    "opts": [
+      "little",
+      "a little",
+      "the little",
+      "few"
+    ],
+    "ans": 1,
+    "exp": "'A little' means some (positive sense — enough for tea).",
+    "rule": "Little/A Little/The Little"
+  },
+  {
+    "num": 14,
+    "q": "_____ knowledge he had was useful.",
+    "opts": [
+      "Little",
+      "A little",
+      "The little",
+      "Few"
+    ],
+    "ans": 2,
+    "exp": "'The little' refers to the specific small amount that existed.",
+    "rule": "Little/A Little/The Little"
+  },
+  {
+    "num": 15,
+    "q": "Choose the correct meaning of 'Little knowledge is dangerous.'",
+    "opts": [
+      "He has a lot of knowledge.",
+      "He has no knowledge.",
+      "He has some knowledge, which can mislead.",
+      "He has full knowledge."
+    ],
+    "ans": 2,
+    "exp": "'Little' implies a dangerous half-knowledge — negative tone.",
+    "rule": "Little/A Little/The Little"
+  },
+  {
+    "num": 16,
+    "q": "_____ students came to class. So we cancelled it.",
+    "opts": [
+      "Few",
+      "A few",
+      "The few",
+      "Much"
+    ],
+    "ans": 0,
+    "exp": "'Few' implies almost none — negative tone — hence cancellation.",
+    "rule": "Few/A Few/The Few"
+  },
+  {
+    "num": 17,
+    "q": "I have _____ friends who support me.",
+    "opts": [
+      "few",
+      "a few",
+      "little",
+      "many"
+    ],
+    "ans": 1,
+    "exp": "'A few' shows some — positive idea (I do have some supportive friends).",
+    "rule": "Few/A Few/The Few"
+  },
+  {
+    "num": 18,
+    "q": "_____ soldiers who survived were awarded.",
+    "opts": [
+      "Few",
+      "A few",
+      "The few",
+      "Some"
+    ],
+    "ans": 2,
+    "exp": "'The few' = all the limited number being specifically referred to.",
+    "rule": "Few/A Few/The Few"
+  },
+  {
+    "num": 19,
+    "q": "Do you have _____ sugar?",
+    "opts": [
+      "some",
+      "much",
+      "many",
+      "any"
+    ],
+    "ans": 3,
+    "exp": "'Any' is used in questions and negative sentences.",
+    "rule": "Some vs Any"
+  },
+  {
+    "num": 20,
+    "q": "I need _____ help to finish this.",
+    "opts": [
+      "any",
+      "much",
+      "some",
+      "none"
+    ],
+    "ans": 2,
+    "exp": "'Some' is used in positive statements and polite requests.",
+    "rule": "Some vs Any"
+  },
+  {
+    "num": 21,
+    "q": "Choose the sentence with correct use of 'some':",
+    "opts": [
+      "Are there some snacks left?",
+      "I don't have some time.",
+      "Can you give me some advice?",
+      "I don't want some help."
+    ],
+    "ans": 2,
+    "exp": "'Some' is used when offering/requesting in a polite way.",
+    "rule": "Some vs Any"
+  },
+  {
+    "num": 22,
+    "q": "I have lived here _____ 2019.",
+    "opts": [
+      "for",
+      "since",
+      "from",
+      "on"
+    ],
+    "ans": 1,
+    "exp": "'Since' is used for a specific point in time (2019).",
+    "rule": "Since vs For"
+  },
+  {
+    "num": 23,
+    "q": "She has been waiting _____ 2 hours.",
+    "opts": [
+      "since",
+      "by",
+      "for",
+      "from"
+    ],
+    "ans": 2,
+    "exp": "'For' is used for a duration of time (2 hours).",
+    "rule": "Since vs For"
+  },
+  {
+    "num": 24,
+    "q": "Choose the correct usage:",
+    "opts": [
+      "He's been sick for Monday.",
+      "I have studied since two hours.",
+      "We've known them since childhood.",
+      "She worked here for yesterday."
+    ],
+    "ans": 2,
+    "exp": "'Since childhood' is correct as it's a specific time point.",
+    "rule": "Since vs For"
+  },
+  {
+    "num": 25,
+    "q": "_____ is calling me?",
+    "opts": [
+      "Who",
+      "Whom",
+      "Whose",
+      "Which"
+    ],
+    "ans": 0,
+    "exp": "'Who' is the subject — it does the action (calling).",
+    "rule": "Who vs Whom"
+  },
+  {
+    "num": 26,
+    "q": "To _____ did you give the book?",
+    "opts": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "ans": 1,
+    "exp": "'Whom' is the object of the verb 'give'.",
+    "rule": "Who vs Whom"
+  },
+  {
+    "num": 27,
+    "q": "Identify the correct sentence:",
+    "opts": [
+      "Who did you invite?",
+      "Whom is knocking?",
+      "Whom do you think will win?",
+      "Who are you talking to?"
+    ],
+    "ans": 0,
+    "exp": "'Who did you invite?' is correct. Option C is wrong — 'whom' cannot be the subject of 'will win'.",
+    "rule": "Who vs Whom"
+  },
+  {
+    "num": 28,
+    "q": "We need _____ chairs.",
+    "opts": [
+      "less",
+      "fewer",
+      "much",
+      "little"
+    ],
+    "ans": 1,
+    "exp": "'Chairs' are countable, so use 'fewer'.",
+    "rule": "Fewer vs Less"
+  },
+  {
+    "num": 29,
+    "q": "There is _____ water in the tank.",
+    "opts": [
+      "fewer",
+      "many",
+      "less",
+      "little"
+    ],
+    "ans": 2,
+    "exp": "'Water' is uncountable, so use 'less'.",
+    "rule": "Fewer vs Less"
+  },
+  {
+    "num": 30,
+    "q": "Identify the correct sentence:",
+    "opts": [
+      "She has fewer patience than before.",
+      "We ate fewer rice this time.",
+      "There were less students today.",
+      "He made fewer mistakes in the test."
+    ],
+    "ans": 3,
+    "exp": "'Mistakes' are countable, so 'fewer mistakes' is correct.",
+    "rule": "Fewer vs Less"
+  },
+  {
+    "num": 31,
+    "q": "He divided the money _____ his two sons.",
+    "opts": [
+      "among",
+      "between",
+      "with",
+      "to"
+    ],
+    "ans": 1,
+    "exp": "'Between' is used for exactly two items/people.",
+    "rule": "Between vs Among"
+  },
+  {
+    "num": 32,
+    "q": "There is a secret _____ the five friends.",
+    "opts": [
+      "between",
+      "among",
+      "with",
+      "for"
+    ],
+    "ans": 1,
+    "exp": "'Among' is used for more than two people.",
+    "rule": "Between vs Among"
+  },
+  {
+    "num": 33,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Share this secret between us three.",
+      "Divide the prize among the twins.",
+      "There's love among both brothers.",
+      "We sat between the three walls."
+    ],
+    "ans": 3,
+    "exp": "'Between' can be used for distinct/specific items even if more than two.",
+    "rule": "Between vs Among"
+  },
+  {
+    "num": 34,
+    "q": "Please _____ your books to class.",
+    "opts": [
+      "take",
+      "brought",
+      "bring",
+      "fetch"
+    ],
+    "ans": 2,
+    "exp": "'Bring' = move something towards the speaker's location.",
+    "rule": "Bring vs Take"
+  },
+  {
+    "num": 35,
+    "q": "I will _____ these papers to the office.",
+    "opts": [
+      "take",
+      "bring",
+      "carried",
+      "brings"
+    ],
+    "ans": 0,
+    "exp": "'Take' = move something away from the speaker.",
+    "rule": "Bring vs Take"
+  },
+  {
+    "num": 36,
+    "q": "Select the correct usage:",
+    "opts": [
+      "Please take your umbrella with you when you come.",
+      "Please bring your umbrella when you leave.",
+      "He always brings his lunch back home.",
+      "I take my brother to school, and he brings me home."
+    ],
+    "ans": 0,
+    "exp": "'Take' when leaving, 'Bring' when arriving — A is logically correct.",
+    "rule": "Bring vs Take"
+  },
+  {
+    "num": 37,
+    "q": "_____ raining heavily today.",
+    "opts": [
+      "Its",
+      "It's",
+      "It is",
+      "It"
+    ],
+    "ans": 1,
+    "exp": "'It's' = It is (contraction). The apostrophe shows the missing letter.",
+    "rule": "It's vs Its"
+  },
+  {
+    "num": 38,
+    "q": "The dog wagged _____ tail.",
+    "opts": [
+      "it's",
+      "its",
+      "its'",
+      "it is"
+    ],
+    "ans": 1,
+    "exp": "'Its' (no apostrophe) is the possessive form — belonging to the dog.",
+    "rule": "It's vs Its"
+  },
+  {
+    "num": 39,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "The company and it's employees are happy.",
+      "Every bird knows it's nest.",
+      "This app has lost its charm.",
+      "Its raining, let's cancel the match."
+    ],
+    "ans": 2,
+    "exp": "Only C uses the possessive 'its' correctly (belonging to the app).",
+    "rule": "It's vs Its"
+  },
+  {
+    "num": 40,
+    "q": "The movie deeply _____ me.",
+    "opts": [
+      "effected",
+      "affect",
+      "affective",
+      "affected"
+    ],
+    "ans": 3,
+    "exp": "'Affect' is a verb → past tense = 'affected'.",
+    "rule": "Affect vs Effect"
+  },
+  {
+    "num": 41,
+    "q": "What will be the _____ of this law?",
+    "opts": [
+      "affect",
+      "effect",
+      "affective",
+      "effective"
+    ],
+    "ans": 1,
+    "exp": "'Effect' is a noun = result/outcome.",
+    "rule": "Affect vs Effect"
+  },
+  {
+    "num": 42,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "The medicine effected me quickly.",
+      "That speech had a strong affect.",
+      "I was emotionally affected by the news.",
+      "Don't let this effect you."
+    ],
+    "ans": 2,
+    "exp": "'Affected' is correct verb usage; others misuse effect/affect.",
+    "rule": "Affect vs Effect"
+  },
+  {
+    "num": 43,
+    "q": "She is taller _____ me.",
+    "opts": [
+      "then",
+      "than",
+      "that",
+      "when"
+    ],
+    "ans": 1,
+    "exp": "'Than' is used for comparison.",
+    "rule": "Than vs Then"
+  },
+  {
+    "num": 44,
+    "q": "We ate, _____ we went out.",
+    "opts": [
+      "than",
+      "then",
+      "so",
+      "when"
+    ],
+    "ans": 1,
+    "exp": "'Then' means next/after that (time sequence).",
+    "rule": "Than vs Then"
+  },
+  {
+    "num": 45,
+    "q": "Identify the correct usage:",
+    "opts": [
+      "First we went shopping, than we had lunch.",
+      "I'd rather sleep then study.",
+      "He is better than me.",
+      "She's taller then her sister."
+    ],
+    "ans": 2,
+    "exp": "'Than' is correct in C for comparison; others confuse 'then' and 'than'.",
+    "rule": "Than vs Then"
+  },
+  {
+    "num": 46,
+    "q": "You can choose _____ book.",
+    "opts": [
+      "either",
+      "neither",
+      "both",
+      "all"
+    ],
+    "ans": 0,
+    "exp": "'Either' = one of two (positive choice between two options).",
+    "rule": "Either vs Neither"
+  },
+  {
+    "num": 47,
+    "q": "_____ of them came to the party.",
+    "opts": [
+      "Either",
+      "Neither",
+      "Both",
+      "Some"
+    ],
+    "ans": 1,
+    "exp": "'Neither' = none of the two came.",
+    "rule": "Either vs Neither"
+  },
+  {
+    "num": 48,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Neither him nor I were informed.",
+      "Either of them are correct.",
+      "Neither of the options is suitable.",
+      "I don't like either movies."
+    ],
+    "ans": 2,
+    "exp": "'Neither' is singular and agrees with 'is'. Option C is correct.",
+    "rule": "Either vs Neither"
+  },
+  {
+    "num": 49,
+    "q": "It _____ rain today.",
+    "opts": [
+      "must",
+      "might",
+      "may",
+      "can"
+    ],
+    "ans": 2,
+    "exp": "'May' = higher possibility (about 70% likely).",
+    "rule": "May vs Might"
+  },
+  {
+    "num": 50,
+    "q": "He _____ come to the party, but he's unsure.",
+    "opts": [
+      "may",
+      "might",
+      "should",
+      "will"
+    ],
+    "ans": 1,
+    "exp": "'Might' = lower possibility than 'may' (more uncertain).",
+    "rule": "May vs Might"
+  },
+  {
+    "num": 51,
+    "q": "Identify the correct sentence:",
+    "opts": [
+      "She might have told the truth.",
+      "I may can help you.",
+      "He may be comes late.",
+      "Might she goes there?"
+    ],
+    "ans": 0,
+    "exp": "'Might have + past participle' is the correct structure for past possibility.",
+    "rule": "May vs Might"
+  },
+  {
+    "num": 52,
+    "q": "I always _____ on my bed to rest.",
+    "opts": [
+      "lay",
+      "laid",
+      "lie",
+      "lain"
+    ],
+    "ans": 2,
+    "exp": "'Lie' = to rest/recline (no object needed); present tense.",
+    "rule": "Lie vs Lay"
+  },
+  {
+    "num": 53,
+    "q": "I _____ the book on the table yesterday.",
+    "opts": [
+      "lay",
+      "laid",
+      "lie",
+      "lain"
+    ],
+    "ans": 1,
+    "exp": "'Lay' = to put something down; past tense of 'lay' = 'laid'.",
+    "rule": "Lie vs Lay"
+  },
+  {
+    "num": 54,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "He lies the phone on the table.",
+      "I will lay down and sleep.",
+      "She laid on the sofa to rest.",
+      "Let him lie down for a while."
+    ],
+    "ans": 3,
+    "exp": "'Lie down' (no object) is correct — lie = to rest.",
+    "rule": "Lie vs Lay"
+  },
+  {
+    "num": 55,
+    "q": "My teacher gave me a good _____.",
+    "opts": [
+      "advise",
+      "advice",
+      "advising",
+      "advices"
+    ],
+    "ans": 1,
+    "exp": "'Advice' is a noun (uncountable — no plural form).",
+    "rule": "Advice vs Advise"
+  },
+  {
+    "num": 56,
+    "q": "I _____ you to stay calm.",
+    "opts": [
+      "advice",
+      "advising",
+      "advise",
+      "advices"
+    ],
+    "ans": 2,
+    "exp": "'Advise' is a verb — the act of giving advice.",
+    "rule": "Advice vs Advise"
+  },
+  {
+    "num": 57,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "He gave me a great advise.",
+      "I advice him every day.",
+      "My advice is to study harder.",
+      "She advices good."
+    ],
+    "ans": 2,
+    "exp": "'Advice' (noun) is used correctly in C.",
+    "rule": "Advice vs Advise"
+  },
+  {
+    "num": 58,
+    "q": "_____ house is very big.",
+    "opts": [
+      "There",
+      "They're",
+      "Their",
+      "Them"
+    ],
+    "ans": 2,
+    "exp": "'Their' = possession (belonging to them).",
+    "rule": "Their/There/They're"
+  },
+  {
+    "num": 59,
+    "q": "_____ going to the fair now.",
+    "opts": [
+      "Their",
+      "There",
+      "They're",
+      "Them"
+    ],
+    "ans": 2,
+    "exp": "'They're' = They are (contraction).",
+    "rule": "Their/There/They're"
+  },
+  {
+    "num": 60,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Their coming tomorrow.",
+      "There books are lost.",
+      "They're planning their vacation over there.",
+      "Their very excited about the results."
+    ],
+    "ans": 2,
+    "exp": "Only C uses all three correctly — They're (they are), their (possession), there (place).",
+    "rule": "Their/There/They're"
+  },
+  {
+    "num": 61,
+    "q": "The tea is _____ hot to drink.",
+    "opts": [
+      "very",
+      "so",
+      "too",
+      "enough"
+    ],
+    "ans": 2,
+    "exp": "'Too' means excessively — beyond acceptable limit (can't drink it).",
+    "rule": "Too vs Very"
+  },
+  {
+    "num": 62,
+    "q": "The movie was _____ interesting!",
+    "opts": [
+      "too",
+      "very",
+      "too much",
+      "much"
+    ],
+    "ans": 1,
+    "exp": "'Very' intensifies the adjective in a positive, neutral sense.",
+    "rule": "Too vs Very"
+  },
+  {
+    "num": 63,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "He is too talented to fail.",
+      "This room is very small to sleep.",
+      "This box is very heavy to lift it.",
+      "It was too good that I cried."
+    ],
+    "ans": 0,
+    "exp": "'Too…to…' is the correct structure showing excess leading to inability.",
+    "rule": "Too vs Very / Too…to"
+  },
+  {
+    "num": 64,
+    "q": "She sat _____ me in class.",
+    "opts": [
+      "besides",
+      "beside",
+      "next",
+      "near"
+    ],
+    "ans": 1,
+    "exp": "'Beside' means next to (physical position).",
+    "rule": "Beside vs Besides"
+  },
+  {
+    "num": 65,
+    "q": "_____ playing guitar, he also sings.",
+    "opts": [
+      "Beside",
+      "In spite of",
+      "Besides",
+      "Despite"
+    ],
+    "ans": 2,
+    "exp": "'Besides' means in addition to.",
+    "rule": "Beside vs Besides"
+  },
+  {
+    "num": 66,
+    "q": "Choose the correct usage:",
+    "opts": [
+      "Beside working hard, he failed.",
+      "He sat besides me for dinner.",
+      "Besides science, I enjoy math.",
+      "Beside math, I hate everything."
+    ],
+    "ans": 2,
+    "exp": "'Besides' = in addition to; used correctly in C.",
+    "rule": "Beside vs Besides"
+  },
+  {
+    "num": 67,
+    "q": "We walked _____ than usual today.",
+    "opts": [
+      "further",
+      "more",
+      "farther",
+      "longer"
+    ],
+    "ans": 2,
+    "exp": "'Farther' is used for physical, measurable distance.",
+    "rule": "Farther vs Further"
+  },
+  {
+    "num": 68,
+    "q": "Let's not discuss this _____ today.",
+    "opts": [
+      "farther",
+      "more",
+      "further",
+      "far"
+    ],
+    "ans": 2,
+    "exp": "'Further' is for figurative/metaphorical extension (more discussion).",
+    "rule": "Farther vs Further"
+  },
+  {
+    "num": 69,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "He threw the ball further than me.",
+      "We will go further 10 miles.",
+      "No farther comments were made.",
+      "We need further clarification."
+    ],
+    "ans": 3,
+    "exp": "'Further clarification' (not physical distance) is correct usage.",
+    "rule": "Farther vs Further"
+  },
+  {
+    "num": 70,
+    "q": "_____ the rain, we played football.",
+    "opts": [
+      "Although",
+      "Because",
+      "Despite",
+      "Though"
+    ],
+    "ans": 2,
+    "exp": "'Despite' is followed by a noun or gerund (the rain = noun).",
+    "rule": "Despite vs Although"
+  },
+  {
+    "num": 71,
+    "q": "_____ being tired, he worked late.",
+    "opts": [
+      "In spite",
+      "Despite of",
+      "Despite",
+      "Although"
+    ],
+    "ans": 2,
+    "exp": "Correct form: 'Despite being…' — no 'of' after Despite.",
+    "rule": "Despite vs In Spite Of"
+  },
+  {
+    "num": 72,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "In spite of he was late, he was allowed.",
+      "Despite of being unwell, she came.",
+      "In spite of the weather, we started.",
+      "Despite of the cold, I wore shorts."
+    ],
+    "ans": 2,
+    "exp": "'In spite of' is correct when followed by noun/gerund (the weather).",
+    "rule": "Despite vs In Spite Of"
+  },
+  {
+    "num": 73,
+    "q": "_____ it was raining, we went out.",
+    "opts": [
+      "Even",
+      "Though",
+      "But",
+      "Despite"
+    ],
+    "ans": 1,
+    "exp": "'Though' introduces a contrast clause (full sentence follows).",
+    "rule": "Although/Though/Even Though"
+  },
+  {
+    "num": 74,
+    "q": "_____ he is rich, he is not arrogant.",
+    "opts": [
+      "Even though",
+      "Despite",
+      "Though",
+      "Because"
+    ],
+    "ans": 0,
+    "exp": "'Even though' shows the strongest contrast — surprising fact.",
+    "rule": "Although/Though/Even Though"
+  },
+  {
+    "num": 75,
+    "q": "Choose the best usage:",
+    "opts": [
+      "Though tired, he went on.",
+      "Although he is old, but he runs fast.",
+      "Even though of his strength, he lost.",
+      "Although of rain, we cancelled it."
+    ],
+    "ans": 0,
+    "exp": "Only A uses the contrast clause correctly — no 'but' or 'yet' after 'though'.",
+    "rule": "Although/Though/Even Though"
+  },
+  {
+    "num": 76,
+    "q": "I was cooking _____ he came.",
+    "opts": [
+      "while",
+      "when",
+      "as",
+      "after"
+    ],
+    "ans": 0,
+    "exp": "'While' indicates simultaneous ongoing action.",
+    "rule": "While vs When"
+  },
+  {
+    "num": 77,
+    "q": "I was at home _____ it started to rain.",
+    "opts": [
+      "while",
+      "during",
+      "when",
+      "since"
+    ],
+    "ans": 2,
+    "exp": "'When' is used for a specific point in time.",
+    "rule": "While vs When"
+  },
+  {
+    "num": 78,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "He called me while I finish dinner.",
+      "I met her when she was shopping.",
+      "I was walking when I slipped and fall.",
+      "When you sleeping, I arrived."
+    ],
+    "ans": 1,
+    "exp": "B is grammatically correct and logically sound.",
+    "rule": "While vs When"
+  },
+  {
+    "num": 79,
+    "q": "You won't pass _____ you study.",
+    "opts": [
+      "if not",
+      "unless",
+      "although",
+      "despite"
+    ],
+    "ans": 1,
+    "exp": "'Unless' = If not. 'Unless you study' = 'If you do not study'.",
+    "rule": "Unless"
+  },
+  {
+    "num": 80,
+    "q": "I can't help you _____ you ask.",
+    "opts": [
+      "unless",
+      "though",
+      "in case",
+      "while"
+    ],
+    "ans": 0,
+    "exp": "'Unless' is used to express a condition (if not asked, can't help).",
+    "rule": "Unless"
+  },
+  {
+    "num": 81,
+    "q": "Choose the correct usage:",
+    "opts": [
+      "Unless you don't work, you'll fail.",
+      "Unless you will call, I won't come.",
+      "Unless you study, you will pass.",
+      "You can't enter unless you show ID."
+    ],
+    "ans": 3,
+    "exp": "'Unless' must not be followed by 'don't'. D is the correct form.",
+    "rule": "Unless"
+  },
+  {
+    "num": 82,
+    "q": "I left early _____ I was tired.",
+    "opts": [
+      "although",
+      "because",
+      "so",
+      "unless"
+    ],
+    "ans": 1,
+    "exp": "'Because' gives a clear, direct reason for leaving.",
+    "rule": "Because/Since/As"
+  },
+  {
+    "num": 83,
+    "q": "_____ you're here, let's begin.",
+    "opts": [
+      "While",
+      "Since",
+      "Unless",
+      "Though"
+    ],
+    "ans": 1,
+    "exp": "'Since' indicates reason — used when cause is known to both parties.",
+    "rule": "Because/Since/As"
+  },
+  {
+    "num": 84,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "As it rains, I stayed inside.",
+      "Since being tired, he left.",
+      "Because of tired, he slept.",
+      "I couldn't come because I was busy."
+    ],
+    "ans": 3,
+    "exp": "D uses 'because' correctly with a full clause.",
+    "rule": "Because/Since/As"
+  },
+  {
+    "num": 85,
+    "q": "I was reading _____ she was cooking.",
+    "opts": [
+      "whereas",
+      "but",
+      "while",
+      "when"
+    ],
+    "ans": 2,
+    "exp": "'While' is used when two actions happen simultaneously.",
+    "rule": "While vs When"
+  },
+  {
+    "num": 86,
+    "q": "He is tall, _____ his brother is short.",
+    "opts": [
+      "while",
+      "whereas",
+      "although",
+      "since"
+    ],
+    "ans": 1,
+    "exp": "'Whereas' shows contrast between two facts (tall vs short).",
+    "rule": "Whereas"
+  },
+  {
+    "num": 87,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "While he is rich, but he is unhappy.",
+      "He sings whereas dances too.",
+      "She enjoys reading while her sister prefers drawing.",
+      "Whereas he was sleeping, I was working."
+    ],
+    "ans": 2,
+    "exp": "C correctly uses 'while' to show two actions at the same time.",
+    "rule": "While vs Whereas"
+  },
+  {
+    "num": 88,
+    "q": "I _____ play cricket every day.",
+    "opts": [
+      "used to",
+      "use to",
+      "using to",
+      "uses to"
+    ],
+    "ans": 0,
+    "exp": "'Used to' shows past habit that no longer continues.",
+    "rule": "Used To vs Be Used To"
+  },
+  {
+    "num": 89,
+    "q": "He is _____ living in Mumbai now.",
+    "opts": [
+      "used to",
+      "use to",
+      "using",
+      "use"
+    ],
+    "ans": 0,
+    "exp": "'Be used to' means 'accustomed to' (comfortable with now).",
+    "rule": "Used To vs Be Used To"
+  },
+  {
+    "num": 90,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "I am use to cold weather.",
+      "She got use to early mornings.",
+      "He is used to hard work.",
+      "I used to waking up late."
+    ],
+    "ans": 2,
+    "exp": "'Be + used to + noun/gerund' means accustomed to — only C is correct.",
+    "rule": "Used To vs Be Used To"
+  },
+  {
+    "num": 91,
+    "q": "You _____ leave now before it gets dark.",
+    "opts": [
+      "should",
+      "had better",
+      "must",
+      "would"
+    ],
+    "ans": 1,
+    "exp": "'Had better' gives strong advice/warning with implied consequence.",
+    "rule": "Had Better vs Would Rather"
+  },
+  {
+    "num": 92,
+    "q": "You _____ study harder for the exam.",
+    "opts": [
+      "had better",
+      "should",
+      "ought",
+      "may"
+    ],
+    "ans": 1,
+    "exp": "'Should' is used for general suggestions/advice (softer than had better).",
+    "rule": "Had Better vs Would Rather"
+  },
+  {
+    "num": 93,
+    "q": "Choose the best usage:",
+    "opts": [
+      "You should to finish this.",
+      "He had better don't go now.",
+      "You had better be careful.",
+      "You should had go early."
+    ],
+    "ans": 2,
+    "exp": "Only C has correct structure: 'had better + base verb'.",
+    "rule": "Had Better"
+  },
+  {
+    "num": 94,
+    "q": "I _____ swim when I was five.",
+    "opts": [
+      "could",
+      "can",
+      "might",
+      "must"
+    ],
+    "ans": 0,
+    "exp": "'Could' = general ability in the past (used to be able to).",
+    "rule": "Could vs Was Able To"
+  },
+  {
+    "num": 95,
+    "q": "She _____ escape the fire last night.",
+    "opts": [
+      "could",
+      "was able to",
+      "may",
+      "might"
+    ],
+    "ans": 1,
+    "exp": "'Was able to' is used for a specific, one-time success in the past.",
+    "rule": "Could vs Was Able To"
+  },
+  {
+    "num": 96,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "I could escaped the accident.",
+      "He was able to climb the mountain.",
+      "I could reach the station on time.",
+      "He could to finish the task."
+    ],
+    "ans": 1,
+    "exp": "'Was able to' is correct for a one-time achievement. 'Could' is for general ability.",
+    "rule": "Could vs Was Able To"
+  },
+  {
+    "num": 97,
+    "q": "I _____ call you later.",
+    "opts": [
+      "shall",
+      "will",
+      "may",
+      "can"
+    ],
+    "ans": 1,
+    "exp": "'Will' is used in modern English for all future intentions.",
+    "rule": "Shall vs Will"
+  },
+  {
+    "num": 98,
+    "q": "_____ we begin the class now?",
+    "opts": [
+      "Shall",
+      "Will",
+      "Must",
+      "Might"
+    ],
+    "ans": 0,
+    "exp": "'Shall' is often used in suggestions or offers (especially formal).",
+    "rule": "Shall vs Will"
+  },
+  {
+    "num": 99,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Shall you help me?",
+      "I shall to do it.",
+      "We shall overcome this.",
+      "Will I be going?"
+    ],
+    "ans": 2,
+    "exp": "'Shall + base verb' is used correctly in C (formal/literary tone).",
+    "rule": "Shall vs Will"
+  },
+  {
+    "num": 100,
+    "q": "The two friends hugged _____ warmly.",
+    "opts": [
+      "one another",
+      "each other",
+      "themselves",
+      "one self"
+    ],
+    "ans": 1,
+    "exp": "'Each other' is used for exactly two people.",
+    "rule": "Each Other vs One Another"
+  },
+  {
+    "num": 101,
+    "q": "All the teammates congratulated _____ after the win.",
+    "opts": [
+      "themselves",
+      "one another",
+      "each other",
+      "one's other"
+    ],
+    "ans": 1,
+    "exp": "'One another' is used when more than two are involved (whole team).",
+    "rule": "Each Other vs One Another"
+  },
+  {
+    "num": 102,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "The three boys fought each other.",
+      "Both the players helped one another.",
+      "The kids were hitting each other.",
+      "They praised one self."
+    ],
+    "ans": 2,
+    "exp": "'Each other' is correct for two (the kids implies two here); C fits the rule.",
+    "rule": "Each Other vs One Another"
+  },
+  {
+    "num": 103,
+    "q": "This task needs _____ effort.",
+    "opts": [
+      "less",
+      "lesser",
+      "few",
+      "small"
+    ],
+    "ans": 0,
+    "exp": "'Less' = smaller amount for uncountable nouns (effort is uncountable).",
+    "rule": "Less vs Lesser"
+  },
+  {
+    "num": 104,
+    "q": "He is the _____ of the two evils.",
+    "opts": [
+      "less",
+      "lesser",
+      "fewer",
+      "lessest"
+    ],
+    "ans": 1,
+    "exp": "'Lesser' is used in abstract or metaphorical comparisons.",
+    "rule": "Less vs Lesser"
+  },
+  {
+    "num": 105,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "The lesser the sugar, the better.",
+      "I spent lesser money today.",
+      "He had less books.",
+      "This is the lesser expensive one."
+    ],
+    "ans": 0,
+    "exp": "Only A uses 'lesser' idiomatically and correctly in 'the lesser…the better'.",
+    "rule": "Less vs Lesser"
+  },
+  {
+    "num": 106,
+    "q": "_____ student was absent.",
+    "opts": [
+      "Many",
+      "Many a",
+      "Much",
+      "Several"
+    ],
+    "ans": 1,
+    "exp": "'Many a' is followed by singular noun and singular verb.",
+    "rule": "Many A"
+  },
+  {
+    "num": 107,
+    "q": "Many a soldier _____ brave.",
+    "opts": [
+      "are",
+      "is",
+      "were",
+      "be"
+    ],
+    "ans": 1,
+    "exp": "'Many a' always takes a singular verb.",
+    "rule": "Many A"
+  },
+  {
+    "num": 108,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Many a boys are here.",
+      "Many a teacher have arrived.",
+      "Many a student has failed.",
+      "Many a girls were dancing."
+    ],
+    "ans": 2,
+    "exp": "Singular structure → 'Many a + singular noun + singular verb'.",
+    "rule": "Many A"
+  },
+  {
+    "num": 109,
+    "q": "None of the food _____ left.",
+    "opts": [
+      "are",
+      "is",
+      "were",
+      "being"
+    ],
+    "ans": 1,
+    "exp": "'None' is singular when referring to uncountable nouns like food.",
+    "rule": "None — Singular or Plural"
+  },
+  {
+    "num": 110,
+    "q": "None of the students _____ present.",
+    "opts": [
+      "was",
+      "is",
+      "are",
+      "has"
+    ],
+    "ans": 2,
+    "exp": "'None' can be plural when referring to people or countable nouns.",
+    "rule": "None — Singular or Plural"
+  },
+  {
+    "num": 111,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "None of them is good.",
+      "None of the apples is rotten.",
+      "None of my friends was here.",
+      "All of the above"
+    ],
+    "ans": 3,
+    "exp": "'None' can be singular or plural — all three options are grammatically acceptable.",
+    "rule": "None — Singular or Plural"
+  },
+  {
+    "num": 112,
+    "q": "Either of the girls _____ going.",
+    "opts": [
+      "are",
+      "were",
+      "is",
+      "be"
+    ],
+    "ans": 2,
+    "exp": "'Either of + plural noun' takes a singular verb.",
+    "rule": "Either of / Neither of"
+  },
+  {
+    "num": 113,
+    "q": "Neither of the options _____ suitable.",
+    "opts": [
+      "are",
+      "is",
+      "be",
+      "have"
+    ],
+    "ans": 1,
+    "exp": "'Neither' is singular → use 'is'.",
+    "rule": "Either of / Neither of"
+  },
+  {
+    "num": 114,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Neither of the books are useful.",
+      "Either of the boys are guilty.",
+      "Neither of the players is tired.",
+      "Either of team are strong."
+    ],
+    "ans": 2,
+    "exp": "Singular verb must follow 'either/neither of' + plural noun.",
+    "rule": "Either of / Neither of"
+  },
+  {
+    "num": 115,
+    "q": "If I _____ you, I'd apologize.",
+    "opts": [
+      "was",
+      "were",
+      "am",
+      "had"
+    ],
+    "ans": 1,
+    "exp": "Use 'were' in imaginary/hypothetical conditional statements (not 'was').",
+    "rule": "If I Were — Hypothetical"
+  },
+  {
+    "num": 116,
+    "q": "If she _____ here, she'd help.",
+    "opts": [
+      "were",
+      "was",
+      "is",
+      "are"
+    ],
+    "ans": 0,
+    "exp": "'Were' is used in hypothetical conditionals for all subjects.",
+    "rule": "If I Were — Hypothetical"
+  },
+  {
+    "num": 117,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "If I was rich, I'd buy that.",
+      "If he were honest, he'd admit.",
+      "If she was knowing, she'd act.",
+      "If I were him, I will go."
+    ],
+    "ans": 1,
+    "exp": "'If he were' is the correct hypothetical form — 'were' for all subjects.",
+    "rule": "If I Were — Hypothetical"
+  },
+  {
+    "num": 118,
+    "q": "Neither the cat nor the dog _____ in the room.",
+    "opts": [
+      "are",
+      "were",
+      "is",
+      "be"
+    ],
+    "ans": 2,
+    "exp": "'Neither…nor' is followed by a singular verb when both subjects are singular.",
+    "rule": "Neither…Nor Agreement"
+  },
+  {
+    "num": 119,
+    "q": "Neither my parents nor my brother _____ interested.",
+    "opts": [
+      "is",
+      "are",
+      "were",
+      "be"
+    ],
+    "ans": 0,
+    "exp": "Verb agrees with the nearest subject — 'brother' is singular → 'is'.",
+    "rule": "Neither…Nor Agreement"
+  },
+  {
+    "num": 120,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Neither the players nor the coach are ready.",
+      "Neither the chair nor the tables is broken.",
+      "Neither Ravi nor his friends is coming.",
+      "Neither my teacher nor I am wrong."
+    ],
+    "ans": 3,
+    "exp": "Verb agrees with nearest subject: 'I am' is correct.",
+    "rule": "Neither…Nor Agreement"
+  },
+  {
+    "num": 121,
+    "q": "He behaves _____ he were the boss.",
+    "opts": [
+      "like",
+      "as if",
+      "as",
+      "although"
+    ],
+    "ans": 1,
+    "exp": "'As if' introduces unreal/hypothetical conditions.",
+    "rule": "As If vs As Though"
+  },
+  {
+    "num": 122,
+    "q": "She spoke to me _____ she knew everything.",
+    "opts": [
+      "if",
+      "as though",
+      "like",
+      "unless"
+    ],
+    "ans": 1,
+    "exp": "'As though' = same as 'as if' (unreal/imaginary).",
+    "rule": "As If vs As Though"
+  },
+  {
+    "num": 123,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "He acts as though he is a king.",
+      "She looked as if she was knowing the truth.",
+      "He walks as if he owned the world.",
+      "As though he was rich, he walked in."
+    ],
+    "ans": 2,
+    "exp": "'As if / As though' is followed by past tense to express imaginary situation.",
+    "rule": "As If vs As Though"
+  },
+  {
+    "num": 124,
+    "q": "Hardly had I reached when it _____ to rain.",
+    "opts": [
+      "started",
+      "starts",
+      "had started",
+      "was started"
+    ],
+    "ans": 0,
+    "exp": "'Hardly had I V3 when + V2' is the correct structure — simple past follows 'when'.",
+    "rule": "Hardly/Scarcely…When"
+  },
+  {
+    "num": 125,
+    "q": "_____ had they left before the rain started.",
+    "opts": [
+      "Scarcely",
+      "Barely",
+      "Just",
+      "Rarely"
+    ],
+    "ans": 0,
+    "exp": "'Scarcely had + subject + V3 + before + past action' is correct.",
+    "rule": "Scarcely/Hardly…When"
+  },
+  {
+    "num": 126,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Hardly he had entered when the lights went off.",
+      "Hardly had he entered when the lights went off.",
+      "He hardly had entered when lights went off.",
+      "When he entered, hardly lights went off."
+    ],
+    "ans": 1,
+    "exp": "Inversion after 'hardly/scarcely' → 'Hardly had + subject + V3'.",
+    "rule": "Hardly/Scarcely…When"
+  },
+  {
+    "num": 127,
+    "q": "No sooner _____ he entered than it started to rain.",
+    "opts": [
+      "had",
+      "have",
+      "did",
+      "was"
+    ],
+    "ans": 0,
+    "exp": "'No sooner had + subject + V3 + than…' is the correct structure.",
+    "rule": "No Sooner…Than"
+  },
+  {
+    "num": 128,
+    "q": "_____ had I spoken than he interrupted.",
+    "opts": [
+      "No sooner",
+      "As soon",
+      "When",
+      "Barely"
+    ],
+    "ans": 0,
+    "exp": "'No sooner' goes with 'than', not 'when'. No sooner…than is the pair.",
+    "rule": "No Sooner…Than"
+  },
+  {
+    "num": 129,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "No sooner I had called than she cried.",
+      "No sooner did I call than she cried.",
+      "No sooner had I called than she cried.",
+      "I no sooner had called than she cried."
+    ],
+    "ans": 2,
+    "exp": "Correct inversion: 'No sooner had I + V3 + than…'",
+    "rule": "No Sooner…Than"
+  },
+  {
+    "num": 130,
+    "q": "Walk carefully, _____ you should fall.",
+    "opts": [
+      "although",
+      "or",
+      "lest",
+      "unless"
+    ],
+    "ans": 2,
+    "exp": "'Lest' = to prevent something bad from happening. Used for negative purpose.",
+    "rule": "Lest"
+  },
+  {
+    "num": 131,
+    "q": "Hurry up _____ you should miss the train.",
+    "opts": [
+      "lest",
+      "in case",
+      "before",
+      "since"
+    ],
+    "ans": 0,
+    "exp": "'Lest' is followed by should/base verb, not 'don't/must'.",
+    "rule": "Lest"
+  },
+  {
+    "num": 132,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Work hard lest you may fail.",
+      "I will call her lest she doesn't miss it.",
+      "Lest she should fall, I held her hand.",
+      "Lest you didn't know, here's a guide."
+    ],
+    "ans": 2,
+    "exp": "Correct form: 'Lest + subject + should + base verb'.",
+    "rule": "Lest"
+  },
+  {
+    "num": 133,
+    "q": "The movie was so boring _____ I left.",
+    "opts": [
+      "which",
+      "when",
+      "that",
+      "as"
+    ],
+    "ans": 2,
+    "exp": "'So + adj + that' is the right structure showing result.",
+    "rule": "So…That"
+  },
+  {
+    "num": 134,
+    "q": "It was such a great idea _____ we approved instantly.",
+    "opts": [
+      "so",
+      "that",
+      "as",
+      "where"
+    ],
+    "ans": 1,
+    "exp": "'Such + noun + that' is correct.",
+    "rule": "Such…That"
+  },
+  {
+    "num": 135,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "He was so kind that helped everyone.",
+      "She such beautiful sings that I cry.",
+      "It was such a good book that I read it twice.",
+      "So great was his idea that we shocked."
+    ],
+    "ans": 2,
+    "exp": "Only C follows 'Such + a + adj + noun + that' correctly.",
+    "rule": "Such…That"
+  },
+  {
+    "num": 136,
+    "q": "I will call you _____ I reach home.",
+    "opts": [
+      "after",
+      "before",
+      "as soon as",
+      "until"
+    ],
+    "ans": 2,
+    "exp": "'As soon as' = immediately after something happens.",
+    "rule": "As Soon As"
+  },
+  {
+    "num": 137,
+    "q": "_____ he saw the snake, he ran away.",
+    "opts": [
+      "While",
+      "After",
+      "When",
+      "Since"
+    ],
+    "ans": 2,
+    "exp": "'When' is used for immediate past events (he saw → he ran).",
+    "rule": "When"
+  },
+  {
+    "num": 138,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "I'll go after I will eat.",
+      "As soon I arrive, I'll message.",
+      "I left after I had dinner.",
+      "When I was arrived, she was gone."
+    ],
+    "ans": 2,
+    "exp": "'After + past tense' or 'After + past perfect' followed by past is correct.",
+    "rule": "After / As Soon As"
+  },
+  {
+    "num": 139,
+    "q": "_____ do we see snowfall in Rajasthan.",
+    "opts": [
+      "Often",
+      "Rarely",
+      "Always",
+      "Frequently"
+    ],
+    "ans": 1,
+    "exp": "'Rarely' = negative frequency (almost never — correct for Rajasthan).",
+    "rule": "Adverbs of Frequency"
+  },
+  {
+    "num": 140,
+    "q": "_____ had the train left when he arrived.",
+    "opts": [
+      "Hardly",
+      "Just",
+      "Rarely",
+      "Barely"
+    ],
+    "ans": 0,
+    "exp": "'Hardly had' = action just completed before another began (inversion).",
+    "rule": "Hardly Had"
+  },
+  {
+    "num": 141,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Hardly I had spoken than he left.",
+      "Seldom I go there.",
+      "Rarely does he smile.",
+      "I rarely does eat junk food."
+    ],
+    "ans": 2,
+    "exp": "With 'Rarely/Seldom/Hardly', use inversion: 'Rarely does he' not 'Rarely he does'.",
+    "rule": "Inversion with Negative Adverbs"
+  },
+  {
+    "num": 142,
+    "q": "Not only he sings, but also he _____.",
+    "opts": [
+      "dance",
+      "sings",
+      "dances",
+      "danced"
+    ],
+    "ans": 2,
+    "exp": "'Not only…but also' joins two similar structures — both should be present tense verbs.",
+    "rule": "Not Only…But Also"
+  },
+  {
+    "num": 143,
+    "q": "Not only _____ she smart, but also hardworking.",
+    "opts": [
+      "is",
+      "are",
+      "was",
+      "has"
+    ],
+    "ans": 0,
+    "exp": "Inversion: 'Not only + verb + subject' → 'Not only is she'.",
+    "rule": "Not Only…But Also — Inversion"
+  },
+  {
+    "num": 144,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Not only she sings but dances too.",
+      "Not only does he dance, but he also sings.",
+      "Not only he is late but also lazy.",
+      "But also he sings not only."
+    ],
+    "ans": 1,
+    "exp": "Correct inverted structure: 'Not only does he…'",
+    "rule": "Not Only…But Also"
+  },
+  {
+    "num": 145,
+    "q": "Either you or he _____ wrong.",
+    "opts": [
+      "are",
+      "were",
+      "is",
+      "be"
+    ],
+    "ans": 2,
+    "exp": "Verb agrees with nearest subject → 'he is' (singular).",
+    "rule": "Either…Or Agreement"
+  },
+  {
+    "num": 146,
+    "q": "Neither my friends nor my brother _____ helping me.",
+    "opts": [
+      "were",
+      "are",
+      "is",
+      "have"
+    ],
+    "ans": 2,
+    "exp": "Verb follows nearest noun ('brother' = singular) → 'is'.",
+    "rule": "Neither…Nor Agreement"
+  },
+  {
+    "num": 147,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Neither my teacher nor students was late.",
+      "Either Ravi or you is wrong.",
+      "Either the boys or the teacher is absent.",
+      "Neither my books nor my bag are here."
+    ],
+    "ans": 2,
+    "exp": "Closest noun = 'teacher' (singular) → singular verb 'is'. C is correct.",
+    "rule": "Either…Or / Neither…Nor Agreement"
+  },
+  {
+    "num": 148,
+    "q": "It's _____ cold to go outside.",
+    "opts": [
+      "very",
+      "so",
+      "too",
+      "more"
+    ],
+    "ans": 2,
+    "exp": "'Too + adj + to + verb' = excess (can't go out).",
+    "rule": "Too…To"
+  },
+  {
+    "num": 149,
+    "q": "The book is _____ interesting to ignore.",
+    "opts": [
+      "so",
+      "very",
+      "too",
+      "too much"
+    ],
+    "ans": 2,
+    "exp": "'Too interesting to ignore' = correct excess expression (can't ignore it).",
+    "rule": "Too…To"
+  },
+  {
+    "num": 150,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "He's too much weak to run.",
+      "This is too good that I loved it.",
+      "She's too tired to continue.",
+      "It's very good to be missed."
+    ],
+    "ans": 2,
+    "exp": "'Too + adj + to + verb' is the correct structure. C is correct.",
+    "rule": "Too…To"
+  },
+  {
+    "num": 151,
+    "q": "_____ he was tired, he continued working.",
+    "opts": [
+      "Since",
+      "Though",
+      "Unless",
+      "If"
+    ],
+    "ans": 1,
+    "exp": "'Though' shows contrast (tired but continued).",
+    "rule": "Though/Although"
+  },
+  {
+    "num": 152,
+    "q": "He kept smiling _____ he was in pain.",
+    "opts": [
+      "although",
+      "because",
+      "while",
+      "and"
+    ],
+    "ans": 0,
+    "exp": "'Although' = in spite of the fact (smiling despite pain).",
+    "rule": "Although"
+  },
+  {
+    "num": 153,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Though he is poor but honest.",
+      "Although he is tired, yet he works.",
+      "Though she was ill, she came.",
+      "Although he was not coming, but I waited."
+    ],
+    "ans": 2,
+    "exp": "Don't use 'but/yet' after 'though/although'. C is correct.",
+    "rule": "Though/Although"
+  },
+  {
+    "num": 154,
+    "q": "I don't know _____ he'll come or not.",
+    "opts": [
+      "either",
+      "whether",
+      "that",
+      "what"
+    ],
+    "ans": 1,
+    "exp": "'Whether...or' is used for alternatives.",
+    "rule": "Whether vs If"
+  },
+  {
+    "num": 155,
+    "q": "We'll go _____ it rains or not.",
+    "opts": [
+      "whether",
+      "even",
+      "unless",
+      "since"
+    ],
+    "ans": 0,
+    "exp": "'Whether...or not' = regardless of condition.",
+    "rule": "Whether vs If"
+  },
+  {
+    "num": 156,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "I don't know either he'll attend or not.",
+      "I don't know whether or not he will attend.",
+      "Whether he will attend, I am not sure.",
+      "I know whether he'll attend or not."
+    ],
+    "ans": 1,
+    "exp": "Proper structure = 'whether or not' — B is correct.",
+    "rule": "Whether vs If"
+  },
+  {
+    "num": 157,
+    "q": "I study hard _____ I can succeed.",
+    "opts": [
+      "though",
+      "because",
+      "so that",
+      "unless"
+    ],
+    "ans": 2,
+    "exp": "'So that' shows purpose or goal.",
+    "rule": "So That"
+  },
+  {
+    "num": 158,
+    "q": "She works extra hours _____ she can save money.",
+    "opts": [
+      "while",
+      "so",
+      "so that",
+      "though"
+    ],
+    "ans": 2,
+    "exp": "Shows goal-oriented reason — so that she can save.",
+    "rule": "So That"
+  },
+  {
+    "num": 159,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "He trains daily so that win race.",
+      "I work hard so that to impress.",
+      "I left early so that I could catch the bus.",
+      "I did this so that impress him."
+    ],
+    "ans": 2,
+    "exp": "'So that + subject + can/could + verb' is the correct pattern.",
+    "rule": "So That"
+  },
+  {
+    "num": 160,
+    "q": "You won't pass _____ you study.",
+    "opts": [
+      "if",
+      "unless",
+      "although",
+      "before"
+    ],
+    "ans": 1,
+    "exp": "'Unless' = if not (you won't pass if you don't study).",
+    "rule": "Unless"
+  },
+  {
+    "num": 161,
+    "q": "_____ you practice, you won't improve.",
+    "opts": [
+      "Unless",
+      "If",
+      "Because",
+      "Since"
+    ],
+    "ans": 0,
+    "exp": "'Unless' = negative condition for the result.",
+    "rule": "Unless"
+  },
+  {
+    "num": 162,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Unless you will work hard, you won't pass.",
+      "Unless you studied, you fail.",
+      "Unless you work hard, you won't pass.",
+      "You fail unless you won't study."
+    ],
+    "ans": 2,
+    "exp": "'Unless + present verb' → future result. C is correct.",
+    "rule": "Unless"
+  },
+  {
+    "num": 163,
+    "q": "Ram as well as his friends _____ coming.",
+    "opts": [
+      "are",
+      "is",
+      "were",
+      "have"
+    ],
+    "ans": 1,
+    "exp": "Verb agrees with first subject 'Ram' (singular) — 'is'.",
+    "rule": "As Well As — Agreement"
+  },
+  {
+    "num": 164,
+    "q": "She as well as her sisters _____ beautiful.",
+    "opts": [
+      "are",
+      "is",
+      "be",
+      "were"
+    ],
+    "ans": 1,
+    "exp": "'As well as' is not a compound subject → verb agrees with first subject 'She'.",
+    "rule": "As Well As — Agreement"
+  },
+  {
+    "num": 165,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "The boys as well as the teacher are missing.",
+      "The teacher as well as the students are present.",
+      "Ravi as well as his parents is proud.",
+      "His friends as well as he was honored."
+    ],
+    "ans": 2,
+    "exp": "Verb matches first subject — 'Ravi' (singular) → 'is'. C is correct.",
+    "rule": "As Well As — Agreement"
+  },
+  {
+    "num": 166,
+    "q": "I _____ tea to coffee.",
+    "opts": [
+      "prefer",
+      "would rather",
+      "like",
+      "want"
+    ],
+    "ans": 0,
+    "exp": "'Prefer + noun + to + noun' is the correct structure.",
+    "rule": "Prefer vs Would Rather"
+  },
+  {
+    "num": 167,
+    "q": "I _____ stay home than go out.",
+    "opts": [
+      "prefer",
+      "would rather",
+      "like",
+      "want"
+    ],
+    "ans": 1,
+    "exp": "'Would rather + base verb + than + base verb'.",
+    "rule": "Would Rather"
+  },
+  {
+    "num": 168,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "I prefer tea than coffee.",
+      "I would rather to stay than go.",
+      "I prefer tea to coffee.",
+      "I would rather staying home than going out."
+    ],
+    "ans": 2,
+    "exp": "Only C follows the correct 'prefer + noun + to + noun' pattern.",
+    "rule": "Prefer vs Would Rather"
+  },
+  {
+    "num": 169,
+    "q": "I _____ walk to school every day.",
+    "opts": [
+      "used to",
+      "am used to",
+      "was using",
+      "use to"
+    ],
+    "ans": 0,
+    "exp": "'Used to' = past habit (now no longer walks to school every day).",
+    "rule": "Used To vs Be Used To"
+  },
+  {
+    "num": 170,
+    "q": "I'm _____ sleeping late now.",
+    "opts": [
+      "use to",
+      "used to",
+      "getting use",
+      "use"
+    ],
+    "ans": 1,
+    "exp": "'Be used to + gerund/noun' = accustomed to (comfortable with it now).",
+    "rule": "Used To vs Be Used To"
+  },
+  {
+    "num": 171,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "I get used to wake early.",
+      "I'm used to wake early.",
+      "I'm used to waking early.",
+      "I used to waking early."
+    ],
+    "ans": 2,
+    "exp": "'Be used to + verb-ing' is the correct structure. C is correct.",
+    "rule": "Used To vs Be Used To"
+  },
+  {
+    "num": 172,
+    "q": "Not only the players but also the coach _____ present.",
+    "opts": [
+      "are",
+      "is",
+      "were",
+      "be"
+    ],
+    "ans": 1,
+    "exp": "Verb agrees with nearest subject → 'coach' (singular) → 'is'.",
+    "rule": "Not Only…But Also — Agreement"
+  },
+  {
+    "num": 173,
+    "q": "Not only the teacher but also the students _____ angry.",
+    "opts": [
+      "was",
+      "is",
+      "were",
+      "being"
+    ],
+    "ans": 2,
+    "exp": "Verb agrees with 'students' (plural) → 'were'.",
+    "rule": "Not Only…But Also — Agreement"
+  },
+  {
+    "num": 174,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Not only Ram but also his friends is here.",
+      "Not only he sing but also dances.",
+      "Not only the boy but also the girls are gone.",
+      "But also he not only works."
+    ],
+    "ans": 2,
+    "exp": "Verb agrees with second part (girls = plural) → 'are'. C is correct.",
+    "rule": "Not Only…But Also — Agreement"
+  },
+  {
+    "num": 175,
+    "q": "I enjoy _____ music.",
+    "opts": [
+      "to listen",
+      "listening",
+      "listen",
+      "listened"
+    ],
+    "ans": 1,
+    "exp": "'Enjoy' is followed by a gerund (verb+ing).",
+    "rule": "Gerunds vs Infinitives"
+  },
+  {
+    "num": 176,
+    "q": "He agreed _____ the work.",
+    "opts": [
+      "doing",
+      "done",
+      "to do",
+      "do"
+    ],
+    "ans": 2,
+    "exp": "'Agree' is followed by an infinitive (to + base verb).",
+    "rule": "Gerunds vs Infinitives"
+  },
+  {
+    "num": 177,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "I suggested to leave early.",
+      "They agreed doing it.",
+      "I avoided to talk to him.",
+      "I suggested leaving early."
+    ],
+    "ans": 3,
+    "exp": "'Suggest' takes gerund, not infinitive. D is correct.",
+    "rule": "Gerunds vs Infinitives"
+  },
+  {
+    "num": 178,
+    "q": "_____ the rain, we went out.",
+    "opts": [
+      "Although",
+      "Despite",
+      "Because of",
+      "Even"
+    ],
+    "ans": 1,
+    "exp": "'Despite + noun/gerund' (the rain = noun).",
+    "rule": "Despite vs Although"
+  },
+  {
+    "num": 179,
+    "q": "_____ being tired, he worked late.",
+    "opts": [
+      "Though",
+      "Despite",
+      "Even",
+      "If"
+    ],
+    "ans": 1,
+    "exp": "'Despite + gerund' (being tired).",
+    "rule": "Despite"
+  },
+  {
+    "num": 180,
+    "q": "Choose the correct sentence:",
+    "opts": [
+      "Despite he was tired, he worked.",
+      "In spite of he was late, he stayed.",
+      "In spite of the pain, she smiled.",
+      "Despite of the weather, we went."
+    ],
+    "ans": 2,
+    "exp": "Correct form: 'In spite of + noun/gerund'. C is correct.",
+    "rule": "Despite vs In Spite Of"
+  },
+  {
+    "num": 181,
+    "q": "I _____ going to the market.",
+    "opts": [
+      "am",
+      "is",
+      "are",
+      "be"
+    ],
+    "ans": 0,
+    "exp": "'I' always takes 'am'.",
+    "rule": "Subject-Verb Agreement — Basic"
+  },
+  {
+    "num": 182,
+    "q": "He _____ playing cricket every Sunday.",
+    "opts": [
+      "like",
+      "likes",
+      "liking",
+      "is like"
+    ],
+    "ans": 1,
+    "exp": "'He' is singular → use 'likes' (third person singular present).",
+    "rule": "Subject-Verb Agreement"
+  },
+  {
+    "num": 183,
+    "q": "Each of the boys _____ given a prize.",
+    "opts": [
+      "are",
+      "have",
+      "has",
+      "were"
+    ],
+    "ans": 2,
+    "exp": "'Each' is singular → use 'has'.",
+    "rule": "Each — Singular"
+  },
+  {
+    "num": 184,
+    "q": "There _____ a book on the table.",
+    "opts": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "ans": 0,
+    "exp": "'Book' is singular → use 'is'.",
+    "rule": "There Is/Are"
+  },
+  {
+    "num": 185,
+    "q": "Neither of the answers _____ correct.",
+    "opts": [
+      "is",
+      "are",
+      "have",
+      "were"
+    ],
+    "ans": 0,
+    "exp": "'Neither' is singular → use 'is'.",
+    "rule": "Neither — Singular"
+  },
+  {
+    "num": 186,
+    "q": "A bouquet of roses _____ kept on the table.",
+    "opts": [
+      "are",
+      "is",
+      "were",
+      "be"
+    ],
+    "ans": 1,
+    "exp": "'A bouquet' = singular collective noun → 'is'.",
+    "rule": "Collective Nouns"
+  },
+  {
+    "num": 187,
+    "q": "The jury _____ divided in their opinion.",
+    "opts": [
+      "was",
+      "were",
+      "is",
+      "has"
+    ],
+    "ans": 1,
+    "exp": "'Jury' viewed as individuals (divided = different opinions) → plural verb 'were'.",
+    "rule": "Collective Nouns"
+  },
+  {
+    "num": 188,
+    "q": "The team _____ playing well today.",
+    "opts": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "ans": 2,
+    "exp": "'Team' as a unit acting together = singular verb 'is'.",
+    "rule": "Collective Nouns"
+  },
+  {
+    "num": 189,
+    "q": "The data _____ accurate.",
+    "opts": [
+      "is",
+      "are",
+      "has",
+      "were"
+    ],
+    "ans": 1,
+    "exp": "'Data' is plural of 'datum' → plural verb 'are'.",
+    "rule": "Tricky Nouns — Data"
+  },
+  {
+    "num": 190,
+    "q": "Mathematics _____ my favorite subject.",
+    "opts": [
+      "are",
+      "have",
+      "is",
+      "were"
+    ],
+    "ans": 2,
+    "exp": "Subjects ending in -s (Mathematics, Physics, News) = singular verb.",
+    "rule": "Tricky Nouns — Subject Names"
+  },
+  {
+    "num": 191,
+    "q": "News _____ coming in about the accident.",
+    "opts": [
+      "are",
+      "is",
+      "were",
+      "be"
+    ],
+    "ans": 1,
+    "exp": "'News' is uncountable → singular verb 'is'.",
+    "rule": "Uncountable Nouns — News"
+  },
+  {
+    "num": 192,
+    "q": "Economics _____ taught in this school.",
+    "opts": [
+      "are",
+      "is",
+      "were",
+      "be"
+    ],
+    "ans": 1,
+    "exp": "Subject names (Economics, Physics, Mathematics) → singular verb.",
+    "rule": "Tricky Nouns — Economics"
+  },
+  {
+    "num": 193,
+    "q": "A pair of shoes _____ missing.",
+    "opts": [
+      "are",
+      "is",
+      "were",
+      "be"
+    ],
+    "ans": 1,
+    "exp": "'A pair' is singular → 'is'.",
+    "rule": "A Pair Of"
+  },
+  {
+    "num": 194,
+    "q": "Ten kilometers _____ a long distance to walk.",
+    "opts": [
+      "are",
+      "is",
+      "were",
+      "have"
+    ],
+    "ans": 1,
+    "exp": "Distance/measurement treated as a unit → singular verb.",
+    "rule": "Measurements as Units"
+  },
+  {
+    "num": 195,
+    "q": "Five hundred rupees _____ not a big amount.",
+    "opts": [
+      "are",
+      "have",
+      "is",
+      "were"
+    ],
+    "ans": 2,
+    "exp": "Amount treated as a unit → singular verb 'is'.",
+    "rule": "Amounts as Units"
+  },
+  {
+    "num": 196,
+    "q": "He said, 'I am tired.' → Indirect speech:",
+    "opts": [
+      "He said he is tired.",
+      "He said he was tired.",
+      "He said that he tired.",
+      "He said he has tired."
+    ],
+    "ans": 1,
+    "exp": "Present 'am' changes to past 'was' in indirect/reported speech.",
+    "rule": "Reported Speech — Tense Shift"
+  },
+  {
+    "num": 197,
+    "q": "She said, 'I will help you.' → Indirect speech:",
+    "opts": [
+      "She said that she will help me.",
+      "She said that she would help me.",
+      "She told she would help me.",
+      "She said she helps me."
+    ],
+    "ans": 1,
+    "exp": "'Will' → 'Would' in reported speech.",
+    "rule": "Reported Speech — Will → Would"
+  },
+  {
+    "num": 198,
+    "q": "They said, 'We were watching a movie.' → Indirect speech:",
+    "opts": [
+      "They said they had been watching a movie.",
+      "They said they were watching a movie.",
+      "They said they have watched a movie.",
+      "They said they watched a movie."
+    ],
+    "ans": 0,
+    "exp": "Past continuous → past perfect continuous in reported speech.",
+    "rule": "Reported Speech — Tense Shift"
+  },
+  {
+    "num": 199,
+    "q": "If it rains, we _____ home.",
+    "opts": [
+      "stay",
+      "will stay",
+      "stayed",
+      "staying"
+    ],
+    "ans": 1,
+    "exp": "Type 1 conditional: If + present, will + verb.",
+    "rule": "Conditionals — Type 1"
+  },
+  {
+    "num": 200,
+    "q": "If I were you, I _____ apologize.",
+    "opts": [
+      "would",
+      "will",
+      "am",
+      "should"
+    ],
+    "ans": 0,
+    "exp": "Type 2 conditional: Hypothetical condition → 'would'.",
+    "rule": "Conditionals — Type 2"
+  },
+  {
+    "num": 201,
+    "q": "If he had worked hard, he _____ passed.",
+    "opts": [
+      "will have",
+      "would have",
+      "would",
+      "has"
+    ],
+    "ans": 1,
+    "exp": "Type 3 conditional: Unreal past → would have + V3.",
+    "rule": "Conditionals — Type 3"
+  },
+  {
+    "num": 202,
+    "q": "You _____ leave now.",
+    "opts": [
+      "must",
+      "mustn't",
+      "can't",
+      "should"
+    ],
+    "ans": 0,
+    "exp": "'Must' expresses necessity/obligation.",
+    "rule": "Modals — Must"
+  },
+  {
+    "num": 203,
+    "q": "You _____ smoke here. It's a no-smoking zone.",
+    "opts": [
+      "can",
+      "may",
+      "must not",
+      "should"
+    ],
+    "ans": 2,
+    "exp": "'Must not' = prohibition (you are not allowed).",
+    "rule": "Modals — Must Not"
+  },
+  {
+    "num": 204,
+    "q": "He _____ have taken the wrong train.",
+    "opts": [
+      "can",
+      "must",
+      "might",
+      "should"
+    ],
+    "ans": 2,
+    "exp": "'Might have' shows possibility in the past (it's possible he did).",
+    "rule": "Modals — Might Have"
+  },
+  {
+    "num": 205,
+    "q": "You are coming, _____?",
+    "opts": [
+      "isn't it",
+      "aren't you",
+      "is it",
+      "are you"
+    ],
+    "ans": 1,
+    "exp": "Positive sentence → negative tag question ('aren't you').",
+    "rule": "Question Tags"
+  },
+  {
+    "num": 206,
+    "q": "He can swim, _____?",
+    "opts": [
+      "can he",
+      "can't he",
+      "does he",
+      "didn't he"
+    ],
+    "ans": 1,
+    "exp": "Modal 'can' → 'can't he' as the negative tag.",
+    "rule": "Question Tags"
+  },
+  {
+    "num": 207,
+    "q": "Let's go, _____?",
+    "opts": [
+      "don't we",
+      "let's",
+      "shall we",
+      "will we"
+    ],
+    "ans": 2,
+    "exp": "For 'Let's' → always use 'shall we' as the tag question.",
+    "rule": "Question Tags — Let's"
+  },
+  {
+    "num": 208,
+    "q": "I myself did the work. 'Myself' is a/an:",
+    "opts": [
+      "Subject",
+      "Object",
+      "Emphatic Pronoun",
+      "Possessive"
+    ],
+    "ans": 2,
+    "exp": "'Myself' here emphasizes the subject — it is an emphatic pronoun.",
+    "rule": "Emphatic Pronouns"
+  },
+  {
+    "num": 209,
+    "q": "He himself baked the cake.",
+    "opts": [
+      "Reflexive",
+      "Emphatic",
+      "Relative",
+      "Reciprocal"
+    ],
+    "ans": 1,
+    "exp": "'Himself' adds emphasis/stress to the subject → Emphatic pronoun.",
+    "rule": "Emphatic Pronouns"
+  },
+  {
+    "num": 210,
+    "q": "Choose the emphatic pronoun:",
+    "opts": [
+      "He cooks food.",
+      "They help each other.",
+      "I myself paid the bill.",
+      "She hurt herself."
+    ],
+    "ans": 2,
+    "exp": "'Myself' is emphatic (emphasizing I paid, not someone else). Option D is reflexive.",
+    "rule": "Emphatic vs Reflexive Pronouns"
+  },
+  {
+    "num": 211,
+    "q": "She hurt ____ while running.",
+    "opts": [
+      "herself",
+      "myself",
+      "itself",
+      "themselves"
+    ],
+    "ans": 0,
+    "exp": "Reflexive pronoun = herself (she did the action to herself).",
+    "rule": "Reflexive Pronouns"
+  },
+  {
+    "num": 212,
+    "q": "We enjoyed _____ at the party.",
+    "opts": [
+      "ourselves",
+      "themselves",
+      "himself",
+      "you"
+    ],
+    "ans": 0,
+    "exp": "'We' → 'ourselves' (reflexive, matching subject).",
+    "rule": "Reflexive Pronouns"
+  },
+  {
+    "num": 213,
+    "q": "They blamed _____ for the mistake.",
+    "opts": [
+      "themselves",
+      "itself",
+      "each other",
+      "herself"
+    ],
+    "ans": 0,
+    "exp": "'They' → 'themselves' (reflexive pronoun).",
+    "rule": "Reflexive Pronouns"
+  },
+  {
+    "num": 214,
+    "q": "She made me _____ the floor.",
+    "opts": [
+      "clean",
+      "cleaned",
+      "cleaning",
+      "to clean"
+    ],
+    "ans": 0,
+    "exp": "'Make' is followed by base verb (causative — make + object + base verb).",
+    "rule": "Causative — Make"
+  },
+  {
+    "num": 215,
+    "q": "I got my car _____ yesterday.",
+    "opts": [
+      "wash",
+      "washed",
+      "washing",
+      "washes"
+    ],
+    "ans": 1,
+    "exp": "'Get' causative → past participle form (get + object + V3).",
+    "rule": "Causative — Get"
+  },
+  {
+    "num": 216,
+    "q": "He had the report _____ by noon.",
+    "opts": [
+      "complete",
+      "completed",
+      "completing",
+      "to complete"
+    ],
+    "ans": 1,
+    "exp": "'Have' causative + object + past participle.",
+    "rule": "Causative — Have"
+  },
+  {
+    "num": 217,
+    "q": "Mount Everest is the _____ mountain.",
+    "opts": [
+      "high",
+      "higher",
+      "highest",
+      "most high"
+    ],
+    "ans": 2,
+    "exp": "Superlative form for one-syllable adjective → 'highest'.",
+    "rule": "Degrees of Comparison"
+  },
+  {
+    "num": 218,
+    "q": "She is _____ than her sister.",
+    "opts": [
+      "tall",
+      "taller",
+      "tallest",
+      "most tall"
+    ],
+    "ans": 1,
+    "exp": "Comparative form → 'taller'.",
+    "rule": "Degrees of Comparison"
+  },
+  {
+    "num": 219,
+    "q": "No other student is _____ John.",
+    "opts": [
+      "as smart as",
+      "smarter than",
+      "smartest",
+      "smart than"
+    ],
+    "ans": 0,
+    "exp": "Positive degree with 'no other' → 'as smart as'.",
+    "rule": "Degrees of Comparison — Positive"
+  },
+  {
+    "num": 220,
+    "q": "I don't need _____ help.",
+    "opts": [
+      "no",
+      "any",
+      "some",
+      "none"
+    ],
+    "ans": 1,
+    "exp": "Negative sentence + 'any' — avoid double negatives.",
+    "rule": "Double Negatives"
+  },
+  {
+    "num": 221,
+    "q": "She didn't see _____ in the room.",
+    "opts": [
+      "nothing",
+      "no one",
+      "anybody",
+      "none"
+    ],
+    "ans": 2,
+    "exp": "Negative + 'any-' structure (didn't + anybody = correct).",
+    "rule": "Double Negatives"
+  },
+  {
+    "num": 222,
+    "q": "He hasn't never lied. (Find error)",
+    "opts": [
+      "He",
+      "hasn't",
+      "never",
+      "No error"
+    ],
+    "ans": 2,
+    "exp": "'Hasn't never' → double negative. Correct: 'has never' or 'hasn't ever'.",
+    "rule": "Double Negatives"
+  },
+  {
+    "num": 223,
+    "q": "I like dancing, singing and _____",
+    "opts": [
+      "to draw",
+      "draw",
+      "drawing",
+      "drew"
+    ],
+    "ans": 2,
+    "exp": "Maintain parallel form: '-ing, -ing, -ing' → drawing.",
+    "rule": "Parallel Structure"
+  },
+  {
+    "num": 224,
+    "q": "She is smart, quick and _____.",
+    "opts": [
+      "beautifully",
+      "kind",
+      "kindness",
+      "wisely"
+    ],
+    "ans": 1,
+    "exp": "All adjectives — smart, quick, kind (parallel structure).",
+    "rule": "Parallel Structure"
+  },
+  {
+    "num": 225,
+    "q": "He enjoys reading more than _____",
+    "opts": [
+      "to write",
+      "writing",
+      "wrote",
+      "write"
+    ],
+    "ans": 1,
+    "exp": "Gerund → 'reading…writing' (parallel gerund structure).",
+    "rule": "Parallel Structure — Gerunds"
+  },
+  {
+    "num": 226,
+    "q": "The list of items _____ on the table.",
+    "opts": [
+      "are",
+      "is",
+      "have",
+      "were"
+    ],
+    "ans": 1,
+    "exp": "'List' is the subject (singular) → 'is'.",
+    "rule": "Of-Phrase Agreement"
+  },
+  {
+    "num": 227,
+    "q": "The quality of the apples _____ good.",
+    "opts": [
+      "are",
+      "is",
+      "were",
+      "be"
+    ],
+    "ans": 1,
+    "exp": "'Quality' = singular subject → 'is good'.",
+    "rule": "Of-Phrase Agreement"
+  },
+  {
+    "num": 228,
+    "q": "Neither the boy nor his friends _____ present.",
+    "opts": [
+      "is",
+      "was",
+      "were",
+      "be"
+    ],
+    "ans": 2,
+    "exp": "Verb agrees with nearer subject 'friends' (plural) → 'were'.",
+    "rule": "Neither…Nor Agreement"
+  },
+  {
+    "num": 229,
+    "q": "I have been waiting _____ morning.",
+    "opts": [
+      "from",
+      "for",
+      "since",
+      "in"
+    ],
+    "ans": 2,
+    "exp": "'Since' = point of time (since morning).",
+    "rule": "Since vs For"
+  },
+  {
+    "num": 230,
+    "q": "He has lived here _____ five years.",
+    "opts": [
+      "since",
+      "for",
+      "during",
+      "from"
+    ],
+    "ans": 1,
+    "exp": "'For' = duration (five years).",
+    "rule": "Since vs For"
+  },
+  {
+    "num": 231,
+    "q": "He has been working here _____ 2010.",
+    "opts": [
+      "for",
+      "during",
+      "since",
+      "from"
+    ],
+    "ans": 2,
+    "exp": "'Since' + year = correct (specific point in time).",
+    "rule": "Since vs For"
+  },
+  {
+    "num": 232,
+    "q": "The song was _____ by Arijit Singh.",
+    "opts": [
+      "sing",
+      "sang",
+      "sung",
+      "singing"
+    ],
+    "ans": 2,
+    "exp": "Passive voice → 'was sung' (V3 form).",
+    "rule": "Passive Voice"
+  },
+  {
+    "num": 233,
+    "q": "The work _____ by the time I arrived.",
+    "opts": [
+      "was finished",
+      "will finish",
+      "is finished",
+      "finishing"
+    ],
+    "ans": 0,
+    "exp": "Past passive → 'was finished'.",
+    "rule": "Passive Voice — Past"
+  },
+  {
+    "num": 234,
+    "q": "The cake _____ baked yesterday.",
+    "opts": [
+      "was",
+      "is",
+      "has been",
+      "had been"
+    ],
+    "ans": 3,
+    "exp": "Past perfect passive = 'had been' baked (before another past event).",
+    "rule": "Passive Voice — Past Perfect"
+  },
+  {
+    "num": 235,
+    "q": "He came and _____ the door.",
+    "opts": [
+      "shuts",
+      "shut",
+      "shutting",
+      "shutting"
+    ],
+    "ans": 1,
+    "exp": "Maintain past tense — came and shut.",
+    "rule": "Tense Consistency"
+  },
+  {
+    "num": 236,
+    "q": "She said she _____ dinner.",
+    "opts": [
+      "has cooked",
+      "will cook",
+      "had cooked",
+      "cook"
+    ],
+    "ans": 2,
+    "exp": "Reported speech: past → past perfect — 'had cooked'.",
+    "rule": "Reported Speech"
+  },
+  {
+    "num": 237,
+    "q": "When I reached, he _____ for an hour.",
+    "opts": [
+      "had been waiting",
+      "was waiting",
+      "waited",
+      "is waiting"
+    ],
+    "ans": 0,
+    "exp": "Past perfect continuous — ongoing action before another past action.",
+    "rule": "Past Perfect Continuous"
+  },
+  {
+    "num": 238,
+    "q": "He is _____ honest man.",
+    "opts": [
+      "a",
+      "an",
+      "the",
+      "none"
+    ],
+    "ans": 1,
+    "exp": "'Honest' starts with a vowel sound (silent h) → use 'an'.",
+    "rule": "Articles — A vs An"
+  },
+  {
+    "num": 239,
+    "q": "She bought _____ orange.",
+    "opts": [
+      "a",
+      "an",
+      "the",
+      "one"
+    ],
+    "ans": 1,
+    "exp": "'Orange' starts with vowel sound → 'an'.",
+    "rule": "Articles — A vs An"
+  },
+  {
+    "num": 240,
+    "q": "I saw _____ moon rising.",
+    "opts": [
+      "a",
+      "an",
+      "the",
+      "none"
+    ],
+    "ans": 2,
+    "exp": "'The' for unique objects (there is only one moon).",
+    "rule": "Articles — The"
+  },
+  {
+    "num": 241,
+    "q": "The pen is _____ the table.",
+    "opts": [
+      "in",
+      "at",
+      "on",
+      "by"
+    ],
+    "ans": 2,
+    "exp": "'On the table' = correct preposition of place (surface).",
+    "rule": "Prepositions of Place"
+  },
+  {
+    "num": 242,
+    "q": "I was born _____ 1999.",
+    "opts": [
+      "in",
+      "at",
+      "on",
+      "by"
+    ],
+    "ans": 0,
+    "exp": "'In' is used with years and months.",
+    "rule": "Prepositions of Time"
+  },
+  {
+    "num": 243,
+    "q": "The train arrived _____ time.",
+    "opts": [
+      "at",
+      "on",
+      "in",
+      "by"
+    ],
+    "ans": 1,
+    "exp": "'On time' = punctual (exactly on schedule).",
+    "rule": "On Time vs In Time"
+  },
+  {
+    "num": 244,
+    "q": "He is afraid _____ dogs.",
+    "opts": [
+      "for",
+      "with",
+      "of",
+      "about"
+    ],
+    "ans": 2,
+    "exp": "'Afraid of' is the correct preposition collocation.",
+    "rule": "Preposition Collocations"
+  },
+  {
+    "num": 245,
+    "q": "She is good _____ painting.",
+    "opts": [
+      "for",
+      "at",
+      "in",
+      "with"
+    ],
+    "ans": 1,
+    "exp": "'Good at' is the standard collocation for skills.",
+    "rule": "Preposition Collocations"
+  },
+  {
+    "num": 246,
+    "q": "He is addicted _____ coffee.",
+    "opts": [
+      "in",
+      "to",
+      "with",
+      "by"
+    ],
+    "ans": 1,
+    "exp": "'Addicted to' is correct.",
+    "rule": "Preposition Collocations"
+  },
+  {
+    "num": 247,
+    "q": "He called _____ the meeting.",
+    "opts": [
+      "on",
+      "off",
+      "over",
+      "up"
+    ],
+    "ans": 1,
+    "exp": "'Call off' = cancel.",
+    "rule": "Phrasal Verbs"
+  },
+  {
+    "num": 248,
+    "q": "She looks _____ her grandmother.",
+    "opts": [
+      "up",
+      "after",
+      "out",
+      "off"
+    ],
+    "ans": 1,
+    "exp": "'Look after' = take care of.",
+    "rule": "Phrasal Verbs"
+  },
+  {
+    "num": 249,
+    "q": "I can't put _____ his behavior.",
+    "opts": [
+      "on",
+      "up with",
+      "out",
+      "across"
+    ],
+    "ans": 1,
+    "exp": "'Put up with' = tolerate.",
+    "rule": "Phrasal Verbs"
+  },
+  {
+    "num": 250,
+    "q": "He is poor _____ honest.",
+    "opts": [
+      "and",
+      "but",
+      "or",
+      "so"
+    ],
+    "ans": 1,
+    "exp": "Contrast → use 'but' (poor but honest).",
+    "rule": "Conjunctions — Contrast"
+  },
+  {
+    "num": 251,
+    "q": "I will go _____ it rains.",
+    "opts": [
+      "unless",
+      "until",
+      "though",
+      "even if"
+    ],
+    "ans": 3,
+    "exp": "'Even if' shows a condition with determination regardless.",
+    "rule": "Even If"
+  },
+  {
+    "num": 252,
+    "q": "_____ she was tired, she worked.",
+    "opts": [
+      "Although",
+      "Despite",
+      "Unless",
+      "Since"
+    ],
+    "ans": 0,
+    "exp": "'Although' shows contrast (full clause follows).",
+    "rule": "Although"
+  },
+  {
+    "num": 253,
+    "q": "_____ are you?",
+    "opts": [
+      "What",
+      "Where",
+      "Who",
+      "How"
+    ],
+    "ans": 3,
+    "exp": "'How' = used to ask about well-being ('How are you?').",
+    "rule": "Question Words"
+  },
+  {
+    "num": 254,
+    "q": "_____ do you live?",
+    "opts": [
+      "Who",
+      "Where",
+      "How",
+      "What"
+    ],
+    "ans": 1,
+    "exp": "'Where' = asks about place/location.",
+    "rule": "Question Words"
+  },
+  {
+    "num": 255,
+    "q": "_____ do you prefer, tea or coffee?",
+    "opts": [
+      "Which",
+      "What",
+      "When",
+      "How"
+    ],
+    "ans": 0,
+    "exp": "'Which' for a limited/specific choice (between options).",
+    "rule": "Question Words — Which vs What"
+  },
+  {
+    "num": 256,
+    "q": "_____ boys were punished.",
+    "opts": [
+      "Each",
+      "All",
+      "Some",
+      "This"
+    ],
+    "ans": 1,
+    "exp": "'All' for total group (plural).",
+    "rule": "All vs Each vs Every"
+  },
+  {
+    "num": 257,
+    "q": "_____ of the answers was correct.",
+    "opts": [
+      "Neither",
+      "Either",
+      "Both",
+      "None"
+    ],
+    "ans": 0,
+    "exp": "'Neither' = not one of two.",
+    "rule": "Neither vs Either"
+  },
+  {
+    "num": 258,
+    "q": "_____ little knowledge is dangerous.",
+    "opts": [
+      "Few",
+      "A",
+      "The",
+      "An"
+    ],
+    "ans": 2,
+    "exp": "'The little' = refers to the specific small amount.",
+    "rule": "Little/A Little/The Little"
+  },
+  {
+    "num": 259,
+    "q": "Children _____ playing.",
+    "opts": [
+      "is",
+      "are",
+      "was",
+      "be"
+    ],
+    "ans": 1,
+    "exp": "'Children' is plural → 'are'.",
+    "rule": "Subject-Verb Agreement"
+  },
+  {
+    "num": 260,
+    "q": "The news _____ good.",
+    "opts": [
+      "are",
+      "were",
+      "is",
+      "be"
+    ],
+    "ans": 2,
+    "exp": "'News' = uncountable → singular verb 'is'.",
+    "rule": "Uncountable Nouns"
+  },
+  {
+    "num": 261,
+    "q": "Politics _____ a dirty game.",
+    "opts": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "ans": 2,
+    "exp": "'Politics' used as a subject (field of study) → singular verb.",
+    "rule": "Tricky Nouns"
+  },
+  {
+    "num": 262,
+    "q": "Ram and _____ went to market.",
+    "opts": [
+      "me",
+      "I",
+      "myself",
+      "mine"
+    ],
+    "ans": 1,
+    "exp": "'Ram and I' = subject of the sentence (nominative case).",
+    "rule": "Pronoun Case"
+  },
+  {
+    "num": 263,
+    "q": "It was _____ who called.",
+    "opts": [
+      "I",
+      "me",
+      "mine",
+      "myself"
+    ],
+    "ans": 0,
+    "exp": "'Who' → subject case → use 'I' (It was I who called).",
+    "rule": "Pronoun Case"
+  },
+  {
+    "num": 264,
+    "q": "The boy who won is _____ I taught.",
+    "opts": [
+      "he",
+      "him",
+      "whom",
+      "who"
+    ],
+    "ans": 2,
+    "exp": "'Whom' = object of 'taught' (I taught him → whom).",
+    "rule": "Who vs Whom"
+  },
+  {
+    "num": 265,
+    "q": "He is _____ honest man.",
+    "opts": [
+      "a",
+      "an",
+      "the",
+      "one"
+    ],
+    "ans": 1,
+    "exp": "'Honest' → vowel sound (silent h) → 'an'.",
+    "rule": "Articles"
+  },
+  {
+    "num": 266,
+    "q": "I read a book _____ had pictures.",
+    "opts": [
+      "which",
+      "who",
+      "whose",
+      "that"
+    ],
+    "ans": 0,
+    "exp": "'Which' = non-living thing (book).",
+    "rule": "Relative Pronouns"
+  },
+  {
+    "num": 267,
+    "q": "I'll go, _____ you come or not.",
+    "opts": [
+      "if",
+      "unless",
+      "whether",
+      "though"
+    ],
+    "ans": 2,
+    "exp": "'Whether or not' = regardless of the condition.",
+    "rule": "Whether vs If"
+  },
+  {
+    "num": 268,
+    "q": "He runs _____ than me.",
+    "opts": [
+      "fast",
+      "faster",
+      "more fast",
+      "fastest"
+    ],
+    "ans": 1,
+    "exp": "Comparative → 'faster' (one-syllable adjective + er).",
+    "rule": "Degrees of Comparison"
+  },
+  {
+    "num": 269,
+    "q": "The _____ you work, the more you earn.",
+    "opts": [
+      "harder",
+      "hard",
+      "hardly",
+      "hardest"
+    ],
+    "ans": 0,
+    "exp": "'The harder...the more...' → correct double comparative structure.",
+    "rule": "Double Comparative"
+  },
+  {
+    "num": 270,
+    "q": "Not only the students but also the teacher _____ present.",
+    "opts": [
+      "are",
+      "were",
+      "is",
+      "be"
+    ],
+    "ans": 2,
+    "exp": "Verb agrees with 'teacher' (nearest subject, singular) → 'is'.",
+    "rule": "Not Only…But Also — Agreement"
+  },
+  {
+    "num": 271,
+    "q": "This is the boy _____ stole my pen.",
+    "opts": [
+      "which",
+      "whose",
+      "who",
+      "whom"
+    ],
+    "ans": 2,
+    "exp": "'Who' → subject (person who stole).",
+    "rule": "Relative Pronouns"
+  },
+  {
+    "num": 272,
+    "q": "You and I _____ friends.",
+    "opts": [
+      "is",
+      "am",
+      "are",
+      "was"
+    ],
+    "ans": 2,
+    "exp": "'You and I' = compound subject (plural) → 'are'.",
+    "rule": "Subject-Verb Agreement"
+  },
+  {
+    "num": 273,
+    "q": "_____ he is poor, he is happy.",
+    "opts": [
+      "Since",
+      "Because",
+      "Although",
+      "When"
+    ],
+    "ans": 2,
+    "exp": "'Although' = contrast (poor but happy).",
+    "rule": "Although vs Because"
+  },
+  {
+    "num": 274,
+    "q": "She said, 'Please help me.'",
+    "opts": [
+      "She told to help her.",
+      "She requested to help her.",
+      "She requested me to help her.",
+      "She said me to help her."
+    ],
+    "ans": 2,
+    "exp": "Request in reported speech → 'requested + object + to + verb'.",
+    "rule": "Reported Speech — Request"
+  },
+  {
+    "num": 275,
+    "q": "He said to me, 'Open the door.'",
+    "opts": [
+      "He told me to open the door.",
+      "He asked me open the door.",
+      "He said me open door.",
+      "He ordered open the door."
+    ],
+    "ans": 0,
+    "exp": "Command in reported speech → 'told + object + to + verb'.",
+    "rule": "Reported Speech — Command"
+  },
+  {
+    "num": 276,
+    "q": "She said, 'Don't shout.'",
+    "opts": [
+      "She told not shout.",
+      "She told me to not shout.",
+      "She asked me not to shout.",
+      "She said me don't shout."
+    ],
+    "ans": 2,
+    "exp": "Negative command → 'asked me not to + verb'.",
+    "rule": "Reported Speech — Negative Command"
+  },
+  {
+    "num": 277,
+    "q": "A number of students _____ present.",
+    "opts": [
+      "is",
+      "was",
+      "are",
+      "be"
+    ],
+    "ans": 2,
+    "exp": "'A number of' → plural verb 'are'.",
+    "rule": "The Number vs A Number"
+  },
+  {
+    "num": 278,
+    "q": "The number of players _____ high.",
+    "opts": [
+      "are",
+      "is",
+      "were",
+      "have"
+    ],
+    "ans": 1,
+    "exp": "'The number' → singular verb 'is'.",
+    "rule": "The Number vs A Number"
+  },
+  {
+    "num": 279,
+    "q": "10% of the class _____ absent.",
+    "opts": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "ans": 2,
+    "exp": "When 'class' is treated as a unit → singular verb 'is'.",
+    "rule": "Percentages — Agreement"
+  },
+  {
+    "num": 280,
+    "q": "Neither of the boys _____ ready.",
+    "opts": [
+      "are",
+      "is",
+      "were",
+      "be"
+    ],
+    "ans": 1,
+    "exp": "'Neither' = singular subject → 'is'.",
+    "rule": "Neither — Singular"
+  },
+  {
+    "num": 281,
+    "q": "Either Ramesh or Suresh _____ guilty.",
+    "opts": [
+      "are",
+      "is",
+      "have",
+      "be"
+    ],
+    "ans": 1,
+    "exp": "'Either…or' → verb agrees with nearer subject (Suresh = singular).",
+    "rule": "Either…Or Agreement"
+  },
+  {
+    "num": 282,
+    "q": "Neither she nor I _____ coming.",
+    "opts": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
+    "ans": 2,
+    "exp": "Verb agrees with 'I' (nearest subject) → 'am'.",
+    "rule": "Neither…Nor Agreement"
+  },
+  {
+    "num": 283,
+    "q": "Scissors _____ sharp.",
+    "opts": [
+      "is",
+      "are",
+      "was",
+      "has"
+    ],
+    "ans": 1,
+    "exp": "'Scissors' = always plural noun → 'are'.",
+    "rule": "Always Plural Nouns"
+  },
+  {
+    "num": 284,
+    "q": "My trousers _____ new.",
+    "opts": [
+      "is",
+      "was",
+      "are",
+      "has"
+    ],
+    "ans": 2,
+    "exp": "'Trousers' = plural noun (pair items) → 'are'.",
+    "rule": "Always Plural Nouns"
+  },
+  {
+    "num": 285,
+    "q": "The news _____ shocking.",
+    "opts": [
+      "are",
+      "is",
+      "have",
+      "were"
+    ],
+    "ans": 1,
+    "exp": "'News' = uncountable → singular verb 'is'.",
+    "rule": "Uncountable Nouns"
+  },
+  {
+    "num": 286,
+    "q": "I _____ play cricket in childhood.",
+    "opts": [
+      "used to",
+      "use to",
+      "uses to",
+      "used"
+    ],
+    "ans": 0,
+    "exp": "Habitual past action → 'used to'.",
+    "rule": "Used To"
+  },
+  {
+    "num": 287,
+    "q": "She is _____ singing.",
+    "opts": [
+      "used to",
+      "use to",
+      "uses to",
+      "use"
+    ],
+    "ans": 0,
+    "exp": "'Used to' + gerund for familiarity/habit.",
+    "rule": "Be Used To"
+  },
+  {
+    "num": 288,
+    "q": "He _____ getting up early.",
+    "opts": [
+      "is used to",
+      "used to",
+      "use to",
+      "is use to"
+    ],
+    "ans": 0,
+    "exp": "'Be + used to + V-ing' = accustomed to.",
+    "rule": "Be Used To"
+  },
+  {
+    "num": 289,
+    "q": "Never _____ I seen such beauty.",
+    "opts": [
+      "have",
+      "has",
+      "had",
+      "do"
+    ],
+    "ans": 0,
+    "exp": "'Never' at beginning → inversion → 'have I' (Never have I seen).",
+    "rule": "Inversion with Negative Adverbs"
+  },
+  {
+    "num": 290,
+    "q": "Hardly had he left _____ it started raining.",
+    "opts": [
+      "when",
+      "than",
+      "that",
+      "while"
+    ],
+    "ans": 0,
+    "exp": "'Hardly...when' is the correct pair (not 'than').",
+    "rule": "Hardly…When"
+  },
+  {
+    "num": 291,
+    "q": "Not only _____ she smart, but also kind.",
+    "opts": [
+      "is",
+      "are",
+      "was",
+      "were"
+    ],
+    "ans": 0,
+    "exp": "Inversion after 'Not only' → 'Not only is she'.",
+    "rule": "Not Only — Inversion"
+  },
+  {
+    "num": 292,
+    "q": "He plays well and so _____ I.",
+    "opts": [
+      "do",
+      "am",
+      "does",
+      "have"
+    ],
+    "ans": 0,
+    "exp": "'So do I' = agreement (same tense as main verb 'plays').",
+    "rule": "So Do I — Agreement"
+  },
+  {
+    "num": 293,
+    "q": "She sings well, and so _____ her sister.",
+    "opts": [
+      "do",
+      "does",
+      "is",
+      "has"
+    ],
+    "ans": 1,
+    "exp": "'She sings' → 'so does her sister' (third person singular).",
+    "rule": "So Does — Agreement"
+  },
+  {
+    "num": 294,
+    "q": "He doesn't like sweets. Neither _____ I.",
+    "opts": [
+      "do",
+      "did",
+      "have",
+      "am"
+    ],
+    "ans": 0,
+    "exp": "'Neither do I' → correct ellipsis for negative agreement.",
+    "rule": "Neither Do I"
+  },
+  {
+    "num": 295,
+    "q": "It was John who _____ the window.",
+    "opts": [
+      "break",
+      "broke",
+      "breaking",
+      "broken"
+    ],
+    "ans": 1,
+    "exp": "Cleft sentence — 'it was John who broke' (past tense).",
+    "rule": "Cleft Sentences"
+  },
+  {
+    "num": 296,
+    "q": "It is tea that I _____ in the morning.",
+    "opts": [
+      "drank",
+      "drinks",
+      "drink",
+      "drunk"
+    ],
+    "ans": 2,
+    "exp": "Present habit → simple present 'drink'.",
+    "rule": "Cleft Sentences"
+  },
+  {
+    "num": 297,
+    "q": "It was in 1947 that India _____ independence.",
+    "opts": [
+      "get",
+      "got",
+      "gets",
+      "getting"
+    ],
+    "ans": 1,
+    "exp": "'It was' + past clause → simple past 'got'.",
+    "rule": "Cleft Sentences"
+  },
+  {
+    "num": 298,
+    "q": "He is so tall _____ he touches the fan.",
+    "opts": [
+      "as",
+      "that",
+      "when",
+      "for"
+    ],
+    "ans": 1,
+    "exp": "'So…that' → result clause.",
+    "rule": "So…That"
+  },
+  {
+    "num": 299,
+    "q": "It was such a hot day _____ we stayed home.",
+    "opts": [
+      "so",
+      "that",
+      "when",
+      "if"
+    ],
+    "ans": 1,
+    "exp": "'Such…that' → result clause.",
+    "rule": "Such…That"
+  },
+  {
+    "num": 300,
+    "q": "The movie was so boring _____ I left early.",
+    "opts": [
+      "that",
+      "as",
+      "when",
+      "while"
+    ],
+    "ans": 0,
+    "exp": "'So…that' structure showing result.",
+    "rule": "So…That"
+  },
+  {
+    "num": 301,
+    "q": "You _____ see a doctor.",
+    "opts": [
+      "had better",
+      "would better",
+      "should rather",
+      "had rather"
+    ],
+    "ans": 0,
+    "exp": "'Had better' is a strong suggestion/warning.",
+    "rule": "Had Better"
+  },
+  {
+    "num": 302,
+    "q": "I _____ die than beg.",
+    "opts": [
+      "had better",
+      "would rather",
+      "would better",
+      "should rather"
+    ],
+    "ans": 1,
+    "exp": "'Would rather' → preference (I prefer to die than beg).",
+    "rule": "Would Rather"
+  },
+  {
+    "num": 303,
+    "q": "He _____ go now than wait.",
+    "opts": [
+      "had rather",
+      "would rather",
+      "would better",
+      "rather"
+    ],
+    "ans": 1,
+    "exp": "Correct idiom: 'would rather + verb'.",
+    "rule": "Would Rather"
+  },
+  {
+    "num": 304,
+    "q": "I myself _____ the cake.",
+    "opts": [
+      "baked",
+      "bake",
+      "baking",
+      "bakes"
+    ],
+    "ans": 0,
+    "exp": "Emphatic pronoun 'myself' — past tense 'baked'.",
+    "rule": "Emphatic Pronouns"
+  },
+  {
+    "num": 305,
+    "q": "The principal himself _____ the class.",
+    "opts": [
+      "took",
+      "takes",
+      "take",
+      "taken"
+    ],
+    "ans": 0,
+    "exp": "Past tense with emphatic 'himself'.",
+    "rule": "Emphatic Pronouns"
+  },
+  {
+    "num": 306,
+    "q": "The children themselves _____ the mess.",
+    "opts": [
+      "clean",
+      "cleaned",
+      "cleaning",
+      "cleans"
+    ],
+    "ans": 1,
+    "exp": "'Themselves' → plural → 'cleaned' (past tense).",
+    "rule": "Emphatic Pronouns"
+  },
+  {
+    "num": 307,
+    "q": "If you heat ice, it _____",
+    "opts": [
+      "melts",
+      "melt",
+      "melting",
+      "melted"
+    ],
+    "ans": 0,
+    "exp": "Zero conditional: If + present, present → melts (universal truth).",
+    "rule": "Conditionals — Zero"
+  },
+  {
+    "num": 308,
+    "q": "If I were rich, I _____ a car.",
+    "opts": [
+      "will buy",
+      "would buy",
+      "buy",
+      "bought"
+    ],
+    "ans": 1,
+    "exp": "Second conditional: Imaginary → 'would buy'.",
+    "rule": "Conditionals — Type 2"
+  },
+  {
+    "num": 309,
+    "q": "If I had known, I _____ helped.",
+    "opts": [
+      "would",
+      "would have",
+      "would have",
+      "would have"
+    ],
+    "ans": 1,
+    "exp": "Third conditional: Past regret → 'would have' + V3.",
+    "rule": "Conditionals — Type 3"
+  },
+  {
+    "num": 310,
+    "q": "He is too tired _____ work.",
+    "opts": [
+      "to",
+      "for",
+      "in",
+      "at"
+    ],
+    "ans": 0,
+    "exp": "'Too + adj + to + verb' — 'to' is the connector.",
+    "rule": "Too…To"
+  },
+  {
+    "num": 311,
+    "q": "He is strong enough _____ lift it.",
+    "opts": [
+      "to",
+      "for",
+      "in",
+      "by"
+    ],
+    "ans": 0,
+    "exp": "'Enough + to + verb' — 'to' follows 'enough'.",
+    "rule": "Enough…To"
+  },
+  {
+    "num": 312,
+    "q": "The bag is too heavy _____ carry.",
+    "opts": [
+      "to",
+      "for",
+      "that",
+      "if"
+    ],
+    "ans": 0,
+    "exp": "'Too…to' structure — 'to carry'.",
+    "rule": "Too…To"
+  },
+  {
+    "num": 313,
+    "q": "Let him _____ go.",
+    "opts": [
+      "to",
+      "be",
+      "go",
+      "going"
+    ],
+    "ans": 2,
+    "exp": "Let + object + base verb (no 'to').",
+    "rule": "Let + Base Verb"
+  },
+  {
+    "num": 314,
+    "q": "She made him _____ late.",
+    "opts": [
+      "be",
+      "to be",
+      "was",
+      "being"
+    ],
+    "ans": 0,
+    "exp": "'Make' + object + base verb (causative).",
+    "rule": "Causative — Make"
+  },
+  {
+    "num": 315,
+    "q": "They helped me _____ the work.",
+    "opts": [
+      "complete",
+      "completed",
+      "completing",
+      "to complete"
+    ],
+    "ans": 0,
+    "exp": "'Help' can be followed by base verb or 'to' + verb (both correct).",
+    "rule": "Help + Base Verb"
+  },
+  {
+    "num": 316,
+    "q": "A _____ red ball.",
+    "opts": [
+      "small",
+      "ball red small",
+      "red small",
+      "small red"
+    ],
+    "ans": 3,
+    "exp": "Adjective order: Size → Colour → Noun (small red ball).",
+    "rule": "Order of Adjectives"
+  },
+  {
+    "num": 317,
+    "q": "A beautiful old French house — is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 0,
+    "exp": "Opinion → Age → Origin → Noun — correct order.",
+    "rule": "Order of Adjectives"
+  },
+  {
+    "num": 318,
+    "q": "A _____ leather big black bag.",
+    "opts": [
+      "black big leather",
+      "big black leather",
+      "leather big black",
+      "black leather big"
+    ],
+    "ans": 1,
+    "exp": "Correct order: Size → Colour → Material (big black leather).",
+    "rule": "Order of Adjectives"
+  },
+  {
+    "num": 319,
+    "q": "My brother he is smart. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "Remove 'he' — 'My brother' is already the subject (redundant pronoun).",
+    "rule": "Redundant Pronouns"
+  },
+  {
+    "num": 320,
+    "q": "The reason is because he was late. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "'The reason is that…' is correct — not 'the reason is because'.",
+    "rule": "The Reason Is That"
+  },
+  {
+    "num": 321,
+    "q": "The patient he recovered fast. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "Redundant pronoun — remove 'he'. 'The patient recovered fast.'",
+    "rule": "Redundant Pronouns"
+  },
+  {
+    "num": 322,
+    "q": "I like this shirt, but I prefer that _____.",
+    "opts": [
+      "one",
+      "ones",
+      "thing",
+      "those"
+    ],
+    "ans": 0,
+    "exp": "'One' for singular noun replacement (shirt).",
+    "rule": "One vs Ones"
+  },
+  {
+    "num": 323,
+    "q": "These shoes are better than those _____.",
+    "opts": [
+      "shoe",
+      "one",
+      "ones",
+      "shoes"
+    ],
+    "ans": 2,
+    "exp": "'Ones' for plural noun replacement (shoes).",
+    "rule": "One vs Ones"
+  },
+  {
+    "num": 324,
+    "q": "I'll take the blue ones, not the red _____.",
+    "opts": [
+      "one",
+      "ones",
+      "shoe",
+      "pair"
+    ],
+    "ans": 1,
+    "exp": "'Ones' → plural reference (blue ones, red ones).",
+    "rule": "One vs Ones"
+  },
+  {
+    "num": 325,
+    "q": "She always _____ early.",
+    "opts": [
+      "come",
+      "comes",
+      "coming",
+      "came"
+    ],
+    "ans": 1,
+    "exp": "Always + present simple (she = third person singular → comes).",
+    "rule": "Adverbs of Frequency"
+  },
+  {
+    "num": 326,
+    "q": "I have _____ finished the work.",
+    "opts": [
+      "never",
+      "already",
+      "always",
+      "yet"
+    ],
+    "ans": 1,
+    "exp": "'Already' comes before past participle in present perfect.",
+    "rule": "Already/Yet/Still"
+  },
+  {
+    "num": 327,
+    "q": "Hardly _____ he reached when it rained.",
+    "opts": [
+      "had",
+      "has",
+      "have",
+      "is"
+    ],
+    "ans": 0,
+    "exp": "'Hardly had' = correct past perfect with inversion.",
+    "rule": "Hardly Had"
+  },
+  {
+    "num": 328,
+    "q": "I don't have _____ money.",
+    "opts": [
+      "many",
+      "much",
+      "lot",
+      "few"
+    ],
+    "ans": 1,
+    "exp": "'Much' with uncountable noun (money).",
+    "rule": "Much vs Many"
+  },
+  {
+    "num": 329,
+    "q": "He has _____ friends.",
+    "opts": [
+      "much",
+      "many",
+      "little",
+      "plenty"
+    ],
+    "ans": 1,
+    "exp": "'Many' for countable nouns (friends).",
+    "rule": "Much vs Many"
+  },
+  {
+    "num": 330,
+    "q": "There are _____ of people outside.",
+    "opts": [
+      "a lot",
+      "a lot of",
+      "lots",
+      "much"
+    ],
+    "ans": 1,
+    "exp": "'A lot of + noun' — correct structure.",
+    "rule": "A Lot Of"
+  },
+  {
+    "num": 331,
+    "q": "It was so hot _____ I fainted.",
+    "opts": [
+      "that",
+      "as",
+      "for",
+      "if"
+    ],
+    "ans": 0,
+    "exp": "'So…that' construction showing result.",
+    "rule": "So…That"
+  },
+  {
+    "num": 332,
+    "q": "She is such a good singer _____ she won.",
+    "opts": [
+      "that",
+      "if",
+      "when",
+      "who"
+    ],
+    "ans": 0,
+    "exp": "'Such…that' structure.",
+    "rule": "Such…That"
+  },
+  {
+    "num": 333,
+    "q": "It was such an easy paper _____ all passed.",
+    "opts": [
+      "that",
+      "as",
+      "when",
+      "since"
+    ],
+    "ans": 0,
+    "exp": "Result clause — 'such an easy paper that all passed'.",
+    "rule": "Such…That"
+  },
+  {
+    "num": 334,
+    "q": "Neither the girl nor the boys _____ happy.",
+    "opts": [
+      "is",
+      "are",
+      "am",
+      "was"
+    ],
+    "ans": 1,
+    "exp": "Verb agrees with 'boys' (nearest subject, plural) → 'are'.",
+    "rule": "Neither…Nor Agreement"
+  },
+  {
+    "num": 335,
+    "q": "Time and tide _____ for none.",
+    "opts": [
+      "waits",
+      "wait",
+      "waited",
+      "are"
+    ],
+    "ans": 0,
+    "exp": "Treated as one unit/proverb → singular verb 'waits'.",
+    "rule": "Fixed Expressions"
+  },
+  {
+    "num": 336,
+    "q": "The committee _____ divided in opinion.",
+    "opts": [
+      "are",
+      "is",
+      "were",
+      "have"
+    ],
+    "ans": 0,
+    "exp": "Plural sense (members have different opinions) → 'are'.",
+    "rule": "Collective Nouns"
+  },
+  {
+    "num": 337,
+    "q": "Mathematics _____ my favourite subject.",
+    "opts": [
+      "are",
+      "is",
+      "were",
+      "be"
+    ],
+    "ans": 1,
+    "exp": "Subject names ending in -s → singular verb 'is'.",
+    "rule": "Tricky Nouns"
+  },
+  {
+    "num": 338,
+    "q": "The United States _____ a superpower.",
+    "opts": [
+      "is",
+      "are",
+      "be",
+      "were"
+    ],
+    "ans": 0,
+    "exp": "Country names treated as singular units → 'is'.",
+    "rule": "Country Names"
+  },
+  {
+    "num": 339,
+    "q": "5 kilos of sugar _____ enough.",
+    "opts": [
+      "is",
+      "are",
+      "were",
+      "has"
+    ],
+    "ans": 0,
+    "exp": "Weight/measurement as a unit → singular 'is'.",
+    "rule": "Measurements"
+  },
+  {
+    "num": 340,
+    "q": "A dozen eggs _____ broken.",
+    "opts": [
+      "is",
+      "are",
+      "was",
+      "be"
+    ],
+    "ans": 1,
+    "exp": "'A dozen eggs' — eggs are countable/plural → 'are'.",
+    "rule": "Collective Numbers"
+  },
+  {
+    "num": 341,
+    "q": "Every student and teacher _____ here.",
+    "opts": [
+      "is",
+      "are",
+      "were",
+      "be"
+    ],
+    "ans": 0,
+    "exp": "'Every…and every…' → singular verb 'is'.",
+    "rule": "Every…And Every"
+  },
+  {
+    "num": 342,
+    "q": "Neither Rahul nor his brothers _____ here.",
+    "opts": [
+      "is",
+      "are",
+      "were",
+      "am"
+    ],
+    "ans": 1,
+    "exp": "Verb agrees with nearer subject 'brothers' (plural) → 'are'.",
+    "rule": "Neither…Nor Agreement"
+  },
+  {
+    "num": 343,
+    "q": "She don't go to college. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "Use 'doesn't' with she/he/it → She doesn't go.",
+    "rule": "Subject-Verb Agreement"
+  },
+  {
+    "num": 344,
+    "q": "He is senior than me. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "Words like senior, junior, inferior, superior take 'to', not 'than' → senior to me.",
+    "rule": "Comparative — Senior/Junior"
+  },
+  {
+    "num": 345,
+    "q": "One of the boy is missing. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "'One of the' is followed by a plural noun → 'boys'.",
+    "rule": "One of the + Plural Noun"
+  },
+  {
+    "num": 346,
+    "q": "Neither of the answers are correct. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "'Neither' is singular, so use 'is', not 'are'.",
+    "rule": "Neither — Singular"
+  },
+  {
+    "num": 347,
+    "q": "The jury were divided in its opinion. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "'Jury' is plural in this context (divided opinions) → 'their opinion'.",
+    "rule": "Collective Nouns"
+  },
+  {
+    "num": 348,
+    "q": "He is good in mathematics. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "Use 'good at', not 'good in'.",
+    "rule": "Preposition Collocations"
+  },
+  {
+    "num": 349,
+    "q": "The news are shocking. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "'News' is uncountable → singular → 'is' shocking.",
+    "rule": "Uncountable Nouns"
+  },
+  {
+    "num": 350,
+    "q": "The sceneries here is beautiful. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "'Scenery' is uncountable → use 'is beautiful', no plural form.",
+    "rule": "Uncountable Nouns"
+  },
+  {
+    "num": 351,
+    "q": "Ten miles are a long distance to walk. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "Distance = unit → singular → 'is a long distance'.",
+    "rule": "Measurements as Units"
+  },
+  {
+    "num": 352,
+    "q": "He as well as his friends have arrived. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "With 'as well as', verb agrees with first subject → 'has arrived'.",
+    "rule": "As Well As — Agreement"
+  },
+  {
+    "num": 353,
+    "q": "Neither she nor I is guilty. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "Verb agrees with 'I' (nearest) → 'am guilty'.",
+    "rule": "Neither…Nor Agreement"
+  },
+  {
+    "num": 354,
+    "q": "Each of the boys are ready. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "'Each' is singular → use 'is ready'.",
+    "rule": "Each — Singular"
+  },
+  {
+    "num": 355,
+    "q": "Five years are a long time to wait. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "Time duration = singular unit → 'is' a long time.",
+    "rule": "Time as Units"
+  },
+  {
+    "num": 356,
+    "q": "The quality of the apples are good. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "Subject = quality (singular) → 'is good'.",
+    "rule": "Of-Phrase Agreement"
+  },
+  {
+    "num": 357,
+    "q": "The number of students are increasing. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "'The number' is singular → use 'is increasing'.",
+    "rule": "The Number vs A Number"
+  },
+  {
+    "num": 358,
+    "q": "The police is investigating the matter. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "'Police' = always plural noun → 'are investigating'.",
+    "rule": "Always Plural Nouns"
+  },
+  {
+    "num": 359,
+    "q": "She is one of the girls who has topped the exam. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "'Who' refers to 'girls' (plural) → 'have topped'.",
+    "rule": "One of the + Relative Clause"
+  },
+  {
+    "num": 360,
+    "q": "Each boy and each girl are ready. — Is this correct?",
+    "opts": [
+      "Correct",
+      "Incorrect"
+    ],
+    "ans": 1,
+    "exp": "Repetition of 'each' → singular verb → 'is ready'.",
+    "rule": "Each…And Each"
+  }
+]

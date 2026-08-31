@@ -1,0 +1,2629 @@
+[
+  {
+    "num": 1,
+    "title": "Each vs. Every",
+    "cat": "determiners",
+    "explain": "Both are used with singular verbs, but they differ in focus. <b>Each</b> focuses on individuals one by one, while <b>Every</b> treats all as a collective group.",
+    "usage": [
+      {
+        "term": "Each",
+        "desc": "Individual focus — can be a pronoun or adjective (used for 2 or more)."
+      },
+      {
+        "term": "Every",
+        "desc": "Group/collective focus — adjective only (used for 3 or more)."
+      }
+    ],
+    "examples": [
+      "✓ Each student is ready.",
+      "✓ Every boy is present.",
+      "✗ Every of the students is here."
+    ],
+    "trick": "<strong>Each</strong> = One by one | <strong>Every</strong> = All together"
+  },
+  {
+    "num": 2,
+    "title": "Both + Not → Neither…Nor",
+    "cat": "conjunctions",
+    "explain": "When negating both subjects, never use <b>Both…not</b>. Always replace it with <b>Neither…nor</b> for correct and natural English.",
+    "usage": [
+      {
+        "term": "Incorrect",
+        "desc": "Both Ram and Shyam are not going."
+      },
+      {
+        "term": "Correct",
+        "desc": "Neither Ram nor Shyam is going."
+      }
+    ],
+    "examples": [
+      "✓ Neither Ram nor Shyam is going.",
+      "✓ Neither the dog nor the cat is here.",
+      "✗ Both of them are not present."
+    ],
+    "trick": "<strong>Both + Not</strong> → Replace with <strong>Neither…nor</strong> always."
+  },
+  {
+    "num": 3,
+    "title": "Who / Whom / Which / That",
+    "cat": "pronouns",
+    "explain": "These relative pronouns replace nouns in sentences. Choosing the right one depends on whether the noun is a person, a thing, or how it functions in the clause.",
+    "usage": [
+      {
+        "term": "Who",
+        "desc": "Subject — for people and pets."
+      },
+      {
+        "term": "Whom",
+        "desc": "Object — for people only."
+      },
+      {
+        "term": "Which",
+        "desc": "For things and wild animals."
+      },
+      {
+        "term": "That",
+        "desc": "Universal — people, animals, things. Use after: all, any, only, same, none, superlatives."
+      }
+    ],
+    "examples": [
+      "✓ The boy who came is my friend.",
+      "✓ Whom did you call? (Him = Whom)",
+      "✓ This is the same pen that I lost.",
+      "✓ The cat which ran away is mine."
+    ],
+    "trick": "<strong>Who = He</strong> | <strong>Whom = Him</strong> | <strong>Which</strong> = Things | <strong>That</strong> = Universal connector"
+  },
+  {
+    "num": 4,
+    "title": "Much vs. Many",
+    "cat": "determiners",
+    "explain": "<b>Much</b> is used with uncountable nouns (things you can't count individually). <b>Many</b> is used with countable nouns (things with a clear plural form).",
+    "usage": [
+      {
+        "term": "Much",
+        "desc": "Uncountable nouns — water, sugar, time, money."
+      },
+      {
+        "term": "Many",
+        "desc": "Countable nouns — pens, books, boys, students."
+      }
+    ],
+    "examples": [
+      "✓ How much water do you need?",
+      "✓ How many pens do you have?",
+      "✗ How many sugar is left?"
+    ],
+    "trick": "If you can count it → <strong>Many</strong> | If you can't → <strong>Much</strong>"
+  },
+  {
+    "num": 5,
+    "title": "Little / A Little / The Little",
+    "cat": "determiners",
+    "explain": "All three are used with <b>uncountable nouns</b>, but they carry different meanings based on the context — negative, positive, or specific.",
+    "usage": [
+      {
+        "term": "Little",
+        "desc": "Almost none — negative idea (not enough)."
+      },
+      {
+        "term": "A Little",
+        "desc": "Some — positive idea (a small but sufficient amount)."
+      },
+      {
+        "term": "The Little",
+        "desc": "All of the small amount that exists — specific."
+      }
+    ],
+    "examples": [
+      "✓ Little milk was left, so I couldn't make tea.",
+      "✓ A little milk is still left — enough for one cup.",
+      "✓ The little milk that was left was spoiled."
+    ],
+    "trick": "<strong>Little</strong> = Negative | <strong>A little</strong> = Positive | <strong>The little</strong> = Specific"
+  },
+  {
+    "num": 6,
+    "title": "Few / A Few / The Few",
+    "cat": "determiners",
+    "explain": "All three are used with <b>countable nouns</b>. Just like Little/A Little/The Little, they indicate negative, positive, or specific quantity.",
+    "usage": [
+      {
+        "term": "Few",
+        "desc": "Almost none — negative idea."
+      },
+      {
+        "term": "A Few",
+        "desc": "Some — positive idea."
+      },
+      {
+        "term": "The Few",
+        "desc": "All of the limited group — specific."
+      }
+    ],
+    "examples": [
+      "✓ Few books were interesting in the library. (negative — hardly any)",
+      "✓ A few books caught my attention. (positive — some)",
+      "✓ The few books I had were enough to prepare."
+    ],
+    "trick": "<strong>Few</strong> = Negative | <strong>A few</strong> = Positive | <strong>The few</strong> = Specific group"
+  },
+  {
+    "num": 7,
+    "title": "Some vs. Any",
+    "cat": "determiners",
+    "explain": "<b>Some</b> is used in affirmative sentences, offers, and requests. <b>Any</b> is used in negative sentences and questions.",
+    "usage": [
+      {
+        "term": "Some",
+        "desc": "Positive statements, offers, polite requests."
+      },
+      {
+        "term": "Any",
+        "desc": "Negative sentences and questions."
+      }
+    ],
+    "examples": [
+      "✓ I need some help. (positive)",
+      "✓ Can you give me some advice? (polite request)",
+      "✓ Do you have any sugar? (question)",
+      "✓ I don't have any time."
+    ],
+    "trick": "<strong>Some</strong> = Yes vibes | <strong>Any</strong> = Question / No vibes"
+  },
+  {
+    "num": 8,
+    "title": "Since vs. For",
+    "cat": "prepositions",
+    "explain": "<b>Since</b> refers to a specific point in time (when something started). <b>For</b> refers to a duration — how long something has continued.",
+    "usage": [
+      {
+        "term": "Since",
+        "desc": "A specific starting point — since 5 PM, since 2019, since childhood."
+      },
+      {
+        "term": "For",
+        "desc": "A duration of time — for 2 hours, for 3 years, for a long time."
+      }
+    ],
+    "examples": [
+      "✓ I have been studying since 5 PM.",
+      "✓ I have been studying for 2 hours.",
+      "✗ I have been studying since 2 hours."
+    ],
+    "trick": "<strong>Since</strong> = Starting point (when) | <strong>For</strong> = How long (duration)"
+  },
+  {
+    "num": 9,
+    "title": "Who vs. Whom",
+    "cat": "pronouns",
+    "explain": "<b>Who</b> acts as the subject (doing the action). <b>Whom</b> acts as the object (receiving the action). Replace with He/Him to test.",
+    "usage": [
+      {
+        "term": "Who",
+        "desc": "Subject — replaces 'He/She' in the sentence."
+      },
+      {
+        "term": "Whom",
+        "desc": "Object — replaces 'Him/Her' in the sentence."
+      }
+    ],
+    "examples": [
+      "✓ Who called you? (He called → Who)",
+      "✓ Whom did you call? (You called him → Whom)",
+      "✗ Whom is calling me? (He is calling = Who)"
+    ],
+    "trick": "Replace with <strong>He → Who</strong> | Replace with <strong>Him → Whom</strong>"
+  },
+  {
+    "num": 10,
+    "title": "Fewer vs. Less",
+    "cat": "determiners",
+    "explain": "<b>Fewer</b> is used with countable nouns (things you can count). <b>Less</b> is used with uncountable nouns (things measured in bulk).",
+    "usage": [
+      {
+        "term": "Fewer",
+        "desc": "Countable nouns — mistakes, students, chairs."
+      },
+      {
+        "term": "Less",
+        "desc": "Uncountable nouns — sugar, water, time, effort."
+      }
+    ],
+    "examples": [
+      "✓ She made fewer mistakes in this test.",
+      "✓ I add less sugar to my tea now.",
+      "✗ She made less mistakes. (mistakes are countable)"
+    ],
+    "trick": "<strong>Fewer</strong> = Can count | <strong>Less</strong> = Can't count"
+  },
+  {
+    "num": 11,
+    "title": "Between vs. Among",
+    "cat": "prepositions",
+    "explain": "<b>Between</b> is used when referring to exactly two distinct items or people. <b>Among</b> is used when referring to three or more people or a group.",
+    "usage": [
+      {
+        "term": "Between",
+        "desc": "Exactly 2 items or people."
+      },
+      {
+        "term": "Among",
+        "desc": "3 or more — a group or crowd."
+      }
+    ],
+    "examples": [
+      "✓ He divided the money between his two sons.",
+      "✓ There is a secret among the five friends.",
+      "✗ He sat between the three chairs."
+    ],
+    "trick": "<strong>Between</strong> = 2 | <strong>Among</strong> = 3 or more"
+  },
+  {
+    "num": 12,
+    "title": "Bring vs. Take",
+    "cat": "confusables",
+    "explain": "The direction of movement matters. <b>Bring</b> means to carry something toward the speaker. <b>Take</b> means to carry something away from the speaker.",
+    "usage": [
+      {
+        "term": "Bring",
+        "desc": "Movement TOWARD the speaker (come + bring)."
+      },
+      {
+        "term": "Take",
+        "desc": "Movement AWAY from the speaker (go + take)."
+      }
+    ],
+    "examples": [
+      "✓ Bring the book here. (toward me)",
+      "✓ Take this to school. (away from me)",
+      "✗ Take your umbrella when you come here."
+    ],
+    "trick": "<strong>Come = Bring</strong> | <strong>Go = Take</strong>"
+  },
+  {
+    "num": 13,
+    "title": "It's vs. Its",
+    "cat": "confusables",
+    "explain": "<b>It's</b> is a contraction of 'It is' or 'It has'. <b>Its</b> (no apostrophe) is the possessive form, showing that something belongs to 'it'.",
+    "usage": [
+      {
+        "term": "It's",
+        "desc": "Contraction = 'It is' or 'It has'."
+      },
+      {
+        "term": "Its",
+        "desc": "Possessive — belonging to it (no apostrophe)."
+      }
+    ],
+    "examples": [
+      "✓ It's raining outside. (It is raining)",
+      "✓ The cat licked its paw. (belonging to the cat)",
+      "✗ The dog wagged it's tail."
+    ],
+    "trick": "Apostrophe = <strong>It is</strong> | No apostrophe = <strong>Belonging</strong>"
+  },
+  {
+    "num": 14,
+    "title": "Affect vs. Effect",
+    "cat": "confusables",
+    "explain": "<b>Affect</b> is usually a verb meaning 'to influence'. <b>Effect</b> is usually a noun meaning 'the result or outcome'.",
+    "usage": [
+      {
+        "term": "Affect",
+        "desc": "Verb — to influence or have an impact on."
+      },
+      {
+        "term": "Effect",
+        "desc": "Noun — the result, outcome, or consequence."
+      }
+    ],
+    "examples": [
+      "✓ The news affected me deeply. (verb)",
+      "✓ It had a bad effect on my mood. (noun)",
+      "✗ The medicine had a good affect."
+    ],
+    "trick": "<strong>A</strong>ffect = <strong>A</strong>ction (verb) | <strong>E</strong>ffect = <strong>E</strong>nd result (noun)"
+  },
+  {
+    "num": 15,
+    "title": "Than vs. Then",
+    "cat": "confusables",
+    "explain": "<b>Than</b> is used for comparisons. <b>Then</b> refers to time — what happened next, or at a particular time.",
+    "usage": [
+      {
+        "term": "Than",
+        "desc": "Comparison — used with comparatives."
+      },
+      {
+        "term": "Then",
+        "desc": "Time — 'next', 'after that', 'at that time'."
+      }
+    ],
+    "examples": [
+      "✓ She is taller than me.",
+      "✓ Finish this, then go.",
+      "✗ He is smarter then his brother."
+    ],
+    "trick": "<strong>Th-a-n</strong> = Comp<strong>a</strong>re | <strong>Th-e-n</strong> = Tim<strong>e</strong>"
+  },
+  {
+    "num": 16,
+    "title": "Either vs. Neither",
+    "cat": "determiners",
+    "explain": "Both refer to two things or people. <b>Either</b> means one or the other (positive choice). <b>Neither</b> means not one and not the other (negative).",
+    "usage": [
+      {
+        "term": "Either",
+        "desc": "One of two — any one (positive option)."
+      },
+      {
+        "term": "Neither",
+        "desc": "None of two — not one, not the other (negative)."
+      }
+    ],
+    "examples": [
+      "✓ Either option works for me.",
+      "✓ Neither boy came to the party.",
+      "✗ Neither of the options are correct. → is correct"
+    ],
+    "trick": "<strong>Either</strong> = One | <strong>Neither</strong> = None of two"
+  },
+  {
+    "num": 17,
+    "title": "May vs. Might",
+    "cat": "modals",
+    "explain": "Both express possibility, but they differ in the degree of likelihood. <b>May</b> shows higher probability; <b>Might</b> shows lower probability or more uncertainty.",
+    "usage": [
+      {
+        "term": "May",
+        "desc": "Higher possibility — about 70% likely."
+      },
+      {
+        "term": "Might",
+        "desc": "Lower possibility — about 30% likely."
+      }
+    ],
+    "examples": [
+      "✓ It may rain today. (quite likely)",
+      "✓ He might come. (less certain)",
+      "✓ She might have told the truth. (past possibility)"
+    ],
+    "trick": "<strong>May</strong> = 70% chance | <strong>Might</strong> = 30% chance"
+  },
+  {
+    "num": 18,
+    "title": "Lie vs. Lay",
+    "cat": "confusables",
+    "explain": "<b>Lie</b> means to rest or recline (no object needed). <b>Lay</b> means to put something down (needs an object). These are frequently confused — especially in past tense.",
+    "usage": [
+      {
+        "term": "Lie",
+        "desc": "To rest — no object. (lie, lay, lain)"
+      },
+      {
+        "term": "Lay",
+        "desc": "To put something — needs an object. (lay, laid, laid)"
+      }
+    ],
+    "examples": [
+      "✓ I lie on the bed to rest.",
+      "✓ I laid the book on the table yesterday.",
+      "✓ Let him lie down for a while.",
+      "✗ He lies the phone on the table."
+    ],
+    "trick": "<strong>Lie</strong> = No object (rest) | <strong>Lay</strong> = Needs object (put)"
+  },
+  {
+    "num": 19,
+    "title": "Advice vs. Advise",
+    "cat": "confusables",
+    "explain": "<b>Advice</b> is a noun — the recommendation itself. <b>Advise</b> is a verb — the act of giving advice. The pronunciation difference helps: advice (s-sound) vs. advise (z-sound).",
+    "usage": [
+      {
+        "term": "Advice",
+        "desc": "Noun — a piece of advice, good advice."
+      },
+      {
+        "term": "Advise",
+        "desc": "Verb — to advise someone, I advise you."
+      }
+    ],
+    "examples": [
+      "✓ Give me some advice. (noun)",
+      "✓ I advise you to study hard. (verb)",
+      "✗ He gave me a great advise."
+    ],
+    "trick": "Noun = Advi<strong>c</strong>e | Verb = Advi<strong>s</strong>e (like practice/practise)"
+  },
+  {
+    "num": 20,
+    "title": "Their / There / They're",
+    "cat": "confusables",
+    "explain": "Three homophones (same sound, different meaning). Context determines which one to use.",
+    "usage": [
+      {
+        "term": "Their",
+        "desc": "Possessive — belonging to them."
+      },
+      {
+        "term": "There",
+        "desc": "Place — at that location."
+      },
+      {
+        "term": "They're",
+        "desc": "Contraction — 'They are'."
+      }
+    ],
+    "examples": [
+      "✓ Their house is very big.",
+      "✓ Go there and wait.",
+      "✓ They're planning their vacation over there.",
+      "✗ There coming tomorrow."
+    ],
+    "trick": "<strong>Their</strong> = Belonging | <strong>There</strong> = Place | <strong>They're</strong> = They are"
+  },
+  {
+    "num": 21,
+    "title": "Too vs. Very",
+    "cat": "style",
+    "explain": "<b>Too</b> implies excess — something is beyond an acceptable limit, often with a negative consequence. <b>Very</b> is simply an intensifier with no negative connotation.",
+    "usage": [
+      {
+        "term": "Too",
+        "desc": "Excess — beyond the acceptable limit (negative consequence)."
+      },
+      {
+        "term": "Very",
+        "desc": "High degree — just intensifies the adjective (neutral/positive)."
+      }
+    ],
+    "examples": [
+      "✓ The tea is too hot to drink. (can't drink it)",
+      "✓ The movie was very interesting!",
+      "✗ The tea is very hot to drink."
+    ],
+    "trick": "<strong>Too</strong> = Over the limit (problem!) | <strong>Very</strong> = Just strong (okay)"
+  },
+  {
+    "num": 22,
+    "title": "Beside vs. Besides",
+    "cat": "prepositions",
+    "explain": "<b>Beside</b> means physically next to something. <b>Besides</b> means in addition to something. One letter makes a huge difference in meaning.",
+    "usage": [
+      {
+        "term": "Beside",
+        "desc": "Next to — physical position."
+      },
+      {
+        "term": "Besides",
+        "desc": "In addition to — extra information."
+      }
+    ],
+    "examples": [
+      "✓ Sit beside me. (next to me)",
+      "✓ Besides math, I also love science. (in addition)",
+      "✗ He sat besides me for dinner."
+    ],
+    "trick": "Be<strong>side</strong> = Next to (think: <strong>side</strong> by side) | Be<strong>sides</strong> = Plus / Also"
+  },
+  {
+    "num": 23,
+    "title": "Farther vs. Further",
+    "cat": "confusables",
+    "explain": "<b>Farther</b> refers to physical, measurable distance. <b>Further</b> refers to figurative extension — more of something abstract like discussion, education, or explanation.",
+    "usage": [
+      {
+        "term": "Farther",
+        "desc": "Physical, literal distance you can measure."
+      },
+      {
+        "term": "Further",
+        "desc": "Figurative — more, additional, deeper."
+      }
+    ],
+    "examples": [
+      "✓ We walked farther than usual today.",
+      "✓ No further discussion is needed.",
+      "✓ We need further clarification.",
+      "✗ He threw the ball further than me."
+    ],
+    "trick": "<strong>Far</strong>ther = Physical <strong>far</strong> | <strong>Further</strong> = Think deeper / more"
+  },
+  {
+    "num": 24,
+    "title": "Despite vs. In Spite Of",
+    "cat": "conjunctions",
+    "explain": "Both mean the same thing ('even though') and are followed by a noun or gerund (-ing word). The key difference is structural: Despite has no 'of'; In Spite Of requires 'of'.",
+    "usage": [
+      {
+        "term": "Despite",
+        "desc": "No 'of' → Despite + noun/gerund."
+      },
+      {
+        "term": "In spite of",
+        "desc": "Requires 'of' → In spite of + noun/gerund."
+      }
+    ],
+    "examples": [
+      "✓ Despite the rain, we played.",
+      "✓ In spite of being tired, he worked.",
+      "✗ Despite of the cold, I wore shorts."
+    ],
+    "trick": "No 'of' after <strong>Despite</strong> | 'of' is required in <strong>In spite of</strong>"
+  },
+  {
+    "num": 25,
+    "title": "Although / Though / Even Though",
+    "cat": "conjunctions",
+    "explain": "All three are conjunctions showing contrast ('but / however'). They vary in strength. Each must be followed by a full clause (subject + verb). Don't add 'but' or 'yet' after them.",
+    "usage": [
+      {
+        "term": "Although",
+        "desc": "Standard contrast — followed by full clause."
+      },
+      {
+        "term": "Though",
+        "desc": "Informal version of although; can end a sentence."
+      },
+      {
+        "term": "Even though",
+        "desc": "Strongest contrast — used for surprising facts."
+      }
+    ],
+    "examples": [
+      "✓ Although it was raining, we went out.",
+      "✓ Even though he is rich, he is humble.",
+      "✗ Although he is old, but he runs fast."
+    ],
+    "trick": "<strong>Even though > Although > Though</strong> (in strength of contrast)"
+  },
+  {
+    "num": 26,
+    "title": "While vs. When",
+    "cat": "conjunctions",
+    "explain": "<b>While</b> is used for actions that span a duration of time (ongoing). <b>When</b> is used for a specific moment or point in time.",
+    "usage": [
+      {
+        "term": "While",
+        "desc": "Duration — two actions happening at the same time."
+      },
+      {
+        "term": "When",
+        "desc": "A specific moment — one action at a precise point."
+      }
+    ],
+    "examples": [
+      "✓ I was studying while it rained. (parallel ongoing)",
+      "✓ Call me when you reach. (specific moment)",
+      "✓ I met her when she was shopping."
+    ],
+    "trick": "<strong>While</strong> = Time span (both happening) | <strong>When</strong> = Pinpoint moment"
+  },
+  {
+    "num": 27,
+    "title": "Unless vs. If Not",
+    "cat": "conjunctions",
+    "explain": "<b>Unless</b> already means 'if not', so never use 'not' with unless — it creates a double negative. Always use the positive form of the verb after unless.",
+    "usage": [
+      {
+        "term": "Unless",
+        "desc": "= 'If not' — negative condition without 'not'."
+      },
+      {
+        "term": "If not",
+        "desc": "= Can be used separately but never combine with 'unless'."
+      }
+    ],
+    "examples": [
+      "✓ Unless you study, you will fail.",
+      "✓ You can't enter unless you show ID.",
+      "✗ Unless you don't study, you will fail. (double negative)"
+    ],
+    "trick": "<strong>Unless</strong> is already negative — never add 'not' after it!"
+  },
+  {
+    "num": 28,
+    "title": "Because / Since / As",
+    "cat": "conjunctions",
+    "explain": "All three show cause or reason, but differ in strength and usage. <b>Because</b> gives the strongest, most direct reason. <b>Since</b> and <b>As</b> suggest the reason is already known.",
+    "usage": [
+      {
+        "term": "Because",
+        "desc": "Strong, direct reason — often the main focus."
+      },
+      {
+        "term": "Since",
+        "desc": "Reason is known/secondary — also has a time sense."
+      },
+      {
+        "term": "As",
+        "desc": "Soft reason — both things happening at the same time."
+      }
+    ],
+    "examples": [
+      "✓ He left because he was ill. (main reason)",
+      "✓ Since you're here, let's begin. (known reason)",
+      "✓ As it was late, we stayed."
+    ],
+    "trick": "<strong>Because</strong> = Strong reason | <strong>Since/As</strong> = Soft / known reason"
+  },
+  {
+    "num": 29,
+    "title": "Due To vs. Because Of",
+    "cat": "prepositions",
+    "explain": "Both show reason, but their grammatical positions differ. <b>Due to</b> follows a 'be' verb and modifies a noun. <b>Because of</b> introduces the reason before the main action.",
+    "usage": [
+      {
+        "term": "Due to",
+        "desc": "After a 'be' verb (is, was, were) — modifies a noun."
+      },
+      {
+        "term": "Because of",
+        "desc": "Before an action verb — introduces the reason."
+      }
+    ],
+    "examples": [
+      "✓ His absence was due to illness. (after 'was')",
+      "✓ He missed class because of illness. (before action)",
+      "✗ He left due to he was sick."
+    ],
+    "trick": "<strong>Due to</strong> = Comes after is/was | <strong>Because of</strong> = Before the action"
+  },
+  {
+    "num": 30,
+    "title": "Who vs. That (Relative Clauses)",
+    "cat": "pronouns",
+    "explain": "<b>Who</b> is exclusively for people. <b>That</b> works as a universal connector for people, animals, and things. Use 'who' when you want to specifically humanize.",
+    "usage": [
+      {
+        "term": "Who",
+        "desc": "Only for people — person-specific."
+      },
+      {
+        "term": "That",
+        "desc": "Universal — people, animals, things."
+      }
+    ],
+    "examples": [
+      "✓ The girl who sang won the prize.",
+      "✓ The singer that impressed us was her.",
+      "✓ The car that I drive is electric."
+    ],
+    "trick": "<strong>That</strong> = Universal connector | <strong>Who</strong> = Person-specific only"
+  },
+  {
+    "num": 31,
+    "title": "Each Other vs. One Another",
+    "cat": "pronouns",
+    "explain": "<b>Each other</b> is used when exactly two people or things are involved in a mutual action. <b>One another</b> is used when three or more are involved.",
+    "usage": [
+      {
+        "term": "Each other",
+        "desc": "Exactly 2 people — mutual action between two."
+      },
+      {
+        "term": "One another",
+        "desc": "3 or more people — mutual action in a group."
+      }
+    ],
+    "examples": [
+      "✓ Ram and Shyam respect each other.",
+      "✓ The team members helped one another.",
+      "✓ Friends must support one another."
+    ],
+    "trick": "<strong>2</strong> = Each other | <strong>3+</strong> = One another"
+  },
+  {
+    "num": 32,
+    "title": "Hard vs. Hardly",
+    "cat": "confusables",
+    "explain": "<b>Hard</b> means with great effort or intensity (works as both adjective and adverb). <b>Hardly</b> is a negative adverb meaning 'barely' or 'almost not at all'.",
+    "usage": [
+      {
+        "term": "Hard",
+        "desc": "Adverb — with effort, intensely, diligently."
+      },
+      {
+        "term": "Hardly",
+        "desc": "Negative adverb — barely, almost not, scarcely."
+      }
+    ],
+    "examples": [
+      "✓ She works hard. (with effort)",
+      "✓ I hardly know him. (barely)",
+      "✗ He works hardly every day."
+    ],
+    "trick": "<strong>Hard</strong> = A lot of effort | <strong>Hardly</strong> = Barely / almost not"
+  },
+  {
+    "num": 33,
+    "title": "Since vs. Because",
+    "cat": "conjunctions",
+    "explain": "When used as conjunctions of reason, <b>Since</b> implies the reason is already known to both parties (less emphasis). <b>Because</b> gives new, direct, or emphatic reason.",
+    "usage": [
+      {
+        "term": "Since",
+        "desc": "Reason is known or background — casual."
+      },
+      {
+        "term": "Because",
+        "desc": "Clear, strong, or new reason — direct."
+      }
+    ],
+    "examples": [
+      "✓ Since you're here, let's talk.",
+      "✓ He came because he was invited.",
+      "✓ I couldn't come because I was busy."
+    ],
+    "trick": "Use <strong>Since</strong> when the cause is known or secondary"
+  },
+  {
+    "num": 34,
+    "title": "Not Only…But Also",
+    "cat": "style",
+    "explain": "<b>Not only…but also</b> is a correlative conjunction pair. For correct grammar, ensure both parts have the same grammatical structure (parallel structure).",
+    "usage": [
+      {
+        "term": "Structure",
+        "desc": "Both sides must match — noun:noun OR verb:verb OR adjective:adjective."
+      }
+    ],
+    "examples": [
+      "✓ She is not only smart but also hardworking. (adj:adj)",
+      "✓ He not only sings but also dances. (verb:verb)",
+      "✗ Not only he sings, but also dances."
+    ],
+    "trick": "Balance both sides — <strong>Verb:Verb</strong> OR <strong>Noun:Noun</strong> (parallel structure)"
+  },
+  {
+    "num": 35,
+    "title": "So That vs. In Order That",
+    "cat": "conjunctions",
+    "explain": "Both express purpose — why something is done. They are followed by a subject + modal verb (can, may, might, could, would).",
+    "usage": [
+      {
+        "term": "So that",
+        "desc": "Common — followed by subject + modal verb."
+      },
+      {
+        "term": "In order that",
+        "desc": "Formal — same meaning, more literary."
+      }
+    ],
+    "examples": [
+      "✓ He studies so that he can pass.",
+      "✓ She trained in order that she may win.",
+      "✓ I left early so that I could catch the bus."
+    ],
+    "trick": "Both show purpose → follow with <strong>can/may/might/could</strong>"
+  },
+  {
+    "num": 36,
+    "title": "Even If vs. Even Though",
+    "cat": "conjunctions",
+    "explain": "<b>Even if</b> introduces a hypothetical or imaginary condition (might not happen). <b>Even though</b> introduces a real, factual condition (it actually happened or is happening).",
+    "usage": [
+      {
+        "term": "Even if",
+        "desc": "Imaginary / conditional — may or may not happen."
+      },
+      {
+        "term": "Even though",
+        "desc": "Reality / factual — it actually is or was true."
+      }
+    ],
+    "examples": [
+      "✓ I'll come even if it rains. (condition — might rain)",
+      "✓ I came even though it was raining. (reality — it was raining)",
+      "✓ I'll go even if it rains."
+    ],
+    "trick": "<strong>Even if</strong> = Condition (hypothetical) | <strong>Even though</strong> = Fact (reality)"
+  },
+  {
+    "num": 37,
+    "title": "Unless vs. Until",
+    "cat": "conjunctions",
+    "explain": "<b>Unless</b> is about condition (if not this, then that). <b>Until</b> is about time (up to a certain point in time). These are completely different words often confused.",
+    "usage": [
+      {
+        "term": "Unless",
+        "desc": "Condition — 'If not'. Subject: will/won't happen."
+      },
+      {
+        "term": "Until",
+        "desc": "Time — 'up to the point when'. Ongoing till a moment."
+      }
+    ],
+    "examples": [
+      "✓ Unless you study, you'll fail. (condition)",
+      "✓ Wait here until I come. (time)",
+      "✗ Wait here unless I come."
+    ],
+    "trick": "<strong>Unless</strong> = Condition (If not) | <strong>Until</strong> = Time (Till that moment)"
+  },
+  {
+    "num": 38,
+    "title": "Too…To vs. So…That",
+    "cat": "style",
+    "explain": "<b>Too…to</b> expresses excess that prevents an action — negative outcome implied. <b>So…that</b> shows the degree of something and its actual result.",
+    "usage": [
+      {
+        "term": "Too…to",
+        "desc": "Too + adj + to + verb = Can't do it (negative)."
+      },
+      {
+        "term": "So…that",
+        "desc": "So + adj + that + result = It happened (positive/neutral)."
+      }
+    ],
+    "examples": [
+      "✓ He is too weak to walk. (can't walk)",
+      "✓ He was so weak that he fell. (did fall)",
+      "✓ She is too tired to continue."
+    ],
+    "trick": "<strong>Too…to</strong> = Can't do it | <strong>So…that</strong> = Did happen (result)"
+  },
+  {
+    "num": 39,
+    "title": "As If vs. As Though",
+    "cat": "conjunctions",
+    "explain": "Both <b>As if</b> and <b>As though</b> mean 'in a way that suggests' — they introduce unreal or imaginary situations. Use past tense after them even for present scenarios.",
+    "usage": [
+      {
+        "term": "As if / As though",
+        "desc": "Both express unreal appearance or imagination. Use past tense after them."
+      }
+    ],
+    "examples": [
+      "✓ He behaves as if he were a king. (imaginary)",
+      "✓ She talks as though she knew everything.",
+      "✗ He acts as if he is the boss. (should be: were)"
+    ],
+    "trick": "Both express <strong>false/imaginary</strong> situations → Always use <strong>past tense</strong> after them"
+  },
+  {
+    "num": 40,
+    "title": "No Sooner…Than",
+    "cat": "tenses",
+    "explain": "<b>No sooner…than</b> expresses that one action happened immediately after another. It requires subject-auxiliary inversion — the helping verb comes before the subject.",
+    "usage": [
+      {
+        "term": "Structure",
+        "desc": "No sooner + had + subject + V3 + than + V2 (past)"
+      }
+    ],
+    "examples": [
+      "✓ No sooner had he arrived than it started raining.",
+      "✓ No sooner had I called than she cried.",
+      "✗ No sooner I had called than she cried."
+    ],
+    "trick": "<strong>No sooner</strong> needs inversion: <strong>had + subject + V3 + than</strong>"
+  },
+  {
+    "num": 41,
+    "title": "Scarcely / Hardly / Barely…When",
+    "cat": "tenses",
+    "explain": "Like 'No sooner…than', these words also show two quick successive actions. They require subject-auxiliary inversion and are always paired with 'when' (not 'than').",
+    "usage": [
+      {
+        "term": "Structure",
+        "desc": "Hardly/Scarcely/Barely + had + subject + V3 + when + V2"
+      }
+    ],
+    "examples": [
+      "✓ Hardly had she left when he arrived.",
+      "✓ Scarcely had I reached when it started.",
+      "✗ Hardly he had entered when the lights went off."
+    ],
+    "trick": "<strong>Hardly/Scarcely/Barely → when</strong> (inversion: had + subject + V3)"
+  },
+  {
+    "num": 42,
+    "title": "So vs. Such",
+    "cat": "style",
+    "explain": "<b>So</b> intensifies adjectives and adverbs directly. <b>Such</b> intensifies a noun phrase (adjective + noun) or a noun alone.",
+    "usage": [
+      {
+        "term": "So",
+        "desc": "So + adjective/adverb."
+      },
+      {
+        "term": "Such",
+        "desc": "Such + (a/an) + adjective + noun."
+      }
+    ],
+    "examples": [
+      "✓ She is so beautiful.",
+      "✓ It was such a beautiful day.",
+      "✓ He is so smart. / It was such a good movie.",
+      "✗ It was so a beautiful day."
+    ],
+    "trick": "<strong>So</strong> + adjective | <strong>Such</strong> + noun phrase"
+  },
+  {
+    "num": 43,
+    "title": "As vs. Like",
+    "cat": "conjunctions",
+    "explain": "<b>As</b> shows the actual role someone plays (used with subject + verb). <b>Like</b> shows similarity or comparison (used with nouns/pronouns, no verb).",
+    "usage": [
+      {
+        "term": "As",
+        "desc": "Actual role — followed by subject + verb."
+      },
+      {
+        "term": "Like",
+        "desc": "Similarity — followed by noun/pronoun only."
+      }
+    ],
+    "examples": [
+      "✓ He works as a teacher. (that IS his role)",
+      "✓ He sings like a professional. (comparison)",
+      "✗ Do as I say, not like I say."
+    ],
+    "trick": "<strong>As</strong> = Actual role | <strong>Like</strong> = Similar to (comparison)"
+  },
+  {
+    "num": 44,
+    "title": "All vs. Whole",
+    "cat": "determiners",
+    "explain": "<b>All</b> is used with plural or uncountable nouns to mean 'every one of'. <b>Whole</b> is used with singular countable nouns to mean 'complete/entire'.",
+    "usage": [
+      {
+        "term": "All",
+        "desc": "Plural / uncountable — all students, all water."
+      },
+      {
+        "term": "Whole",
+        "desc": "Singular countable — the whole class, the whole apple."
+      }
+    ],
+    "examples": [
+      "✓ All people were silent.",
+      "✓ The whole class was present.",
+      "✓ I ate all the apples. / I ate the whole apple."
+    ],
+    "trick": "<strong>All</strong> = Many/total | <strong>Whole</strong> = One complete unit"
+  },
+  {
+    "num": 45,
+    "title": "One of the + Plural Noun + Singular Verb",
+    "cat": "agreement",
+    "explain": "When the subject is 'One of the + plural noun', the verb must be singular because it agrees with 'one', not with the plural noun.",
+    "usage": [
+      {
+        "term": "Rule",
+        "desc": "One of the [plural noun] + singular verb (has, is, was, does)"
+      }
+    ],
+    "examples": [
+      "✓ One of the boys has won.",
+      "✓ One of the best books I've read.",
+      "✗ One of the boys have won."
+    ],
+    "trick": "<strong>'One of'</strong> = The subject is ONE → always use <strong>singular verb</strong>"
+  },
+  {
+    "num": 46,
+    "title": "The Number vs. A Number",
+    "cat": "agreement",
+    "explain": "<b>'The number'</b> acts as a singular subject. <b>'A number of'</b> acts as a plural subject. One article makes all the difference!",
+    "usage": [
+      {
+        "term": "The number",
+        "desc": "Singular — use 'is, was, has'."
+      },
+      {
+        "term": "A number of",
+        "desc": "Plural — use 'are, were, have'."
+      }
+    ],
+    "examples": [
+      "✓ The number of students is high.",
+      "✓ A number of students are missing.",
+      "✗ A number of students is present."
+    ],
+    "trick": "<strong>The number</strong> = is (singular) | <strong>A number</strong> = are (plural)"
+  },
+  {
+    "num": 47,
+    "title": "Neither of / Either of → Singular",
+    "cat": "agreement",
+    "explain": "Even though 'of' is followed by a plural noun, the verbs after <b>neither of</b> and <b>either of</b> must always be singular because neither/either is singular.",
+    "usage": [
+      {
+        "term": "Rule",
+        "desc": "Neither of / Either of + plural noun → singular verb"
+      }
+    ],
+    "examples": [
+      "✓ Neither of the boys is present.",
+      "✓ Either of the options is fine.",
+      "✗ Neither of the girls are dancing."
+    ],
+    "trick": "<strong>Neither/Either</strong> refers to ONE → always <strong>singular verb</strong>"
+  },
+  {
+    "num": 48,
+    "title": "One / None — Singular or Plural?",
+    "cat": "agreement",
+    "explain": "<b>One</b> is always singular. <b>None</b> is flexible — singular when referring to uncountable nouns, but can be plural when referring to countable/people.",
+    "usage": [
+      {
+        "term": "One",
+        "desc": "Always singular."
+      },
+      {
+        "term": "None",
+        "desc": "Usually singular (uncountable); can be plural (countable/people)."
+      }
+    ],
+    "examples": [
+      "✓ One of them is coming.",
+      "✓ None of the food is left. (uncountable)",
+      "✓ None of the students are present. (countable — acceptable)"
+    ],
+    "trick": "<strong>One</strong> = Always singular | <strong>None</strong> = Both accepted, context matters"
+  },
+  {
+    "num": 49,
+    "title": "Each of + Plural Noun = Singular Verb",
+    "cat": "agreement",
+    "explain": "Even though the noun after 'each of' is plural, the verb must be singular. 'Each' focuses on individuals — one at a time.",
+    "usage": [
+      {
+        "term": "Rule",
+        "desc": "Each of + plural noun → singular verb (is, has, was)"
+      }
+    ],
+    "examples": [
+      "✓ Each of the girls is dancing.",
+      "✓ Each of the boys has done well.",
+      "✗ Each of the players are excited."
+    ],
+    "trick": "<strong>Each of</strong> = Think about one at a time → <strong>singular verb</strong>"
+  },
+  {
+    "num": 50,
+    "title": "Relative Pronoun Agreement",
+    "cat": "agreement",
+    "explain": "When a relative pronoun (who, which, that) is used, its verb must agree with the noun it refers to (the antecedent) — not with the pronoun itself.",
+    "usage": [
+      {
+        "term": "Rule",
+        "desc": "Check what the relative pronoun refers to → match verb to that noun."
+      }
+    ],
+    "examples": [
+      "✓ She is one of the girls who dance well. (girls → plural → dance)",
+      "✓ It is I who am responsible. (I → am)",
+      "✗ She is one of the girls who dances well."
+    ],
+    "trick": "Check what 'who/which/that' refers to → <strong>match verb with that noun</strong>"
+  },
+  {
+    "num": 51,
+    "title": "Not Only…But Also — Parallel Structure",
+    "cat": "style",
+    "explain": "The correlative conjunction <b>Not only…but also</b> requires the same grammatical structure on both sides — this is called parallel structure.",
+    "usage": [
+      {
+        "term": "Rule",
+        "desc": "Match grammar on both sides: verb:verb, noun:noun, adj:adj."
+      }
+    ],
+    "examples": [
+      "✓ Not only is she smart, but she is also kind. (adj:adj)",
+      "✓ He not only sings but also dances. (verb:verb)",
+      "✗ Not only he sings, but also dances."
+    ],
+    "trick": "Balance both sides: <strong>Verb+Verb</strong> OR <strong>Noun+Noun</strong>"
+  },
+  {
+    "num": 52,
+    "title": "As Well As — Verb Agreement",
+    "cat": "agreement",
+    "explain": "<b>As well as</b> does not create a compound subject. The verb agrees ONLY with the first (main) subject, ignoring the phrase introduced by 'as well as'.",
+    "usage": [
+      {
+        "term": "Rule",
+        "desc": "Verb agrees with first subject only. The 'as well as' phrase is parenthetical."
+      }
+    ],
+    "examples": [
+      "✓ Ram, as well as his friends, is coming. (Ram = singular)",
+      "✓ She as well as her sisters is beautiful.",
+      "✗ Ram as well as his friends are coming."
+    ],
+    "trick": "Ignore 'as well as ...' → Verb agrees with the <strong>first subject only</strong>"
+  },
+  {
+    "num": 53,
+    "title": "Rather Than — Parallel Structure",
+    "cat": "style",
+    "explain": "<b>Rather than</b> requires the same form (verb form, tense) on both sides of the comparison. Keep both sides parallel for correct grammar.",
+    "usage": [
+      {
+        "term": "Rule",
+        "desc": "Same tense/form on both sides of 'rather than'."
+      }
+    ],
+    "examples": [
+      "✓ I prefer tea rather than coffee. (noun:noun)",
+      "✓ He works rather than plays. (verb:verb)",
+      "✗ I would rather sleeping home than going out."
+    ],
+    "trick": "Use same tense/form on both sides of <strong>'rather than'</strong>"
+  },
+  {
+    "num": 54,
+    "title": "No Sooner…Than — Inversion",
+    "cat": "tenses",
+    "explain": "When the sentence begins with 'No sooner', subject-auxiliary inversion is required. The helping verb 'had' comes before the subject.",
+    "usage": [
+      {
+        "term": "Structure",
+        "desc": "No sooner + had + subject + V3 + than + past verb"
+      }
+    ],
+    "examples": [
+      "✓ No sooner had I reached than the train left.",
+      "✓ No sooner had he come than it rained.",
+      "✗ No sooner I reached than the train left."
+    ],
+    "trick": "<strong>No sooner = use 'had' + subject + V3 + 'than'</strong>"
+  },
+  {
+    "num": 55,
+    "title": "One of the Most + Superlative + Plural Noun",
+    "cat": "style",
+    "explain": "After 'One of the most/best/worst', always use a plural noun — even though 'one' is singular. The plural noun is the group, and 'one' is chosen from it.",
+    "usage": [
+      {
+        "term": "Rule",
+        "desc": "One of the + superlative + plural noun"
+      }
+    ],
+    "examples": [
+      "✓ One of the most intelligent students in the class.",
+      "✓ One of the best books I've ever read.",
+      "✗ One of the best book I've read."
+    ],
+    "trick": "Superlative → always followed by <strong>plural noun</strong>"
+  },
+  {
+    "num": 56,
+    "title": "So That — Purpose Clause",
+    "cat": "conjunctions",
+    "explain": "<b>So that</b> introduces a purpose clause. After 'so that', use a subject plus a modal verb (can, may, might, could, would) — never use an infinitive directly.",
+    "usage": [
+      {
+        "term": "Structure",
+        "desc": "So that + subject + can/may/might/could + base verb"
+      }
+    ],
+    "examples": [
+      "✓ He studies hard so that he can succeed.",
+      "✓ She left early so that she could catch the bus.",
+      "✗ He studies so that succeed."
+    ],
+    "trick": "<strong>So that</strong> = Purpose → follow with <strong>can/may/might/would</strong>"
+  },
+  {
+    "num": 57,
+    "title": "Because Of vs. Due To (Detailed)",
+    "cat": "prepositions",
+    "explain": "Both show reason, but they attach differently in a sentence. <b>Due to</b> modifies a noun (often after 'be' verbs). <b>Because of</b> shows the cause of an action.",
+    "usage": [
+      {
+        "term": "Due to",
+        "desc": "Comes after a 'be' verb — His failure was due to laziness."
+      },
+      {
+        "term": "Because of",
+        "desc": "Comes before an action — He failed because of laziness."
+      }
+    ],
+    "examples": [
+      "✓ He failed because of laziness.",
+      "✓ His failure was due to laziness.",
+      "✗ He left due to he was sick."
+    ],
+    "trick": "<strong>Due to</strong> = Noun cause | <strong>Because of</strong> = Verb cause"
+  },
+  {
+    "num": 58,
+    "title": "Each Other vs. One Another (Review)",
+    "cat": "pronouns",
+    "explain": "A review: <b>Each other</b> for exactly two people involved in a mutual action. <b>One another</b> for groups of three or more.",
+    "usage": [
+      {
+        "term": "Each other",
+        "desc": "2 people — mutual action between two."
+      },
+      {
+        "term": "One another",
+        "desc": "3+ people — mutual action in a group."
+      }
+    ],
+    "examples": [
+      "✓ Ram and Shyam help each other.",
+      "✓ We must support one another.",
+      "✓ The three boys fought one another."
+    ],
+    "trick": "<strong>2</strong> = Each other | <strong>3+</strong> = One another"
+  },
+  {
+    "num": 59,
+    "title": "Too…To — Inability",
+    "cat": "style",
+    "explain": "<b>Too…to</b> structure expresses that something is in excess and therefore prevents an action. The result is always negative (inability).",
+    "usage": [
+      {
+        "term": "Structure",
+        "desc": "Too + adjective + to + base verb = cannot do it"
+      }
+    ],
+    "examples": [
+      "✓ He is too weak to walk.",
+      "✓ It's too cold to go outside.",
+      "✓ She's too tired to continue.",
+      "✗ He is too much weak to run."
+    ],
+    "trick": "<strong>Too + adj + to + verb</strong> = Impossible / can't do it"
+  },
+  {
+    "num": 60,
+    "title": "So…That — Result",
+    "cat": "style",
+    "explain": "<b>So…that</b> structure shows intensity leading to a specific result. Unlike 'too...to', the result actually happens.",
+    "usage": [
+      {
+        "term": "Structure",
+        "desc": "So + adjective + that + subject + verb (result)"
+      }
+    ],
+    "examples": [
+      "✓ He was so tired that he slept instantly.",
+      "✓ The movie was so boring that I left.",
+      "✓ It was so hot that I fainted.",
+      "✗ He was so tired that sleep instantly."
+    ],
+    "trick": "<strong>So + adj + that</strong> = the result actually happened"
+  },
+  {
+    "num": 61,
+    "title": "Hardly/Scarcely…When — Inversion",
+    "cat": "tenses",
+    "explain": "When 'Hardly' or 'Scarcely' begins a sentence, inversion is required: 'had' comes before the subject. Always paired with 'when', not 'than'.",
+    "usage": [
+      {
+        "term": "Structure",
+        "desc": "Hardly/Scarcely + had + subject + V3 + when + V2"
+      }
+    ],
+    "examples": [
+      "✓ Hardly had he arrived when it started raining.",
+      "✓ Scarcely had I slept when the phone rang.",
+      "✗ Hardly he had entered when the lights went off."
+    ],
+    "trick": "<strong>Hardly/Scarcely</strong> → inversion: <strong>had + subject + V3 + when</strong>"
+  },
+  {
+    "num": 62,
+    "title": "Too Much vs. Much Too",
+    "cat": "style",
+    "explain": "Though they look similar, their positions differ. <b>Too much</b> comes before nouns. <b>Much too</b> comes before adjectives or adverbs.",
+    "usage": [
+      {
+        "term": "Too much",
+        "desc": "Before nouns — too much noise, too much food."
+      },
+      {
+        "term": "Much too",
+        "desc": "Before adjectives/adverbs — much too difficult, much too late."
+      }
+    ],
+    "examples": [
+      "✓ There is too much noise here.",
+      "✓ This is much too difficult for me.",
+      "✗ He is too much tired."
+    ],
+    "trick": "<strong>Too much + noun</strong> | <strong>Much too + adjective/adverb</strong>"
+  },
+  {
+    "num": 63,
+    "title": "Lest — Negative Purpose",
+    "cat": "conjunctions",
+    "explain": "<b>Lest</b> means 'for fear that' or 'in case … not'. It expresses a negative purpose — you do something to prevent something bad. Always use 'should' after lest.",
+    "usage": [
+      {
+        "term": "Structure",
+        "desc": "Lest + subject + should + base verb"
+      }
+    ],
+    "examples": [
+      "✓ Walk carefully lest you should fall.",
+      "✓ Study now lest you should fail.",
+      "✓ Lest she should fall, I held her hand.",
+      "✗ Work hard lest you may fail."
+    ],
+    "trick": "<strong>Lest</strong> = To prevent → always use <strong>should + base verb</strong>"
+  },
+  {
+    "num": 64,
+    "title": "Whether vs. If",
+    "cat": "conjunctions",
+    "explain": "<b>Whether</b> is used when there are two alternatives or options. <b>If</b> is used for conditions — when something depends on something else happening.",
+    "usage": [
+      {
+        "term": "Whether",
+        "desc": "Two alternatives — whether…or not."
+      },
+      {
+        "term": "If",
+        "desc": "Condition — if this happens, then that."
+      }
+    ],
+    "examples": [
+      "✓ I don't know whether he'll come or not.",
+      "✓ If it rains, we'll cancel the trip.",
+      "✓ We'll go whether it rains or not.",
+      "✗ I don't know either he'll attend or not."
+    ],
+    "trick": "<strong>Whether</strong> = Options/alternatives | <strong>If</strong> = Condition"
+  },
+  {
+    "num": 65,
+    "title": "Unless vs. Until (Review)",
+    "cat": "conjunctions",
+    "explain": "A review of two commonly confused words: <b>Unless</b> introduces a condition (if not). <b>Until</b> introduces a point in time (up to when).",
+    "usage": [
+      {
+        "term": "Unless",
+        "desc": "Condition — if not this, then that."
+      },
+      {
+        "term": "Until",
+        "desc": "Time — continuing up to a certain moment."
+      }
+    ],
+    "examples": [
+      "✓ You won't pass unless you study.",
+      "✓ Wait until I return.",
+      "✗ Wait here unless I come back."
+    ],
+    "trick": "<strong>Unless</strong> = If not (condition) | <strong>Until</strong> = Up to that time"
+  },
+  {
+    "num": 66,
+    "title": "As If / As Though — Past Tense",
+    "cat": "conjunctions",
+    "explain": "When <b>as if</b> or <b>as though</b> introduces an unreal/imaginary situation, always use past tense — even when referring to the present.",
+    "usage": [
+      {
+        "term": "Rule",
+        "desc": "As if / As though + past tense (even for present unreal situations)"
+      }
+    ],
+    "examples": [
+      "✓ He behaves as if he were a king. (imaginary, so 'were')",
+      "✓ She talks as though she knew everything.",
+      "✗ He acts as if he is the boss. → should be 'were'"
+    ],
+    "trick": "<strong>As if / As though</strong> + imaginary = always use <strong>past tense (were)</strong>"
+  },
+  {
+    "num": 67,
+    "title": "Would Rather / Had Better",
+    "cat": "modals",
+    "explain": "<b>Would rather</b> expresses preference between two options. <b>Had better</b> gives strong advice — often implying a warning or consequence if not followed.",
+    "usage": [
+      {
+        "term": "Would rather",
+        "desc": "Preference — I would rather stay than go."
+      },
+      {
+        "term": "Had better",
+        "desc": "Strong advice/warning — you had better leave now."
+      }
+    ],
+    "examples": [
+      "✓ I would rather rest than work.",
+      "✓ You had better study now.",
+      "✓ I'd rather die than beg.",
+      "✗ He had better don't go now."
+    ],
+    "trick": "<strong>Would rather</strong> = Choice/preference | <strong>Had better</strong> = Warning!"
+  },
+  {
+    "num": 68,
+    "title": "Hard vs. Hardly (Review)",
+    "cat": "confusables",
+    "explain": "Review: <b>Hard</b> as an adverb means with great effort. <b>Hardly</b> is a negative adverb meaning barely or almost not at all. They are completely opposite in meaning.",
+    "usage": [
+      {
+        "term": "Hard",
+        "desc": "With effort, diligently, intensely."
+      },
+      {
+        "term": "Hardly",
+        "desc": "Barely, almost not, scarcely."
+      }
+    ],
+    "examples": [
+      "✓ He works hard every day.",
+      "✓ He hardly studies at all.",
+      "✓ I hardly know her."
+    ],
+    "trick": "<strong>Hard</strong> = পরিশ্রম থেকে | <strong>Hardly</strong> = কঠিন থেকে / না এর সমান"
+  },
+  {
+    "num": 69,
+    "title": "Since vs. From",
+    "cat": "prepositions",
+    "explain": "<b>Since</b> refers to a definite point in the past and is used with perfect tenses. <b>From</b> indicates a starting point — for past or future — and is used with 'to/till/until'.",
+    "usage": [
+      {
+        "term": "Since",
+        "desc": "Point in past, with have/has/had — since Monday, since 2010."
+      },
+      {
+        "term": "From",
+        "desc": "Starting point with end time — from 9 AM to 5 PM."
+      }
+    ],
+    "examples": [
+      "✓ I've been here since Monday.",
+      "✓ The shop is open from 10 AM to 9 PM.",
+      "✗ I've been here from Monday."
+    ],
+    "trick": "<strong>Since</strong> + 'have been' | <strong>From</strong> = Fixed start time (with 'to')"
+  },
+  {
+    "num": 70,
+    "title": "Each / Every / All — Three-Way",
+    "cat": "determiners",
+    "explain": "A three-way distinction: <b>Each</b> for individual focus (2 or more), <b>Every</b> for collective group (3 or more), <b>All</b> for the entire total group.",
+    "usage": [
+      {
+        "term": "Each",
+        "desc": "Individual — 2 or more, one at a time."
+      },
+      {
+        "term": "Every",
+        "desc": "Group — 3 or more, all together."
+      },
+      {
+        "term": "All",
+        "desc": "Total — the entire group as a whole."
+      }
+    ],
+    "examples": [
+      "✓ Each player got a medal.",
+      "✓ Every student passed the exam.",
+      "✓ All players were excited."
+    ],
+    "trick": "<strong>2</strong> → Each | <strong>3+</strong> → Every | <strong>Whole group</strong> → All"
+  },
+  {
+    "num": 71,
+    "title": "As…As vs. So…As",
+    "cat": "style",
+    "explain": "In comparisons of equality: <b>as…as</b> is used for positive sentences. In negative comparisons (with 'not'), traditionally <b>not so…as</b> is preferred (though 'not as…as' is also widely accepted).",
+    "usage": [
+      {
+        "term": "As…as",
+        "desc": "Positive comparison — He is as tall as his brother."
+      },
+      {
+        "term": "Not so…as",
+        "desc": "Negative comparison — She is not so smart as you."
+      }
+    ],
+    "examples": [
+      "✓ He is as tall as his brother.",
+      "✓ She is not so smart as you.",
+      "✓ She is not as smart as you. (also correct)"
+    ],
+    "trick": "Positive = <strong>as…as</strong> | Negative = <strong>not so…as</strong> (traditionally)"
+  },
+  {
+    "num": 72,
+    "title": "Each of / Every One of → Singular",
+    "cat": "agreement",
+    "explain": "Both 'Each of' and 'Every one of' must be followed by singular verbs, even though a plural noun follows 'of'.",
+    "usage": [
+      {
+        "term": "Rule",
+        "desc": "Each of / Every one of + plural noun → singular verb"
+      }
+    ],
+    "examples": [
+      "✓ Each of the boys has done well.",
+      "✓ Every one of them is ready.",
+      "✗ Each of the girls are dancing."
+    ],
+    "trick": "<strong>'Each of / Every one of'</strong> = Always singular verb"
+  },
+  {
+    "num": 73,
+    "title": "One vs. Ones",
+    "cat": "pronouns",
+    "explain": "<b>One</b> is used as a substitute for a singular countable noun. <b>Ones</b> substitutes for a plural countable noun. They avoid repetition of the noun.",
+    "usage": [
+      {
+        "term": "One",
+        "desc": "Singular noun substitute."
+      },
+      {
+        "term": "Ones",
+        "desc": "Plural noun substitute."
+      }
+    ],
+    "examples": [
+      "✓ I want the red one. (one shirt)",
+      "✓ These are old pens. Take new ones. (plural)",
+      "✓ I like this shirt, but I prefer that one."
+    ],
+    "trick": "<strong>Singular</strong> = one | <strong>Plural</strong> = ones"
+  },
+  {
+    "num": 74,
+    "title": "The Number vs. A Number (Review)",
+    "cat": "agreement",
+    "explain": "Quick review: <b>The number</b> takes a singular verb. <b>A number of</b> takes a plural verb. The article determines everything.",
+    "usage": [
+      {
+        "term": "The number",
+        "desc": "Singular — The number of students is rising."
+      },
+      {
+        "term": "A number of",
+        "desc": "Plural — A number of people are missing."
+      }
+    ],
+    "examples": [
+      "✓ The number of students is rising.",
+      "✓ A number of students are missing.",
+      "✓ A number of people are present."
+    ],
+    "trick": "<strong>The number → is</strong> | <strong>A number → are</strong>"
+  },
+  {
+    "num": 75,
+    "title": "Both / Either / Neither — Three-Way",
+    "cat": "determiners",
+    "explain": "A three-way distinction for pairs: <b>Both</b> = together (positive), <b>Either</b> = one of two (positive choice), <b>Neither</b> = none of two (negative).",
+    "usage": [
+      {
+        "term": "Both",
+        "desc": "Two together — positive. Both are here."
+      },
+      {
+        "term": "Either",
+        "desc": "Any one of two — positive choice. Either seat is fine."
+      },
+      {
+        "term": "Neither",
+        "desc": "None of the two — negative. Neither answer is right."
+      }
+    ],
+    "examples": [
+      "✓ Both brothers are honest.",
+      "✓ You can take either seat.",
+      "✓ Neither answer is correct."
+    ],
+    "trick": "<strong>Both</strong> = 2 | <strong>Either</strong> = 1 of 2 | <strong>Neither</strong> = 0 of 2"
+  },
+  {
+    "num": 76,
+    "title": "Gerunds — Verb as Noun",
+    "cat": "style",
+    "explain": "<b>Gerunds</b> are formed by adding -ing to a verb. They function as nouns in a sentence — as subjects, objects, or after prepositions.",
+    "usage": [
+      {
+        "term": "Gerund",
+        "desc": "Verb + ing acting as a noun — swimming, reading, cooking."
+      }
+    ],
+    "examples": [
+      "✓ Swimming is good for health. (subject)",
+      "✓ I enjoy reading. (object)",
+      "✓ She is fond of singing. (after preposition)"
+    ],
+    "trick": "<strong>Gerund</strong> = Verb + ing → does the job of a NOUN"
+  },
+  {
+    "num": 77,
+    "title": "Infinitives — To + Verb",
+    "cat": "style",
+    "explain": "<b>Infinitives</b> (to + base verb) express purpose, intention, or preference. They often come after verbs like want, refuse, agree, plan, hope, decide.",
+    "usage": [
+      {
+        "term": "Infinitive",
+        "desc": "To + base verb — to learn, to come, to study."
+      }
+    ],
+    "examples": [
+      "✓ I want to learn English.",
+      "✓ He refused to come.",
+      "✓ I agreed to do the work."
+    ],
+    "trick": "<strong>Infinitive</strong> = to + base verb → expresses purpose or intention"
+  },
+  {
+    "num": 78,
+    "title": "Double Negatives — Avoid!",
+    "cat": "style",
+    "explain": "Using two negatives in one clause creates a double negative, which is grammatically incorrect in standard English. One negative is enough.",
+    "usage": [
+      {
+        "term": "Wrong",
+        "desc": "Don't use: not + nothing, not + nobody, don't + never."
+      },
+      {
+        "term": "Correct",
+        "desc": "Use: not + anything, not + anybody, don't + ever."
+      }
+    ],
+    "examples": [
+      "✓ I don't want anything.",
+      "✓ She didn't see anybody in the room.",
+      "✗ I don't want nothing. (double negative)"
+    ],
+    "trick": "<strong>Negative × Negative = Wrong!</strong> One negative is always enough."
+  },
+  {
+    "num": 79,
+    "title": "Very / Much / Too — Intensifiers",
+    "cat": "style",
+    "explain": "Each intensifier has a specific use: <b>Very</b> + adjective (neutral intensity), <b>Much</b> + past participle or comparative, <b>Too</b> = excessive (negative consequence).",
+    "usage": [
+      {
+        "term": "Very",
+        "desc": "Very + adjective/adverb — very good, very fast."
+      },
+      {
+        "term": "Much",
+        "desc": "Much + past participle or comparative — much improved, much better."
+      },
+      {
+        "term": "Too",
+        "desc": "Too + adjective — excess with negative result."
+      }
+    ],
+    "examples": [
+      "✓ Very good work!",
+      "✓ He is much improved since last month.",
+      "✓ Too expensive to buy."
+    ],
+    "trick": "<strong>Very + adj</strong> | <strong>Much + V3/comparative</strong> | <strong>Too = Over-limit</strong>"
+  },
+  {
+    "num": 80,
+    "title": "Past Perfect — Two Past Actions",
+    "cat": "tenses",
+    "explain": "The <b>past perfect</b> (had + V3) is used for an action that was completed BEFORE another action in the past. The earlier action uses past perfect; the later uses simple past.",
+    "usage": [
+      {
+        "term": "Structure",
+        "desc": "Earlier action: had + V3 | Later action: simple past (V2)"
+      }
+    ],
+    "examples": [
+      "✓ He had left before I arrived. (left = earlier)",
+      "✓ They had finished the game when it rained.",
+      "✓ When I reached, he had been waiting for an hour."
+    ],
+    "trick": "<strong>Past perfect</strong> = 'had + V3' → action that happened <strong>first</strong> in the past"
+  },
+  {
+    "num": 81,
+    "title": "So That / In Order That — Purpose",
+    "cat": "conjunctions",
+    "explain": "Both introduce purpose clauses. They explain WHY something is done. Follow them with a subject and modal verb for correct structure.",
+    "usage": [
+      {
+        "term": "Structure",
+        "desc": "So that/In order that + subject + can/may/might/could + verb"
+      }
+    ],
+    "examples": [
+      "✓ He studies hard so that he can succeed.",
+      "✓ She left early in order that she might catch the train.",
+      "✓ I work hard so that I could save money."
+    ],
+    "trick": "Both = Purpose → always follow with <strong>modal verb (can/may/might)</strong>"
+  },
+  {
+    "num": 82,
+    "title": "Despite / Although / However",
+    "cat": "conjunctions",
+    "explain": "Three different words all showing contrast, but used very differently. Despite = preposition, Although = conjunction (same sentence), However = adverb (separate sentence).",
+    "usage": [
+      {
+        "term": "Despite",
+        "desc": "Preposition + noun/gerund — Despite being tired…"
+      },
+      {
+        "term": "Although",
+        "desc": "Conjunction + full clause — Although he was tired…"
+      },
+      {
+        "term": "However",
+        "desc": "Adverb connecting two sentences — He was tired. However, he worked."
+      }
+    ],
+    "examples": [
+      "✓ Despite being tired, he worked.",
+      "✓ Although he was tired, he worked.",
+      "✓ He was tired. However, he worked."
+    ],
+    "trick": "<strong>Despite</strong> + noun/gerund | <strong>Although</strong> + clause | <strong>However</strong> = new sentence"
+  },
+  {
+    "num": 83,
+    "title": "Emphatic 'Do/Does/Did'",
+    "cat": "style",
+    "explain": "Adding <b>do/does/did</b> to a positive sentence gives emphasis — it stresses that the action truly happened or is true. This is the emphatic use of auxiliaries.",
+    "usage": [
+      {
+        "term": "Emphatic",
+        "desc": "I DO like chocolates. / He DID try his best."
+      }
+    ],
+    "examples": [
+      "✓ I do like chocolates! (emphasis)",
+      "✓ He did try his best. (past emphasis)",
+      "✓ She does study hard. (present emphasis)"
+    ],
+    "trick": "Add <strong>do/does/did</strong> to positive sentences for strong emphasis"
+  },
+  {
+    "num": 84,
+    "title": "Used To vs. Be Used To",
+    "cat": "tenses",
+    "explain": "<b>Used to</b> describes a past habit that no longer continues. <b>Be used to</b> means to be accustomed to something (comfortable with it now, in the present).",
+    "usage": [
+      {
+        "term": "Used to",
+        "desc": "Past habit no longer true — Used to + base verb."
+      },
+      {
+        "term": "Be used to",
+        "desc": "Accustomed to now — be + used to + verb-ing/noun."
+      }
+    ],
+    "examples": [
+      "✓ I used to play cricket. (past habit, now stopped)",
+      "✓ I am used to getting up early. (accustomed now)",
+      "✓ I'm used to waking early."
+    ],
+    "trick": "<strong>Used to</strong> = Past habit | <strong>Be used to</strong> = Comfortable now"
+  },
+  {
+    "num": 85,
+    "title": "Neither of / Either of / Both of",
+    "cat": "agreement",
+    "explain": "Verb rules for these three: 'Neither of' and 'Either of' take singular verbs. 'Both of' takes a plural verb.",
+    "usage": [
+      {
+        "term": "Neither of",
+        "desc": "Singular verb — Neither of the boys has come."
+      },
+      {
+        "term": "Either of",
+        "desc": "Singular verb — Either of the answers is correct."
+      },
+      {
+        "term": "Both of",
+        "desc": "Plural verb — Both of them are ready."
+      }
+    ],
+    "examples": [
+      "✓ Neither of the boys has come.",
+      "✓ Either of the answers is correct.",
+      "✓ Both of them are ready."
+    ],
+    "trick": "<strong>Neither/Either of</strong> = singular | <strong>Both of</strong> = plural"
+  },
+  {
+    "num": 86,
+    "title": "If I Were / If He Were — Hypothetical",
+    "cat": "tenses",
+    "explain": "In hypothetical or imaginary conditionals (Type 2), use <b>were</b> for ALL subjects — not 'was', even for singular subjects like I, he, she.",
+    "usage": [
+      {
+        "term": "Rule",
+        "desc": "If + subject + were (for all persons — imaginary/unreal)"
+      }
+    ],
+    "examples": [
+      "✓ If I were you, I'd study more.",
+      "✓ If he were rich, he'd travel.",
+      "✓ He behaves as if he were a king.",
+      "✗ If I was you, I'd study more."
+    ],
+    "trick": "<strong>If + person + were</strong> = Imaginary (always 'were', not 'was')"
+  },
+  {
+    "num": 87,
+    "title": "By / Until / Till — Time Prepositions",
+    "cat": "prepositions",
+    "explain": "<b>By</b> means before or at a deadline. <b>Until/Till</b> means continuing up to a point in time. 'Until' and 'Till' mean the same thing.",
+    "usage": [
+      {
+        "term": "By",
+        "desc": "Deadline — before or at that time."
+      },
+      {
+        "term": "Until/Till",
+        "desc": "Ongoing — up to that moment."
+      }
+    ],
+    "examples": [
+      "✓ Finish it by Monday. (deadline)",
+      "✓ Wait until I come. (ongoing till that moment)",
+      "✗ I will wait by you come back."
+    ],
+    "trick": "<strong>By</strong> = Deadline | <strong>Until/Till</strong> = Ongoing till a point"
+  },
+  {
+    "num": 88,
+    "title": "Would Have + V3 — Unreal Past",
+    "cat": "tenses",
+    "explain": "<b>Would have + V3</b> is used in Type 3 conditionals (third conditional) to talk about unreal past situations — things that didn't happen but could have.",
+    "usage": [
+      {
+        "term": "Structure",
+        "desc": "If had + V3 → would have + V3"
+      }
+    ],
+    "examples": [
+      "✓ I would have helped you, but I was busy.",
+      "✓ She would have come if she had known.",
+      "✓ If I had worked hard, I would have passed."
+    ],
+    "trick": "<strong>Would have + V3</strong> = Imagined past / things that didn't happen"
+  },
+  {
+    "num": 89,
+    "title": "Not Only…But Also — Parallel (Review)",
+    "cat": "style",
+    "explain": "Review: 'Not only…but also' is a correlative pair requiring parallel structure. The grammatical form on both sides must match.",
+    "usage": [
+      {
+        "term": "Rule",
+        "desc": "Match grammar → verb:verb, noun:noun, adj:adj"
+      }
+    ],
+    "examples": [
+      "✓ Not only intelligent but also hardworking. (adj:adj)",
+      "✓ Not only does he dance, but he also sings.",
+      "✗ Not only he sings, but also dances."
+    ],
+    "trick": "Match grammar before/after → <strong>parallel structure</strong>"
+  },
+  {
+    "num": 90,
+    "title": "Much / Very Much / Too Much",
+    "cat": "style",
+    "explain": "Three related but distinct intensifiers: <b>Much</b> = quantity. <b>Very much</b> = strong emphasis (degree). <b>Too much</b> = excessive (a problem).",
+    "usage": [
+      {
+        "term": "Much",
+        "desc": "Quantity — There isn't much time."
+      },
+      {
+        "term": "Very much",
+        "desc": "Intensity — I like it very much."
+      },
+      {
+        "term": "Too much",
+        "desc": "Excessive (negative) — He ate too much food."
+      }
+    ],
+    "examples": [
+      "✓ He ate too much food.",
+      "✓ I like it very much.",
+      "✓ There isn't much time."
+    ],
+    "trick": "<strong>Much</strong> = Quantity | <strong>Very much</strong> = Intensity | <strong>Too much</strong> = Problem!"
+  },
+  {
+    "num": 91,
+    "title": "Hard vs. Hardly (Hindi Trick)",
+    "cat": "confusables",
+    "explain": "Final review with Hindi keywords: <b>Hard</b> = পরিশ্রম থেকে (with effort). <b>Hardly</b> = কঠিন থেকে / না এর সমান (barely/scarcely).",
+    "usage": [
+      {
+        "term": "Hard",
+        "desc": "With great effort — works hard, tries hard."
+      },
+      {
+        "term": "Hardly",
+        "desc": "Barely, almost not — hardly knows, hardly works."
+      }
+    ],
+    "examples": [
+      "✓ He works hard.",
+      "✓ I hardly know her.",
+      "✓ He hardly studies. (barely studies)"
+    ],
+    "trick": "<strong>Hard</strong> = পরিশ্রম থেকে | <strong>Hardly</strong> = কঠিন থেকে"
+  },
+  {
+    "num": 92,
+    "title": "So vs. Such (Review)",
+    "cat": "style",
+    "explain": "Review: <b>So</b> comes before adjectives/adverbs alone. <b>Such</b> comes before noun phrases (adjective + noun).",
+    "usage": [
+      {
+        "term": "So",
+        "desc": "So + adj/adverb — He is so smart."
+      },
+      {
+        "term": "Such",
+        "desc": "Such + (a/an) + adj + noun — It was such a good movie."
+      }
+    ],
+    "examples": [
+      "✓ He is so smart.",
+      "✓ It was such a good movie.",
+      "✓ She such a beautiful singer that she won.",
+      "✗ It was so a beautiful day."
+    ],
+    "trick": "<strong>So + smart</strong> | <strong>Such + a smart boy</strong>"
+  },
+  {
+    "num": 93,
+    "title": "Much / Many / A Lot Of",
+    "cat": "determiners",
+    "explain": "<b>Much</b> = uncountable. <b>Many</b> = countable. <b>A lot of</b> = works with BOTH countable and uncountable nouns. When unsure, use 'a lot of'.",
+    "usage": [
+      {
+        "term": "Much",
+        "desc": "Uncountable — much sugar, much water, much time."
+      },
+      {
+        "term": "Many",
+        "desc": "Countable — many students, many books, many cars."
+      },
+      {
+        "term": "A lot of",
+        "desc": "Both — a lot of money, a lot of students."
+      }
+    ],
+    "examples": [
+      "✓ Much sugar. ✓ Many students. ✓ A lot of money.",
+      "✓ There are a lot of people outside.",
+      "✗ How many sugar do you need?"
+    ],
+    "trick": "Not sure? Use <strong>A lot of</strong> — it works everywhere!"
+  },
+  {
+    "num": 94,
+    "title": "Even / Even Though / Even If",
+    "cat": "conjunctions",
+    "explain": "Three related phrases: <b>Even</b> = emphasis. <b>Even though</b> = surprising real fact. <b>Even if</b> = imaginary condition.",
+    "usage": [
+      {
+        "term": "Even",
+        "desc": "Emphasis — Even a child knows this."
+      },
+      {
+        "term": "Even though",
+        "desc": "Surprising reality — I came even though I was sick."
+      },
+      {
+        "term": "Even if",
+        "desc": "Imaginary condition — I'll go even if it rains."
+      }
+    ],
+    "examples": [
+      "✓ Even a child knows this.",
+      "✓ I came even though I was sick.",
+      "✓ I'll go even if it rains."
+    ],
+    "trick": "<strong>Even</strong> = Stress | <strong>Even though</strong> = Reality | <strong>Even if</strong> = Condition"
+  },
+  {
+    "num": 95,
+    "title": "Else / Other / Another",
+    "cat": "determiners",
+    "explain": "Three words that indicate 'something different': <b>Else</b> = different person/thing. <b>Other</b> = the remaining one(s). <b>Another</b> = one more of the same.",
+    "usage": [
+      {
+        "term": "Else",
+        "desc": "Different person/thing — someone else, somewhere else."
+      },
+      {
+        "term": "Other",
+        "desc": "The remaining — the other option, other students."
+      },
+      {
+        "term": "Another",
+        "desc": "One more — another pen, another day."
+      }
+    ],
+    "examples": [
+      "✓ Someone else called.",
+      "✓ The other option is better.",
+      "✓ Give me another pen."
+    ],
+    "trick": "<strong>Another</strong> = Extra one | <strong>Other</strong> = Different remaining | <strong>Else</strong> = Different person/thing"
+  },
+  {
+    "num": 96,
+    "title": "Hope vs. Wish",
+    "cat": "confusables",
+    "explain": "<b>Hope</b> is used for real, possible situations in the future. <b>Wish</b> is used for unreal, impossible, or regretful situations (contrary to fact).",
+    "usage": [
+      {
+        "term": "Hope",
+        "desc": "Real possibility — I hope you pass."
+      },
+      {
+        "term": "Wish",
+        "desc": "Unreal / impossible — I wish I were taller."
+      }
+    ],
+    "examples": [
+      "✓ I hope you pass. (it's possible)",
+      "✓ I wish I were taller. (I'm not, unreal)",
+      "✓ I wish I had studied harder. (regret about past)"
+    ],
+    "trick": "<strong>Hope</strong> = Future possible | <strong>Wish</strong> = Unreal / regret"
+  },
+  {
+    "num": 97,
+    "title": "Too vs. Enough",
+    "cat": "style",
+    "explain": "<b>Too</b> means more than required — excess, negative outcome. <b>Enough</b> means sufficient — just the right amount, positive outcome.",
+    "usage": [
+      {
+        "term": "Too",
+        "desc": "Excess — too + adjective + to + verb (can't do it)."
+      },
+      {
+        "term": "Enough",
+        "desc": "Sufficient — adjective + enough + to + verb (can do it)."
+      }
+    ],
+    "examples": [
+      "✓ He is too tired to work. (can't work)",
+      "✓ She is smart enough to win. (can win)",
+      "✓ He is strong enough to lift it."
+    ],
+    "trick": "<strong>Too</strong> = Extra (Problem!) | <strong>Enough</strong> = Just right (Good)"
+  },
+  {
+    "num": 98,
+    "title": "Gerunds vs. Infinitives — Verb Choice",
+    "cat": "style",
+    "explain": "Some verbs are always followed by gerunds, some by infinitives. Knowing which verb takes which form prevents common errors.",
+    "usage": [
+      {
+        "term": "Gerund after",
+        "desc": "enjoy, avoid, mind, suggest, finish, deny, consider."
+      },
+      {
+        "term": "Infinitive after",
+        "desc": "want, plan, hope, agree, refuse, decide, manage."
+      }
+    ],
+    "examples": [
+      "✓ I enjoy swimming. (enjoy + gerund)",
+      "✓ I want to swim. (want + infinitive)",
+      "✓ She suggested leaving early."
+    ],
+    "trick": "<strong>Enjoy/avoid/suggest</strong> → Gerund | <strong>Want/plan/hope</strong> → Infinitive"
+  },
+  {
+    "num": 99,
+    "title": "Due To vs. Because Of (Review)",
+    "cat": "prepositions",
+    "explain": "Final review: Both show reason, but 'Due to' is more formal and follows 'be' verbs. 'Because of' is used before the action in casual or direct causation.",
+    "usage": [
+      {
+        "term": "Due to",
+        "desc": "Formal — caused by (after is/was)."
+      },
+      {
+        "term": "Because of",
+        "desc": "Casual — reason (before action verb)."
+      }
+    ],
+    "examples": [
+      "✓ The flight was delayed due to rain.",
+      "✓ He failed because of laziness.",
+      "✗ He left due to he was sick."
+    ],
+    "trick": "<strong>'Due to'</strong> = Formal (after be verb) | <strong>'Because of'</strong> = Casual (reason)"
+  },
+  {
+    "num": 100,
+    "title": "Each Other vs. One Another (Final)",
+    "cat": "pronouns",
+    "explain": "Final review: The rule is clear and consistent. Always use 'each other' for two, 'one another' for three or more.",
+    "usage": [
+      {
+        "term": "Each other",
+        "desc": "2 people — mutual between two."
+      },
+      {
+        "term": "One another",
+        "desc": "3+ people — mutual in a group."
+      }
+    ],
+    "examples": [
+      "✓ Ram and Shyam help each other.",
+      "✓ Friends must support one another.",
+      "✗ The three boys fought each other."
+    ],
+    "trick": "<strong>2</strong> = Each other | <strong>3+</strong> = One another"
+  },
+  {
+    "num": 101,
+    "title": "Sometime / Sometimes / Some Time",
+    "cat": "confusables",
+    "explain": "Three different words, all pronounced similarly. Each has a distinct meaning: unspecified time, occasionally, or a period of time.",
+    "usage": [
+      {
+        "term": "Sometime",
+        "desc": "Unspecified/vague time — Let's meet sometime."
+      },
+      {
+        "term": "Sometimes",
+        "desc": "Occasionally — I sometimes eat out."
+      },
+      {
+        "term": "Some time",
+        "desc": "A period/duration — I need some time to think."
+      }
+    ],
+    "examples": [
+      "✓ Let's meet sometime next week.",
+      "✓ I sometimes eat out.",
+      "✓ I need some time to think."
+    ],
+    "trick": "<strong>Sometime</strong> = কখন? | <strong>Sometimes</strong> = মাঝে মাঝে | <strong>Some time</strong> = সামান্য সময়"
+  },
+  {
+    "num": 102,
+    "title": "Since vs. From (Review)",
+    "cat": "prepositions",
+    "explain": "Review: <b>Since</b> marks a point in the past and is used with perfect tenses. <b>From</b> marks a starting point and needs a paired 'to/till/until'.",
+    "usage": [
+      {
+        "term": "Since",
+        "desc": "Past point → to now — with have/has/had."
+      },
+      {
+        "term": "From",
+        "desc": "Start point + end — from 9 to 5, from Monday to Friday."
+      }
+    ],
+    "examples": [
+      "✓ I have lived here since 2010.",
+      "✓ I worked from 9 AM to 5 PM.",
+      "✗ I've been here from Monday."
+    ],
+    "trick": "<strong>Since</strong> = Past → Now (with perfect tense) | <strong>From</strong> = Start + end time"
+  },
+  {
+    "num": 103,
+    "title": "All vs. Whole (Review)",
+    "cat": "determiners",
+    "explain": "Review: <b>All</b> is used with plural or uncountable nouns. <b>Whole</b> is used with a singular countable noun to mean 'entire/complete'.",
+    "usage": [
+      {
+        "term": "All",
+        "desc": "Plural or total — all the apples, all the people."
+      },
+      {
+        "term": "Whole",
+        "desc": "One complete unit — the whole apple, the whole day."
+      }
+    ],
+    "examples": [
+      "✓ I ate all the apples.",
+      "✓ I ate the whole apple.",
+      "✓ All the students passed."
+    ],
+    "trick": "<strong>Whole</strong> = One complete item | <strong>All</strong> = Many or the total"
+  },
+  {
+    "num": 104,
+    "title": "Hardly / Barely / Scarcely — Negative Adverbs",
+    "cat": "style",
+    "explain": "All three mean 'almost not' and carry negative meaning. Never combine them with other negatives (not, no, never) — it creates double negatives.",
+    "usage": [
+      {
+        "term": "Hardly",
+        "desc": "Almost not — I could hardly walk."
+      },
+      {
+        "term": "Barely",
+        "desc": "Almost not — He barely passed."
+      },
+      {
+        "term": "Scarcely",
+        "desc": "Almost not — We scarcely met."
+      }
+    ],
+    "examples": [
+      "✓ I could hardly walk.",
+      "✓ He barely passed the exam.",
+      "✓ We scarcely met.",
+      "✗ I couldn't hardly walk. (double negative)"
+    ],
+    "trick": "All three = Negative → <strong>avoid double negatives</strong> with them"
+  },
+  {
+    "num": 105,
+    "title": "That vs. Which — Essential vs. Extra Info",
+    "cat": "pronouns",
+    "explain": "<b>That</b> introduces essential (defining) information — removing it changes the meaning. <b>Which</b> introduces extra (non-defining) information — set off by commas.",
+    "usage": [
+      {
+        "term": "That",
+        "desc": "Essential info — no commas. The car that I bought is red."
+      },
+      {
+        "term": "Which",
+        "desc": "Extra info — with commas. The car, which I bought last year, is red."
+      }
+    ],
+    "examples": [
+      "✓ The car that I bought is red. (essential — which car)",
+      "✓ The car, which I bought last year, is red. (extra info)",
+      "✗ The car which I bought is red. (no comma — should be 'that')"
+    ],
+    "trick": "<strong>That</strong> = Essential (no comma) | <strong>Which</strong> = Extra (use comma)"
+  },
+  {
+    "num": 106,
+    "title": "Yet / Still / Already",
+    "cat": "style",
+    "explain": "Three time adverbs often confused: <b>Still</b> = something continuing. <b>Yet</b> = something not happened (in questions/negatives). <b>Already</b> = something happened before expected.",
+    "usage": [
+      {
+        "term": "Still",
+        "desc": "Continuing — She is still sleeping."
+      },
+      {
+        "term": "Yet",
+        "desc": "Not happened (questions/negatives) — Have you eaten yet?"
+      },
+      {
+        "term": "Already",
+        "desc": "Happened before expected — I've already done it."
+      }
+    ],
+    "examples": [
+      "✓ She is still sleeping.",
+      "✓ Have you eaten yet?",
+      "✓ I've already done it.",
+      "✓ He hasn't arrived yet."
+    ],
+    "trick": "<strong>Still</strong> = এখনো ও | <strong>Yet</strong> = এখন পর্যন্ত না | <strong>Already</strong> = আগে থেকে হয় গেছে"
+  },
+  {
+    "num": 107,
+    "title": "Few / Less / Several",
+    "cat": "determiners",
+    "explain": "Three quantity words: <b>Few</b> = countable (negative tone). <b>Several</b> = countable (more than a few, neutral/positive). <b>Less</b> = uncountable.",
+    "usage": [
+      {
+        "term": "Few",
+        "desc": "Countable, negative — Few people came."
+      },
+      {
+        "term": "Several",
+        "desc": "Countable, more than few — Several students passed."
+      },
+      {
+        "term": "Less",
+        "desc": "Uncountable — Less water is left."
+      }
+    ],
+    "examples": [
+      "✓ Few people came. (almost none)",
+      "✓ Several students passed. (more than a few)",
+      "✓ Less water is left."
+    ],
+    "trick": "<strong>Few < Several</strong> (in amount) | <strong>Less</strong> = Can't count"
+  },
+  {
+    "num": 108,
+    "title": "Whoever vs. Whomever",
+    "cat": "pronouns",
+    "explain": "<b>Whoever</b> is the subject form. <b>Whomever</b> is the object form. Apply the He/Him test: if 'He' fits, use Whoever; if 'Him' fits, use Whomever.",
+    "usage": [
+      {
+        "term": "Whoever",
+        "desc": "Subject (He) — Whoever comes is welcome."
+      },
+      {
+        "term": "Whomever",
+        "desc": "Object (Him) — Invite whomever you want."
+      }
+    ],
+    "examples": [
+      "✓ Whoever comes is welcome. (He comes = Whoever)",
+      "✓ Invite whomever you want. (You want him = Whomever)"
+    ],
+    "trick": "<strong>He = Whoever</strong> | <strong>Him = Whomever</strong>"
+  },
+  {
+    "num": 109,
+    "title": "When / While / As — Time Conjunctions",
+    "cat": "conjunctions",
+    "explain": "Three time conjunctions: <b>When</b> = single/specific action, <b>While</b> = two ongoing parallel actions, <b>As</b> = simultaneous actions (often cause-and-effect).",
+    "usage": [
+      {
+        "term": "When",
+        "desc": "Specific moment — I was sleeping when he called."
+      },
+      {
+        "term": "While",
+        "desc": "Parallel ongoing — I was cooking while she was studying."
+      },
+      {
+        "term": "As",
+        "desc": "Simultaneous — As I walked in, she left."
+      }
+    ],
+    "examples": [
+      "✓ I was sleeping when he called.",
+      "✓ I was cooking while she was studying.",
+      "✓ As I walked in, she left."
+    ],
+    "trick": "<strong>When</strong> = One event | <strong>While</strong> = Parallel actions | <strong>As</strong> = Simultaneous"
+  },
+  {
+    "num": 110,
+    "title": "At / In / On — Time Prepositions",
+    "cat": "prepositions",
+    "explain": "The three main time prepositions: <b>At</b> for exact times, <b>On</b> for days and dates, <b>In</b> for months, years, seasons, and longer periods.",
+    "usage": [
+      {
+        "term": "At",
+        "desc": "Exact time — at 5 PM, at noon, at midnight."
+      },
+      {
+        "term": "On",
+        "desc": "Days and dates — on Monday, on 15th August."
+      },
+      {
+        "term": "In",
+        "desc": "Months, years, seasons — in March, in 2024, in winter."
+      }
+    ],
+    "examples": [
+      "✓ At 5 PM. ✓ On Monday. ✓ In March.",
+      "✓ I was born in 1999.",
+      "✓ The train arrives at 8 AM on Friday."
+    ],
+    "trick": "<strong>At</strong> = Clock | <strong>On</strong> = Day/Date | <strong>In</strong> = Month/Year/Period"
+  },
+  {
+    "num": 111,
+    "title": "Suppose / Provided / Unless — Conditionals",
+    "cat": "conjunctions",
+    "explain": "These words all introduce conditions: <b>Suppose/Supposing</b> = imagine this, <b>Provided/Providing</b> = only if, <b>Unless</b> = if not.",
+    "usage": [
+      {
+        "term": "Suppose",
+        "desc": "Imagine a condition — Suppose he comes late, what will you do?"
+      },
+      {
+        "term": "Provided",
+        "desc": "Only if — Provided you work hard, you'll pass."
+      },
+      {
+        "term": "Unless",
+        "desc": "If not — You won't pass unless you study."
+      }
+    ],
+    "examples": [
+      "✓ Suppose he comes late, what will you do?",
+      "✓ Provided you work hard, you'll pass.",
+      "✓ You won't pass unless you study."
+    ],
+    "trick": "<strong>Suppose</strong> = Imagine | <strong>Provided</strong> = Only if | <strong>Unless</strong> = If not"
+  },
+  {
+    "num": 112,
+    "title": "Much Too vs. Too Much (Review)",
+    "cat": "style",
+    "explain": "Review: <b>Much too</b> comes before adjectives/adverbs. <b>Too much</b> comes before nouns. Position determines which to use.",
+    "usage": [
+      {
+        "term": "Much too",
+        "desc": "Before adjective/adverb — He is much too lazy."
+      },
+      {
+        "term": "Too much",
+        "desc": "Before noun — I ate too much food."
+      }
+    ],
+    "examples": [
+      "✓ He is much too lazy.",
+      "✓ I ate too much food.",
+      "✗ He is too much lazy."
+    ],
+    "trick": "<strong>Much too + Adj</strong> | <strong>Too much + Noun</strong>"
+  },
+  {
+    "num": 113,
+    "title": "So That / In Order That (Review)",
+    "cat": "conjunctions",
+    "explain": "Review: Both mean 'for the purpose of'. Always follow with a modal verb (can, could, may, might) and then the base verb.",
+    "usage": [
+      {
+        "term": "Structure",
+        "desc": "So that / In order that + subject + modal (can/may/could/might) + verb"
+      }
+    ],
+    "examples": [
+      "✓ I studied so that I could pass.",
+      "✓ She left early in order that she might catch the train.",
+      "✓ He works hard so that he can succeed."
+    ],
+    "trick": "Use modal <strong>can/could/may/might</strong> after 'so that/in order that'"
+  },
+  {
+    "num": 114,
+    "title": "In Case vs. If",
+    "cat": "conjunctions",
+    "explain": "<b>In case</b> = taking precaution against something that might happen. <b>If</b> = a condition — something happens BECAUSE of something else.",
+    "usage": [
+      {
+        "term": "In case",
+        "desc": "Precaution — take umbrella in case it rains (it might)."
+      },
+      {
+        "term": "If",
+        "desc": "Condition — I'll go if he comes (only then)."
+      }
+    ],
+    "examples": [
+      "✓ Take an umbrella in case it rains. (precaution)",
+      "✓ I'll go if he comes. (condition)",
+      "✗ I'll take an umbrella if it may rain."
+    ],
+    "trick": "<strong>In case</strong> = Precaution | <strong>If</strong> = Possibility/Condition"
+  },
+  {
+    "num": 115,
+    "title": "As If / As Though (Review)",
+    "cat": "conjunctions",
+    "explain": "Review: Both 'as if' and 'as though' are used for unreal/imaginative situations. They are interchangeable and always followed by past tense.",
+    "usage": [
+      {
+        "term": "As if / As though",
+        "desc": "Unreal/imaginative + past tense"
+      }
+    ],
+    "examples": [
+      "✓ He talks as if he were a king.",
+      "✓ She smiled as though nothing had happened.",
+      "✗ He acts as if he is the boss."
+    ],
+    "trick": "Use <strong>past tense</strong> after 'as if / as though' for unreal things"
+  },
+  {
+    "num": 116,
+    "title": "Had Better / Would Rather (Review)",
+    "cat": "modals",
+    "explain": "Review: <b>Had better</b> gives strong advice or warning (there will be a consequence). <b>Would rather</b> expresses preference between two choices.",
+    "usage": [
+      {
+        "term": "Had better",
+        "desc": "Strong warning/advice — You had better study now."
+      },
+      {
+        "term": "Would rather",
+        "desc": "Preference — I would rather sleep than work."
+      }
+    ],
+    "examples": [
+      "✓ You had better study now. (warning)",
+      "✓ I would rather stay home than go out. (preference)",
+      "✗ He had better don't go now."
+    ],
+    "trick": "<strong>Had better</strong> = Warning | <strong>Would rather</strong> = Choice"
+  },
+  {
+    "num": 117,
+    "title": "Because vs. So — Not Together!",
+    "cat": "conjunctions",
+    "explain": "Never use 'because' and 'so' in the same sentence — they both show cause and result. Use one or the other, not both, as it creates a redundant double connector.",
+    "usage": [
+      {
+        "term": "Wrong",
+        "desc": "He was tired because he was ill, so he slept."
+      },
+      {
+        "term": "Correct",
+        "desc": "He was tired because he was ill. OR: He was ill, so he slept."
+      }
+    ],
+    "examples": [
+      "✓ He was tired because he was ill.",
+      "✓ He was ill, so he slept.",
+      "✗ He was tired because he was ill, so he slept."
+    ],
+    "trick": "Use either <strong>Because</strong> OR <strong>So</strong> — NEVER both in one sentence!"
+  },
+  {
+    "num": 118,
+    "title": "No Sooner…Than / Hardly…When (Review)",
+    "cat": "tenses",
+    "explain": "Review: Two quick actions in rapid succession. 'No sooner' pairs with 'than'; 'Hardly/Scarcely' pairs with 'when'. Both require subject-auxiliary inversion with 'had'.",
+    "usage": [
+      {
+        "term": "No sooner…than",
+        "desc": "No sooner had + subject + V3 + than + V2"
+      },
+      {
+        "term": "Hardly…when",
+        "desc": "Hardly had + subject + V3 + when + V2"
+      }
+    ],
+    "examples": [
+      "✓ No sooner had he come than it rained.",
+      "✓ Hardly had I slept when the phone rang.",
+      "✗ Hardly had he arrived than it started."
+    ],
+    "trick": "<strong>No sooner → than</strong> | <strong>Hardly → when</strong> (inversion with 'had')"
+  },
+  {
+    "num": 119,
+    "title": "Each Other vs. One Another (Three-Peat)",
+    "cat": "pronouns",
+    "explain": "One more review to cement the rule: 'Each other' is strictly for two. 'One another' is for three or more. This is a common exam question.",
+    "usage": [
+      {
+        "term": "Each other",
+        "desc": "2 people — Ram and Shyam respect each other."
+      },
+      {
+        "term": "One another",
+        "desc": "3+ people — We should all help one another."
+      }
+    ],
+    "examples": [
+      "✓ Ram and Shyam respect each other.",
+      "✓ We should all help one another.",
+      "✗ The three friends fought each other."
+    ],
+    "trick": "<strong>Each other = 2</strong> | <strong>One another = 3+</strong>"
+  },
+  {
+    "num": 120,
+    "title": "Emphatic Pronouns",
+    "cat": "pronouns",
+    "explain": "<b>Emphatic pronouns</b> (myself, yourself, himself, herself, ourselves, themselves) are used after the subject to add emphasis and stress. They are NOT reflexive here — they emphasize, not reflect the action.",
+    "usage": [
+      {
+        "term": "Emphatic",
+        "desc": "I myself, she herself, he himself — used after subject for stress."
+      },
+      {
+        "term": "Reflexive",
+        "desc": "She hurt herself — the subject receives the action."
+      }
+    ],
+    "examples": [
+      "✓ I myself completed the work. (emphasis)",
+      "✓ She herself cooked the food.",
+      "✓ The principal himself took the class.",
+      "✗ I myself was hurt. (reflexive, not emphatic)"
+    ],
+    "trick": "Emphatic pronouns come <strong>after the subject</strong> to add stress — not as an object"
+  }
+]

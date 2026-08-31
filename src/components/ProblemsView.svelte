@@ -14,6 +14,8 @@
     { key: 'root', label: 'Root Words', itemType: 'root' },
     { key: 'grammar-rule', label: 'Grammar Rules', itemType: 'grammar-rule' },
     { key: 'grammar-mcq', label: 'Grammar MCQs', itemType: 'grammar-mcq' },
+    { key: 'manisha-rule', label: 'Manisha Rules', itemType: 'manisha-rule' },
+    { key: 'manisha-mcq', label: 'Manisha MCQs', itemType: 'manisha-mcq' },
     { key: 'narration', label: 'Narration', itemType: 'narration' },
     { key: 'voice', label: 'Voice', itemType: 'voice' },
   ];
@@ -60,6 +62,8 @@
     if (it.item_type === 'root') return `/roots`;
     if (it.item_type === 'grammar-rule') return `/grammar-rules`;
     if (it.item_type === 'grammar-mcq') return `/grammar-rules`;
+    if (it.item_type === 'manisha-rule') return `/manisha-bansal`;
+    if (it.item_type === 'manisha-mcq') return `/manisha-mcq`;
     if (it.item_type === 'narration') return `/narration`;
     if (it.item_type === 'voice') return `/voice`;
     return '/';

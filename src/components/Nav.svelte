@@ -1,17 +1,31 @@
 <script lang="ts">
   // src/components/Nav.svelte
-  // Site navigation with mobile hamburger menu.
-  // - Desktop (sm+): horizontal nav bar with all items
-  // - Mobile (<sm): hamburger button reveals a full dropdown with all items
+  // Site navigation with grouped submenus + mobile hamburger.
+  //
+  // Structure:
+  //   Home  |  Vocab ▾  |  Grammar ▾  |  Problems  |  Tests
+  //
+  // Vocab dropdown: Stems, Options, OWS, Idioms, Homonyms, Spelling, Roots
+  // Grammar dropdown: Grammar Rules, Manisha 120, Manisha MCQ, Narration, Voice
+  //
+  // Desktop (sm+): click to open dropdown, outside-click to close
+  // Mobile (<sm): hamburger reveals accordion with expandable sections
   import { onMount, onDestroy } from 'svelte';
 
   let { activeNav = 'home' }: { activeNav?: string } = $props();
 
   let mobileOpen = $state(false);
+  let expandedSection = $state<string | null>(null);  // 'vocab' | 'grammar' | null (mobile)
+  let openDropdown = $state<string | null>(null);      // 'vocab' | 'grammar' | null (desktop)
   let outsideClickUnsub: (() => void) | null = null;
 
-  const navItems = [
+  // Top-level nav items (standalone links)
+  const topLevel = [
     { key: 'home', href: '/', label: 'Home', icon: 'home' },
+  ] as const;
+
+  // Vocab submenu
+  const vocabItems = [
     { key: 'stems', href: '/stems', label: 'Stems', icon: 'stems' },
     { key: 'options', href: '/options', label: 'Options', icon: 'options' },
     { key: 'ows', href: '/ows', label: 'OWS', icon: 'ows' },
@@ -19,30 +33,52 @@
     { key: 'homonyms', href: '/homonyms', label: 'Homonyms', icon: 'homonym' },
     { key: 'spelling', href: '/spelling', label: 'Spelling', icon: 'spelling' },
     { key: 'roots', href: '/roots', label: 'Roots', icon: 'roots' },
+  ] as const;
+
+  // Grammar submenu
+  const grammarItems = [
     { key: 'grammar-rules', href: '/grammar-rules', label: 'Grammar Rules', icon: 'grammar' },
     { key: 'manisha-bansal', href: '/manisha-bansal', label: 'Manisha 120', icon: 'manisha' },
     { key: 'manisha-mcq', href: '/manisha-mcq', label: 'Manisha MCQ', icon: 'manisha' },
     { key: 'narration', href: '/narration', label: 'Narration', icon: 'narration' },
     { key: 'voice', href: '/voice', label: 'Voice', icon: 'voice' },
+  ] as const;
+
+  // Standalone right-side items
+  const standaloneItems = [
     { key: 'problems', href: '/problems', label: 'Problems', icon: 'problems' },
     { key: 'tests', href: '/tests', label: 'Tests', icon: 'tests' },
   ] as const;
 
-  function toggleMobile() {
-    mobileOpen = !mobileOpen;
+  // Check if any item in a submenu is active (for highlighting the parent)
+  function isSectionActive(items: readonly { key: string }[]): boolean {
+    return items.some(i => i.key === activeNav);
+  }
+
+  function toggleDropdown(name: string) {
+    openDropdown = openDropdown === name ? null : name;
+  }
+  function toggleMobileSection(name: string) {
+    expandedSection = expandedSection === name ? null : name;
   }
   function closeMobile() {
     mobileOpen = false;
+    expandedSection = null;
+  }
+  function closeAll() {
+    openDropdown = null;
+    mobileOpen = false;
+    expandedSection = null;
   }
 
   function handleOutsideClick(e: MouseEvent) {
     const target = e.target as HTMLElement;
     if (target && !target.closest('#nav-container')) {
-      closeMobile();
+      closeAll();
     }
   }
   function handleEscape(e: KeyboardEvent) {
-    if (e.key === 'Escape') closeMobile();
+    if (e.key === 'Escape') closeAll();
   }
 
   onMount(() => {
@@ -55,7 +91,7 @@
   });
   onDestroy(() => { outsideClickUnsub?.(); });
 
-  // Icon SVG paths (reusable)
+  // Icon SVG paths
   const icons: Record<string, string> = {
     home: '<path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>',
     stems: '<path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/>',
@@ -71,13 +107,66 @@
     voice: '<path d="M3 12h4l3-9 4 18 3-9h4"/>',
     problems: '<path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>',
     tests: '<path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>',
+    vocab: '<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>',
+    chevron: '<path d="m6 9 6 6 6-6"/>',
   };
 </script>
 
 <div id="nav-container" class="relative">
-  <!-- Desktop nav (sm and up) -->
-  <nav class="hidden sm:flex items-center gap-0.5 text-sm overflow-x-auto max-w-full">
-    {#each navItems as item}
+  <!-- ==================== DESKTOP NAV (sm and up) ==================== -->
+  <nav class="hidden sm:flex items-center gap-0.5 text-sm">
+    <!-- Home -->
+    <a href="/" class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === 'home' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{@html icons.home}</svg>
+      <span>Home</span>
+    </a>
+
+    <!-- Vocab dropdown -->
+    <div class="relative">
+      <button
+        onclick={() => toggleDropdown('vocab')}
+        class={`flex items-center gap-1 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${isSectionActive(vocabItems) || openDropdown === 'vocab' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{@html icons.vocab}</svg>
+        <span>Vocab</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform {openDropdown === 'vocab' ? 'rotate-180' : ''}">{@html icons.chevron}</svg>
+      </button>
+      {#if openDropdown === 'vocab'}
+        <div class="absolute top-full left-0 mt-1 w-48 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-lg shadow-xl z-50 py-1">
+          {#each vocabItems as item}
+            <a href={item.href} onclick={closeAll} class={`flex items-center gap-2 px-3 py-2 text-sm hover:bg-zinc-50 dark:hover:bg-zinc-800 ${activeNav === item.key ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : ''}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-zinc-500 shrink-0">{@html icons[item.icon]}</svg>
+              <span>{item.label}</span>
+            </a>
+          {/each}
+        </div>
+      {/if}
+    </div>
+
+    <!-- Grammar dropdown -->
+    <div class="relative">
+      <button
+        onclick={() => toggleDropdown('grammar')}
+        class={`flex items-center gap-1 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${isSectionActive(grammarItems) || openDropdown === 'grammar' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{@html icons.grammar}</svg>
+        <span>Grammar</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform {openDropdown === 'grammar' ? 'rotate-180' : ''}">{@html icons.chevron}</svg>
+      </button>
+      {#if openDropdown === 'grammar'}
+        <div class="absolute top-full left-0 mt-1 w-48 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-lg shadow-xl z-50 py-1">
+          {#each grammarItems as item}
+            <a href={item.href} onclick={closeAll} class={`flex items-center gap-2 px-3 py-2 text-sm hover:bg-zinc-50 dark:hover:bg-zinc-800 ${activeNav === item.key ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : ''}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-zinc-500 shrink-0">{@html icons[item.icon]}</svg>
+              <span>{item.label}</span>
+            </a>
+          {/each}
+        </div>
+      {/if}
+    </div>
+
+    <!-- Standalone items -->
+    {#each standaloneItems as item}
       <a href={item.href} class={`flex items-center gap-1.5 h-8 px-2.5 rounded-md whitespace-nowrap text-xs sm:text-sm ${activeNav === item.key ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : 'hover:bg-zinc-50 dark:hover:bg-zinc-800'}`}>
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{@html icons[item.icon]}</svg>
         <span>{item.label}</span>
@@ -85,9 +174,9 @@
     {/each}
   </nav>
 
-  <!-- Mobile hamburger button (< sm) -->
+  <!-- ==================== MOBILE HAMBURGER (< sm) ==================== -->
   <button
-    onclick={toggleMobile}
+    onclick={() => { mobileOpen = !mobileOpen; if (!mobileOpen) expandedSection = null; }}
     class="sm:hidden flex items-center gap-1.5 h-9 px-3 rounded-md border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-sm font-medium"
     aria-label="Toggle menu"
     aria-expanded={mobileOpen}
@@ -100,19 +189,68 @@
     <span>Menu</span>
   </button>
 
-  <!-- Mobile dropdown — z-50 to stay above all page content -->
+  <!-- Mobile dropdown — accordion with expandable sections -->
   {#if mobileOpen}
-    <div class="sm:hidden absolute top-full right-0 mt-1 w-64 max-w-[calc(100vw-2rem)] bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-lg shadow-xl z-50 py-1 max-h-[80vh] overflow-y-auto">
-      {#each navItems as item}
-        <a
-          href={item.href}
-          onclick={closeMobile}
-          class={`flex items-center gap-2.5 px-3 py-2 text-sm hover:bg-zinc-50 dark:hover:bg-zinc-800 ${activeNav === item.key ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : ''}`}
+    <div class="sm:hidden absolute top-full right-0 mt-1 w-72 max-w-[calc(100vw-2rem)] bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-lg shadow-xl z-50 py-1 max-h-[85vh] overflow-y-auto">
+      <!-- Home -->
+      <a href="/" onclick={closeMobile} class={`flex items-center gap-2.5 px-3 py-2.5 text-sm hover:bg-zinc-50 dark:hover:bg-zinc-800 ${activeNav === 'home' ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : ''}`}>
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-zinc-500 shrink-0">{@html icons.home}</svg>
+        <span>Home</span>
+      </a>
+
+      <!-- Vocab section (expandable) -->
+      <div class="border-t border-zinc-100 dark:border-zinc-800">
+        <button
+          onclick={() => toggleMobileSection('vocab')}
+          class={`w-full flex items-center gap-2.5 px-3 py-2.5 text-sm hover:bg-zinc-50 dark:hover:bg-zinc-800 ${isSectionActive(vocabItems) ? 'font-medium' : ''}`}
         >
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-zinc-500 shrink-0">{@html icons[item.icon]}</svg>
-          <span>{item.label}</span>
-        </a>
-      {/each}
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-zinc-500 shrink-0">{@html icons.vocab}</svg>
+          <span class="flex-1 text-left">Vocab</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform {expandedSection === 'vocab' ? 'rotate-180' : ''}">{@html icons.chevron}</svg>
+        </button>
+        {#if expandedSection === 'vocab'}
+          <div class="bg-zinc-50 dark:bg-zinc-800/30">
+            {#each vocabItems as item}
+              <a href={item.href} onclick={closeMobile} class={`flex items-center gap-2.5 pl-8 pr-3 py-2 text-sm hover:bg-zinc-100 dark:hover:bg-zinc-800 ${activeNav === item.key ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : ''}`}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-zinc-400 shrink-0">{@html icons[item.icon]}</svg>
+                <span>{item.label}</span>
+              </a>
+            {/each}
+          </div>
+        {/if}
+      </div>
+
+      <!-- Grammar section (expandable) -->
+      <div class="border-t border-zinc-100 dark:border-zinc-800">
+        <button
+          onclick={() => toggleMobileSection('grammar')}
+          class={`w-full flex items-center gap-2.5 px-3 py-2.5 text-sm hover:bg-zinc-50 dark:hover:bg-zinc-800 ${isSectionActive(grammarItems) ? 'font-medium' : ''}`}
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-zinc-500 shrink-0">{@html icons.grammar}</svg>
+          <span class="flex-1 text-left">Grammar</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform {expandedSection === 'grammar' ? 'rotate-180' : ''}">{@html icons.chevron}</svg>
+        </button>
+        {#if expandedSection === 'grammar'}
+          <div class="bg-zinc-50 dark:bg-zinc-800/30">
+            {#each grammarItems as item}
+              <a href={item.href} onclick={closeMobile} class={`flex items-center gap-2.5 pl-8 pr-3 py-2 text-sm hover:bg-zinc-100 dark:hover:bg-zinc-800 ${activeNav === item.key ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : ''}`}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-zinc-400 shrink-0">{@html icons[item.icon]}</svg>
+                <span>{item.label}</span>
+              </a>
+            {/each}
+          </div>
+        {/if}
+      </div>
+
+      <!-- Standalone items -->
+      <div class="border-t border-zinc-100 dark:border-zinc-800">
+        {#each standaloneItems as item}
+          <a href={item.href} onclick={closeMobile} class={`flex items-center gap-2.5 px-3 py-2.5 text-sm hover:bg-zinc-50 dark:hover:bg-zinc-800 ${activeNav === item.key ? 'bg-zinc-100 dark:bg-zinc-800 font-medium' : ''}`}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-zinc-500 shrink-0">{@html icons[item.icon]}</svg>
+            <span>{item.label}</span>
+          </a>
+        {/each}
+      </div>
     </div>
   {/if}
 </div>

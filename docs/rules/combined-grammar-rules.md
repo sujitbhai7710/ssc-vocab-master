@@ -1,12 +1,11 @@
-# Combined Grammar Rules — Merged from 3 Sources
+# Combined Grammar Rules — Merged from 3 Sources (Deduplicated)
 
 A single deduplicated list following **Rani Ma'am's 60-rule order** as the backbone, 
 with matching rules from **Aman Sir (100)** and **Manisha Bansal (120)** merged in 
 (concepts rewritten to combine the best of each), then extra rules from Aman/Manisha 
-appended after rule 60. No rule is repeated; where two sources cover the same concept, 
-the explanations are merged into one clearer version.
+appended after rule 60. Duplicate rules have been removed — no two rules teach the same concept.
 
-**Total: 167 rules** (60 backbone + 107 extra)
+**Total: 155 unique rules** (was 167; 12 duplicates removed)
 
 ---
 
@@ -1990,23 +1989,7 @@ General truths, scientific facts, proverbs and habitual actions are always expre
 - ✓ Our teacher said that the earth revolves around the sun.
 
 
-## Rule 101: Stative Verbs Take No "-ing" Form
-
-**Topic:** Verbs / Tenses
-
-**Sources:** Rahul Gupta
-
-
-Verbs describing mental states, emotions, senses or possession are normally not used in the continuous form. Common examples are know, understand, believe, remember, love, hate, want, own, belong, possess and contain. So write 'I know the answer' and 'This book belongs to me', not 'I am knowing' or 'is belonging'. A few of these verbs change meaning and do allow '-ing' (such as 'I am thinking about it' or 'She is having lunch'), but in SSC error-spotting the continuous form of a stative verb is almost always the mistake.
-
-
-**Examples**
-
-- ✗ I am knowing the answer.
-- ✓ I know the answer.
-
-
-## Rule 102: No Balancing Word After "As soon as"
+## Rule 101: No Balancing Word After "As soon as"
 
 **Topic:** Conjunctions
 
@@ -2022,7 +2005,7 @@ The phrase 'As soon as' needs no correlative word to complete it, so never add '
 - ✓ As soon as the thief saw the police, he ran away.
 
 
-## Rule 103: Although / Though Pairs with "Yet", Not "But"
+## Rule 102: Although / Though Pairs with "Yet", Not "But"
 
 **Topic:** Conjunction Connectors
 
@@ -2038,7 +2021,7 @@ The phrase 'As soon as' needs no correlative word to complete it, so never add '
 - ✓ Although he worked hard, yet he failed. / Although he worked hard, he failed.
 
 
-## Rule 104: Died of vs. Died from
+## Rule 103: Died of vs. Died from
 
 **Topic:** Preposition Mastery
 
@@ -2053,7 +2036,7 @@ Use 'died of' when the cause is internal to the body, such as a disease, hunger,
 - He died of cholera.
 
 
-## Rule 105: Angry with vs. Angry at
+## Rule 104: Angry with vs. Angry at
 
 **Topic:** Preposition Mastery
 
@@ -2068,7 +2051,7 @@ Use 'angry with' when the anger is directed at a person, as in 'The teacher was 
 - I am angry with you, but I am angry at your behavior.
 
 
-## Rule 106: 'By the Time' Tense Structures
+## Rule 105: 'By the Time' Tense Structures
 
 **Topic:** Tense
 
@@ -2078,7 +2061,7 @@ Use 'angry with' when the anger is directed at a person, as in 'The teacher was 
 'By the time' links two actions and fixes the tense pattern of both clauses. For past situations, use Past Perfect in the main clause with Past Indefinite after 'by the time' (By the time we reached the station, the train had left). For future situations, use Future Perfect in the main clause with Present Indefinite after 'by the time' (By the time you arrive, I will have finished the work). Never use a future tense inside the 'by the time' clause itself. Remember the pair: had + V3 with past, will have + V3 with present.
 
 
-## Rule 107: Choosing Tense According to Sentence Meaning
+## Rule 106: Choosing Tense According to Sentence Meaning
 
 **Topic:** Tense
 
@@ -2088,7 +2071,7 @@ Use 'angry with' when the anger is directed at a person, as in 'The teacher was 
 Sometimes no fixed grammatical rule decides the tense; the meaning of the sentence does. Read the whole sentence and look for time markers, context clues, and the relationship between actions before selecting a tense. If one action clearly happened before another in the past, the earlier one takes Past Perfect; if a statement is a universal truth or habit, it takes Present Indefinite. In SSC error-spotting, an incorrect option often uses a tense that clashes with the logical time of the sentence.
 
 
-## Rule 108: Correlative Pairs: Such...As vs Such...That
+## Rule 107: Correlative Pairs: Such...As vs Such...That
 
 **Topic:** Conjunction
 
@@ -2098,7 +2081,7 @@ Sometimes no fixed grammatical rule decides the tense; the meaning of the senten
 'Such...as' is used when 'as' works as a relative pronoun standing for 'who' or 'which' (He is not such a fool as to believe you). 'Such...that' is used when 'that' works as a conjunction introducing a result clause (He is such a good boy that everyone likes him). So if a complete clause showing consequence follows, use 'that'; if a comparison or identification of kind follows, use 'as'. Mixing them up, as in 'such a good boy as everyone likes him', is a common SSC error.
 
 
-## Rule 109: Choosing the Right Conjunction by Meaning
+## Rule 108: Choosing the Right Conjunction by Meaning
 
 **Topic:** Conjunction
 
@@ -2108,7 +2091,7 @@ Sometimes no fixed grammatical rule decides the tense; the meaning of the senten
 Conjunctions must match the logical relationship between the clauses they join. Use 'as, because, since' for cause, 'so, therefore' for result, 'although, though, but, yet' for contrast, 'so that' for purpose, 'if, whether' for condition or doubt, and 'when, while' for time. Do not pair two conjunctions that do the same job, such as 'Although...but' or 'Because...so'. When solving questions, identify the relation first, then pick the single conjunction that expresses it.
 
 
-## Rule 110: Verbs That Take or Omit 'To' Before an Indirect Object
+## Rule 109: Verbs That Take or Omit 'To' Before an Indirect Object
 
 **Topic:** Preposition
 
@@ -2118,7 +2101,7 @@ Conjunctions must match the logical relationship between the clauses they join. 
 Some verbs take the person (indirect object) directly, without 'to': ask, beg, inform, advise, allow, call, assure, apprise, remind, warn, thank, wish, order, request, invite, forbid, welcome, congratulate, compliment. So write 'He informed me' and 'She thanked him', not 'informed to me'. Other verbs must have 'to' before the person: propose, announce, apologize, plead, talk, report, suggest, speak, listen, write, pray, complain, describe, explain, appeal. So write 'He explained the rule to me' and 'She apologized to her teacher'. Memorising the two lists solves most such SSC errors.
 
 
-## Rule 111: Separate Prepositions for Nouns Joined by 'And'
+## Rule 110: Separate Prepositions for Nouns Joined by 'And'
 
 **Topic:** Preposition
 
@@ -2128,7 +2111,7 @@ Some verbs take the person (indirect object) directly, without 'to': ask, beg, i
 When two nouns or adjectives are joined by 'and' but each demands a different preposition, you must supply both prepositions. Writing only one preposition for both is wrong, as in 'He is fond and afraid of dogs'. The correct form is 'He is fond of and afraid of dogs'. Only when both words take the same preposition may it be written once, as in 'He is fond of and devoted to music' being reduced only where genuinely identical.
 
 
-## Rule 112: Angry/Annoyed/Vexed/Disgusted + At vs With
+## Rule 111: Angry/Annoyed/Vexed/Disgusted + At vs With
 
 **Topic:** Preposition
 
@@ -2138,7 +2121,7 @@ When two nouns or adjectives are joined by 'and' but each demands a different pr
 With angry, annoyed, vexed, and disgusted, the choice of preposition depends on the object. Use 'at' when the cause is a thing, action, or situation (She was annoyed at his behaviour). Use 'with' when the object is a person (She was annoyed with her brother). So 'angry with the boy' but 'angry at his rudeness'. Confusing the two is a frequent SSC error-detection trap.
 
 
-## Rule 113: Prepositions with 'Supply'
+## Rule 112: Prepositions with 'Supply'
 
 **Topic:** Preposition
 
@@ -2148,7 +2131,7 @@ With angry, annoyed, vexed, and disgusted, the choice of preposition depends on 
 The verb 'supply' takes different prepositions depending on what follows it. Use 'supply something to somebody' when the thing comes first (They supply milk to the hostel). Use 'supply somebody with something' when the person comes first (They supply the hostel with milk). Use 'supply something for a purpose' to show the reason (Water was supplied for irrigation). Choose the pattern that matches the word order in the sentence.
 
 
-## Rule 114: Fixed Preposition Combinations
+## Rule 113: Fixed Preposition Combinations
 
 **Topic:** Preposition
 
@@ -2158,7 +2141,7 @@ The verb 'supply' takes different prepositions depending on what follows it. Use
 Certain words are always followed by one fixed preposition, and these must simply be memorised. Key examples are: accused of, cope with, dispose of, afraid of, and different from. So write 'He was accused of theft', 'She cannot cope with the pressure', and 'His view is different from mine'. Common wrong forms such as 'accused for', 'cope up with', or 'different than' are frequently tested in SSC papers.
 
 
-## Rule 115: Gender of Nouns (Masculine and Feminine Forms)
+## Rule 114: Gender of Nouns (Masculine and Feminine Forms)
 
 **Topic:** Nouns
 
@@ -2168,7 +2151,7 @@ Certain words are always followed by one fixed preposition, and these must simpl
 Many English nouns have paired masculine and feminine forms, such as actor/actress, lion/lioness, nephew/niece, and bridegroom/bride. Some pairs are formed by adding suffixes like -ess or -ine, while others are completely different words that must be memorised. A few nouns are common gender (teacher, doctor, cousin) and apply to both sexes, so no change is needed. In SSC questions you are usually asked to supply the correct pair-word, so watch for irregular pairs like drake/duck, gander/goose, and monk/nun.
 
 
-## Rule 116: Direct and Indirect Speech: Punctuation and Word Order
+## Rule 115: Direct and Indirect Speech: Punctuation and Word Order
 
 **Topic:** Narration
 
@@ -2178,7 +2161,7 @@ Many English nouns have paired masculine and feminine forms, such as actor/actre
 In direct speech the speaker's exact words are placed inside inverted commas, beginning with a capital letter, and separated from the reporting verb by a comma. The end punctuation (question mark, exclamation mark, or full stop) stays inside the quotation marks. When the sentence is turned into indirect speech, the inverted commas and comma are dropped, a conjunction such as that, if, or a wh-word is used, and tense, pronouns, and time words shift accordingly. Questions in indirect speech take statement word order, so 'Where are you going?' becomes 'He asked where I was going.'
 
 
-## Rule 117: Case of Pronouns (Objective Case After Verbs and Prepositions)
+## Rule 116: Case of Pronouns (Objective Case After Verbs and Prepositions)
 
 **Topic:** Pronouns
 
@@ -2188,7 +2171,7 @@ In direct speech the speaker's exact words are placed inside inverted commas, be
 A pronoun that works as the object of a verb or a preposition must take the objective form: me, us, him, her, them, whom. So we say 'She invited him and me,' not 'he and I,' because both pronouns receive the action of the verb. The subjective forms (I, we, he, she, they, who) are used only for the subject of a verb or after the verb 'to be' in formal usage. A quick test is to remove the other noun or pronoun from the pair and check which form still sounds correct.
 
 
-## Rule 118: Sentence Improvement and 'No Improvement' Options
+## Rule 117: Sentence Improvement and 'No Improvement' Options
 
 **Topic:** Sentence Improvement
 
@@ -2198,7 +2181,7 @@ A pronoun that works as the object of a verb or a preposition must take the obje
 In sentence improvement questions, a part of the sentence is underlined and you must choose the best replacement from the options. First check the underlined portion for errors of tense, subject-verb agreement, preposition, article, or word order; if it is already correct, the answer is 'No improvement' or 'No error'. Do not select an option merely because it sounds more elaborate, since the correct choice must be both grammatical and closest in meaning to the original. Rejecting a grammatically sound sentence is a common trap, so verify an actual rule is broken before changing anything.
 
 
-## Rule 119: One-Word Substitution
+## Rule 118: One-Word Substitution
 
 **Topic:** Vocabulary
 
@@ -2208,7 +2191,7 @@ In sentence improvement questions, a part of the sentence is underlined and you 
 One-word substitution asks you to replace a whole descriptive phrase with a single precise word, such as 'a person who loves books' becoming bibliophile. Many of these words are built from recognisable roots and suffixes: -cide means killing (homicide), -phobia means fear (acrophobia), -archy means rule (oligarchy), and -logy means study of (etymology). Learning these roots lets you decode unfamiliar options instead of guessing. Read the phrase carefully for small qualifiers like 'one who hates' versus 'one who loves', because options often differ only in that detail.
 
 
-## Rule 120: Meaning-Preserving Paraphrase and Substitution
+## Rule 119: Meaning-Preserving Paraphrase and Substitution
 
 **Topic:** Vocabulary
 
@@ -2218,7 +2201,7 @@ One-word substitution asks you to replace a whole descriptive phrase with a sing
 Some questions ask you to replace a word or phrase with another expression without changing the meaning of the sentence. The correct choice must match the original in meaning, grammatical form, and formality, so a verb is replaced by a verb and a noun phrase by a noun phrase. Test each option by reading it back into the full sentence to check that the sense and tone stay the same. Beware of options that are near-synonyms but shift the intensity or connotation, for example 'annoyed' in place of 'furious'.
 
 
-## Rule 121: Idioms and Phrases
+## Rule 120: Idioms and Phrases
 
 **Topic:** Idioms
 
@@ -2228,7 +2211,7 @@ Some questions ask you to replace a word or phrase with another expression witho
 An idiom is a fixed group of words whose meaning cannot be worked out from the individual words, as in 'to let the cat out of the bag', meaning to reveal a secret. Because the meaning is figurative, idioms must be learned as complete units and their wording cannot be altered. In the exam you are usually given an idiom in context and asked to choose its meaning, so use the surrounding sentence to eliminate literal interpretations. Options that simply restate the words in a literal sense are almost always wrong.
 
 
-## Rule 122: Phrasal Verbs
+## Rule 121: Phrasal Verbs
 
 **Topic:** Verbs
 
@@ -2238,7 +2221,7 @@ An idiom is a fixed group of words whose meaning cannot be worked out from the i
 A phrasal verb combines a verb with a preposition or adverb to create a new meaning, such as 'put off' (postpone), 'put up with' (tolerate), and 'put down' (suppress or insult). The same verb changes meaning entirely with each particle, so the particle must be chosen with care. Some phrasal verbs are separable ('turn the light off') while others must stay together ('look after the child'). Learn them in families grouped around one verb, and always check the sentence context to decide which particle fits.
 
 
-## Rule 123: Contextual Vocabulary and Collocation
+## Rule 122: Contextual Vocabulary and Collocation
 
 **Topic:** Vocabulary
 
@@ -2248,7 +2231,7 @@ A phrasal verb combines a verb with a preposition or adverb to create a new mean
 Collocations are word pairs that habitually go together in natural English, such as 'heavy rain', 'make a decision', 'strong tea', and 'keen interest'. Even when a synonym has the right dictionary meaning, it may be wrong because English does not combine those words, so 'do a decision' and 'powerful tea' are unacceptable. Fill-in-the-blank and cloze questions test this feel for habitual pairing along with the meaning demanded by the context. Read the whole sentence for clues about tone and register, then choose the option that both fits the meaning and sounds natural to a practised ear.
 
 
-## Rule 124: Idioms and Proverbs: Meaning
+## Rule 123: Idioms and Proverbs: Meaning
 
 **Topic:** Vocabulary
 
@@ -2258,7 +2241,7 @@ Collocations are word pairs that habitually go together in natural English, such
 An idiom is a fixed group of words whose meaning cannot be worked out from the individual words, while a proverb is a short saying that states a general truth. In SSC exams you are given an idiom in a sentence and must pick the option that best expresses its figurative sense. Never translate the words literally; recall the accepted meaning as a whole unit. Reading the surrounding sentence helps, because the tone of the sentence (praise, criticism, warning) usually matches the correct option. Regular memorisation of high-frequency idioms with example sentences is the fastest way to score here.
 
 
-## Rule 125: Contextually Appropriate Word Choice
+## Rule 124: Contextually Appropriate Word Choice
 
 **Topic:** Vocabulary
 
@@ -2268,17 +2251,7 @@ An idiom is a fixed group of words whose meaning cannot be worked out from the i
 Some questions give a blank in a sentence and several words that are all grammatically possible, so the answer depends on which word fits the meaning and tone of the context. Read the whole sentence first and identify signal clues such as contrast words, cause-effect markers, positive or negative tone, and the subject being described. Then test each option to see which one keeps the sentence logical and natural. Eliminate words that are too strong, too weak, or that belong to a different register. The best answer is the one a careful native writer would use in that exact situation.
 
 
-## Rule 126: One-Word Substitution
-
-**Topic:** Vocabulary
-
-**Sources:** PYQ
-
-
-One-word substitution asks you to replace a whole descriptive phrase with a single precise word, for example 'one who loves books' becomes 'bibliophile'. The skill relies on knowing common word-forming roots and suffixes such as -cide (killing), -phile (lover), -phobia (fear), -archy (rule) and -ology (study of). Break the given phrase into its key idea, then look for the option whose root matches that idea. Watch out for options that are close in meaning but describe a slightly different person, act, or place. Building a topic-wise list (people, fear, government, killing, places) makes recall much easier in the exam.
-
-
-## Rule 127: Collocations and Fixed Expressions
+## Rule 125: Collocations and Fixed Expressions
 
 **Topic:** Vocabulary
 
@@ -2288,27 +2261,7 @@ One-word substitution asks you to replace a whole descriptive phrase with a sing
 A collocation is a pair or group of words that habitually go together in English, such as 'heavy rain', 'make a decision', or 'keen interest'. These combinations are settled by usage, not by grammar rules, so a technically correct synonym can still sound wrong ('strong rain' is unacceptable). In such questions, look at the fixed partner word in the sentence and choose the option that naturally pairs with it. Pay special attention to verb + noun, adjective + noun, and preposition-based combinations. Learning collocations in chunks rather than as single words is the most reliable preparation.
 
 
-## Rule 128: Phrasal Verbs
-
-**Topic:** Vocabulary
-
-**Sources:** PYQ
-
-
-A phrasal verb combines a verb with a preposition or adverb to create a new meaning, as in 'call off' (cancel) or 'break down' (stop functioning). The same base verb changes meaning completely with different particles, so 'come by' (obtain), 'come across' (meet by chance) and 'come round' (regain consciousness) are unrelated in sense. Questions ask you either to replace a phrasal verb with its meaning or to fill in the correct particle. Study them grouped by base verb (come, break, call, put, take, get) so the contrasts stay clear. Always confirm your choice by reading it back in the sentence to check that the meaning holds.
-
-
-## Rule 129: Collective Nouns
-
-**Topic:** Nouns
-
-**Sources:** PYQ
-
-
-A collective noun names a group of people, animals, or things taken as a single unit, such as a 'herd' of cattle, a 'flock' of birds, or a 'bunch' of keys. Each collective noun is tied by convention to particular members, so the correct answer depends on what is being grouped rather than on general logic. Identify the noun after 'of' in the question and recall the specific group word used for it. Note that some collectives apply only to animals, others only to people or objects. In terms of agreement, a collective noun takes a singular verb when the group acts as one and a plural verb when members act individually.
-
-
-## Rule 130: Commonly Confused and Similar-Sounding Words
+## Rule 126: Commonly Confused and Similar-Sounding Words
 
 **Topic:** Vocabulary
 
@@ -2318,7 +2271,7 @@ A collective noun names a group of people, animals, or things taken as a single 
 Many English words look or sound alike but differ in meaning, such as 'affect/effect', 'principal/principle', 'stationary/stationery' and 'complement/compliment'. Questions test whether you can pick the correct member of such a pair for the given sentence or spot the wrongly spelled one. Decide first what part of speech the sentence needs, since that often separates the pair immediately. Then match the exact meaning, because a small spelling change can shift the sense entirely. Keeping a personal list of confusing pairs with one clear example sentence each prevents repeated mistakes.
 
 
-## Rule 131: Jumbled Sentence Rearrangement
+## Rule 127: Jumbled Sentence Rearrangement
 
 **Topic:** Sentence Structure
 
@@ -2328,7 +2281,7 @@ Many English words look or sound alike but differ in meaning, such as 'affect/ef
 In these questions the parts of a sentence, or several sentences of a paragraph, are shuffled and you must restore the logical order. Start by finding the opening part, which usually introduces the subject and contains no linking word or pronoun referring backwards. Then use connectors, pronouns, articles, and time markers as links, because words like 'however', 'therefore', 'this', and 'they' must point to something already stated. Keep the subject-verb-object structure intact and make sure the finished sequence tells a smooth, complete idea. Finally, read your arrangement from start to finish to confirm it flows naturally before marking the answer.
 
 
-## Rule 132: Order of Time and Sequence Expressions
+## Rule 128: Order of Time and Sequence Expressions
 
 **Topic:** Sentence Structure
 
@@ -2338,7 +2291,7 @@ In these questions the parts of a sentence, or several sentences of a paragraph,
 When a sentence contains more than one time expression or a series of events, English follows a preferred order and a clear chronological logic. Smaller units of time usually come before larger ones, as in 'at 6 o'clock on Monday in June', and the sequence of events must match the order in which they actually happened. Words like 'before', 'after', 'then', 'since', 'by the time' and 'as soon as' fix the relationship between the actions and must agree with the tenses used. Check that no expression contradicts another, such as a past marker with a future tense. Arranging the time details in this natural order makes the sentence both correct and easy to follow.
 
 
-## Rule 133: 'Many a' + Singular Noun + Singular Verb
+## Rule 129: 'Many a' + Singular Noun + Singular Verb
 
 **Topic:** Subject-Verb Agreement
 
@@ -2348,7 +2301,7 @@ When a sentence contains more than one time expression or a series of events, En
 The expression 'many a' is always followed by a singular noun and a singular verb, even though its meaning is plural. So we write 'Many a student has passed', not 'Many a students have passed'. Any pronoun referring back to it must also be singular, as in 'Many a man has done his duty'. Compare this with 'many students have passed', which uses the plural form throughout. Examiners often test this by pairing 'many a' with a plural verb.
 
 
-## Rule 134: No Future Tense in Time Clauses
+## Rule 130: No Future Tense in Time Clauses
 
 **Topic:** Tense
 
@@ -2358,7 +2311,7 @@ The expression 'many a' is always followed by a singular noun and a singular ver
 Clauses introduced by time conjunctions such as when, till, until, before, after, as soon as, and by the time do not take 'will' or 'shall'. Instead, the simple present is used for a future action, as in 'I shall wait until he comes' (not 'until he will come'). If the main clause is in the past, the time clause takes the simple past or past perfect: 'She left before I arrived'. The future idea is already carried by the main clause, so repeating it in the time clause is an error. The same rule applies to 'if' clauses of condition.
 
 
-## Rule 135: Tense Backshift in Reported Speech
+## Rule 131: Tense Backshift in Reported Speech
 
 **Topic:** Narration
 
@@ -2368,7 +2321,7 @@ Clauses introduced by time conjunctions such as when, till, until, before, after
 When the reporting verb is in the past tense, the verb of the reported speech usually moves one step back in time. Present simple becomes past simple, present continuous becomes past continuous, present perfect and past simple become past perfect, and 'will' becomes 'would'. For example, 'He said, "I am busy"' becomes 'He said that he was busy'. There is no backshift when the reporting verb is in the present tense or when the statement is a universal truth or habitual fact. Pronouns and time words like 'now' and 'today' also shift accordingly.
 
 
-## Rule 136: Reporting Commands, Requests and Advice
+## Rule 132: Reporting Commands, Requests and Advice
 
 **Topic:** Narration
 
@@ -2378,7 +2331,7 @@ When the reporting verb is in the past tense, the verb of the reported speech us
 Imperative sentences in reported speech are converted using an infinitive, not a that-clause. The reporting verb changes according to the tone: 'ordered' or 'commanded' for orders, 'requested' for requests, 'advised' for advice, and 'forbade' or 'told not to' for negative commands. So 'He said to me, "Shut the door"' becomes 'He ordered me to shut the door'. For negatives, use 'not to': 'She advised him not to smoke'. Words like 'please' and 'kindly' disappear because the reporting verb already conveys politeness.
 
 
-## Rule 137: Adverbs Modifying Comparative Adjectives
+## Rule 133: Adverbs Modifying Comparative Adjectives
 
 **Topic:** Adverbs
 
@@ -2388,7 +2341,7 @@ Imperative sentences in reported speech are converted using an infinitive, not a
 Comparative adjectives take a special set of intensifiers: much, far, a lot, rather, still, even, and a little. We say 'much better' or 'far more useful', never 'very better' or 'very more useful'. 'Very' belongs with the plain adjective ('very good') and with superlatives when preceded by 'the' ('the very best'). Likewise, use 'by far' with superlatives, as in 'by far the best player'. Choosing the wrong intensifier before a comparative is a common error in SSC papers.
 
 
-## Rule 138: 'No Less Than' and 'Not Less Than' With Numbers
+## Rule 134: 'No Less Than' and 'Not Less Than' With Numbers
 
 **Topic:** Adjectives and Determiners
 
@@ -2398,7 +2351,7 @@ Comparative adjectives take a special set of intensifiers: much, far, a lot, rat
 Use 'no less than' before numbers and quantities to mean 'as many as', expressing surprise at a large amount: 'No less than fifty people attended'. 'Not less than' means 'at least' and states a minimum limit: 'You must score not less than forty marks'. With countable nouns, 'no fewer than' is the strictly correct form, though 'no less than' is standard before numerals. Do not write 'no lesser than'. Similar pairs to remember are 'no more than' (only) and 'not more than' (at most).
 
 
-## Rule 139: 'Assure' Requires a Personal Object
+## Rule 135: 'Assure' Requires a Personal Object
 
 **Topic:** Verbs and Usage
 
@@ -2408,7 +2361,7 @@ Use 'no less than' before numbers and quantities to mean 'as many as', expressin
 'Assure' means to remove someone's doubt and must be followed by the person being reassured: 'He assured me of his support'. 'Ensure' means to make certain that something happens and takes a thing or a clause: 'Please ensure that the door is locked'. 'Insure' relates to insurance against loss. So 'He assured that he would come' is wrong; it should be 'He assured me that he would come' or 'He said that he would come'. Remember: you assure a person, you ensure a result.
 
 
-## Rule 140: Position of 'Whole' and 'All' With Articles
+## Rule 136: Position of 'Whole' and 'All' With Articles
 
 **Topic:** Articles and Determiners
 
@@ -2418,7 +2371,7 @@ Use 'no less than' before numbers and quantities to mean 'as many as', expressin
 'Whole' comes after the article, while 'all' comes before it: 'the whole day' but 'all the day'. With plural and uncountable nouns, prefer 'all': 'all the students', 'all the water'. With proper nouns and place names, 'the whole of' is used, as in 'the whole of India'. 'Whole' is not normally used with uncountable nouns, so avoid 'whole information'. The common test item is the wrong order 'whole the village' instead of 'the whole village'.
 
 
-## Rule 141: 'Seldom or Never' and Related Fixed Expressions
+## Rule 137: 'Seldom or Never' and Related Fixed Expressions
 
 **Topic:** Idiomatic Expressions
 
@@ -2428,7 +2381,7 @@ Use 'no less than' before numbers and quantities to mean 'as many as', expressin
 Certain adverb pairs are fixed and cannot be altered: 'seldom or never' and 'seldom if ever' are correct, but 'seldom or ever' is wrong. Similarly, 'rarely or never' is acceptable while 'rarely or ever' is not. These expressions are already negative in meaning, so they never take another negative word. When such a negative adverb begins a sentence, the word order is inverted: 'Seldom does he complain'. Learn these combinations as whole units rather than reasoning them out word by word.
 
 
-## Rule 142: Position of Adverbs of Manner
+## Rule 138: Position of Adverbs of Manner
 
 **Topic:** Adverbs
 
@@ -2438,7 +2391,7 @@ Certain adverb pairs are fixed and cannot be altered: 'seldom or never' and 'sel
 Adverbs of manner normally come after the verb, or after the object if the verb has one: 'She sang the song beautifully', not 'She sang beautifully the song'. Never place an adverb between a verb and its direct object. When several adverbs occur together, the usual order is manner, then place, then time: 'He played well at the stadium yesterday'. Adverbs of frequency such as always and never, by contrast, come before the main verb but after 'be' and auxiliaries.
 
 
-## Rule 143: Objective Pronoun After Prepositions
+## Rule 139: Objective Pronoun After Prepositions
 
 **Topic:** Pronouns
 
@@ -2448,7 +2401,7 @@ Adverbs of manner normally come after the verb, or after the object if the verb 
 A pronoun that follows a preposition must be in the objective case: me, us, him, her, them, whom. So we write 'between you and me', 'to him and me', and 'for us all', never 'between you and I'. The error usually appears when two pronouns are joined by 'and', which tempts writers to use the subject form. 'Whom' rather than 'who' is required after a preposition, as in 'the man to whom I spoke'. Test it by dropping the other noun: 'between me' sounds right, 'between I' does not.
 
 
-## Rule 144: Objective Case After 'Let'
+## Rule 140: Objective Case After 'Let'
 
 **Topic:** Pronouns
 
@@ -2458,7 +2411,7 @@ A pronoun that follows a preposition must be in the objective case: me, us, him,
 'Let' is a transitive verb, so the pronoun after it takes the objective form: 'Let him go', 'Let us pray', 'Let you and me try'. Writing 'Let he go' or 'Let you and I decide' is incorrect. The same applies to 'make', 'see', 'hear' and 'watch' followed by a bare infinitive. The verb after 'let' has no 'to': 'Let her speak', not 'Let her to speak'. Compare 'Let's' (let us) with 'Lets' (third-person of let), which are often confused.
 
 
-## Rule 145: Pronoun Agreement With Collective Nouns
+## Rule 141: Pronoun Agreement With Collective Nouns
 
 **Topic:** Pronouns
 
@@ -2468,7 +2421,7 @@ A pronoun that follows a preposition must be in the objective case: me, us, him,
 A collective noun takes a singular verb and the pronoun 'it' or 'its' when the group acts as one body: 'The committee has given its verdict'. When members are thought of as acting separately or in disagreement, plural verbs and 'they/their' are used: 'The jury were divided in their opinions'. What matters is consistency, so never mix the two, as in 'The team has won their match'. Nouns like police, cattle, people and gentry are always plural. Whichever number you choose must be maintained through both the verb and the pronoun.
 
 
-## Rule 146: 'Yesterday Morning' vs 'Last Morning'
+## Rule 142: 'Yesterday Morning' vs 'Last Morning'
 
 **Topic:** Time Expressions
 
@@ -2478,7 +2431,7 @@ A collective noun takes a singular verb and the pronoun 'it' or 'its' when the g
 With parts of the day, English uses 'yesterday' rather than 'last': say 'yesterday morning', 'yesterday afternoon' and 'yesterday evening'. 'Last' is used with night and with longer periods: 'last night', 'last week', 'last Monday', 'last year'. Note that 'last night' is correct while 'yesterday night' is not. Similarly, use 'tomorrow morning' for the future, not 'next morning', unless you are narrating past events, where 'the next morning' is right. These are idiomatic combinations that must be memorised.
 
 
-## Rule 147: 'Lest' Takes No Extra Negative
+## Rule 143: 'Lest' Takes No Extra Negative
 
 **Topic:** Conjunctions
 
@@ -2488,7 +2441,7 @@ With parts of the day, English uses 'yesterday' rather than 'last': say 'yesterd
 'Lest' already carries a negative meaning ('for fear that... not'), so it must not be followed by 'not'. The correct pattern is 'lest + subject + should + bare infinitive': 'Walk carefully lest you should fall'. 'Should' may be omitted, giving 'lest you fall', but 'not' can never be added. So 'lest he should not fail' is wrong. Also remember that 'lest' is never paired with 'that' or with 'unless'.
 
 
-## Rule 148: 'As if' / 'As though' + Past Subjunctive
+## Rule 144: 'As if' / 'As though' + Past Subjunctive
 
 **Topic:** Subjunctive Mood
 
@@ -2498,7 +2451,7 @@ With parts of the day, English uses 'yesterday' rather than 'last': say 'yesterd
 After 'as if' and 'as though', use the past subjunctive to express an unreal or imaginary comparison, and always use 'were' regardless of the subject: 'He talks as if he were the boss'. For an unreal situation in the past, use the past perfect: 'She behaved as if nothing had happened'. When the comparison is likely or real, the ordinary tense is acceptable: 'It looks as if it is going to rain'. The tested error is usually 'as if he was' where 'were' is required.
 
 
-## Rule 149: Subjunctive in That-Clauses After Verbs of Command and Wish
+## Rule 145: Subjunctive in That-Clauses After Verbs of Command and Wish
 
 **Topic:** Subjunctive Mood
 
@@ -2508,7 +2461,7 @@ After 'as if' and 'as though', use the past subjunctive to express an unreal or 
 After verbs and nouns expressing a demand, suggestion, order, recommendation or necessity, the that-clause takes the bare infinitive form of the verb: 'I suggest that he go at once', 'It is essential that she be present'. This form does not change for person or number, so no '-s' is added and 'be' stays as 'be'. Verbs of this type include suggest, demand, insist, order, propose, recommend, request and desire. The negative is formed with 'not' before the verb: 'I insist that he not leave'. 'Should' may be inserted instead: 'I suggest that he should go'.
 
 
-## Rule 150: Compound Subject Treated as a Single Unit
+## Rule 146: Compound Subject Treated as a Single Unit
 
 **Topic:** Subject-Verb Agreement
 
@@ -2518,7 +2471,7 @@ After verbs and nouns expressing a demand, suggestion, order, recommendation or 
 When two nouns joined by 'and' refer to one person, thing or idea, the verb is singular: 'Bread and butter is my breakfast', 'The horse and carriage is ready'. The same applies to fixed pairs like 'time and tide', 'rice and curry' and 'slow and steady'. If the two nouns are genuinely separate items, the verb becomes plural: 'The Collector and the Magistrate are present' (two officials), versus 'The Collector and Magistrate is present' (one person). The repetition of the article is the clue to whether one or two entities are meant.
 
 
-## Rule 151: Use a Pronoun Instead of 'The Same'
+## Rule 147: Use a Pronoun Instead of 'The Same'
 
 **Topic:** Pronouns
 
@@ -2528,7 +2481,7 @@ When two nouns joined by 'and' refer to one person, thing or idea, the verb is s
 In modern English, avoid the commercial-sounding phrase 'the same' when referring back to a noun; use 'it' or 'them' instead. So 'I received your letter and have replied to it' is preferred over 'replied to the same'. 'The same' is correct only in comparisons, as in 'She wore the same dress as her sister'. Similarly, avoid 'said' and 'aforesaid' as substitutes for ordinary pronouns. SSC error-spotting questions frequently mark 'the same' as the wrong part.
 
 
-## Rule 152: Correct Use of Interjections
+## Rule 148: Correct Use of Interjections
 
 **Topic:** Interjections
 
@@ -2538,7 +2491,7 @@ In modern English, avoid the commercial-sounding phrase 'the same' when referrin
 Interjections express sudden feeling and must match the emotion of the sentence. Use 'Alas!' for sorrow, 'Hurrah!' or 'Bravo!' for joy and praise, 'Ah!' for surprise or pity, 'Oh!' for surprise, 'Fie!' for disgust, and 'Hush!' for silence. They stand apart from the sentence structure and are followed by an exclamation mark or a comma: 'Alas! He is no more'. Do not use a joyful interjection with a sad statement, which is the usual trap in questions. Interjections have no grammatical link with the rest of the sentence.
 
 
-## Rule 153: Sentence Rearrangement (Para Jumbles)
+## Rule 149: Sentence Rearrangement (Para Jumbles)
 
 **Topic:** Sentence Rearrangement
 
@@ -2548,7 +2501,7 @@ Interjections express sudden feeling and must match the emotion of the sentence.
 In para jumbles, you must reorder scrambled sentences or parts into a coherent passage. Start by finding the opening sentence, which introduces a subject by its full name and contains no back-references. Then use links such as pronouns, articles ('a' before 'the'), connectors like however, therefore and moreover, and chronological or cause-effect order to chain the rest. Sentences containing 'it', 'this', 'they' or 'such' cannot come first because they depend on earlier information. Finally, read your sequence through to confirm it flows logically, and check the options for the most likely pairs.
 
 
-## Rule 154: 'Still' vs 'Yet'
+## Rule 150: 'Still' vs 'Yet'
 
 **Topic:** Adverbs
 
@@ -2558,7 +2511,7 @@ In para jumbles, you must reorder scrambled sentences or parts into a coherent p
 'Still' shows that a situation continues up to now and is used mainly in affirmative sentences, placed before the main verb: 'He is still waiting'. 'Yet' is used in negatives and questions to mean 'up to now' and comes at the end: 'He has not come yet', 'Have you finished yet?'. 'Still' in a negative sentence expresses surprise or impatience: 'He still hasn't replied'. 'Yet' can also work as a conjunction meaning 'nevertheless': 'He is poor, yet honest'. Do not write 'He has not come still'.
 
 
-## Rule 155: Spelling Errors
+## Rule 151: Spelling Errors
 
 **Topic:** Spelling
 
@@ -2568,7 +2521,7 @@ In para jumbles, you must reorder scrambled sentences or parts into a coherent p
 Spelling questions ask you to pick the correctly spelt word from similar-looking options. Watch for double letters (occurrence, accommodation, embarrass, committee), silent letters (foreign, government, February), and the ie/ei order (receive, believe, achieve). Remember the endings that shift meaning, such as -ance and -ence (independence, maintenance), and -able and -ible (comfortable, responsible). Also learn suffix rules: drop the final 'e' before a vowel suffix (come to coming) and double the last consonant in stressed short syllables (begin to beginning). Reading the whole word carefully, syllable by syllable, prevents most mistakes.
 
 
-## Rule 156: Appropriate Word Choice and Word Formation
+## Rule 152: Appropriate Word Choice and Word Formation
 
 **Topic:** Diction and Vocabulary
 
@@ -2578,7 +2531,7 @@ Spelling questions ask you to pick the correctly spelt word from similar-looking
 Many questions test whether the right word and the right form of that word have been used. Confusable pairs must be distinguished by meaning, such as affect and effect, principal and principle, advice and advise, and stationary and stationery. You must also choose the correct part of speech for the slot: a noun after an article, an adjective before a noun, and an adverb to modify a verb, as in 'He worked hard' versus 'He hardly worked'. Common formation errors include using an abstract noun where an adjective is needed, or wrong suffixes like 'economical' for 'economic'. Read the sentence's meaning first, then fit the word form the structure demands.
 
 
-## Rule 157: 'Alone' vs 'Lonely'
+## Rule 153: 'Alone' vs 'Lonely'
 
 **Topic:** Diction and Vocabulary
 
@@ -2588,7 +2541,7 @@ Many questions test whether the right word and the right form of that word have 
 'Alone' means by oneself, without company, and states a plain fact: 'She lives alone'. It can also mean 'only' when it follows a noun: 'You alone can do this'. 'Lonely' describes the sad feeling of being without companions, or a place that is deserted: 'He felt lonely after his friends left', 'a lonely road'. So 'alone' is about a situation while 'lonely' is about an emotion. Note also that 'alone' is used after the verb and cannot stand before a noun.
 
 
-## Rule 158: Errors in Phrasal Verb Usage
+## Rule 154: Errors in Phrasal Verb Usage
 
 **Topic:** Phrasal Verbs
 
@@ -2598,27 +2551,7 @@ Many questions test whether the right word and the right form of that word have 
 A phrasal verb's meaning depends entirely on its particle, so changing the preposition changes the sense: 'put off' means postpone, 'put up with' means tolerate, and 'put on' means wear. Errors occur when the wrong particle is chosen, or when an unnecessary one is added to a verb that needs none, as in 'discuss about' or 'order for'. With separable phrasal verbs, a pronoun object must go between the verb and the particle: 'switch it off', not 'switch off it'. Inseparable ones keep their parts together: 'look after him'. Since these combinations are idiomatic, they must be learnt as fixed units with their meanings.
 
 
-## Rule 159: Masculine and Feminine Gender Nouns
-
-**Topic:** Grammar
-
-**Sources:** PYQ
-
-
-Masculine and Feminine Gender Nouns
-
-
-## Rule 160: Direct Speech Punctuation and Word Order
-
-**Topic:** Grammar
-
-**Sources:** PYQ
-
-
-Direct Speech Punctuation and Word Order
-
-
-## Rule 161: Objective Case Pronoun After Verb
+## Rule 155: Objective Case Pronoun After Verb
 
 **Topic:** Grammar
 
@@ -2626,64 +2559,4 @@ Direct Speech Punctuation and Word Order
 
 
 Objective Case Pronoun After Verb
-
-
-## Rule 162: Sentence Improvement with No Error
-
-**Topic:** Grammar
-
-**Sources:** PYQ
-
-
-Sentence Improvement with No Error
-
-
-## Rule 163: One-Word Substitution for Phrases
-
-**Topic:** Grammar
-
-**Sources:** PYQ
-
-
-One-Word Substitution for Phrases
-
-
-## Rule 164: Meaning-Preserving Paraphrase Substitution
-
-**Topic:** Grammar
-
-**Sources:** PYQ
-
-
-Meaning-Preserving Paraphrase Substitution
-
-
-## Rule 165: Idioms and Phrases Usage
-
-**Topic:** Grammar
-
-**Sources:** PYQ
-
-
-Idioms and Phrases Usage
-
-
-## Rule 166: Phrasal Verbs Correct Usage
-
-**Topic:** Grammar
-
-**Sources:** PYQ
-
-
-Phrasal Verbs Correct Usage
-
-
-## Rule 167: Contextual Vocabulary and Collocation
-
-**Topic:** Grammar
-
-**Sources:** PYQ
-
-
-Contextual Vocabulary and Collocation
 

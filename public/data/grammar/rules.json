@@ -4330,6 +4330,8 @@
    "error_607",
    "error_630",
    "error_1047",
+   "improvement_174",
+   "improvement_198",
    "improvement_246",
    "improvement_386",
    "improvement_596",
@@ -4543,12 +4545,21 @@
    "aman"
   ],
   "questionIds": [
+   "grq-error-216",
    "error_69",
+   "error_459",
+   "error_466",
    "error_481",
    "error_601",
+   "error_732",
+   "error_902",
+   "improvement_15",
    "improvement_135",
+   "improvement_240",
    "improvement_355",
    "improvement_370",
+   "improvement_619",
+   "improvement_629",
    "improvement_663",
    "improvement_760",
    "improvement_976",
@@ -5523,33 +5534,6 @@
  {
   "id": "gr-101",
   "no": 101,
-  "title": "Stative Verbs Take No \"-ing\" Form",
-  "topic": "Verbs / Tenses",
-  "concept": "Verbs describing mental states, emotions, senses or possession are normally not used in the continuous form. Common examples are know, understand, believe, remember, love, hate, want, own, belong, possess and contain. So write 'I know the answer' and 'This book belongs to me', not 'I am knowing' or 'is belonging'. A few of these verbs change meaning and do allow '-ing' (such as 'I am thinking about it' or 'She is having lunch'), but in SSC error-spotting the continuous form of a stative verb is almost always the mistake.",
-  "examples": [
-   {
-    "incorrect": "I am knowing the answer.",
-    "correct": "I know the answer."
-   }
-  ],
-  "sources": [
-   "error"
-  ],
-  "questionIds": [
-   "grq-error-216",
-   "error_459",
-   "error_466",
-   "error_732",
-   "error_902",
-   "improvement_15",
-   "improvement_240",
-   "improvement_619",
-   "improvement_629"
-  ]
- },
- {
-  "id": "gr-102",
-  "no": 102,
   "title": "No Balancing Word After \"As soon as\"",
   "topic": "Conjunctions",
   "concept": "The phrase 'As soon as' needs no correlative word to complete it, so never add 'then' or 'than' in the second clause. Write 'As soon as he saw me, he ran away', using only a comma to join the clauses. A related structure, 'No sooner ... than', does require its balancing word, which is why candidates wrongly transfer 'than' to 'as soon as'. Keep the two patterns separate: 'as soon as ... ,' and 'no sooner ... than'.",
@@ -5567,8 +5551,8 @@
   ]
  },
  {
-  "id": "gr-103",
-  "no": 103,
+  "id": "gr-102",
+  "no": 102,
   "title": "Although / Though Pairs with \"Yet\", Not \"But\"",
   "topic": "Conjunction Connectors",
   "concept": "'Although' and 'Though' are subordinating conjunctions that are completed either by 'yet' or by a simple comma, never by 'but'. Correct forms are 'Although he was tired, he continued working' and 'Though he is poor, yet he is honest'. Using both 'although' and 'but' in one sentence creates a double connector, which is grammatically wrong. The same caution applies to 'in spite of / despite', which also cannot be followed by 'but'.",
@@ -5587,8 +5571,8 @@
   ]
  },
  {
-  "id": "gr-104",
-  "no": 104,
+  "id": "gr-103",
+  "no": 103,
   "title": "Died of vs. Died from",
   "topic": "Preposition Mastery",
   "concept": "Use 'died of' when the cause is internal to the body, such as a disease, hunger, thirst, fever or old age, as in 'He died of cancer'. Use 'died from' when the cause is external or indirect, such as overwork, a wound, an accident or poisoning, as in 'She died from food poisoning'. Two related forms are 'died for' a cause or country and 'died in' an accident or war. The test is simply whether the cause originated inside the body or acted on it from outside.",
@@ -5607,8 +5591,8 @@
   ]
  },
  {
-  "id": "gr-105",
-  "no": 105,
+  "id": "gr-104",
+  "no": 104,
   "title": "Angry with vs. Angry at",
   "topic": "Preposition Mastery",
   "concept": "Use 'angry with' when the anger is directed at a person, as in 'The teacher was angry with the students'. Use 'angry at' when it is directed at a thing, an action or someone's behaviour, as in 'She was angry at his rude reply'. A useful extension is 'angry about' a situation or event. Keeping the person-versus-thing distinction in mind resolves most SSC questions on this pair.",
@@ -5626,8 +5610,8 @@
   ]
  },
  {
-  "id": "gr-106",
-  "no": 106,
+  "id": "gr-105",
+  "no": 105,
   "title": "'By the Time' Tense Structures",
   "topic": "Tense",
   "concept": "'By the time' links two actions and fixes the tense pattern of both clauses. For past situations, use Past Perfect in the main clause with Past Indefinite after 'by the time' (By the time we reached the station, the train had left). For future situations, use Future Perfect in the main clause with Present Indefinite after 'by the time' (By the time you arrive, I will have finished the work). Never use a future tense inside the 'by the time' clause itself. Remember the pair: had + V3 with past, will have + V3 with present.",
@@ -5650,8 +5634,8 @@
   ]
  },
  {
-  "id": "gr-107",
-  "no": 107,
+  "id": "gr-106",
+  "no": 106,
   "title": "Choosing Tense According to Sentence Meaning",
   "topic": "Tense",
   "concept": "Sometimes no fixed grammatical rule decides the tense; the meaning of the sentence does. Read the whole sentence and look for time markers, context clues, and the relationship between actions before selecting a tense. If one action clearly happened before another in the past, the earlier one takes Past Perfect; if a statement is a universal truth or habit, it takes Present Indefinite. In SSC error-spotting, an incorrect option often uses a tense that clashes with the logical time of the sentence.",
@@ -5722,8 +5706,8 @@
   ]
  },
  {
-  "id": "gr-108",
-  "no": 108,
+  "id": "gr-107",
+  "no": 107,
   "title": "Correlative Pairs: Such...As vs Such...That",
   "topic": "Conjunction",
   "concept": "'Such...as' is used when 'as' works as a relative pronoun standing for 'who' or 'which' (He is not such a fool as to believe you). 'Such...that' is used when 'that' works as a conjunction introducing a result clause (He is such a good boy that everyone likes him). So if a complete clause showing consequence follows, use 'that'; if a comparison or identification of kind follows, use 'as'. Mixing them up, as in 'such a good boy as everyone likes him', is a common SSC error.",
@@ -5744,8 +5728,8 @@
   ]
  },
  {
-  "id": "gr-109",
-  "no": 109,
+  "id": "gr-108",
+  "no": 108,
   "title": "Choosing the Right Conjunction by Meaning",
   "topic": "Conjunction",
   "concept": "Conjunctions must match the logical relationship between the clauses they join. Use 'as, because, since' for cause, 'so, therefore' for result, 'although, though, but, yet' for contrast, 'so that' for purpose, 'if, whether' for condition or doubt, and 'when, while' for time. Do not pair two conjunctions that do the same job, such as 'Although...but' or 'Because...so'. When solving questions, identify the relation first, then pick the single conjunction that expresses it.",
@@ -5782,8 +5766,8 @@
   ]
  },
  {
-  "id": "gr-110",
-  "no": 110,
+  "id": "gr-109",
+  "no": 109,
   "title": "Verbs That Take or Omit 'To' Before an Indirect Object",
   "topic": "Preposition",
   "concept": "Some verbs take the person (indirect object) directly, without 'to': ask, beg, inform, advise, allow, call, assure, apprise, remind, warn, thank, wish, order, request, invite, forbid, welcome, congratulate, compliment. So write 'He informed me' and 'She thanked him', not 'informed to me'. Other verbs must have 'to' before the person: propose, announce, apologize, plead, talk, report, suggest, speak, listen, write, pray, complain, describe, explain, appeal. So write 'He explained the rule to me' and 'She apologized to her teacher'. Memorising the two lists solves most such SSC errors.",
@@ -5802,8 +5786,8 @@
   ]
  },
  {
-  "id": "gr-111",
-  "no": 111,
+  "id": "gr-110",
+  "no": 110,
   "title": "Separate Prepositions for Nouns Joined by 'And'",
   "topic": "Preposition",
   "concept": "When two nouns or adjectives are joined by 'and' but each demands a different preposition, you must supply both prepositions. Writing only one preposition for both is wrong, as in 'He is fond and afraid of dogs'. The correct form is 'He is fond of and afraid of dogs'. Only when both words take the same preposition may it be written once, as in 'He is fond of and devoted to music' being reduced only where genuinely identical.",
@@ -5815,8 +5799,8 @@
   "questionIds": []
  },
  {
-  "id": "gr-112",
-  "no": 112,
+  "id": "gr-111",
+  "no": 111,
   "title": "Angry/Annoyed/Vexed/Disgusted + At vs With",
   "topic": "Preposition",
   "concept": "With angry, annoyed, vexed, and disgusted, the choice of preposition depends on the object. Use 'at' when the cause is a thing, action, or situation (She was annoyed at his behaviour). Use 'with' when the object is a person (She was annoyed with her brother). So 'angry with the boy' but 'angry at his rudeness'. Confusing the two is a frequent SSC error-detection trap.",
@@ -5830,8 +5814,8 @@
   ]
  },
  {
-  "id": "gr-113",
-  "no": 113,
+  "id": "gr-112",
+  "no": 112,
   "title": "Prepositions with 'Supply'",
   "topic": "Preposition",
   "concept": "The verb 'supply' takes different prepositions depending on what follows it. Use 'supply something to somebody' when the thing comes first (They supply milk to the hostel). Use 'supply somebody with something' when the person comes first (They supply the hostel with milk). Use 'supply something for a purpose' to show the reason (Water was supplied for irrigation). Choose the pattern that matches the word order in the sentence.",
@@ -5843,8 +5827,8 @@
   "questionIds": []
  },
  {
-  "id": "gr-114",
-  "no": 114,
+  "id": "gr-113",
+  "no": 113,
   "title": "Fixed Preposition Combinations",
   "topic": "Preposition",
   "concept": "Certain words are always followed by one fixed preposition, and these must simply be memorised. Key examples are: accused of, cope with, dispose of, afraid of, and different from. So write 'He was accused of theft', 'She cannot cope with the pressure', and 'His view is different from mine'. Common wrong forms such as 'accused for', 'cope up with', or 'different than' are frequently tested in SSC papers.",
@@ -6165,8 +6149,8 @@
   ]
  },
  {
-  "id": "gr-115",
-  "no": 115,
+  "id": "gr-114",
+  "no": 114,
   "title": "Gender of Nouns (Masculine and Feminine Forms)",
   "topic": "Nouns",
   "concept": "Many English nouns have paired masculine and feminine forms, such as actor/actress, lion/lioness, nephew/niece, and bridegroom/bride. Some pairs are formed by adding suffixes like -ess or -ine, while others are completely different words that must be memorised. A few nouns are common gender (teacher, doctor, cousin) and apply to both sexes, so no change is needed. In SSC questions you are usually asked to supply the correct pair-word, so watch for irregular pairs like drake/duck, gander/goose, and monk/nun.",
@@ -6174,11 +6158,13 @@
   "sources": [
    "pyq"
   ],
-  "questionIds": []
+  "questionIds": [
+   "improvement_756"
+  ]
  },
  {
-  "id": "gr-116",
-  "no": 116,
+  "id": "gr-115",
+  "no": 115,
   "title": "Direct and Indirect Speech: Punctuation and Word Order",
   "topic": "Narration",
   "concept": "In direct speech the speaker's exact words are placed inside inverted commas, beginning with a capital letter, and separated from the reporting verb by a comma. The end punctuation (question mark, exclamation mark, or full stop) stays inside the quotation marks. When the sentence is turned into indirect speech, the inverted commas and comma are dropped, a conjunction such as that, if, or a wh-word is used, and tense, pronouns, and time words shift accordingly. Questions in indirect speech take statement word order, so 'Where are you going?' becomes 'He asked where I was going.'",
@@ -6186,11 +6172,13 @@
   "sources": [
    "pyq"
   ],
-  "questionIds": []
+  "questionIds": [
+   "improvement_844"
+  ]
  },
  {
-  "id": "gr-117",
-  "no": 117,
+  "id": "gr-116",
+  "no": 116,
   "title": "Case of Pronouns (Objective Case After Verbs and Prepositions)",
   "topic": "Pronouns",
   "concept": "A pronoun that works as the object of a verb or a preposition must take the objective form: me, us, him, her, them, whom. So we say 'She invited him and me,' not 'he and I,' because both pronouns receive the action of the verb. The subjective forms (I, we, he, she, they, who) are used only for the subject of a verb or after the verb 'to be' in formal usage. A quick test is to remove the other noun or pronoun from the pair and check which form still sounds correct.",
@@ -6201,8 +6189,8 @@
   "questionIds": []
  },
  {
-  "id": "gr-118",
-  "no": 118,
+  "id": "gr-117",
+  "no": 117,
   "title": "Sentence Improvement and 'No Improvement' Options",
   "topic": "Sentence Improvement",
   "concept": "In sentence improvement questions, a part of the sentence is underlined and you must choose the best replacement from the options. First check the underlined portion for errors of tense, subject-verb agreement, preposition, article, or word order; if it is already correct, the answer is 'No improvement' or 'No error'. Do not select an option merely because it sounds more elaborate, since the correct choice must be both grammatical and closest in meaning to the original. Rejecting a grammatically sound sentence is a common trap, so verify an actual rule is broken before changing anything.",
@@ -6210,11 +6198,13 @@
   "sources": [
    "pyq"
   ],
-  "questionIds": []
+  "questionIds": [
+   "improvement_925"
+  ]
  },
  {
-  "id": "gr-119",
-  "no": 119,
+  "id": "gr-118",
+  "no": 118,
   "title": "One-Word Substitution",
   "topic": "Vocabulary",
   "concept": "One-word substitution asks you to replace a whole descriptive phrase with a single precise word, such as 'a person who loves books' becoming bibliophile. Many of these words are built from recognisable roots and suffixes: -cide means killing (homicide), -phobia means fear (acrophobia), -archy means rule (oligarchy), and -logy means study of (etymology). Learning these roots lets you decode unfamiliar options instead of guessing. Read the phrase carefully for small qualifiers like 'one who hates' versus 'one who loves', because options often differ only in that detail.",
@@ -6222,11 +6212,30 @@
   "sources": [
    "pyq"
   ],
-  "questionIds": []
+  "questionIds": [
+   "improvement_123",
+   "improvement_147",
+   "improvement_175",
+   "improvement_193",
+   "improvement_197",
+   "improvement_199",
+   "improvement_218",
+   "improvement_221",
+   "improvement_224",
+   "improvement_428",
+   "improvement_431",
+   "improvement_433",
+   "improvement_437",
+   "improvement_660",
+   "improvement_692",
+   "improvement_708",
+   "improvement_968",
+   "improvement_974"
+  ]
  },
  {
-  "id": "gr-120",
-  "no": 120,
+  "id": "gr-119",
+  "no": 119,
   "title": "Meaning-Preserving Paraphrase and Substitution",
   "topic": "Vocabulary",
   "concept": "Some questions ask you to replace a word or phrase with another expression without changing the meaning of the sentence. The correct choice must match the original in meaning, grammatical form, and formality, so a verb is replaced by a verb and a noun phrase by a noun phrase. Test each option by reading it back into the full sentence to check that the sense and tone stay the same. Beware of options that are near-synonyms but shift the intensity or connotation, for example 'annoyed' in place of 'furious'.",
@@ -6234,11 +6243,16 @@
   "sources": [
    "pyq"
   ],
-  "questionIds": []
+  "questionIds": [
+   "improvement_984",
+   "improvement_986",
+   "improvement_992",
+   "improvement_996"
+  ]
  },
  {
-  "id": "gr-121",
-  "no": 121,
+  "id": "gr-120",
+  "no": 120,
   "title": "Idioms and Phrases",
   "topic": "Idioms",
   "concept": "An idiom is a fixed group of words whose meaning cannot be worked out from the individual words, as in 'to let the cat out of the bag', meaning to reveal a secret. Because the meaning is figurative, idioms must be learned as complete units and their wording cannot be altered. In the exam you are usually given an idiom in context and asked to choose its meaning, so use the surrounding sentence to eliminate literal interpretations. Options that simply restate the words in a literal sense are almost always wrong.",
@@ -6246,11 +6260,18 @@
   "sources": [
    "pyq"
   ],
-  "questionIds": []
+  "questionIds": [
+   "improvement_988",
+   "improvement_1016",
+   "improvement_1043",
+   "improvement_1047",
+   "improvement_1055",
+   "improvement_1063"
+  ]
  },
  {
-  "id": "gr-122",
-  "no": 122,
+  "id": "gr-121",
+  "no": 121,
   "title": "Phrasal Verbs",
   "topic": "Verbs",
   "concept": "A phrasal verb combines a verb with a preposition or adverb to create a new meaning, such as 'put off' (postpone), 'put up with' (tolerate), and 'put down' (suppress or insult). The same verb changes meaning entirely with each particle, so the particle must be chosen with care. Some phrasal verbs are separable ('turn the light off') while others must stay together ('look after the child'). Learn them in families grouped around one verb, and always check the sentence context to decide which particle fits.",
@@ -6258,11 +6279,28 @@
   "sources": [
    "pyq"
   ],
-  "questionIds": []
+  "questionIds": [
+   "improvement_154",
+   "improvement_161",
+   "improvement_189",
+   "improvement_227",
+   "improvement_432",
+   "improvement_486",
+   "improvement_487",
+   "improvement_489",
+   "improvement_491",
+   "improvement_492",
+   "improvement_607",
+   "improvement_677",
+   "improvement_679",
+   "improvement_717",
+   "improvement_1017",
+   "improvement_1049"
+  ]
  },
  {
-  "id": "gr-123",
-  "no": 123,
+  "id": "gr-122",
+  "no": 122,
   "title": "Contextual Vocabulary and Collocation",
   "topic": "Vocabulary",
   "concept": "Collocations are word pairs that habitually go together in natural English, such as 'heavy rain', 'make a decision', 'strong tea', and 'keen interest'. Even when a synonym has the right dictionary meaning, it may be wrong because English does not combine those words, so 'do a decision' and 'powerful tea' are unacceptable. Fill-in-the-blank and cloze questions test this feel for habitual pairing along with the meaning demanded by the context. Read the whole sentence for clues about tone and register, then choose the option that both fits the meaning and sounds natural to a practised ear.",
@@ -6270,11 +6308,13 @@
   "sources": [
    "pyq"
   ],
-  "questionIds": []
+  "questionIds": [
+   "improvement_1045"
+  ]
  },
  {
-  "id": "gr-124",
-  "no": 124,
+  "id": "gr-123",
+  "no": 123,
   "title": "Idioms and Proverbs: Meaning",
   "topic": "Vocabulary",
   "concept": "An idiom is a fixed group of words whose meaning cannot be worked out from the individual words, while a proverb is a short saying that states a general truth. In SSC exams you are given an idiom in a sentence and must pick the option that best expresses its figurative sense. Never translate the words literally; recall the accepted meaning as a whole unit. Reading the surrounding sentence helps, because the tone of the sentence (praise, criticism, warning) usually matches the correct option. Regular memorisation of high-frequency idioms with example sentences is the fastest way to score here.",
@@ -6330,8 +6370,8 @@
   ]
  },
  {
-  "id": "gr-125",
-  "no": 125,
+  "id": "gr-124",
+  "no": 124,
   "title": "Contextually Appropriate Word Choice",
   "topic": "Vocabulary",
   "concept": "Some questions give a blank in a sentence and several words that are all grammatically possible, so the answer depends on which word fits the meaning and tone of the context. Read the whole sentence first and identify signal clues such as contrast words, cause-effect markers, positive or negative tone, and the subject being described. Then test each option to see which one keeps the sentence logical and natural. Eliminate words that are too strong, too weak, or that belong to a different register. The best answer is the one a careful native writer would use in that exact situation.",
@@ -6379,37 +6419,8 @@
   ]
  },
  {
-  "id": "gr-126",
-  "no": 126,
-  "title": "One-Word Substitution",
-  "topic": "Vocabulary",
-  "concept": "One-word substitution asks you to replace a whole descriptive phrase with a single precise word, for example 'one who loves books' becomes 'bibliophile'. The skill relies on knowing common word-forming roots and suffixes such as -cide (killing), -phile (lover), -phobia (fear), -archy (rule) and -ology (study of). Break the given phrase into its key idea, then look for the option whose root matches that idea. Watch out for options that are close in meaning but describe a slightly different person, act, or place. Building a topic-wise list (people, fear, government, killing, places) makes recall much easier in the exam.",
-  "examples": [],
-  "sources": [
-   "pyq"
-  ],
-  "questionIds": [
-   "improvement_123",
-   "improvement_147",
-   "improvement_175",
-   "improvement_193",
-   "improvement_197",
-   "improvement_199",
-   "improvement_218",
-   "improvement_221",
-   "improvement_224",
-   "improvement_428",
-   "improvement_431",
-   "improvement_433",
-   "improvement_437",
-   "improvement_660",
-   "improvement_692",
-   "improvement_708"
-  ]
- },
- {
-  "id": "gr-127",
-  "no": 127,
+  "id": "gr-125",
+  "no": 125,
   "title": "Collocations and Fixed Expressions",
   "topic": "Vocabulary",
   "concept": "A collocation is a pair or group of words that habitually go together in English, such as 'heavy rain', 'make a decision', or 'keen interest'. These combinations are settled by usage, not by grammar rules, so a technically correct synonym can still sound wrong ('strong rain' is unacceptable). In such questions, look at the fixed partner word in the sentence and choose the option that naturally pairs with it. Pay special attention to verb + noun, adjective + noun, and preposition-based combinations. Learning collocations in chunks rather than as single words is the most reliable preparation.",
@@ -6431,50 +6442,8 @@
   ]
  },
  {
-  "id": "gr-128",
-  "no": 128,
-  "title": "Phrasal Verbs",
-  "topic": "Vocabulary",
-  "concept": "A phrasal verb combines a verb with a preposition or adverb to create a new meaning, as in 'call off' (cancel) or 'break down' (stop functioning). The same base verb changes meaning completely with different particles, so 'come by' (obtain), 'come across' (meet by chance) and 'come round' (regain consciousness) are unrelated in sense. Questions ask you either to replace a phrasal verb with its meaning or to fill in the correct particle. Study them grouped by base verb (come, break, call, put, take, get) so the contrasts stay clear. Always confirm your choice by reading it back in the sentence to check that the meaning holds.",
-  "examples": [],
-  "sources": [
-   "pyq"
-  ],
-  "questionIds": [
-   "improvement_154",
-   "improvement_161",
-   "improvement_189",
-   "improvement_227",
-   "improvement_432",
-   "improvement_486",
-   "improvement_487",
-   "improvement_489",
-   "improvement_491",
-   "improvement_492",
-   "improvement_607",
-   "improvement_677",
-   "improvement_679",
-   "improvement_717"
-  ]
- },
- {
-  "id": "gr-129",
-  "no": 129,
-  "title": "Collective Nouns",
-  "topic": "Nouns",
-  "concept": "A collective noun names a group of people, animals, or things taken as a single unit, such as a 'herd' of cattle, a 'flock' of birds, or a 'bunch' of keys. Each collective noun is tied by convention to particular members, so the correct answer depends on what is being grouped rather than on general logic. Identify the noun after 'of' in the question and recall the specific group word used for it. Note that some collectives apply only to animals, others only to people or objects. In terms of agreement, a collective noun takes a singular verb when the group acts as one and a plural verb when members act individually.",
-  "examples": [],
-  "sources": [
-   "pyq"
-  ],
-  "questionIds": [
-   "improvement_174",
-   "improvement_198"
-  ]
- },
- {
-  "id": "gr-130",
-  "no": 130,
+  "id": "gr-126",
+  "no": 126,
   "title": "Commonly Confused and Similar-Sounding Words",
   "topic": "Vocabulary",
   "concept": "Many English words look or sound alike but differ in meaning, such as 'affect/effect', 'principal/principle', 'stationary/stationery' and 'complement/compliment'. Questions test whether you can pick the correct member of such a pair for the given sentence or spot the wrongly spelled one. Decide first what part of speech the sentence needs, since that often separates the pair immediately. Then match the exact meaning, because a small spelling change can shift the sense entirely. Keeping a personal list of confusing pairs with one clear example sentence each prevents repeated mistakes.",
@@ -6491,8 +6460,8 @@
   ]
  },
  {
-  "id": "gr-131",
-  "no": 131,
+  "id": "gr-127",
+  "no": 127,
   "title": "Jumbled Sentence Rearrangement",
   "topic": "Sentence Structure",
   "concept": "In these questions the parts of a sentence, or several sentences of a paragraph, are shuffled and you must restore the logical order. Start by finding the opening part, which usually introduces the subject and contains no linking word or pronoun referring backwards. Then use connectors, pronouns, articles, and time markers as links, because words like 'however', 'therefore', 'this', and 'they' must point to something already stated. Keep the subject-verb-object structure intact and make sure the finished sequence tells a smooth, complete idea. Finally, read your arrangement from start to finish to confirm it flows naturally before marking the answer.",
@@ -6505,8 +6474,8 @@
   ]
  },
  {
-  "id": "gr-132",
-  "no": 132,
+  "id": "gr-128",
+  "no": 128,
   "title": "Order of Time and Sequence Expressions",
   "topic": "Sentence Structure",
   "concept": "When a sentence contains more than one time expression or a series of events, English follows a preferred order and a clear chronological logic. Smaller units of time usually come before larger ones, as in 'at 6 o'clock on Monday in June', and the sequence of events must match the order in which they actually happened. Words like 'before', 'after', 'then', 'since', 'by the time' and 'as soon as' fix the relationship between the actions and must agree with the tenses used. Check that no expression contradicts another, such as a past marker with a future tense. Arranging the time details in this natural order makes the sentence both correct and easy to follow.",
@@ -6519,8 +6488,8 @@
   ]
  },
  {
-  "id": "gr-133",
-  "no": 133,
+  "id": "gr-129",
+  "no": 129,
   "title": "'Many a' + Singular Noun + Singular Verb",
   "topic": "Subject-Verb Agreement",
   "concept": "The expression 'many a' is always followed by a singular noun and a singular verb, even though its meaning is plural. So we write 'Many a student has passed', not 'Many a students have passed'. Any pronoun referring back to it must also be singular, as in 'Many a man has done his duty'. Compare this with 'many students have passed', which uses the plural form throughout. Examiners often test this by pairing 'many a' with a plural verb.",
@@ -6533,8 +6502,8 @@
   ]
  },
  {
-  "id": "gr-134",
-  "no": 134,
+  "id": "gr-130",
+  "no": 130,
   "title": "No Future Tense in Time Clauses",
   "topic": "Tense",
   "concept": "Clauses introduced by time conjunctions such as when, till, until, before, after, as soon as, and by the time do not take 'will' or 'shall'. Instead, the simple present is used for a future action, as in 'I shall wait until he comes' (not 'until he will come'). If the main clause is in the past, the time clause takes the simple past or past perfect: 'She left before I arrived'. The future idea is already carried by the main clause, so repeating it in the time clause is an error. The same rule applies to 'if' clauses of condition.",
@@ -6550,8 +6519,8 @@
   ]
  },
  {
-  "id": "gr-135",
-  "no": 135,
+  "id": "gr-131",
+  "no": 131,
   "title": "Tense Backshift in Reported Speech",
   "topic": "Narration",
   "concept": "When the reporting verb is in the past tense, the verb of the reported speech usually moves one step back in time. Present simple becomes past simple, present continuous becomes past continuous, present perfect and past simple become past perfect, and 'will' becomes 'would'. For example, 'He said, \"I am busy\"' becomes 'He said that he was busy'. There is no backshift when the reporting verb is in the present tense or when the statement is a universal truth or habitual fact. Pronouns and time words like 'now' and 'today' also shift accordingly.",
@@ -6564,8 +6533,8 @@
   ]
  },
  {
-  "id": "gr-136",
-  "no": 136,
+  "id": "gr-132",
+  "no": 132,
   "title": "Reporting Commands, Requests and Advice",
   "topic": "Narration",
   "concept": "Imperative sentences in reported speech are converted using an infinitive, not a that-clause. The reporting verb changes according to the tone: 'ordered' or 'commanded' for orders, 'requested' for requests, 'advised' for advice, and 'forbade' or 'told not to' for negative commands. So 'He said to me, \"Shut the door\"' becomes 'He ordered me to shut the door'. For negatives, use 'not to': 'She advised him not to smoke'. Words like 'please' and 'kindly' disappear because the reporting verb already conveys politeness.",
@@ -6579,8 +6548,8 @@
   ]
  },
  {
-  "id": "gr-137",
-  "no": 137,
+  "id": "gr-133",
+  "no": 133,
   "title": "Adverbs Modifying Comparative Adjectives",
   "topic": "Adverbs",
   "concept": "Comparative adjectives take a special set of intensifiers: much, far, a lot, rather, still, even, and a little. We say 'much better' or 'far more useful', never 'very better' or 'very more useful'. 'Very' belongs with the plain adjective ('very good') and with superlatives when preceded by 'the' ('the very best'). Likewise, use 'by far' with superlatives, as in 'by far the best player'. Choosing the wrong intensifier before a comparative is a common error in SSC papers.",
@@ -6595,8 +6564,8 @@
   ]
  },
  {
-  "id": "gr-138",
-  "no": 138,
+  "id": "gr-134",
+  "no": 134,
   "title": "'No Less Than' and 'Not Less Than' With Numbers",
   "topic": "Adjectives and Determiners",
   "concept": "Use 'no less than' before numbers and quantities to mean 'as many as', expressing surprise at a large amount: 'No less than fifty people attended'. 'Not less than' means 'at least' and states a minimum limit: 'You must score not less than forty marks'. With countable nouns, 'no fewer than' is the strictly correct form, though 'no less than' is standard before numerals. Do not write 'no lesser than'. Similar pairs to remember are 'no more than' (only) and 'not more than' (at most).",
@@ -6609,8 +6578,8 @@
   ]
  },
  {
-  "id": "gr-139",
-  "no": 139,
+  "id": "gr-135",
+  "no": 135,
   "title": "'Assure' Requires a Personal Object",
   "topic": "Verbs and Usage",
   "concept": "'Assure' means to remove someone's doubt and must be followed by the person being reassured: 'He assured me of his support'. 'Ensure' means to make certain that something happens and takes a thing or a clause: 'Please ensure that the door is locked'. 'Insure' relates to insurance against loss. So 'He assured that he would come' is wrong; it should be 'He assured me that he would come' or 'He said that he would come'. Remember: you assure a person, you ensure a result.",
@@ -6623,8 +6592,8 @@
   ]
  },
  {
-  "id": "gr-140",
-  "no": 140,
+  "id": "gr-136",
+  "no": 136,
   "title": "Position of 'Whole' and 'All' With Articles",
   "topic": "Articles and Determiners",
   "concept": "'Whole' comes after the article, while 'all' comes before it: 'the whole day' but 'all the day'. With plural and uncountable nouns, prefer 'all': 'all the students', 'all the water'. With proper nouns and place names, 'the whole of' is used, as in 'the whole of India'. 'Whole' is not normally used with uncountable nouns, so avoid 'whole information'. The common test item is the wrong order 'whole the village' instead of 'the whole village'.",
@@ -6637,8 +6606,8 @@
   ]
  },
  {
-  "id": "gr-141",
-  "no": 141,
+  "id": "gr-137",
+  "no": 137,
   "title": "'Seldom or Never' and Related Fixed Expressions",
   "topic": "Idiomatic Expressions",
   "concept": "Certain adverb pairs are fixed and cannot be altered: 'seldom or never' and 'seldom if ever' are correct, but 'seldom or ever' is wrong. Similarly, 'rarely or never' is acceptable while 'rarely or ever' is not. These expressions are already negative in meaning, so they never take another negative word. When such a negative adverb begins a sentence, the word order is inverted: 'Seldom does he complain'. Learn these combinations as whole units rather than reasoning them out word by word.",
@@ -6651,8 +6620,8 @@
   ]
  },
  {
-  "id": "gr-142",
-  "no": 142,
+  "id": "gr-138",
+  "no": 138,
   "title": "Position of Adverbs of Manner",
   "topic": "Adverbs",
   "concept": "Adverbs of manner normally come after the verb, or after the object if the verb has one: 'She sang the song beautifully', not 'She sang beautifully the song'. Never place an adverb between a verb and its direct object. When several adverbs occur together, the usual order is manner, then place, then time: 'He played well at the stadium yesterday'. Adverbs of frequency such as always and never, by contrast, come before the main verb but after 'be' and auxiliaries.",
@@ -6665,8 +6634,8 @@
   ]
  },
  {
-  "id": "gr-143",
-  "no": 143,
+  "id": "gr-139",
+  "no": 139,
   "title": "Objective Pronoun After Prepositions",
   "topic": "Pronouns",
   "concept": "A pronoun that follows a preposition must be in the objective case: me, us, him, her, them, whom. So we write 'between you and me', 'to him and me', and 'for us all', never 'between you and I'. The error usually appears when two pronouns are joined by 'and', which tempts writers to use the subject form. 'Whom' rather than 'who' is required after a preposition, as in 'the man to whom I spoke'. Test it by dropping the other noun: 'between me' sounds right, 'between I' does not.",
@@ -6679,8 +6648,8 @@
   ]
  },
  {
-  "id": "gr-144",
-  "no": 144,
+  "id": "gr-140",
+  "no": 140,
   "title": "Objective Case After 'Let'",
   "topic": "Pronouns",
   "concept": "'Let' is a transitive verb, so the pronoun after it takes the objective form: 'Let him go', 'Let us pray', 'Let you and me try'. Writing 'Let he go' or 'Let you and I decide' is incorrect. The same applies to 'make', 'see', 'hear' and 'watch' followed by a bare infinitive. The verb after 'let' has no 'to': 'Let her speak', not 'Let her to speak'. Compare 'Let's' (let us) with 'Lets' (third-person of let), which are often confused.",
@@ -6693,8 +6662,8 @@
   ]
  },
  {
-  "id": "gr-145",
-  "no": 145,
+  "id": "gr-141",
+  "no": 141,
   "title": "Pronoun Agreement With Collective Nouns",
   "topic": "Pronouns",
   "concept": "A collective noun takes a singular verb and the pronoun 'it' or 'its' when the group acts as one body: 'The committee has given its verdict'. When members are thought of as acting separately or in disagreement, plural verbs and 'they/their' are used: 'The jury were divided in their opinions'. What matters is consistency, so never mix the two, as in 'The team has won their match'. Nouns like police, cattle, people and gentry are always plural. Whichever number you choose must be maintained through both the verb and the pronoun.",
@@ -6707,8 +6676,8 @@
   ]
  },
  {
-  "id": "gr-146",
-  "no": 146,
+  "id": "gr-142",
+  "no": 142,
   "title": "'Yesterday Morning' vs 'Last Morning'",
   "topic": "Time Expressions",
   "concept": "With parts of the day, English uses 'yesterday' rather than 'last': say 'yesterday morning', 'yesterday afternoon' and 'yesterday evening'. 'Last' is used with night and with longer periods: 'last night', 'last week', 'last Monday', 'last year'. Note that 'last night' is correct while 'yesterday night' is not. Similarly, use 'tomorrow morning' for the future, not 'next morning', unless you are narrating past events, where 'the next morning' is right. These are idiomatic combinations that must be memorised.",
@@ -6721,8 +6690,8 @@
   ]
  },
  {
-  "id": "gr-147",
-  "no": 147,
+  "id": "gr-143",
+  "no": 143,
   "title": "'Lest' Takes No Extra Negative",
   "topic": "Conjunctions",
   "concept": "'Lest' already carries a negative meaning ('for fear that... not'), so it must not be followed by 'not'. The correct pattern is 'lest + subject + should + bare infinitive': 'Walk carefully lest you should fall'. 'Should' may be omitted, giving 'lest you fall', but 'not' can never be added. So 'lest he should not fail' is wrong. Also remember that 'lest' is never paired with 'that' or with 'unless'.",
@@ -6736,8 +6705,8 @@
   ]
  },
  {
-  "id": "gr-148",
-  "no": 148,
+  "id": "gr-144",
+  "no": 144,
   "title": "'As if' / 'As though' + Past Subjunctive",
   "topic": "Subjunctive Mood",
   "concept": "After 'as if' and 'as though', use the past subjunctive to express an unreal or imaginary comparison, and always use 'were' regardless of the subject: 'He talks as if he were the boss'. For an unreal situation in the past, use the past perfect: 'She behaved as if nothing had happened'. When the comparison is likely or real, the ordinary tense is acceptable: 'It looks as if it is going to rain'. The tested error is usually 'as if he was' where 'were' is required.",
@@ -6750,8 +6719,8 @@
   ]
  },
  {
-  "id": "gr-149",
-  "no": 149,
+  "id": "gr-145",
+  "no": 145,
   "title": "Subjunctive in That-Clauses After Verbs of Command and Wish",
   "topic": "Subjunctive Mood",
   "concept": "After verbs and nouns expressing a demand, suggestion, order, recommendation or necessity, the that-clause takes the bare infinitive form of the verb: 'I suggest that he go at once', 'It is essential that she be present'. This form does not change for person or number, so no '-s' is added and 'be' stays as 'be'. Verbs of this type include suggest, demand, insist, order, propose, recommend, request and desire. The negative is formed with 'not' before the verb: 'I insist that he not leave'. 'Should' may be inserted instead: 'I suggest that he should go'.",
@@ -6769,8 +6738,8 @@
   ]
  },
  {
-  "id": "gr-150",
-  "no": 150,
+  "id": "gr-146",
+  "no": 146,
   "title": "Compound Subject Treated as a Single Unit",
   "topic": "Subject-Verb Agreement",
   "concept": "When two nouns joined by 'and' refer to one person, thing or idea, the verb is singular: 'Bread and butter is my breakfast', 'The horse and carriage is ready'. The same applies to fixed pairs like 'time and tide', 'rice and curry' and 'slow and steady'. If the two nouns are genuinely separate items, the verb becomes plural: 'The Collector and the Magistrate are present' (two officials), versus 'The Collector and Magistrate is present' (one person). The repetition of the article is the clue to whether one or two entities are meant.",
@@ -6783,8 +6752,8 @@
   ]
  },
  {
-  "id": "gr-151",
-  "no": 151,
+  "id": "gr-147",
+  "no": 147,
   "title": "Use a Pronoun Instead of 'The Same'",
   "topic": "Pronouns",
   "concept": "In modern English, avoid the commercial-sounding phrase 'the same' when referring back to a noun; use 'it' or 'them' instead. So 'I received your letter and have replied to it' is preferred over 'replied to the same'. 'The same' is correct only in comparisons, as in 'She wore the same dress as her sister'. Similarly, avoid 'said' and 'aforesaid' as substitutes for ordinary pronouns. SSC error-spotting questions frequently mark 'the same' as the wrong part.",
@@ -6797,8 +6766,8 @@
   ]
  },
  {
-  "id": "gr-152",
-  "no": 152,
+  "id": "gr-148",
+  "no": 148,
   "title": "Correct Use of Interjections",
   "topic": "Interjections",
   "concept": "Interjections express sudden feeling and must match the emotion of the sentence. Use 'Alas!' for sorrow, 'Hurrah!' or 'Bravo!' for joy and praise, 'Ah!' for surprise or pity, 'Oh!' for surprise, 'Fie!' for disgust, and 'Hush!' for silence. They stand apart from the sentence structure and are followed by an exclamation mark or a comma: 'Alas! He is no more'. Do not use a joyful interjection with a sad statement, which is the usual trap in questions. Interjections have no grammatical link with the rest of the sentence.",
@@ -6811,8 +6780,8 @@
   ]
  },
  {
-  "id": "gr-153",
-  "no": 153,
+  "id": "gr-149",
+  "no": 149,
   "title": "Sentence Rearrangement (Para Jumbles)",
   "topic": "Sentence Rearrangement",
   "concept": "In para jumbles, you must reorder scrambled sentences or parts into a coherent passage. Start by finding the opening sentence, which introduces a subject by its full name and contains no back-references. Then use links such as pronouns, articles ('a' before 'the'), connectors like however, therefore and moreover, and chronological or cause-effect order to chain the rest. Sentences containing 'it', 'this', 'they' or 'such' cannot come first because they depend on earlier information. Finally, read your sequence through to confirm it flows logically, and check the options for the most likely pairs.",
@@ -6826,8 +6795,8 @@
   ]
  },
  {
-  "id": "gr-154",
-  "no": 154,
+  "id": "gr-150",
+  "no": 150,
   "title": "'Still' vs 'Yet'",
   "topic": "Adverbs",
   "concept": "'Still' shows that a situation continues up to now and is used mainly in affirmative sentences, placed before the main verb: 'He is still waiting'. 'Yet' is used in negatives and questions to mean 'up to now' and comes at the end: 'He has not come yet', 'Have you finished yet?'. 'Still' in a negative sentence expresses surprise or impatience: 'He still hasn't replied'. 'Yet' can also work as a conjunction meaning 'nevertheless': 'He is poor, yet honest'. Do not write 'He has not come still'.",
@@ -6840,8 +6809,8 @@
   ]
  },
  {
-  "id": "gr-155",
-  "no": 155,
+  "id": "gr-151",
+  "no": 151,
   "title": "Spelling Errors",
   "topic": "Spelling",
   "concept": "Spelling questions ask you to pick the correctly spelt word from similar-looking options. Watch for double letters (occurrence, accommodation, embarrass, committee), silent letters (foreign, government, February), and the ie/ei order (receive, believe, achieve). Remember the endings that shift meaning, such as -ance and -ence (independence, maintenance), and -able and -ible (comfortable, responsible). Also learn suffix rules: drop the final 'e' before a vowel suffix (come to coming) and double the last consonant in stressed short syllables (begin to beginning). Reading the whole word carefully, syllable by syllable, prevents most mistakes.",
@@ -6856,8 +6825,8 @@
   ]
  },
  {
-  "id": "gr-156",
-  "no": 156,
+  "id": "gr-152",
+  "no": 152,
   "title": "Appropriate Word Choice and Word Formation",
   "topic": "Diction and Vocabulary",
   "concept": "Many questions test whether the right word and the right form of that word have been used. Confusable pairs must be distinguished by meaning, such as affect and effect, principal and principle, advice and advise, and stationary and stationery. You must also choose the correct part of speech for the slot: a noun after an article, an adjective before a noun, and an adverb to modify a verb, as in 'He worked hard' versus 'He hardly worked'. Common formation errors include using an abstract noun where an adjective is needed, or wrong suffixes like 'economical' for 'economic'. Read the sentence's meaning first, then fit the word form the structure demands.",
@@ -6872,8 +6841,8 @@
   ]
  },
  {
-  "id": "gr-157",
-  "no": 157,
+  "id": "gr-153",
+  "no": 153,
   "title": "'Alone' vs 'Lonely'",
   "topic": "Diction and Vocabulary",
   "concept": "'Alone' means by oneself, without company, and states a plain fact: 'She lives alone'. It can also mean 'only' when it follows a noun: 'You alone can do this'. 'Lonely' describes the sad feeling of being without companions, or a place that is deserted: 'He felt lonely after his friends left', 'a lonely road'. So 'alone' is about a situation while 'lonely' is about an emotion. Note also that 'alone' is used after the verb and cannot stand before a noun.",
@@ -6886,8 +6855,8 @@
   ]
  },
  {
-  "id": "gr-158",
-  "no": 158,
+  "id": "gr-154",
+  "no": 154,
   "title": "Errors in Phrasal Verb Usage",
   "topic": "Phrasal Verbs",
   "concept": "A phrasal verb's meaning depends entirely on its particle, so changing the preposition changes the sense: 'put off' means postpone, 'put up with' means tolerate, and 'put on' means wear. Errors occur when the wrong particle is chosen, or when an unnecessary one is added to a verb that needs none, as in 'discuss about' or 'order for'. With separable phrasal verbs, a pronoun object must go between the verb and the particle: 'switch it off', not 'switch off it'. Inseparable ones keep their parts together: 'look after him'. Since these combinations are idiomatic, they must be learnt as fixed units with their meanings.",
@@ -6903,36 +6872,8 @@
   ]
  },
  {
-  "id": "gr-159",
-  "no": 159,
-  "title": "Masculine and Feminine Gender Nouns",
-  "topic": "Grammar",
-  "concept": "Masculine and Feminine Gender Nouns",
-  "examples": [],
-  "sources": [
-   "pyq"
-  ],
-  "questionIds": [
-   "improvement_756"
-  ]
- },
- {
-  "id": "gr-160",
-  "no": 160,
-  "title": "Direct Speech Punctuation and Word Order",
-  "topic": "Grammar",
-  "concept": "Direct Speech Punctuation and Word Order",
-  "examples": [],
-  "sources": [
-   "pyq"
-  ],
-  "questionIds": [
-   "improvement_844"
-  ]
- },
- {
-  "id": "gr-161",
-  "no": 161,
+  "id": "gr-155",
+  "no": 155,
   "title": "Objective Case Pronoun After Verb",
   "topic": "Grammar",
   "concept": "Objective Case Pronoun After Verb",
@@ -6942,100 +6883,6 @@
   ],
   "questionIds": [
    "improvement_898"
-  ]
- },
- {
-  "id": "gr-162",
-  "no": 162,
-  "title": "Sentence Improvement with No Error",
-  "topic": "Grammar",
-  "concept": "Sentence Improvement with No Error",
-  "examples": [],
-  "sources": [
-   "pyq"
-  ],
-  "questionIds": [
-   "improvement_925"
-  ]
- },
- {
-  "id": "gr-163",
-  "no": 163,
-  "title": "One-Word Substitution for Phrases",
-  "topic": "Grammar",
-  "concept": "One-Word Substitution for Phrases",
-  "examples": [],
-  "sources": [
-   "pyq"
-  ],
-  "questionIds": [
-   "improvement_968",
-   "improvement_974"
-  ]
- },
- {
-  "id": "gr-164",
-  "no": 164,
-  "title": "Meaning-Preserving Paraphrase Substitution",
-  "topic": "Grammar",
-  "concept": "Meaning-Preserving Paraphrase Substitution",
-  "examples": [],
-  "sources": [
-   "pyq"
-  ],
-  "questionIds": [
-   "improvement_984",
-   "improvement_986",
-   "improvement_992",
-   "improvement_996"
-  ]
- },
- {
-  "id": "gr-165",
-  "no": 165,
-  "title": "Idioms and Phrases Usage",
-  "topic": "Grammar",
-  "concept": "Idioms and Phrases Usage",
-  "examples": [],
-  "sources": [
-   "pyq"
-  ],
-  "questionIds": [
-   "improvement_988",
-   "improvement_1016",
-   "improvement_1043",
-   "improvement_1047",
-   "improvement_1055",
-   "improvement_1063"
-  ]
- },
- {
-  "id": "gr-166",
-  "no": 166,
-  "title": "Phrasal Verbs Correct Usage",
-  "topic": "Grammar",
-  "concept": "Phrasal Verbs Correct Usage",
-  "examples": [],
-  "sources": [
-   "pyq"
-  ],
-  "questionIds": [
-   "improvement_1017",
-   "improvement_1049"
-  ]
- },
- {
-  "id": "gr-167",
-  "no": 167,
-  "title": "Contextual Vocabulary and Collocation",
-  "topic": "Grammar",
-  "concept": "Contextual Vocabulary and Collocation",
-  "examples": [],
-  "sources": [
-   "pyq"
-  ],
-  "questionIds": [
-   "improvement_1045"
   ]
  }
 ]

@@ -1,2562 +1,2699 @@
-# Combined Grammar Rules — Merged from 3 Sources (Deduplicated)
+# Combined Grammar Rules — Rani Ma'am + Aman Sir + Manisha Bansal (Clean)
 
-A single deduplicated list following **Rani Ma'am's 60-rule order** as the backbone, 
-with matching rules from **Aman Sir (100)** and **Manisha Bansal (120)** merged in 
-(concepts rewritten to combine the best of each), then extra rules from Aman/Manisha 
-appended after rule 60. Duplicate rules have been removed — no two rules teach the same concept.
+Built fresh from the 3 source PDFs using AI analysis. Pure grammar rules only — vocabulary, one-word substitution, synonyms, antonyms, idioms, and spelling are excluded (they are not grammar rules). Rani Ma'am's 60 rules form the backbone order; matching rules from Aman Sir and Manisha Bansal are merged into clearer combined explanations; extra rules from Aman/Manisha are appended after rule 60. No duplicate rule teaches the same concept.
 
-**Total: 155 unique rules** (was 167; 12 duplicates removed)
+**Total: 129 unique grammar rules** (60 Rani backbone + 69 new from Aman/Manisha)
 
 ---
 
-## Rule 1: Since / For with Perfect Tenses
+## Rule 1: Since, For, and From
 
-**Topic:** Prepositions of Time with Perfect Tenses
+**Topic:** Prepositions of Time
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-'Since' points to a fixed point of time (since 2002, since Monday, since he left), while 'for' shows a length or period of time (for three years, for two hours). Both normally demand a perfect or perfect continuous tense, never a simple present, present continuous or plain simple past. Avoid wrong substitutes like 'from the past two weeks' or 'by three years'; write 'for the past two weeks' and 'for three years'. When 'since' joins two clauses, the clause after 'since' takes the simple past (V2) and the main clause takes the present perfect (has/have + V3).
+**Sources:** Rani Ma'am
 
 
-**Examples**
-
-- ✗ I am living here since five years.
-- ✓ I have been living here for five years.
-- ✗ Many things changed since he left the city.
-- ✓ Many things have changed since he left the city.
-- ✗ I am teaching English for the last 10 years.
-- ✓ Use 'I have been teaching' instead of 'I am teaching'.
-- ✗ Shruti is working as a content writer since 2022.
-- ✓ Use 'has been working' instead of 'is working'.
-- ✗ Mrs. Sharma knows the neighbourhood better than anyone else, as she is living here for the last 20 years.
-- ✓ Use 'has been living here' instead of 'is living here'.
-
-
-## Rule 2: Each / Every / Either / Neither / Any / None
-
-**Topic:** Determiners and Pronouns
-
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-'Each' can work as both an adjective and a pronoun, so 'each of the students' is correct, but 'every' is only an adjective and can never stand as a subject, so 'every of the...' is wrong. Each and every are followed by a singular noun and take a singular verb, and the pronoun tracking them stays singular (his/her, not their). 'Either/neither' refer to only two things, while 'any/none' are used for more than two. In the structure each/either/neither/any/none + of, the noun after 'of' must be plural but the verb stays singular.
+Use 'since' for the specific point when an action began, and use 'for' for the duration of the action. When an action began in the past and continues up to a later time, 'since' and 'for' normally accompany a perfect or perfect continuous tense. Use 'from' to mark the starting point of a past or future period, commonly with 'to', 'till', or 'until', rather than as a substitute for 'since'. Say 'for the past two weeks', not 'from the past two weeks', and 'for three years', not 'by three years'.
 
 
 **Examples**
 
-- ✗ Each of the boys have a laptop.
-- ✓ Each of the boys has a laptop.
-- ✗ Everyone should do their duty.
-- ✓ Everyone should do his duty.
-- ✗ Both of them did not go to school.
-- ✓ Neither of them went to school.
-- ✗ Each of the boys have completed their assignment.
-- ✓ Use 'has' instead of 'have' and use 'his' instead of 'their'.
-- ✗ Each of these 5 students have worked very hard on this project.
-- ✓ Use 'has' instead of 'have'.
+- ✗ She is living here since 2020.
+- ✓ She has been living here since 2020.
+- ✗ He has worked here since five years.
+- ✓ He has worked here for five years.
+- ✗ I have been ill from Monday.
+- ✓ I have been ill since Monday.
+- ✗ The office will remain open since Monday to Friday.
+- ✓ The office will remain open from Monday to Friday.
 
 
-## Rule 3: Use of Who / Whom / Whose / Which / That
+## Rule 2: Each, Every, Either, Neither and None
 
-**Topic:** Relative Pronouns
+**Topic:** Determiners, pronouns and subject–verb agreement
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-'Who' is used for persons acting as the subject of the verb (replaceable by he/they), and 'whom' is used for persons acting as the object of a verb or preposition (replaceable by him/them). 'Whose' shows possession and must not be confused with 'who's', the contraction of 'who is / who was / who has'. 'Which' and 'that' are used for things, animals and non-living nouns, so never refer to a person with 'which' or a thing with 'who'. 'That' is preferred after words like all, same, only, any, none, little, nothing and after superlatives, and the verb after who/which/that must agree with its antecedent.
+**Sources:** Rani Ma'am
 
 
-**Examples**
-
-- Who wrote this letter? (He wrote it)
-- Whom did you invite? (You invited him)
-- ✗ It is I who is responsible.
-- ✓ It is I who am responsible. (Matches 'I')
-- ✗ This is the best book which I have ever read.
-- ✓ This is the best book that I have ever read.
-- ✗ The girl who you had slapped in the class complained to the principal.
-- ✓ Use 'whom' instead of 'who'.
-
-
-## Rule 4: Modal Verb & Its Uses
-
-**Topic:** Modals
-
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-Modals (can, could, may, might, shall, should, will, would, must, ought to, need, dare, used to, had better) are always followed by the bare infinitive (V1) without 'to', the exceptions being 'ought to', 'used to' and 'have to'. Two modals can never be used together, and a modal cannot be joined with 'be able to' in the same clause, so 'could not be able to' is wrong. Since modals of possibility already carry the sense of probability, extra words like 'possibly' or 'likely' must not be added. In purpose clauses 'so that' takes may/might/can/could, while 'lest' is strictly followed by 'should' with no extra 'not'.
+Each, every, either and neither take a singular noun and a singular verb; each emphasizes individuals, every refers to all members, either means one of two, and neither means not one of two. Each, either and neither can be followed by of + plural noun, but the verb remains singular. Every cannot be used directly before of; use every one of instead, with a singular verb. None of may take a singular verb for an uncountable noun and either a singular or plural verb for a plural countable noun, depending on whether the sense is ‘not one’ or ‘not any.’
 
 
 **Examples**
 
-- ✗ Run fast lest you will miss the train.
-- ✓ Run fast lest you should miss the train.
-- ✗ You need not to worry about this mole as it's totally benign.
-- ✓ Remove 'to'.
-- ✗ How dare you to say these words to my father?
-- ✓ Remove 'to'.
-- ✗ You do not need pay anything as all these bills are covered under the insurance.
-- ✓ Use 'do not need to pay' or 'need not pay' instead of 'do not need pay'.
-- ✗ We should let Shruti handle international clients as she may speak several languages.
-- ✓ Use 'can' instead of 'may'.
+- ✗ Each of the players are ready.
+- ✓ Each of the players is ready.
+- ✗ Every of the students has an ID card.
+- ✓ Every one of the students has an ID card.
+- ✗ Neither of the two answers are correct.
+- ✓ Neither of the two answers is correct.
+- ✗ Either route lead to the station.
+- ✓ Either route leads to the station.
 
 
-## Rule 5: Questions Related to Singular & Plural Noun
+## Rule 3: Relative Pronouns
+
+**Topic:** Pronouns
+
+**Sources:** Rani Ma'am
+
+
+Use who for a person acting as the subject and whom for a person acting as the object of a verb or preposition; the he/him test can help you choose. Whose indicates possession and must not be confused with who's, meaning who is, who has, or who was. Use that for essential information about people, animals, or things, especially after expressions such as the only and superlatives. Use which for things or clauses when adding non-essential information, usually enclosed by commas.
+
+
+**Examples**
+
+- ✗ The woman whom teaches us is kind.
+- ✓ The woman who teaches us is kind.
+- ✗ The boy who I invited did not come.
+- ✓ The boy whom I invited did not come.
+- ✗ This is the student who's notebook was lost.
+- ✓ This is the student whose notebook was lost.
+- ✗ My car, that is ten years old, still runs well.
+- ✓ My car, which is ten years old, still runs well.
+
+
+## Rule 4: Modal Verbs
+
+**Topic:** Verb and Modals
+
+**Sources:** Rani Ma'am
+
+
+A modal verb is generally followed by the bare infinitive (V1) without “to,” and two modal verbs cannot normally be used together. However, fixed forms such as “ought to,” “used to,” and “have to” include “to.” As marginal auxiliaries, “need” and “dare” take the base verb in expressions such as “need not” and “dare not.” Use “may” for a stronger possibility and “might” for a weaker one; “should” gives general advice, whereas “had better” gives strong advice or a warning. “Would rather” expresses preference, while “used to” describes a discontinued past habit and “be used to” means “be accustomed to.”
+
+
+**Examples**
+
+- ✗ She can sings well.
+- ✓ She can sing well.
+- ✗ You need not to worry.
+- ✓ You need not worry.
+- ✗ You had better to leave now.
+- ✓ You had better leave now.
+- ✗ I am used to wake up early.
+- ✓ I am used to waking up early.
+
+
+## Rule 5: Special Noun Numbers
 
 **Topic:** Noun (Number)
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-Many English nouns either never take a plural '-s' or are already plural in form, so adding or removing '-s' wrongly is the tested error. Uncountable and material-type nouns such as cattle, furniture, luggage, baggage, information, advice, poetry, scenery, bread and equipment take no '-s' (count them with 'a piece of / pieces of'). Some nouns are irregular (mice, teeth, oxen), some never change form (sheep, deer, fish, series, offspring), and some look singular but are plural (cattle, police, clergy, gentry, poultry, people). In compound nouns the principal word is pluralised — mothers-in-law, cupfuls, passers-by, breaks-in — and a noun used as a hyphenated modifier or after a definite number (two dozen, five hundred) stays singular.
-
-
-**Examples**
-
-- ✗ The furnitures of my house are new.
-- ✓ The furniture of my house is new.
-- ✗ He gave me two advices.
-- ✓ He gave me two pieces of advice.
-- ✗ Where is my scissors?
-- ✓ Where are my scissors?
-- ✗ The cattle is grazing in the field.
-- ✓ The cattle are grazing in the field.
-- ✗ He gave me a five-rupees note.
-- ✓ He gave me a five-rupee note.
-
-
-## Rule 6: Errors Related to Infinitives
-
-**Topic:** Infinitive / Gerund
-
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-Certain verbs are fixed with an infinitive (to + V1) while others are fixed with a gerund (V-ing), and choosing the wrong one is the classic error. Verbs like seem, appear, decide, want, try, fail, refuse, promise, remember and hope take the infinitive, whereas forget (in the sense of a past act), detest, avoid, recall, consider, prohibit from, take care of, cannot help and 'look forward to' take the gerund. After let, make, bid, see, hear, watch, feel and help, use the bare infinitive without 'to'. Also never split the infinitive by placing an adverb between 'to' and the verb, and when an infinitive describes a noun or pronoun, that noun must be the logical object of the infinitive's verb.
+Noun number depends on usage, not merely on a word’s ending. Uncountable nouns such as furniture, advice, information and equipment do not take a/an, direct numbers or plural -s; use expressions such as “a piece of” when counting them. Nouns ending in -s may be singular and take a singular verb, as in news and mathematics, while nouns such as cattle, police and people are plural and take plural verbs. Pair nouns such as scissors and trousers normally take plural verbs, whereas nouns such as sheep, deer and aircraft retain the same form in both numbers. Other nouns have irregular plurals, such as mice and teeth, and compound nouns usually pluralise their main word, as in mothers-in-law and passers-by.
 
 
 **Examples**
 
-- ✗ I am looking forward to meet you.
-- ✓ I am looking forward to meeting you.
-- ✗ You need to carefully check the documents.
-- ✓ You need to check the documents carefully.
-- ✗ He made me to cry.
-- ✓ He made me cry.
-- ✗ Sudhir was upset about losing his job but he had no one to talk.
-- ✓ Add 'to' after 'to talk'.
-- ✗ He lives with his parents because he has several health problems and needs someone to rely.
-- ✓ Add 'on' after 'to rely'.
+- ✗ She gave me an advice.
+- ✓ She gave me a piece of advice.
+- ✗ The news are shocking.
+- ✓ The news is shocking.
+- ✗ The cattle is grazing.
+- ✓ The cattle are grazing.
+- ✗ Two sheeps were standing near the mothers-in-laws.
+- ✓ Two sheep were standing near the mothers-in-law.
 
 
-## Rule 7: Uses of Gerund
+## Rule 6: Gerund or Infinitive
+
+**Topic:** Verb Forms
+
+**Sources:** Rani Ma'am
+
+
+Some verbs require a gerund (verb + -ing), while others require an infinitive (to + base verb). Use gerunds after verbs such as avoid, detest and consider, but use infinitives after want, refuse, agree, plan, hope and decide. Expressions such as cannot help and prepositional phrases such as prohibit from also take a gerund. After let and perception verbs such as see, use the bare infinitive without “to” when referring to a complete action.
+
+
+**Examples**
+
+- ✗ She avoided to answer the question.
+- ✓ She avoided answering the question.
+- ✗ They decided leaving early.
+- ✓ They decided to leave early.
+- ✗ I cannot help to laugh at his jokes.
+- ✓ I cannot help laughing at his jokes.
+- ✗ Let him to speak.
+- ✓ Let him speak.
+
+
+## Rule 7: Uses of the Gerund
 
 **Topic:** Gerund
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-A gerund (verb + ing) behaves like a noun, so it is used as the subject of a sentence, after every preposition, and after certain fixed verbs and expressions. Always use the gerund after phrases such as 'with a view to', 'look forward to', 'in addition to', 'accustomed to', 'addicted to', 'devoted to', 'aim at', 'persist in', 'take pride in', 'focus on' and 'consider' — putting an infinitive or a bare verb there is an error. A gerund used as the subject takes a singular verb. The word before a gerund should normally be a possessive (my, his, their coming), not a plain objective pronoun.
-
-
-**Examples**
-
-- ✗ I am looking forward to meet you.
-- ✓ I am looking forward to meeting you.
-- ✗ Writing poems have been my hobby since I was in school.
-- ✓ Use 'has' instead of 'have'.
-- ✗ To give suggestions are easy, when you are not the one in that particular situation.
-- ✓ Use 'is easy' instead of 'are easy'.
-- ✗ All of us are looking forward to join his new company.
-- ✓ Use 'joining' instead of 'join'.
-- ✗ He was not accustomed to work at night therefore he felt uncomfortable here.
-- ✓ Use 'working' instead of 'work'.
-
-
-## Rule 8: Uses of Participle
-
-**Topic:** Participle
-
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-The present participle (V+ing) is active and describes the thing that causes the feeling or action (an amusing story, a frightening film), while the past participle (V3) is passive and describes the one who receives or experiences it (an amused girl, a frightened child). When participles work as adjectives they must take the correct fixed form: law-abiding citizens, limited passengers, emerging technology, molten/melted gold. For an action completed before another, use the perfect participle 'having + V3' (Having paid the fee, he left). A participle phrase must logically belong to the subject of the main clause; if it does not, it becomes a dangling participle and the sentence must be rewritten with the proper subject.
+A gerund is the -ing form of a verb functioning as a noun, so it can serve as the subject or object of a sentence. Use a gerund after a preposition, including the preposition “to” in expressions such as “look forward to,” “with a view to,” “accustomed to,” and “object to.” Certain verbs and fixed expressions, such as “consider,” “avoid,” “aim at,” and “take pride in,” also require a gerund rather than an infinitive. A possessive or objective pronoun may precede the gerund when its performer must be identified.
 
 
 **Examples**
 
-- ✗ Walking in the park, a snake bit him. (Was the snake walking in the park?)
-- ✓ While he was walking in the park, a snake bit him.
-- ✗ He solved that confused question very easily.
-- ✓ Use 'confusing' instead of 'confused'.
-- ✗ He told me that he had gifted his girlfriend a very interested novel on her birthday.
-- ✓ Use 'interesting' instead of 'interested'.
-- ✗ I tried a lot but I could not find my losing book.
-- ✓ Use 'lost' instead of 'losing'.
-- ✗ Walking in the park, a snake bit him.
-- ✓ Use 'While he was' before 'Walking in the park'.
+- ✗ To swim is good exercise.
+- ✓ Swimming is good exercise.
+- ✗ She looks forward to meet you.
+- ✓ She looks forward to meeting you.
+- ✗ He considered to change his job.
+- ✓ He considered changing his job.
+- ✗ I object to he entering the room.
+- ✓ I object to his entering the room.
 
 
-## Rule 9: No Article in the General Sense
+## Rule 8: Choosing Participles
 
-**Topic:** Articles
+**Topic:** Participles
 
-**Sources:** Aman Sir, Rani Ma'am
-
-
-When a person or thing is spoken of in a general sense, no article is used before it. This is why abstract nouns (honesty, kindness, sleep), material nouns (gold, bread, iron, paper) and generic plural or uncountable nouns stand alone: 'Man is mortal', 'Honesty is the best policy', 'Gold is precious'. Writing 'The man is mortal' or 'The honesty is the best policy' is therefore wrong, and uncountable nouns also refuse a/an, one, many or the plural -s. The same omission applies when common places like school, college, hospital, church, temple, jail, market, bed or court are used for their primary purpose ('He went to school'), because there the focus is on the purpose, not on a particular building.
+**Sources:** Rani Ma'am
 
 
-**Examples**
-
-- ✗ Our NGO helps the people who live in slums and collect garbages for a living.
-- ✓ Use 'garbage' instead of 'garbages'.
-- ✗ All the houses in our colony were destroyed during the earthquake except hers, because it was made of best quality bricks.
-- ✓ Use 'brick' instead of 'bricks'.
-- ✗ The scientists had all the equipments that they need in order to complete the experiment.
-- ✓ Use 'equipment' instead of 'equipments'.
-- ✗ Thousands of tourists visit Jammu and Kashmir every year to see the beautiful sceneries.
-- ✓ Use 'scenery' instead of 'sceneries'.
-- ✗ I know that you don't earn much but you should try to send your children to the school.
-- ✓ Remove 'the' before 'school'.
-
-
-## Rule 10: Use of Article Before Proper Nouns
-
-**Topic:** Articles
-
-**Sources:** Aman Sir, Rani Ma'am
-
-
-Proper nouns normally take no article because they already name one specific person, place or thing. But when a proper noun is used like a common noun to describe a quality or type, the indefinite article a/an is placed before it: 'Kalidas is a Shakespeare of India', 'Ahmedabad is becoming a Manchester of India'. In the same way, 'the' is used before a common noun that stands for a particular quality inside a person: 'The judge in him prevailed upon the father'. So the test is simple: if the name is being used as a label for a quality or class, an article becomes necessary.
+Use the present participle (V1+ing) adjectivally for someone or something that causes an action or feeling, but use the past participle (V3) for its receiver or experiencer. A participial phrase must logically refer to the subject of the main clause; otherwise, rewrite it with an explicit subject and verb. When one action is completed before another, use the perfect participle form “having + V3” rather than a simple present participle. Use “having been + V3” when the subject received the earlier action.
 
 
 **Examples**
 
-- ✗ The infamous criminal Joe adams is also known as Robin Hood of his area because he looted from the rich and gave it to the poor.
-- ✓ Use 'as the Robin Hood' instead of 'as Robin Hood'.
-- ✗ You should probably give up on your dream of becoming a cricketer and accept the fact that you are not Sachin.
-- ✓ Use 'a' before 'Sachin'.
+- ✗ The bored film made us sleepy.
+- ✓ The boring film made us sleepy.
+- ✗ Walking through the park, the flowers looked beautiful.
+- ✓ While I was walking through the park, the flowers looked beautiful.
+- ✗ Paying the fee, he entered the hall.
+- ✓ Having paid the fee, he entered the hall.
+- ✗ Having selected for the team, she celebrated.
+- ✓ Having been selected for the team, she celebrated.
 
 
-## Rule 11: Articles with Superlative, Comparative Degrees and Ordinals
+## Rule 9: No Article for General Meaning
 
 **Topic:** Articles
 
 **Sources:** Rani Ma'am
 
 
-Use 'the' before superlative degrees and before ordinal numbers, since both point to something unique: 'the best soldier', 'the first European sailor'. 'The' also comes before a comparative when only two persons or things are being compared ('Of the two girls, she is the better') and in double-comparative structures ('The more he studied, the greater was his fascination'). Remember that 'a most + adjective' is not a real superlative at all; it simply means 'very', as in 'She is a most beautiful dancer'.
+Do not use an article before an abstract noun, a material noun, or a plural or uncountable noun when it refers to something in general. Such nouns represent a whole class, quality, or substance rather than a specific person or thing. Use “the” only when the noun is made specific by the context.
 
 
-## Rule 12: One Article for a Single Entity
+**Examples**
+
+- ✗ The honesty is the best policy.
+- ✓ Honesty is the best policy.
+- ✗ The gold is a precious metal.
+- ✓ Gold is a precious metal.
+- ✗ The books provide knowledge.
+- ✓ Books provide knowledge.
+- ✗ The water is essential for life.
+- ✓ Water is essential for life.
+
+
+## Rule 10: Nouns Used as Types
 
 **Topic:** Articles
 
-**Sources:** Aman Sir, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-When two nouns or adjectives joined by 'and' refer to one and the same person or thing viewed as a whole, the article is used only once, before the first word, and the verb stays singular. If the article is repeated before the second noun or adjective, the two become separate persons or things and the verb turns plural. So 'a singer and scientist has come' means one person with two talents, while 'a singer and a scientist have come' means two different people. Deciding how many articles to write is therefore the same as deciding how many entities you mean.
+Proper nouns normally do not take an article. However, when a proper noun represents a type, quality, or famous counterpart rather than a particular person or place, use a/an before it. Similarly, use the before a common noun that represents a particular role or quality within a person. The choice of article thus depends on the meaning in which the noun is used.
 
 
 **Examples**
 
-- ✗ The host and hostess /of the party were very nice and /they welcomed each guest with/ a big smile on their faces.
-- ✓ Use 'the' before 'hostess'.
-- ✗ The Principal and the secretary/ of our school is coming and many/ arrangements were made by the /teachers for their visit.
-- ✓ Use 'are' instead of 'is'.
-- ✗ The Vice-President and the chairman/ of the Rajya Sabha is elected/ by an electoral college consisting of members of /both Houses of Parliament.
-- ✓ Remove 'the' before 'chairman'.
+- ✗ Kalidas is Shakespeare of India.
+- ✓ Kalidas is a Shakespeare of India.
+- ✗ Ahmedabad is becoming Manchester of India.
+- ✓ Ahmedabad is becoming a Manchester of India.
+- ✗ Judge in him prevailed over the father.
+- ✓ The judge in him prevailed over the father.
 
 
-## Rule 13: Omission of Articles in Fixed Phrases
+## Rule 11: The with Degrees and Ordinals
 
 **Topic:** Articles
 
-**Sources:** Aman Sir, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-Many set phrases and idioms are frozen without any article, so adding a/an/the inside them is an error: by mistake, in trouble, in conclusion, at the top of one's voice, set on fire, lose heart, fall silent, catch fire, take offence. The same omission happens with common institutions used for their primary purpose, such as go to school, be in hospital, go to church, go to bed, be sent to jail. A few phrases, however, keep the article by convention and must be learnt as they are: 'in a bad mood', 'in a temper', 'in a hurry', 'as a whole'. Since these are matters of usage rather than logic, the safest approach is to memorise the common lists.
-
-
-**Examples**
-
-- ✗ I know that you don't earn much but you should try to send your children to the school.
-- ✓ Remove 'the' before 'school'.
-- ✗ After a long and tedious day, Yamini came home and went to the bed.
-- ✓ Remove 'the' before 'bed'.
-- ✗ My brother and I always wait for the Christmas because it is filled with joy and sweet treats.
-- ✓ Remove 'the' before 'Christmas'.
-- ✗ As soon as I get an opportunity, I will shift to the Australia.
-- ✓ Remove 'the' before 'Australia'.
-
-
-## Rule 14: Uses of Much / Many / Little / Few
-
-**Topic:** Determiners / Quantifiers
-
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-'Much' and 'little' go with uncountable nouns (much water, little knowledge), while 'many' and 'few' go with countable plural nouns (many books, few days). Without an article, 'little' and 'few' carry a negative sense of 'hardly any'; with 'a', 'a little' and 'a few' carry the positive sense of 'some'; and with 'the', 'the little' and 'the few' mean whatever small quantity is left. Keep 'much' and 'very' apart as well: 'very' is used before a simple positive-degree adjective or a present participle (very nice, very interesting), whereas 'much' is used before a comparative or a past participle (much better, much needed). So 'much nice' is wrong, and so is 'very better'.
+Use 'the' before superlative adjectives and ordinal numbers. When comparing only two people or things, use 'the' before the comparative adjective. Use 'the' with both comparatives in the structure 'the more..., the greater/better...'. However, 'a most' means 'very' and does not express a true superlative.
 
 
 **Examples**
 
-- It is a very interesting book.
-- I am much interested in this structural project.
-- ✗ There are less people today.
-- ✓ There are fewer people today.
-- A little knowledge is a dangerous thing.
-- ✗ Could you give me …… sugar?
-- ✓ Use 'a little'.
+- ✗ He is best player in the team.
+- ✓ He is the best player in the team.
+- ✗ She was first woman to arrive.
+- ✓ She was the first woman to arrive.
+- ✗ Of the two sisters, Riya is smarter.
+- ✓ Of the two sisters, Riya is the smarter.
+- ✗ More you practise, better you become.
+- ✓ The more you practise, the better you become.
 
 
-## Rule 15: Many / A Number of / The Number of / More than one
+## Rule 12: One Article, One Entity
+
+**Topic:** Articles
+
+**Sources:** Rani Ma'am
+
+
+When two nouns or adjectives describe the same person or thing as a single entity, use the article only before the first noun or adjective. For example, “a singer and scientist” refers to one person who has both roles. Repeating the article before the second noun separates the nouns and usually indicates two different people or things. Thus, article placement determines whether the reference is singular or separate.
+
+
+**Examples**
+
+- ✗ Riya is a poet and a novelist. (one person intended)
+- ✓ Riya is a poet and novelist.
+- ✗ A black and a white horse was grazing. (one horse intended)
+- ✓ A black and white horse was grazing.
+- ✗ The secretary and the treasurer is absent. (one person holding both posts)
+- ✓ The secretary and treasurer is absent.
+
+
+## Rule 13: Omission of Articles
+
+**Topic:** Articles
+
+**Sources:** Rani Ma'am
+
+
+Omit articles in fixed expressions such as “by mistake,” “in trouble,” “lose heart,” and “fall silent.” Also omit them before institutions such as school, college, hospital, church, and prison when these places are used for their primary purpose. Articles are generally not used before names of games, days, months, festivals, subjects, languages, cities, continents, diseases, or meals. However, retain an article when convention requires it, as in “in a bad mood” or “in a temper.”
+
+
+**Examples**
+
+- ✗ She went to the school to study.
+- ✓ She went to school to study.
+- ✗ I sent the message by a mistake.
+- ✓ I sent the message by mistake.
+- ✗ He is in bad mood today.
+- ✓ He is in a bad mood today.
+- ✗ She speaks the French fluently.
+- ✓ She speaks French fluently.
+
+
+## Rule 14: Quantity Determiners
+
+**Topic:** Determiners and Quantifiers
+
+**Sources:** Rani Ma'am
+
+
+Use much, little, and less with uncountable nouns, but many, few, and fewer with countable plural nouns. Little and few mean hardly any, whereas a little and a few mean some. The little and the few refer to the entire small quantity or number available. A lot of can be used with both countable and uncountable nouns. Much may intensify a comparative, such as much better, but it does not normally modify a positive-degree adjective such as nice.
+
+
+**Examples**
+
+- ✗ There are much students in the class.
+- ✓ There are many students in the class.
+- ✗ I have few money left, but it is enough for lunch.
+- ✓ I have a little money left, and it is enough for lunch.
+- ✗ She made less mistakes this time.
+- ✓ She made fewer mistakes this time.
+- ✗ This dress is much nice.
+- ✓ This dress is much nicer.
+
+
+## Rule 15: Quantity Expressions
 
 **Topic:** Subject-Verb Agreement
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-'Many a' and 'more than one' are always followed by a singular noun and a singular verb: 'Many a student has passed', 'More than one boy was absent'. 'Many', 'a great/good many' and 'a number of' take a plural noun with a plural verb: 'A number of students are absent' (it simply means 'several'). But 'the number of' takes a plural noun with a singular verb, because the subject is the total count itself: 'The number of students is falling'. Note also that 'more than two' (or any number above one) needs a plural noun and a plural verb.
+Use a plural noun and a plural verb after “many,” “a great/good many,” and “a number of.” Use a plural noun but a singular verb after “the number of” because “the number” is the subject. “Many a” and “more than one” take a singular noun and a singular verb. “More than two” takes a plural noun and a plural verb.
 
 
 **Examples**
 
-- ✗ A number of students has failed.
-- ✓ A number of students have failed.
-- ✗ The number of accident cases have increased.
-- ✓ The number of accident cases has increased.
-- ✗ Many a students have failed the exam.
-- ✓ Many a student has failed the exam.
-- ✗ Many aspirants preparing for this exam was shocked when they found that the exam got cancelled.
-- ✓ Use 'were' instead of 'was'.
-- ✗ Many a man have tried to climb Mount Everest without oxygen cylinder but most of them failed to do so.
-- ✓ Use 'has' instead of 'have'.
+- ✗ Many a student have applied.
+- ✓ Many a student has applied.
+- ✗ A number of workers is absent.
+- ✓ A number of workers are absent.
+- ✗ The number of workers are increasing.
+- ✓ The number of workers is increasing.
+- ✗ More than one player were injured.
+- ✓ More than one player was injured.
 
 
-## Rule 16: Use of Double Comparative & Double Superlative
+## Rule 16: Avoid Double Comparison
 
 **Topic:** Degrees of Comparison
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-A comparative must never be marked twice, so 'more better', 'more heavier', 'more warmer' and 'beautifuler' are all wrong; use either 'more + adjective' or the '-er' form, never both. The same ban applies to superlatives, which is why 'most smartest' and 'most best' are errors. If you want to strengthen a comparative, add 'much' or 'far' ('much better', 'far heavier'), and to strengthen a superlative use 'by far' ('by far the best'). Also remember that absolute adjectives such as unique, perfect, supreme, ideal, eternal and impossible have no degrees, so they cannot take 'more', 'most' or 'very' at all.
+Do not combine ‘more’ with an adjective already in the comparative degree or ‘most’ with one already in the superlative degree. Use either ‘more/most + adjective’ or the ‘-er/-est’ form, never both. Also, use ‘more beautiful’ rather than the nonstandard form ‘beautifuler’. For emphasis, use ‘much’ or ‘far’ before a comparative and ‘by far’ before a superlative.
 
 
 **Examples**
 
-- ✗ He is more wiser than his younger brother.
-- ✓ He is wiser than his younger brother.
-- ✗ He is more stronger than Ajay.
-- ✓ Use 'much/far' instead of 'more'.
-- ✗ Mr. Mehta has two daughters and the younger one is more prettier than the older one.
-- ✓ Use 'much/far' instead of 'more'.
-- ✗ I really like spending time with him as he is the most nicest person that I have ever met.
-- ✓ Use 'by far/much' after 'as he is' and remove 'most'.
+- ✗ This book is more better than that one.
+- ✓ This book is much better than that one.
+- ✗ Today is more warmer than yesterday.
+- ✓ Today is far warmer than yesterday.
+- ✗ Riya is the most smartest student in the class.
+- ✓ Riya is by far the smartest student in the class.
+- ✗ This painting is beautifuler than that one.
+- ✓ This painting is more beautiful than that one.
 
 
-## Rule 17: Errors Related to Active & Passive Voice
+## Rule 17: Active and Passive Voice
 
 **Topic:** Voice
 
-**Sources:** Aman Sir, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-Choose the voice by asking what the subject does: if the subject performs the action, use the active voice; if the subject receives the action, use the passive voice. The passive structure is always a form of 'be' (is/are/was/were/been/being) + the third form of the verb (V3), never the -ing form and never the bare base form. So 'were providing' must become 'were provided', and 'has been picked' is wrong where 'has picked' (active) is meant. Intransitive verbs, which take no object, cannot be made passive at all, which is why 'are gone' is an error. Check the doer-receiver relationship first, then fit the be + V3 pattern.
+Use the active voice when the subject performs the action and the passive voice when the subject receives it. The passive structure is a suitable form of “be” followed by the past participle (V3) of a transitive verb. Do not use an -ing form or a bare infinitive after “be” to construct the passive. Intransitive verbs, which do not take an object, cannot normally be changed into the passive voice.
 
 
 **Examples**
 
-- ✗ The wounded woman was treating by the doctor at the hospital.
-- ✓ Use 'was being treated' instead of 'was treating'.
-- ✗ While playing in the park some children were being teased the animals.
-- ✓ Use 'were teasing' instead of 'were being teased'.
+- ✗ My car stole by somebody.
+- ✓ My car was stolen by somebody.
+- ✗ The meals were preparing by the chef.
+- ✓ The meals were prepared by the chef.
+- ✗ The guests were arrived at noon.
+- ✓ The guests arrived at noon.
 
 
-## Rule 18: Verb Agreement with Additive Connectives (With, Along with, As well as)
+## Rule 18: Agreement with Additive Phrases
 
 **Topic:** Subject-Verb Agreement
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-When two subjects are linked by with, together with, along with, besides, except, including, excluding, as well as, unlike, accompanied by, in addition to, or but, the verb agrees only with the FIRST subject. Everything after the connective is parenthetical extra information and never changes the number of the subject. So 'The teacher, along with her students, is present' takes a singular verb even though 'students' is plural. Mentally put the connective phrase inside brackets and read the sentence without it to pick the verb. Do not confuse this with 'and', which genuinely makes a plural subject.
+When two nouns are linked by expressions such as with, along with, together with, as well as, besides, including, except, or in addition to, the verb agrees with the first noun. These expressions add information but do not form a compound subject. Therefore, a singular main subject takes a singular verb, while a plural main subject takes a plural verb.
 
 
 **Examples**
 
-- ✗ The teacher, along with her students, were present.
-- ✓ The teacher, along with her students, was present.
-- ✗ The prime minister accompanied by his bodyguards come to the red fort every year to hoist the flag on Republic day.
-- ✓ Use 'comes' instead of 'come'.
-- ✗ All the languages besides Hindi is spoken by the new student who got transferred from Korea last week.
-- ✓ Use 'are spoken' instead of 'is spoken'.
+- ✗ The teacher, along with the students, are present.
+- ✓ The teacher, along with the students, is present.
+- ✗ The players, as well as their coach, is confident.
+- ✓ The players, as well as their coach, are confident.
+- ✗ Riya, together with her friends, have arrived.
+- ✓ Riya, together with her friends, has arrived.
 
 
-## Rule 19: Correlative Conjunctions: Either-or / Neither-nor / Not only-but also
+## Rule 19: Correlative Conjunctions
 
 **Topic:** Conjunctions and Subject-Verb Agreement
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-Correlative conjunctions must always be used in their fixed pairs: either...or, neither...nor, not only...but also, both...and. When two subjects are joined by either-or, neither-nor or not only-but also, the verb agrees with the subject NEARER to it (the proximity rule): 'Neither the boys nor the girl is coming.' The two parts joined by the pair must be grammatically parallel, so each half must be followed by the same kind of element (noun with noun, verb with verb, phrase with phrase). Place 'not only' and 'but also' immediately before the matching parts to keep this balance. Never mix pairs such as 'neither...or' or 'not only...but even'.
-
-
-**Examples**
-
-- ✗ Neither the manager nor the employees was present.
-- ✓ Neither the manager nor the employees were present.
-- ✗ He not only lost his home but also his job.
-- ✓ He lost not only his home but also his job. (Both sit right before nouns)
-- ✗ Neither Shruti nor her friends is going to attend the convocation on Saturday at the university.
-- ✓ Use 'are' instead of 'is'.
-- ✗ Either Ashish or his colleagues is responsible for leaking the confidential information about the products of the company.
-- ✓ Use 'are' instead of 'is'.
-- ✗ Not only my parents but also my brother are coming to my destination wedding in goa.
-- ✓ Use 'is' instead of 'are'.
-
-
-## Rule 20: Hardly/Scarcely ... When; No Sooner ... Than
-
-**Topic:** Conjunctions / Correlatives & Inversion
-
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-'Hardly' and 'Scarcely' are paired with 'when' (or 'before'), never with 'than'; 'No sooner' is paired with 'than', never with 'when' or 'then'. When a sentence begins with a negative adverb like Hardly, Scarcely, Barely, Seldom or No sooner, the sentence must be inverted: helping verb before the subject, as in 'Hardly had he arrived...' and 'No sooner did she see him than she smiled.' The first clause normally takes the past perfect (had + V3) and the second clause the simple past (V2). Since these words are already negative in sense, do not add another negative such as 'not' in the same clause.
+Use correlative conjunctions in their fixed pairs: either…or, neither…nor, and not only…but also. When they join two subjects, the verb agrees with the subject nearest to it. The words or phrases joined by these conjunctions must have parallel grammatical structures. To negate two subjects, use neither…nor instead of both…not.
 
 
 **Examples**
 
-- ✗ Seldom I have seen such a beautiful painting.
-- ✓ Seldom have I seen such a beautiful painting.
-- ✗ Hardly had I arrived at the station than the train left.
-- ✓ Hardly had I arrived at the station when the train left.
-- ✗ No sooner did I open the door when the bird flew out.
-- ✓ No sooner did I open the door than the bird flew out.
-- ✗ Barely she had got back in bed when her alarm went off.
-- ✓ Use 'had she' instead of 'she had'.
-- ✗ Never I have encountered such rudeness before I stared working in this office.
-- ✓ Use 'Never have I' in place of 'Never I have'.
+- ✗ Either the teachers or the principal are attending.
+- ✓ Either the teachers or the principal is attending.
+- ✗ Neither the principal nor the teachers is attending.
+- ✓ Neither the principal nor the teachers are attending.
+- ✗ She not only enjoys singing but also to dance.
+- ✓ She enjoys not only singing but also dancing.
+- ✗ Both Ravi and Aman are not present.
+- ✓ Neither Ravi nor Aman is present.
 
 
-## Rule 21: Errors Related to Forms of Verbs
+## Rule 20: Immediate Succession
 
-**Topic:** Verb Forms (V1/V2/V3)
+**Topic:** Correlative Conjunctions and Inversion
 
-**Sources:** Aman Sir, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-Every verb must appear in the form demanded by the tense or structure: after have/has/had and in all passive constructions use the third form (V3), after do/does/did and modals use the base form (V1). Many irregular verbs never take '-ed' because their forms repeat or change unpredictably: put-put-put, cost-cost-cost, burst-burst-burst, broadcast-broadcast-broadcast, beat-beat-beaten, lead-led-led. Learn the confusing transitive/intransitive pairs: rise-rose-risen (go up by itself) vs raise-raised-raised (lift something); lie-lay-lain (recline) vs lay-laid-laid (place something); fall-fell-fallen (drop) vs fell-felled-felled (cut down). Also distinguish hang-hung (objects) from hang-hanged (execution), flow from overflow, lose from loose, and affect from effect. Deciding transitive or intransitive first usually tells you which verb of the pair to use.
+These constructions show that one past action occurred immediately after another. Use hardly, scarcely, or barely with when, but always use no sooner with than. When one of these expressions begins a sentence, place the auxiliary verb before the subject. Normally, use the past perfect in the first clause and the simple past in the second clause.
 
 
 **Examples**
 
-- ✗ I knew I had sprained my ankle, the moment I felled.
-- ✓ Use 'fell' instead of 'felled'.
-- ✗ Your favourite vase felled off the table during the earthquake.
-- ✓ Use 'fell' instead of 'felled'.
-- ✗ Yash has raised as one of the top athletes in the entire state.
-- ✓ Use 'risen' instead of 'raised'.
-- ✗ With temperatures on the rise, it's crucial to rise awareness about the pressing issue of global warming.
-- ✓ Use 'to raise' instead of 'to rise'.
-- ✗ I was in a park when I felt sick, so I laid on a bench nearby.
-- ✓ Use 'lay' instead of 'laid'.
+- ✗ Hardly had he arrived than the meeting began.
+- ✓ Hardly had he arrived when the meeting began.
+- ✗ No sooner she had seen the police than she ran away.
+- ✓ No sooner had she seen the police than she ran away.
+- ✗ Scarcely had the train left than it began to rain.
+- ✓ Scarcely had the train left when it began to rain.
 
 
-## Rule 22: Errors based on Quite / Quiet
+## Rule 21: Correct Verb Forms
+
+**Topic:** Verb Forms and Confusables
+
+**Sources:** Rani Ma'am
+
+
+Use the verb form required by the tense or structure: modals take V1, while have/has/had and passive constructions require V3. Many irregular verbs do not take “-ed”; some retain the same V1, V2 and V3 forms, such as cut, put, broadcast and burst. Distinguish verbs with different meanings and patterns: lie means to recline and takes no object, whereas lay means to place something and requires an object. Also note special forms such as hung for objects but hanged for execution.
+
+
+**Examples**
+
+- ✗ She has wrote a letter.
+- ✓ She has written a letter.
+- ✗ The news was broadcasted yesterday.
+- ✓ The news was broadcast yesterday.
+- ✗ He laid on the bed for an hour.
+- ✓ He lay on the bed for an hour.
+- ✗ You must went there immediately.
+- ✓ You must go there immediately.
+
+
+## Rule 22: Quite vs Quiet
+
+**Topic:** Confusing Words and Adverbs
+
+**Sources:** Rani Ma'am
+
+
+'Quite' is an adverb meaning completely, fairly, or to a considerable degree, and it modifies adjectives, adverbs, and verbs. 'Quiet' is an adjective or noun referring to silence or calmness. Use 'quite', not 'quiet', when an intensifier is needed. Do not combine 'quite' with another intensifier such as 'too'.
+
+
+**Examples**
+
+- ✗ She is quiet a generous woman.
+- ✓ She is quite a generous woman.
+- ✗ He performed quiet badly.
+- ✓ He performed quite badly.
+- ✗ This room is quite too noisy.
+- ✓ This room is too noisy.
+
+
+## Rule 23: Late vs Lately
 
 **Topic:** Confusing Words / Adverbs
 
 **Sources:** Rani Ma'am
 
 
-'Quite' is an adverb of degree meaning 'completely, fairly, to a considerable extent' and it modifies adjectives, adverbs or verbs, as in 'quite a generous woman' and 'she sang quite badly'. 'Quiet' is an adjective or noun meaning silent, calm or stillness, as in 'a quiet room' and 'the quiet of the night'. The common exam error is writing 'quiet' where the intensifier 'quite' is needed, because the two words are spelt almost alike. Also remember that 'quite' is itself an intensifier, so it should not be stacked with another one such as 'too' ('quite too difficult' is wrong).
-
-
-## Rule 23: Errors based on Late / Lately
-
-**Topic:** Confusing Words / Adverbs
-
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-'Late' serves as both adjective and adverb and means 'after the expected time': 'the train is running late', 'he came late'. 'Lately' is an adverb of time meaning 'recently' and refers to the near past, so it usually appears with the present perfect: 'he has not been feeling well lately'. Adding '-ly' to 'late' does not create the adverb of 'late'; it creates a word with a completely different meaning. So using 'lately' for delay, or 'late' where 'recently' is intended, is an error. Words like hard/hardly and near/nearly follow the same trap pattern.
+Use 'late' as an adjective or adverb to mean 'after the expected or usual time.' Use 'lately' to mean 'recently' or 'during the recent past.' 'Lately' is often used with the present perfect tense. Do not use 'lately' for delay or 'late' when you mean 'recently.'
 
 
 **Examples**
 
-- I have not seen him lately.
-- ✗ We have to make some choices hard in life if we want to be successful.
-- ✓ Remove 'hardly' and use 'hard' before 'choices'.
-- ✗ Reeta came home lately as she got stuck in the traffic while coming back from her office.
-- ✓ Use 'late' instead of 'lately'.
-- ✗ Shruti had to take an every day appointment with a therapist after she got diagnosed with clinical depression.
-- ✓ Use 'appointment every day' instead of 'every day appointment', because 'every day' is an adverb of frequency while 'everyday' is an adjective.
-- ✗ After getting irritated by his friend's continuous sarcastic remarks, Yash told him straightly to stop bothering him anymore.
-- ✓ Use 'straight' instead of 'straightly'.
+- ✗ The train arrived lately.
+- ✓ The train arrived late.
+- ✗ I have not seen her late.
+- ✓ I have not seen her lately.
+- ✗ He came lately to the meeting.
+- ✓ He came late to the meeting.
 
 
-## Rule 24: Errors based on Bitter / Bitterly and Sweet / Sweetly
-
-**Topic:** Adjectives vs Adverbs / Linking Verbs
-
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-Verbs of sensation and state such as taste, smell, look, sound, feel, seem, appear, become, grow, remain and the 'be' forms are linking verbs, and a linking verb is completed by an adjective describing the subject, not by an adverb. So write 'the medicine tasted bitter', 'the mangoes taste sweet', not 'bitterly' or 'sweetly'. The '-ly' adverb is correct only when the same verb shows a real action performed by the subject, as in 'she smiled sweetly' or 'he felt the cloth carefully'. Comparatives follow the same logic: 'this tastes sweeter', not 'more sweetly'. Ask whether the word describes the subject (adjective) or the manner of an action (adverb).
-
-
-**Examples**
-
-- ✗ She speaks beautiful.
-- ✓ She speaks beautifully.
-- ✗ The food smells deliciously.
-- ✓ The food smells delicious.
-- ✗ She behaved very rude with Ajay's parents so he stopped talking to her.
-- ✓ Use 'rudely' instead of 'rude'.
-- ✗ He got really madly when he saw his girlfriend having dinner with his friend.
-- ✓ Use 'mad' instead of 'madly'.
-- ✗ Although she is a very impatient person yet she kept calmly during the interrogation.
-- ✓ Use 'calm' instead of 'calmly'.
-
-
-## Rule 25: Errors based on Fast / Fastly
+## Rule 24: Adjectives After Linking Verbs
 
 **Topic:** Adjectives vs Adverbs
 
-**Sources:** Aman Sir, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-'Fast' is one of those words that keeps the same form as both an adjective and an adverb, like hard, late, straight, daily and weekly. So you say 'a fast train' (adjective) and 'he ran so fast' or 'she was driving very fast' (adverb). The word 'fastly' does not exist in English, so wherever it appears in a sentence, that part is the error. Simply replace 'fastly' with 'fast' — never add '-ly' to make it an adverb.
+Use an adjective after a linking verb because it describes the subject. Common linking verbs include be, become, seem, appear, look, feel, smell, taste and sound. Use an adverb only when the verb expresses an action and describes how that action is performed. The same distinction applies to comparative forms: say “tastes sweeter,” not “tastes more sweetly.”
 
 
 **Examples**
 
-- ✗ We have to make some choices hard in life if we want to be successful.
-- ✓ Remove 'hardly' and use 'hard' before 'choices'.
-- ✗ Reeta came home lately as she got stuck in the traffic while coming back from her office.
-- ✓ Use 'late' instead of 'lately'.
-- ✗ Shruti had to take an every day appointment with a therapist after she got diagnosed with clinical depression.
-- ✓ Use 'appointment every day' instead of 'every day appointment', because 'every day' is an adverb of frequency while 'everyday' is an adjective.
-- ✗ After getting irritated by his friend's continuous sarcastic remarks, Yash told him straightly to stop bothering him anymore.
-- ✓ Use 'straight' instead of 'straightly'.
+- ✗ The medicine tastes bitterly.
+- ✓ The medicine tastes bitter.
+- ✗ This mango tastes more sweetly.
+- ✓ This mango tastes sweeter.
+- ✗ She smiled sweet.
+- ✓ She smiled sweetly.
 
 
-## Rule 26: Errors based on Hard / Hardly
+## Rule 25: Same Adjective and Adverb Forms
+
+**Topic:** Adjectives and Adverbs
+
+**Sources:** Rani Ma'am
+
+
+Some words, including fast, hard, late, straight, daily, weekly, monthly, and yearly, have identical adjective and adverb forms. Use fast, not fastly, whether it describes a noun or modifies a verb. Hard means tough as an adjective and with great effort as an adverb, whereas hardly means scarcely or almost not at all. Similarly, every day is an adverbial phrase meaning each day, while everyday is an adjective meaning ordinary or routine.
+
+
+**Examples**
+
+- ✗ He runs very fastly.
+- ✓ He runs very fast.
+- ✗ She hardly worked to achieve success.
+- ✓ She worked hard to achieve success.
+- ✗ I exercise everyday.
+- ✓ I exercise every day.
+- ✗ These are my every day shoes.
+- ✓ These are my everyday shoes.
+
+
+## Rule 26: Hard vs. Hardly
 
 **Topic:** Confusing Words / Adverbs
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-'Hard' works as both adjective and adverb and means 'solid' or 'with great effort/force' — work hard, hit hard, die hard, a hard question. 'Hardly' is a negative adverb meaning 'scarcely, almost not at all', so using it in place of 'hard' completely reverses the meaning ('He works hardly' = he barely works). Because 'hardly' is already negative, never pair it with another negative like not or never in the same clause. Also remember the correct compound adjective is 'hard-won' (not 'hardly won'), and when a sentence opens with Hardly/Scarcely the helping verb comes before the subject.
-
-
-**Examples**
-
-- ✗ He hardly worked and topped the exam.
-- ✓ He worked hard and topped the exam.
-- ✗ We have to make some choices hard in life if we want to be successful.
-- ✓ Remove 'hardly' and use 'hard' before 'choices'.
-- ✗ Reeta came home lately as she got stuck in the traffic while coming back from her office.
-- ✓ Use 'late' instead of 'lately'.
-- ✗ Shruti had to take an every day appointment with a therapist after she got diagnosed with clinical depression.
-- ✓ Use 'appointment every day' instead of 'every day appointment', because 'every day' is an adverb of frequency while 'everyday' is an adjective.
-- ✗ After getting irritated by his friend's continuous sarcastic remarks, Yash told him straightly to stop bothering him anymore.
-- ✓ Use 'straight' instead of 'straightly'.
-
-
-## Rule 27: Errors based on Farther / Further
-
-**Topic:** Confusing Words / Comparatives
-
-**Sources:** Aman Sir, Rani Ma'am
-
-
-'Farther' is used only for physical or measurable distance — 'Mumbai is farther from Delhi than Patna is'. 'Further' is used for anything additional or extra that is not physical distance — further information, further details, further investigation, further punishment, further volumes. The usual error in exams is using 'farther' where the sentence means 'additional', so check whether real distance is involved. If it is not distance, 'further' is the correct choice.
+Hard can be an adjective or an adverb and means difficult, firm, or with great effort or force. Hardly is a negative adverb meaning barely, scarcely, or almost not. Thus, work hard means work with effort, whereas hardly work means do almost no work. Use hard-won, not hardly won, for something achieved with great difficulty.
 
 
 **Examples**
 
-- ✗ Of these two choices of cuisines, I would love to have the later one.
-- ✓ Use 'latter' instead of 'later'.
-- ✗ I hope it won't be a problem if we postpone this meeting to a latter date.
-- ✓ Use 'later' instead of 'latter'.
-- ✗ I wanted to discuss that topic farther, but my professor didn't have time.
-- ✓ Use 'further' instead of 'farther'.
-- ✗ My college is located further than hers yet she got a scooty and I got a bicycle.
-- ✓ Use 'farther' instead of 'further'.
-- ✗ My friend has told me that this new restaurant serves well Indian food.
-- ✓ Use 'good' instead of 'well'.
+- ✗ She works hardly to succeed.
+- ✓ She works hard to succeed.
+- ✗ I could hard hear the announcement.
+- ✓ I could hardly hear the announcement.
+- ✗ It was a hardly won victory.
+- ✓ It was a hard-won victory.
 
 
-## Rule 28: Errors based on Too Much / Much Too
+## Rule 27: Farther vs. Further
 
-**Topic:** Intensifiers / Adverbs
+**Topic:** Confusing Words
 
-**Sources:** Aman Sir, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-'Too much' behaves like an adjective/quantifier: use it before uncountable nouns or after a verb — too much luggage, too much water, he talks too much. 'Much too' is a pure intensifier and comes before an adjective or adverb — much too heavy, much too young, much too windy, much too slowly. So putting 'too much' before an adjective ('too much heavy') or 'much too' before a noun ('much too work') is the error. Quick test: if an adjective or adverb follows, use 'much too'; if a noun follows or nothing follows, use 'too much'.
+Use “farther” for physical or measurable distance. Use “further” for an additional amount, degree, or figurative extension. Thus, places may be farther away, while discussion, information, investigation, or education may go further. Do not use “farther” when you mean “additional” or “more.”
 
 
 **Examples**
 
-- ✗ His teachers were too much angry with him for coming late to school and failing all the classes.
-- ✓ Use 'much too' instead of 'too much'.
-- ✗ I think that you have spent much too money on you suit.
-- ✓ Use 'too much' instead of 'much too'.
-- ✗ He cannot come to the office for a few more weeks because he is yet recovering from his illness.
-- ✓ Use 'still' instead of 'yet'.
-- ✗ Rohini didn't attend the book club meeting yesterday because she hasn't still finished reading the book.
-- ✓ Remove 'still' and place 'yet' after 'book'.
+- ✗ Mumbai is further from Delhi than Patna is.
+- ✓ Mumbai is farther from Delhi than Patna is.
+- ✗ Please contact us for farther information.
+- ✓ Please contact us for further information.
+- ✗ This matter requires farther investigation.
+- ✓ This matter requires further investigation.
 
 
-## Rule 29: Errors based on Coward/Cowardly, Miser/Miserly, Scholar/Scholarly
+## Rule 28: Too Much vs. Much Too
+
+**Topic:** Intensifiers and Adverbs
+
+**Sources:** Rani Ma'am
+
+
+Use “too much” before an uncountable noun or after a verb to express an excessive quantity or degree. Use “much too” before an adjective or adverb to intensify the meaning of “too.” Thus, “too much” answers how much, whereas “much too” means excessively. Do not use “too much” directly before an adjective or “much too” before a noun.
+
+
+**Examples**
+
+- ✗ This bag is too much heavy.
+- ✓ This bag is much too heavy.
+- ✗ She has much too luggage.
+- ✓ She has too much luggage.
+- ✗ He talks much too.
+- ✓ He talks too much.
+
+
+## Rule 29: Noun or -ly Adjective
 
 **Topic:** Nouns vs Adjectives
 
-**Sources:** Aman Sir, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-Coward, miser and scholar are nouns naming a person, while cowardly, miserly and scholarly are the matching adjectives. So write 'He is a coward' or 'He is a cowardly person' — 'a coward person' and 'a miser man' are wrong. Note that words like cowardly, miserly, scholarly, friendly, manly and lovely end in '-ly' but are adjectives only, never adverbs, so 'he behaved cowardly' is incorrect; say 'he behaved in a cowardly manner'. Do not be tricked by the '-ly' ending into treating these words as adverbs.
+Coward, miser, and scholar are nouns, whereas cowardly, miserly, and scholarly are their corresponding adjectives. Therefore, use the adjective—not the noun—before another noun: say “a cowardly person,” not “a coward person.” Many words ending in -ly, such as friendly, lively, manly, and cowardly, are adjectives rather than adverbs. To describe how someone behaves, use an adverbial phrase such as “in a cowardly manner.”
 
 
 **Examples**
 
-- ✗ The old lady in our neighbourhood is a very kind woman and she always treats me motherly.
-- ✓ Use 'like a mother' or 'in a motherly manner' instead of 'motherly'.
-- ✗ He started his career as a sports commentator as he has a very deep and manly voice.
-- ✓ No error.
-- ✗ Army is for brave people and not for those who act cowardly as soon as they come across some danger.
-- ✓ Use 'like a coward' or 'in a cowardly manner' instead of 'cowardly'.
-- ✗ We have stopped going out with Rajesh because he always acts miserly.
-- ✓ Use 'like a miser' or 'in a miserly manner' instead of 'miserly'.
+- ✗ He is a coward person.
+- ✓ He is a cowardly person.
+- ✗ He behaved cowardly.
+- ✓ He behaved in a cowardly manner.
+- ✗ Everyone disliked the miser landlord.
+- ✓ Everyone disliked the miserly landlord.
+- ✗ She wrote a scholar article.
+- ✓ She wrote a scholarly article.
 
 
-## Rule 30: Subject-Verb Agreement with the Main Subject
+## Rule 30: Agreement with the Head Subject
 
 **Topic:** Subject-Verb Agreement
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-A singular subject takes a singular verb (with '-s') and a plural subject takes a plural verb, but you must first locate the real (head) subject. Never look at the noun sitting just before the verb: qualifying phrases beginning with of, with, along with, together with, as well as, accompanied by, in addition to, including, containing, caused by, etc. do not change the number of the subject. Hence 'The crew of sailors was rescued', 'The box containing the apples was heavy', 'Ram, along with his friends, is going'. Gerunds, infinitives and abstract nouns used as subjects also take a singular verb — 'Walking is good for health', 'To err is human'.
-
-
-**Examples**
-
-- ✗ The students of this batch learns very quickly.
-- ✓ The students of this batch learn very quickly.
-- ✗ The quality of these mangoes are not good.
-- ✓ The quality of these mangoes is not good. (Subject is 'quality', not 'mangoes')
-- ✗ The teacher, along with her students, were present.
-- ✓ The teacher, along with her students, was present.
-- ✗ The prime minister accompanied by his bodyguards come to the red fort every year to hoist the flag on Republic day.
-- ✓ Use 'comes' instead of 'come'.
-- ✗ All the languages besides Hindi is spoken by the new student who got transferred from Korea last week.
-- ✓ Use 'are spoken' instead of 'is spoken'.
-
-
-## Rule 31: So / Very / Too / Enough / As-As / So-As
-
-**Topic:** Degrees of Comparison and Adverbs of Degree
-
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-Very, so, too and enough are used only with the positive (base) degree of an adjective — 'very strong', 'too weak', not 'very stronger'; use 'much' or 'far' when you need to strengthen a comparative. 'Enough' comes after the adjective it modifies ('wise enough', 'strong enough') but before a noun ('enough money'). 'So' is completed by 'that' (So + adjective + that clause), while 'too' is completed by 'to + V1' (Too + adjective + to), and these two structures must never be mixed. 'As...as' is used in positive (and negative) comparisons and 'so...as' only in negative ones, with the adjective always in its simple positive form — 'as respectful as', 'not so tall as'. Since 'too...to' already carries a negative sense, do not add another 'not' to it.
+A verb must agree with the main or head subject, not with a qualifying phrase introduced by words such as 'of,' 'with,' 'along with,' 'containing,' or 'caused by.' In the structure 'one of the + plural noun,' the verb is singular because the head subject is 'one.' A singular proper noun also takes a singular verb. Gerunds and abstract nouns used as subjects are generally treated as singular.
 
 
 **Examples**
 
-- ✗ He is as wiser as his father.
-- ✓ He is as wise as his father.
-- ✗ He is too weak not to walk.
-- ✓ He is too weak to walk. (Means he is so weak that he cannot walk)
-- ✗ He is enough wise to understand your trick.
-- ✓ He is wise enough to understand your trick.
-- It is a very interesting book.
-- I am much interested in this structural project.
+- ✗ The crew of sailors were ready.
+- ✓ The crew of sailors was ready.
+- ✗ One of the students have won the prize.
+- ✓ One of the students has won the prize.
+- ✗ India have a rich cultural heritage.
+- ✓ India has a rich cultural heritage.
+- ✗ Swimming in these rivers are dangerous.
+- ✓ Swimming in these rivers is dangerous.
 
 
-## Rule 32: Use of Superfluous Expressions
+## Rule 31: Degree Words and Comparisons
 
-**Topic:** Redundancy / Superfluous Words
+**Topic:** Degrees of Comparison and Correlative Structures
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-Never repeat a meaning that another word in the sentence already carries; the extra word is the error and must simply be deleted. Verbs like discuss, violate, approach, precede, resemble, enter, comprise and order are transitive and need no preposition — so 'discussed about', 'violate against', 'approach near', 'precedes before', 'came across with' and 'illustrate about' are all wrong. Words beginning with 're-' already mean 'back', so 'returned back', 'reverted back' and 'reimbursed back' are redundant. Similarly avoid 'supposing if', 'sufficient enough', 'repeat again', 'just exactly', 'rest of the remaining', 'the reason is because' (use 'the reason is that'), 'cousin brother' and 'final conclusion'. Also, since words like hardly, scarcely, forbid, unless and until are already negative, adding 'not' to them ('forbade not to go') creates a double negative.
+**Sources:** Rani Ma'am
 
 
-**Examples**
-
-- ✗ Unless you do not work hard, you will fail.
-- ✓ Unless you work hard, you will fail.
-- ✗ We discussed about the matter.
-- ✓ We discussed the matter.
-- ✗ Please return back my book.
-- ✓ Please return my book.
-- ✗ The reason why he failed was because he didn't study.
-- ✓ The reason why he failed was that he didn't study.
-- ✗ Supposing if it rains, what will we do?
-- ✓ If it rains, what will we do? / Supposing it rains, what will we do?
-
-
-## Rule 33: Use of Conditional Sentences
-
-**Topic:** Conditional Sentences / If-clauses
-
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-In conditional sentences the if-clause fixes the tense of the main clause, and 'will/would' must never appear inside the if-clause itself. First conditional: 'if + present simple' + 'will + V1' (If it rains, we will stay home). Second conditional: 'if + past simple' + 'would + V1', and with 'be' always use 'were' (If I were you, I would agree). Third conditional: 'if + had + V3' + 'would have + V3' (If he had studied, he would have passed). The same logic applies to time and condition clauses after when, before, after, until, unless and as soon as, which take the simple present instead of 'will', and to 'wish/if only/as if', which take V2 (or 'were') for present imagination and 'had + V3' for past imagination.
+Use very, so, too, and enough with the positive degree of an adjective, while much can modify a comparative or past participle. Very shows neutral intensity, too shows harmful excess, and enough shows sufficiency; enough comes after the adjective. Use so + adjective + that to introduce an actual result, but too + adjective + to + V1 when excess prevents an action. For equality, use as + adjective + as; in negative comparisons, not so + adjective + as is traditionally preferred, although not as + adjective + as is also correct.
 
 
 **Examples**
 
-- ✗ If it will rain, we will cancel the match.
-- ✓ If it rains, we will cancel the match.
-- ✗ If you worked hard, you would have passed the exam.
-- ✓ If you had worked hard, you would have passed the exam.
-- ✗ I wish I was a king.
-- ✓ I wish I were a king.
-- ✗ My mother asked me where I am going.
-- ✓ Use 'I was going' instead of 'I am going'.
-- ✗ The teacher wanted to know if the students have completed their homework.
-- ✓ Use 'had' instead of 'have'.
+- ✗ She is very stronger than I am.
+- ✓ She is much stronger than I am.
+- ✗ He is enough wise to understand it.
+- ✓ He is wise enough to understand it.
+- ✗ The box was too heavy that I could not lift it.
+- ✓ The box was too heavy for me to lift.
+- ✗ She is so tall as her sister.
+- ✓ She is as tall as her sister.
 
 
-## Rule 34: Nouns Joined by a Preposition Stay Singular
+## Rule 32: Avoid Redundancy
+
+**Topic:** Redundancy and Superfluous Words
+
+**Sources:** Rani Ma'am
+
+
+Do not use two words or connectors that express the same idea in a sentence. Expressions such as 'discussed about,' 'returned back,' and 'repeat again' are redundant because the verb already contains the meaning of the added word. Similarly, do not use 'because' and 'so' together to connect the same cause and result. Remove the unnecessary word or use only one connector to make the sentence concise and grammatically correct.
+
+
+**Examples**
+
+- ✗ We discussed about the problem.
+- ✓ We discussed the problem.
+- ✗ She returned back yesterday.
+- ✓ She returned yesterday.
+- ✗ Because it was raining, so we stayed indoors.
+- ✓ Because it was raining, we stayed indoors.
+- ✗ Please repeat the answer again.
+- ✓ Please repeat the answer.
+
+
+## Rule 33: Conditional Tense Patterns
+
+**Topic:** Conditionals and tense agreement
+
+**Sources:** Rani Ma'am
+
+
+Choose verb forms according to the time and reality of the condition. Use if + present simple with will + V1 for a real future possibility, if + past simple with would + V1 for an unreal present situation, and if + had + V3 with would/might have + V3 for an unreal past situation. Do not normally use will or would in the if-clause, and use were for all subjects in hypothetical Type 2 conditions. In mixed conditionals, a past condition may take a present result, such as could be, while unless means if not and provided means only if. Future time clauses introduced by when, until, as soon as, before or after also use a present form rather than will.
+
+
+**Examples**
+
+- ✗ If it will rain, we will stay home.
+- ✓ If it rains, we will stay home.
+- ✗ If I was rich, I would travel the world.
+- ✓ If I were rich, I would travel the world.
+- ✗ If she would have studied, she would have passed.
+- ✓ If she had studied, she would have passed.
+- ✗ If he had accepted that job, he could have been in Delhi now.
+- ✓ If he had accepted that job, he could be in Delhi now.
+
+
+## Rule 34: Repeated Nouns Stay Singular
 
 **Topic:** Nouns / Prepositions
 
-**Sources:** Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-When the very same noun is repeated on both sides of a preposition (after, to, upon, on, by, for), both nouns must stay singular. Correct: page after page, town after town, door to door, pile upon pile, hand in hand, word for word. Writing 'pages after pages' or 'doors to doors' is always an error, even though the meaning feels plural. Remember: the repetition itself already conveys plurality, so the nouns need no '-s'.
+When the same noun is repeated with a preposition such as after, to, upon, or on, both nouns remain singular. These expressions show repetition, succession, or continuous movement. Therefore, forms such as “pages after pages” and “doors to doors” are incorrect.
 
 
 **Examples**
 
-- ✗ Rows upon rows of marble houses look beautiful.
-- ✓ Row upon row of marble houses looks beautiful.
+- ✗ pages after pages
+- ✓ page after page
+- ✗ towns after towns
+- ✓ town after town
+- ✗ doors to doors
+- ✓ door to door
+- ✗ piles upon piles
+- ✓ pile upon pile
 
 
 ## Rule 35: Between vs Among
 
 **Topic:** Prepositions
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-Use 'between' for two persons or things and 'among/amongst' for more than two (Divide it between the two brothers; Divide it among the five boys). 'Between' is strictly paired with 'and', never with 'to' — if you want to use 'to' for a range, start with 'from' instead (from 5 to 7, between 5 and 7). Only 'between' takes 'and', so 'among ... and' is wrong. With reciprocal expressions, use 'between ourselves' for two people and 'among yourselves/themselves' for more than two. Note the exception: 'between' may be used for more than two when a distinct mutual relationship is shown, as in a treaty between four nations.
+Use 'between' for two distinct people or things, and use 'among' for three or more considered collectively as a group. 'Between' may also refer to more than two when the people or things are considered individually or have distinct relationships. Use the pattern 'between X and Y,' not 'among X and Y.' Similarly, use 'between ourselves' for two people and 'among ourselves,' 'among yourselves,' or 'among themselves' for more than two.
 
 
 **Examples**
 
-- ✗ Contact us between 10 AM to 5 PM.
-- ✓ Contact us between 10 AM and 5 PM.
-- Contact us from 10 AM to 5 PM.
-- ✗ The British Raj was the period of British Parliament rule on the Indian subcontinent between 1858 to 1947.
-- ✓ Use '1858 and 1947' instead of '1858 to 1947'.
-- ✗ The award function has started and the chief guest will arrive between 9pm to 10pm.
-- ✓ Use '9pm and 10pm' instead of '9pm to 10pm'.
-- ✗ Study for 10 hours daily, lest you will fail your medical entrance exam.
-- ✓ Use 'should' instead of 'will'.
+- ✗ The secret is among you and me.
+- ✓ The secret is between you and me.
+- ✗ The two sisters divided the work among themselves.
+- ✓ The two sisters divided the work between themselves.
+- ✗ Negotiations among India, China, and Russia took place separately.
+- ✓ Negotiations between India, China, and Russia took place separately.
 
 
 ## Rule 36: Beside vs Besides
 
 **Topic:** Prepositions
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-'Beside' means 'by the side of' or 'next to' and shows physical position (She sat beside her mother). 'Besides' means 'in addition to' or 'apart from' (Besides English, he knows French). Neither word ever takes 'of', so 'beside of' and 'besides of' are wrong. Also remember that a pronoun coming after 'beside' or 'besides' must be in the objective case (besides him, beside me).
-
-
-**Examples**
-
-- ✗ Sit besides me.
-- ✓ Sit beside me.
-- ✗ Between you and I, I think he is not dressed appropriately for the occasion.
-- ✓ Use 'me' after 'and'.
-- ✗ I think he is a bit ungrateful, because everyone but he was happy to receive gift on Christmas.
-- ✓ Use 'him' instead of 'he'.
-
-
-## Rule 37: Despite / Comprise / Await — No Extra Preposition
-
-**Topic:** Prepositions with Verbs
-
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-Some words already contain the sense of the preposition students tend to add. 'Despite' is never followed by 'of' — write 'despite the rain' or 'in spite of the rain'. 'Comprise' itself means 'consist of', so 'comprises of/from' is wrong; use 'comprises' or 'consists of'. Likewise 'await' is transitive and takes a direct object, so say 'awaiting the results' or 'waiting for the results', not 'awaiting for'. The same no-preposition logic applies to other transitive verbs such as discuss, enter, marry, order, reach, resemble and obey.
+Use 'beside' to mean 'next to' or 'by the side of' when describing position. Use 'besides' to mean 'in addition to' or 'apart from.' The final 's' changes the meaning completely. Neither word is followed by 'of,' so avoid 'beside of' and 'besides of.'
 
 
 **Examples**
 
-- ✗ We discussed about the matter.
-- ✓ We discussed the matter.
-- ✗ He entered into the classroom.
-- ✓ He entered the classroom.
-- ✗ The book comprises of ten chapters.
-- ✓ The book comprises ten chapters. / The book consists of ten chapters.
-- ✗ The play that we are going to perform in the annual event, comprises of total 3 acts.
-- ✓ Remove 'of'.
-- ✗ Juhi strongly resembles of her Grandmother in appearance and in temperament.
-- ✓ Remove 'of'.
+- ✗ She sat besides me.
+- ✓ She sat beside me.
+- ✗ Beside English, he knows Hindi.
+- ✓ Besides English, he knows Hindi.
+- ✗ The school is beside of the park.
+- ✓ The school is beside the park.
+
+
+## Rule 37: No Extra Preposition
+
+**Topic:** Prepositions
+
+**Sources:** Rani Ma'am
+
+
+Some words take their object directly and must not be followed by an unnecessary preposition. Despite means “even though” and is followed by a noun or gerund without of; use in spite of when of is required. Comprise means “consist of,” so write comprises or consists of, not comprises of or comprises from. Similarly, await takes a direct object: await the results, but wait for the results.
+
+
+**Examples**
+
+- ✗ Despite of the rain, they played.
+- ✓ Despite the rain, they played.
+- ✗ The committee comprises of ten members.
+- ✓ The committee comprises ten members.
+- ✗ We are awaiting for the results.
+- ✓ We are awaiting the results.
 
 
 ## Rule 38: Each Other vs One Another
 
 **Topic:** Reciprocal Pronouns
 
-**Sources:** Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-'Each other' is used when only two persons or things are involved (The two brothers love each other). 'One another' is used when more than two are involved (The five friends helped one another). These are fixed reciprocal pairs, so forms like 'one other' or 'each another' are always wrong. In the possessive, write 'each other's' and 'one another's'.
+Use “each other” when exactly two people or things perform a mutual action. Use “one another” when three or more people or things are involved. These fixed expressions should not be changed to forms such as “one other.”
 
 
 **Examples**
 
-- ✗ The two brothers fought with one another.
-- ✓ The two brothers fought with each other.
+- ✗ The two sisters help one another.
+- ✓ The two sisters help each other.
+- ✗ The five players congratulated each other.
+- ✓ The five players congratulated one another.
+- ✗ Rahul and Amit respect one other.
+- ✓ Rahul and Amit respect each other.
 
 
-## Rule 39: Arrangement of Pronouns
+## Rule 39: Pronoun Order
 
 **Topic:** Pronouns
 
-**Sources:** Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-When several personal pronouns come together, their order depends on the sense of the sentence. For good news, praise or ordinary statements the order is 231 — You, he and I (You, he and I will get the prize). For confessing a fault, mistake or guilt the order is 123 — I, you and he (I, you and he have broken the window). The possessive adjective and reflexive pronoun must then agree with the whole combined subject, so write 'You and I have done our best' (not 'my best') and 'You and he must help yourselves'.
-
-
-**Examples**
-
-- ✗ I, you and he will study together.
-- ✓ You, he and I will study together.
-- ✗ You, he and I committed the crime.
-- ✓ I, you and he committed the crime.
-
-
-## Rule 40: Until / Unless
-
-**Topic:** Conjunctions – Until/Unless
-
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-'Until' relates to time (a point up to which something continues), while 'unless' relates to a condition (meaning 'if not'). Both already carry a negative sense, so never add another negative such as not, doesn't or never in the same clause — 'Unless you do not work hard' is wrong; write 'Unless you work hard'. The clause after until/unless takes the simple present tense, not 'will' (Wait until he comes; Unless he apologises, I will not go). Remember also that 'unless' is a conjunction while 'in case of / without' style prepositions take a noun, so keep a subject and verb after unless/until.
+When pronouns of different persons form a compound subject, use the order 2-3-1 (you, he/she, and I) in positive or neutral statements. When admitting guilt or fault, use the order 1-2-3 (I, you, and he/she). A possessive adjective or reflexive pronoun referring to the compound subject must be plural. Therefore, use our or ourselves rather than my or myself.
 
 
 **Examples**
 
-- ✗ Unless you do not work hard, you will fail.
-- ✓ Unless you work hard, you will fail.
-- Wait here until I return. (Time)
-- You will fail unless you study. (Condition)
-- ✗ Until you control your diet, you won't be able to lose fat.
-- ✓ Use 'Unless' instead of 'Until'.
-- ✗ Please promise me that you will wait for me here unless I return.
-- ✓ Use 'Until' instead of 'Unless'.
+- ✗ I, you and he have won the prize.
+- ✓ You, he and I have won the prize.
+- ✗ You, he and I are responsible for the mistake.
+- ✓ I, you and he are responsible for the mistake.
+- ✗ You and I have done my best.
+- ✓ You and I have done our best.
+- ✗ He and I prepared himself for the test.
+- ✓ He and I prepared ourselves for the test.
 
 
-## Rule 41: Use of One / Ones / One's
-
-**Topic:** Pronouns – one/ones/one's
-
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-When the indefinite pronoun 'one' is the subject, every pronoun that refers back to it must also belong to the 'one' family — 'one', 'one's' or 'oneself' — never 'he', 'his', 'her' or 'their'. For example, 'One must finish one's work oneself' is correct, while 'One must finish his work himself' is wrong in the strict SSC pattern. Keep this consistent throughout the whole sentence, not just in the first clause. Remember the spelling difference too: the possessive is 'one's' with an apostrophe, but the plural substitute 'ones' (as in 'the red ones') never takes an apostrophe.
-
-
-**Examples**
-
-- ✗ One must do his duty honestly.
-- ✓ One must do one's duty honestly.
-- ✗ One should respect his parents.
-- ✓ Use 'one's' instead of 'his'.
-- ✗ One should never criticize others if he not sure of his facts.
-- ✓ Use 'one's' instead of 'his'.
-- ✗ He added philosophically that one should adapt himself to the changing conditions.
-- ✓ Use 'oneself' instead of 'himself'.
-
-
-## Rule 42: Both … and / Between … and
-
-**Topic:** Correlative conjunctions and prepositions
-
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-'Both' is always paired with 'and' — never with 'as well as', 'or' or 'but'; and the two items joined must be of the same grammatical type (both in the morning and in the evening). In the same way, the preposition 'between' is paired with 'and', never with 'to'; if you want to use 'to' for a range, start with 'from' instead ('from 5 to 7', not 'between 5 to 7'). 'Between' is used for two persons or things and 'among' for more than two, though 'between' is allowed with more than two when each one is related separately to the others (a treaty between the five nations). Finally, since 'between' is a preposition, the pronouns after it must be in the objective case — 'between you and me', 'between you and him', not 'between you and I'.
-
-
-**Examples**
-
-- ✗ Contact us between 10 AM to 5 PM.
-- ✓ Contact us between 10 AM and 5 PM.
-- Contact us from 10 AM to 5 PM.
-- ✗ Let you and I solve this problem.
-- ✓ Let you and me solve this problem.
-- ✗ Between you and I, I think he is not dressed appropriately for the occasion.
-- ✓ Use 'me' after 'and'.
-- ✗ I think he is a bit ungrateful, because everyone but he was happy to receive gift on Christmas.
-- ✓ Use 'him' instead of 'he'.
-
-
-## Rule 43: No conjunction 'that' before a wh-word
+## Rule 40: Unless and Until
 
 **Topic:** Conjunctions
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-The conjunction 'that' introduces a statement clause, so it cannot stand before a question word. Never use 'that' immediately before who, whom, whose, which, what, when, where, why, how, if or whether — especially in indirect speech. So 'He asked that why he was not selected' is wrong; write 'He asked why he was not selected'. Use either 'that' with a statement clause or the wh-word/if/whether alone with a question clause, but never both together.
+Use “unless” to express a condition meaning “if not,” and use “until” to indicate time meaning “up to the point when.” Since both words carry a negative sense in their usual constructions, do not add “not” or another negative unnecessarily in the same clause. Use a positive verb form after “unless” and “until.” When the main clause refers to the future, use the simple present—not “will”—in the clause introduced by “unless” or “until.”
 
 
 **Examples**
 
-- ✗ He asked me that why I was late.
-- ✓ He asked me why I was late.
-- ✗ As I have lived in Mumbai for a year so, I know how expensive it is.
-- ✓ Remove 'so'.
-- ✗ When Shreya was leaving home last night, I asked her that where she was going but she didn't reply and left.
-- ✓ Remove 'that'.
-- ✗ Radhika's husband asked her that what she was doing.
-- ✓ Remove 'that'.
+- ✗ Unless you do not study, you will fail.
+- ✓ Unless you study, you will fail.
+- ✗ Wait here unless I return.
+- ✓ Wait here until I return.
+- ✗ I will wait until he will arrive.
+- ✓ I will wait until he arrives.
+- ✗ We will not leave until the rain does not stop.
+- ✓ We will not leave until the rain stops.
 
 
-## Rule 44: Its/It's, Their/There, Your/Yours
+## Rule 41: One, One's, and Ones
+
+**Topic:** Pronouns
+
+**Sources:** Rani Ma'am
+
+
+When indefinite 'one' is the subject, use 'one's' for possession and 'oneself' for emphasis or reflexive meaning, rather than 'his', 'her', or 'himself'. 'One' can also replace a singular countable noun, while 'ones' replaces plural countable nouns to avoid repetition. The possessive 'one's' takes an apostrophe, but the plural substitute 'ones' does not.
+
+
+**Examples**
+
+- ✗ One should respect his parents.
+- ✓ One should respect one's parents.
+- ✗ One must prepare himself for difficulties.
+- ✓ One must prepare oneself for difficulties.
+- ✗ I prefer the red pen to the blue ones.
+- ✓ I prefer the red pen to the blue one.
+- ✗ These one's are cheaper than those.
+- ✓ These ones are cheaper than those.
+
+
+## Rule 42: Correct Conjunction Pairs
+
+**Topic:** Correlative conjunctions and prepositions
+
+**Sources:** Rani Ma'am
+
+
+Use ‘both’ with ‘and’, not with ‘as well as’ or ‘or’. Use ‘between’ with ‘and’, not ‘to’, when referring to two persons or things; use ‘among’ for more than two. Pronouns following ‘between’ must be in the objective case, such as ‘me’, ‘him’, or ‘her’. In standard SSC grammar, ‘lest’ is followed by ‘should’ to express prevention of an undesirable result.
+
+
+**Examples**
+
+- ✗ Both Riya as well as Priya attended the meeting.
+- ✓ Both Riya and Priya attended the meeting.
+- ✗ The agreement was made between Ram to Shyam.
+- ✓ The agreement was made between Ram and Shyam.
+- ✗ This secret is between you and I.
+- ✓ This secret is between you and me.
+- ✗ Walk carefully lest you may fall.
+- ✓ Walk carefully lest you should fall.
+
+
+## Rule 43: Avoid Double Conjunctions
+
+**Topic:** Conjunctions
+
+**Sources:** Rani Ma'am
+
+
+Do not use two conjunctions together when one is sufficient to connect a clause. In reported questions, omit 'that' before wh-words such as why, how, where, when and what, and before whether or if. Use 'that' for a statement clause, but use the wh-word, whether or if alone for a question clause. Similarly, when 'as' introduces a reason, do not add 'so' before the main clause.
+
+
+**Examples**
+
+- ✗ He asked that why he was not selected.
+- ✓ He asked why he was not selected.
+- ✗ She wanted to know that whether I was ready.
+- ✓ She wanted to know whether I was ready.
+- ✗ As it was raining, so we stayed indoors.
+- ✓ As it was raining, we stayed indoors.
+
+
+## Rule 44: Possessives and Homophones
 
 **Topic:** Pronouns and Determiners
 
-**Sources:** Aman Sir, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-These homophones are tested purely on function. 'Its' shows possession (the dog wagged its tail), while 'it's' is the short form of 'it is' or 'it has'. 'Their' shows possession (their books), whereas 'there' points to a place or begins a sentence like 'There is/are…'. Similarly, possessive adjectives — my, our, your, his, her, its, their — are used before a noun, while possessive pronouns — mine, ours, yours, his, hers, theirs — stand alone and are never followed by a noun ('This is your pen' but 'This pen is yours'). Note also that none of the possessive pronouns takes an apostrophe.
-
-
-**Examples**
-
-- ✗ I have decided that I won't work at yours company anymore.
-- ✓ Use 'your' instead of 'yours'.
-- ✗ Their is the best offer that you can get so you should not think much.
-- ✓ Use 'Theirs' instead of 'Their'.
-- ✗ I can't buy this car because it's cost is way out of my budget.
-- ✓ Use 'its' instead of 'it's'. 'Its' is a possessive adjective, whereas 'it's' is pronoun + verb.
-- ✗ You and Rohan should not waste his time wandering here and there.
-- ✓ Use 'your' instead of 'his'.
-- ✗ You and I have done my best to make her happy.
-- ✓ Use 'our' instead of 'my'.
-
-
-## Rule 45: Errors related to Inversion
-
-**Topic:** Inversion / Word Order
-
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
-
-
-Inversion means the helping verb is placed before the subject: Adverb + helping verb + subject + main verb. It is compulsory in direct questions and whenever a sentence or clause begins with a negative or restrictive adverb such as never, seldom, rarely, hardly, scarcely, barely, little, no sooner, not only, nowhere, or under no circumstances, and also after 'nor'. So we write 'Never have I heard such a story' and 'No sooner had she reached than the train left', not 'Never I have heard' or 'No sooner she had reached'. Remember that only the first clause is inverted; the clause after 'than'/'when' keeps normal word order. With an adverb of place at the front, the order is adverb + main verb + subject ('Here comes the bus').
+Use possessive adjectives such as my, our, your, its and their before nouns, but use possessive pronouns such as mine, ours, yours and theirs without a following noun. Its shows possession, whereas it's means “it is” or “it has.” Their shows possession, there refers to a place or introduces something, and they're means “they are.” Your must modify a noun, while yours stands alone.
 
 
 **Examples**
 
-- ✗ Seldom I have seen such a beautiful painting.
-- ✓ Seldom have I seen such a beautiful painting.
-- ✗ Barely she had got back in bed when her alarm went off.
-- ✓ Use 'had she' instead of 'she had'.
-- ✗ Never I have encountered such rudeness before I stared working in this office.
-- ✓ Use 'Never have I' in place of 'Never I have'.
-- ✗ Just two meters away from their house was lying 3 dead bodies.
-- ✓ Use 'were' instead of 'was'.
-- ✗ When I told them my plan, Rajesh joined me and so kunal did.
-- ✓ Use 'so did Kunal' instead of 'so Kunal did'.
+- ✗ The dog wagged it's tail.
+- ✓ The dog wagged its tail.
+- ✗ Their are two books on the table.
+- ✓ There are two books on the table.
+- ✗ They're house is near the park.
+- ✓ Their house is near the park.
+- ✗ This book is your.
+- ✓ This book is yours.
 
 
-## Rule 46: Question tags with everyone / nobody / nothing
+## Rule 45: Inversion
+
+**Topic:** Word Order
+
+**Sources:** Rani Ma'am
+
+
+Inversion places a helping verb before the subject and is required in direct questions and after negative or restrictive expressions such as never, seldom, little, no sooner, and under no circumstances. The usual pattern is introductory adverb or expression + helping verb + subject + main verb. The same inverted order is used in clauses beginning with nor. When an adverb of place begins a sentence, the main verb may come before a noun subject without a helping verb.
+
+
+**Examples**
+
+- ✗ What you are doing?
+- ✓ What are you doing?
+- ✗ Never I have seen such courage.
+- ✓ Never have I seen such courage.
+- ✗ No sooner she had arrived than it began to rain.
+- ✓ No sooner had she arrived than it began to rain.
+- ✗ On the hill a castle stood.
+- ✓ On the hill stood a castle.
+
+
+## Rule 46: Tags with Indefinite Pronouns
 
 **Topic:** Question Tags
 
-**Sources:** Aman Sir, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-A question tag is simply helping verb + pronoun, and it always reverses the polarity of the statement: a positive sentence takes a negative tag and a negative sentence takes a positive tag. With indefinite subjects that refer to people — everyone, everybody, someone, somebody, no one, nobody, anybody, each, either, neither, none — the tag pronoun is 'they'. With indefinite subjects referring to things — everything, something, nothing, anything — the tag pronoun is 'it'. Since words like nobody, no one and nothing are already negative, the tag must be positive: 'Nobody did the work, did they?' and 'Nothing was lost, was it?'
+A question tag consists of a helping verb and a pronoun, and its polarity is normally opposite to that of the statement. Use ‘they’ in the tag for indefinite pronouns referring to people, such as everyone, somebody, anyone, and nobody. Use ‘it’ for indefinite pronouns referring to things, such as everything, something, anything, and nothing. Since nobody, no one, neither, and nothing are already negative, they take a positive question tag; negative tags normally use contracted helping verbs.
 
 
 **Examples**
 
-- ✗ We have already met each other, didn't we?
-- ✓ Use 'haven't we' instead of 'didn't we'.
-- ✗ The trains in India never come on time, aren't they?
-- ✓ Use 'do they' instead of 'aren't they'.
-- ✗ The new HR was late on his first day of job, weren't he?
-- ✓ Use 'wasn't he' instead of 'weren't he'.
-- ✗ An Aspirant should be consistent in his studies, don't he?
-- ✓ Use 'shouldn't he' instead of 'don't he'.
-- ✗ Let's go for a dinner for our anniversary, will we?
-- ✓ Use 'shall we' instead of 'will we'.
+- ✗ Everybody is ready, isn’t he?
+- ✓ Everybody is ready, aren’t they?
+- ✗ Nobody called, didn’t they?
+- ✓ Nobody called, did they?
+- ✗ Something happened, didn’t they?
+- ✓ Something happened, didn’t it?
+- ✗ Nothing was lost, wasn’t it?
+- ✓ Nothing was lost, was it?
 
 
-## Rule 47: Confusion in the usage of nouns and verbs
+## Rule 47: Noun–Verb Confusables
 
 **Topic:** Confusable Words
 
 **Sources:** Rani Ma'am
 
 
-Some pairs of words are spelt almost alike but differ in whether they act as a noun or a verb. 'Practice', 'advice', 'device' and 'licence' are nouns, while 'practise', 'advise', 'devise' and 'license' are verbs — the '-ce' form names the thing and the '-se' form does the action. So one gives a piece of advice but advises a friend, and one attends a practice session but practises English daily. In the exam, check the word's job in the sentence: if an article or adjective comes before it, you need the noun; if a subject performs it, you need the verb.
+Some commonly confused words differ according to whether they function as nouns or verbs. Advice is a noun meaning a recommendation, while advise is a verb meaning to give a recommendation. In British English, practice is the noun and practise is the verb. Similarly, affect is usually a verb meaning “influence,” whereas effect is usually a noun meaning “result.”
 
 
-## Rule 48: Relative Pronouns 'What' and 'That'
+**Examples**
+
+- ✗ She gave me a useful advise.
+- ✓ She gave me a useful piece of advice.
+- ✗ Doctors advice us to exercise regularly.
+- ✓ Doctors advise us to exercise regularly.
+- ✗ You should practice English every day.
+- ✓ You should practise English every day.
+- ✗ The new rule had a positive affect.
+- ✓ The new rule had a positive effect.
+
+
+## Rule 48: That vs What
 
 **Topic:** Relative Pronouns
 
-**Sources:** Aman Sir, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-'That' is a relative pronoun that must have an antecedent — a noun or pronoun stated before it — while 'what' takes no antecedent because it already means 'the thing which'. So after an expressed noun, use 'that' (or which/who as appropriate): 'the food that they cooked', 'the information that I needed'; writing 'the food what they cooked' is incorrect. Use 'what' only when no noun is given, as in 'I did not understand what he said'. Remember the related choices too: 'who/whom' for people, 'which' for things and clauses, and 'that' for both.
-
-
-**Examples**
-
-- ✗ The girl who you had slapped in the class complained to the principal.
-- ✓ Use 'whom' instead of 'who'.
-- ✗ Sahil, whom just started last week, is already doing good at his new job.
-- ✓ Use 'who' instead of 'whom'.
-- ✗ The car which/who is standing in front of my house is my father's.
-- ✓ 'which' is correct.
-- ✗ You have never questioned any decision of your master that is a proof of your loyalty.
-- ✓ Here the relative pronoun must refer to the whole clause. When an entire clause acts as the antecedent, the relative pronoun 'which' is used.
-- ✗ The few people who came to my party are the only friends that I have till now.
-- ✓ Use 'that' instead of 'who'.
-
-
-## Rule 49: Errors Related to Numeral Adjectives
-
-**Topic:** Numeral Adjectives
-
-**Sources:** Rahul Gupta, Rani Ma'am
-
-
-Words of number and measure such as pair, score, dozen, hundred, thousand and million stay in the singular form when a definite number comes before them: five hundred people, two dozen mangoes, three score years. They take the plural with 'of' only when the quantity is indefinite: hundreds of people, thousands of miles, dozens of files. When a numeral plus a noun is hyphenated and used as a compound adjective before another noun, the noun also stays singular, as in a five-man committee or a five-month-old baby. But when the numeral phrase itself shows possession, use the apostrophe: five minutes' time, two years' experience.
+Use 'that' when the relative pronoun refers to an antecedent already stated in the sentence. Use 'what' without an antecedent because it means 'the thing that' or 'the thing which'. Therefore, do not use 'what' immediately after an expressed noun or pronoun.
 
 
 **Examples**
 
-- ✗ He gave me a five-rupees note.
-- ✓ He gave me a five-rupee note.
-- ✗ I bought two dozens bananas.
-- ✓ I bought two dozen bananas.
-- Hundreds of people attended the rally.
+- ✗ The food what they cooked was delicious.
+- ✓ The food that they cooked was delicious.
+- ✗ This is the information what I needed.
+- ✓ This is the information that I needed.
+- ✗ I understood that he meant.
+- ✓ I understood what he meant.
 
 
-## Rule 50: Use of Conjunctions: 'if', 'whether' and 'that'
+## Rule 49: Numeral Adjectives
+
+**Topic:** Numeral adjectives and compound modifiers
+
+**Sources:** Rani Ma'am
+
+
+Words such as hundred, thousand, dozen and score remain singular when preceded by a definite number. They become plural and are followed by “of” when they express an indefinite quantity. In a compound adjective formed with a number and a noun, the noun remains singular. Expressions of time before “time” take the possessive form, as in “five minutes’ time.”
+
+
+**Examples**
+
+- ✗ Five hundreds people attended the event.
+- ✓ Five hundred people attended the event.
+- ✗ Hundred of people attended the event.
+- ✓ Hundreds of people attended the event.
+- ✗ She has a five-months-old baby.
+- ✓ She has a five-month-old baby.
+- ✗ The train will arrive in five minutes time.
+- ✓ The train will arrive in five minutes’ time.
+
+
+## Rule 50: If, Whether, and That
 
 **Topic:** Conjunctions
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-Use 'if' for a simple condition or a plain indirect yes/no question, and 'whether' when a choice or alternative is involved — it is the natural partner of 'or' and 'or not' (I don't know whether to go or stay). Use 'that' to introduce a statement or noun clause of certainty (I know that he is honest). Never combine 'that' with 'if' or 'whether': write 'I know whether he will come', not 'I know that if he will come'. In indirect speech, 'that' is also dropped before question words such as who, what, why, when, how, if and whether, and reporting verbs like ask take 'if/whether' rather than 'that'.
+Use 'if' to introduce a condition, and use 'if' or 'whether' for an indirect yes/no question. Prefer 'whether' when two alternatives or 'or not' are explicitly mentioned. Use 'that' to introduce a statement or noun clause, but never combine it with 'if' or 'whether'. After reporting verbs such as 'ask', use 'if' or 'whether', not 'that'.
 
 
 **Examples**
 
-- ✗ He asked me that why I was late.
-- ✓ He asked me why I was late.
-- ✗ I do not know if he will come or not.
-- ✓ I do not know whether he will come or not.
-- ✗ As I have lived in Mumbai for a year so, I know how expensive it is.
-- ✓ Remove 'so'.
-- ✗ When Shreya was leaving home last night, I asked her that where she was going but she didn't reply and left.
-- ✓ Remove 'that'.
-- ✗ Radhika's husband asked her that what she was doing.
-- ✓ Remove 'that'.
+- ✗ I will go whether it stops raining.
+- ✓ I will go if it stops raining.
+- ✗ I do not know if or not she will come.
+- ✓ I do not know whether or not she will come.
+- ✗ I know that if he is honest.
+- ✓ I know that he is honest.
+- ✗ She asked that I was ready.
+- ✓ She asked whether I was ready.
 
 
-## Rule 51: Errors Related to Articles (use of 'the')
+## Rule 51: Use of 'The'
 
 **Topic:** Articles
 
-**Sources:** Aman Sir, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-'The' points to something specific or already identified, while 'a/an' introduces something indefinite, so a superlative or an ordinal — which names one particular item — always takes 'the': the best form, the first time, the largest city. It is also required before words like former, latter, same and only, and in the double-comparative pattern 'the more you read, the better you write'. Using 'a/an' before a superlative or dropping the article before an ordinal is an error. One exception to remember: when 'most' means 'the majority of', no article is used — 'Most students passed', not 'The most students passed'.
+Use 'the' before superlative adjectives, ordinal numbers, and words such as 'former' and 'latter'. It is incorrect to use 'a/an' or omit the article in expressions such as 'the best option' and 'the first time'. Use 'the' in paired comparative structures such as 'the more...the better'. However, do not use an article before 'most' when it means 'the majority of'.
 
 
 **Examples**
 
-- ✗ I was happy to see a fireman who saved my life when my house got on fire.
-- ✓ Use 'the fireman' instead of 'a fireman'.
-- ✗ I can't believe that he lives in the small flat in Pacific golf society.
-- ✓ Use 'in a small' instead of 'in the small'.
-- ✗ My uncle gifted me the expensive watch on my 18th birthday.
-- ✓ Use 'an' instead of 'the'.
-- ✗ A man whom we met while we were coming back is brother in law.
-- ✓ Use 'The man' instead of 'A man'.
+- ✗ This is a best solution.
+- ✓ This is the best solution.
+- ✗ I met her for first time.
+- ✓ I met her for the first time.
+- ✗ More you practise, better you become.
+- ✓ The more you practise, the better you become.
+- ✗ The most students passed the examination.
+- ✓ Most students passed the examination.
 
 
-## Rule 52: Article with two subjects forming a single unit
+## Rule 52: Articles with Joined Nouns
+
+**Topic:** Subject-Verb Agreement
+
+**Sources:** Rani Ma'am
+
+
+When two singular nouns joined by “and” refer to the same person or form one unit, use the article only before the first noun and a singular verb. When the article is repeated before each noun, the nouns refer to separate persons or things and require a plural verb. Thus, the placement of the article determines whether the subject is singular or plural.
+
+
+**Examples**
+
+- ✗ The treasurer and secretary are present.
+- ✓ The treasurer and secretary is present.
+- ✗ The treasurer and the secretary is present.
+- ✓ The treasurer and the secretary are present.
+- ✗ The poet and philosopher have arrived.
+- ✓ The poet and philosopher has arrived.
+
+
+## Rule 53: Article-Free Idioms
 
 **Topic:** Articles
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-When two nouns joined by 'and' name the same person or together form one single idea, the article is written only once, before the first noun, and the verb stays singular: 'The Treasurer and Secretary is present' (one officer holding both posts). If the article is repeated before each noun, you are talking about two different persons or things, so the verb becomes plural: 'The Treasurer and the Secretary are present.' The same single-unit logic applies to fixed pairs like bread and butter, rice and curry, and slow and steady, which take a singular verb. So decide first whether the two nouns are one unit or two, then choose the article and verb to match.
-
-
-**Examples**
-
-- ✗ Bread and butter are my favorite breakfast.
-- ✓ Bread and butter is my favorite breakfast.
-- ✗ The host and hostess /of the party were very nice and /they welcomed each guest with/ a big smile on their faces.
-- ✓ Use 'the' before 'hostess'.
-- ✗ The Principal and the secretary/ of our school is coming and many/ arrangements were made by the /teachers for their visit.
-- ✓ Use 'are' instead of 'is'.
-- ✗ The Vice-President and the chairman/ of the Rajya Sabha is elected/ by an electoral college consisting of members of /both Houses of Parliament.
-- ✓ Remove 'the' before 'chairman'.
-
-
-## Rule 53: Idiomatic phrases that do not take articles
-
-**Topic:** Articles
-
-**Sources:** Aman Sir, Rani Ma'am
-
-
-Many fixed English expressions are used with no article at all, and adding 'a', 'an' or 'the' inside them is an error. Common examples are by mistake, by chance, by air, by bus, at home, in trouble, in danger, in conclusion, at present, set on fire and what sort of people. The same zero-article rule applies to places named for their primary purpose — go to school, in hospital, at church, in jail, go to market. Since these are idioms, they must simply be memorised as complete units rather than analysed word by word.
+Certain fixed idiomatic expressions are used without a, an, or the. Common examples include by mistake, by air, in trouble, in conclusion, set on fire, and what sort of people. Adding an article within these established phrases is incorrect, even though the same nouns may take articles in other contexts.
 
 
 **Examples**
 
-- ✗ I know that you don't earn much but you should try to send your children to the school.
-- ✓ Remove 'the' before 'school'.
-- ✗ After a long and tedious day, Yamini came home and went to the bed.
-- ✓ Remove 'the' before 'bed'.
-- ✗ My brother and I always wait for the Christmas because it is filled with joy and sweet treats.
-- ✓ Remove 'the' before 'Christmas'.
-- ✗ As soon as I get an opportunity, I will shift to the Australia.
-- ✓ Remove 'the' before 'Australia'.
+- ✗ I sent the message by a mistake.
+- ✓ I sent the message by mistake.
+- ✗ They travelled by the air.
+- ✓ They travelled by air.
+- ✗ The careless act set the building on a fire.
+- ✓ The careless act set the building on fire.
+- ✗ In the conclusion, we must work together.
+- ✓ In conclusion, we must work together.
 
 
-## Rule 54: Errors related to the Apostrophe ('s)
+## Rule 54: Possessive Apostrophes
 
-**Topic:** Apostrophe / Possessive case
+**Topic:** Apostrophe and Possessive Case
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-The apostrophe shows possession and is normally used with living beings; for non-living things prefer the 'of' structure (the leg of the table), though personification and expressions of time, space, weight and value are exceptions (nature's law, a day's work, a mile's distance). With compound nouns the 's is added at the very end of the whole compound: my sister-in-law's house, the commander-in-chief's order. For joint ownership only the last noun takes 's (Ram and Shyam's shop — one shop), while separate ownership needs 's on each noun (Ram's and Shyam's shops). Singular nouns already ending in a hissing sound take only an apostrophe (Keats' poems, Jesus' teachings), 'somebody else' becomes 'somebody else's', and a double possessive such as 'that of the poor's' is wrong — write 'that of the poor'.
+Use an apostrophe to show possession, placing ’s at the end of an entire compound noun, as in “sister-in-law’s car.” For joint ownership, add ’s only to the second noun; for separate ownership, add ’s to both nouns. Indefinite pronouns can form possessives, and expressions such as “somebody else” become “somebody else’s.” Possessive apostrophes may also be used with personified or dignified objects, celestial bodies, and expressions of time, value, weight, or distance.
 
 
 **Examples**
 
-- ✗ The table's leg was broken.
-- ✓ The leg of the table was broken.
-- Sham and Ram's joint account. (One account)
-- Sham's and Ram's cars. (Two different cars)
-- ✗ Keats's poems are romantic.
-- ✓ Keats' poems are romantic.
-- ✗ David's and Mindy's car has stopped functioning properly so they are thinking about selling it.
-- ✓ Use 'David' instead of 'David's'.
+- ✗ My sister’s-in-law car is new.
+- ✓ My sister-in-law’s car is new.
+- ✗ Riya’s and Tina’s mother is a doctor.
+- ✓ Riya and Tina’s mother is a doctor.
+- ✗ Ravi and Mohan’s bags are on separate desks.
+- ✓ Ravi’s and Mohan’s bags are on separate desks.
+- ✗ This is somebody’s else book.
+- ✓ This is somebody else’s book.
 
 
-## Rule 55: Errors related to Parallelism
+## Rule 55: Parallel Structure
 
 **Topic:** Parallelism
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-Elements joined by coordinating conjunctions (and, or, but) or by correlative pairs (not only... but also, either... or, neither... nor, both... and) must be of the same grammatical rank and form. If the first item is a gerund, the second must be a gerund; if the first is an infinitive, so is the second — 'He likes swimming and cycling', not 'swimming and to cycle'. With 'not only... but also', place each part immediately before the matching words so that both halves balance: 'She not only sang but also danced.' Mismatched tenses, verb forms, structures, or a mixture of degrees of comparison within one series all break parallelism and count as errors.
+Words, phrases, or clauses joined by coordinating conjunctions or correlative pairs must have the same grammatical form. Pairs such as “either...or,” “neither...nor,” “both...and,” and “not only...but also” must connect elements of equal grammatical rank. Expressions with “rather than” should also use matching verb forms or structures. Avoid mismatches in tense, verb form, sentence structure, or degree of comparison within a parallel construction.
 
 
 **Examples**
 
-- ✗ He not only lost his home but also his job.
-- ✓ He lost not only his home but also his job. (Both sit right before nouns)
-- ✗ You have a long weekend coming up, so either you can go for a vacation or stay at home.
-- ✓ Remove 'either' before 'you' and place 'either' before 'go'.
-- ✗ The new teacher teaches them not only mathematics but also provides career counseling to them.
-- ✓ Remove 'not only' after 'them' and place 'not only' before 'teaches'.
-- ✗ Both my friend as well as I like to watch hollywood movies in our free time.
-- ✓ Use 'and' instead of 'as well as'.
+- ✗ She likes not only singing but also to dance.
+- ✓ She likes not only singing but also dancing.
+- ✗ He enjoys reading rather than to write.
+- ✓ He enjoys reading rather than writing.
+- ✗ She is both intelligent and works hard.
+- ✓ She is both intelligent and hardworking.
+- ✗ Riya is smarter and diligent than her sister.
+- ✓ Riya is smarter and more diligent than her sister.
 
 
-## Rule 56: Errors related to Causative Verbs
+## Rule 56: Causative Verb Patterns
 
 **Topic:** Causative Verbs
 
-**Sources:** Aman Sir, Rahul Gupta, Rani Ma'am
+**Sources:** Rani Ma'am
 
 
-The causative verbs have, get, make and let follow fixed, testable patterns. In the active voice, make, have and let are followed by the bare infinitive (V1) — 'I made him do the work', 'She had the peon open the gate', 'Let him go' — while get takes 'to + V1': 'I got him to do the work.' When the object is a thing rather than a person, have and get take the third form: 'I got/had the work done by him.' In the passive voice, make and let switch to 'to + V1' — 'He was made to do the work', 'He was let to go' — so remember: bare infinitive in the active, 'to + V1' in the passive for make and let.
-
-
-**Examples**
-
-- ✗ He made me to cry.
-- ✓ He made me cry.
-- ✗ She lets his brother to borrow her car whenever he needs to go to work.
-- ✓ Remove 'to' before 'borrow'.
-- ✗ We heard him to say very mean things about your wife and parents.
-- ✓ Remove 'to' before 'say'.
-- ✗ We saw him to cross the road with his children.
-- ✓ Remove 'to' before 'cross'.
-- ✗ The coach made the players to practise every day for the upcoming championship.
-- ✓ Remove 'to' before 'practise'.
-
-
-## Rule 57: Errors related to Fraction / Percent
-
-**Topic:** Fractions and Percentages
-
-**Sources:** Aman Sir, Rani Ma'am
-
-
-With a fraction or percentage, the verb is decided by the noun that comes after 'of', not by the fraction itself. So write 'One third of the birds migrate' (plural noun, plural verb) but 'Three fourths of the pillar has rotted' (singular/uncountable noun, singular verb). The same logic applies to quantifiers like all, some, most, a lot of, plenty of and to figures such as 20% or 1/2. Also match the denominator to the numerator: use the singular form after one/a ('one fourth', 'a third') and the plural form when the numerator is more than one ('three fourths', 'two thirds').
+Causative verbs follow fixed patterns according to whether their object performs or receives an action. When a person performs the action, use make/have + person + bare infinitive, but use get + person + to-infinitive. When a thing receives the action, use have/get + thing + past participle (V3). In the passive voice, make is followed by a to-infinitive.
 
 
 **Examples**
 
-- ✗ Some of the students was absent yesterday.
-- ✓ Use 'were' instead of 'was'.
-- ✗ Half of the class have not completed the assignment given by the teacher.
-- ✓ Use 'has' instead of 'have'.
-- ✗ All of the chairs was in perfect condition when I bought them from the new furniture store.
-- ✓ Use 'were' instead of 'was'.
+- ✗ I made him to finish the work.
+- ✓ I made him finish the work.
+- ✗ I got him finish the work.
+- ✓ I got him to finish the work.
+- ✗ I had my car repair.
+- ✓ I had my car repaired.
+- ✗ He was made finish the work.
+- ✓ He was made to finish the work.
 
 
-## Rule 58: Errors related to Adjectives — Cardinals, Ordinals, Multiplicatives
+## Rule 57: Quantifiers and Fractions
 
-**Topic:** Adjectives (Order of Numerals)
-
-**Sources:** Aman Sir, Rani Ma'am
-
-
-When an ordinal (first, second, last, next), a cardinal (one, two, five) and a multiplicative (single, double) come together before a noun, the fixed order is ordinal + cardinal + multiplicative. So it is 'the first five girls', 'the first two chapters' and 'the first two single rooms'. Reversing them, as in 'the five first girls' or 'the two first chapters', is wrong. Remember the simple sequence: the ordinal always leads, the number follows, and the multiplicative sits closest to the noun.
-
-
-**Examples**
-
-- ✗ He has solved the five first questions of the exercise.
-- ✓ Use 'first five questions' instead of 'five first questions'.
-- ✗ The policeman checked only the ten first trucks that were standing in the line.
-- ✓ Use 'first ten trucks' instead of 'ten first trucks'.
-- ✗ 15 men went into lion's den one by one as a challenge but only the two last survived.
-- ✓ Use 'the last two' instead of 'the two last'.
-
-
-## Rule 59: Arrangement of Adjectives (OSASCOMP)
-
-**Topic:** Order of Adjectives
+**Topic:** Subject-Verb Agreement
 
 **Sources:** Rani Ma'am
 
 
-When two or more adjectives describe the same noun, they must follow a fixed sequence given by OSASCOMP: Opinion, Size, Age, Shape, Colour, Origin, Material, Purpose. Following this order gives natural English: 'long blonde hair' (size before colour), 'a big wooden building' (size before material), 'a small black bag' (size before colour) and 'a small red leather bag' (size, colour, material). Swapping the order — 'a leather red small bag' — sounds wrong even though every word is correct. Memorise the word OSASCOMP and place each adjective in its slot.
+With quantifiers, percentages, and fractions followed by 'of + noun', the verb agrees with the noun after 'of'. Use a plural verb when that noun is plural, but use a singular verb when it is singular or uncountable. In a written fraction, use a singular denominator with a numerator of one or 'a' and a plural denominator with a numerator greater than one. Thus, write 'one fourth' but 'three fourths'.
 
 
-## Rule 60: Made of / Made from
+**Examples**
 
-**Topic:** Prepositions with 'made'
+- ✗ One third of the birds migrates every winter.
+- ✓ One third of the birds migrate every winter.
+- ✗ Most of the water have evaporated.
+- ✓ Most of the water has evaporated.
+- ✗ Three fourth of the pillar have rotted.
+- ✓ Three fourths of the pillar has rotted.
+
+
+## Rule 58: Order of Numeral Adjectives
+
+**Topic:** Adjectives
 
 **Sources:** Rani Ma'am
 
 
-Use 'made of' when the original material is still visible and unchanged — only a physical change has taken place, as in 'the table is made of wood' and 'her necklace is made of gold'. Use 'made from' when the original material is transformed and can no longer be recognised — a chemical change, as in 'curd is made from milk', 'flour is made from wheat' and 'glass is made from melted sand'. The quick test: if you can still identify the raw material in the finished product, choose 'of'; if it has been converted into something new, choose 'from'.
-
-
-## Rule 61: One of + Plural Noun Takes a Singular Verb
-
-**Topic:** Subject-Verb Agreement
-
-**Sources:** Rahul Gupta
-
-
-The structure "one of" must always be followed by a plural noun, but the verb stays singular. This is because the real subject is "one", not the plural noun that follows it. So we write "One of my friends is a doctor", never "One of my friend" or "are a doctor". Remember the formula: One of + Plural Noun + Singular Verb.
+When numeral adjectives occur together, use the order ordinal + cardinal + multiplicative. Thus, words showing order or position, such as first, last, and next, come before cardinal numbers such as two or five. A multiplicative adjective, such as single or double, follows both the ordinal and the cardinal. For example, write “the first two single rooms,” not “the two first single rooms.”
 
 
 **Examples**
 
-- ✗ One of my friends are a doctor.
-- ✓ One of my friends is a doctor.
+- ✗ the five first girls
+- ✓ the first five girls
+- ✗ the two last chapters
+- ✓ the last two chapters
+- ✗ the three first double rooms
+- ✓ the first three double rooms
 
 
-## Rule 62: One of the + Who/Which/That Takes a Plural Verb
+## Rule 59: Adjective Order
 
-**Topic:** Subject-Verb Agreement
+**Topic:** Order of Adjectives (OSASCOMP)
 
-**Sources:** Rahul Gupta
-
-
-When a relative pronoun (who, which, that) follows the plural noun in a "one of" structure, the verb after that pronoun becomes plural. The reason is that the relative pronoun refers back to the whole plural group, not to "one". For example: "He is one of the students who work hard." Here "who" points to "students", so "work" is plural, even though the main verb "is" stays singular.
+**Sources:** Rani Ma'am
 
 
-**Examples**
-
-- ✗ He is one of those men who tells lies.
-- ✓ He is one of those men who tell lies.
-
-
-## Rule 63: Collective Nouns: Singular or Plural Verb
-
-**Topic:** Subject-Verb Agreement
-
-**Sources:** Rahul Gupta
-
-
-Collective nouns like jury, team, committee, and family take a singular verb when the group acts as one united body. But if the members are divided, disagreeing, or acting individually, the verb becomes plural. Compare: "The jury has given its verdict" (united) with "The jury are divided in their opinions" (split). Look at the sense of the sentence, not just the noun, to pick the verb.
+When several adjectives describe the same noun, they usually follow the OSASCOMP order: Opinion, Size, Age, Shape, Colour, Origin, Material, and Purpose. Adjectives belonging to different categories should be placed in this sequence before the noun. For example, size comes before colour, while colour comes before material.
 
 
 **Examples**
 
-- The jury is giving its verdict. (United)
-- The jury were divided in their opinions. (Divided)
+- ✗ a leather red small bag
+- ✓ a small red leather bag
+- ✗ blonde long hair
+- ✓ long blonde hair
+- ✗ a wooden big building
+- ✓ a big wooden building
 
 
-## Rule 64: Money, Distance, Time and Weight as One Unit
+## Rule 60: Made of vs Made from
 
-**Topic:** Subject-Verb Agreement
+**Topic:** Prepositions
 
-**Sources:** Rahul Gupta
-
-
-When an amount of money, distance, time, or weight is treated as a single lump or unit, it takes a singular verb even though the noun looks plural. So we say "Ten thousand rupees is a big amount" and "Twenty kilometres is a long walk". The idea is that the whole quantity is being counted as one thing. Only when the individual items are meant separately does a plural verb become correct.
+**Sources:** Rani Ma'am
 
 
-**Examples**
-
-- ✗ Ten miles are a long distance to walk.
-- ✓ Ten miles is a long distance to walk.
-
-
-## Rule 65: Nouns Ending in -s That Are Singular
-
-**Topic:** Subject-Verb Agreement
-
-**Sources:** Rahul Gupta
-
-
-Some nouns end in -s and look plural but are actually singular, so they take a singular verb. These include school subjects (Physics, Mathematics, Economics, Statistics), games (Billiards, Darts, Athletics), and diseases (Measles, Mumps, Rickets). For example: "Mathematics is my favourite subject" and "Measles is a contagious disease." Also note news, politics, and ethics behave the same way in most sentences.
+Use 'made of' when the original material remains recognizable in the finished object. Use 'made from' when the material is transformed and is no longer recognizable in its original form. Thus, furniture is made of wood, while paper is made from wood.
 
 
 **Examples**
 
-- ✗ Mathematics are a difficult subject.
-- ✓ Mathematics is a difficult subject.
+- ✗ This table is made from wood.
+- ✓ This table is made of wood.
+- ✗ Curd is made of milk.
+- ✓ Curd is made from milk.
+- ✗ Glass is made of melted sand.
+- ✓ Glass is made from melted sand.
 
 
-## Rule 66: Nothing but Always Takes a Singular Verb
+## Rule 61: Some vs Any
 
-**Topic:** Subject-Verb Agreement
+**Topic:** Adjectives and Determiners
 
-**Sources:** Rahul Gupta
-
-
-When a sentence begins with or is headed by "nothing but", the verb is always singular, no matter what noun follows. This is because the real subject is "nothing", which is singular. So we write "Nothing but books was found in the room", not "were found". The plural noun after "but" never controls the verb here.
+**Sources:** Aman Sir
 
 
-**Examples**
-
-
-
-## Rule 67: Sentences Beginning with There or Here
-
-**Topic:** Subject-Verb Agreement
-
-**Sources:** Rahul Gupta
-
-
-In sentences starting with "There" or "Here", these words are only introductory and are not the subject. The real subject appears after the verb, so you must look ahead to decide the verb form. Say "There is a book on the table" but "There are many books on the table". With two joined nouns, the verb usually agrees with the first one: "There is a pen and two books here."
+Use 'some' mainly in affirmative sentences to indicate an unspecified quantity or number. Use 'any' mainly in negative sentences and most questions. However, use 'some' in questions when making an offer or request and expecting a positive response. 'Any' may also occur in affirmative sentences when it means 'no matter which' or 'whichever.'
 
 
 **Examples**
 
-- ✗ There is many problems in this city.
-- ✓ There are many problems in this city.
+- ✗ I have any books on grammar.
+- ✓ I have some books on grammar.
+- ✗ She does not need some help.
+- ✓ She does not need any help.
+- ✗ Do you have some questions?
+- ✓ Do you have any questions?
+- ✗ Would you like any tea?
+- ✓ Would you like some tea?
 
 
-## Rule 68: A Pair of Makes Plural-Only Nouns Singular
+## Rule 62: Reflexive Pronouns after Certain Verbs
 
-**Topic:** Nouns
+**Topic:** Pronoun
 
-**Sources:** Rahul Gupta
-
-
-Nouns like scissors, spectacles, trousers, and pants are plural in form and normally take a plural verb. But when you place "a pair of" before them, the subject becomes "pair", which is singular, so the verb turns singular too. Compare: "My spectacles are broken" with "A pair of spectacles is on the table." The verb follows "pair", not the noun after "of".
+**Sources:** Aman Sir
 
 
-**Examples**
-
-- ✗ A pair of shoes were bought by him.
-- ✓ A pair of shoes was bought by him.
-
-
-## Rule 69: As Regards vs In Regard To
-
-**Topic:** Idiomatic Usage
-
-**Sources:** Rahul Gupta
-
-
-The correct idioms are "as regards" (with -s) and "in regard to" or "with regard to" (without -s). A very common SSC error is writing "as regard" or "as regards to", both of which are wrong. So write "As regards your application, we will reply soon" or "In regard to your application...". Keep the -s with "as" and drop it with "in/with".
+Certain verbs are followed by a reflexive pronoun when their action refers back to the subject. Common examples include absent, acquit, adapt, adjust, avail, exert, introduce, pride, reconcile, resign and submit. The reflexive pronoun must agree with the subject in person, gender and number. However, verbs such as enjoy, amuse, hurt and satisfy take a reflexive pronoun only when the subject performs the action upon itself.
 
 
 **Examples**
 
-- ✗ In regards to your letter...
-- ✓ In regard to your letter...
+- ✗ She absented her from the meeting.
+- ✓ She absented herself from the meeting.
+- ✗ The students availed himself of the opportunity.
+- ✓ The students availed themselves of the opportunity.
+- ✗ I introduced himself to the manager.
+- ✓ I introduced myself to the manager.
+- ✗ Riya prides himself on her honesty.
+- ✓ Riya prides herself on her honesty.
 
 
-## Rule 70: Compare Pronouns in the Same Case
+## Rule 63: Relative Pronoun Agreement with the Antecedent
 
-**Topic:** Pronouns
+**Topic:** Pronoun and Subject–Verb Agreement
 
-**Sources:** Rahul Gupta
-
-
-When two people are compared using "than" or "as", both pronouns must be in the same case. If the first is a subject pronoun (I, he, she, we, they), the second must also be a subject pronoun, because a verb is understood after it. So the correct form is "He is taller than I (am)" and "She sings as well as he (does)". Using "than me" or "as well as him" here changes the case and is treated as an error.
+**Sources:** Aman Sir
 
 
-**Examples**
-
-- ✗ He is faster than me.
-- ✓ He is faster than I (am).
-
-
-## Rule 71: Reflexive Pronouns Cannot Be Subjects Alone
-
-**Topic:** Pronouns
-
-**Sources:** Rahul Gupta
-
-
-Words ending in -self or -selves (myself, himself, yourself, themselves) are reflexive or emphatic and cannot stand alone as the subject of a sentence. They need a noun or pronoun before them to emphasise. So write "My friend and I went to the market", not "Myself and my friend went"; and "I myself saw him" is correct because "I" comes first. Never begin a sentence with "Myself" as the doer of the action.
+A relative pronoun takes a verb and any related pronouns according to the number and person of its antecedent. In the construction “one of those who,” the antecedent of “who” is the plural noun “those,” so a plural verb and plural pronoun are required. However, in “the only one of the... who/that,” the antecedent is the singular noun “one,” so a singular verb and singular pronoun are used.
 
 
 **Examples**
 
-- ✗ Myself am Dr. Roy.
-- ✓ I am Dr. Roy. / I myself am Dr. Roy.
+- ✗ She is one of those students who works hard and completes her assignments on time.
+- ✓ She is one of those students who work hard and complete their assignments on time.
+- ✗ He is the only one of the players who have scored in every match.
+- ✓ He is the only one of the players who has scored in every match.
+- ✗ I am one of those people who enjoys their own company.
+- ✓ I am one of those people who enjoy their own company.
 
 
-## Rule 72: Verbs That Never Take Reflexive Pronouns
+## Rule 64: Objective Case After Prepositions
 
-**Topic:** Pronouns
+**Topic:** Pronoun Case
 
-**Sources:** Rahul Gupta
+**Sources:** Aman Sir
 
 
-Certain verbs are already complete in meaning, so adding a reflexive pronoun after them is wrong. These verbs include keep, break, stop, turn, qualify, bathe, move, hide, rest, and open. Write "He hid behind the door", not "He hid himself behind the door"; and "Keep away from bad company", not "Keep yourself away". Drop the -self word after such verbs.
+A pronoun governed by a preposition or prepositional phrase must be in the objective case: me, us, him, her, or them. This rule applies after words and phrases such as between, with, besides, including, excluding, but, like, unlike, together with, along with, as well as, in addition to, rather than, accompanied by, and nothing but. In compound objects, mentally remove the other noun or pronoun to identify the correct form. Therefore, use “between you and me,” not “between you and I.”
 
 
 **Examples**
 
-- ✗ He hid himself behind the heavy curtain.
-- ✓ He hid behind the heavy curtain.
+- ✗ This matter is between you and I.
+- ✓ This matter is between you and me.
+- ✗ The manager, along with he, attended the meeting.
+- ✓ The manager, along with him, attended the meeting.
+- ✗ Everyone but she completed the assignment.
+- ✓ Everyone but her completed the assignment.
+- ✗ They invited Riya as well as I.
+- ✓ They invited Riya as well as me.
 
 
-## Rule 73: Stative Verbs Take No Progressive Form
+## Rule 65: Correct Comparison Using ‘That of’ and ‘Those of’
+
+**Topic:** Pronoun—Comparison of Like Nouns
+
+**Sources:** Aman Sir
+
+
+A comparison must be made between persons or things of the same kind. When a singular noun would otherwise need to be repeated, use ‘that of’; for a plural noun, use ‘those of’. A possessive form may also replace the repeated noun. This prevents an illogical comparison between a quality or possession and a person, place, or unrelated object.
+
+
+**Examples**
+
+- ✗ The climate of Mumbai is better than Delhi.
+- ✓ The climate of Mumbai is better than that of Delhi.
+- ✗ The books of Tagore are more popular than Bankim Chandra.
+- ✓ The books of Tagore are more popular than those of Bankim Chandra.
+- ✗ India’s population is larger than Japan.
+- ✓ India’s population is larger than Japan’s.
+
+
+## Rule 66: Parallel Pronoun Case in Comparisons
+
+**Topic:** Pronoun
+
+**Sources:** Aman Sir
+
+
+In comparisons, keep pronoun cases parallel: compare a subject with a subject and an object with an object. After “than” or “as … as,” use a subject pronoun when it corresponds to the sentence’s subject, even if the following verb is omitted. Use an object pronoun when it functions as the object of an expressed or understood verb. Restoring the omitted words often reveals the correct pronoun case.
+
+
+**Examples**
+
+- ✗ He is taller than me.
+- ✓ He is taller than I am.
+- ✗ She works as hard as him.
+- ✓ She works as hard as he does.
+- ✗ They trusted her as much as they trusted I.
+- ✓ They trusted her as much as they trusted me.
+
+
+## Rule 67: Correct Degree of Adjective
+
+**Topic:** Adjective
+
+**Sources:** Aman Sir
+
+
+Use the positive, comparative, or superlative degree according to the intended comparison. Use the positive degree when no comparison is made or in the pattern “as…as.” Use the comparative degree when comparing two persons or things, usually followed by “than.” Use the superlative degree when comparing more than two, generally with “the.”
+
+
+**Examples**
+
+- ✗ Riya is more tall than Priya.
+- ✓ Riya is taller than Priya.
+- ✗ Rahul is the stronger of the two boys.
+- ✓ Rahul is the stronger of the two boys.
+- ✗ Mount Everest is higher than all mountains in the world.
+- ✓ Mount Everest is the highest mountain in the world.
+
+
+## Rule 68: Confusing Verbs: Fall/Fell, Rise/Raise, Lie/Lay
+
+**Topic:** Verb Usage and Transitivity
+
+**Sources:** Aman Sir
+
+
+Use fall, rise, and lie when the subject performs the action without acting on an object; these verbs are intransitive. Their principal forms are fall–fell–fallen, rise–rose–risen, and lie–lay–lain. Use fell, raise, and lay when someone or something acts on an object; these verbs are transitive. Their principal forms are fell–felled–felled, raise–raised–raised, and lay–laid–laid.
+
+
+**Examples**
+
+- ✗ The workers fell the trees yesterday.
+- ✓ The workers felled the trees yesterday.
+- ✗ The government rose the tax rate.
+- ✓ The government raised the tax rate.
+- ✗ She laid on the bed for an hour.
+- ✓ She lay on the bed for an hour.
+- ✗ He has lain the book on the table.
+- ✓ He has laid the book on the table.
+
+
+## Rule 69: Excluding the Subject from the Group Compared
+
+**Topic:** Adjective—Degrees of Comparison
+
+**Sources:** Aman Sir
+
+
+When a person or thing is compared with a group to which it belongs, it must be excluded from that group. In a comparative-degree sentence, use “all the other” or “any other” before the plural or singular group noun as appropriate. In a positive-degree construction, use “no other” to show that no member of the group equals the subject. This avoids the illogical comparison of a person or thing with itself.
+
+
+**Examples**
+
+- ✗ Mumbai is larger than all cities in Maharashtra.
+- ✓ Mumbai is larger than all the other cities in Maharashtra.
+- ✗ Very few metals are as useful as iron.
+- ✓ No other metal is as useful as iron.
+
+
+## Rule 70: Absolute Adjectives Cannot Be Intensified or Compared
+
+**Topic:** Adjectives
+
+**Sources:** Aman Sir
+
+
+Absolute adjectives express a complete, final, or non-gradable quality, so they normally do not admit degrees. Therefore, avoid using ‘very’, ‘more’, or ‘most’ before adjectives such as impossible, unique, perfect, supreme, eternal, full, empty, entire, dead, circular, and rectangular. Use the adjective alone or replace it with a gradable adjective when comparison is necessary. Qualifiers such as ‘almost’, ‘nearly’, or ‘completely’ may be used where they logically describe the degree of completeness.
+
+
+**Examples**
+
+- ✗ This solution is more perfect than the previous one.
+- ✓ This solution is better than the previous one.
+- ✗ Her design is very unique.
+- ✓ Her design is unique.
+- ✗ This is the most impossible task.
+- ✓ This task is impossible.
+- ✗ The bottle is very empty.
+- ✓ The bottle is completely empty.
+
+
+## Rule 71: Stative Verbs and the Progressive Form
 
 **Topic:** Verb
 
 **Sources:** Aman Sir
 
 
-Stative verbs describe states, not actions, so they are not used in the continuous (-ing) form. Common stative verbs include think, believe, consider, have, own, possess, seem, appear, consist, contain, comprise, feel, smell, taste, sound, know, resemble, like, love, hate, want, agree, forgive, forget, remember, depend and exist. So we say 'I know the answer', never 'I am knowing the answer'. A few of these verbs can take -ing only when their meaning changes to a deliberate action, as in 'She is having lunch' or 'He is thinking about the offer'. In SSC error-spotting, any stative verb in -ing form used in its state meaning is the error.
+Stative verbs describe states, possession, thoughts, feelings, senses, or appearance rather than deliberate actions, so they are generally not used in progressive (-ing) forms. Common stative verbs include know, believe, own, possess, resemble, seem, love, hate, want, remember, contain, and consist. Use the simple tense instead when these verbs express a state. However, some stative verbs may take a progressive form when their meaning changes to describe a temporary activity, as in “I am thinking about the problem.”
 
 
 **Examples**
 
-- ✗ I am vaguely remembering that I met him during a concert.
-- ✓ Remove 'am' and use 'remember' instead of 'remembering'.
-- ✗ Have you noticed that he is strongly resembling his brother in appearance?
-- ✓ Remove 'is' and use 'resembles' instead of 'resembling'.
+- ✗ She is knowing the answer.
+- ✓ She knows the answer.
+- ✗ This house is belonging to my uncle.
+- ✓ This house belongs to my uncle.
+- ✗ The box is containing old books.
+- ✓ The box contains old books.
+- ✗ I am believing your story.
+- ✓ I believe your story.
 
 
-## Rule 74: No 'as' After Certain Verbs
+## Rule 72: No ‘As’ Before an Object Complement
 
-**Topic:** Verb
+**Topic:** Verb Usage
 
 **Sources:** Aman Sir
 
 
-Certain verbs take an object followed directly by a complement, with no 'as' in between. These verbs are make, choose, elect, select, anoint, appoint, name, call, think and consider. So the correct forms are 'They elected him president' and 'We consider her honest', not 'elected him as president' or 'consider her as honest'. Remember that verbs like regard, treat, describe and look upon do require 'as'. In SSC questions, spotting a stray 'as' after these listed verbs is a quick mark.
+When verbs such as make, choose, elect, select, anoint, appoint, name, call, think, and consider introduce an object complement, do not place ‘as’ before the complement. The complement directly describes the position, identity, or status of the object. Thus, use the pattern verb + object + complement, not verb + object + as + complement.
 
 
 **Examples**
 
-- ✗ Although I met him only 5 months ago, I consider him as one of my closest friends.
-- ✓ Remove 'as'.
-- ✗ He has been performing very well in last few matches, therefore the team has decided to make him as captain of the team.
-- ✓ Remove 'as'.
+- ✗ They elected him as president.
+- ✓ They elected him president.
+- ✗ The committee appointed Riya as chairperson.
+- ✓ The committee appointed Riya chairperson.
+- ✗ We consider this plan as impractical.
+- ✓ We consider this plan impractical.
+- ✗ They named the baby as Aarav.
+- ✓ They named the baby Aarav.
 
 
-## Rule 75: Used to / Be Used to / Be Used + Infinitive
-
-**Topic:** Verb
-
-**Sources:** Aman Sir
-
-
-'Used to + base verb' expresses a discontinued past habit, as in 'He used to smoke'. 'Be/get used to + gerund (or noun)' means to be accustomed to something, and it can refer to the past or the present, as in 'She is used to waking up early'. 'Be used + infinitive' is a passive structure meaning 'employed for a purpose', as in 'This knife is used to cut bread'. The common SSC error is mixing these up, such as writing 'I am used to wake up early' instead of 'waking'. Always check whether a form of 'be' appears before 'used', since that decides which pattern applies.
-
-
-**Examples**
-
-- ✗ When I was a child, I used to playing cricket with my father every sunday.
-- ✓ Use 'play' instead of 'playing'.
-- ✗ I have worked at a call center for 7 years therefore I am used to work in night shifts also.
-- ✓ Use 'working' instead of 'working' (as printed in the source).
-- ✗ The police inspector told my father that my stolen car was used to carrying some illegal drugs to Gujrat.
-- ✓ Use 'to carry' instead of 'to carrying'.
-
-
-## Rule 76: Position of Adverbs of Frequency
+## Rule 73: Position of Adverbs of Frequency
 
 **Topic:** Adverb
 
 **Sources:** Aman Sir
 
 
-Indefinite adverbs of frequency such as often, seldom, always, rarely, usually and never come before the main verb but after the auxiliary or the verb 'be', as in 'He always comes late' and 'She is never late'. Definite adverbs of frequency such as daily, weekly, monthly, yearly and twice a week go at the end of the clause, as in 'He exercises daily'. A third group, including regularly, frequently, occasionally and sometimes, can appear in either position. In SSC error questions, a definite frequency adverb placed before the main verb, or an indefinite one dumped at the end, is the mistake.
+Indefinite adverbs of frequency, such as always, often, seldom, rarely, and never, generally come before the main verb. However, they are normally placed after a form of the verb ‘be’ and after the first auxiliary verb. Definite adverbs of frequency, such as daily, weekly, monthly, and yearly, usually come at the end of the clause. Flexible adverbs such as regularly, frequently, and occasionally may appear either before the main verb or at the end of the clause.
 
 
 **Examples**
 
-- ✗ With the increasing work load and responsibilities, I have rarely time to continue my passion for painting.
-- ✓ Use 'I rarely have' instead of 'I have rarely'.
-- ✗ He is physically strong and has a good health because he daily goes to the gym.
-- ✓ Use 'he goes to the gym daily' instead of 'he daily goes to the gym'.
+- ✗ She visits often her grandparents.
+- ✓ She often visits her grandparents.
+- ✗ He always is punctual.
+- ✓ He is always punctual.
+- ✗ They monthly publish the magazine.
+- ✓ They publish the magazine monthly.
+- ✗ We go occasionally to the theatre.
+- ✓ We occasionally go to the theatre.
 
 
-## Rule 77: Articles: 'A' vs 'An' Depends on Sound
+## Rule 74: Correct Use of Countable and Uncountable Nouns
 
-**Topic:** Article
+**Topic:** Noun
 
 **Sources:** Aman Sir
 
 
-The choice between 'a' and 'an' depends on the initial sound of the following word, not its spelling. Words beginning with a vowel letter but a consonant sound take 'a': a unit, a unique idea, a universal truth, a uniform, a useful book, a union, a university, a European, a eulogy, a one-rupee coin. Words beginning with a consonant letter but a vowel sound take 'an': an hour, an heir, an heiress, an honest man, an honour, an honorary post. Abbreviations read letter by letter that start with F, H, L, M, N, R, S or X also take 'an': an SMS, an RTI, an MNC, an LLB, an MP. Always pronounce the word in your head before choosing the article.
+A noun names a person, place, thing, quality, or idea. Countable nouns have singular and plural forms, so a singular countable noun generally requires an article or another determiner. Uncountable nouns such as advice, information, furniture, and luggage normally do not take a plural form or the articles a/an. To count them, use a suitable expression such as a piece of, an item of, or an article of.
 
 
 **Examples**
 
-- ✗ My brother is an interesting boy who has an unique sense of humour.
-- ✓ Use 'a unique' instead of 'an unique'.
-- ✗ If you try to blackmail me again, I will not hesitate in lodging a FIR against you.
-- ✓ Use 'an FIR' instead of 'a FIR'.
-- ✗ The spammer sent him a SMS saying that all his bank accounts would get blocked soon.
-- ✓ Use 'an SMS' instead of 'a SMS'.
-- ✗ They awarded him a honorary degree for his tremendous work in the field of cinema.
-- ✓ Use 'an honorary' instead of 'a honorary'.
+- ✗ She gave me an advice.
+- ✓ She gave me a piece of advice.
+- ✗ He bought many furnitures.
+- ✓ He bought many pieces of furniture.
+- ✗ I received an important information.
+- ✓ I received some important information.
+- ✗ Boy is waiting outside.
+- ✓ A boy is waiting outside.
 
 
-## Rule 78: 'One of + Plural Noun' and 'The + Adjective' as Subject
+## Rule 75: Correct Use of Nouns
+
+**Topic:** Noun
+
+**Sources:** Aman Sir
+
+
+A noun names a person, place, object, quality, or idea and can function as the subject, object, or complement in a sentence. Proper nouns begin with capital letters, whereas common nouns normally do not. Countable nouns use a plural form with numbers greater than one, but uncountable nouns generally do not take a plural ending and are used with expressions such as “some,” “much,” or “a piece of.”
+
+
+**Examples**
+
+- ✗ Riya lives in delhi.
+- ✓ Riya lives in Delhi.
+- ✗ I bought two book.
+- ✓ I bought two books.
+- ✗ She gave me an advice.
+- ✓ She gave me a piece of advice.
+
+
+## Rule 76: Used to, Be Used to, and Be Used to Do
+
+**Topic:** Verb Forms
+
+**Sources:** Aman Sir
+
+
+Use ‘used to + base verb’ to describe a past habit or state that no longer exists. Use ‘be used to + noun/gerund’ to mean ‘be accustomed to’; the form of ‘be’ shows whether the familiarity is in the past, present, or future. Use ‘be used + to-infinitive’ as a passive construction meaning that something is employed for a particular purpose.
+
+
+**Examples**
+
+- ✗ He used to played cricket every Sunday.
+- ✓ He used to play cricket every Sunday.
+- ✗ I am used to wake up early.
+- ✓ I am used to waking up early.
+- ✗ This machine is used to cutting metal.
+- ✓ This machine is used to cut metal.
+
+
+## Rule 77: Use of Articles: A/An vs The
+
+**Topic:** Articles
+
+**Sources:** Aman Sir
+
+
+Use ‘a’ or ‘an’ before a singular countable noun when it is non-specific or mentioned for the first time. Use ‘a’ before a consonant sound and ‘an’ before a vowel sound. Use ‘the’ when the noun is specific, has already been mentioned, or is clearly identified by the context. Thus, the choice of article depends on both sound and whether the noun is general or particular.
+
+
+**Examples**
+
+- ✗ I saw the dog in the street, and a dog was barking.
+- ✓ I saw a dog in the street, and the dog was barking.
+- ✗ She wants to buy a umbrella.
+- ✓ She wants to buy an umbrella.
+- ✗ Please close a door of this room.
+- ✓ Please close the door of this room.
+
+
+## Rule 78: Subject–Verb Agreement with “One of” and “The + Adjective”
+
+**Topic:** Subject, Verb and Agreement
+
+**Sources:** Aman Sir
+
+
+The expression “one of + plural noun” refers to one person or thing from a group, so it takes a singular verb. In contrast, “the + adjective” denotes an entire class of people and therefore takes a plural verb. The verb must agree with the true subject, not merely with the noun closest to it.
+
+
+**Examples**
+
+- ✗ One of the students are absent.
+- ✓ One of the students is absent.
+- ✗ One of these books belong to me.
+- ✓ One of these books belongs to me.
+- ✗ The rich is not always happy.
+- ✓ The rich are not always happy.
+- ✗ The elderly needs special care.
+- ✓ The elderly need special care.
+
+
+## Rule 79: Gerunds and Infinitives as Subjects
 
 **Topic:** Subject-Verb Agreement
 
 **Sources:** Aman Sir
 
 
-'One of + plural noun' takes a singular verb because the real subject is 'one', as in 'One of the boys is absent'. If a relative clause follows, however, the verb inside it agrees with the plural noun: 'One of the boys who are playing is my brother'. In contrast, 'the + adjective' used as a subject refers to a whole class of people and takes a plural verb, as in 'The poor are suffering' and 'The rich have many privileges'. Do not add -s to such adjectives; 'The poors are' is wrong.
+When a gerund, gerund phrase, infinitive, or infinitive phrase functions as the subject of a sentence, it generally takes a singular verb. Such a subject is treated as one activity, idea, or action, even if it contains a plural noun. Therefore, use singular verbs such as “is,” “was,” and “has.” However, two gerunds or infinitives joined by “and” normally take a plural verb when they refer to separate activities.
 
 
 **Examples**
 
-- ✗ I got all my furniture at a discounted price because one of my friends own a furniture shop.
-- ✓ Use 'owns' instead of 'own'.
-- ✗ The rich always looks down on the poor, and don't treat them with kindness.
-- ✓ Use 'look down' instead of 'looks down'.
+- ✗ Swimming every morning keep her fit.
+- ✓ Swimming every morning keeps her fit.
+- ✗ To learn new languages require patience.
+- ✓ To learn new languages requires patience.
+- ✗ Reading books are a useful habit.
+- ✓ Reading books is a useful habit.
+- ✗ Singing and dancing is her favourite activities.
+- ✓ Singing and dancing are her favourite activities.
 
 
-## Rule 79: Proper Noun as Subject Takes a Singular Verb
-
-**Topic:** Subject-Verb Agreement
-
-**Sources:** Aman Sir
-
-
-When a proper noun serves as the subject, it is treated as one single entity and takes a singular verb, even if the name looks plural. So we write 'The United States is a powerful country', 'The Arabian Nights is an interesting book', and 'Rahim plays well'. This applies to names of countries, books, newspapers, organisations and teams. The plural -s at the end of such names must not tempt you into using a plural verb.
-
-
-**Examples**
-
-- ✗ The harry potter series were written by J.K. Rowling and is very popular among teenagers and young adults.
-- ✓ Use 'was' instead of 'were'.
-- ✗ Mathematics have always been my favourite subject since childhood.
-- ✓ Use 'has' instead of 'have'.
-- ✗ I have seen him using a calculator even for basic calculations so I think that his mathematics is very weak.
-- ✓ Use 'are' instead of 'is'.
-
-
-## Rule 80: Hint Words for Present Indefinite and Present Continuous
+## Rule 80: Present Perfect and Past Perfect: Key Time Markers
 
 **Topic:** Tense
 
 **Sources:** Aman Sir
 
 
-Certain signal words in a sentence tell you which present tense to use. Present Indefinite is used for universal truths, facts, proverbs and habits, and is hinted at by always, often, daily, every day, regularly, frequently, occasionally, seldom, usually and never. Present Continuous is used for actions happening now or around now, and is hinted at by at this time, at this moment, at present, currently, these days, now, right now and look/listen. In SSC tense-based questions, locate the hint word first and then fix the verb form to match it.
+Use the present perfect tense with time expressions such as yet, so far, already, just, lately, recently, and of late when a past action is connected with the present. In standard usage, “just now” generally takes the simple past, whereas “just” commonly takes the present perfect. Use the past perfect for the earlier of two completed past actions and the simple past for the later action. Thus, the usual patterns are past perfect + before + simple past and simple past + after + past perfect.
 
 
 **Examples**
 
-- ✗ As Rohan lives in mountains, he has often gone for a hike with his friends.
-- ✓ Replace 'has often gone' with 'often goes'.
-- ✗ He is seldom leaving his home because he is an introvert.
-- ✓ Replace 'is seldom leaving' with 'seldom leaves'.
+- ✗ She did not finish the work yet.
+- ✓ She has not finished the work yet.
+- ✗ I have seen him just now.
+- ✓ I saw him just now.
+- ✗ The train left before we reached the station.
+- ✓ The train had left before we reached the station.
+- ✗ He went out after he completed the task.
+- ✓ He went out after he had completed the task.
 
 
-## Rule 81: Hint Words for Present Perfect and Rules for Past Perfect
+## Rule 81: Tense Structures with “By the Time”
 
 **Topic:** Tense
 
 **Sources:** Aman Sir
 
 
-Present Perfect is signalled by yet, so far, already, just, lately, recently, of late, and by 'since/for' with a state continuing to now. Note that 'just now' points to the Past Indefinite, not the Present Perfect, so we say 'He came just now'. Past Perfect shows the earlier of two past actions, and the standard patterns are 'Past Perfect + before + Past Indefinite' and 'Past Indefinite + after + Past Perfect', as in 'The train had left before we reached the station'. In error questions, check that the earlier action carries 'had' and the later action stays in the simple past.
+“By the time” introduces a later reference point by which another action is already complete. For past situations, use the past perfect for the earlier completed action and the simple past in the “by the time” clause. For future situations, use the future perfect in the main clause and the simple present—not the simple future—in the “by the time” clause.
 
 
 **Examples**
 
-- ✗ I hadn't got any email regarding the job interview yet.
-- ✓ Use "haven't" instead of "hadn't".
-- ✗ Her children hadn't been well lately, so she is taking them to a doctor.
-- ✓ Use "haven't" instead of "hadn't".
-- ✗ I never met anyone from India before I started living with my new roommate Sangeeta.
-- ✓ Use 'I had never met' instead of 'I never met'.
-- ✗ The Doctor had arrived after the patient had died from a heart attack.
-- ✓ Use 'arrived' instead of 'had arrived'.
+- ✗ By the time the police arrived, the thief escaped.
+- ✓ By the time the police arrived, the thief had escaped.
+- ✗ I will finish the report by the time the manager will arrive.
+- ✓ I will have finished the report by the time the manager arrives.
+- ✗ By the time she reached the station, the train left.
+- ✓ By the time she reached the station, the train had left.
 
 
-## Rule 82: Hint Words for Past Indefinite and Future Indefinite
+## Rule 82: Present Simple and Present Continuous with Question Tags
+
+**Topic:** Tense and Question Tags
+
+**Sources:** Aman Sir
+
+
+Use the present simple for proverbs, universal facts, habits, and actions occurring always, often, daily, regularly, seldom, or never. Use the present continuous for actions happening at this time, at present, currently, these days, or right now. A question tag must repeat the sentence’s auxiliary verb and use the opposite polarity. In the present simple, use do/does in the tag, whereas forms of be are used in present continuous tags.
+
+
+**Examples**
+
+- ✗ He goes for a walk daily, isn't he?
+- ✓ He goes for a walk daily, doesn't he?
+- ✗ She is studying right now, doesn't she?
+- ✓ She is studying right now, isn't she?
+- ✗ The sun rises in the east, isn't it?
+- ✓ The sun rises in the east, doesn't it?
+- ✗ They are currently working, don't they?
+- ✓ They are currently working, aren't they?
+
+
+## Rule 83: Use Tense According to Meaning
 
 **Topic:** Tense
 
 **Sources:** Aman Sir
 
 
-Past Indefinite is signalled by definite past-time expressions such as yesterday, ago, in the past, last night/Sunday/week/month/year, and past years like 'in 1947'. Future Indefinite is signalled by tomorrow, next Sunday/week/month/year, the coming days, shortly, presently, soon and future years like 'in 2040'. A key rule is that a definite past-time marker cannot be used with the Present Perfect, so 'He has come yesterday' is wrong and 'He came yesterday' is right. Match the verb form to the time marker before anything else.
+Choose the tense that correctly expresses the time and meaning of the action or state. Use the present tense for habits and general truths, the past tense for completed past actions, and the future tense for actions that will occur later. Time expressions and context often indicate which tense is required, so the verb form must agree with them.
 
 
 **Examples**
 
-- ✗ It had rained cats and dogs yesterday, and many slums got flooded with water.
-- ✓ Use 'it rained' instead of 'It had rained'.
-- ✗ I have gone to the cinema with my family last Sunday.
-- ✓ Use 'I went to' instead of 'I have gone to'.
-- ✗ All the arrangements have been made for the party and the guests arrive shortly.
-- ✓ Use 'arrive' instead of 'will arrive'.
-- ✗ We gather more information in the coming days to determine our next step in the case.
-- ✓ Use 'We will gather' instead of 'We gather'.
+- ✗ She goes to Delhi yesterday.
+- ✓ She went to Delhi yesterday.
+- ✗ The sun rose in the east.
+- ✓ The sun rises in the east.
+- ✗ I finished the work tomorrow.
+- ✓ I will finish the work tomorrow.
 
 
-## Rule 83: Blind in vs. Blind to
+## Rule 84: Time Hints for Simple Past and Simple Future with Question Tags
 
-**Topic:** Preposition Mastery
-
-**Sources:** Rahul Gupta
-
-
-Both phrases use 'blind' but the preposition changes the meaning completely. Use 'blind in' when you mean actual physical loss of sight in an eye, as in 'He is blind in the left eye.' Use 'blind to' when someone refuses to notice or deliberately ignores something, as in 'She is blind to her son's mistakes.' A quick test: if you can point to the body part, use 'in'; if you are talking about faults, flaws, or realities being overlooked, use 'to'. Watch for exam sentences that swap these two.
-
-
-**Examples**
-
-- A father should not be blind to his child's faults.
-
-
-## Rule 84: Latin Comparatives Take 'to', Never 'than'
-
-**Topic:** Comparative Adjectives
-
-**Sources:** Rahul Gupta
-
-
-Adjectives borrowed directly from Latin — senior, junior, superior, inferior, prior, anterior, posterior, prefer/preferable — already carry comparative meaning, so they never combine with 'than'. They take the preposition 'to' instead: 'He is senior to me', not 'senior than me'. Also avoid adding 'more' or 'most' to them, since they are already comparative in form. The one common exception pattern is 'prefer X to Y', which follows the same 'to' rule.
-
-
-**Examples**
-
-- ✗ He is junior than me.
-- ✓ He is junior to me.
-
-
-## Rule 85: In vs. Into (Static Position vs. Movement)
-
-**Topic:** Prepositions
-
-**Sources:** Rahul Gupta
-
-
-'In' describes a state of rest — something is already located inside a place, as in 'The books are in the bag.' 'Into' describes motion from outside to inside, as in 'He jumped into the pool.' So verbs of movement (jump, throw, walk, pour, run, fall) normally pair with 'into', while verbs of position (be, sit, stay, remain, live) pair with 'in'. If the sentence shows a change of position or entry, 'into' is required.
-
-
-**Examples**
-
-- He is sitting in the room.
-- He jumped into the swimming pool.
-
-
-## Rule 86: Accompanied by vs. Accompanied with
-
-**Topic:** Prepositions
-
-**Sources:** Rahul Gupta
-
-
-Use 'accompanied by' when the companion is a person or a living being: 'The minister was accompanied by his secretary.' Use 'accompanied with' when the thing that goes along is an object, condition, or non-living item: 'The fever was accompanied with severe headache.' The simple memory hook is 'by' for beings and 'with' for things. In passive constructions where an agent performs the action, 'by' is also the correct choice.
-
-
-**Examples**
-
-- The PM was accompanied by his bodyguards.
-- Fever is often accompanied with a headache.
-
-
-## Rule 87: Reflexive Pronouns Required After Certain Verbs
-
-**Topic:** Pronoun
+**Topic:** Tense and Question Tags
 
 **Sources:** Aman Sir
 
 
-Some verbs must be followed by a reflexive pronoun (myself, ourselves, yourself, yourselves, himself, herself, itself, themselves) when the action falls back on the doer. Common ones are absent, present, adapt, adjust, acquit, exert, apply, hurt, prostrate, submit, resign, reconcile, introduce, avail, amuse, enjoy, satisfy, avenge and pride. So we write 'He absented himself from class' and 'They availed themselves of the offer', not 'He absented from class'. The reflexive pronoun must match the subject in number and person, so a plural subject takes 'themselves' or 'ourselves'.
+Time expressions such as yesterday, ago, last week, and in the past generally require the simple past tense. Expressions such as tomorrow, next month, in the coming days, shortly, and a specified future year generally require the simple future tense with will. In question tags, a simple-past statement takes did/didn't, whereas a simple-future statement with will takes will/won't. A positive statement takes a negative tag, and a negative statement takes a positive tag.
 
 
 **Examples**
 
-- ✗ He introduced to the Chairman as the General Secretary of the party.
-- ✓ The verb 'introduced' needs an object, so add the reflexive pronoun 'himself' before 'to'.
-- ✗ He prostrated before his master who taught him when he was in school.
-- ✓ 'Prostrated' is a transitive verb and needs an object, so use 'himself' after 'prostrated'.
-- ✗ The minister and his cabinet members absented himself from the meeting.
-- ✓ Use 'themselves' instead of 'himself'.
-
-
-## Rule 88: Compare Like with Like Using 'that of' / 'those of'
-
-**Topic:** Pronoun
-
-**Sources:** Aman Sir
-
-
-In a comparison, both sides must refer to the same kind of thing, or the sentence becomes illogical. Saying 'The climate of Delhi is hotter than Mumbai' wrongly compares a climate with a city. Correct it with 'that of' for singular nouns and 'those of' for plural nouns: 'The climate of Delhi is hotter than that of Mumbai.' An apostrophe form can also fix it, as in 'Ram's handwriting is better than Shyam's.' Always check what noun sits on each side of 'than' or 'as'.
-
-
-**Examples**
-
-- ✗ The air of Delhi is more polluted than Mumbai.
-- ✓ Delhi's air must be compared with Mumbai's air, so use 'that of' where 'that' stands for 'air': ...than that of Mumbai.
-- ✗ The maximum speed of my car is way more than yours.
-- ✓ The speed of one car must be compared with the speed of the other car, so use 'that of': 'that of yours' = the speed of your car.
-- ✗ Rohit and Rahul both are my friends, but Rohit's sense of humour is better than Rahul.
-- ✓ Rohit's sense of humour must be compared with Rahul's sense of humour. There is no need to repeat the noun 'sense of humour'; simply add an apostrophe to Rahul, so use 'Rahul's'.
-
-
-## Rule 89: Case of Pronouns in Comparisons
-
-**Topic:** Pronoun
-
-**Sources:** Aman Sir
-
-
-After 'than' or 'as ... as', the pronoun's case must match the word it is being compared with. If the comparison is with the subject of the sentence, use a subject pronoun: 'She is taller than I (am)', 'He works as hard as they (do).' If the comparison is with an object, use an object pronoun: 'I like him more than her (I like her).' Mentally supplying the missing verb reveals the correct form instantly.
-
-
-**Examples**
-
-- ✗ You are stronger than him so you can easily defeat him.
-- ✓ Use 'he' instead of 'him'.
-- ✗ I was surprised to find that their tallest player was shorter than me.
-- ✓ Use 'I' instead of 'me'.
-- ✗ I have told you many times that you are as smart as him.
-- ✓ Use 'he' instead of 'him'.
-
-
-## Rule 90: Some vs. Any
-
-**Topic:** Adjective
-
-**Sources:** Aman Sir
-
-
-Use 'some' in affirmative sentences: 'I have some money.' Use 'any' in negative sentences and questions: 'I do not have any money', 'Do you have any money?' The exception is a polite offer or request expecting 'yes', where 'some' is used even in a question, as in 'Will you have some tea?' Also treat words like hardly, scarcely, never and without as negatives, so they take 'any'.
-
-
-**Examples**
-
-- ✗ I don't have some/any experience of this field.
-- ✓ 'any' is correct.
-- ✗ She told me that she needed any time to think about my proposal.
-- ✓ Use 'some' instead of 'any'.
-- ✗ You all are invited to my birthday party this weekend but please don't bring some presents.
-- ✓ Use 'any' instead of 'some'.
-
-
-## Rule 91: Absolute Adjectives Cannot Be Intensified or Compared
-
-**Topic:** Adjective
-
-**Sources:** Aman Sir
-
-
-Some adjectives already express the highest or complete degree, so they cannot take 'very', 'more' or 'most'. These include impossible, universal, eternal, chief, ideal, supreme, perfect, unique, excellent, full, empty, entire, dead, free, circular and rectangular. Write 'His plan is unique', not 'most unique'; write 'The bottle is empty', not 'very empty'. If you need emphasis, use words like 'absolutely', 'quite' or 'completely' instead.
-
-
-**Examples**
-
-- ✗ I can assure you that this school is most excellent.
-- ✓ Remove 'most'.
-- ✗ I really love the area and see it as the most ideal place to get married.
-- ✓ Use 'an' instead of 'the most'.
-- ✗ Today I met a person who could communicate with animals, I guess some humans are born with the most unique talents.
-- ✓ Remove 'the most'.
-
-
-## Rule 92: Exclude the Subject from the Group It Is Compared With
-
-**Topic:** Adjective
-
-**Sources:** Aman Sir
-
-
-When one person or thing is compared with a group, it cannot logically be a member of that group. So 'He is better than any boy in the class' is wrong because he is one of those boys; write 'better than any other boy in the class.' With superlatives and negatives, use 'all the other' or 'no other': 'She is taller than all the other girls', 'No other city is as crowded as Mumbai.' Note that 'other' is dropped when the group genuinely excludes the subject, as in 'He is better than any boy in the other class.'
-
-
-**Examples**
-
-- ✗ Rohan is taller than all the boys of his class.
-- ✓ Use 'all the other boys' instead of 'all the boys'.
-- ✗ Rahul, my colleague is more hardworking than all the employees of our company.
-- ✓ Use 'all the other employees' instead of 'all the employees'.
-- ✗ Based on the stories that I read when I was child, I think no animal is as cunning as a fox.
-- ✓ Use 'I think no other animal' instead of 'I think no animal'.
-
-
-## Rule 93: Choosing the Correct Degree of Adjective
-
-**Topic:** Adjective
-
-**Sources:** Aman Sir
-
-
-Use the positive degree when no comparison is made, the comparative when two things are compared, and the superlative when three or more are compared. Structural signals help: 'than' and 'of the two' call for the comparative, while 'of all', 'in the class' and 'one of the' call for the superlative. Never double a degree with 'more better' or 'most best', and remember that comparatives formed with 'the' are used in pairs like 'the sooner, the better'. Always let the meaning of the sentence decide the degree.
-
-
-**Examples**
-
-- ✗ Rahul is stronger and wise than Mahesh.
-- ✓ Use 'wiser' instead of 'wise'.
-- ✗ My friend and I got dresses from the same store but still mine is best than hers.
-- ✓ Use 'better' instead of 'best'.
-- ✗ She gave bars of chocolate to everyone of us but sadly I got the smaller one of all the options available.
-- ✓ Use 'smallest' instead of 'smaller'.
-- ✗ He has already molten some gold to make a necklace for you so you should wait for some time.
-- ✓ Use 'melted' instead of 'molten'.
-- ✗ People accuse him of stealing that necklace but the charges against him could not be proven in court.
-- ✓ Use 'proved' instead of 'proven'.
-
-
-## Rule 94: Mandatory Reflexive Pronouns
-
-**Topic:** Pronouns
-
-**Sources:** Rahul Gupta
-
-
-Certain verbs demand a reflexive pronoun (myself, himself, themselves) as their object when no other direct object follows them. The common SSC list includes avail, adapt, absent, amuse, resign, reconcile, enjoy and exert. So you write 'He availed himself of the offer' and 'She absented herself from class', not 'He availed of the offer'. Remember that if a proper direct object is already present, the reflexive pronoun is dropped, as in 'She amused the children'.
-
-
-**Examples**
-
-- ✗ He absented from the class yesterday.
-- ✓ He absented himself from the class yesterday.
-
-
-## Rule 95: Subject Case After "It is / It was"
-
-**Topic:** Pronouns
-
-**Sources:** Rahul Gupta
-
-
-When a pronoun comes immediately after 'It is' or 'It was', it acts as a complement to the subject, so it must take the subject (nominative) case. Hence the correct forms are 'It is I', 'It was he who called' and 'It is they who are guilty', not 'It is me' or 'It was him'. The verb 'be' never takes an object, which is why the objective forms are wrong in written exam English. This rule holds even when a relative clause like 'who/that' follows the pronoun.
-
-
-**Examples**
-
-- ✗ It was him who helped the poor old man.
-- ✓ It was he who helped the poor old man.
-
-
-## Rule 96: Adjectives Ending in "-ior" Take "to"
-
-**Topic:** Adjective & Adverb Modifiers
-
-**Sources:** Rahul Gupta
-
-
-Latin comparative adjectives such as senior, junior, superior, inferior, prior, anterior, posterior and the word preferable are always followed by the preposition 'to', never by 'than'. So write 'He is senior to me' and 'This cloth is superior to that one'. Using 'than' with these words is a classic SSC error trap, because they already carry comparative meaning without '-er'. Note also that they are never used with 'more', so 'more superior' is redundant and wrong.
-
-
-**Examples**
-
-- ✗ Milk is preferable than tea.
-- ✓ Milk is preferable to tea.
-
-
-## Rule 97: "Any Other" in Comparative Degree
-
-**Topic:** Degrees of Comparison
-
-**Sources:** Rahul Gupta
-
-
-When you compare one member of a group with the remaining members using the comparative degree, you must exclude that member from the group by writing 'any other'. Thus 'Delhi is bigger than any other city in India' is correct, since Delhi cannot be bigger than itself. If the compared item belongs to a different group, plain 'any' is used, as in 'Delhi is bigger than any city in Nepal'. This exclusion logic is the whole point of the rule, so always check whether the subject is inside or outside the group.
-
-
-**Examples**
-
-- ✗ Iron is more useful than any metal.
-- ✓ Iron is more useful than any other metal.
-
-
-## Rule 98: Past Perfect for the Earlier of Two Past Actions
-
-**Topic:** Verbs & Tenses
-
-**Sources:** Rahul Gupta
-
-
-When a sentence reports two completed actions in the past, the action that happened first takes the Past Perfect (had + V3) and the later action takes the Simple Past (V2). For example, 'The train had left before we reached the station.' Words like before, after, when and by the time usually signal this sequencing. If both actions happened at virtually the same time or in obvious order, Simple Past is enough for both.
-
-
-**Examples**
-
-- ✗ The train departed before I reached the station.
-- ✓ The train had departed before I reached the station.
-
-
-## Rule 99: "It is high time" + Simple Past
-
-**Topic:** Tenses
-
-**Sources:** Rahul Gupta
-
-
-Expressions such as 'It is time', 'It is high time' and 'It is about time' are followed by a subject and a verb in the Simple Past (V2), even though the meaning refers to the present or future. So write 'It is high time we changed our approach', not 'we change' or 'we should change'. The past form here carries a sense of urgency or overdue action, not past time. Alternatively, these phrases can be followed by 'for + object + to + V1', as in 'It is time for us to leave'.
-
-
-**Examples**
-
-- ✗ It is high time we start studying.
-- ✓ It is high time we started studying.
-
-
-## Rule 100: Simple Present for Universal Truths and Habits
-
-**Topic:** Tenses
-
-**Sources:** Rahul Gupta
-
-
-General truths, scientific facts, proverbs and habitual actions are always expressed in the Simple Present Tense. This holds even when the reporting verb is in the past, so 'The teacher said that the earth revolves around the sun' is correct, not 'revolved'. The usual rule of shifting tense backwards in indirect speech does not apply to such timeless statements. Habitual actions follow the same logic, as in 'He told me that he gets up at five every day.'
-
-
-**Examples**
-
-- ✗ Our teacher said that the earth revolved around the sun.
-- ✓ Our teacher said that the earth revolves around the sun.
-
-
-## Rule 101: No Balancing Word After "As soon as"
+- ✗ She visits us yesterday, doesn't she?
+- ✓ She visited us yesterday, didn't she?
+- ✗ They did not attend the meeting last week, didn't they?
+- ✓ They did not attend the meeting last week, did they?
+- ✗ He goes to Delhi tomorrow, doesn't he?
+- ✓ He will go to Delhi tomorrow, won't he?
+- ✗ We will not complete the project next month, won't we?
+- ✓ We will not complete the project next month, will we?
+
+
+## Rule 85: Correct Conjunctions with ‘Reason’ and ‘Supposing’
 
 **Topic:** Conjunctions
 
-**Sources:** Rahul Gupta
+**Sources:** Aman Sir
 
 
-The phrase 'As soon as' needs no correlative word to complete it, so never add 'then' or 'than' in the second clause. Write 'As soon as he saw me, he ran away', using only a comma to join the clauses. A related structure, 'No sooner ... than', does require its balancing word, which is why candidates wrongly transfer 'than' to 'as soon as'. Keep the two patterns separate: 'as soon as ... ,' and 'no sooner ... than'.
-
-
-**Examples**
-
-- ✗ As soon as the thief saw the police, then he ran away.
-- ✓ As soon as the thief saw the police, he ran away.
-
-
-## Rule 102: Although / Though Pairs with "Yet", Not "But"
-
-**Topic:** Conjunction Connectors
-
-**Sources:** Rahul Gupta
-
-
-'Although' and 'Though' are subordinating conjunctions that are completed either by 'yet' or by a simple comma, never by 'but'. Correct forms are 'Although he was tired, he continued working' and 'Though he is poor, yet he is honest'. Using both 'although' and 'but' in one sentence creates a double connector, which is grammatically wrong. The same caution applies to 'in spite of / despite', which also cannot be followed by 'but'.
+When the noun ‘reason’ introduces an explanation, use ‘that’ rather than ‘because’ after it. Thus, write ‘The reason is that…’, not ‘The reason is because…’. Also, ‘supposing’ and ‘if’ both express a condition, so they should not be used together. Use either ‘supposing’ or ‘if’, but not both in the same conditional clause.
 
 
 **Examples**
 
-- ✗ Although he worked hard, but he failed.
-- ✓ Although he worked hard, yet he failed. / Although he worked hard, he failed.
+- ✗ The reason for his absence is because he was ill.
+- ✓ The reason for his absence is that he was ill.
+- ✗ Supposing if she refuses, what will you do?
+- ✓ Supposing she refuses, what will you do?
+- ✗ The reason why I left was because I felt unwell.
+- ✓ The reason why I left was that I felt unwell.
 
 
-## Rule 103: Died of vs. Died from
+## Rule 86: Correct Use of Such–As and Such–That
 
-**Topic:** Preposition Mastery
+**Topic:** Correlative Conjunctions
 
-**Sources:** Rahul Gupta
-
-
-Use 'died of' when the cause is internal to the body, such as a disease, hunger, thirst, fever or old age, as in 'He died of cancer'. Use 'died from' when the cause is external or indirect, such as overwork, a wound, an accident or poisoning, as in 'She died from food poisoning'. Two related forms are 'died for' a cause or country and 'died in' an accident or war. The test is simply whether the cause originated inside the body or acted on it from outside.
+**Sources:** Aman Sir
 
 
-**Examples**
-
-- He died of cholera.
-
-
-## Rule 104: Angry with vs. Angry at
-
-**Topic:** Preposition Mastery
-
-**Sources:** Rahul Gupta
-
-
-Use 'angry with' when the anger is directed at a person, as in 'The teacher was angry with the students'. Use 'angry at' when it is directed at a thing, an action or someone's behaviour, as in 'She was angry at his rude reply'. A useful extension is 'angry about' a situation or event. Keeping the person-versus-thing distinction in mind resolves most SSC questions on this pair.
+Use “such…as” when “as” functions as a relative pronoun meaning “who” or “which” and introduces a person or thing of the specified kind. Use “such…that” when “that” functions as a conjunction and introduces a result or consequence. Thus, “such…as” identifies or describes, whereas “such…that” shows cause and result.
 
 
 **Examples**
 
-- I am angry with you, but I am angry at your behavior.
+- ✗ Such students that work hard will succeed.
+- ✓ Such students as work hard will succeed.
+- ✗ It was such a difficult question as nobody could answer it.
+- ✓ It was such a difficult question that nobody could answer it.
+- ✗ Such books that contain useful information should be preserved.
+- ✓ Such books as contain useful information should be preserved.
 
 
-## Rule 105: 'By the Time' Tense Structures
+## Rule 87: Conjunctions vs Prepositions: Because, In Case, and Unless
 
-**Topic:** Tense
+**Topic:** Prepositions and Conjunctions
 
-**Sources:** Aman Sir, Rahul Gupta
-
-
-'By the time' links two actions and fixes the tense pattern of both clauses. For past situations, use Past Perfect in the main clause with Past Indefinite after 'by the time' (By the time we reached the station, the train had left). For future situations, use Future Perfect in the main clause with Present Indefinite after 'by the time' (By the time you arrive, I will have finished the work). Never use a future tense inside the 'by the time' clause itself. Remember the pair: had + V3 with past, will have + V3 with present.
+**Sources:** Aman Sir
 
 
-## Rule 106: Choosing Tense According to Sentence Meaning
-
-**Topic:** Tense
-
-**Sources:** Aman Sir, Rahul Gupta
+Use the conjunctions “because,” “in case,” and “unless” before a clause containing a subject and a verb. Use the corresponding prepositional forms “because of,” “in case of,” and “without” before a noun, pronoun, or noun phrase. Thus, “because” contrasts with “because of,” “in case” with “in case of,” and “unless” with “without.” Choose the form according to the grammatical structure that follows it.
 
 
-Sometimes no fixed grammatical rule decides the tense; the meaning of the sentence does. Read the whole sentence and look for time markers, context clues, and the relationship between actions before selecting a tense. If one action clearly happened before another in the past, the earlier one takes Past Perfect; if a statement is a universal truth or habit, it takes Present Indefinite. In SSC error-spotting, an incorrect option often uses a tense that clashes with the logical time of the sentence.
+**Examples**
+
+- ✗ The match was cancelled because heavy rain.
+- ✓ The match was cancelled because of heavy rain.
+- ✗ Take an umbrella in case of it rains.
+- ✓ Take an umbrella in case it rains.
+- ✗ You cannot enter without you have an ID card.
+- ✓ You cannot enter unless you have an ID card.
 
 
-## Rule 107: Correlative Pairs: Such...As vs Such...That
+## Rule 88: Angry, Annoyed, Vexed, or Disgusted: At vs With
 
-**Topic:** Conjunction
+**Topic:** Prepositions
 
-**Sources:** Aman Sir, Rahul Gupta
-
-
-'Such...as' is used when 'as' works as a relative pronoun standing for 'who' or 'which' (He is not such a fool as to believe you). 'Such...that' is used when 'that' works as a conjunction introducing a result clause (He is such a good boy that everyone likes him). So if a complete clause showing consequence follows, use 'that'; if a comparison or identification of kind follows, use 'as'. Mixing them up, as in 'such a good boy as everyone likes him', is a common SSC error.
+**Sources:** Aman Sir
 
 
-## Rule 108: Choosing the Right Conjunction by Meaning
-
-**Topic:** Conjunction
-
-**Sources:** Aman Sir, Rahul Gupta
+Use “angry,” “annoyed,” “vexed,” or “disgusted” with “at” when the feeling is directed toward a thing, situation, action, or event. Use “with” when the feeling is directed toward a person. Thus, choose the preposition according to whether the object is impersonal or personal.
 
 
-Conjunctions must match the logical relationship between the clauses they join. Use 'as, because, since' for cause, 'so, therefore' for result, 'although, though, but, yet' for contrast, 'so that' for purpose, 'if, whether' for condition or doubt, and 'when, while' for time. Do not pair two conjunctions that do the same job, such as 'Although...but' or 'Because...so'. When solving questions, identify the relation first, then pick the single conjunction that expresses it.
+**Examples**
+
+- ✗ She was angry with the delay.
+- ✓ She was angry at the delay.
+- ✗ The teacher was annoyed at the student.
+- ✓ The teacher was annoyed with the student.
+- ✗ I am disgusted with his rude behaviour.
+- ✓ I am disgusted at his rude behaviour.
 
 
-## Rule 109: Verbs That Take or Omit 'To' Before an Indirect Object
+## Rule 89: Different Prepositions with Nouns Joined by ‘And’
+
+**Topic:** Prepositions
+
+**Sources:** Aman Sir
+
+
+When two nouns are joined by ‘and’, check which preposition each noun normally governs. If the nouns require different prepositions, use the appropriate preposition after each noun instead of making one preposition serve both. A shared preposition may be used only when it is correct for both nouns.
+
+
+**Examples**
+
+- ✗ He has great interest and aptitude for mathematics.
+- ✓ He has great interest in and aptitude for mathematics.
+- ✗ Her love and devotion to her country were admirable.
+- ✓ Her love for and devotion to her country were admirable.
+- ✗ They ignored his objection and insistence on the new policy.
+- ✓ They ignored his objection to and insistence on the new policy.
+
+
+## Rule 90: Use of ‘To’ Before a Person Object
+
+**Topic:** Prepositions and Verb Patterns
+
+**Sources:** Aman Sir
+
+
+Do not place ‘to’ before a person who functions as the direct object of verbs such as ask, advise, inform, assure, remind, warn, thank, invite, congratulate, and compliment. Thus, write ‘inform him’ or ‘warn her,’ not ‘inform to him’ or ‘warn to her.’ Use ‘to’ before the recipient or listener with verbs such as announce, apologize, talk, report, speak, listen, write, complain, describe, and explain. Because each verb follows its own pattern, identify whether it directly takes a person or requires ‘to’ before that person.
+
+
+**Examples**
+
+- ✗ She informed to me about the change.
+- ✓ She informed me about the change.
+- ✗ The teacher explained me the rule.
+- ✓ The teacher explained the rule to me.
+- ✗ We congratulated to her on her success.
+- ✓ We congratulated her on her success.
+- ✗ He apologized me for the mistake.
+- ✓ He apologized to me for the mistake.
+
+
+## Rule 91: Correct Prepositions with “Supply”
 
 **Topic:** Preposition
 
-**Sources:** Aman Sir, Rahul Gupta
+**Sources:** Aman Sir
 
 
-Some verbs take the person (indirect object) directly, without 'to': ask, beg, inform, advise, allow, call, assure, apprise, remind, warn, thank, wish, order, request, invite, forbid, welcome, congratulate, compliment. So write 'He informed me' and 'She thanked him', not 'informed to me'. Other verbs must have 'to' before the person: propose, announce, apologize, plead, talk, report, suggest, speak, listen, write, pray, complain, describe, explain, appeal. So write 'He explained the rule to me' and 'She apologized to her teacher'. Memorising the two lists solves most such SSC errors.
+The verb “supply” takes different prepositions according to the sentence pattern. Use “supply something to somebody” when the supplied item is the direct object. Use “supply somebody with something” when the recipient is the direct object. Use “supply something for a purpose” when stating the intended purpose or use.
 
 
-## Rule 110: Separate Prepositions for Nouns Joined by 'And'
+**Examples**
 
-**Topic:** Preposition
+- ✗ The government supplied food with the villagers.
+- ✓ The government supplied food to the villagers.
+- ✗ The government supplied the villagers by food.
+- ✓ The government supplied the villagers with food.
+- ✗ These funds were supplied to emergency relief.
+- ✓ These funds were supplied for emergency relief.
 
-**Sources:** Aman Sir, Rahul Gupta
 
+## Rule 92: Fixed Preposition Combinations
 
-When two nouns or adjectives are joined by 'and' but each demands a different preposition, you must supply both prepositions. Writing only one preposition for both is wrong, as in 'He is fond and afraid of dogs'. The correct form is 'He is fond of and afraid of dogs'. Only when both words take the same preposition may it be written once, as in 'He is fond of and devoted to music' being reduced only where genuinely identical.
+**Topic:** Prepositions
 
+**Sources:** Aman Sir
 
-## Rule 111: Angry/Annoyed/Vexed/Disgusted + At vs With
 
-**Topic:** Preposition
+Certain words are always followed by specific prepositions, and these combinations must be learned as fixed expressions. Use “accused of,” “cope with,” “dispose of,” “afraid of,” and “different from.” Replacing the fixed preposition with another preposition makes the expression grammatically incorrect.
 
-**Sources:** Aman Sir, Rahul Gupta
 
+**Examples**
 
-With angry, annoyed, vexed, and disgusted, the choice of preposition depends on the object. Use 'at' when the cause is a thing, action, or situation (She was annoyed at his behaviour). Use 'with' when the object is a person (She was annoyed with her brother). So 'angry with the boy' but 'angry at his rudeness'. Confusing the two is a frequent SSC error-detection trap.
+- ✗ He was accused for stealing the money.
+- ✓ He was accused of stealing the money.
+- ✗ She cannot cope up with the pressure.
+- ✓ She cannot cope with the pressure.
+- ✗ Please dispose off the waste properly.
+- ✓ Please dispose of the waste properly.
+- ✗ This design is different than that one.
+- ✓ This design is different from that one.
 
 
-## Rule 112: Prepositions with 'Supply'
+## Rule 93: Infinitive Describing a Noun or Pronoun
 
-**Topic:** Preposition
+**Topic:** Infinitives and Prepositions
 
-**Sources:** Aman Sir, Rahul Gupta
+**Sources:** Aman Sir
 
 
-The verb 'supply' takes different prepositions depending on what follows it. Use 'supply something to somebody' when the thing comes first (They supply milk to the hostel). Use 'supply somebody with something' when the person comes first (They supply the hostel with milk). Use 'supply something for a purpose' to show the reason (Water was supplied for irrigation). Choose the pattern that matches the word order in the sentence.
+When an infinitive describes a noun or pronoun, that noun or pronoun must be grammatically connected to the verb in the infinitive. It may function as the verb’s direct object, as in “food to eat.” If the verb cannot take it as a direct object, add the required preposition after the infinitive. Omitting this preposition makes the construction incomplete or incorrect.
 
 
-## Rule 113: Fixed Preposition Combinations
+**Examples**
 
-**Topic:** Preposition
+- ✗ I need a chair to sit.
+- ✓ I need a chair to sit on.
+- ✗ She has no one to talk.
+- ✓ She has no one to talk to.
+- ✗ Please give me a pen to write.
+- ✓ Please give me a pen to write with.
 
-**Sources:** Aman Sir, Rahul Gupta
 
+## Rule 94: Some vs. Any
 
-Certain words are always followed by one fixed preposition, and these must simply be memorised. Key examples are: accused of, cope with, dispose of, afraid of, and different from. So write 'He was accused of theft', 'She cannot cope with the pressure', and 'His view is different from mine'. Common wrong forms such as 'accused for', 'cope up with', or 'different than' are frequently tested in SSC papers.
+**Topic:** Determiners
 
+**Sources:** Manisha Bansal
 
-## Rule 114: Gender of Nouns (Masculine and Feminine Forms)
 
-**Topic:** Nouns
+Use “some” mainly in affirmative sentences to refer to an indefinite quantity or number. Use “any” mainly in negative sentences and general questions. However, use “some” in offers and requests, especially when a positive response is expected. “Any” may also be used in affirmative sentences to mean ‘it does not matter which or how many.’
 
-**Sources:** PYQ
 
+**Examples**
 
-Many English nouns have paired masculine and feminine forms, such as actor/actress, lion/lioness, nephew/niece, and bridegroom/bride. Some pairs are formed by adding suffixes like -ess or -ine, while others are completely different words that must be memorised. A few nouns are common gender (teacher, doctor, cousin) and apply to both sexes, so no change is needed. In SSC questions you are usually asked to supply the correct pair-word, so watch for irregular pairs like drake/duck, gander/goose, and monk/nun.
+- ✗ I do not have some money.
+- ✓ I do not have any money.
+- ✗ Would you like any tea?
+- ✓ Would you like some tea?
+- ✗ She bought any books yesterday.
+- ✓ She bought some books yesterday.
 
 
-## Rule 115: Direct and Indirect Speech: Punctuation and Word Order
+## Rule 95: Verb Forms after ‘I Wish’
 
-**Topic:** Narration
+**Topic:** Verb
 
-**Sources:** PYQ
+**Sources:** Aman Sir
 
 
-In direct speech the speaker's exact words are placed inside inverted commas, beginning with a capital letter, and separated from the reporting verb by a comma. The end punctuation (question mark, exclamation mark, or full stop) stays inside the quotation marks. When the sentence is turned into indirect speech, the inverted commas and comma are dropped, a conjunction such as that, if, or a wh-word is used, and tense, pronouns, and time words shift accordingly. Questions in indirect speech take statement word order, so 'Where are you going?' becomes 'He asked where I was going.'
+Use ‘I wish + subject + V2’ to express an unreal or unlikely situation in the present. With the verb ‘be’, use ‘were’ for all persons in formal grammar. Use ‘I wish + subject + had + V3’ to express regret about a past action or situation. Thus, the past simple refers to present imagination, whereas the past perfect refers to an unchangeable past event.
 
 
-## Rule 116: Case of Pronouns (Objective Case After Verbs and Prepositions)
+**Examples**
 
-**Topic:** Pronouns
+- ✗ I wish I know the answer.
+- ✓ I wish I knew the answer.
+- ✗ I wish I was taller.
+- ✓ I wish I were taller.
+- ✗ I wish she came yesterday.
+- ✓ I wish she had come yesterday.
 
-**Sources:** PYQ
 
+## Rule 96: Bring vs. Take
 
-A pronoun that works as the object of a verb or a preposition must take the objective form: me, us, him, her, them, whom. So we say 'She invited him and me,' not 'he and I,' because both pronouns receive the action of the verb. The subjective forms (I, we, he, she, they, who) are used only for the subject of a verb or after the verb 'to be' in formal usage. A quick test is to remove the other noun or pronoun from the pair and check which form still sounds correct.
+**Topic:** Confusable Verbs
 
+**Sources:** Manisha Bansal
 
-## Rule 117: Sentence Improvement and 'No Improvement' Options
 
-**Topic:** Sentence Improvement
+Use “bring” when someone carries or moves something toward the speaker or the place being discussed. Use “take” when someone carries or moves something away from the speaker to another place. Choose the verb by considering the direction of movement.
 
-**Sources:** PYQ
 
+**Examples**
 
-In sentence improvement questions, a part of the sentence is underlined and you must choose the best replacement from the options. First check the underlined portion for errors of tense, subject-verb agreement, preposition, article, or word order; if it is already correct, the answer is 'No improvement' or 'No error'. Do not select an option merely because it sounds more elaborate, since the correct choice must be both grammatical and closest in meaning to the original. Rejecting a grammatically sound sentence is a common trap, so verify an actual rule is broken before changing anything.
+- ✗ Please take your documents here for verification.
+- ✓ Please bring your documents here for verification.
+- ✗ I will bring this parcel to the post office.
+- ✓ I will take this parcel to the post office.
 
 
-## Rule 118: One-Word Substitution
+## Rule 97: Correct Subject of a Present Participle
 
-**Topic:** Vocabulary
+**Topic:** Present Participle (V1 + ing)
 
-**Sources:** PYQ
+**Sources:** Aman Sir
 
 
-One-word substitution asks you to replace a whole descriptive phrase with a single precise word, such as 'a person who loves books' becoming bibliophile. Many of these words are built from recognisable roots and suffixes: -cide means killing (homicide), -phobia means fear (acrophobia), -archy means rule (oligarchy), and -logy means study of (etymology). Learning these roots lets you decode unfamiliar options instead of guessing. Read the phrase carefully for small qualifiers like 'one who hates' versus 'one who loves', because options often differ only in that detail.
+A present participle phrase must logically refer to the subject of the main clause. If the implied subject of the participle differs from the main subject, the sentence contains a dangling participle. Correct it by giving the participle its own appropriate noun or pronoun, or by rewriting the main clause so that both parts share the same subject. This rule also applies to participial phrases expressing conditions, reasons, or circumstances.
 
 
-## Rule 119: Meaning-Preserving Paraphrase and Substitution
+**Examples**
 
-**Topic:** Vocabulary
+- ✗ Being Sunday, the office was closed.
+- ✓ It being Sunday, the office was closed.
+- ✗ Walking along the road, a snake was seen by me.
+- ✓ Walking along the road, I saw a snake.
+- ✗ Being very cold, we stayed indoors.
+- ✓ It being very cold, we stayed indoors.
 
-**Sources:** PYQ
 
+## Rule 98: Than vs. Then
 
-Some questions ask you to replace a word or phrase with another expression without changing the meaning of the sentence. The correct choice must match the original in meaning, grammatical form, and formality, so a verb is replaced by a verb and a noun phrase by a noun phrase. Test each option by reading it back into the full sentence to check that the sense and tone stay the same. Beware of options that are near-synonyms but shift the intensity or connotation, for example 'annoyed' in place of 'furious'.
+**Topic:** Confusable Words
 
+**Sources:** Manisha Bansal
 
-## Rule 120: Idioms and Phrases
 
-**Topic:** Idioms
+Use “than” to compare two or more people, things, qualities, or actions. Use “then” to refer to a particular time or to indicate what happened next in a sequence. Remember: “than” signals comparison, while “then” signals time or order.
 
-**Sources:** PYQ
 
+**Examples**
 
-An idiom is a fixed group of words whose meaning cannot be worked out from the individual words, as in 'to let the cat out of the bag', meaning to reveal a secret. Because the meaning is figurative, idioms must be learned as complete units and their wording cannot be altered. In the exam you are usually given an idiom in context and asked to choose its meaning, so use the surrounding sentence to eliminate literal interpretations. Options that simply restate the words in a literal sense are almost always wrong.
+- ✗ Riya is taller then Priya.
+- ✓ Riya is taller than Priya.
+- ✗ Finish your homework, and than watch television.
+- ✓ Finish your homework, and then watch television.
+- ✗ Life was simpler than.
+- ✓ Life was simpler then.
 
 
-## Rule 121: Phrasal Verbs
+## Rule 99: Although, Though, and Even Though
 
-**Topic:** Verbs
+**Topic:** Conjunctions of Contrast
 
-**Sources:** PYQ
+**Sources:** Manisha Bansal
 
 
-A phrasal verb combines a verb with a preposition or adverb to create a new meaning, such as 'put off' (postpone), 'put up with' (tolerate), and 'put down' (suppress or insult). The same verb changes meaning entirely with each particle, so the particle must be chosen with care. Some phrasal verbs are separable ('turn the light off') while others must stay together ('look after the child'). Learn them in families grouped around one verb, and always check the sentence context to decide which particle fits.
+Although, though, and even though are conjunctions used to introduce a contrast between two ideas. Each must be followed by a complete clause containing a subject and a verb. Even though expresses a stronger or more surprising contrast than although or though. Do not use but or yet with these conjunctions in the same sentence.
 
 
-## Rule 122: Contextual Vocabulary and Collocation
+**Examples**
 
-**Topic:** Vocabulary
+- ✗ Although he was tired, but he continued working.
+- ✓ Although he was tired, he continued working.
+- ✗ Even though the heavy rain, they played outside.
+- ✓ Even though it was raining heavily, they played outside.
+- ✗ Though she is young, yet she is very responsible.
+- ✓ Though she is young, she is very responsible.
 
-**Sources:** PYQ
 
-
-Collocations are word pairs that habitually go together in natural English, such as 'heavy rain', 'make a decision', 'strong tea', and 'keen interest'. Even when a synonym has the right dictionary meaning, it may be wrong because English does not combine those words, so 'do a decision' and 'powerful tea' are unacceptable. Fill-in-the-blank and cloze questions test this feel for habitual pairing along with the meaning demanded by the context. Read the whole sentence for clues about tone and register, then choose the option that both fits the meaning and sounds natural to a practised ear.
-
-
-## Rule 123: Idioms and Proverbs: Meaning
-
-**Topic:** Vocabulary
-
-**Sources:** PYQ
-
-
-An idiom is a fixed group of words whose meaning cannot be worked out from the individual words, while a proverb is a short saying that states a general truth. In SSC exams you are given an idiom in a sentence and must pick the option that best expresses its figurative sense. Never translate the words literally; recall the accepted meaning as a whole unit. Reading the surrounding sentence helps, because the tone of the sentence (praise, criticism, warning) usually matches the correct option. Regular memorisation of high-frequency idioms with example sentences is the fastest way to score here.
-
-
-## Rule 124: Contextually Appropriate Word Choice
-
-**Topic:** Vocabulary
-
-**Sources:** PYQ
-
-
-Some questions give a blank in a sentence and several words that are all grammatically possible, so the answer depends on which word fits the meaning and tone of the context. Read the whole sentence first and identify signal clues such as contrast words, cause-effect markers, positive or negative tone, and the subject being described. Then test each option to see which one keeps the sentence logical and natural. Eliminate words that are too strong, too weak, or that belong to a different register. The best answer is the one a careful native writer would use in that exact situation.
-
-
-## Rule 125: Collocations and Fixed Expressions
-
-**Topic:** Vocabulary
-
-**Sources:** PYQ
-
-
-A collocation is a pair or group of words that habitually go together in English, such as 'heavy rain', 'make a decision', or 'keen interest'. These combinations are settled by usage, not by grammar rules, so a technically correct synonym can still sound wrong ('strong rain' is unacceptable). In such questions, look at the fixed partner word in the sentence and choose the option that naturally pairs with it. Pay special attention to verb + noun, adjective + noun, and preposition-based combinations. Learning collocations in chunks rather than as single words is the most reliable preparation.
-
-
-## Rule 126: Commonly Confused and Similar-Sounding Words
-
-**Topic:** Vocabulary
-
-**Sources:** PYQ
-
-
-Many English words look or sound alike but differ in meaning, such as 'affect/effect', 'principal/principle', 'stationary/stationery' and 'complement/compliment'. Questions test whether you can pick the correct member of such a pair for the given sentence or spot the wrongly spelled one. Decide first what part of speech the sentence needs, since that often separates the pair immediately. Then match the exact meaning, because a small spelling change can shift the sense entirely. Keeping a personal list of confusing pairs with one clear example sentence each prevents repeated mistakes.
-
-
-## Rule 127: Jumbled Sentence Rearrangement
-
-**Topic:** Sentence Structure
-
-**Sources:** PYQ
-
-
-In these questions the parts of a sentence, or several sentences of a paragraph, are shuffled and you must restore the logical order. Start by finding the opening part, which usually introduces the subject and contains no linking word or pronoun referring backwards. Then use connectors, pronouns, articles, and time markers as links, because words like 'however', 'therefore', 'this', and 'they' must point to something already stated. Keep the subject-verb-object structure intact and make sure the finished sequence tells a smooth, complete idea. Finally, read your arrangement from start to finish to confirm it flows naturally before marking the answer.
-
-
-## Rule 128: Order of Time and Sequence Expressions
-
-**Topic:** Sentence Structure
-
-**Sources:** PYQ
-
-
-When a sentence contains more than one time expression or a series of events, English follows a preferred order and a clear chronological logic. Smaller units of time usually come before larger ones, as in 'at 6 o'clock on Monday in June', and the sequence of events must match the order in which they actually happened. Words like 'before', 'after', 'then', 'since', 'by the time' and 'as soon as' fix the relationship between the actions and must agree with the tenses used. Check that no expression contradicts another, such as a past marker with a future tense. Arranging the time details in this natural order makes the sentence both correct and easy to follow.
-
-
-## Rule 129: 'Many a' + Singular Noun + Singular Verb
-
-**Topic:** Subject-Verb Agreement
-
-**Sources:** PYQ
-
-
-The expression 'many a' is always followed by a singular noun and a singular verb, even though its meaning is plural. So we write 'Many a student has passed', not 'Many a students have passed'. Any pronoun referring back to it must also be singular, as in 'Many a man has done his duty'. Compare this with 'many students have passed', which uses the plural form throughout. Examiners often test this by pairing 'many a' with a plural verb.
-
-
-## Rule 130: No Future Tense in Time Clauses
-
-**Topic:** Tense
-
-**Sources:** PYQ
-
-
-Clauses introduced by time conjunctions such as when, till, until, before, after, as soon as, and by the time do not take 'will' or 'shall'. Instead, the simple present is used for a future action, as in 'I shall wait until he comes' (not 'until he will come'). If the main clause is in the past, the time clause takes the simple past or past perfect: 'She left before I arrived'. The future idea is already carried by the main clause, so repeating it in the time clause is an error. The same rule applies to 'if' clauses of condition.
-
-
-## Rule 131: Tense Backshift in Reported Speech
-
-**Topic:** Narration
-
-**Sources:** PYQ
-
-
-When the reporting verb is in the past tense, the verb of the reported speech usually moves one step back in time. Present simple becomes past simple, present continuous becomes past continuous, present perfect and past simple become past perfect, and 'will' becomes 'would'. For example, 'He said, "I am busy"' becomes 'He said that he was busy'. There is no backshift when the reporting verb is in the present tense or when the statement is a universal truth or habitual fact. Pronouns and time words like 'now' and 'today' also shift accordingly.
-
-
-## Rule 132: Reporting Commands, Requests and Advice
-
-**Topic:** Narration
-
-**Sources:** PYQ
-
-
-Imperative sentences in reported speech are converted using an infinitive, not a that-clause. The reporting verb changes according to the tone: 'ordered' or 'commanded' for orders, 'requested' for requests, 'advised' for advice, and 'forbade' or 'told not to' for negative commands. So 'He said to me, "Shut the door"' becomes 'He ordered me to shut the door'. For negatives, use 'not to': 'She advised him not to smoke'. Words like 'please' and 'kindly' disappear because the reporting verb already conveys politeness.
-
-
-## Rule 133: Adverbs Modifying Comparative Adjectives
-
-**Topic:** Adverbs
-
-**Sources:** PYQ
-
-
-Comparative adjectives take a special set of intensifiers: much, far, a lot, rather, still, even, and a little. We say 'much better' or 'far more useful', never 'very better' or 'very more useful'. 'Very' belongs with the plain adjective ('very good') and with superlatives when preceded by 'the' ('the very best'). Likewise, use 'by far' with superlatives, as in 'by far the best player'. Choosing the wrong intensifier before a comparative is a common error in SSC papers.
-
-
-## Rule 134: 'No Less Than' and 'Not Less Than' With Numbers
-
-**Topic:** Adjectives and Determiners
-
-**Sources:** PYQ
-
-
-Use 'no less than' before numbers and quantities to mean 'as many as', expressing surprise at a large amount: 'No less than fifty people attended'. 'Not less than' means 'at least' and states a minimum limit: 'You must score not less than forty marks'. With countable nouns, 'no fewer than' is the strictly correct form, though 'no less than' is standard before numerals. Do not write 'no lesser than'. Similar pairs to remember are 'no more than' (only) and 'not more than' (at most).
-
-
-## Rule 135: 'Assure' Requires a Personal Object
-
-**Topic:** Verbs and Usage
-
-**Sources:** PYQ
-
-
-'Assure' means to remove someone's doubt and must be followed by the person being reassured: 'He assured me of his support'. 'Ensure' means to make certain that something happens and takes a thing or a clause: 'Please ensure that the door is locked'. 'Insure' relates to insurance against loss. So 'He assured that he would come' is wrong; it should be 'He assured me that he would come' or 'He said that he would come'. Remember: you assure a person, you ensure a result.
-
-
-## Rule 136: Position of 'Whole' and 'All' With Articles
-
-**Topic:** Articles and Determiners
-
-**Sources:** PYQ
-
-
-'Whole' comes after the article, while 'all' comes before it: 'the whole day' but 'all the day'. With plural and uncountable nouns, prefer 'all': 'all the students', 'all the water'. With proper nouns and place names, 'the whole of' is used, as in 'the whole of India'. 'Whole' is not normally used with uncountable nouns, so avoid 'whole information'. The common test item is the wrong order 'whole the village' instead of 'the whole village'.
-
-
-## Rule 137: 'Seldom or Never' and Related Fixed Expressions
-
-**Topic:** Idiomatic Expressions
-
-**Sources:** PYQ
-
-
-Certain adverb pairs are fixed and cannot be altered: 'seldom or never' and 'seldom if ever' are correct, but 'seldom or ever' is wrong. Similarly, 'rarely or never' is acceptable while 'rarely or ever' is not. These expressions are already negative in meaning, so they never take another negative word. When such a negative adverb begins a sentence, the word order is inverted: 'Seldom does he complain'. Learn these combinations as whole units rather than reasoning them out word by word.
-
-
-## Rule 138: Position of Adverbs of Manner
-
-**Topic:** Adverbs
-
-**Sources:** PYQ
-
-
-Adverbs of manner normally come after the verb, or after the object if the verb has one: 'She sang the song beautifully', not 'She sang beautifully the song'. Never place an adverb between a verb and its direct object. When several adverbs occur together, the usual order is manner, then place, then time: 'He played well at the stadium yesterday'. Adverbs of frequency such as always and never, by contrast, come before the main verb but after 'be' and auxiliaries.
-
-
-## Rule 139: Objective Pronoun After Prepositions
-
-**Topic:** Pronouns
-
-**Sources:** PYQ
-
-
-A pronoun that follows a preposition must be in the objective case: me, us, him, her, them, whom. So we write 'between you and me', 'to him and me', and 'for us all', never 'between you and I'. The error usually appears when two pronouns are joined by 'and', which tempts writers to use the subject form. 'Whom' rather than 'who' is required after a preposition, as in 'the man to whom I spoke'. Test it by dropping the other noun: 'between me' sounds right, 'between I' does not.
-
-
-## Rule 140: Objective Case After 'Let'
-
-**Topic:** Pronouns
-
-**Sources:** PYQ
-
-
-'Let' is a transitive verb, so the pronoun after it takes the objective form: 'Let him go', 'Let us pray', 'Let you and me try'. Writing 'Let he go' or 'Let you and I decide' is incorrect. The same applies to 'make', 'see', 'hear' and 'watch' followed by a bare infinitive. The verb after 'let' has no 'to': 'Let her speak', not 'Let her to speak'. Compare 'Let's' (let us) with 'Lets' (third-person of let), which are often confused.
-
-
-## Rule 141: Pronoun Agreement With Collective Nouns
-
-**Topic:** Pronouns
-
-**Sources:** PYQ
-
-
-A collective noun takes a singular verb and the pronoun 'it' or 'its' when the group acts as one body: 'The committee has given its verdict'. When members are thought of as acting separately or in disagreement, plural verbs and 'they/their' are used: 'The jury were divided in their opinions'. What matters is consistency, so never mix the two, as in 'The team has won their match'. Nouns like police, cattle, people and gentry are always plural. Whichever number you choose must be maintained through both the verb and the pronoun.
-
-
-## Rule 142: 'Yesterday Morning' vs 'Last Morning'
-
-**Topic:** Time Expressions
-
-**Sources:** PYQ
-
-
-With parts of the day, English uses 'yesterday' rather than 'last': say 'yesterday morning', 'yesterday afternoon' and 'yesterday evening'. 'Last' is used with night and with longer periods: 'last night', 'last week', 'last Monday', 'last year'. Note that 'last night' is correct while 'yesterday night' is not. Similarly, use 'tomorrow morning' for the future, not 'next morning', unless you are narrating past events, where 'the next morning' is right. These are idiomatic combinations that must be memorised.
-
-
-## Rule 143: 'Lest' Takes No Extra Negative
+## Rule 100: Even If vs. Even Though
 
 **Topic:** Conjunctions
 
-**Sources:** PYQ
+**Sources:** Manisha Bansal
 
 
-'Lest' already carries a negative meaning ('for fear that... not'), so it must not be followed by 'not'. The correct pattern is 'lest + subject + should + bare infinitive': 'Walk carefully lest you should fall'. 'Should' may be omitted, giving 'lest you fall', but 'not' can never be added. So 'lest he should not fail' is wrong. Also remember that 'lest' is never paired with 'that' or with 'unless'.
+Use “even if” to introduce a hypothetical or uncertain condition that may not happen. Use “even though” to introduce a real or known fact that has happened or is happening. Thus, choose the conjunction according to whether the condition is imaginary or factual.
 
 
-## Rule 144: 'As if' / 'As though' + Past Subjunctive
+**Examples**
 
-**Topic:** Subjunctive Mood
-
-**Sources:** PYQ
-
-
-After 'as if' and 'as though', use the past subjunctive to express an unreal or imaginary comparison, and always use 'were' regardless of the subject: 'He talks as if he were the boss'. For an unreal situation in the past, use the past perfect: 'She behaved as if nothing had happened'. When the comparison is likely or real, the ordinary tense is acceptable: 'It looks as if it is going to rain'. The tested error is usually 'as if he was' where 'were' is required.
-
-
-## Rule 145: Subjunctive in That-Clauses After Verbs of Command and Wish
-
-**Topic:** Subjunctive Mood
-
-**Sources:** PYQ
+- ✗ Even though it rains tomorrow, we will go out.
+- ✓ Even if it rains tomorrow, we will go out.
+- ✗ Even if he was tired, he completed the work yesterday.
+- ✓ Even though he was tired, he completed the work yesterday.
+- ✗ She is smiling even if she is in pain.
+- ✓ She is smiling even though she is in pain.
 
 
-After verbs and nouns expressing a demand, suggestion, order, recommendation or necessity, the that-clause takes the bare infinitive form of the verb: 'I suggest that he go at once', 'It is essential that she be present'. This form does not change for person or number, so no '-s' is added and 'be' stays as 'be'. Verbs of this type include suggest, demand, insist, order, propose, recommend, request and desire. The negative is formed with 'not' before the verb: 'I insist that he not leave'. 'Should' may be inserted instead: 'I suggest that he should go'.
+## Rule 101: As If vs. As Though
+
+**Topic:** Conjunctions
+
+**Sources:** Manisha Bansal
 
 
-## Rule 146: Compound Subject Treated as a Single Unit
+“As if” and “as though” both mean “in a way that suggests” and are generally interchangeable. When they introduce an unreal or imaginary situation, use the past tense even if the situation refers to the present. Use “were” rather than “was” for all persons in formal English when expressing an unreal condition.
+
+
+**Examples**
+
+- ✗ He behaves as if he is the owner.
+- ✓ He behaves as if he were the owner.
+- ✗ She talks as though she knows everything.
+- ✓ She talks as though she knew everything.
+- ✗ They spend money as if they are millionaires.
+- ✓ They spend money as if they were millionaires.
+
+
+## Rule 102: So That vs. In Order That
+
+**Topic:** Conjunctions of Purpose
+
+**Sources:** Manisha Bansal
+
+
+Both “so that” and “in order that” introduce a clause showing the purpose for which an action is performed. They are followed by a subject and usually a modal verb such as can, may, could, might, or would. “So that” is more common in everyday English, whereas “in order that” is more formal. Use can or may for a present or future purpose and could or might for a past purpose.
+
+
+**Examples**
+
+- ✗ He studies hard so that pass the examination.
+- ✓ He studies hard so that he can pass the examination.
+- ✗ She spoke softly in order that she may not disturb the baby.
+- ✓ She spoke softly in order that she might not disturb the baby.
+- ✗ We left early so that we can catch the train.
+- ✓ We left early so that we could catch the train.
+
+
+## Rule 103: So vs. Such
+
+**Topic:** Word Usage
+
+**Sources:** Manisha Bansal
+
+
+Use “so” before an adjective or adverb when no noun follows, as in “so beautiful” or “so quickly.” Use “such” before a noun or a phrase containing an adjective and a noun, as in “such beauty” or “such kind people.” With a singular countable noun, follow the pattern “such + a/an + adjective + noun,” as in “such a beautiful place.”
+
+
+**Examples**
+
+- ✗ It was a so difficult question.
+- ✓ It was such a difficult question.
+- ✗ She is such intelligent.
+- ✓ She is so intelligent.
+- ✗ He drove such carefully.
+- ✓ He drove so carefully.
+- ✗ They are so helpful people.
+- ✓ They are such helpful people.
+
+
+## Rule 104: While vs. When
+
+**Topic:** Conjunctions
+
+**Sources:** Manisha Bansal
+
+
+Use “while” to introduce an action continuing over a period of time, especially when two actions are happening simultaneously. Use “when” to refer to a particular moment or a short, completed event. Therefore, choose the conjunction according to whether the clause describes an ongoing duration or a specific point in time.
+
+
+**Examples**
+
+- ✗ While the bell rang, the students left the classroom.
+- ✓ When the bell rang, the students left the classroom.
+- ✗ When she was cooking, I was setting the table.
+- ✓ While she was cooking, I was setting the table.
+- ✗ Call me while you arrive at the station.
+- ✓ Call me when you arrive at the station.
+
+
+## Rule 105: Because, Since, and As for Reason
+
+**Topic:** Conjunctions
+
+**Sources:** Manisha Bansal
+
+
+Because, since, and as can introduce a clause expressing cause or reason. Use because for a new, direct, or emphatic reason, especially when answering a “why” question. Use since or as when the reason is already known, obvious, or less important than the main statement. Do not use so with the main clause when it is already joined to a reason clause by because, since, or as.
+
+
+**Examples**
+
+- ✗ Why did Riya leave early? — Since she felt unwell.
+- ✓ Why did Riya leave early? — Because she felt unwell.
+- ✗ Since the roads were flooded, so the school remained closed.
+- ✓ Since the roads were flooded, the school remained closed.
+- ✗ As you already know the rules, because we need not explain them again.
+- ✓ As you already know the rules, we need not explain them again.
+
+
+## Rule 106: As vs. Like
+
+**Topic:** Conjunctions and Prepositions
+
+**Sources:** Manisha Bansal
+
+
+Use “as” to indicate the actual role, function, or capacity of a person or thing. “As” is also used before a clause containing a subject and a verb. Use “like” before a noun or pronoun to express similarity or comparison, not an actual role. In formal SSC English, do not use “like” as a conjunction before a complete clause.
+
+
+**Examples**
+
+- ✗ She works like a teacher in this school.
+- ✓ She works as a teacher in this school.
+- ✗ He talks as his father.
+- ✓ He talks like his father.
+- ✗ Like I told you, the examination was difficult.
+- ✓ As I told you, the examination was difficult.
+
+
+## Rule 107: Due To vs. Because Of
+
+**Topic:** Prepositions
+
+**Sources:** Manisha Bansal
+
+
+Both “due to” and “because of” express a reason, but they occupy different grammatical positions. Use “due to” after a form of “be” when it describes or modifies a noun. Use “because of” when the reason explains an action or verb. As a quick test, “due to” can usually be replaced by “caused by,” whereas “because of” can be replaced by “on account of.”
+
+
+**Examples**
+
+- ✗ He missed the flight due to heavy traffic.
+- ✓ He missed the flight because of heavy traffic.
+- ✗ The cancellation of the flight was because of dense fog.
+- ✓ The cancellation of the flight was due to dense fog.
+- ✗ The accident occurred due to the driver's negligence.
+- ✓ The accident occurred because of the driver's negligence.
+
+
+## Rule 108: All vs. Whole
+
+**Topic:** Determiners
+
+**Sources:** Manisha Bansal
+
+
+Use “all” with plural countable nouns or uncountable nouns to mean the complete number or amount. Use “whole” with a singular countable noun to mean “entire” or “complete.” The usual patterns are “all the/my + noun” and “the/my whole + singular noun.” Do not normally use “whole” directly with plural or uncountable nouns.
+
+
+**Examples**
+
+- ✗ Whole students attended the meeting.
+- ✓ All the students attended the meeting.
+- ✗ I read all the book.
+- ✓ I read the whole book.
+- ✗ She spent whole her life helping others.
+- ✓ She spent her whole life helping others.
+- ✗ He drank the whole water.
+- ✓ He drank all the water.
+
+
+## Rule 109: One of the Most + Superlative + Plural Noun
+
+**Topic:** Noun Number after ‘One of the Most’
+
+**Sources:** Manisha Bansal
+
+
+The expression ‘one of the most/best/worst’ must be followed by a plural countable noun. The noun is plural because it denotes a group from which one person or thing is selected. Although ‘one’ is singular, it does not make the following noun singular.
+
+
+**Examples**
+
+- ✗ She is one of the most talented singer in India.
+- ✓ She is one of the most talented singers in India.
+- ✗ This is one of the best book I have read.
+- ✓ This is one of the best books I have read.
+- ✗ Mumbai is one of the largest city in India.
+- ✓ Mumbai is one of the largest cities in India.
+
+
+## Rule 110: Relative Pronoun–Verb Agreement
 
 **Topic:** Subject-Verb Agreement
 
-**Sources:** PYQ
+**Sources:** Manisha Bansal
 
 
-When two nouns joined by 'and' refer to one person, thing or idea, the verb is singular: 'Bread and butter is my breakfast', 'The horse and carriage is ready'. The same applies to fixed pairs like 'time and tide', 'rice and curry' and 'slow and steady'. If the two nouns are genuinely separate items, the verb becomes plural: 'The Collector and the Magistrate are present' (two officials), versus 'The Collector and Magistrate is present' (one person). The repetition of the article is the clue to whether one or two entities are meant.
+When who, which, or that acts as the subject of a relative clause, its verb must agree with the antecedent—the noun or pronoun to which the relative pronoun refers. Use a singular verb for a singular antecedent and a plural verb for a plural antecedent. Do not let a nearby noun within the sentence affect this agreement.
 
 
-## Rule 147: Use a Pronoun Instead of 'The Same'
+**Examples**
+
+- ✗ She is one of the students who works hard.
+- ✓ She is one of the students who work hard.
+- ✗ This is the only one of the books that contain useful exercises.
+- ✓ This is the only one of the books that contains useful exercises.
+- ✗ The quality of the products that are sold here is excellent.
+- ✓ The quality of the products that are sold here is excellent.
+
+
+## Rule 111: So That / In Order That — Purpose Clauses
+
+**Topic:** Conjunctions
+
+**Sources:** Manisha Bansal
+
+
+“So that” and “in order that” introduce clauses explaining the purpose for which an action is performed. They must be followed by a subject and a suitable modal verb, such as can, could, may, might, or would, followed by the base form of the main verb. Use can or may commonly for present or future purpose and could or might commonly for past purpose. Do not place an infinitive directly after “so that” or “in order that.”
+
+
+**Examples**
+
+- ✗ She studies hard so that to pass the examination.
+- ✓ She studies hard so that she can pass the examination.
+- ✗ He left early in order that to catch the train.
+- ✓ He left early in order that he could catch the train.
+- ✗ Speak clearly so that everyone understands you.
+- ✓ Speak clearly so that everyone may understand you.
+
+
+## Rule 112: Lest — Negative Purpose
+
+**Topic:** Conjunctions
+
+**Sources:** Manisha Bansal
+
+
+Lest means “for fear that” or “to prevent the possibility that” and introduces a negative purpose. It is used when an action is taken to avoid an undesirable result. In SSC grammar, lest is followed by “should” and the base form of the verb. Do not add “not” after lest because lest itself conveys a negative meaning.
+
+
+**Examples**
+
+- ✗ Walk carefully lest you should not fall.
+- ✓ Walk carefully lest you should fall.
+- ✗ He worked hard lest he would fail.
+- ✓ He worked hard lest he should fail.
+- ✗ Take an umbrella lest you may get wet.
+- ✓ Take an umbrella lest you should get wet.
+
+
+## Rule 113: As If / As Though with Unreal Situations
+
+**Topic:** Conjunctions
+
+**Sources:** Manisha Bansal
+
+
+“As if” and “as though” are interchangeable when introducing an unreal or imaginary comparison. For a situation contrary to present fact, use the past tense after either expression, even though the meaning refers to the present. With the verb “be,” “were” is preferred for all subjects in formal English.
+
+
+**Examples**
+
+- ✗ He behaves as if he knows everything.
+- ✓ He behaves as if he knew everything.
+- ✗ She talks as though she is the manager.
+- ✓ She talks as though she were the manager.
+- ✗ They spend money as if they are millionaires.
+- ✓ They spend money as if they were millionaires.
+
+
+## Rule 114: Avoid Double Negatives
+
+**Topic:** Negation
+
+**Sources:** Manisha Bansal
+
+
+In standard English, avoid using two negative words in the same clause to express a single negative meaning. Words such as “not,” “never,” “no,” “nothing,” “nobody,” and “hardly” already carry a negative sense, so only one is needed. Replace the second negative with a non-negative word such as “anything,” “anybody,” or “ever.”
+
+
+**Examples**
+
+- ✗ I do not know nothing about it.
+- ✓ I do not know anything about it.
+- ✗ She never speaks to nobody.
+- ✓ She never speaks to anybody.
+- ✗ We could not find no evidence.
+- ✓ We could not find any evidence.
+
+
+## Rule 115: Past Perfect for Two Past Actions
+
+**Topic:** Tenses
+
+**Sources:** Manisha Bansal
+
+
+When two actions happened in the past, use the past perfect (had + past participle/V3) for the action completed first. Use the simple past for the action that happened later. This tense contrast makes the sequence of the two past actions clear.
+
+
+**Examples**
+
+- ✗ The train left before we reached the station.
+- ✓ The train had left before we reached the station.
+- ✗ After she finished her homework, she went to bed.
+- ✓ After she had finished her homework, she went to bed.
+- ✗ When the police arrived, the thief escaped.
+- ✓ When the police arrived, the thief had escaped.
+
+
+## Rule 116: Because Of vs. Due To
+
+**Topic:** Prepositions
+
+**Sources:** Manisha Bansal
+
+
+Both “because of” and “due to” introduce a reason, but they attach differently in formal grammar. “Due to” generally follows a form of “be” and modifies a noun, meaning “caused by.” “Because of” modifies a verb or action and directly explains why something happened. Although “due to” is more formal, it should not automatically replace “because of” in every sentence.
+
+
+**Examples**
+
+- ✗ He missed the examination due to illness.
+- ✓ He missed the examination because of illness.
+- ✗ His absence was because of illness.
+- ✓ His absence was due to illness.
+- ✗ The flight was cancelled due to heavy fog.
+- ✓ The flight was cancelled because of heavy fog.
+
+
+## Rule 117: Despite, Although, and However
+
+**Topic:** Conjunctions and Contrast
+
+**Sources:** Manisha Bansal
+
+
+Despite, although, and however all express contrast, but they follow different grammatical structures. Despite is a preposition and is followed by a noun, pronoun, or gerund, not a finite clause. Although is a conjunction that joins two contrasting clauses within the same sentence. However is a conjunctive adverb that usually introduces a separate sentence or follows a semicolon and is set off by a comma.
+
+
+**Examples**
+
+- ✗ Despite he was tired, he continued working.
+- ✓ Although he was tired, he continued working.
+- ✗ Although his illness, he attended the meeting.
+- ✓ Despite his illness, he attended the meeting.
+- ✗ It was raining, however we went outside.
+- ✓ It was raining; however, we went outside.
+
+
+## Rule 118: Emphatic Do, Does, and Did
+
+**Topic:** Auxiliaries and Emphasis
+
+**Sources:** Manisha Bansal
+
+
+Use do, does, or did before the main verb in an affirmative sentence to emphasize that an action is true or really happened. Use do with I, you, we, and plural subjects in the simple present; use does with third-person singular subjects in the simple present; and use did with all subjects in the simple past. The main verb must always remain in its base form after do, does, or did. In speech, the auxiliary is usually stressed.
+
+
+**Examples**
+
+- ✗ She does likes classical music.
+- ✓ She does like classical music.
+- ✗ I do understood your concern.
+- ✓ I do understand your concern.
+- ✗ They did completed the work on time.
+- ✓ They did complete the work on time.
+
+
+## Rule 119: By vs Until/Till for Time
+
+**Topic:** Prepositions
+
+**Sources:** Manisha Bansal
+
+
+Use “by” to show a deadline: an action must happen before or no later than the stated time. Use “until” or “till” when an action or situation continues up to a particular time. “Until” and “till” have the same meaning, though “till” is slightly less formal. Thus, use “by” for completion and “until/till” for continuation.
+
+
+**Examples**
+
+- ✗ Please submit the form until Friday.
+- ✓ Please submit the form by Friday.
+- ✗ She will stay here by 6 p.m.
+- ✓ She will stay here until 6 p.m.
+- ✗ Wait here by I return.
+- ✓ Wait here till I return.
+
+
+## Rule 120: Even, Even Though, and Even If
+
+**Topic:** Conjunctions
+
+**Sources:** Manisha Bansal
+
+
+Use “even” to add emphasis to something unexpected or extreme. Use “even though” to introduce a surprising contrast based on a real or known fact. Use “even if” to introduce an imagined, uncertain, or hypothetical condition. Do not use “even if” when the condition is already known to be true.
+
+
+**Examples**
+
+- ✗ Even though it rains tomorrow, we will play.
+- ✓ Even if it rains tomorrow, we will play.
+- ✗ Even if he was tired, he completed the work.
+- ✓ Even though he was tired, he completed the work.
+- ✗ Though Ravi solved the most difficult question.
+- ✓ Even Ravi solved the most difficult question.
+
+
+## Rule 121: Hope vs. Wish
+
+**Topic:** Confusable Words
+
+**Sources:** Manisha Bansal
+
+
+Use “hope” for a future situation that is real or reasonably possible. Use “wish” for an unreal, impossible, or unlikely situation, or to express regret about a past event. After “wish,” use the simple past for a present unreal situation and the past perfect for a past regret.
+
+
+**Examples**
+
+- ✗ I wish I will pass the examination.
+- ✓ I hope I will pass the examination.
+- ✗ I hope I were rich.
+- ✓ I wish I were rich.
+- ✗ She wishes she had attended the meeting tomorrow.
+- ✓ She hopes she can attend the meeting tomorrow.
+- ✗ He hopes he had studied harder.
+- ✓ He wishes he had studied harder.
+
+
+## Rule 122: Sometime, Sometimes, and Some Time
+
+**Topic:** Confusable Words
+
+**Sources:** Manisha Bansal
+
+
+Use “sometime” to refer to an unspecified point in time, usually in the future or past. Use “sometimes” to mean “occasionally” or “on certain occasions.” Use “some time” to refer to a period or duration of time.
+
+
+**Examples**
+
+- ✗ Let us meet sometimes next week.
+- ✓ Let us meet sometime next week.
+- ✗ I sometime visit my grandparents on Sundays.
+- ✓ I sometimes visit my grandparents on Sundays.
+- ✗ It will take sometime to finish this project.
+- ✓ It will take some time to finish this project.
+
+
+## Rule 123: Else, Other and Another
+
+**Topic:** Determiners
+
+**Sources:** Manisha Bansal
+
+
+Use “else” after indefinite pronouns or question words to mean a different or additional person or thing, as in “someone else” or “what else.” Use “other” before plural countable nouns or uncountable nouns to refer to different or additional people or things. Use “the other” for the specific remaining person or thing, while “another” means one more or a different one and is generally used before a singular countable noun.
+
+
+**Examples**
+
+- ✗ I need else book.
+- ✓ I need another book.
+- ✗ Do you have another questions?
+- ✓ Do you have other questions?
+- ✗ One student is here; another student is absent.
+- ✓ One student is here; the other student is absent.
+- ✗ Someone other can help you.
+- ✓ Someone else can help you.
+
+
+## Rule 124: Hardly, Barely, and Scarcely: Avoid Double Negatives
+
+**Topic:** Negative Adverbs
+
+**Sources:** Manisha Bansal
+
+
+Hardly, barely, and scarcely mean “almost not” or “only just” and already carry a negative sense. Therefore, they must not be used with another negative word such as not, no, or never in the same construction. Remove the additional negative to make the sentence grammatically correct and clear.
+
+
+**Examples**
+
+- ✗ I could not hardly hear her.
+- ✓ I could hardly hear her.
+- ✗ There was scarcely no food left.
+- ✓ There was scarcely any food left.
+- ✗ She never barely speaks in class.
+- ✓ She barely speaks in class.
+
+
+## Rule 125: Correct Use of Yet, Still, and Already
+
+**Topic:** Adverbs of Time
+
+**Sources:** Manisha Bansal
+
+
+Use “still” for an action or state that began earlier and continues in the present, usually placing it before the main verb but after “be.” Use “yet” mainly in questions and negative sentences for something expected to happen, generally placing it at the end of the sentence. Use “already” when something has happened earlier than expected, usually before the main verb or after “be.” Choosing among them depends on whether the situation is continuing, expected but incomplete, or completed sooner than expected.
+
+
+**Examples**
+
+- ✗ She yet lives with her parents.
+- ✓ She still lives with her parents.
+- ✗ Have you finished the report still?
+- ✓ Have you finished the report yet?
+- ✗ The train has yet arrived, so we can board now.
+- ✓ The train has already arrived, so we can board now.
+
+
+## Rule 126: At, On, and In as Prepositions of Time
+
+**Topic:** Prepositions
+
+**Sources:** Manisha Bansal
+
+
+Use “at” for exact times and specific points of time, such as “at 6 p.m.” or “at noon.” Use “on” before days and dates, such as “on Monday” or “on 10 September.” Use “in” for months, years, seasons, and longer periods, such as “in July,” “in 2026,” or “in winter.” Choosing the correct preposition depends on whether the time expression refers to a precise time, a day or date, or a broader period.
+
+
+**Examples**
+
+- ✗ The meeting begins in 9 a.m.
+- ✓ The meeting begins at 9 a.m.
+- ✗ She will visit us at Monday.
+- ✓ She will visit us on Monday.
+- ✗ India became independent on 1947.
+- ✓ India became independent in 1947.
+
+
+## Rule 127: In Case vs. If
+
+**Topic:** Conjunctions
+
+**Sources:** Manisha Bansal
+
+
+Use “in case” when describing a precaution taken because something might happen. Use “if” to introduce a condition on which another action or result depends. Thus, “in case” means being prepared for a possibility, whereas “if” means that one event happens only when the stated condition is fulfilled. Do not use “in case” as a substitute for “if” in a conditional sentence.
+
+
+**Examples**
+
+- ✗ I will take an umbrella if it rains later.
+- ✓ I will take an umbrella in case it rains later.
+- ✗ In case you finish the work, you may leave.
+- ✓ If you finish the work, you may leave.
+- ✗ Call the police in case you see the thief.
+- ✓ Call the police if you see the thief.
+
+
+## Rule 128: Emphatic Pronouns
 
 **Topic:** Pronouns
 
-**Sources:** PYQ
+**Sources:** Manisha Bansal
 
 
-In modern English, avoid the commercial-sounding phrase 'the same' when referring back to a noun; use 'it' or 'them' instead. So 'I received your letter and have replied to it' is preferred over 'replied to the same'. 'The same' is correct only in comparisons, as in 'She wore the same dress as her sister'. Similarly, avoid 'said' and 'aforesaid' as substitutes for ordinary pronouns. SSC error-spotting questions frequently mark 'the same' as the wrong part.
+Emphatic pronouns such as myself, yourself, himself, herself, ourselves and themselves are used to emphasize a noun or pronoun. They usually appear immediately after the subject, though they may also follow the emphasized phrase later in the sentence. Unlike reflexive pronouns, they do not receive the action of the verb and can be removed without changing the basic meaning. An emphatic pronoun must not be used alone as the subject.
 
 
-## Rule 148: Correct Use of Interjections
+**Examples**
 
-**Topic:** Interjections
-
-**Sources:** PYQ
-
-
-Interjections express sudden feeling and must match the emotion of the sentence. Use 'Alas!' for sorrow, 'Hurrah!' or 'Bravo!' for joy and praise, 'Ah!' for surprise or pity, 'Oh!' for surprise, 'Fie!' for disgust, and 'Hush!' for silence. They stand apart from the sentence structure and are followed by an exclamation mark or a comma: 'Alas! He is no more'. Do not use a joyful interjection with a sad statement, which is the usual trap in questions. Interjections have no grammatical link with the rest of the sentence.
-
-
-## Rule 149: Sentence Rearrangement (Para Jumbles)
-
-**Topic:** Sentence Rearrangement
-
-**Sources:** PYQ
+- ✗ Myself completed the assignment.
+- ✓ I myself completed the assignment.
+- ✗ Herself addressed the gathering.
+- ✓ The principal herself addressed the gathering.
+- ✗ The players itself arranged the event.
+- ✓ The players themselves arranged the event.
 
 
-In para jumbles, you must reorder scrambled sentences or parts into a coherent passage. Start by finding the opening sentence, which introduces a subject by its full name and contains no back-references. Then use links such as pronouns, articles ('a' before 'the'), connectors like however, therefore and moreover, and chronological or cause-effect order to chain the rest. Sentences containing 'it', 'this', 'they' or 'such' cannot come first because they depend on earlier information. Finally, read your sequence through to confirm it flows logically, and check the options for the most likely pairs.
+## Rule 129: When, While, and As as Time Conjunctions
+
+**Topic:** Conjunctions
+
+**Sources:** Manisha Bansal
 
 
-## Rule 150: 'Still' vs 'Yet'
-
-**Topic:** Adverbs
-
-**Sources:** PYQ
+Use “when” for a single, specific, or completed action occurring at a particular time. Use “while” to connect two actions that are continuing simultaneously, usually expressed in continuous tenses. Use “as” when two actions or changes occur together, especially when one naturally accompanies or causes the other.
 
 
-'Still' shows that a situation continues up to now and is used mainly in affirmative sentences, placed before the main verb: 'He is still waiting'. 'Yet' is used in negatives and questions to mean 'up to now' and comes at the end: 'He has not come yet', 'Have you finished yet?'. 'Still' in a negative sentence expresses surprise or impatience: 'He still hasn't replied'. 'Yet' can also work as a conjunction meaning 'nevertheless': 'He is poor, yet honest'. Do not write 'He has not come still'.
+**Examples**
 
-
-## Rule 151: Spelling Errors
-
-**Topic:** Spelling
-
-**Sources:** PYQ
-
-
-Spelling questions ask you to pick the correctly spelt word from similar-looking options. Watch for double letters (occurrence, accommodation, embarrass, committee), silent letters (foreign, government, February), and the ie/ei order (receive, believe, achieve). Remember the endings that shift meaning, such as -ance and -ence (independence, maintenance), and -able and -ible (comfortable, responsible). Also learn suffix rules: drop the final 'e' before a vowel suffix (come to coming) and double the last consonant in stressed short syllables (begin to beginning). Reading the whole word carefully, syllable by syllable, prevents most mistakes.
-
-
-## Rule 152: Appropriate Word Choice and Word Formation
-
-**Topic:** Diction and Vocabulary
-
-**Sources:** PYQ
-
-
-Many questions test whether the right word and the right form of that word have been used. Confusable pairs must be distinguished by meaning, such as affect and effect, principal and principle, advice and advise, and stationary and stationery. You must also choose the correct part of speech for the slot: a noun after an article, an adjective before a noun, and an adverb to modify a verb, as in 'He worked hard' versus 'He hardly worked'. Common formation errors include using an abstract noun where an adjective is needed, or wrong suffixes like 'economical' for 'economic'. Read the sentence's meaning first, then fit the word form the structure demands.
-
-
-## Rule 153: 'Alone' vs 'Lonely'
-
-**Topic:** Diction and Vocabulary
-
-**Sources:** PYQ
-
-
-'Alone' means by oneself, without company, and states a plain fact: 'She lives alone'. It can also mean 'only' when it follows a noun: 'You alone can do this'. 'Lonely' describes the sad feeling of being without companions, or a place that is deserted: 'He felt lonely after his friends left', 'a lonely road'. So 'alone' is about a situation while 'lonely' is about an emotion. Note also that 'alone' is used after the verb and cannot stand before a noun.
-
-
-## Rule 154: Errors in Phrasal Verb Usage
-
-**Topic:** Phrasal Verbs
-
-**Sources:** PYQ
-
-
-A phrasal verb's meaning depends entirely on its particle, so changing the preposition changes the sense: 'put off' means postpone, 'put up with' means tolerate, and 'put on' means wear. Errors occur when the wrong particle is chosen, or when an unnecessary one is added to a verb that needs none, as in 'discuss about' or 'order for'. With separable phrasal verbs, a pronoun object must go between the verb and the particle: 'switch it off', not 'switch off it'. Inseparable ones keep their parts together: 'look after him'. Since these combinations are idiomatic, they must be learnt as fixed units with their meanings.
-
-
-## Rule 155: Objective Case Pronoun After Verb
-
-**Topic:** Grammar
-
-**Sources:** PYQ
-
-
-Objective Case Pronoun After Verb
+- ✗ While I reached the station, the train departed.
+- ✓ When I reached the station, the train departed.
+- ✗ When I was preparing dinner, my sister was setting the table.
+- ✓ While I was preparing dinner, my sister was setting the table.
+- ✗ When the wind grew stronger, the waves rose higher.
+- ✓ As the wind grew stronger, the waves rose higher.
 
